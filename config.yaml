@@ -1,0 +1,87 @@
+baseurl: "https://tang-jay.github.io/"
+languageCode: "en-us"
+title: "Tan Jay | 唐 洁"
+theme: "hugo-ivy"
+publishDir: "docs"
+disqusShortname: "tanjay"
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+hasCJKLanguage: true
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+rssLimit: 10
+
+permalinks:
+  blog: "/:sections/:year/:month/:slug/"
+
+menu:
+  main:
+    - name: "主页"
+      url: "/"
+      weight: 1
+    - name: "简历"
+      url: "/resume/"
+      weight: 2
+    - name: "日志"
+      url: "/blog/"
+      weight: 3
+    - name: "标签"
+      url: "/tags/"
+      weight: 4
+
+params:
+  description: "Personal website of Tan Jay; 唐洁的个人网站"
+  footer: "&copy; Tan Jay 2022 ｜ tanjay@foxmail.com "
+  disqusURL: "https://yihui.org"
+  customJS:
+    - "fix-toc.js"
+    - "center-img.js"
+    - "right-quote.js"
+    - "no-highlight.js"
+    - "fix-footnote.js"
+    - "math-code.js"
+    - "hash-notes.js"
+    - "external-link.js"
+    - "alt-title.js"
+    - "header-link.js"
+  githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
+  twitterImage: "/images/logo.png"
+
+  # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion: "9.12.0"
+  highlightjsCDN: "//cdnjs.cloudflare.com/ajax/libs"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
+
+  logo:
+    en:
+      img: "/images/logo.png"
+      url: "/"
+      alt: "Tan Jay"
+      tag: ""
+    
+  author:
+    en: "Tan Jay"
+    cn: "唐 洁"
+
+  lang:
+    edit:
+      cn: "编辑"
+    license:
+      cn: "版权"
+    subscribe:
+      cn: "订阅"
+
+blackfriday:
+    extensionsmask: ["noIntraEmphasis"]
+    fractions: false
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      autoHeadingIDType: blackfriday
+  tableOfContents:
+    startLevel: 1

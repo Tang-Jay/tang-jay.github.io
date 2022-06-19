@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tang-jay.github.io/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/tags/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/tags/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/blog/2022/06/glimpse/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/blog/2022/06/yihui-vitae/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/tags/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/blog/</loc>
+    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/categories/</loc>
+  </url><url>
+    <loc>https://tang-jay.github.io/resume/</loc>
+  </url>
+</urlset>

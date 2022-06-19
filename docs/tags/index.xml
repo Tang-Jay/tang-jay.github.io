@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tan Jay | 唐 洁</title>
+    <link>https://tang-jay.github.io/tags/</link>
+    <description>Recent content in Tags on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tang-jay.github.io/tags/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>人物志</title>
+      <link>https://tang-jay.github.io/tags/%E4%BA%BA%E7%89%A9%E5%BF%97/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tang-jay.github.io/tags/%E4%BA%BA%E7%89%A9%E5%BF%97/</guid>
+      <description>
+        <![CDATA[
+        
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>生活志</title>
+      <link>https://tang-jay.github.io/tags/%E7%94%9F%E6%B4%BB%E5%BF%97/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tang-jay.github.io/tags/%E7%94%9F%E6%B4%BB%E5%BF%97/</guid>
+      <description>
+        <![CDATA[
+        
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

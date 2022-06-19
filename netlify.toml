@@ -1,0 +1,8 @@
+[build]
+  command = "./build.sh"
+  publish = "docs"
+[build.environment]
+  HUGO_VERSION = "0.25.1"
+
+[context.production.environment]
+  HUGO_ENV = "production"

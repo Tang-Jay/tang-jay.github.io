@@ -31,7 +31,7 @@ menu:
 params:
   description: "Personal website of Tan Jay; 唐洁的个人网站"
   footer: "&copy; Tan Jay 2022 ｜ tanjay@foxmail.com "
-  disqusURL: "https://yihui.org"
+  disqusURL: "https://tang-jay.github.io/"
   customJS:
     - "fix-toc.js"
     - "center-img.js"
@@ -43,7 +43,6 @@ params:
     - "external-link.js"
     - "alt-title.js"
     - "header-link.js"
-  githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
   twitterImage: "/images/logo.png"
 
   # options for highlight.js (version, additional languages, and theme)

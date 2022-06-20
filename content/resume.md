@@ -36,7 +36,7 @@ disable_comments: true
 
    - 掌握 [git](https://git-scm.com) 基本命令
  
-   - 掌握 [Hugo](https://www.gohugo.cn) 搭建网络
+   - 掌握 [Hugo](https://www.gohugo.cn) 搭建网站
 
 
 ### 2017-09～2020-06  灵官镇大同市中学  乡村特岗教师（工作）

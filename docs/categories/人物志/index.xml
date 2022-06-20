@@ -1,108 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>人物志 on Tan Jay | 唐 洁</title>
+    <link>https://tang-jay.github.io/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</link>
+    <description>Recent content in 人物志 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tang-jay.github.io/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/" rel="self" type="application/rss+xml" />
     
-    <title>架构作者 - Tan Jay | 唐 洁</title>
-    <meta property="og:title" content="架构作者 - Tan Jay | 唐 洁">
     
-    <meta name="twitter:card" content="summary">
-
-    
+    <item>
+      <title>架构作者</title>
+      <link>https://tang-jay.github.io/blog/2022/06/yihui-vitae/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
       
-    
-
-    
-      
-      <meta property="description" content="Email：xie@yihui.org；主页：https://yihui.org；现居住于美国内布拉斯加州麋鹿角郊区
-[&amp;hellip;] 数据可视化，统计图形，交互式图形；统计计算；动态报告，可重复性研究
-[&amp;hellip;] 2003 年 9 月至今
-[&amp;hellip;] 2005 年 2 月至今曾主办过以下会议：
-[&amp;hellip;] 协助组织过如下会议：
-[&amp;hellip;] 经常在“统计 &amp;hellip;">
-      <meta property="og:description" content="Email：xie@yihui.org；主页：https://yihui.org；现居住于美国内布拉斯加州麋鹿角郊区
-[&amp;hellip;] 数据可视化，统计图形，交互式图形；统计计算；动态报告，可重复性研究
-[&amp;hellip;] 2003 年 9 月至今
-[&amp;hellip;] 2005 年 2 月至今曾主办过以下会议：
-[&amp;hellip;] 协助组织过如下会议：
-[&amp;hellip;] 经常在“统计 &amp;hellip;">
-      
-    
-
-    
-    
-    
-    <meta name="twitter:image" content="https://tang-jay.github.io/images/logo.png">
-    
-    
-
-    
-
-    
-    
-
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    
-
-
-
-
-
-
-<link rel="stylesheet" href="/css/custom.css" />
-
-  </head>
-
-  
-  <body class="blog">
-    <header class="masthead">
-      
-
-<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
-
-
-
-      <nav class="menu">
-  <ul>
-  
-  
-  <li><a href="/">主页</a></li>
-  
-  <li><a href="/resume/">简历</a></li>
-  
-  <li><a href="/blog/">日志</a></li>
-  
-  <li><a href="/categories/">目录</a></li>
-  
-  <li><a href="/tags/">标签</a></li>
-  
-  
-  </ul>
-</nav>
-
-    </header>
-
-    <article class="main">
-      <header class="title">
-      
-<h1>架构作者</h1>
-
-
-<h3>
-2022-06-17</h3>
-
-<hr>
-
-
-      </header>
-
-
-
-
-
-<h1 id="谢益辉">谢益辉</h1>
+      <guid>https://tang-jay.github.io/blog/2022/06/yihui-vitae/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="谢益辉">谢益辉</h1>
 <h2 id="联系方式">联系方式</h2>
 <p>Email：xie@yihui.org；主页：<a href="https://yihui.org">https://yihui.org</a>；现居住于美国内布拉斯加州麋鹿角郊区</p>
 <h2 id="研究兴趣">研究兴趣</h2>
@@ -447,57 +362,11 @@
 <li><a href="/tinytex/">TinyTeX</a>，精简版的 TeX Live</li>
 </ul>
 
-
-
-  <footer>
-  
-<nav class="post-nav">
-  <span class="nav-prev"></span>
-  <span class="nav-next"><a href="/blog/2022/06/glimpse/">初遇本站架构</a> &rarr;</span>
-</nav>
-<script type="text/javascript">
-document.addEventListener('keyup', function(e) {
-  if (e.target.nodeName.toUpperCase() != 'BODY') return;
-  var url = false;
-  if (e.which == 37) {  
+        
+        ]]>
+      </description>
+    </item>
     
-  } else if (e.which == 39) {  
     
-    url = '\/blog\/2022\/06\/glimpse\/';
-    
-  }
-  if (url) window.location = url;
-});
-</script>
-
-
-
-
-
-
-
-<script async src="https://cdn.jsdelivr.net/combine/npm/@xiee/utils/js/fix-toc.min.js,npm/@xiee/utils/js/center-img.min.js,npm/@xiee/utils/js/right-quote.min.js,npm/@xiee/utils/js/no-highlight.min.js,npm/@xiee/utils/js/fix-footnote.min.js,npm/@xiee/utils/js/math-code.min.js,npm/@xiee/utils/js/hash-notes.min.js,npm/@xiee/utils/js/external-link.min.js,npm/@xiee/utils/js/alt-title.min.js,npm/@xiee/utils/js/header-link.min.js"></script>
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/toggle-notes.min.js" defer></script>
-
-
-
-
-  
-
-  
-  <hr>
-  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
-  
-  </footer>
-  </article>
-  
-  </body>
-</html>
-
+  </channel>
+</rss>

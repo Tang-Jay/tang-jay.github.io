@@ -1,8 +1,10 @@
 ---
-title: "架构主人"
+title: "架构作者"
 date: '2022-06-17'
-tags:
+categories:
   - 人物志
+tags:
+  - 谢益辉
 slug: "yihui-vitae"
 disable_comments: true
 ---

@@ -24,6 +24,9 @@ menu:
     - name: "日志"
       url: "/blog/"
       weight: 3
+    - name: "目录"
+      url: "/categories/"
+      weight: 3
     - name: "标签"
       url: "/tags/"
       weight: 4

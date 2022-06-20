@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>本站架构 on Tan Jay | 唐 洁</title>
+    <link>https://tang-jay.github.io/tags/%E6%9C%AC%E7%AB%99%E6%9E%B6%E6%9E%84/</link>
+    <description>Recent content in 本站架构 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tang-jay.github.io/tags/%E6%9C%AC%E7%AB%99%E6%9E%B6%E6%9E%84/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>初遇本站架构</title>
+      <link>https://tang-jay.github.io/blog/2022/06/glimpse/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tang-jay.github.io/blog/2022/06/glimpse/</guid>
+      <description>
+        <![CDATA[
+        <p>我无意浏览到该网页&ndash;<a href="https://yihui.org">谢益辉</a>&ndash;简洁干净的画面，井然有序的资料&hellip; 嘣！听弹壳落地的声音，我的心被狙中了💘，心猿意马形容我的心情都不为过，于是，我鼓励勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
+<blockquote>
+<p>第一天 学习 <a href="https://www.gohugo.cn">Hugo</a></p>
+</blockquote>
+<blockquote>
+<p>第二天 学习 <a href="https://download.csdn.net/learn/5894/110685?spm=1003.2001.3001.4140">Git 及 Github</a></p>
+</blockquote>
+<blockquote>
+<p>第三天 本地修改编辑网页</p>
+</blockquote>
+<blockquote>
+<p>第四天 部署到 github 即可看到发布的网页</p>
+</blockquote>
+<blockquote>
+<p>第五天 整理整个过程，写在<a href="https://blog.csdn.net/JTang1995/article/details/125365545?spm=1001.2014.3001.5501">这里</a></p>
+</blockquote>
+<p>大牛写的代码果然不骗人，很真诚，来龙去脉说得很清楚。他写道，他<a href="https://yihui.org/cn/about/">不喜欢</a>别人称呼他老师或是博士或是大牛，我看了看因冲动而发的邮件，写的称呼是“谢同学”，还好还好，没有踩雷。他亦写道，他<a href="https://yihui.org/cn/about/">反对</a>抄袭和不用脑子的复制粘贴，可是我太喜欢他的网站架构了，丝毫不想改动，哈哈，任大佬鄙视去吧。我抄袭我快乐，碰到这么棒的主题太开心了，我还要安利给别人来抄袭，哈哈。</p>
+<p>谢同学，这些年陆陆续续写的东西有很多，涵盖生活、工作、思考很多方面，我都觉得无比真实又真诚，我还翻了翻他的毕业论文，怎么这么精巧呀，我都觉得是艺术品，这些资料对我很有启发，可能自己也是统计学专业的吧，同时我对代码天然很有兴趣，所以谢同学出的书“现代统计图形”，毫不犹豫下单了。内容如此杂多，归置如此有序，附上<a href="/blog/2022/06/yihui-vitae/">贵人简历</a>，强推给有缘人。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

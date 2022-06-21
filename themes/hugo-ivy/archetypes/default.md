@@ -1,9 +1,10 @@
 ---
 title: ''
-date: ''
+date: '2022-06-21'
 categories:
   - 
-slug: 
+tags:
   -
+slug: 
 disable_comments: true
 ---

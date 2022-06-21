@@ -32,9 +32,7 @@ disable_comments: true
 	= satisfy
 	
 	en vogue流行
-	= in vogue 
-	discernible 可察觉的，明显的
-	= observable
+	= in vogue
 	
 	get hitched 结婚
 	= to get married
@@ -50,6 +48,9 @@ disable_comments: true
 
 	novice 新手，初学者
 	= rookien
+
+	discernible 可察觉的，明显的
+	= observable
 
 	entice v. 引诱
 	entice/invite/persuade/convince sb. to do sth.

@@ -2,9 +2,9 @@
 title: '情绪词语'
 date: '2020-05-14'
 categories:
-  - 英语志
+  - 学习志
 tags:
-  - 单词
+  - 英语
 slug: emotional-words
 disable_comments: true
 ---

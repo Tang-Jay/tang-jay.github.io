@@ -2,9 +2,9 @@
 title: '易混单词'
 date: '2020-04-19'
 categories:
-  - 英语志
+  - 学习志
 tags:
-  - 单词
+  - 英语
 slug: confusing-word
 disable_comments: true
 ---

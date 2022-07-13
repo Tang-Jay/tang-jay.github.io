@@ -2,9 +2,9 @@
 title: '同义替换'
 date: '2020-05-28'
 categories:
-  - 英语志
+  - 学习志
 tags:
-  - 单词
+  - 英语
 slug: synonymous-substitution
 disable_comments: true
 ---

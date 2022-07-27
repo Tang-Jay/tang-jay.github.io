@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tang-jay.github.io/categories/</loc>
+    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/tags/</loc>
+    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
+    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/tags/%E8%8B%B1%E8%AF%AD/</loc>
+    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/blog/2022/07/paper_skill/</loc>
+    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/blog/2022/07/tutor/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/tags/%E7%A7%A6%E5%AF%BC/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tang-jay.github.io/blog/2022/07/todolist/</loc>
     <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/categories/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/tags/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tang-jay.github.io/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/tags/%E7%A7%A6%E5%AF%BC/</loc>
     <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tang-jay.github.io/blog/2022/07/tutor/</loc>
@@ -34,6 +46,12 @@
   </url><url>
     <loc>https://tang-jay.github.io/tags/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/blog/2022/07/vacation/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tang-jay.github.io/tags/%E7%A5%81%E4%B8%9C/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tang-jay.github.io/blog/2022/06/tutor2/</loc>
     <lastmod>2022-06-28T00:00:00+00:00</lastmod>
@@ -72,12 +90,6 @@
     <lastmod>2021-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tang-jay.github.io/blog/2020/05/synonymous-substitution/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/tags/%E8%8B%B1%E8%AF%AD/</loc>
     <lastmod>2020-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tang-jay.github.io/blog/2020/05/emotional-words/</loc>

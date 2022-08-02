@@ -1,4 +1,4 @@
-baseurl: "https://tang-jay.github.io/"
+bbaseurl: "https://tang-jay.github.io/"
 languageCode: "en-us"
 title: "Tan Jay | 唐 洁"
 theme: "hugo-ivy"
@@ -11,7 +11,7 @@ footnotereturnlinkcontents: "↩"
 rssLimit: 10
 
 permalinks:
-  blog: "/:sections/:year/:month/:slug/"
+  blog: "/:sections/:year/:month/:day/:slug/"
 
 menu:
   main:
@@ -22,7 +22,7 @@ menu:
       url: "/resume/"
       weight: 2
     - name: "日志"
-      url: "/blog/"
+      url: "/cn/"
       weight: 3
     - name: "目录"
       url: "/categories/"

@@ -1,20 +1,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活志 on Tan Jay | 唐 洁</title>
-    <link>https://tang-jay.github.io/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</link>
+    <link>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</link>
     <description>Recent content in 生活志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tang-jay.github.io/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>又挖宝了</title>
+      <link>/cn/yihui/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/yihui/</guid>
+      <description>
+        <![CDATA[
+        <p>今日特别想做些喜欢的事情<br>
+转移一下注意力<br>
+显然 我对<a href="https://yihui.org/cn/">yihui</a>是很有兴趣的<br>
+也很惊喜 他更新了<br>
+毕竟人家一年一更</p>
+<p>我挑着感兴趣的标题<br>
+随意浏览了早些年份的博客<br>
+其中有一些印象比较深刻，比如：</p>
+<ul>
+<li>2017/03/26 <a href="https://yihui.org/cn/2017/03/domain-name/#fn:-2">《域名起名服务》</a></li>
+<li>2018/03/05  <a href="https://yihui.org/cn/2018/03/ikigai/">《活着的意义》</a></li>
+<li>2018/12/20  <a href="https://yihui.org/cn/2019/04/sapiens-notes/">《〈从动物到上帝〉笔记》</a></li>
+</ul>
+<p>除了文字本身内容 我还可以学习到<br>
+如何添加脚注、图片、<br>
+以及一份好的读书笔记的样子</p>
+<p>更令我兴奋的是<br>
+看到<a href="https://wxhyihuan.github.io/">Wang</a>利用yihui开发的<a href="https://bookdown.org/yihui/bookdown/"><strong>bookdown</strong></a>工具<br>
+写了份类似出版书籍的<a href="https://bookdown.org/wxhyihuan/Notebook-of-medical-statistics-1605856202966/">医学统计学的学习笔记</a><br>
+这可太酷了</p>
+<p>真想知道 他们学习开源 起点是哪里呀<br>
+坐观垂钓者 徒有羡鱼情哇</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
       <title>影视书清单</title>
-      <link>https://tang-jay.github.io/blog/2022/07/todolist/</link>
+      <link>/cn/todolist/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2022/07/todolist/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/todolist/</guid>
       <description>
         <![CDATA[
         <h2 id="电影">电影</h2>
@@ -140,10 +178,10 @@
     
     <item>
       <title>暑假开启</title>
-      <link>https://tang-jay.github.io/blog/2022/07/vacation/</link>
+      <link>/cn/vacation/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2022/07/vacation/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/vacation/</guid>
       <description>
         <![CDATA[
         <p>宿舍四人，二位离校了。我以为我会很淡定，我会坚持到学校赶人，没想到我… …</p>
@@ -161,10 +199,10 @@
     
     <item>
       <title>初遇本站架构</title>
-      <link>https://tang-jay.github.io/blog/2022/06/glimpse/</link>
+      <link>/cn/glimpse/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2022/06/glimpse/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/glimpse/</guid>
       <description>
         <![CDATA[
         <p>我无意浏览到该网页&ndash;<a href="https://yihui.org">谢益辉</a>&ndash;简洁干净的画面，井然有序的资料&hellip; 嘣！听弹壳落地的声音，我的心被狙中了💘，心猿意马形容我的心情都不为过，于是，我鼓励勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
@@ -176,7 +214,7 @@
 <li>第五天 整理整个过程，写在<a href="https://blog.csdn.net/JTang1995/article/details/125365545?spm=1001.2014.3001.5501">这里</a></li>
 </ul>
 <p>大牛写的代码果然不骗人，很真诚，来龙去脉说得很清楚。他写道，他<a href="https://yihui.org/cn/about/">不喜欢</a>别人称呼他老师或是博士或是大牛，我看了看因冲动而发的邮件，写的称呼是“谢同学”，还好还好，没有踩雷。他亦写道，他<a href="https://yihui.org/cn/about/">反对</a>抄袭和不用脑子的复制粘贴，可是我太喜欢他的网站架构了，丝毫不想改动，哈哈，任大佬鄙视去吧。我抄袭我快乐，碰到这么棒的主题太开心了，我还要安利给别人来抄袭，哈哈。</p>
-<p>谢同学，这些年陆陆续续写的东西有很多，涵盖生活、工作、思考很多方面，我都觉得无比真实又真诚，我还翻了翻他的毕业论文，怎么这么精巧呀，我都觉得是艺术品，这些资料对我很有启发，可能自己也是统计学专业的吧，同时我对代码天然很有兴趣，所以谢同学出的书<a href="https://cosx.org/2021/08/msg-preface/#fnref:10">《现代统计图形》</a>，毫不犹豫下单了，做了冲虚道长。内容如此杂多，归置如此有序，附上<a href="/blog/2022/06/yihui-vitae/">贵人简历</a>，强推给有缘人。</p>
+<p>谢同学，这些年陆陆续续写的东西有很多，涵盖生活、工作、思考很多方面，我都觉得无比真实又真诚，我还翻了翻他的毕业论文，怎么这么精巧呀，我都觉得是艺术品，这些资料对我很有启发，可能自己也是统计学专业的吧，同时我对代码天然很有兴趣，所以谢同学出的书<a href="https://cosx.org/2021/08/msg-preface/#fnref:10">《现代统计图形》</a>，毫不犹豫下单了，做了冲虚道长。内容如此杂多，归置如此有序，附上<a href="https://yihui.org/cn/vitae/">贵人简历</a>，强推给有缘人。</p>
 
         
         ]]>

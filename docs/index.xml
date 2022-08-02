@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Tan Jay | 唐 洁</title>
-    <link>https://tang-jay.github.io/</link>
+    <link>/</link>
     <description>Recent content in Homepage on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tang-jay.github.io/" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>日志</title>
-      <link>https://tang-jay.github.io/blog/</link>
+      <link>/cn/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/</guid>
       <description>
         <![CDATA[
         
@@ -27,10 +27,10 @@
     
     <item>
       <title>简历</title>
-      <link>https://tang-jay.github.io/resume/</link>
+      <link>/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tang-jay.github.io/resume/</guid>
+      <guid>/resume/</guid>
       <description>
         <![CDATA[
         <h1 id="唐-洁">唐 洁</h1>

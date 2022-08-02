@@ -1,0 +1,1425 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日志 on Tan Jay | 唐 洁</title>
+    <link>/cn/</link>
+    <description>Recent content in 日志 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/cn/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>又挖宝了</title>
+      <link>/cn/yihui/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/yihui/</guid>
+      <description>
+        <![CDATA[
+        <p>今日特别想做些喜欢的事情<br>
+转移一下注意力<br>
+显然 我对<a href="https://yihui.org/cn/">yihui</a>是很有兴趣的<br>
+也很惊喜 他更新了<br>
+毕竟人家一年一更</p>
+<p>我挑着感兴趣的标题<br>
+随意浏览了早些年份的博客<br>
+其中有一些印象比较深刻，比如：</p>
+<ul>
+<li>2017/03/26 <a href="https://yihui.org/cn/2017/03/domain-name/#fn:-2">《域名起名服务》</a></li>
+<li>2018/03/05  <a href="https://yihui.org/cn/2018/03/ikigai/">《活着的意义》</a></li>
+<li>2018/12/20  <a href="https://yihui.org/cn/2019/04/sapiens-notes/">《〈从动物到上帝〉笔记》</a></li>
+</ul>
+<p>除了文字本身内容 我还可以学习到<br>
+如何添加脚注、图片、<br>
+以及一份好的读书笔记的样子</p>
+<p>更令我兴奋的是<br>
+看到<a href="https://wxhyihuan.github.io/">Wang</a>利用yihui开发的<a href="https://bookdown.org/yihui/bookdown/"><strong>bookdown</strong></a>工具<br>
+写了份类似出版书籍的<a href="https://bookdown.org/wxhyihuan/Notebook-of-medical-statistics-1605856202966/">医学统计学的学习笔记</a><br>
+这可太酷了</p>
+<p>真想知道 他们学习开源 起点是哪里呀<br>
+坐观垂钓者 徒有羡鱼情哇</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>SDPD</title>
+      <link>/cn/sdpd/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/sdpd/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="empirical-likelihood-for-spatial-dynamic-panel-data-models-with-spatial-errors-and-endogenous-initial-observations">Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations</h2>
+<ol>
+<li>
+<p>Anselin, L. (1988). <em>patial Econometrics: Methods and Models</em>. Amsterdam: Kluwer Academic Publishers.</p>
+</li>
+<li>
+<p>Anselin, L. (2001). Spatial econometrics. <a href="http://www.onacademic.com/detail/journal_1000039480956210_65cc.html">In: Baltagi, B. H. (Ed.), <em>A Companion to Theoretical Econometrics</em>. Blackwell Publishers Ltd., Massachusetts, 310-330.</a></p>
+</li>
+<li>
+<p>Anselin, L., Le Gallo, J., &amp; Jayet, H. (2008). Spatial panel econometrics. <a href="http://library.oum.edu.my/oumlib/content/catalog/691963">In: Mátyás, L., Sevestre, P. (Eds.), <em>The Econometrics of Panel Data: Fundamentals and Recent Developments in Theory and Practice</em>. SpringerVerlag, Berlin Heidelberg, 625-660.</a></p>
+</li>
+<li>
+<p>Baltagi, B.H., Song, S.H., &amp; Koh, W. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150.</p>
+</li>
+<li>
+<p>Baltagi, B.H., Egger, P., &amp; Pfaffermayr, M. (2013). A generalized spatial panel data model with random effects. <em>Econometric Reviews, 32</em>, 650-685.</p>
+</li>
+<li>
+<p>Bandyopadhyay, S., Lahiri, N., &amp; Nordman, D. J. (2015). A frequency domain empirical likelihood method for irregularly spaced spatial data. <em>Annals of Statistics, 43</em>, 519-545.</p>
+</li>
+<li>
+<p>Bhargava, A., &amp; Sargan, J.D. (1983). Estimating dynamic random effects models from panel data covering short time periods. <em>Econometrica, 51</em>, 1635-1659.</p>
+</li>
+<li>
+<p>Chen, S. X., &amp; Keilegom, I. V. (2009). A review on empirical likelihood methods for regression. <em>Test, 18</em>, 415-447.</p>
+</li>
+<li>
+<p>Chen, J., &amp; Qin, J. (1993). Empirical likelihood estimation for finite populations and the effective usage of auxiliary information. <em>Biometrika, 80</em>, 107-116.</p>
+</li>
+<li>
+<p>Cliff, A. D., &amp; Ord, J. K. (1973). <em>Spatial autocorrelation</em>. London: Pion Ltd.</p>
+</li>
+<li>
+<p>Cressien, N. (1993). <em>Statistics for spatial data</em>. New York: Wiley.</p>
+</li>
+<li>
+<p>Elhorst, J.P. (2003). Specification and estimation of spatial panel data models. <em>International Regional Science Review , 26</em>, 244-268.</p>
+</li>
+<li>
+<p>Elhorst, J.P. (2012). Dynamic spatial panels: models, methods, and inferences. <em>Journal of geographical systems, 14</em>, 5-28.</p>
+</li>
+<li>
+<p>Hsiao, C. (2003). <em>Analysis of Panel Data, second ed.</em>. Cambridge University Press, Cambridge.</p>
+</li>
+<li>
+<p>Hsiao, C., Pesaran, M.H., &amp; Tahmiscioglu, A.K. (2002). Maximum likelihood estimation
+of fixed effects dynamic panel data models covering short time periods. <em>Econometrics, 109</em>, 107-150.</p>
+</li>
+<li>
+<p>Jin, F., Lee, &amp; L. F. (2019). GEL estimation and tests of spatial autoregressive models. <em>Journal of Econometrics, 208</em>, 585-612.</p>
+</li>
+<li>
+<p>Kelejian, H. H., &amp; Prucha, L. R. (1998). A generalized spatial two-stage least squares procedure for estimating a spatial autoregressive model with autoregressive disturbances. <em>The Journal of Real Estate Finance and Economics, 17</em>, 99-121.</p>
+</li>
+<li>
+<p>Kelejian, H. H., &amp; Prucha, L. R. (1999). A generalized moments estimator for the autoregressive parameter in a spatial model. <em>International Economic Review, 40</em>, 509-533.</p>
+</li>
+<li>
+<p>Kelejian, H.H., &amp; Prucha, I.R. (2001). On the asymptotic distribution of the Moran I test statistic with applications. <em>Econometrics, 104</em>, 219-257.</p>
+</li>
+<li>
+<p>Kelejian, H. H., Prucha, I. R., &amp; Yuzefovich, Y. (2004). Instrumental variable estimation of a spatial autoregressive model with autoregressive disturbances: large and small sample results. <em>Spatial and Spatiotemporal Econometrics, 18</em>, 163-198.</p>
+</li>
+<li>
+<p>Kelejian, H. H., &amp; Prucha, I. R. (2006). HAC estimation in a spatial framework. <em>Journal of Econometrics, 140</em>, 131-154.</p>
+</li>
+<li>
+<p>Kolaczyk, E. D. (1994). Emprical likelihood for generalized linear models. <em>Statistica Sinica, 4</em>, 199-218.</p>
+</li>
+<li>
+<p>Lee, L.F., &amp; Yu, J. (2010). A spatial dynamic panel data model with both time and individual fixed effects. <em>Econometric Theory, 26</em>, 564-597.</p>
+</li>
+<li>
+<p>Lee, L.F., &amp; Yu, J. (2016). Identification of Spatial Durbin Panel Models. <em>Applied Economics, 31</em>, 133-162.</p>
+</li>
+<li>
+<p>Li, Y. H., Li, Y., &amp; Qin, Y. S. (2020). Empirical likelihood for panel data models with spatial errors. <em>Communications in Statistics-Theory and Methods, 51</em>, 2838-2857.</p>
+</li>
+<li>
+<p>Liu, X., Lee, L. F., &amp; Bollinger, C. R. (2010). An efficient GMM estimator of spatial autoregressive models. <em>Journal of Econometrics, 159</em>, 303-319.</p>
+</li>
+<li>
+<p>Nordman, D. J. (2008). An empirical likelihood method for spatial regression. <em>Metrika, 68</em>, 351-363.</p>
+</li>
+<li>
+<p>Owen, A. B. (1988).  Empirical likelihood ratio confidence intervals for a single functional. <em>Biometrika, 75</em>, 237-249.</p>
+</li>
+<li>
+<p>Owen, A. B. (1990). Empirical likelihood ratio confidence regions. <em>Annals of Statistics, 18</em>, 90-120.</p>
+</li>
+<li>
+<p>Owen, A. B. (1991). Empirical likelihood for linear models. <em>Annals of Statistics, 19</em>, 1725-1747.</p>
+</li>
+<li>
+<p>Owen, A. B. (2001). <em>Empirical Likelihood</em>. New York: Chapman &amp; Hall.</p>
+</li>
+<li>
+<p>Parent, O., &amp; LeSage, J.P. (2011). A space-time filter for panel data models containing random effects. <em>Computational Statistics &amp; Data Analysis, 55</em>, 475-490.</p>
+</li>
+<li>
+<p>Parent, O., &amp; LeSage, J.P. (2012). Spatial dynamic panel data models with random effects. <em>Regional Science and Urban Economics, 42</em>, 727-738.</p>
+</li>
+<li>
+<p>Qin, Y. S. (1999). Empirical likelihood ratio confidence regions in a partly linear model. <em>Chinese Journal of applied probability and statistics, 15</em>, 363-369.</p>
+</li>
+<li>
+<p>Qin, J., &amp; Lawless, J. (1994). Empirical likelihood and general estimating equations. <em>Annals of Statistics, 22</em>, 300-325.</p>
+</li>
+<li>
+<p>Qin, Y. S. (2021). Empirical likelihood for spatial autoregressive models with spatial autoregressive disturbances. <em>Sankhyā A: Indian J. Statist., 83</em>, 1-25.</p>
+</li>
+<li>
+<p>Qin, Y. S., &amp; Lei, Q. Z. (2021). Empirical likelihood for mixed regressive, spatial autoregressive model based on GMM. <em>Sankhyā A: Indian J. Statist., 83</em>, 353-378.</p>
+</li>
+<li>
+<p>Rong, J. R., Liu, Y., &amp; Qin, Y. S. (2021). Empirical likelihood for spatial dynamic panel data models with spatial lags and spatial errors. <em>Communications in Statistics-Theory and Methods</em>. <a href="https://doi.org/10.1080/03610926.2022.2032172">https://doi.org/10.1080/03610926.2022.2032172</a>.</p>
+</li>
+<li>
+<p>Qu, X., Lee, L.F., &amp; Yu, J. (2017). QML estimation of spatial dynamic panel data models with endogenous time varying spatial weights matrices. <em>Econometrics, 197</em>, 173-201.</p>
+</li>
+<li>
+<p>Su, L., &amp; Yang, Z. (2007). QML estimation of dynamic panel data models with spatial errors. <em>Singapore Management University manuscript</em>.</p>
+</li>
+<li>
+<p>Su, L., &amp; Yang, Z. (2015). QML estimation of dynamic panel data models with spatial errors. <em>Econometrics, 185</em>, 230-258.</p>
+</li>
+<li>
+<p>Wu, C.B. (2004). Weighted empirical likelihood inference. <em>Statistics &amp; Probability Letters, 66</em>, 67-79.</p>
+</li>
+<li>
+<p>Yang, Z., Li, C., &amp; Tse, Y.K. (2006). Functional form and spatial dependence in dynamic panels. <em>Economics Letters, 91</em>, 138-145.</p>
+</li>
+<li>
+<p>Yu, J., R, de Jong., &amp; Lee, L.F. (2008). Quasi-maximum likelihood estimators for spatial dynamic panel data with fixed effects when both <em>n</em> and <em>T</em> are large. <em>Journal of Econometrics, 146</em>, 118-134.</p>
+</li>
+<li>
+<p>Zhong, B., &amp; Rao, J. N. K. (2000). Empirical likelihood inference under stratified random sampling using auxiliary population information. <em>Biometrika, 87</em>, 929-938.</p>
+</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>发哥</title>
+      <link>/cn/tanf/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/tanf/</guid>
+      <description>
+        <![CDATA[
+        <p>今天看到发哥少有的QQ动态<br>
+当动态还在加载时<br>
+我在猜测 发哥会写什么<br>
+我猜是一张打卡 打卡时长很长的冥想🧘‍♂️<br>
+然而我猜错了<br>
+确实是一张打卡 打卡7月跑步100公里🏃<br>
+发哥的每一次亮相 都是惊艳<br>
+都要被狠狠地帅到🤩</p>
+<p>发哥是对我而言 是神一般的存在<br>
+同龄人给你的冲撞力就像彗星撞地球<br>
+明明是一个县的中考生<br>
+人家全县第十 我呢 就是正常上个县高中吧<br>
+明明是一个县的高考生<br>
+人家考上985觉得没考好 我呢 也就名落孙山吧</p>
+<p>如果只是听闻他的优异成绩<br>
+他不会在我心里封神 不过是佼佼者<br>
+一个别人家的孩子<br>
+我心中的神 首先是人其次异于常人<br>
+首先他与你非亲非故其次他还帮助了你<br>
+所以我心中的神也不少 哈哈<br>
+但是发哥是榜眼<br>
+没有遇到秦老师之前 他是榜魁 😄</p>
+<p>18岁 祁东县二中 距离高考最后14天<br>
+我和小呆想逃离因高考气压变得很低的教室<br>
+来到了乒乓球台看打乒乓球<br>
+这之前我从未摸过乒乓球拍 肯定是不会打的了<br>
+纯粹出于看热闹 解压<br>
+于是 看的场次多了<br>
+经常打球的人也都认得脸了<br>
+就发现有一张脸 常常赢    <br>
+此人球技很炫 很多人都会前来发起挑战<br>
+但是他都能守擂成功<br>
+我和小呆也会很激动地表示赞叹<br>
+后来我知道这个人叫罗谈发<br>
+（我从学校的公告栏里确认的 上面都是学校的骄傲）<br>
+这是我记忆里 单方面认识发哥的开始<br>
+但是我是真的忘记了 第一回说话的场景<br>
+我说了什么 他说了什么 是在哪个位置<br>
+总之 就是互相认识了</p>
+<p>我至今 都觉得很感谢他<br>
+他给了我很多思考和启示</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>论文英语</title>
+      <link>/cn/paper_skill/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/paper_skill/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="摘要">摘要</h2>
+<h3 id="提出问题">提出问题</h3>
+<ol>
+<li>The ** is a ** problem.</li>
+<li>It aims to do sth.</li>
+<li>Aim to do sth</li>
+<li>** has been widely used in many problems, but there are few relevant studies on **.</li>
+</ol>
+<h3 id="传统方法">传统方法</h3>
+<ol>
+<li>Traditional methods have difficulty ensuring sth when **.</li>
+<li>Since (reason).<br>
+It makes the method prone to miss the optimal solution, resulting in **.</li>
+<li>**, leading to ** with low accuracy.</li>
+<li>**, leading to the failure of sth.</li>
+<li>Although, these ** can solve the problems, but ** still cannot meet the requirements.</li>
+</ol>
+<h3 id="建议方法">建议方法</h3>
+<ol>
+<li>In this work, ** method based on ** and ** is proposed to solve the problem.</li>
+<li>A novel strategy was introduced into ** to improve the capability by v-ing.</li>
+<li>A new ** is proposed, which **, then **.</li>
+<li>, which is very effective for solving **.</li>
+<li>The technologies that have been successfully applied include **, ** and so on.</li>
+<li>** is used to solve the problem in complex environment.</li>
+<li>owing to its advantage of **, ** shows remarkable performance in solving **.</li>
+<li>In this paper, ** is proposed to handle the problems.</li>
+<li>The method can alleviate **.</li>
+</ol>
+<h3 id="数值试验">数值试验</h3>
+<ol>
+<li>The simulation experimental results in ** show that the new method can ** and its performance is **.</li>
+<li>The comparative experiments in these reports verify the effectiveness and reliability of these methods.</li>
+<li>The superiority of the proposed method is experimentally verified.</li>
+</ol>
+<h2 id="行文">行文</h2>
+<h3 id="句子">句子</h3>
+<ol>
+<li>is an indispensable part of</li>
+<li>A series of algorithms</li>
+<li>the number of nodes v-s</li>
+<li>Sth have been proposed to solve this complex multi-constraint optimization problem</li>
+<li>such as **, **, and **.</li>
+<li>As sth increases and sth becomes adj.</li>
+<li>The computational effort increases exponentially</li>
+<li>in dealing with such problems</li>
+<li>method used in paper</li>
+<li>studied by researchers</li>
+<li>proposed by sb</li>
+<li>introduced by sb</li>
+<li>inspired by sth</li>
+<li>The research shows that **.</li>
+<li>owing to its advantages</li>
+<li>To improve sth, sb embeds sth into sth.</li>
+<li>effects on</li>
+<li>move toward</li>
+<li>a hybrid strategy</li>
+<li>the information is collected through ** to provide more ** for v-ing sth.</li>
+<li>** is constructed</li>
+<li>the information can be shared</li>
+<li>The rest of the paper is explained as follows:</li>
+<li>Section 1 describes **.</li>
+<li>a summary is given in Section 5.</li>
+</ol>
+<h3 id="否定">否定</h3>
+<ol>
+<li>insufficient</li>
+<li>low accuracy</li>
+<li>premature</li>
+<li>low timeliness</li>
+</ol>
+<h3 id="肯定">肯定</h3>
+<ol>
+<li>navel</li>
+<li>effective and feasible</li>
+<li>successfully</li>
+<li>is superior to the other sth.</li>
+<li>remarkable</li>
+<li>elite</li>
+<li>competitive</li>
+<li>effectiveness and reliability</li>
+<li>computational efficiency</li>
+<li>recognition accuracy</li>
+<li>promising</li>
+</ol>
+<h2 id="总结">总结</h2>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>偷懒被抓包，糗</title>
+      <link>/cn/tutor/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/tutor/</guid>
+      <description>
+        <![CDATA[
+        <p>回家半个月了<br>
+今天老师晚八点问我有没有空<br>
+老师很委婉说是讨论一下论文  <br>
+其实是老师指导我写论文🤦‍♀️  <br>
+结果我晚十点才看到消息🤦‍♀️<br>
+一直在家里搞卫生<br>
+家里常年没人住 发霉了<br>
+老妈一回来就请人<br>
+钻墙、打防水、刮墙壁胶、刷墙漆<br>
+我妈就一直<br>
+搞卫生、搞卫生、搞卫生、搞卫生🤦‍♀️<br>
+不过正巧今天都搞完了✌️<br>
+家里又变得整洁明亮<br>
+更适合学习休闲搞运动了😄<br>
+老妈说 嗯 这有点像新房子<br>
+真是辛苦老妈这个女汉子了🌤</p>
+<p>跟老师解释了一下<br>
+为啥没有及时回复<br>
+果然老师一点都没有怪我<br>
+神仙老师🎉<br>
+老师还分享了一件他今天开心的事情<br>
+广西数学理事会给老师颁发<br>
+🎖“荣誉理事”🎖<br>
+重点是 老师并不是在说他有多厉害<br>
+而是觉得开心的事分享一下<br>
+并且感谢广西数学学会还惦记他<br>
+我还能说啥呢 ？ respect！好吗！<br>
+老师几十年如一日的早八晚十<br>
+居功不傲、严以律己、宽以待人…<br>
+荣誉对老师来说是开心的事<br>
+但不是重要的事<br>
+他不是为了追求名誉而奋斗<br>
+没有名誉 他依旧早八晚十<br>
+老师不过是<br>
+行至水穷处 坐看云起时<br>
+他忙着自己喜欢的事情<br>
+老师获得荣誉了<br>
+我们觉得 是老师奋斗的印记<br>
+老师觉得 是承蒙他人看得起</p>
+<p>在老师身上 我看不到缺点<br>
+好奇怪 我会怀疑真的有完美的人么<br>
+如教科书描写的一般<br>
+勤奋、坚韧、平和、谦逊、有能力没脾气…<br>
+可是毋庸置疑<br>
+是的 存在并且就在我身边🙀<br>
+是我敬仰的老师💐</p>
+<p>见过名山大川 我反复横跳检阅自己<br>
+我能做到吗？我能坚持多久？<br>
+我会放弃吗？我会放弃多久？<br>
+…<br>
+想这些问题 我的脑袋会占满CPU<br>
+最后死机结束 问题无果<br>
+我只能抓自己唯一能做的<br>
+尽努力吧 结果随缘吧！</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>影视书清单</title>
+      <link>/cn/todolist/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/todolist/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="电影">电影</h2>
+<ol>
+<li>《阿甘正传》</li>
+<li>《我不是药神》✔️</li>
+<li>《素媛》</li>
+<li>《垫底辣妹》</li>
+<li>《让子弹飞》</li>
+<li>《肖申克的救赎》✔️</li>
+<li>《阳光灿烂的日子》✔️</li>
+<li>《三傻大闹宝莱坞》✔️</li>
+<li>《美丽人生》</li>
+<li>《楚门的世界》</li>
+<li>《猫鼠游戏》</li>
+<li>《熔炉》</li>
+<li>《动物世界》</li>
+<li>《被嫌弃的松子的一生》✔️</li>
+<li>《乱世佳人》</li>
+<li>《摔跤吧！爸爸》</li>
+<li>《霸王别姬》✔️</li>
+<li>《一一》</li>
+<li>《本杰明.巴顿奇事》又名《返老还童》</li>
+<li>《爆裂鼓手》</li>
+<li>《当幸福来敲门》</li>
+<li>《活着》</li>
+<li>《心灵捕手》</li>
+<li>《白日梦想家》</li>
+<li>《怦然心动》</li>
+<li>《天使爱美丽》</li>
+<li>《小偷家族》</li>
+<li>《触不可及》</li>
+<li>《美国往事》</li>
+<li>《海上钢琴师》</li>
+<li>《无问西东》✔️</li>
+<li>《遗愿清单》</li>
+<li>《沉默的羔羊》</li>
+<li>《教父》三部曲</li>
+<li>《绝杀慕尼黑》</li>
+<li>《风雨哈佛路》</li>
+<li>《百万美元宝贝》</li>
+<li>《沙漠之花》</li>
+<li>《搏击俱乐部》</li>
+<li>《勇敢的心》</li>
+<li>《西西里的美丽传说》</li>
+<li>《大鱼》</li>
+<li>《重庆森林》</li>
+<li>《大话西游》✔️</li>
+<li>《喜剧之王》</li>
+<li>《放牛班的春天》</li>
+<li>《海蒂和爷爷》</li>
+<li>《无间道》</li>
+<li>《蝴蝶效应》</li>
+<li>《飞越疯人院》</li>
+<li>《死亡诗社》</li>
+<li>《穿条纹睡衣的男孩》</li>
+<li>《他其实没那么喜欢你》</li>
+<li>《长发公主》</li>
+</ol>
+<h2 id="纪录片">纪录片</h2>
+<ol>
+<li>《地球脉动》</li>
+<li>《蓝色星球》</li>
+<li>《河西走廊》</li>
+<li>《人生七年》</li>
+<li>《真相访谈》</li>
+<li>《航拍中国》</li>
+<li>《故宫100》</li>
+<li>《大明宫》</li>
+<li>《中国通史》</li>
+<li>《幼童》</li>
+<li>《空中浩劫》</li>
+<li>《艺术的力量》</li>
+<li>《我死前的最后一个夏天》</li>
+<li>《人生果实》</li>
+<li>《像乌鸦一样思考》</li>
+<li>《人生第一次》</li>
+<li>《我的章鱼老师》</li>
+<li>《宇宙有道理》</li>
+<li>《宇宙奇观》</li>
+<li>《旅行到宇宙边缘》</li>
+<li>《万物滋养》</li>
+<li>《我们的星球》</li>
+<li>《历史那些事》</li>
+<li>《如果国宝会说话》</li>
+<li>《含泪活着》</li>
+<li>《中国人的活法》</li>
+<li>《三十二》</li>
+<li>《时间编织的真是故事》</li>
+<li>《现代奇迹》</li>
+<li>《人类消失后的世界》</li>
+<li>《寻找小糖人》</li>
+<li>《乐士浮生录》</li>
+<li>《酷玩乐队：满脑子的梦想》</li>
+<li>《永远的车神》</li>
+<li>《詹姆斯.卡梅隆的科幻故事》</li>
+<li>《史蒂夫.乔布斯：遗失的访谈》</li>
+<li>《美国商业大亨传奇》</li>
+<li>《女大法官斯伯格》</li>
+</ol>
+<h2 id="动漫">动漫</h2>
+<ol>
+<li>《千与千寻》✔️</li>
+<li>《狼行者》</li>
+<li>《心灵奇旅》</li>
+<li>《克劳斯：圣诞节的秘密》</li>
+<li>《哈尔的移动城堡》</li>
+<li>《大坏狐狸的故事》</li>
+<li>《艾特熊和塞娜鼠》✔️</li>
+</ol>
+<h2 id="书籍">书籍</h2>
+<ol>
+<li>《理想国》</li>
+<li>《棋王》</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>秦导语录</title>
+      <link>/cn/tutor/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/tutor/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="灵魂一击">灵魂一击</h2>
+<ol>
+<li>简单+重复=成功.</li>
+<li>优秀也可能因为是自卑.</li>
+<li>追求完美有时也不好.</li>
+<li>Brilliant(t) = Ordinary(t-1) + Frustration(t-1);<br>
+Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>书籍配套资源</title>
+      <link>/cn/resource/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/resource/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="书籍及对应资源链接">书籍及对应资源链接</h2>
+<ol>
+<li><a href="https://www.epubit.com/bookDetails?id=UB6cb444dec6174">《Python数学编程》</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>暑假开启</title>
+      <link>/cn/vacation/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/vacation/</guid>
+      <description>
+        <![CDATA[
+        <p>宿舍四人，二位离校了。我以为我会很淡定，我会坚持到学校赶人，没想到我… …</p>
+<p>前天晚上我就知道，第二天有两位室友准备走了，也就是昨天他们要离校了，结果我在前天晚上就失眠了，也想回家了。翻来覆去，最后我拨通了香的电话，跟她说，我睡不着想聊天。明明我都做好了准备，写完论文再回家；明明知道回家，也没有什么特别；明明知道回家，效率会变低… 可是，我还是非常冲动地在昨日，星期六，一个往常我不会找老师的时间点，去打扰了老师。我想早一点问问老师的时间安排，然后再做打算。如果最后决定要留下来，我就不能心浮起；如果决定回家，我就早点动身。</p>
+<p>离开老师办公室之后呢，我回家的计划由14号变8号，最后我干脆买了今天3号的票，回家了。</p>
+<p>我以闪电的速度回到了家，老爸接的我，几年不见，我看到了他的白丝。今天算是赶上了，过年家里五个人都没有齐过，此刻家里成员到齐，一桌子菜，絮絮叨叨。很快，晚饭结束，有两人要离开祁东了，家里剩下三个人。</p>
+<p>不论怎么说，我回来了，我胡汉三回来啦。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>离开老师办公室之后(二)</title>
+      <link>/cn/tutor/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/tutor/</guid>
+      <description>
+        <![CDATA[
+        <p>今天准备去见老师 看到老师有事在忙 本来打算溜了 结果人还没撤退 就在楼梯口被老师逮到了 老师见到我 面带笑容 眼神里还有点小星星 （老师爱笑 所以 我真觉得老师待人很温柔）</p>
+<p>一见面老师就是 “咦 这几天没写博客啦 我看你没更新”  我在<a href="/blog/2022/06/13/tutor/">前面</a>就提过了 我很喜欢品老师的话渣 子 其实老师本身并没有想表达太多意思 就是客观陈述 但是 我总能品出很多对我而言的 主观感受</p>
+<p>首先 我没想到老师竟然这么没有架子 愿意看我写的小小小东西 毕竟是门可罗雀的博客🤦‍♀️ 而且我身为老师的学生 没把心思放学习上他也不念叨你不指责你 还跟你分享他的博客 （当我跟老师分享我的博客时 老师说 我也有 我也有 瞬间觉得老师秒变小孩子 跟你分享他也有的玩具）想想自己小时候不认真读书 父母怪罪起来 还使劲顶嘴 现在遇到如此这般的老师 我倒是别说顶嘴了 说话舌头都打结🤦‍♀️</p>
+<p>其次 老师竟然还会看我有没有更新🤦‍♀️ 我身边的好朋友也没有这么关注过我呀🤦‍♀️ 真的是习惯了老妈的放养 习惯了把自己当根野草 习惯了无人问津 突然受到关注 还是有点惊有点喜有点惊惊有点喜有点惊惊惊…</p>
+<p>而且 我还想说 老师真的是 正事和斜事都没耽误 都做得贼好 正事就不说了 一堆的学术成就、一堆的头衔、一堆优秀的学生、一个在国外教书的优秀儿子… 斜事比如时事热点（偶尔老师还会留言评论呢）、我写的这小玩意、走路两万步每天（朋友圈榜首）、斗地主（朋友圈榜首 他还说 这个游戏每天都在骗他玩 每天给他发券 不用就过期了 您贵为教授真的这么好骗吗 怕不是心甘情愿🤦‍♀️） 我们同门之间常常一交流 都不由地对老师佩服得不要不要的 学习第一名 身体健康第一名 玩游戏第一名 老师干啥都厉害 身为他的学生 惭愧了🤦‍♀️…</p>
+<p>老师不给人压力但时时传递正能量 过年时老师们的学生在群里祝福老师 老师说：感恩，进取！ 他的一位学生说今年开始要带硕士生了有点紧张担心做不好 老师说：这是信任。 我的稿件被拒了 老师说：没关系 还要给拒稿的编辑部回信说 感谢退稿刺激我继续努力 变得更好。🤦‍♀️</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>《杨绛传》 李雪/著</title>
+      <link>/cn/yangjiang/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/yangjiang/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="摘录">摘录</h2>
+<pre><code>遍历山河，从容而行，以淡然之心，活出一世华彩。
+</code></pre>
+<ul>
+<li>
+<p>万一父亲有个意外，他若能得亲朋好友照顾读几年书，还能勉强做个小学教员；若无人照看，她就要去工厂做女工了。</p>
+</li>
+<li>
+<p>杨绛之所以能够从大王庙小学的同学中跳脱出来，成为历史河流里令人瞩目的一朵浪花，在这时便能区别得清楚。从小受到科学教养的孩子，与生活在相对封闭保守地区的孩子终究是不一样的。受到科学教养的孩子更加大胆，敢于探索，更加自由，有更多可能，更加博学，能看到更大的世界。孩子可以超越家长，但父母的影响却是伴随孩子终生的。普通家庭或许无法具备知识与资源的优势，却可以在教育理念上无线接近锺鸣鼎食之家。父母在痛恨孩子未能长成自己想象中的样子时，不如反观自己的言行，或许能找到解决之道。</p>
+</li>
+<li>
+<p>中学时一个人阅读习惯养成的关键期，这时若读了足够多的且质量好的书，会铺就人一生文字功底的坚实基础。杨绛便是在这时饱览群书。</p>
+</li>
+<li>
+<p>这段书写往来、不能见面的日子，反而成为两人筑牢城堡的砖石。</p>
+</li>
+<li>
+<p>有所爱之人，不以山海为远，一本书、一封信都足以寄托情思。</p>
+</li>
+<li>
+<p>男子的进取与攻击，不尽然依靠武力或暴力。擅长文字的男子可以书信为剑，擅长理工的男子可以专注为枪。</p>
+</li>
+<li>
+<p>爱情里的勇敢最难得，也最可能让人收获美好的人生。</p>
+</li>
+<li>
+<p>对那时爱慕她的男孩子来讲，杨绛怕是倔强又冷酷的角色，但从岁月流转后回望当时种种，这些男孩子怕也是会感谢杨绛的坚定和智慧，让自己没有错付美好时光。</p>
+</li>
+<li>
+<p>对钱锺书而言，见到杨绛这一面前的每一分每一秒，都是这种绝望痛苦交织的不堪。但无论如何，我要见你，我要听你说，我要亲口向你解释，我可以属于你，你可不可以走向我这里？万幸，两人顺利见了面。钱锺书焦虑地说：“我没有订婚。”仿佛等到了什么，杨绛回应他说：“我也没有男朋友。”</p>
+</li>
+<li>
+<p>能够与一人相伴终老的女子，往往具备识人的智慧，还兼具拒绝别人的胆量。</p>
+</li>
+<li>
+<p>虽然年纪轻轻的杨绛十分青涩，但面对形形色色的追求者，她却从不含糊。遇到不喜欢却对自己殷勤的异性，许多涉世未深的姑娘容易迷失自我，轻易陷进去，或是不忍拒绝他人的执着真诚，出于同情兼虚荣的心情接纳错误的人。无论怎样，这种选择往往将姑娘们的人生导向不幸，至少，在波澜不兴的生活下，永远丧失了与知心人灵魂互伴的机会。</p>
+</li>
+<li>
+<p>杨绛与钱锺书，波澜不惊地相识，不慌不忙地共度悠长岁月，温柔而坚定地写就一生只爱一人的誓言。</p>
+</li>
+<li>
+<p>人真正的成长，大多是离家去远方开始的。背上行囊，独自奔赴远方。</p>
+</li>
+<li>
+<p>夫妻情感保鲜的秘诀，就是永不停止精神上的交流。</p>
+</li>
+<li>
+<p>都说分娩是婚姻的照妖镜，自私无爱的男人，无论平时如何体贴，都会在妻子分娩时原形毕露。分娩是女人一生的大事，这时的女人疼痛万分，绝望无助，万事都要依赖家人，诞下的却是两个人的骨血。若遇良人，丈夫担心妻子冷热，体谅妻子的虚弱，妻子便会无怨无悔地忍受痛苦，撑起一个家的天。若是这时丈夫临阵脱逃，妻子所受的伤痛，一生都将无法弥补。</p>
+</li>
+<li>
+<p>在杨绛眼中，她的母亲总是那样忙碌、平和、与世无争。</p>
+</li>
+<li>
+<p>先生居无求安、食无求饱，先人之忧、后人之乐。</p>
+</li>
+<li>
+<p>我在这里，你什么都不会；我走了，你不会也会了。</p>
+</li>
+<li>
+<p>钱家倒很奢侈，我花这么多心血培养的女儿就给你们钱家当不要工钱的老妈子！</p>
+</li>
+<li>
+<p>钱锺书没了工作，一家人却因此能够团聚。钱锺书对杨绛发愿：“从今以后，咱们只有死别，不再生离。”</p>
+</li>
+<li>
+<p>俞斌并不甘心就这样老去，但他的太太已然安于平淡，心满意足地胖了起来。其实俞太太是个美人，白皙丰腴，但俞斌并不满意：“一个女人，怎么做了太太，便把其他给忘了？太太，便不复是情人，不复是朋友，多没趣！她就这样满足了。” 他的女学生胡若蕖小姐点燃了他青春的激情。—— 杨绛《小阳春》</p>
+</li>
+<li>
+<p>她与钱锺书一道去看一幕古装剧《钗头凤》，作者热情地与杨绛攀谈，却不怎么搭理一旁的钱锺书。钱锺书受了冷落，心里恼火，便对杨绛说：“以后你一个人去看戏吧，我不陪你了。”杨绛也不勉强他。以后她每次去看戏，都要先把饭做好，再自己一个人去。</p>
+</li>
+<li>
+<p>她想到姐妹经常将“季康”快读成“绛”，就答：“就叫杨绛吧。”从此开始，“杨绛”真正诞生了。</p>
+</li>
+<li>
+<p>在《围城》序中，钱锺书写道：“这本书整整写了两年。两年里忧世伤生，屡想终止。由于杨绛女士不断的督促，替我挡了许多事，省出时间来，得以锱铢积累地写完。照例这本书该献给她。” 那时杨绛生活是苦的，心却是甜的。</p>
+</li>
+<li>
+<p>被问及体会最深的是什么，她回答道：“抗战期间，最深刻的体会是吃苦孕育智慧，磨砺人品。</p>
+</li>
+<li>
+<p>那时杨绛要洗婆婆、钱锺书、圆圆还有自己的衣服，钱锺书心疼妻子，就把门关起来偷偷自己洗衣服，却总洗不干净。</p>
+</li>
+<li>
+<p>中国以前的人伦关系：君臣、父子、兄弟、夫妇、朋友中，朋友非常重要。其他四伦如能复为朋友，交心而知己，关系定会非常融洽、和谐。我们俩就是夫妇兼朋友。”钱锺书与杨绛的爱情之所以能持续几十年而不减，秘诀大概都在这段话里了。</p>
+</li>
+<li>
+<p>杨绛先生曾讲道：“我认为（妻子、情人、朋友）三者应该是统一的。夫妻应该是终身的朋友，夫妻间最重要的是朋友关系，即使不是知心朋友，至少也该是能做伴侣的朋友或互相尊重的伴侣。情人而非朋友的关系是不能持久的，夫妻而不够朋友，只好分手。”</p>
+</li>
+<li>
+<p>书稿出版后，钱锺书在自留的样本上写道： To C.K.Y An almost impossible combination of incompatible things: wife,mistress &amp; friend. 赠予杨季康 绝无仅有的结合了各不相容的三者：妻子、情人、朋友。</p>
+</li>
+<li>
+<p>他们是将夫妻看作一体的人。杨绛或者钱锺书的牺牲，在彼此看来，都是在为家庭牺牲，他们想让这个家释放出最大的价值。</p>
+</li>
+<li>
+<p>若是这个港湾足够温馨，家人们就有个休息充电的地方。最可怕的是这个抵御伤害的地方成了伤害本身，最应该互相支持的两个人做着互相伤害的蠢事。</p>
+</li>
+<li>
+<p>杨绛在回忆作为钱锺书写《围城》时的后盾岁月，不由得感叹：“抗战时期在上海，生活艰难，从大小姐到老妈子，对我来说，角色变化而已，很自然，并不感觉委屈。为什么？因为爱。出于对丈夫的爱。我爱丈夫，胜过自己。我了解钱锺书的价值，我愿为他研究著述志业的成功，为充分发挥他的潜力、创造力而牺牲自己。这种爱不是盲目的，是理解，理解愈深，感情愈好。相互理解，才有自觉的相互支持。”</p>
+</li>
+<li>
+<p>对钱瑗来说，北上新奇又有趣。她已经在上海读过初中一年级，本是要继续读初二的，无奈清华附属中学成志学校校长对杨绛说，钱瑗年龄太小，按照规定只能读初一。杨绛觉得重复上学有些浪费时间，又见北京中学生开会频繁，动辄讨论，念及钱瑗体弱刚恢复，就让她在家学习。钱锺书为她补习语文和英语，杨绛补代数、几何和理化。</p>
+</li>
+<li>
+<p>钱、杨与梁氏夫妇关系也不错，林徽因经常邀钱锺书夫妇去家里吃饭。他们还常去费孝通夫妇家叙旧，也进城看望过沈从文。</p>
+</li>
+<li>
+<p>“她（杨绛）始终认为，人是有灵性、有良知的动物，人生一世，无非是认识自己，洗练自己。人需要改造自己，但必须是自觉自愿。”</p>
+</li>
+<li>
+<p>“伟大感”和“渺小感”同时在心上起落，却也“久久不能平息”。</p>
+</li>
+<li>
+<p>“是什么料，充什么用。”</p>
+</li>
+<li>
+<p>不求“勿忘我”，不求“赛牡丹”，安闲舒适，得其所哉。一个人不想攀高就不怕下跌，也不用倾轧排挤，可以保其天真，成其自然，潜心一志完成自己能做的事。 然而她并不希望这种超脱变成阿Q式的精神安慰，相反，她希望物能尽其用，人能尽其才，守好初心，做好自己便可以了。</p>
+</li>
+<li>
+<p>自觉自愿地把自己收敛为一个零。”她很豁达，懂得人生的终极意义，也明白自己的位置所在，所以哪怕暂时受到排挤与无视，依然能持平和的心态，踏踏实实地做自己的事。</p>
+</li>
+<li>
+<p>幸福的婚姻让女人变美，她眉眼间全是温柔。即便在单位受了委屈，有丈夫疼惜，自己心胸也开阔，她并不因此而憔悴。</p>
+</li>
+<li>
+<p>“我们只求摆脱羁束，到处阅历，并不想为非作歹”要“消失于众人之中，如水珠包孕于海水之内，如细小的野花隐藏在草丛里。不求‘勿忘我’，不求‘赛牡丹’，安闲舒适，得其所哉。一个人不想攀高就不怕下跌，也不用倾轧排挤，可以保持天真，撑起自然，潜心一志完成自己能做的事。</p>
+</li>
+<li>
+<p>整理完后，钱锺书很高兴，拉着杨绛的手说：“你是最贤的妻，最才的女！”</p>
+</li>
+<li>
+<p>还能说话的时候，钱锺书交代杨绛，他死后不设灵堂，不留骨灰，恳辞花篮，不举行告别仪式，不开追悼会。杨绛为难：“我自己，这样办得到。你嘛，就很难说了。”钱锺书说：“那就要看我身后的人咯。”</p>
+</li>
+<li>
+<p>大概是痛到极致的人，才会把刺穿她灵魂的苦痛，全然幻化成梦吧。</p>
+</li>
+<li>
+<p>但写到这里的杨绛，会不会希望这几年发生的事就是一场梦，醒来后钱锺书依然在身边呢？</p>
+</li>
+<li>
+<p>我是按照自己翻译的惯例，一句句死盯着原文而力求通达流畅。</p>
+</li>
+<li>
+<p>钱锺书惜时如金的一生，都在这一卷卷笔记中凝结成晶。</p>
+</li>
+<li>
+<p>钱锺书读书向来有做笔记的习惯，他读书不止读一遍，还会两遍三遍地读，笔记也会一再增补，因此笔记的质量很高。</p>
+</li>
+<li>
+<p>钱锺书的堂弟钱锺鲁的妻子陈霞清常去看她。陈霞清每次去前都要与阿姨约定见面时间，因为堂嫂要打扮好后才见人。陈霞清很佩服堂嫂，因为她穿的衣服全是半新不旧的，但特别有气派。看来“腹有诗书气自华”是有道理的，人的精气神在骨不在皮，更不在裹着肉身的那层衣服里。</p>
+</li>
+<li>
+<p>她记得钱锺书对她的嘱咐，一直好好生活。她坚持锻炼身体，每天不仅要练大雁功，还要走路。她手里握上七支铅笔，在房间里来回走，每走一千步就放下一支铅笔，直到把七支铅笔全放下为止。天气好的时候，她也会下楼散散步。邻居见她身体硬朗，说她能活到一百二十岁。</p>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>收到婚帖</title>
+      <link>/cn/2022-06-21-wedding-invitation/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/2022-06-21-wedding-invitation/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="祝福">祝福</h2>
+<p>《围城》书稿出版后，钱钟书在自留的样本上写道：</p>
+<pre><code>To C.K.Y
+   An almost impossible combination of 
+incompatible things: wife, mistress &amp; friend.
+
+赠予季康
+   绝无仅有的结合了各不相容的三者：妻子、情人、朋友。
+</code></pre>
+<p>我的朋友，我平日少言但我祝愿你们如钱钟书与杨绛一般恩爱如初。</p>
+<ol>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDY3OTE4MTFmaXJlX2Nsb3Vk#/">小雪</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDY0NDE3NTVmaXJlX2Nsb3Vk#/">小丽</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDQ3ODcwMTFmaXJlX2Nsb3Vk#/">叶子</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDkxMTE2OTJmaXJlX2Nsb3Vk#/">小溪</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NTAzNTk3NDZmaXJlX2Nsb3Vk#/">小昱</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NTI4NTc0MDlmaXJlX2Nsb3Vk#/">刘兄</a></li>
+<li><a href="https://www.hunliji.com/p/frontend/creation-platform/app-preview-wedding-card/dist/index.html?cardId=NjgyNjg1MzFmaXJlX2Nsb3Vk#/">铃子</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>初遇本站架构</title>
+      <link>/cn/glimpse/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/glimpse/</guid>
+      <description>
+        <![CDATA[
+        <p>我无意浏览到该网页&ndash;<a href="https://yihui.org">谢益辉</a>&ndash;简洁干净的画面，井然有序的资料&hellip; 嘣！听弹壳落地的声音，我的心被狙中了💘，心猿意马形容我的心情都不为过，于是，我鼓励勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
+<ul>
+<li>第一天 学习 <a href="https://www.gohugo.cn">Hugo</a></li>
+<li>第二天 学习 <a href="https://gitcode.net/courses/detail/1/l">Git 及 Github</a></li>
+<li>第三天 本地修改编辑网页</li>
+<li>第四天 部署到 github 即可看到发布的网页</li>
+<li>第五天 整理整个过程，写在<a href="https://blog.csdn.net/JTang1995/article/details/125365545?spm=1001.2014.3001.5501">这里</a></li>
+</ul>
+<p>大牛写的代码果然不骗人，很真诚，来龙去脉说得很清楚。他写道，他<a href="https://yihui.org/cn/about/">不喜欢</a>别人称呼他老师或是博士或是大牛，我看了看因冲动而发的邮件，写的称呼是“谢同学”，还好还好，没有踩雷。他亦写道，他<a href="https://yihui.org/cn/about/">反对</a>抄袭和不用脑子的复制粘贴，可是我太喜欢他的网站架构了，丝毫不想改动，哈哈，任大佬鄙视去吧。我抄袭我快乐，碰到这么棒的主题太开心了，我还要安利给别人来抄袭，哈哈。</p>
+<p>谢同学，这些年陆陆续续写的东西有很多，涵盖生活、工作、思考很多方面，我都觉得无比真实又真诚，我还翻了翻他的毕业论文，怎么这么精巧呀，我都觉得是艺术品，这些资料对我很有启发，可能自己也是统计学专业的吧，同时我对代码天然很有兴趣，所以谢同学出的书<a href="https://cosx.org/2021/08/msg-preface/#fnref:10">《现代统计图形》</a>，毫不犹豫下单了，做了冲虚道长。内容如此杂多，归置如此有序，附上<a href="https://yihui.org/cn/vitae/">贵人简历</a>，强推给有缘人。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>离开老师办公室之后(一)</title>
+      <link>/cn/tutor/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/tutor/</guid>
+      <description>
+        <![CDATA[
+        <p>每次见<a href="https://baike.baidu.com/item/%E7%A7%A6%E6%B0%B8%E6%9D%BE/8349515?fr=aladdin">老师</a>前都很紧张<br>
+虽然不见得紧张得发抖<br>
+出于对老师一种恭敬吧<br>
+每次见老师之后很舒缓<br>
+这种舒缓带来的思想激荡又很大<br>
+总让我久久不能平复<br>
+于是 返程下车之后 我总爱先找个店<br>
+往里面一钻 选个位置 缓一缓</p>
+<p>老师说的话未必多<br>
+可我总爱琢磨他的话渣子<br>
+从他的话渣子里<br>
+我总能有恍然大悟的感觉<br>
+在老师眼里很寻常的观点<br>
+我总觉得鞭辟入里、入木三分、牛</p>
+<p>最近唐山打人事件<br>
+在网络引起了很大的轰动<br>
+大家都很愤愤 无数谴责<br>
+更是让女性团结在一起<br>
+为女性权益发声<br>
+老师另辟蹊径<br>
+从黑道本身角度看问题<br>
+这些人本身也得不到同行的尊重<br>
+因为他们欺负女性 欺负弱小<br>
+这也是为同行所不齿</p>
+<p>老师今天问我 “杨绛先生知道吗？”<br>
+我答 “听过 不了解 他说什么了吗？”<br>
+老师继续说 “杨绛 钱钟书之妻<br>
+她说 ‘人生最难得是 内心的淡定与从容’ ”<br>
+我忙语 “老师 我做不到”<br>
+老师笑语 “我也做不到 做事不论做不做到 只要去做了就行”</p>
+<p>才疏学浅的我 在老师面前 也不敢装<br>
+只有一五一十交代自己真实的感受<br>
+接下来我一定要多看有关杨绛先生的书呀 给自己<a href="/blog/2022/06/yangjiang/">补补</a>🤦‍♀️</p>
+<p>不过<a href="https://www.scholarmate.com/P/32a6Zv">学术</a>如此厉害的老师<br>
+更厉害的是 与他相处常常忘了他有多厉害 如此自由和平实</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>诗</title>
+      <link>/cn/poetry/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/poetry/</guid>
+      <description>
+        <![CDATA[
+        <ol>
+<li>九曲黄河万里沙，浪淘风簸自天涯。<br>
+如今直上银河去，同到牵牛织女家。（唐·刘禹锡）</li>
+</ol>
+<blockquote>
+<p>译文：九曲黄河从遥远的地方蜿蜒奔腾而来，一路裹挟着万里的黄沙。你从天边而来，如今好像要直飞上高空的银河，请你带上我扶摇直上，汇集到银河中去，一同到牛郎织女家做客吧。</p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>秦老师的回信</title>
+      <link>/cn/tutor/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/tutor/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="感恩我的老师-对我们温柔以待">感恩我的老师，对我们温柔以待。</h2>
+<pre><code>刚到办公室，仔细读了你的信，
+第一印象是字写得好，
+第二印象是信的内容很真，
+第三印象是发现我怎么那么幽默（你不告诉我，我还不知道），
+第四印象是我说的重要的话你记住了（比如，简单重复地做就是成功），
+第五印象是我的学生对我真好，我心生愧疚，
+第六印象是我看到了你美好的未来。
+继续愉快地努力，简简单单地向前进。看好你，不管何时何地！</code></pre>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>同义替换</title>
+      <link>/cn/synonymous-substitution/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/synonymous-substitution/</guid>
+      <description>
+        <![CDATA[
+        <pre><code>ordeal = plight
+obvious = apparent
+to sequester oneself = to isolate oneself
+bounce back = recover
+irredeemable = hopeless
+all but = almost
+
+fraud 骗子
+= phoney
+= fraudulence
+= fake
+
+cost the earth 代价惨重；花费一大笔钱，极其昂贵
+= cost a bomb
+= cost an arm and a leg
+
+play on 利用（某人的弱点）
+= exploit
+
+sate v. 满足（欲望）
+= satisfy
+
+en vogue流行
+= in vogue
+
+get hitched 结婚
+= to get married
+
+purveyor 散布者；供应者
+= supply
+
+protracted 延续很久的,长期的
+= prolonged
+
+make it v. 继续生存，存活
+= survive
+
+novice 新手，初学者
+= rookien
+
+discernible 可察觉的，明显的
+= observable
+
+entice v. 引诱
+entice/invite/persuade/convince sb. to do sth.
+attract sb. to do sth. / attract sb. to sth. 错误的事
+
+lavish adj. 奢华的；大方的
+= luxurious
+
+cachet n. 威望
+= prestige
+
+affront n. 侮辱
+= insult
+
+portrayal n.描绘，描述
+= depict
+
+slump n. 低迷期，萧条期；锐减，猛跌 v. 锐减，猛跌
+= collapse
+
+force n. 影响力，感染力；武力，力量
+= charisma
+</code></pre>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>情绪词语</title>
+      <link>/cn/emotional-words/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/emotional-words/</guid>
+      <description>
+        <![CDATA[
+        <ul>
+<li>serene：淡定的 </li>
+<li>complacent：自满的 </li>
+<li>anixous: 担心的 </li>
+<li>distracted：心烦意乱的 </li>
+<li>pensive：沉思的 </li>
+<li>bored：乏味的</li>
+<li>happy: 快乐的 </li>
+<li>trusting：轻易信赖别人的 </li>
+<li>afraid：害怕的 </li>
+<li>surprised：惊讶的 </li>
+<li>sad：悲伤的 </li>
+<li>disgusted：厌恶的</li>
+<li>ecstatic：狂喜的 </li>
+<li>admiring：钦佩的 </li>
+<li>terrified：极度惊慌的 </li>
+<li>amazed：吃惊的 </li>
+<li>depressed：情绪低落的</li>
+<li>loathing：憎恨的</li>
+<li>annoyed：气恼的 </li>
+<li>exhausted：精疲力竭的 </li>
+<li>confused：困惑的 </li>
+<li>paranoid：患妄想狂的 </li>
+<li>smug：自鸣得意的 </li>
+<li>nervous：紧张的</li>
+<li>angry：生气的 </li>
+<li>sleepy：欲睡的 </li>
+<li>clueless：一窍不通的 </li>
+<li>hysterical：情绪异常激动的 </li>
+<li>confident：有自信的 </li>
+<li>ashamed：耻辱的</li>
+<li>furious：愤怒的 </li>
+<li>embarassed：尴尬的 </li>
+<li>overwhelmed：不知所措的 </li>
+<li>hopeful：抱有希望的 </li>
+<li>lonely：寂寞的 </li>
+<li>lovestruck：热恋中的</li>
+<li>jealous：嫉妒的 </li>
+<li>mischievous：淘气的 </li>
+<li>teary-eyed：眼含泪水的 </li>
+<li>zoink：惊呼 </li>
+<li>kawaii：可爱的</li>
+<li>only adv.（用于动词前，表示结果令人遗憾或不受欢迎）愈加，只（会）</li>
+<li>lean adj. 不景气的，萧条的；瘦的</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>易混单词</title>
+      <link>/cn/confusing-word/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/confusing-word/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="对比">对比</h2>
+<pre><code>empire 帝国
+expire 到期的
+
+outline 提纲
+outlook 观点
+
+fame 名誉
+flame火焰
+
+apotheosis 封神
+algorithm 算法
+
+bind 困境；捆
+blind 盲的
+
+grim 严肃的
+grid 网格
+rigid
+
+boon 裨益
+boom 
+
+entice 诱惑，诱使，引诱
+ethics 伦理学
+ethnic 民族的
+ethical 道德的
+
+battered adj. 受损的，（尤指）用坏了的；裹了面糊的
+better
+
+wring 拧
+waring 警告
+
+nigh adv.几乎；差不多；靠近
+night 
+
+snake 蛇
+snack 零食
+
+temptation 诱惑
+temper 脾气
+
+bingev. 无节制地吃；n. 无节制的狂热行为
+bingo
+
+strife n. 冲突；纠纷；争吵
+strike n. 罢工 v.（灾难）侵袭，（疾病）暴发；碰撞，击打
+
+ethereal adj. 缥缈的，（尤指）超凡的
+reclusive adj. 隐居的，遁世的
+recluse（n. 隐士，隐居者）
+
+plait v. 将（头发、绳子等）编成辫
+braid n. 辫子；发辫 v. 编辫
+</code></pre>
+<h2 id="词义辨析">词义辨析</h2>
+<p>perpetrator, criminal, offender</p>
+<pre><code>使用 perpetrator 来讨论罪犯时，语境中通常会出现具体的罪行。
+criminal 则泛指犯下罪行，将要受到法律制裁的犯人。
+offender 可以指代任何违反法律的人，即“违法者”。
+offender 并不一定会被判为“罪犯”，也并不一定会受到法律的制裁。
+</code></pre>
+<p>extort, blackmail</p>
+<pre><code>extort 和 blackmail 都可以表示“敲诈，勒索”。
+blackmail 强调是以公开具有破坏性的信息的方式来威胁他人，
+extort 更偏向于使用暴力威胁，或者是在双方权力悬殊的情况下进行威胁勒索。
+blackmail 可以视为 extort 的其中一种方式。
+</code></pre>
+<p>disinformation, misinformation</p>
+<pre><code>这两个词含义非常接近，但在一些英英词典中，
+disinformation 更强调消息传播者的恶意和别有用心，
+misinformation 更客观一些，往往指消息的误传、误报（可能是无意的）。
+</code></pre>
+<p>lone, alone, lonely</p>
+<pre><code>lone 和 alone 都表示“独自的”，但两者在句子中出现的位置不同，大部分情况下不能互换。
+lone 只能作定语放在名词前面（a lone wolf）
+alone 常放在动词后面（The wolf lives alone）。
+lonely 表示“孤单的，寂寞的”，和 lone, alone 的含义有一些差异。
+</code></pre>
+<p>protracted,prolonged</p>
+<pre><code>protracted 和 prolonged 均表示“拖延的，持久的”
+protracted 带有贬义
+prolonged 的意义则更为中性客观。
+</code></pre>
+<h2 id="近义词">近义词</h2>
+<p>unverified
+adj. 未经验证的</p>
+<pre><code>近义词：unconfirmed, unsubstantiated
+相关词汇：unauthorized（未经许可的，未经批准的）
+</code></pre>
+<p>taciturn
+adj. 沉默寡言的</p>
+<pre><code>反义词：talkative (adj.)
+</code></pre>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>英译成语</title>
+      <link>/cn/idiom/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/idiom/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="形容词性">形容词性</h3>
+<ul>
+<li>full-fledged          		羽翼丰满的</li>
+<li>critically-acclaimed  		备受好评的</li>
+<li>sketchy 			粗略完成的；草草了事的</li>
+<li>far-fetched  			牵强的，难以置信的</li>
+<li>compelling  			引人入胜的，难以抗拒的</li>
+<li>epic  				史诗一般的；壮丽的；巨大的；漫长而艰难的</li>
+<li>awe-inspiring  		令人敬畏的；令人叹为观止的</li>
+<li>neck and neck  		不相上下的，旗鼓相当的，势均力敌的</li>
+<li>frugal and hard-working 	勤俭节约</li>
+<li>sumptuous 			奢侈华丽的</li>
+<li>prodigal  			浪费的</li>
+<li>bittersweet 			苦乐参半的</li>
+<li>dashing 			（男子）风度翩翩的；</li>
+<li>taciturn 			沉默寡言的</li>
+</ul>
+<h3 id="名词性">名词性</h3>
+<ul>
+<li>double whammy 			双重打击</li>
+<li>the bread-and-butter 		拳头产品
+=marquee</li>
+<li>grassroots 			平民百姓</li>
+<li>pretension 			自命不凡；矫揉造作</li>
+<li>silver lining			一线生机</li>
+<li>behemoth 			超级公司；庞然大物，强大的事物</li>
+<li>niche 				称心的位置；商机，市场定位</li>
+</ul>
+<h3 id="其他">其他</h3>
+<ul>
+<li>
+<p>fresh starts 			重振旗鼓</p>
+</li>
+<li>
+<p>bode ill.    			不容乐观</p>
+</li>
+<li>
+<p>be caught flat-footed 		措手不及</p>
+</li>
+<li>
+<p>dig in				固执不改</p>
+</li>
+<li>
+<p>continue our relentless effort to 坚持不懈</p>
+</li>
+<li>
+<p>step up to the plate		挺身而出</p>
+</li>
+<li>
+<p>wile away 			打发时光</p>
+</li>
+<li>
+<p>in a double bind 		进退维谷</p>
+</li>
+<li>
+<p>be positioned to		准备好做…</p>
+</li>
+<li>
+<p>fall foul of sb		与…产生分歧</p>
+</li>
+<li>
+<p>come down to			一言以蔽之，简而言之</p>
+</li>
+<li>
+<p>all the rage			风靡一时，十分流行</p>
+</li>
+<li>
+<p>entrench v. 			使…根深蒂固；将…安置于壕沟</p>
+</li>
+<li>
+<p>the best of intentions		一片好心</p>
+</li>
+<li>
+<p>a wild-goose chase		白费力气，徒劳无功</p>
+</li>
+<li>
+<p>nigh on indestructible		几乎坚不可摧</p>
+</li>
+<li>
+<p>to widespread acclaim		广受好评</p>
+</li>
+<li>
+<p>go wild with joy		欣喜若狂</p>
+</li>
+<li>
+<p>dress up			盛装出席</p>
+</li>
+<li>
+<p>carry a distinct echo		具有特别的共鸣</p>
+</li>
+<li>
+<p>ahead of the pack		成功领先；出类拔萃</p>
+<ul>
+<li>pack（n. 一群人（尤指不受人喜欢的）；包裹）</li>
+</ul>
+</li>
+<li>
+<p>fall for sth. 			上当，对…信以为真 - fall for sb.			爱上某人</p>
+</li>
+<li>
+<p>sb aren’t going down without a fight不战而退</p>
+</li>
+<li>
+<p>start up again			重启</p>
+</li>
+<li>
+<p>leaps and bounds		巨大的突破;迅速的进展</p>
+</li>
+<li>
+<p>shelter in place		就地避难</p>
+</li>
+<li>
+<p>bounce back			恢复，重振旗鼓</p>
+</li>
+<li>
+<p>thumb sb&rsquo;s nose at		嗤之以鼻</p>
+</li>
+<li>
+<p>go for good			永远消失，成为历史</p>
+</li>
+<li>
+<p>strike a chord			引起共鸣</p>
+</li>
+<li>
+<p>be worlds apart		截然不同，有着天壤之别</p>
+</li>
+<li>
+<p>spur-of-the-moment 		一时冲动的，心血来潮的</p>
+</li>
+<li>
+<p>one up sb 			高人（谁）一等</p>
+</li>
+<li>
+<p>in a (new) light 		以（全新的）方式</p>
+</li>
+<li>
+<p>in almost equal measure		几乎在同样的程度上，程度相当</p>
+</li>
+<li>
+<p>It happens that…		说来凑巧</p>
+</li>
+<li>
+<p>by happenstance		纯属偶然</p>
+</li>
+<li>
+<p>put all our/one&rsquo;s eggs in one basket孤注一掷</p>
+</li>
+<li>
+<p>seem meaningful and worthwhile	显得更有意义且妙趣横生</p>
+</li>
+<li>
+<p>I catch myself thinking		不由自主想</p>
+</li>
+<li>
+<p>more than a few		很多，相当多</p>
+<ul>
+<li>“more than + 形容词”在口语中起到加强语气和程度的作用。</li>
+</ul>
+</li>
+<li>
+<p>brace for			为（为困难或坏事）做准备</p>
+</li>
+<li>
+<p>ride out			安然渡过（难关）</p>
+</li>
+<li>
+<p>…have it all—except …		万事俱备 只欠东风</p>
+</li>
+<li>
+<p>hunker down			（带有目的地）长期蹲守；蹲下，蹲坐</p>
+</li>
+<li>
+<p>on the brink of 		处于（糟糕形势）的边缘</p>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

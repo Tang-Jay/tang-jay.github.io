@@ -14,9 +14,9 @@ disable_comments: true
 
 1. Anselin, L. (1988). _patial Econometrics: Methods and Models_. Amsterdam: Kluwer Academic Publishers.
 
-1. Anselin, L. (2001). _Spatial econometrics_. [In: Baltagi, B. H. (Ed.), A Companion to Theoretical Econometrics. Blackwell Publishers Ltd., Massachusetts, 310-330.](http://www.onacademic.com/detail/journal_1000039480956210_65cc.html)
+1. Anselin, L. (2001). Spatial econometrics. [In: Baltagi, B. H. (Ed.), _A Companion to Theoretical Econometrics_. Blackwell Publishers Ltd., Massachusetts, 310-330.](http://www.onacademic.com/detail/journal_1000039480956210_65cc.html)
 
-1. Anselin, L., Le Gallo, J., & Jayet, H. (2008). _Spatial panel econometrics_. [In: Mátyás, L., Sevestre, P. (Eds.), The Econometrics of Panel Data: Fundamentals and Recent Developments in Theory and Practice. SpringerVerlag, Berlin Heidelberg, 625-660.](http://library.oum.edu.my/oumlib/content/catalog/691963)
+1. Anselin, L., Le Gallo, J., & Jayet, H. (2008). Spatial panel econometrics. [In: Mátyás, L., Sevestre, P. (Eds.), _The Econometrics of Panel Data: Fundamentals and Recent Developments in Theory and Practice_. SpringerVerlag, Berlin Heidelberg, 625-660.](http://library.oum.edu.my/oumlib/content/catalog/691963)
 
 1. Baltagi, B.H., Song, S.H., & Koh, W. (2003). Testing panel data regression models with spatial error correlation. _Journal of Econometrics, 117_, 123-150.
 

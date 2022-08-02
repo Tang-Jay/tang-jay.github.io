@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>参考文献 on Tan Jay | 唐 洁</title>
-    <link>https://tang-jay.github.io/tags/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/</link>
+    <link>/tags/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/</link>
     <description>Recent content in 参考文献 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tang-jay.github.io/tags/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SDPD</title>
-      <link>https://tang-jay.github.io/blog/2022/07/sdpd/</link>
+      <link>/cn/sdpd/</link>
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2022/07/sdpd/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/sdpd/</guid>
       <description>
         <![CDATA[
         <h2 id="empirical-likelihood-for-spatial-dynamic-panel-data-models-with-spatial-errors-and-endogenous-initial-observations">Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations</h2>
@@ -23,10 +23,10 @@
 <p>Anselin, L. (1988). <em>patial Econometrics: Methods and Models</em>. Amsterdam: Kluwer Academic Publishers.</p>
 </li>
 <li>
-<p>Anselin, L. (2001). <em>Spatial econometrics</em>. <a href="http://www.onacademic.com/detail/journal_1000039480956210_65cc.html">In: Baltagi, B. H. (Ed.), A Companion to Theoretical Econometrics. Blackwell Publishers Ltd., Massachusetts, 310-330.</a></p>
+<p>Anselin, L. (2001). Spatial econometrics. <a href="http://www.onacademic.com/detail/journal_1000039480956210_65cc.html">In: Baltagi, B. H. (Ed.), <em>A Companion to Theoretical Econometrics</em>. Blackwell Publishers Ltd., Massachusetts, 310-330.</a></p>
 </li>
 <li>
-<p>Anselin, L., Le Gallo, J., &amp; Jayet, H. (2008). <em>Spatial panel econometrics</em>. <a href="http://library.oum.edu.my/oumlib/content/catalog/691963">In: Mátyás, L., Sevestre, P. (Eds.), The Econometrics of Panel Data: Fundamentals and Recent Developments in Theory and Practice. SpringerVerlag, Berlin Heidelberg, 625-660.</a></p>
+<p>Anselin, L., Le Gallo, J., &amp; Jayet, H. (2008). Spatial panel econometrics. <a href="http://library.oum.edu.my/oumlib/content/catalog/691963">In: Mátyás, L., Sevestre, P. (Eds.), <em>The Econometrics of Panel Data: Fundamentals and Recent Developments in Theory and Practice</em>. SpringerVerlag, Berlin Heidelberg, 625-660.</a></p>
 </li>
 <li>
 <p>Baltagi, B.H., Song, S.H., &amp; Koh, W. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150.</p>

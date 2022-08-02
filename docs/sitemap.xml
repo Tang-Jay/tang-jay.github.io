@@ -2,120 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tang-jay.github.io/categories/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/yihui/</loc>
+    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
+    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E8%B0%A2%E7%9B%8A%E8%BE%89/</loc>
+    <lastmod>2022-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/sdpd/</loc>
     <lastmod>2022-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/sdpd/</loc>
+    <loc>/tags/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/</loc>
     <lastmod>2022-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/</loc>
+    <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
     <lastmod>2022-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/</loc>
-    <lastmod>2022-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
-    <lastmod>2022-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
+    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/tanf/</loc>
+    <loc>/cn/tanf/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E7%BD%97%E8%B0%88%E5%8F%91/</loc>
+    <loc>/tags/%E7%BD%97%E8%B0%88%E5%8F%91/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E8%8B%B1%E8%AF%AD/</loc>
+    <loc>/tags/%E8%8B%B1%E8%AF%AD/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/paper_skill/</loc>
+    <loc>/cn/paper_skill/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/tutor5/</loc>
+    <loc>/cn/tutor/</loc>
     <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E7%A7%A6%E5%AF%BC/</loc>
+    <loc>/tags/%E7%A7%A6%E5%AF%BC/</loc>
     <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/todolist/</loc>
+    <loc>/cn/todolist/</loc>
     <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
+    <loc>/cn/tutor/</loc>
     <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/tutor4/</loc>
+    <loc>/tags/%E8%AE%A1%E5%88%92%E6%B8%85%E5%8D%95/</loc>
     <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E8%AE%A1%E5%88%92%E6%B8%85%E5%8D%95/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/resource/</loc>
+    <loc>/cn/resource/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/categories/%E8%AF%BB%E4%B9%A6%E5%BF%97/</loc>
+    <loc>/categories/%E8%AF%BB%E4%B9%A6%E5%BF%97/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E8%B5%84%E6%BA%90/</loc>
+    <loc>/tags/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/07/vacation/</loc>
+    <loc>/cn/vacation/</loc>
     <lastmod>2022-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E7%A5%81%E4%B8%9C/</loc>
+    <loc>/tags/%E7%A5%81%E4%B8%9C/</loc>
     <lastmod>2022-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/06/tutor3/</loc>
+    <loc>/cn/tutor/</loc>
     <lastmod>2022-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/06/yangjiang/</loc>
+    <loc>/cn/yangjiang/</loc>
     <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E6%9D%A8%E7%BB%9B/</loc>
+    <loc>/tags/%E6%9D%A8%E7%BB%9B/</loc>
     <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E5%A9%9A%E5%B8%96/</loc>
+    <loc>/tags/%E5%A9%9A%E5%B8%96/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/06/%E6%94%B6%E5%88%B0%E5%A9%9A%E5%B8%96/</loc>
+    <loc>/cn/2022-06-21-wedding-invitation/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2022-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/06/glimpse/</loc>
+    <loc>/cn/glimpse/</loc>
     <lastmod>2022-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/tags/%E6%9C%AC%E7%AB%99%E6%9E%B6%E6%9E%84/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/06/yihui-vitae/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/tags/%E8%B0%A2%E7%9B%8A%E8%BE%89/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tang-jay.github.io/blog/2022/06/tutor2/</loc>
+    <loc>/cn/tutor/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2021/09/tutor1/</loc>
+    <loc>/tags/%E8%AF%97/</loc>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/poetry/</loc>
+    <lastmod>2022-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/tutor/</loc>
     <lastmod>2021-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2020/05/synonymous-substitution/</loc>
+    <loc>/cn/synonymous-substitution/</loc>
     <lastmod>2020-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2020/05/emotional-words/</loc>
+    <loc>/cn/emotional-words/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2020/04/confusing-word/</loc>
+    <loc>/cn/confusing-word/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/2020/04/idiom/</loc>
+    <loc>/cn/idiom/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/blog/</loc>
+    <loc>/cn/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tang-jay.github.io/resume/</loc>
+    <loc>/resume/</loc>
   </url>
 </urlset>

@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学习志 on Tan Jay | 唐 洁</title>
-    <link>https://tang-jay.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</link>
+    <link>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</link>
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tang-jay.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SDPD</title>
-      <link>https://tang-jay.github.io/blog/2022/07/sdpd/</link>
+      <link>/cn/sdpd/</link>
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2022/07/sdpd/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/sdpd/</guid>
       <description>
         <![CDATA[
         <h2 id="empirical-likelihood-for-spatial-dynamic-panel-data-models-with-spatial-errors-and-endogenous-initial-observations">Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations</h2>
@@ -23,10 +23,10 @@
 <p>Anselin, L. (1988). <em>patial Econometrics: Methods and Models</em>. Amsterdam: Kluwer Academic Publishers.</p>
 </li>
 <li>
-<p>Anselin, L. (2001). <em>Spatial econometrics</em>. <a href="http://www.onacademic.com/detail/journal_1000039480956210_65cc.html">In: Baltagi, B. H. (Ed.), A Companion to Theoretical Econometrics. Blackwell Publishers Ltd., Massachusetts, 310-330.</a></p>
+<p>Anselin, L. (2001). Spatial econometrics. <a href="http://www.onacademic.com/detail/journal_1000039480956210_65cc.html">In: Baltagi, B. H. (Ed.), <em>A Companion to Theoretical Econometrics</em>. Blackwell Publishers Ltd., Massachusetts, 310-330.</a></p>
 </li>
 <li>
-<p>Anselin, L., Le Gallo, J., &amp; Jayet, H. (2008). <em>Spatial panel econometrics</em>. <a href="http://library.oum.edu.my/oumlib/content/catalog/691963">In: Mátyás, L., Sevestre, P. (Eds.), The Econometrics of Panel Data: Fundamentals and Recent Developments in Theory and Practice. SpringerVerlag, Berlin Heidelberg, 625-660.</a></p>
+<p>Anselin, L., Le Gallo, J., &amp; Jayet, H. (2008). Spatial panel econometrics. <a href="http://library.oum.edu.my/oumlib/content/catalog/691963">In: Mátyás, L., Sevestre, P. (Eds.), <em>The Econometrics of Panel Data: Fundamentals and Recent Developments in Theory and Practice</em>. SpringerVerlag, Berlin Heidelberg, 625-660.</a></p>
 </li>
 <li>
 <p>Baltagi, B.H., Song, S.H., &amp; Koh, W. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150.</p>
@@ -166,10 +166,10 @@ of fixed effects dynamic panel data models covering short time periods. <em>Econ
     
     <item>
       <title>论文英语</title>
-      <link>https://tang-jay.github.io/blog/2022/07/paper_skill/</link>
+      <link>/cn/paper_skill/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2022/07/paper_skill/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/paper_skill/</guid>
       <description>
         <![CDATA[
         <h2 id="摘要">摘要</h2>
@@ -267,11 +267,34 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     
     <item>
+      <title>诗</title>
+      <link>/cn/poetry/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <author>唐 洁</author>
+      <guid>/cn/poetry/</guid>
+      <description>
+        <![CDATA[
+        <ol>
+<li>九曲黄河万里沙，浪淘风簸自天涯。<br>
+如今直上银河去，同到牵牛织女家。（唐·刘禹锡）</li>
+</ol>
+<blockquote>
+<p>译文：九曲黄河从遥远的地方蜿蜒奔腾而来，一路裹挟着万里的黄沙。你从天边而来，如今好像要直飞上高空的银河，请你带上我扶摇直上，汇集到银河中去，一同到牛郎织女家做客吧。</p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>同义替换</title>
-      <link>https://tang-jay.github.io/blog/2020/05/synonymous-substitution/</link>
+      <link>/cn/synonymous-substitution/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2020/05/synonymous-substitution/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/synonymous-substitution/</guid>
       <description>
         <![CDATA[
         <pre><code>ordeal = plight
@@ -349,10 +372,10 @@ force n. 影响力，感染力；武力，力量
     
     <item>
       <title>情绪词语</title>
-      <link>https://tang-jay.github.io/blog/2020/05/emotional-words/</link>
+      <link>/cn/emotional-words/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2020/05/emotional-words/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/emotional-words/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -410,10 +433,10 @@ force n. 影响力，感染力；武力，力量
     
     <item>
       <title>易混单词</title>
-      <link>https://tang-jay.github.io/blog/2020/04/confusing-word/</link>
+      <link>/cn/confusing-word/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2020/04/confusing-word/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/confusing-word/</guid>
       <description>
         <![CDATA[
         <h2 id="对比">对比</h2>
@@ -521,10 +544,10 @@ adj. 沉默寡言的</p>
     
     <item>
       <title>英译成语</title>
-      <link>https://tang-jay.github.io/blog/2020/04/idiom/</link>
+      <link>/cn/idiom/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tang-jay.github.io/blog/2020/04/idiom/</guid>
+      <author>唐 洁</author>
+      <guid>/cn/idiom/</guid>
       <description>
         <![CDATA[
         <h3 id="形容词性">形容词性</h3>

@@ -13,7 +13,7 @@
       <title>又挖宝了</title>
       <link>/cn/yihui/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/yihui/</guid>
       <description>
         <![CDATA[
@@ -51,7 +51,7 @@
       <title>影视书清单</title>
       <link>/cn/todolist/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/todolist/</guid>
       <description>
         <![CDATA[
@@ -177,10 +177,37 @@
     
     
     <item>
+      <title>网文清单</title>
+      <link>/cn/todolist/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/todolist/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="一些有趣的网文">一些有趣的网文</h2>
+<h3 id="关于网页">关于网页</h3>
+<ol>
+<li><a href="https://yufree.cn/cn/2018/03/24/blogdown-rss/">https://yufree.cn/cn/2018/03/24/blogdown-rss/</a></li>
+<li><a href="https://t.yihui.org">https://t.yihui.org</a></li>
+</ol>
+<h2 id="一些有用的网文">一些有用的网文</h2>
+<h3 id="关于统计">关于统计</h3>
+<ol>
+<li><a href="https://cosx.org/archives/">https://cosx.org/archives/</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>暑假开启</title>
       <link>/cn/vacation/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/vacation/</guid>
       <description>
         <![CDATA[
@@ -201,7 +228,7 @@
       <title>初遇本站架构</title>
       <link>/cn/glimpse/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/glimpse/</guid>
       <description>
         <![CDATA[

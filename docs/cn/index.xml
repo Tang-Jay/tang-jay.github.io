@@ -13,7 +13,7 @@
       <title>又挖宝了</title>
       <link>/cn/yihui/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/yihui/</guid>
       <description>
         <![CDATA[
@@ -51,7 +51,7 @@
       <title>SDPD</title>
       <link>/cn/sdpd/</link>
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/sdpd/</guid>
       <description>
         <![CDATA[
@@ -206,7 +206,7 @@ of fixed effects dynamic panel data models covering short time periods. <em>Econ
       <title>发哥</title>
       <link>/cn/tanf/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/tanf/</guid>
       <description>
         <![CDATA[
@@ -263,7 +263,7 @@ of fixed effects dynamic panel data models covering short time periods. <em>Econ
       <title>论文英语</title>
       <link>/cn/paper_skill/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/paper_skill/</guid>
       <description>
         <![CDATA[
@@ -365,7 +365,7 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
       <title>偷懒被抓包，糗</title>
       <link>/cn/tutor/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/tutor/</guid>
       <description>
         <![CDATA[
@@ -435,7 +435,7 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
       <title>影视书清单</title>
       <link>/cn/todolist/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/todolist/</guid>
       <description>
         <![CDATA[
@@ -564,7 +564,7 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
       <title>秦导语录</title>
       <link>/cn/tutor/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/tutor/</guid>
       <description>
         <![CDATA[
@@ -585,10 +585,37 @@ Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).</li>
     
     
     <item>
+      <title>网文清单</title>
+      <link>/cn/todolist/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/todolist/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="一些有趣的网文">一些有趣的网文</h2>
+<h3 id="关于网页">关于网页</h3>
+<ol>
+<li><a href="https://yufree.cn/cn/2018/03/24/blogdown-rss/">https://yufree.cn/cn/2018/03/24/blogdown-rss/</a></li>
+<li><a href="https://t.yihui.org">https://t.yihui.org</a></li>
+</ol>
+<h2 id="一些有用的网文">一些有用的网文</h2>
+<h3 id="关于统计">关于统计</h3>
+<ol>
+<li><a href="https://cosx.org/archives/">https://cosx.org/archives/</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>书籍配套资源</title>
       <link>/cn/resource/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/resource/</guid>
       <description>
         <![CDATA[
@@ -608,7 +635,7 @@ Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).</li>
       <title>暑假开启</title>
       <link>/cn/vacation/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/vacation/</guid>
       <description>
         <![CDATA[
@@ -629,7 +656,7 @@ Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).</li>
       <title>离开老师办公室之后(二)</title>
       <link>/cn/tutor/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/tutor/</guid>
       <description>
         <![CDATA[
@@ -651,7 +678,7 @@ Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).</li>
       <title>《杨绛传》 李雪/著</title>
       <link>/cn/yangjiang/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/yangjiang/</guid>
       <description>
         <![CDATA[
@@ -822,7 +849,7 @@ Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).</li>
       <title>收到婚帖</title>
       <link>/cn/2022-06-21-wedding-invitation/</link>
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/2022-06-21-wedding-invitation/</guid>
       <description>
         <![CDATA[
@@ -857,7 +884,7 @@ incompatible things: wife, mistress &amp; friend.
       <title>初遇本站架构</title>
       <link>/cn/glimpse/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/glimpse/</guid>
       <description>
         <![CDATA[
@@ -883,7 +910,7 @@ incompatible things: wife, mistress &amp; friend.
       <title>离开老师办公室之后(一)</title>
       <link>/cn/tutor/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/tutor/</guid>
       <description>
         <![CDATA[
@@ -934,16 +961,49 @@ incompatible things: wife, mistress &amp; friend.
       <title>诗</title>
       <link>/cn/poetry/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/poetry/</guid>
       <description>
         <![CDATA[
-        <ol>
+        <h3 id="heading"></h3>
+<ol>
+<li>桃李出深井，花艳惊上春。（李白）</li>
+<li>人生在世不称意，明朝散发弄扁舟。（李白）</li>
+<li>岑夫子，丹丘生，将进酒，杯莫停。（李白）</li>
 <li>九曲黄河万里沙，浪淘风簸自天涯。<br>
 如今直上银河去，同到牵牛织女家。（唐·刘禹锡）</li>
 </ol>
 <blockquote>
-<p>译文：九曲黄河从遥远的地方蜿蜒奔腾而来，一路裹挟着万里的黄沙。你从天边而来，如今好像要直飞上高空的银河，请你带上我扶摇直上，汇集到银河中去，一同到牛郎织女家做客吧。</p>
+<p>九曲黄河从遥远的地方蜿蜒奔腾而来，一路裹挟着万里的黄沙。你从天边而来，如今好像要直飞上高空的银河，请你带上我扶摇直上，汇集到银河中去，一同到牛郎织女家做客吧。</p>
+</blockquote>
+<ol start="2">
+<li>君看一叶舟，出没风波里。</li>
+<li>草木蔓发，春山可望。</li>
+<li>恨我生，手无缚鸡之力，徒劳说。</li>
+<li>娇痴不怕人猜，和衣睡到人怀。</li>
+<li>垆边人似月，皓腕凝霜雪。</li>
+<li>仁则荣，不仁则厚。</li>
+<li>此生此夜不长好，明月明年何处看。</li>
+<li>治事必需通观全局，不可执一而论。</li>
+<li>行百里者半九十。</li>
+<li>一片花飞减却春，风飘万点正愁人。</li>
+<li>凭君莫话封侯事，一将功成万骨枯。（曹松）</li>
+<li>好话说破千言万语，不如干成实事一桩。（温家宝）</li>
+<li>纵有疾风起，人生不言弃。</li>
+<li>返景入深林，复照青苔上。</li>
+<li>花飞蝴蝶乱，桑嫩野蚕生。（辛弃疾）</li>
+<li>变化者，乃天地之自然。（葛洪）</li>
+<li>其行己也恭<br>
+其事上也敬<br>
+其养民也惠<br>
+其使民也义（孔子）</li>
+<li>取次花丛懒回顾，半缘修道半缘君。（元稹）</li>
+</ol>
+<blockquote>
+<p>曾经领略过苍茫的大海，就觉得别处的水相形见绌；<br>
+曾经领略过巫山的云霭，就觉得别处的云黯然失色；<br>
+即使身处万花丛中，我也懒于回头一望，<br>
+这也许是因为修道，也许是因为你的缘故吧。</p>
 </blockquote>
 
         
@@ -957,7 +1017,7 @@ incompatible things: wife, mistress &amp; friend.
       <title>秦老师的回信</title>
       <link>/cn/tutor/</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/tutor/</guid>
       <description>
         <![CDATA[
@@ -982,7 +1042,7 @@ incompatible things: wife, mistress &amp; friend.
       <title>同义替换</title>
       <link>/cn/synonymous-substitution/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/synonymous-substitution/</guid>
       <description>
         <![CDATA[
@@ -1063,7 +1123,7 @@ force n. 影响力，感染力；武力，力量
       <title>情绪词语</title>
       <link>/cn/emotional-words/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/emotional-words/</guid>
       <description>
         <![CDATA[
@@ -1124,7 +1184,7 @@ force n. 影响力，感染力；武力，力量
       <title>易混单词</title>
       <link>/cn/confusing-word/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/confusing-word/</guid>
       <description>
         <![CDATA[
@@ -1235,7 +1295,7 @@ adj. 沉默寡言的</p>
       <title>英译成语</title>
       <link>/cn/idiom/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      <author>唐 洁</author>
+      <author>Tan Jay</author>
       <guid>/cn/idiom/</guid>
       <description>
         <![CDATA[

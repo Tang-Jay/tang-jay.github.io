@@ -10,11 +10,32 @@
     
     
     <item>
-      <title>又挖宝了</title>
-      <link>/cn/yihui/</link>
+      <title>Typora&#43;Github&#43;Picgo</title>
+      <link>/cn/2022/08/02/picgo/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/yihui/</guid>
+      <guid>/cn/2022/08/02/picgo/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="此图仅记录用图成功">此图仅记录用图成功！</h2>
+<p style="text-align: center;">
+	<img src="https://raw.githubusercontent.com/Tang-Jay/imag/main/202208031714162.jpeg" alt="WechatIMG435" style="zoom:20%;" />
+	<img src="https://raw.githubusercontent.com/Tang-Jay/imag/main/202208031714158.jpeg" alt="WechatIMG436" style="zoom:16.7%;" />
+</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>又挖宝了</title>
+      <link>/cn/2022/08/02/yihui/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/08/02/yihui/</guid>
       <description>
         <![CDATA[
         <p>今日特别想做些喜欢的事情<br>
@@ -48,18 +69,30 @@
     
     
     <item>
-      <title>Typora&#43;Github&#43;Picgo</title>
-      <link>/cn/picgo/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <title>网文清单</title>
+      <link>/cn/2022/08/02/todo/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/picgo/</guid>
+      <guid>/cn/2022/08/02/todo/</guid>
       <description>
         <![CDATA[
-        <h2 id="此图仅记录用图成功">此图仅记录用图成功！</h2>
-<p style="text-align: center;">
-	<img src="https://raw.githubusercontent.com/Tang-Jay/imag/main/202208031714162.jpeg" alt="WechatIMG435" style="zoom:20%;" />
-	<img src="https://raw.githubusercontent.com/Tang-Jay/imag/main/202208031714158.jpeg" alt="WechatIMG436" style="zoom:16.7%;" />
-</p>
+        <h2 id="一些有趣的网文">一些有趣的网文</h2>
+<h3 id="关于网页">关于网页</h3>
+<ol>
+<li><a href="https://yufree.cn/cn/2018/03/24/blogdown-rss/">blogdown的rss阅读器</a></li>
+<li><a href="https://t.yihui.org">谢益辉推特</a></li>
+</ol>
+<h2 id="一些有用的网文">一些有用的网文</h2>
+<h3 id="关于统计">关于统计</h3>
+<ol>
+<li><a href="https://cosx.org/archives/">统计之都·谢益辉</a></li>
+<li><a href="https://mp.weixin.qq.com/s/BoIWAa70kmWNumu0BgiNsw">2022年R语言新书</a></li>
+</ol>
+<h3 id="关于科研">关于科研</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/-QVGsP87ap4tR6qsUts0IA">小编常用的科研网站</a></li>
+<li><a href="https://mp.weixin.qq.com/s/-IKX-opthHcSlZNHilLL1A">推荐3个英语论文写作神器</a></li>
+</ol>
 
         
         ]]>
@@ -70,10 +103,10 @@
     
     <item>
       <title>影视书清单</title>
-      <link>/cn/todolist/</link>
+      <link>/cn/2022/07/13/todo/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/todolist/</guid>
+      <guid>/cn/2022/07/13/todo/</guid>
       <description>
         <![CDATA[
         <h2 id="电影">电影</h2>
@@ -198,44 +231,11 @@
     
     
     <item>
-      <title>网文清单</title>
-      <link>/cn/todolist/</link>
-      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/todolist/</guid>
-      <description>
-        <![CDATA[
-        <h2 id="一些有趣的网文">一些有趣的网文</h2>
-<h3 id="关于网页">关于网页</h3>
-<ol>
-<li><a href="https://yufree.cn/cn/2018/03/24/blogdown-rss/">blogdown的rss阅读器</a></li>
-<li><a href="https://t.yihui.org">谢益辉推特</a></li>
-</ol>
-<h2 id="一些有用的网文">一些有用的网文</h2>
-<h3 id="关于统计">关于统计</h3>
-<ol>
-<li><a href="https://cosx.org/archives/">统计之都·谢益辉</a></li>
-<li><a href="https://mp.weixin.qq.com/s/BoIWAa70kmWNumu0BgiNsw">2022年R语言新书</a></li>
-</ol>
-<h3 id="关于科研">关于科研</h3>
-<ol>
-<li><a href="https://mp.weixin.qq.com/s/-QVGsP87ap4tR6qsUts0IA">小编常用的科研网站</a></li>
-<li><a href="https://mp.weixin.qq.com/s/-IKX-opthHcSlZNHilLL1A">推荐3个英语论文写作神器</a></li>
-</ol>
-
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
       <title>暑假开启</title>
-      <link>/cn/vacation/</link>
+      <link>/cn/2022/07/03/vacation/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/vacation/</guid>
+      <guid>/cn/2022/07/03/vacation/</guid>
       <description>
         <![CDATA[
         <p>宿舍四人，二位离校了。我以为我会很淡定，我会坚持到学校赶人，没想到我… …</p>
@@ -253,10 +253,10 @@
     
     <item>
       <title>初遇本站架构</title>
-      <link>/cn/glimpse/</link>
+      <link>/cn/2022/06/17/glimpse/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/glimpse/</guid>
+      <guid>/cn/2022/06/17/glimpse/</guid>
       <description>
         <![CDATA[
         <p>我无意浏览到该网页&ndash;<a href="https://yihui.org">谢益辉</a>&ndash;简洁干净的画面，井然有序的资料&hellip; 嘣！听弹壳落地的声音，我的心被狙中了💘，心猿意马形容我的心情都不为过，于是，我鼓励勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>

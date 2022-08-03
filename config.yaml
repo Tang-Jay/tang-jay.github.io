@@ -11,7 +11,7 @@ footnotereturnlinkcontents: "↩"
 rssLimit: 10
 
 permalinks:
-  blog: "/:sections/:year/:month/:day/:slug/"
+  cn: "/:sections/:year/:month/:day/:slug/"
 
 menu:
   main:

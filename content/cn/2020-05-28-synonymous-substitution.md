@@ -9,67 +9,68 @@ slug: synonymous-substitution
 disable_comments: true
 ---
 
-	ordeal = plight
-	obvious = apparent
-	to sequester oneself = to isolate oneself
-	bounce back = recover
-	irredeemable = hopeless
-	all but = almost
+## 同义替换
 
-	fraud 骗子
-	= phoney
-	= fraudulence
-	= fake
+- ordeal = plight
+- obvious = apparent
+- to sequester oneself = to isolate oneself
+- bounce back = recover
+- irredeemable = hopeless
+- all but = almost
+- fraud 骗子  
+  = phoney  
+  = fraudulence  
+  = fake  
 
-	cost the earth 代价惨重；花费一大笔钱，极其昂贵
-	= cost a bomb
-	= cost an arm and a leg
+- cost the earth 代价惨重；花费一大笔钱，极其昂贵  
+  = cost a bomb  
+  = cost an arm and a leg  
 
-	play on 利用（某人的弱点）
-	= exploit
+- play on 利用（某人的弱点）  
+  = exploit  
 
-	sate v. 满足（欲望）
-	= satisfy
-	
-	en vogue流行
-	= in vogue
-	
-	get hitched 结婚
-	= to get married
+- sate v. 满足（欲望）  
+  = satisfy  
 
-	purveyor 散布者；供应者
-	= supply
+- en vogue流行  
+  = in vogue  
 
-	protracted 延续很久的,长期的
-	= prolonged
+- get hitched 结婚  
+  = to get married  
 
-	make it v. 继续生存，存活
-	= survive
+- purveyor 散布者；供应者  
+  = supply  
 
-	novice 新手，初学者
-	= rookien
+- protracted 延续很久的,长期的  
+  = prolonged  
 
-	discernible 可察觉的，明显的
-	= observable
+- make it v. 继续生存，存活  
+  = survive 
 
-	entice v. 引诱
-	entice/invite/persuade/convince sb. to do sth.
-	attract sb. to do sth. / attract sb. to sth. 错误的事
+- novice 新手，初学者  
+  = rookien
 
-	lavish adj. 奢华的；大方的
-	= luxurious
+- discernible 可察觉的，明显的  
+  = observable
 
-	cachet n. 威望
-	= prestige
+- entice v. 引诱  
+  entice/invite/persuade/convince sb. to do sth.  
+  attract sb. to do sth. / attract sb. to sth. 错误的事
 
-	affront n. 侮辱
-	= insult
+- lavish adj. 奢华的；大方的  
+  = luxurious
 
-	portrayal n.描绘，描述
-	= depict
+- cachet n. 威望  
+  = prestige
 
-	slump n. 低迷期，萧条期；锐减，猛跌 v. 锐减，猛跌
-	= collapse
+- affront n. 侮辱  
+  = insult
 
-	force n. 影响力，感染力；武力，力量
-	= charisma
+- portrayal n.描绘，描述  
+  = depict
+
+- slump n. 低迷期，萧条期；锐减，猛跌 v. 锐减，猛跌  
+  = collapse
+
+- force n. 影响力，感染力；武力，力量  
+  = charisma

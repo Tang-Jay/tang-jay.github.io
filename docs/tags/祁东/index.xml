@@ -5,12 +5,162 @@
     <description>Recent content in 祁东 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Aug 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E7%A5%81%E4%B8%9C/" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>暑假开启</title>
+      <title>心情低落干点啥</title>
+      <link>/cn/2022/08/13/daily/</link>
+      <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/08/13/daily/</guid>
+      <description>
+        <![CDATA[
+        <!-- 投稿十天，今天收到被拒消息，难过到不是被拒，而是要继续改。多历练吧，加油 -->
+<p>心情不是很好  我该干点啥<br>
+当然是写日记啦<br>
+一篇日记能承载什么 <br>
+啥也不能 但是慢慢梳理<br>
+可以自己回归平静<br>
+日记一直是自己很好的治愈方式</p>
+<p>从小学三年级开始<br>
+老师就开始要求每天一篇日记<br>
+那时候
+日记仅仅是作业  是任务<br>
+是不完成就要挨批评的严肃事情</p>
+<p>依稀记得 放学回家<br>
+我摊开自己的田字方格本<br>
+为了完成任务开始写日记<br>
+这天母亲特别有闲情<br>
+想检查一下我的作业完成质量<br>
+一看我写的流水账日记<br>
+顿时 眉头紧锁 闷海愁山<br>
+心生失望<br>
+她让我把我写的那页纸撕掉<br>
+抄录一些好词好句交上去</p>
+<p>幼小的我 弱小的我<br>
+一边是母亲的命令 不敢违抗<br>
+又觉得摘抄再好也文不对题呀<br>
+一边是老师的要求 不敢忤逆<br>
+又觉得自己的作业难以给个交代<br>
+第二天交作业上去<br>
+我的内心应该是惴惴不安的<br>
+害怕老师说我不认真对待作业<br>
+批评我在偷懒<br>
+我竟然忘记了  最后我到底挨批评没有<br>
+但是 我在这之后每次独立写的作业里<br>
+还是老老实实写 写得不好 也没有抄<br>
+内心还是觉得这是日记本 不是抄录本</p>
+<p>现在想来<br>
+我真想翻开那时给老师批阅过的日记本<br>
+看看稚气的自己都写了啥<br>
+小小小的自己都在想啥<br>
+那些小小的烦恼还有吗<br>
+那些小小的快乐还在吗</p>
+<p>可惜 我升中学了 要回老家了<br>
+那些东西都作为不重要的物件<br>
+遗落在时光里 成为秘密<br>
+但是 写日记的习惯保留了下来</p>
+<p>写日记本是一件习惯的事<br>
+但是也成为了<br>
+老妈了解她女儿的途径<br>
+青春期的我察觉到了这件事<br>
+故意在日记里说老妈坏话<br>
+老妈果然很生气 然后当面问罪我<br>
+她并不知道 我就是故意的<br>
+其实她在我心中的形象并没有那么坏<br>
+可我就是想气气她<br>
+现在想来 我的青春真的很多荒唐事<br>
+都很小心眼</p>
+<p>那都是18岁的事了<br>
+现在写日记<br>
+也不再是完成任务 或是解气了<br>
+文笔没有提升 全当记录了</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>论文教会我的事</title>
+      <link>/cn/2022/08/07/paper/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/08/07/paper/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>真实，事实，细心+耐心，共享+尊重，辩证，坚持。</p>
+</blockquote>
+<hr>
+<ol>
+<li>真实</li>
+</ol>
+<blockquote>
+<p>做人是做事的前提，做事映照做人。做论文，尤其实验数据需要还原真实，能让别人可以复刻出来，那么就不能虚荣，不能舞弊，要真实地记录。</p>
+</blockquote>
+<ol start="2">
+<li>事实</li>
+</ol>
+<blockquote>
+<p>事实，指对于这个知识，知之为知之，不知为不知。计算推导的每一步都要尊重客观规律，不能臆想不能自创，要在书中找到依据。要客观，不能主观，想当然。</p>
+</blockquote>
+<blockquote>
+<p>比如，我在推导中就自创了解法，结果被老师提问出来，被发现是错的。真的很羞愧。
+已知 <code>$a_nb_n^{-1} \to 0$</code>，求 <code>$a_n^{-1}b_n  \to ?$</code></p>
+<blockquote>
+<p>我: 由条件可知 <code>$a_nb_n^{-1} \to 0 \implies a_n = o(b_n)  $</code>，得
+$$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
+师: <code>$ a_n^{-1}b_n = o(b_n)^{-1}b_n= o(1)^{-1}b_n^{-1}b_n=o(1)^{-1} \to \infty .$</code></p>
+</blockquote>
+</blockquote>
+<ol start="4">
+<li>细心+耐心</li>
+</ol>
+<blockquote>
+<p>细心不仅是体现在计算上面，更体现在写作。你会发现，国语写作都有很多语法错误格式错误，何况外语。段落与段落，段落间的句子与句子，都是有讲究的。我还不会，仍在学。但辛苦的就是老师了！与其教你写，老师真的不如自己写🤦‍♀️，老师可能需要花费更多的精力，检查你是否有语法错误，段落安排是否恰当，需要删减或增加什么内容&hellip;这真的是个必须心静心细又磨人的活。我的老师，从来没有抱怨，或者他没有向你有过一句批评，他认真负责地做事并给予我们论文小白以包容。</p>
+</blockquote>
+<blockquote>
+<p>老师自己写了某个领域的一篇综述，开学的时候就发给我们看了，在我们眼里是很完整的稿件了，直接能投了。等到了期末，老师还在修改，还给我们看他修改出来的问题哪里哪里哪里，要怎么怎么怎么改。我问，这些问题是编辑社那边提出来的吗？老师说不是，他还没有投出去，是我自己检查看出来的。我们眼中，完美；老师眼中，瑕疵。我感受到什么叫慢工出精品。</p>
+</blockquote>
+<blockquote>
+<p>细心和耐心，是我学习论文过程中，在老师身上学到的，不急于求成，事情桩桩件件办漂亮。（老师也不是从来不急，我们找他帮忙看论文什么的，他都会以我们为主，又好又快地给出意见，好是主基调。）</p>
+</blockquote>
+<ol start="5">
+<li>共享+尊重</li>
+</ol>
+<blockquote>
+<p>我对世界的了解真的很少，说自己是井底之蛙一点都不错。进入研究生阶段进行学习，仿佛踏入另一个世界，这个世界我从没知道过。我不知道知识原来是以一篇篇论文的形式出现，它首先出现在某个科学家的脑海，然后通过实践进行验证，写成论文发表，被伯乐识中，得到普及并扩大影响。如果这个知识到了每个人都应该知道的地步，就会写成教材，面向很广的群众。如此可见，小初高的教材那叫“通识”（通识，是我听秦导提过，那时我并没有悟到），换而言之，属于基本常识，每个领域最基础的东西，对于浩渺的知识海洋，那些都微不足道，但是掌握了，最起码有进入这个领域的入场券了。</p>
+</blockquote>
+<blockquote>
+<p>这些学者们辛苦得到的东西，愿意与他人共享自己的成果，我真的觉得了不起。无私也好，功利也罢，这件事情的本身就很有意义。从前面的论述中也知道，写一篇论文不容易，要严谨简洁通俗，探索知识可就更不容易了，总之，不是一件好玩的事情。难怪别人说，当一名学者是反人类的，我们从远古进化而来，一直在丛林里穿梭，我们变得直立行走时为了更好地活动，但是当一名学者最基本的就是要坐得住呀，还要克服惰性散漫，等等。所以，尊重是我该有的态度。</p>
+</blockquote>
+<ol start="6">
+<li>辩证</li>
+</ol>
+<blockquote>
+<p>要辩证地对待，这是最难受的地方，也是学术向前进步的原动力。已然把学者们和学者们的作品升上一个高度，你还不能像拜佛一样，盲目崇拜，那就变成迷信了，还是要以科学的眼光对待，用辩证法分析。用老师的话说，虽然这很难。</p>
+</blockquote>
+<ol start="7">
+<li>坚持</li>
+</ol>
+<blockquote>
+<p>在这群高智商人群里，努力显得很寻常，难能可贵的是坚持，日复一日，年复一年。暂不说，坚持努力是指数增长吧，想想保证质量的坚持日日年年，这是多恐怖的事情。贪玩不是问题，不偷懒才是关键。</p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>2022暑假开启</title>
       <link>/cn/2022/07/03/vacation/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
@@ -22,6 +172,45 @@
 <p>离开老师办公室之后呢，我回家的计划由14号变8号，最后我干脆买了今天3号的票，回家了。</p>
 <p>我以闪电的速度回到了家，老爸接的我，几年不见，我看到了他的白丝。今天算是赶上了，过年家里五个人都没有齐过，此刻家里成员到齐，一桌子菜，絮絮叨叨。很快，晚饭结束，有两人要离开祁东了，家里剩下三个人。</p>
 <p>不论怎么说，我回来了，我胡汉三回来啦。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>收到婚帖</title>
+      <link>/cn/2022/06/21/%E6%94%B6%E5%88%B0%E5%A9%9A%E5%B8%96/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/06/21/%E6%94%B6%E5%88%B0%E5%A9%9A%E5%B8%96/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="祝福">祝福</h2>
+<p>《围城》书稿出版后，钱钟书在自留的样本上写道：</p>
+<blockquote>
+<p>To C.K.Y</p>
+<blockquote>
+<p>An almost impossible combination of incompatible things: wife, mistress &amp; friend.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>赠予季康</p>
+<blockquote>
+<p>绝无仅有的结合了各不相容的三者：妻子、情人、朋友。我的朋友，我平日少言但我祝愿你们如钱钟书与杨绛一般恩爱如初。</p>
+</blockquote>
+</blockquote>
+<ol>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDY3OTE4MTFmaXJlX2Nsb3Vk#/">小雪</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDY0NDE3NTVmaXJlX2Nsb3Vk#/">小丽</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDQ3ODcwMTFmaXJlX2Nsb3Vk#/">叶子</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NDkxMTE2OTJmaXJlX2Nsb3Vk#/">小溪</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NTAzNTk3NDZmaXJlX2Nsb3Vk#/">小昱</a></li>
+<li><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NTI4NTc0MDlmaXJlX2Nsb3Vk#/">刘兄</a></li>
+<li><a href="https://www.hunliji.com/p/frontend/creation-platform/app-preview-wedding-card/dist/index.html?cardId=NjgyNjg1MzFmaXJlX2Nsb3Vk#/">铃子</a></li>
+</ol>
 
         
         ]]>

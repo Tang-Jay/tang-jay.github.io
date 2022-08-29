@@ -346,7 +346,12 @@
       <guid>/cn/2022/07/26/paper_skill/</guid>
       <description>
         <![CDATA[
-        <h2 id="摘要">摘要</h2>
+        <h2 id="原则">原则</h2>
+<ol>
+<li>公式简洁</li>
+<li>突出亮点（人无你有）</li>
+</ol>
+<h2 id="摘要">摘要</h2>
 <h3 id="提出问题">提出问题</h3>
 <ol>
 <li>The ** is a ** problem.</li>
@@ -410,6 +415,7 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
 <li>Section 1 describes **.</li>
 <li>a summary is given in Section 5.</li>
 </ol>
+<h2 id="词藻">词藻</h2>
 <h3 id="否定">否定</h3>
 <ol>
 <li>insufficient</li>

@@ -9,6 +9,10 @@ slug: paper_skill
 disable_comments: true
 ---
 
+## 原则
+1. 公式简洁
+2. 突出亮点（人无你有）
+
 ## 摘要
 ### 提出问题
 1. The ** is a ** problem.
@@ -68,6 +72,9 @@ disable_comments: true
 1. The rest of the paper is explained as follows:
 1. Section 1 describes **.
 1. a summary is given in Section 5.
+
+
+## 词藻 
 
 ### 否定
 1. insufficient

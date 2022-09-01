@@ -10,6 +10,31 @@
     
     
     <item>
+      <title>老师，缓解你的精神内耗</title>
+      <link>/tutor/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tutor/</guid>
+      <description>
+        <![CDATA[
+        <p>精神内耗<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：人物。<a href="https://mp.weixin.qq.com/s/ny-M_C24iSBgd4HYjubhAQ">有没有一个时刻，让你意识到「原来，这样也没关系」?</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>日志</title>
       <link>/cn/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
@@ -27,47 +52,13 @@
     
     <item>
       <title></title>
-      <link>/2022-00-00-/</link>
+      <link>/tutor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/2022-00-00-/</guid>
+      <guid>/tutor/</guid>
       <description>
         <![CDATA[
-        <ol>
-<li><input checked="" disabled="" type="checkbox"> </li>
-</ol>
-<p>杨绛先生<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>说：</p>
-<p><code>${a_n^{-1}b_n  \to ?$</code></p>
-<!--# 这是 -->
-<!--  这是 -->
-<p><font style="background-color: #ffffcc;">数学计算</font></p>
-<pre><code class="language-·~~~·~~~·~~~·~~~·~~~·~~~·~~~·~~~·~~~·~~~·~~~">
-
-~~998 只要 998~~ 98 人民币
-
-域名^[后面三个域名暂时请不要访问，几盘大棋还没摆好。]
-
-``r
-&gt; expand.grid(long = c(2.24, 4.27, 8.24), lat = c(3.1, 6.4, 7.4))
-  long lat
-1 2.24 3.1
-9 8.24 7.4
-```
-
-1 \| 2
-
----
-
-</code></pre>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p><a href="https://mp.weixin.qq.com/s/Dz8nUlZR1ufNnvHfWyED2w">《特别关注》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-
+        
         
         ]]>
       </description>
@@ -134,7 +125,7 @@
 <li>本科感悟：除了课内学习，我还参加了许多课外活动，比如：考证（C++程序语言设计国家计算机二级等级证书、会计从业资格证、英语四级），比赛（数学建模、演讲比赛、英语演讲比赛、辩论赛、数学竞赛），练习口语（参加点亮英语集训营）、创业（一分钟快照）、实习（祁东启航学校中学部）等等。这一时期，我把自己塞得满满当当的，因为不知道自己怎样做是最好，就都尝试一遍。回头看，还是很感谢这段时间的自己，虽然有些盲目但一直在努力。</li>
 </ul>
 <h2 id="英语水平">英语水平</h2>
-<p>447 分通过六级考试，口语未开发过，听力水平欠缺，阅读基本无碍，写作仍需锻炼。</p>
+<p>通过六级考试，口语未开发过，听力水平欠缺，阅读基本无碍，写作仍需锻炼。</p>
 <h2 id="计算机水平">计算机水平</h2>
 <p>对 R、Python 更熟悉。</p>
 <ul>
@@ -148,6 +139,10 @@
 </ul>
 </li>
 </ul>
+<!-- https://zscx.neea.edu.cn/html1/folder/22014/5516-1.htm -->
+<!-- 三级网络技术:  准考证号: 3543430022011020   证书编号:35434304541407  -->
+<!-- 二级C++: 	 准考证号: 2439430022043520   证书编号:24394303293402  -->
+<!-- 二级Python:   准考证号: 6662450042010156   证书编号:66624501807803  -->
 <h2 id="发表成果">发表成果</h2>
 <h3 id="中文论文">中文论文</h3>
 <ol>

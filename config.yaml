@@ -7,7 +7,7 @@ disqusShortname: "tanjay"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
-footnotereturnlinkcontents: "↩"
+footnotereturnlinkcontents: "⭐︎"
 rssLimit: 10
 
 permalinks:

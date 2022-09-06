@@ -5,8 +5,263 @@
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>刘润语录</title>
+      <link>/cn/2022/09/06/liurun/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/06/liurun/</guid>
+      <description>
+        <![CDATA[
+        <ol>
+<li>开挂的人生，有<a href="https://mp.weixin.qq.com/s/InWLfSVS1l_d0uz9r7by6w">三条路</a>，体育生（靠努力），数学生（靠脑力）和艺术生（靠技能）。</li>
+</ol>
+<blockquote>
+<p>看完文章才懂得，自己学的数学走的体育生的路，哈哈。不过我觉得体育生是基础，可以体育生+数学生，体育生+艺术生，体育生+数学生+艺术生～  如果可以选的话🤔，我的心告诉我，我更倾向于艺术生，自由、偏执、自我。我愿意让自己尝试做任何事情，不擅长的，无用的，但是要做的话，我都会沉浸体验，认真做，至少像那么回事（理想是这样），从过程中获得满足感。</p>
+</blockquote>
+<ol start="2">
+<li>如何摆脱过早在低层次形成<a href="https://mp.weixin.qq.com/s/1Wgk7HOzRxuk4mjhFFizlw">认知闭环</a>？首先我们通过看书扩大自己的认知闭环，然后，通过走出去检验自己的认知闭环，比如，多见人、多看、多听。</li>
+</ol>
+<blockquote>
+<p>原文说：“我们生活在固有认知的高墙里，书就是用来凿壁偷光的。” 一下子对小时候学的课文《凿壁借光》有了新的理解，这个‘光’，有看得见的光，煤油光，有看不见的光，知识的光。看得见的光照耀在课本上，看不见的光透过心墙照进心田。小时候只是觉得，这个人真努力，那么艰苦也要为学习创造条件，我们应该珍惜日光灯，现在觉得，这个人是受那个突破自我边界的光深深的吸引，古之贤者在书中与他会晤，告诉他，人穷志不能穷，告诉他，达则兼济天下，穷则独善其身，等等，等等。</p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>成甲语录</title>
+      <link>/cn/2022/09/04/note/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/04/note/</guid>
+      <description>
+        <![CDATA[
+        <p>原文<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>讲述了一个学习公式，学习 <code>$=$</code> 改变，改变 <code>$=$</code> 尝试 <code>$\times$</code> 反思 <code>$\times$</code> 对标 <code>$\times$</code> 圈子。文章写得挺有好👍，奈何吸收不了🤦‍♀️，那就挑喜欢的抄一下吧✌️。</p>
+<ol>
+<li>
+<p>努力做一个快乐的、无知无畏的、对世界充满好奇的小学生。</p>
+</li>
+<li>
+<p>理想主义者不要求环境是完全理想的，但理想主义者不放弃，对于理想的追求。</p>
+</li>
+</ol>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>特别关注</em>。<a href="https://mp.weixin.qq.com/s/ZiZbYQlCbMYNsfYNGWSvpg">学习，没有捷径</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Borel-Cantelli引理</title>
+      <link>/cn/2022/09/03/borel-cantelli/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/03/borel-cantelli/</guid>
+      <description>
+        <![CDATA[
+        <p>这是一篇摘记<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
+<h2 id="引理作用">引理作用</h2>
+<p>Borel-Cantelli引理是概率论中一个很重要的引理。该引理可以帮忙我们理解<strong>几乎处处收敛</strong>和<strong>依概率收敛</strong>之间的关系，也可用于论证强相合性和强大数律等。为说明该引理，法国数学家博雷尔(Émile Borel, 1871-1956)在1913年介绍了“打字的猴子”的概念。无限猴子定理指出，一个在打字机键盘上随机敲打键盘的猴子，只要时间无限长，那么它几乎肯定会键入任何给定的文本，例如莎士比亚全集。</p>
+<h2 id="引理由来">引理由来</h2>
+<p><strong>定义1</strong> <code>$\quad$</code> 设<code>$\{X_n,n \ge 1\}$</code> 是随机变量序列，若存在随机变量<code>$X$</code>使得
+$$Pr\left(\omega \in \Omega: \lim_{n \to \infty} X_n(\omega)=X(\omega)\right)=1,$$
+则称随机变量序列<code>$\{X_n,n \ge 1\}$</code>几乎必然收敛（或以概率1收敛）于<code>$X$</code>，记为<code>$X_n \to X, a.s.$</code>。</p>
+<p><strong>定义2</strong> <code>$\quad$</code> 设<code>$\{X_n,n \ge 1\}$</code> 是随机变量序列，若存在随机变量<code>$X$</code>使得对任意的<code>$\epsilon &gt; 0$</code>，有
+$$\lim_{n \to \infty} Pr(|X_n-X|\ge\epsilon)=0,$$
+则称随机变量序列<code>$\{X_n,n \ge 1\}$</code>依概率收敛于<code>$X$</code>， 记为<code>$X_n \stackrel{p}{\longrightarrow} X$</code>。</p>
+<p><strong>定理1</strong> <code>$\quad$</code> <code>$X_n \implies X, a.s.$</code> 等价于<code>$\forall \epsilon &gt; 0$</code>，
+$$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|X_n-X|&gt;\epsilon)=0。$$</p>
+<p><strong>总结</strong> <code>$\quad$</code> 几乎处处收敛考察的是不收敛的样本点的概率是否为 0，而依概率收敛则考察<code>$X_n$</code>和<code>$X$</code>差异的尾概率是否趋于 0。定理1给出几乎处处收敛的等价定义，可知，几乎处处收敛<code>$\implies$</code>依概率收敛。那么在什么条件下，依概率收敛<code>$\implies$</code>几乎处处收敛呢？对此，Borel-Cantelli第一引理给出了答案。</p>
+<h2 id="引理内容">引理内容</h2>
+<p><strong>引理1</strong> <code>$\quad$</code> 设<code>$\{A_n, n=1,2,\cdots\}$</code>是一列事件，若<code>$\sum_{n=1}^{\infty}Pr(A_n)&lt;\infty$</code>，则<code>$Pr(A_n,i.o)=0 $</code>。</p>
+<p>令<code>$A_n=\{|X_n-X|&gt;\epsilon\}$</code>，则可知依概率收敛仅要求级数的每一项<code>$Pr(A_n)$</code>趋于0。而几乎处处收敛要求更高一点，需要对应的级数是收敛的(充分条件)，这就要求级数的每一项<code>$Pr(A_n)$</code>趋于0的速度要快一点。</p>
+<p><strong>引理1推论</strong> <code>$\quad$</code> 依概率收敛可以推出子列几乎处处收敛。</p>
+<p><strong>引理2</strong> <code>$\quad$</code> 设<code>$\{A_n, n=1,2,\cdots\}$</code>是独立的事件列，若<code>$\sum_{n=1}^{\infty}Pr(A_n)=\infty$</code>，则<code>$Pr(A_n,i.o)=1 $</code>。</p>
+<p>下面给出一个简单的例子予以说明引理2。假设我们抛掷一个骰子无穷多次，那么骰子正面出现数值6无穷多次的概率是多少？答案是1。实际上令<code>$A_n$</code>表示第<code>$n$</code>次抛掷出现6，容易知道<code>$Pr(A_n)=1/6$</code>，而且<code>$\{A_n,\ge 1\}$</code>之间相互独立，从而<code>$\sum_{n=1}^{\infty}Pr(A_n)=\sum_{n=1}^{\infty}1/6=\infty$</code>，因此，<code>$A_n$</code>发生无穷多次的概率是1。换而言之，只要某一事件可能发生，即使发生的概率非常非常小，同时不同事件相互独立，则该事件在无限长时间内几乎必然发生。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>郭老师统计小课堂</em>。 <a href="https://mp.weixin.qq.com/s/XyfP9-ZTr_rb9CufIwkCDA">Borel-Cantelli引理</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>《手把手教你雅思写作剑12》</title>
+      <link>/cn/2022/09/02/writing/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/02/writing/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="雅思写作主要学习方法">雅思写作主要学习方法</h2>
+<h3 id="如何做句子翻译练习来更好地提升写作能力">如何做句子翻译练习来更好地提升写作能力</h3>
+<ol>
+<li>英文地道，拒绝中式英语。</li>
+<li>英文能在书面和口语交流中用到。</li>
+<li>句子翻译，即中文到English，翻译过程中，词伙的使用和句子结构的掌握是关键。</li>
+</ol>
+<h3 id="翻译">翻译</h3>
+<p>翻译遵循的步骤：</p>
+<blockquote>
+<p>第一步，思考词伙；</p>
+</blockquote>
+<blockquote>
+<p>第二步，找<a href="/cn/2022/09/02/cihuo/">词伙</a>，查看答案用的什么词伙；</p>
+</blockquote>
+<blockquote>
+<p>第三步，用什么<a href="/cn/2022/09/02/sentence/">句子结构</a>；</p>
+</blockquote>
+<blockquote>
+<p>第四步，如果句子写错了，要看自己<a href="/cn/2022/09/02/error/">错在哪里</a>。</p>
+</blockquote>
+<p>翻译的基础：</p>
+<blockquote>
+<p>词性</p>
+</blockquote>
+<blockquote>
+<p>简单句</p>
+</blockquote>
+<blockquote>
+<p>复杂句</p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>句子结构</title>
+      <link>/cn/2022/09/02/sentence/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/02/sentence/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="判别句子结构">判别句子结构</h2>
+<ol>
+<li>
+<p>&ldquo;是个&rdquo; <code>$ \implies $</code> 主系表</p>
+</li>
+<li>
+<p>&ldquo;以<code>$ \cdots $</code> 而出名&rdquo; <code>$ \implies $</code> 主系表 are famous / well-known for</p>
+</li>
+</ol>
+<blockquote>
+<p>famous as 作为什么而出名 ❌</p>
+</blockquote>
+<ol>
+<li>
+<p>&ldquo;一直在&rdquo; <code>$ \implies $</code> 主系表 has been</p>
+</li>
+<li>
+<p>&ldquo;已经成为&rdquo; <code>$ \implies $</code> 主系表 has become</p>
+</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>总结错误</title>
+      <link>/cn/2022/09/02/error/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/02/error/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="错过的地方">错过的地方</h2>
+<ol>
+<li>一些国家的人如果犯罪会面临长期服刑。<br>
+People in some countries <strong>have to</strong> face <strong>a long prison term</strong> if they <strong>commit crimes</strong>.</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>词伙</title>
+      <link>/cn/2022/09/02/cihuo/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/02/cihuo/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="积累词伙">积累词伙</h1>
+<h2 id="名词性短语">名词性短语</h2>
+<p>学费 = tuition fee</p>
+<p>旅游旺季 = tourist season</p>
+<p>交通噪声 = traffic noise</p>
+<p>很大的问题 = a serious / severe problem</p>
+<p>丰富的历史 = rich history</p>
+<p>历史的 / 壮观的建筑 = historical / spectacular / monumental / ancient buildings</p>
+<p>没有错误的句子 = error-free sentences</p>
+<p>汽车和飞机的尾气 = the emissions from vehicles and planes</p>
+<blockquote>
+<p>冠词 + 名词 + 介宾短语</p>
+</blockquote>
+<p>相互交流的机会 = opportunities to communicate with each other</p>
+<p>惯例 = the norm</p>
+<p>有限的职位 = limited positions</p>
+<blockquote>
+<p>相关词汇 ： 应聘者 job applicants</p>
+</blockquote>
+<p>积累财富 = accumulate wealth</p>
+<p>幸福繁荣的社会 = happy and prosperous society</p>
+<p>生活拮据的人 = those who live on a tight budget</p>
+<p>减税 = tax reductions</p>
+<h3 id="法律词汇">法律词汇</h3>
+<p>犯罪 = commit crimes</p>
+<p>长期服刑 = a long prison term</p>
+<p>重犯 = serious offenders</p>
+<p>送到监狱 = sent to prison</p>
+<p>减少犯罪 = deter crime</p>
+<h2 id="动词性短语">动词性短语</h2>
+<p>对（做什么的人）有好处 = are beneficial to those who do sth.</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -21,11 +276,13 @@
 <p>2022年的暑假学习写英文论文，秦老师很耐心地批改我难以言喻的中式英语，真的感谢我的老师，没有批评我一句，为此，我更希望全方位提高自己英语水平，莫给老师添负担。</p>
 </blockquote>
 <hr>
-<h2 id="计划">计划</h2>
-<h3 id="听">听</h3>
-<h3 id="说">说</h3>
-<h3 id="读">读</h3>
-<h3 id="写">写</h3>
+<h2 id="听">听</h2>
+<h2 id="说">说</h2>
+<h2 id="读">读</h2>
+<h2 id="写">写</h2>
+<ol>
+<li><a href="/cn/2022/09/02/writing">《手把手雅思写作剑12》顾家北</a></li>
+</ol>
 <h2 id="资源">资源</h2>
 <ol>
 <li>
@@ -353,7 +610,7 @@
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://mp.weixin.qq.com/s/Dz8nUlZR1ufNnvHfWyED2w">《特别关注》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>《特别关注》</em> 。<a href="https://mp.weixin.qq.com/s/Dz8nUlZR1ufNnvHfWyED2w">一个人内心越来越强大的3个迹象</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

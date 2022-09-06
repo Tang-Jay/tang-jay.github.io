@@ -21,11 +21,13 @@
 <p>2022年的暑假学习写英文论文，秦老师很耐心地批改我难以言喻的中式英语，真的感谢我的老师，没有批评我一句，为此，我更希望全方位提高自己英语水平，莫给老师添负担。</p>
 </blockquote>
 <hr>
-<h2 id="计划">计划</h2>
-<h3 id="听">听</h3>
-<h3 id="说">说</h3>
-<h3 id="读">读</h3>
-<h3 id="写">写</h3>
+<h2 id="听">听</h2>
+<h2 id="说">说</h2>
+<h2 id="读">读</h2>
+<h2 id="写">写</h2>
+<ol>
+<li><a href="/cn/2022/09/02/writing">《手把手雅思写作剑12》顾家北</a></li>
+</ol>
 <h2 id="资源">资源</h2>
 <ol>
 <li>
@@ -104,7 +106,7 @@
       <guid>/cn/2022/08/11/todo/</guid>
       <description>
         <![CDATA[
-        <h2 id="书籍">书籍</h2>
+        <h2 id="课外读物">课外读物</h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《理想国》</li>
 <li><input disabled="" type="checkbox"> 《大英博物馆世界简史》</li>
@@ -123,6 +125,25 @@
 <li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/06/26/yangjiang/">《杨绛传》</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/yangxi/">《从一到无穷大》</a></li>
 </ol>
+<h2 id="推荐系统-1">推荐系统<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《数据挖掘导论》</li>
+<li><input disabled="" type="checkbox"> 《Python数据科学手册》</li>
+<li><input disabled="" type="checkbox"> 《精通数据科学：从线性回归到深度学习》</li>
+<li><input disabled="" type="checkbox"> 《精通特征工程》</li>
+<li><input disabled="" type="checkbox"> 《深入理解XGBoost：高效机器学习算法与进阶》</li>
+<li><input disabled="" type="checkbox"> 《推荐系统实战》</li>
+<li><input disabled="" type="checkbox"> 《深度学习推荐系统》</li>
+<li><input disabled="" type="checkbox"> 《美团机器学习实战》</li>
+</ol>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">《送你一份推荐系统学习资料》</a>。<a href="https://pan.baidu.com/s/1LMcqycuwXZbrS-w44Oz6ZQ?pwd=480z">资源下载</a>。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
         
         ]]>
@@ -207,7 +228,7 @@
 <li>《垫底辣妹》</li>
 <li>《让子弹飞》</li>
 <li>《肖申克的救赎》✔️</li>
-<li>《阳光灿烂的日子》✔️</li>
+<li><a href="https://mp.weixin.qq.com/s/aTCGEGgN_xwI8p24xWpDpg">《阳光灿烂的日子》</a>✔️</li>
 <li>《三傻大闹宝莱坞》✔️</li>
 <li>《美丽人生》</li>
 <li>《楚门的世界》</li>

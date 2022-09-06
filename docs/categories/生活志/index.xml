@@ -5,8 +5,33 @@
     <description>Recent content in 生活志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>努力有多少种理由</title>
+      <link>/cn/2022/09/06/reasons/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/06/reasons/</guid>
+      <description>
+        <![CDATA[
+        <p>小A的理由，为了创造新世界，努力改变旧世界。</p>
+<p>小B的理由，为了心头所爱，努力钻研。</p>
+<p>小N的理由，为了不后悔，不留退路地努力。</p>
+<p>小Q的理由，不为啥，不做点啥太无聊。</p>
+<p>小T的理由，为了体验，努力尝试。</p>
+<p>小X的理由，为了不受良心谴责，努力完成手头的任务。</p>
+<p>小Y的理由，为了心中所愿，努力满足社会的要求。</p>
+<p><code>$\vdots$</code></p>
+<p>我觉得，不论是出于功利还是非功利的目的，在努力就是极好的了，虽然不同想法带来的结果不同。社会还是需要愿意学习，愿意努力的人，人人都不求进步，那社会岂不是得倒退了。在各种各样的理由中找到一个自己的理由，努力在进步也是对社会有贡献了。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -126,7 +151,7 @@
       <guid>/cn/2022/08/11/todo/</guid>
       <description>
         <![CDATA[
-        <h2 id="书籍">书籍</h2>
+        <h2 id="课外读物">课外读物</h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《理想国》</li>
 <li><input disabled="" type="checkbox"> 《大英博物馆世界简史》</li>
@@ -145,6 +170,25 @@
 <li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/06/26/yangjiang/">《杨绛传》</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/yangxi/">《从一到无穷大》</a></li>
 </ol>
+<h2 id="推荐系统-1">推荐系统<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《数据挖掘导论》</li>
+<li><input disabled="" type="checkbox"> 《Python数据科学手册》</li>
+<li><input disabled="" type="checkbox"> 《精通数据科学：从线性回归到深度学习》</li>
+<li><input disabled="" type="checkbox"> 《精通特征工程》</li>
+<li><input disabled="" type="checkbox"> 《深入理解XGBoost：高效机器学习算法与进阶》</li>
+<li><input disabled="" type="checkbox"> 《推荐系统实战》</li>
+<li><input disabled="" type="checkbox"> 《深度学习推荐系统》</li>
+<li><input disabled="" type="checkbox"> 《美团机器学习实战》</li>
+</ol>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">《送你一份推荐系统学习资料》</a>。<a href="https://pan.baidu.com/s/1LMcqycuwXZbrS-w44Oz6ZQ?pwd=480z">资源下载</a>。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
         
         ]]>
@@ -365,7 +409,7 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
 <li>《垫底辣妹》</li>
 <li>《让子弹飞》</li>
 <li>《肖申克的救赎》✔️</li>
-<li>《阳光灿烂的日子》✔️</li>
+<li><a href="https://mp.weixin.qq.com/s/aTCGEGgN_xwI8p24xWpDpg">《阳光灿烂的日子》</a>✔️</li>
 <li>《三傻大闹宝莱坞》✔️</li>
 <li>《美丽人生》</li>
 <li>《楚门的世界》</li>

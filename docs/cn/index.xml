@@ -3962,41 +3962,84 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
       <guid>/cn/2022/08/11/todo/</guid>
       <description>
         <![CDATA[
-        <h2 id="课外读物">课外读物</h2>
+        <h2 id="人文">人文</h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《理想国》</li>
 <li><input disabled="" type="checkbox"> 《大英博物馆世界简史》</li>
 <li><input disabled="" type="checkbox"> 《大话中国艺术史》</li>
+<li><input disabled="" type="checkbox"> 《光明之光》<a href="https://book.douban.com/subject/26989163/"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《棋王》</li>
 <li><input checked="" disabled="" type="checkbox"> 《谈美》</li>
 <li><input checked="" disabled="" type="checkbox"> 《一只特立独行的猪》</li>
 <li><input checked="" disabled="" type="checkbox"> 《爱因斯坦传》</li>
 <li><input checked="" disabled="" type="checkbox"> 《李鸿章家族》</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/yigongzi/">《大话西方艺术史》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/wuxiujie/">《世界小史》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/linjunhong/">《人类简史-从动物到上帝》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/linxinhao/">《哲学家们都干了些什么》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/chenying/">《蛤蟆先生去看心理医生》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/laingyongan/">《阅读、游历和爱情》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/06/26/yangjiang/">《杨绛传》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/cn/2022/08/15/yangxi/">《从一到无穷大》</a></li>
+<li><input checked="" disabled="" type="checkbox"> 《大话西方艺术史》<a href="/cn/2022/08/15/yigongzi/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《世界小史》<a href="/cn/2022/08/15/wuxiujie/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《人类简史-从动物到上帝》<a href="/cn/2022/08/15/linjunhong/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《哲学家们都干了些什么》<a href="/cn/2022/08/15/linxinhao/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《蛤蟆先生去看心理医生》<a href="/cn/2022/08/15/chenying/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《阅读、游历和爱情》<a href="/cn/2022/08/15/laingyongan/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《杨绛传》<a href="/cn/2022/06/26/yangjiang/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《从一到无穷大》<a href="/cn/2022/08/15/yangxi/"><em>笔记</em></a></li>
+</ol>
+<h2 id="数学">数学</h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《自然哲学原理》<a href="https://book.douban.com/subject/3146128/"><em>介绍</em></a></li>
+<li><input disabled="" type="checkbox"> 《古今数学思想全4册》<a href="https://pan.baidu.com/s/1f50U3aBVc5gxIQ2fKXGC9Q?pwd=3uli"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《数学那些事：伟大的问题与非凡的人》<a href="https://www.ituring.com.cn/book/2939"><em>介绍</em></a></li>
+<li><input disabled="" type="checkbox"> 《计算之魂》<a href="https://book.douban.com/subject/35641088/?dt_dapp=1"><em>介绍</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《数学之美》<a href="https://book.douban.com/subject/26163454/"><em>介绍</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《浪潮之巅》<a href="https://book.douban.com/subject/33474750/"><em>介绍</em></a></li>
+</ol>
+<h2 id="python">Python</h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《Python数据分析与算法指南全8册》<a href="https://pan.baidu.com/s/16KADcDNHCZuk6nlz0hWe2A?pwd=a2q3"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《用Python学数学》<a href="https://pan.baidu.com/s/1Wz33lwdquoEMZrd6lJbROg?pwd=q5o2"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《Python深度学习》<a href="https://www.ituring.com.cn/book/3002"><em>介绍</em></a></li>
+<li><input disabled="" type="checkbox"> 《Python数学编程》<a href="https://www.epubit.com/bookDetails?id=UB6cb444dec6174"><em>介绍</em></a> <a href="https://pan.baidu.com/s/1KrHf8ejmbGA9t00C-TIH4Q?pwd=q7rj"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《金融人工智能：用Python实现AI量化交易》<a href="https://www.ituring.com.cn/book/2858"><em>介绍</em></a></li>
+<li><input disabled="" type="checkbox"> 《流畅的Python》<a href="https://pan.baidu.com/s/1pnw7-VYjy0WNENRVU_Juhg?pwd=sbbq"><em>下载</em></a></li>
+</ol>
+<h2 id="r">R</h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《ggplot2：数据分析与图形艺术》<a href="/resources/ggplot2%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%9B%BE%E5%BD%A2%E8%89%BA%E6%9C%AF.pdf"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《现代统计图形》<a href="https://cosx.org/2021/08/msg-preface/#fnref:1"><em>介绍</em></a></li>
 </ol>
 <h2 id="推荐系统-1">推荐系统<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
 <ol>
-<li><input disabled="" type="checkbox"> 《数据挖掘导论》</li>
-<li><input disabled="" type="checkbox"> 《Python数据科学手册》</li>
-<li><input disabled="" type="checkbox"> 《精通数据科学：从线性回归到深度学习》</li>
-<li><input disabled="" type="checkbox"> 《精通特征工程》</li>
-<li><input disabled="" type="checkbox"> 《深入理解XGBoost：高效机器学习算法与进阶》</li>
-<li><input disabled="" type="checkbox"> 《推荐系统实战》</li>
-<li><input disabled="" type="checkbox"> 《深度学习推荐系统》</li>
-<li><input disabled="" type="checkbox"> 《美团机器学习实战》</li>
+<li><input disabled="" type="checkbox"> 《数据挖掘导论》<a href="https://pan.baidu.com/s/1gTd4dj_KTIapS2zRt6WbZw?pwd=18eb"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《Python数据科学手册》<a href="https://pan.baidu.com/s/1AkMdmw6LqgHk5zDgRrJzHA?pwd=ig81"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《精通数据科学：从线性回归到深度学习》<a href="https://pan.baidu.com/s/11O27a_OUCskvqz7UH7DJCg?pwd=r6g8"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《精通特征工程》<a href="https://pan.baidu.com/s/1YaRPG5hCad_dDGvfMk8fPQ?pwd=f5oa"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《深入理解XGBoost：高效机器学习算法与进阶》 <a href="https://pan.baidu.com/s/17nfa8zUWfLkj2dnxjqvp_A?pwd=13wb"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《推荐系统实战》<a href="https://pan.baidu.com/s/1TNCYheuCXu7lkbPX8FpJiQ?pwd=nhnd"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《深度学习推荐系统》<a href="https://pan.baidu.com/s/17nfa8zUWfLkj2dnxjqvp_A?pwd=13wb"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《美团机器学习实战》<a href="https://pan.baidu.com/s/1AYo1bXOamivZKe89Y_PgCw?pwd=pb0a"><em>下载</em></a></li>
+</ol>
+<h2 id="教材">教材</h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《多元统计分析引论》<a href="https://pan.baidu.com/s/10AvIHVRFAl6mgvw_qUVSjQ?pwd=1sfs"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《测度论》<a href="https://pan.baidu.com/s/154lfLBKvCaef0DEi32heRg?pwd=h0ot"><em>下载</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《高等数理统计》 <a href="https://pan.baidu.com/s/1c0KlKYYiq0GP_UEAjs8XCA?pwd=hi6s"><em>下载</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《现代非参数估计》<a href="https://pan.baidu.com/s/1gsvCci0-GPIxKY8nZZ_lTg?pwd=5h5h"><em>下载</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《统计学习方法》<a href="https://pan.baidu.com/s/15T_c4QmiLoiJrQbR7EOpDA?pwd=eabu"><em>下载</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《统计模拟及R实现》<a href="https://pan.baidu.com/s/1-Zbp1fD0cKCTEmsIAWzKhQ?pwd=w8jn"><em>下载</em></a></li>
+</ol>
+<h2 id="其他">其他</h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《GitHub入门与实践》<a href="https://pan.baidu.com/s/1zmDbHrfpgA-2hDJ8DM7xOQ?pwd=j55i"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《深入理解计算机系统》<a href="https://pan.baidu.com/s/1JxZTz_DEpgfxMqg6Q6Ltrg?pwd=b5ds"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《网页制作与网站建设实战教程》<a href="https://pan.baidu.com/s/1pv1tBD2ICFFwlNkq5HhKIg?pwd=2371"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《HTML5+CSS3网站设计基础教程》<a href="https://pan.baidu.com/s/1IV4uRwCbJ6iCTtegZQRDVA?pwd=wkml"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《cookbook-LeetCode》<a href="https://pan.baidu.com/s/1pv1tBD2ICFFwlNkq5HhKIg?pwd=2371"><em>下载</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《算法图解》<a href="https://pan.baidu.com/s/1wxIAr6-vyjmf3PmFD0Fgqg?pwd=oq6t"><em>下载</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《我的第一本算法书》<a href="https://pan.baidu.com/s/1mN6d7B8h9rYDuE_ku_qHzQ?pwd=vu9i"><em>下载</em></a></li>
 </ol>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">《送你一份推荐系统学习资料》</a>。<a href="https://pan.baidu.com/s/1LMcqycuwXZbrS-w44Oz6ZQ?pwd=480z">资源下载</a>。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">《送你一份推荐系统学习资料》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -5027,36 +5070,52 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
 <li>简单 <code>$+$</code> 重复<code>$=$</code>成功.</li>
 </ol>
 <blockquote>
-<p>老师译语: 简单重复<code>$=$</code>专注执着美好</p>
+<p>老师译语：<br>
+简单重复<code>$=$</code>专注执着美好</p>
 </blockquote>
-<ol>
-<li>优秀也可能因为是自卑.</li>
-<li>追求完美有时也不好.</li>
-<li>边做边学 <code>$Learning \ by \ doing$</code> ，不会不要紧，更重要的是学习能力.</li>
-<li>用人单位看重的是脑子，不全是你已经会什么.</li>
-<li><code>$Brilliant(t) = Ordinary(t-1) + Frustration(t-1);$</code><br>
-<code>$Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).$</code></li>
+<ol start="2">
+<li>
+<p>世界上的事情是给踏实的人做的.</p>
+</li>
+<li>
+<p>优秀也可能因为是自卑.</p>
+</li>
+<li>
+<p>追求完美有时也不好.</p>
+</li>
+<li>
+<p>边做边学 <code>$Learning \ by \ doing$</code> ，不会不要紧，更重要的是学习能力.</p>
+</li>
+<li>
+<p>用人单位看重的是脑子，不全是你已经会什么.</p>
+</li>
+<li>
+<p><code>$Brilliant(t) = Ordinary(t-1) + Frustration(t-1);$</code><br>
+<code>$Life(t) = Brilliant(t) + Ordinary(t) + Frustration(t).$</code></p>
+</li>
+<li>
+<p>感恩，进取.</p>
+</li>
 </ol>
-
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title>书籍配套资源</title>
-      <link>/cn/2022/07/04/resource/</link>
-      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/2022/07/04/resource/</guid>
-      <description>
-        <![CDATA[
-        <h2 id="书籍及对应资源链接">书籍及对应资源链接</h2>
-<ol>
-<li><a href="https://www.epubit.com/bookDetails?id=UB6cb444dec6174">《Python数学编程》</a></li>
+<blockquote>
+<p>老师译语：</p>
+</blockquote>
+<blockquote>
+<p>感恩时代，虽然总有不是！<br>
+感恩盛世，虽然总有不足！！不断进取！！！</p>
+</blockquote>
+<blockquote>
+<p>感恩表示幸福满满，多少人为我们种粮、做房、开车！<br>
+进取表示自己融入其中，不负时代，不负韶华！！！</p>
+</blockquote>
+<ol start="2">
+<li>数知天下，统领未来.</li>
 </ol>
+<blockquote>
+<p>老师译语：<br>
+前一句的意思是，学好数学，可以掌握宇宙的奥秘，<br>
+后一句的意思是，学好统计，可以预测未来的发展。</p>
+</blockquote>
 
         
         ]]>

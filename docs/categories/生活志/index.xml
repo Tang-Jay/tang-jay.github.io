@@ -5,8 +5,35 @@
     <description>Recent content in 生活志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>优秀的同学</title>
+      <link>/cn/2022/09/10/teacherday/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/10/teacherday/</guid>
+      <description>
+        <![CDATA[
+        <p>今天教师节，给小周老师发了消息。小周老师说，我怎么不来看他，两年没见到我人了。我说，哪有，见过的啦，次数少了点嘛，没做出点啥真的不好意思见他，不想辜负他。老师说，同进来的炎哥已经申请博士成功了，准备去上海攻读博士学位了。我说恭喜如愿呀。我真心替他感到开心，他就是别人家的孩子，一直备受瞩目。我欣赏但不羡慕，我觉得每个人轨迹是不一样的，因为每个人肩上的担子和身上的性子不同。</p>
+<p>性格上，我是不希望让别人失望的，所以在事情上我力求做好，做一个靠谱的人。从踏入校门起，我觉得自己一定要做的事情就是对得住给予我无私帮助的老师。他们单纯地希望这个伢子有出息，看得起我这个伢子，我有种油然的使命，我想回报他们，我也知道，他们也不需要你什么回报，他们只是希望你能好好珍惜。入校，我给自己写了一个计划:</p>
+<ol>
+<li><input checked="" disabled="" type="checkbox"> 通过六级</li>
+<li><input checked="" disabled="" type="checkbox"> 发表论文</li>
+<li><input checked="" disabled="" type="checkbox"> 得到秦老师肯定</li>
+<li><input disabled="" type="checkbox"> 考上博士</li>
+</ol>
+<p>前两个通过努力可以达到，第三个呢，因为我的老师很包容很擅于鼓励，勉强算达成了吧。至于最后一个，是给自己定的目标，那就靠后，不那么重要。我肩上的担子不重，没有一定要考上博士，只是一个目标，做到甚好，做不到继续加油。</p>
+<p>接下来，研三这一年，我只希望自己继续务实认真地完成老师布置的任务，做不做得出成果是一回事，态度要端正。追求学位的功名不是第一目的，将英语写作能力提升，将数学基本功搞扎实才是我想做的。</p>
+<p>我是一个接受很慢的人，反应也不快。我无法兼顾很多事情，我只能在众多重要的事情中，挑最重要的事情并努力完成。目前于我而言，最重要的事情就是跟着老师学本领，要做就全身心投入，而不考虑结果，这样我会比较轻松，况且相遇是一种缘分，这个缘分还有时长限制。过程比结果更重要，自己选的路自己承担，做不到出众，无所谓啦，他强任他强，清风拂山岗，无愧于心就好了。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -589,7 +616,7 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
       <guid>/cn/2022/06/17/glimpse/</guid>
       <description>
         <![CDATA[
-        <p>我无意浏览到<a href="https://yihui.org">谢益辉网页</a>，简洁干净的画面，井然有序的资料&hellip; 嘣！听弹壳落地的声音，我的心被狙中了💘，心猿意马形容我的心情都不为过，心中就想着，我也想搭一个自己的博客，整理资料。于是，我鼓励勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
+        <p>我无意浏览到<a href="https://yihui.org">谢益辉网页</a>，简洁干净的画面，井然有序的资料&hellip; 嘣！弹壳落地的声音，我的心被狙中了，心猿意马形容我的心情都不为过，心中就想着，我也想搭一个自己的博客，整理资料。于是，我鼓起勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
 <blockquote>
 <p>第一天 学习 <a href="https://www.gohugo.cn">Hugo</a></p>
 </blockquote>

@@ -1,8 +1,6 @@
 ---
 title: Homepage
 date: '2022-06-17'
-disable_mathjax: true
-disable_highlight: true
 disable_comments: true
 ---
 
@@ -18,3 +16,5 @@ disable_comments: true
 
 > 月黑见渔灯，孤光一点萤。  
 > 微微风簇浪，散作满河星。(清 · 查慎行)
+
+

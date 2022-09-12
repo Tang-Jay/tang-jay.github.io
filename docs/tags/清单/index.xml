@@ -146,10 +146,30 @@
 </ol>
 <h2 id="r">R</h2>
 <ol>
-<li><input disabled="" type="checkbox"> 《ggplot2：数据分析与图形艺术》<a href="/resources/ggplot2%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%9B%BE%E5%BD%A2%E8%89%BA%E6%9C%AF.pdf"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《ggplot2：数据分析与图形艺术》<a href="https://pan.baidu.com/s/1XR_m0Mr7fCFaCsvVL62UUg?pwd=uue2"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《现代统计图形》<a href="https://cosx.org/2021/08/msg-preface/#fnref:1"><em>介绍</em></a></li>
 </ol>
-<h2 id="推荐系统-1">推荐系统<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<h2 id="算法-1">算法<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<h3 id="基础-进阶">基础·进阶</h3>
+<ol>
+<li><input disabled="" type="checkbox"> 《编程珠玑 第2版》<a href="https://pan.baidu.com/s/1SDUKyzYgixh4lTWfwCAkAw?pwd=bp69"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《编程珠玑 续》</li>
+<li><input disabled="" type="checkbox"> 《算法设计》</li>
+<li><input disabled="" type="checkbox"> 《数据结构与算法之美》</li>
+<li><input disabled="" type="checkbox"> 《趣学算法第2版》<a href="https://pan.baidu.com/s/1SDUKyzYgixh4lTWfwCAkAw?pwd=bp69"><em>下载</em></a></li>
+</ol>
+<h3 id="算法-面试">算法·面试</h3>
+<ol>
+<li><input disabled="" type="checkbox"> 《百面机器学习 算法工程师带你去面试》<a href="https://pan.baidu.com/s/12g8-45i4svrnJc5B9gtTlw?pwd=awhf"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《百面深度学习 算法工程师带你去面试》<a href="https://pan.baidu.com/s/1vhP9EbtdfCWd14Z71ny5-g?pwd=7ipf"><em>下载</em></a></li>
+</ol>
+<h3 id="算法-ai">算法·AI</h3>
+<ol>
+<li><input disabled="" type="checkbox"> 《人工智能算法 卷1 基础算法》</li>
+<li><input disabled="" type="checkbox"> 《人工智能算法 卷2 受大自然启发的算法》</li>
+<li><input disabled="" type="checkbox"> 《人工智能算法 卷3 深度学习和神经网络》</li>
+</ol>
+<h2 id="推荐系统-2">推荐系统<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《数据挖掘导论》<a href="https://pan.baidu.com/s/1gTd4dj_KTIapS2zRt6WbZw?pwd=18eb"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《Python数据科学手册》<a href="https://pan.baidu.com/s/1AkMdmw6LqgHk5zDgRrJzHA?pwd=ig81"><em>下载</em></a></li>
@@ -183,7 +203,10 @@
 <hr>
 <ol>
 <li id="fn:1">
-<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">《送你一份推荐系统学习资料》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>异步图书</em>。<a href="https://mp.weixin.qq.com/s/MC1Tl4JqajI9Ky_cBxdatg">从入门到进阶，10本算法好书，不止豆瓣9.3</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">送你一份推荐系统学习资料</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

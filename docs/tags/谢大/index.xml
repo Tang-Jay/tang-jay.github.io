@@ -1,0 +1,84 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>谢大 on Tan Jay | 唐 洁</title>
+    <link>/tags/%E8%B0%A2%E5%A4%A7/</link>
+    <description>Recent content in 谢大 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E8%B0%A2%E5%A4%A7/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>又挖宝了</title>
+      <link>/cn/2022/08/02/yihui/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/08/02/yihui/</guid>
+      <description>
+        <![CDATA[
+        <p>今日特别想做些喜欢的事情<br>
+转移一下注意力<br>
+显然 我对<a href="https://yihui.org/cn/">yihui</a>是很有兴趣的<br>
+也很惊喜 他更新了<br>
+毕竟人家一年一更</p>
+<p>我挑着感兴趣的标题<br>
+随意浏览了早些年份的博客<br>
+其中有一些印象比较深刻，比如：</p>
+<ul>
+<li>2017/03/26 <a href="https://yihui.org/cn/2017/03/domain-name/#fn:-2">《域名起名服务》</a></li>
+<li>2018/03/05  <a href="https://yihui.org/cn/2018/03/ikigai/">《活着的意义》</a></li>
+<li>2018/12/20  <a href="https://yihui.org/cn/2019/04/sapiens-notes/">《〈从动物到上帝〉笔记》</a></li>
+</ul>
+<p>除了文字本身内容 我还可以学习到<br>
+如何添加脚注、图片、<br>
+以及一份好的读书笔记的样子</p>
+<p>更令我兴奋的是<br>
+看到<a href="https://wxhyihuan.github.io/">Wang</a>利用yihui开发的<a href="https://bookdown.org/yihui/bookdown/">bookdown</a>工具<br>
+写了份类似出版书籍的<a href="https://bookdown.org/wxhyihuan/Notebook-of-medical-statistics-1605856202966/">医学统计学的学习笔记</a><br>
+这可太酷了</p>
+<p>真想知道 他们学习开源 起点是哪里呀<br>
+坐观垂钓者 徒有羡鱼情哇</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>初遇本站架构</title>
+      <link>/cn/2022/06/17/glimpse/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/06/17/glimpse/</guid>
+      <description>
+        <![CDATA[
+        <p>我无意浏览到<a href="https://yihui.org">谢益辉网页</a>，简洁干净的画面，井然有序的资料&hellip; 嘣！弹壳落地的声音，我的心被狙中了，心猿意马形容我的心情都不为过，心中就想着，我也想搭一个自己的博客，整理资料。于是，我鼓起勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
+<blockquote>
+<p>第一天 学习 <a href="https://www.gohugo.cn">Hugo</a></p>
+</blockquote>
+<blockquote>
+<p>第二天 学习 <a href="https://gitcode.net/courses/detail/1/l">Git 及 Github</a></p>
+</blockquote>
+<blockquote>
+<p>第三天 本地修改编辑网页</p>
+</blockquote>
+<blockquote>
+<p>第四天 部署到 github 即可看到发布的网页</p>
+</blockquote>
+<blockquote>
+<p>第五天 整理整个过程，写在<a href="https://blog.csdn.net/JTang1995/article/details/125365545?spm=1001.2014.3001.5501">这里</a>。</p>
+</blockquote>
+<p>大牛写的代码果然不骗人，很真诚，来龙去脉说得很清楚。他写道，他<a href="https://yihui.org/cn/about/">不喜欢</a>别人称呼他老师或是博士或是大牛，我看了看因冲动而发的邮件，写的称呼是“谢同学”，还好还好，没有踩雷。他亦写道，他<a href="https://yihui.org/cn/about/">反对</a>抄袭和不用脑子的复制粘贴，可是我太喜欢他的网站架构了，丝毫不想改动，哈哈，任大佬鄙视去吧。我抄袭我快乐，碰到这么棒的主题太开心了，我还要安利给别人来抄袭，哈哈。</p>
+<p>谢同学，这些年陆陆续续写的东西有很多，涵盖生活、工作、思考很多方面，我都觉得无比真实又真诚，我还翻了翻他的毕业论文，怎么这么精巧呀，我都觉得是艺术品，这些资料对我很有启发，可能自己也是统计学专业的吧，同时我对代码天然很有兴趣，所以谢同学出的书<a href="https://cosx.org/2021/08/msg-preface/#fnref:10">《现代统计图形》</a>，毫不犹豫下单了，做了冲虚道长。内容如此杂多，归置如此有序，附上<a href="https://yihui.org/cn/vitae/">贵人简历</a>，强推给有缘人。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

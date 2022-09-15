@@ -5,8 +5,40 @@
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bookdown&#43;GitHub 发布电子书</title>
+      <link>/cn/2022/09/15/bookdown/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/15/bookdown/</guid>
+      <description>
+        <![CDATA[
+        <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
+<p>之所以想做这件事情，是因为在<a href="https://tang-jay.github.io/cn/2022/08/02/yihui/">8月2日</a>，无意看到大佬们发布的电子书，有章节有插图有公式，这可以很好地整理日常零碎的知识，并便于查阅，非常心动。他们的电子书如下所示：</p>
+<ul>
+<li><a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook">R语言教程</a></li>
+<li><a href="https://wxhyihuan.github.io/MedicalStatisNotes/">医学统计笔记与R语言</a></li>
+</ul>
+<p>🤔我觉得更多的好处在于，费一点时间学会之后，后期的增益是很快的，可以更专注于写作和思考。比如，R可以绘制许多漂亮的图形，程序运行之后，代码不能按照某种逻辑串联起来（又乱），或是存储在本地内存的时间久了可能被清除掉（又难找）。数学有许多推导，若是我早一些知道这些工具，我就可以更好地整理出来方便自己复习巩固。工欲善其事必先利其器，有了更好的工具确实让人有更求好的心。</p>
+<p>网上有<a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/bookdown.html">Bookdown</a>教程，没有发布到GitHub的教程，我把教程写<a href="https://blog.csdn.net/JTang1995/article/details/126876006?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22126876006%22%2C%22source%22%3A%22JTang1995%22%7D">这里</a>。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>网站：<em>深度之眼</em>。<a href="https://ai.deepshare.net/detail/p_5f3a40dae4b011878731630e/6">论文指导系列课程</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>

@@ -10,7 +10,113 @@
     
     
     <item>
-      <title>Bookdown&#43;GitHub 发布电子书</title>
+      <title>对称矩阵</title>
+      <link>/cn/2022/09/22/paper/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/22/paper/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>Hessian矩阵、协方差矩阵、空间权重矩阵都是对称矩阵，相关的性质有必要整理一下。</p>
+</blockquote>
+<hr>
+<h3 id="对称矩阵">对称矩阵</h3>
+<ol>
+<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E6%95%99%E4%B8%8E%E5%AD%A6_%E7%8E%8B%E5%AE%8F%E5%85%B4.pdf">对称矩阵教与学_王宏兴.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%BA%94%E7%94%A8_%E5%8F%B8%E5%87%A4%E5%A8%9F.pdf">对称矩阵的性质及应用_司凤娟.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%A7%E8%B4%A8%E5%92%8C%E5%AE%9A%E7%90%86_%E9%9F%A9%E6%8C%AF%E8%8A%B3.pdf">对称矩阵的一些性质和定理_韩振芳.pdf</a></li>
+</ol>
+<h3 id="反对称矩阵">反对称矩阵</h3>
+<ol>
+<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E4%B8%8E%E5%8F%8D%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E8%8B%A5%E5%B9%B2%E6%80%A7%E8%B4%A8_%E6%AD%A6%E7%A7%80%E7%BE%8E.pdf">对称矩阵与反对称矩阵的若干性质_武秀美.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E5%92%8C%E5%8F%8D%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E8%8B%A5%E5%B9%B2%E6%80%A7%E8%B4%A8_%E9%82%B9%E6%9C%AC%E5%BC%BA.pdf">对称矩阵和反对称矩阵的若干性质_邹本强.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%85%B3%E4%BA%8E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E4%B8%8E%E5%8F%8D%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E8%8B%A5%E5%B9%B2%E6%80%A7%E8%B4%A8_%E6%9C%B1%E4%BA%9A%E8%8C%B9.pdf">关于对称矩阵与反对称矩阵的若干性质_朱亚茹.pdf</a></li>
+</ol>
+<h3 id="非对称矩阵">非对称矩阵</h3>
+<ol>
+<li><a href="/resources/SymMatrix/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E6%AD%A3%E5%AE%9A%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8_%E7%8E%8B%E4%B8%96%E6%81%92.pdf">非对称正定矩阵的性质_王世恒.pdf</a></li>
+</ol>
+<h3 id="对称矩阵应用">对称矩阵应用</h3>
+<ol>
+<li><a href="/resources/SymMatrix/%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8_%E8%96%9B%E5%BB%BA%E6%98%8E.pdf">实对称矩阵的性质及其应用_薛建明.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8_%E6%9D%A8%E5%8F%AC.pdf">实对称矩阵特征值的性质及其应用_杨召.pdf</a></li>
+</ol>
+<h3 id="特征向量求法">特征向量求法</h3>
+<ol>
+<li><a href="/resources/SymMatrix/%E8%AE%A1%E7%AE%97%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F%E7%9A%84%E5%B9%82%E6%B3%95_%E6%9B%BE%E8%8E%89.pdf">计算实对称矩阵特征值特征向量的幂法_曾莉.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%88%A9%E7%94%A8%E7%89%B9%E5%BE%81%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F_%E5%AD%9F%E5%AE%AA%E8%90%8C.pdf">利用特征矩阵求实对称矩阵的特征向量_孟宪萌.pdf</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>在读论文</title>
+      <link>/cn/2022/09/20/paper/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/20/paper/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="摘要写作">摘要写作</h2>
+<ul>
+<li>
+<p><a href="/resources/Qin_essay_1_note.pdf">NOTE 1</a></p>
+</li>
+<li>
+<p><a href="/resources/Qin_essay_2_note.pdf">NOTE 2</a></p>
+</li>
+</ul>
+<h2 id="空间数据">空间数据</h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150. ☞ <a href="/resources/Qin_TopReading_1.pdf">PDF</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham. ☞ <a href="/resources/Qin_TopReading_2.pdf">PDF</a></p>
+</li>
+</ul>
+<h2 id="高维数据">高维数据</h2>
+<ul>
+<li>
+<p><input checked="" disabled="" type="checkbox"> Nordmana, DJ and Soumendra N. Lahiri. (2014). A review of empirical likelihood methods for time series. <em>Journal of Statistical Planning and Inference, 155</em>, 1-18.<br>
+☞ <a href="/resources/HighDimen/1.pdf">PDF</a> ☞ <a href="/resources/HighDimen/1-note.pdf">NOTE</a></p>
+<ul>
+<li><a href="/resources/HighDimen/1-1.pdf">2009 Hjort, L et al.</a></li>
+</ul>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> Shi, J. (2007). Empirical likelihood for higher dimensional linear models. <em>J. Sys. Sci. &amp; Math. Scis., 27</em>, 124-133.<br>
+☞ <a href="/resources/HighDimen/2.pdf">PDF</a> ☞ <a href="/resources/HighDimen/2-note.pdf">NOTE</a></p>
+<ul>
+<li><a href="/resources/HighDimen/2-1.pdf">1984 Ghosh M</a></li>
+<li><a href="/resources/HighDimen/2-2.pdf">2000 Shi J</a></li>
+<li><a href="/resources/HighDimen/2-3.pdf">1987 de Jong P</a></li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="/resources/HighDimen/3.pdf">2020 Chang et al</a></p>
+<ul>
+<li><a href="/resources/HighDimen/3-1.pdf">2009 Chen et al</a></li>
+<li><a href="/resources/HighDimen/3-2.pdf">2015 Chang et al</a></li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Bookdown&#43;GitHub发布电子书</title>
       <link>/cn/2022/09/15/bookdown/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
@@ -22,9 +128,10 @@
 <ul>
 <li><a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook">R语言教程</a></li>
 <li><a href="https://wxhyihuan.github.io/MedicalStatisNotes/">医学统计笔记与R语言</a></li>
+<li><a href="https://tangyc8866.github.io/bookdown_tutorial/">Bookdown中文书稿写作手册</a></li>
 </ul>
 <p>🤔我觉得更多的好处在于，费一点时间学会之后，后期的增益是很快的，可以更专注于写作和思考。比如，R可以绘制许多漂亮的图形，程序运行之后，代码不能按照某种逻辑串联起来（又乱），或是存储在本地内存的时间久了可能被清除掉（又难找）。数学有许多推导，若是我早一些知道这些工具，我就可以更好地整理出来方便自己复习巩固。工欲善其事必先利其器，有了更好的工具确实让人有更求好的心。</p>
-<p>网上有<a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/bookdown.html">Bookdown</a>教程，没有发布到GitHub的教程，我把教程写<a href="https://blog.csdn.net/JTang1995/article/details/126876006?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22126876006%22%2C%22source%22%3A%22JTang1995%22%7D">这里</a>。</p>
+<p>网上有<a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/bookdown.html">Bookdown</a>教程，没有将bookdouwn写好的电子书发布到GitHub的教程，我把教程写<a href="https://blog.csdn.net/JTang1995/article/details/126876006">这里</a>。</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -437,7 +544,8 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
       <guid>/cn/2022/09/02/cihuo/</guid>
       <description>
         <![CDATA[
-        <h1 id="积累词伙">积累词伙</h1>
+        <p>词伙字典，<a href="https://mp.weixin.qq.com/s/D2JxLIiNUubRsy4f0el7-w">教程</a>，<a href="https://pan.baidu.com/s/1HLrOoATaYFQhMcvGB7rgLg?pwd=j5b2">下载</a>。</p>
+<h1 id="积累词伙">积累词伙</h1>
 <h2 id="名词性短语">名词性短语</h2>
 <p>学费 = tuition fee</p>
 <p>旅游旺季 = tourist season</p>
@@ -5314,7 +5422,7 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
       <description>
         <![CDATA[
         <p>宿舍四人，二位离校了。我以为我会很淡定，我会坚持到学校赶人，没想到我… …</p>
-<p>前天晚上我就知道，第二天有两位室友准备走了，也就是昨天他们要离校了，结果我在前天晚上就失眠了，也想回家了。翻来覆去，最后我拨通了香的电话，跟她说，我睡不着想聊天。明明我都做好了准备，写完论文再回家；明明知道回家，也没有什么特别；明明知道回家，效率会变低… 可是，我还是非常冲动地在昨日，星期六，一个往常我不会找老师的时间点，去打扰了老师。我想早一点问问老师的时间安排，然后再做打算。如果最后决定要留下来，我就不能心浮起；如果决定回家，我就早点动身。</p>
+<p>前天晚上我就知道，两位室友第二天准备走了，结果我在当天晚上就失眠了，也想回家了。翻来覆去，最后我拨通了香的电话，跟她说，我睡不着想聊天。明明我都做好了准备，写完论文再回家；明明知道回家，也没有什么特别；明明知道回家，效率会变低… 可是，我还是非常冲动地在昨日，星期六，一个往常我不会找老师的时间点，去打扰了老师。我想早一点问问老师的时间安排，然后再做打算。如果最后决定要留下来，我就不能心浮起；如果决定回家，我就早点动身。</p>
 <p>离开老师办公室之后呢，我回家的计划由14号变8号，最后我干脆买了今天3号的票，回家了。</p>
 <p>我以闪电的速度回到了家，老爸接的我，几年不见，我看到了他的白丝。今天算是赶上了，过年家里五个人都没有齐过，此刻家里成员到齐，一桌子菜，絮絮叨叨。很快，晚饭结束，有两人要离开祁东了，家里剩下三个人。</p>
 <p>不论怎么说，我回来了，我胡汉三回来啦。</p>

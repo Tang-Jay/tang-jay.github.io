@@ -17,18 +17,20 @@
       <guid>/cn/2022/09/23/paper/</guid>
       <description>
         <![CDATA[
-        <h2 id="高维数据">高维数据</h2>
+        <!-- <font style="background-color: #FFFFCD;">[PDF](/resources/HighDimen/2.pdf)</font>
+<font style="background-color: #F0FFFF;">[NOTE](/resources/HighDimen/2-note.pdf)</font>
+<font style="background-color: #E6E6FA;">[CODE](/resources/HighDimen/2-code.pdf)</font>
+-->
+<h2 id="高维数据">高维数据</h2>
 <ul>
 <li>
-<p><input checked="" disabled="" type="checkbox"> Nordmana, D.J. and Lahiri, S.N. (2014). A review of empirical likelihood methods for time series. <em>Journal of Statistical Planning and Inference, 155</em>, 1-18.<br>
-☞ <a href="/resources/HighDimen/1.pdf">PDF</a> ☞ <a href="/resources/HighDimen/1-note.pdf">NOTE</a></p>
+<p><input checked="" disabled="" type="checkbox"> Nordmana, D.J. and Lahiri, S.N. (2014). A review of empirical likelihood methods for time series. <em>Journal of Statistical Planning and Inference, 155</em>, 1-18. <font style="background-color: #FFFFCD;"><a href="/resources/HighDimen/1.pdf">PDF</a></font>  <font style="background-color: #F0FFFF;"><a href="/resources/HighDimen/1-note.pdf">NOTE</a></font></p>
 <ul>
 <li><a href="/resources/HighDimen/1-1.pdf">2009 Hjort, L et al.</a></li>
 </ul>
 </li>
 <li>
-<p><input checked="" disabled="" type="checkbox"> Shi, J. (2007). Empirical likelihood for higher dimensional linear models. <em>J. Sys. Sci. &amp; Math. Scis., 27</em>, 124-133.<br>
-☞ <a href="/resources/HighDimen/2.pdf">PDF</a> ☞ <a href="/resources/HighDimen/2-note.pdf">NOTE</a></p>
+<p><input checked="" disabled="" type="checkbox"> Shi, J. (2007). Empirical likelihood for higher dimensional linear models. <em>J. Sys. Sci. &amp; Math. Scis., 27</em>, 124-133. <font style="background-color: #FFFFCD;"><a href="/resources/HighDimen/2.pdf">PDF</a></font>  <font style="background-color: #F0FFFF;"><a href="/resources/HighDimen/2-note.pdf">NOTE</a></font></p>
 <ul>
 <li><a href="/resources/HighDimen/2-1.pdf">1984 Ghosh M</a></li>
 <li><a href="/resources/HighDimen/2-2.pdf">2000 Shi J</a></li>
@@ -36,8 +38,7 @@
 </ul>
 </li>
 <li>
-<p><input disabled="" type="checkbox"> Chen, S.X., Peng, L. and Qin, Y.L. (2009). Effects of data dimension on empirical likelihood. <em>Biometrika, 96</em>, 711-722.<br>
-☞ <a href="/resources/HighDimen/3.pdf">PDF</a> ☞ <a href="/resources/HighDimen/3-note.pdf">NOTE</a></p>
+<p><input checked="" disabled="" type="checkbox"> Chen, S.X., Peng, L. and Qin, Y.L. (2009). Effects of data dimension on empirical likelihood. <em>Biometrika, 96</em>, 711-722. <font style="background-color: #FFFFCD;"><a href="/resources/HighDimen/3.pdf">PDF</a></font>  <font style="background-color: #F0FFFF;"><a href="/resources/HighDimen/3-note.pdf">NOTE</a></font></p>
 <ul>
 <li><a href="/resources/HighDimen/3-1.pdf">2020 Chang et al</a></li>
 <li><a href="/resources/HighDimen/3-2.pdf">2015 Chang et al</a></li>
@@ -90,33 +91,6 @@
 <li><a href="/resources/SymMatrix/%E8%AE%A1%E7%AE%97%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F%E7%9A%84%E5%B9%82%E6%B3%95_%E6%9B%BE%E8%8E%89.pdf">计算实对称矩阵特征值特征向量的幂法_曾莉.pdf</a></li>
 <li><a href="/resources/SymMatrix/%E5%88%A9%E7%94%A8%E7%89%B9%E5%BE%81%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F_%E5%AD%9F%E5%AE%AA%E8%90%8C.pdf">利用特征矩阵求实对称矩阵的特征向量_孟宪萌.pdf</a></li>
 </ol>
-
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title>推荐论文</title>
-      <link>/cn/2022/09/21/paper/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/2022/09/21/paper/</guid>
-      <description>
-        <![CDATA[
-        <h2 id="空间数据">空间数据</h2>
-<ul>
-<li>
-<p><input disabled="" type="checkbox"> Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150.<br>
-☞ <a href="/resources/Qin_TopReading_1.pdf">PDF</a></p>
-</li>
-<li>
-<p><input disabled="" type="checkbox"> Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham.<br>
-☞ <a href="/resources/Qin_TopReading_2.pdf">PDF</a></p>
-</li>
-</ul>
 
         
         ]]>

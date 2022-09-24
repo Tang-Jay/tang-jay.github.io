@@ -10,6 +10,33 @@
     
     
     <item>
+      <title>推荐论文</title>
+      <link>/paper/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/paper/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="空间数据">空间数据</h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150.<br>
+☞ <a href="/resources/Qin_TopReading_1.pdf">PDF</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham.<br>
+☞ <a href="/resources/Qin_TopReading_2.pdf">PDF</a></p>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>日志</title>
       <link>/cn/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>

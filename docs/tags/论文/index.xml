@@ -5,8 +5,51 @@
     <description>Recent content in 论文 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E8%AE%BA%E6%96%87/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在读论文</title>
+      <link>/cn/2022/09/23/paper/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/23/paper/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="高维数据">高维数据</h2>
+<ul>
+<li>
+<p><input checked="" disabled="" type="checkbox"> Nordmana, D.J. and Lahiri, S.N. (2014). A review of empirical likelihood methods for time series. <em>Journal of Statistical Planning and Inference, 155</em>, 1-18.<br>
+☞ <a href="/resources/HighDimen/1.pdf">PDF</a> ☞ <a href="/resources/HighDimen/1-note.pdf">NOTE</a></p>
+<ul>
+<li><a href="/resources/HighDimen/1-1.pdf">2009 Hjort, L et al.</a></li>
+</ul>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> Shi, J. (2007). Empirical likelihood for higher dimensional linear models. <em>J. Sys. Sci. &amp; Math. Scis., 27</em>, 124-133.<br>
+☞ <a href="/resources/HighDimen/2.pdf">PDF</a> ☞ <a href="/resources/HighDimen/2-note.pdf">NOTE</a></p>
+<ul>
+<li><a href="/resources/HighDimen/2-1.pdf">1984 Ghosh M</a></li>
+<li><a href="/resources/HighDimen/2-2.pdf">2000 Shi J</a></li>
+<li><a href="/resources/HighDimen/2-3.pdf">1987 de Jong P</a></li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Chen, S.X., Peng, L. and Qin, Y.L. (2009). Effects of data dimension on empirical likelihood. <em>Biometrika, 96</em>, 711-722.<br>
+☞ <a href="/resources/HighDimen/3.pdf">PDF</a> ☞ <a href="/resources/HighDimen/3-note.pdf">NOTE</a></p>
+<ul>
+<li><a href="/resources/HighDimen/3-1.pdf">2020 Chang et al</a></li>
+<li><a href="/resources/HighDimen/3-2.pdf">2015 Chang et al</a></li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -18,14 +61,14 @@
       <description>
         <![CDATA[
         <blockquote>
-<p>Hessian矩阵、协方差矩阵、空间权重矩阵都是对称矩阵，相关的性质有必要整理一下。</p>
+<p>Hessian矩阵、协方差矩阵、空间权重矩阵都是对称矩阵，相关的性质有必要了解一下。</p>
 </blockquote>
 <hr>
 <h3 id="对称矩阵">对称矩阵</h3>
 <ol>
-<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E6%95%99%E4%B8%8E%E5%AD%A6_%E7%8E%8B%E5%AE%8F%E5%85%B4.pdf">对称矩阵教与学_王宏兴.pdf</a></li>
-<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%BA%94%E7%94%A8_%E5%8F%B8%E5%87%A4%E5%A8%9F.pdf">对称矩阵的性质及应用_司凤娟.pdf</a></li>
 <li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%A7%E8%B4%A8%E5%92%8C%E5%AE%9A%E7%90%86_%E9%9F%A9%E6%8C%AF%E8%8A%B3.pdf">对称矩阵的一些性质和定理_韩振芳.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%BA%94%E7%94%A8_%E5%8F%B8%E5%87%A4%E5%A8%9F.pdf">对称矩阵的性质及应用_司凤娟.pdf</a></li>
+<li><a href="/resources/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E6%95%99%E4%B8%8E%E5%AD%A6_%E7%8E%8B%E5%AE%8F%E5%85%B4.pdf">对称矩阵教与学_王宏兴.pdf</a></li>
 </ol>
 <h3 id="反对称矩阵">反对称矩阵</h3>
 <ol>
@@ -56,55 +99,47 @@
     
     
     <item>
-      <title>在读论文</title>
-      <link>/cn/2022/09/20/paper/</link>
-      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      <title>推荐论文</title>
+      <link>/cn/2022/09/21/paper/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/20/paper/</guid>
+      <guid>/cn/2022/09/21/paper/</guid>
       <description>
         <![CDATA[
-        <h2 id="摘要写作">摘要写作</h2>
+        <h2 id="空间数据">空间数据</h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150.<br>
+☞ <a href="/resources/Qin_TopReading_1.pdf">PDF</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham.<br>
+☞ <a href="/resources/Qin_TopReading_2.pdf">PDF</a></p>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>摘要写作</title>
+      <link>/cn/2022/09/20/abstract/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/20/abstract/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="摘要笔记">摘要笔记</h3>
 <ul>
 <li>
 <p><a href="/resources/Qin_essay_1_note.pdf">NOTE 1</a></p>
 </li>
 <li>
 <p><a href="/resources/Qin_essay_2_note.pdf">NOTE 2</a></p>
-</li>
-</ul>
-<h2 id="空间数据">空间数据</h2>
-<ul>
-<li>
-<p><input disabled="" type="checkbox"> Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150. ☞ <a href="/resources/Qin_TopReading_1.pdf">PDF</a></p>
-</li>
-<li>
-<p><input disabled="" type="checkbox"> Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham. ☞ <a href="/resources/Qin_TopReading_2.pdf">PDF</a></p>
-</li>
-</ul>
-<h2 id="高维数据">高维数据</h2>
-<ul>
-<li>
-<p><input checked="" disabled="" type="checkbox"> Nordmana, DJ and Soumendra N. Lahiri. (2014). A review of empirical likelihood methods for time series. <em>Journal of Statistical Planning and Inference, 155</em>, 1-18.<br>
-☞ <a href="/resources/HighDimen/1.pdf">PDF</a> ☞ <a href="/resources/HighDimen/1-note.pdf">NOTE</a></p>
-<ul>
-<li><a href="/resources/HighDimen/1-1.pdf">2009 Hjort, L et al.</a></li>
-</ul>
-</li>
-<li>
-<p><input checked="" disabled="" type="checkbox"> Shi, J. (2007). Empirical likelihood for higher dimensional linear models. <em>J. Sys. Sci. &amp; Math. Scis., 27</em>, 124-133.<br>
-☞ <a href="/resources/HighDimen/2.pdf">PDF</a> ☞ <a href="/resources/HighDimen/2-note.pdf">NOTE</a></p>
-<ul>
-<li><a href="/resources/HighDimen/2-1.pdf">1984 Ghosh M</a></li>
-<li><a href="/resources/HighDimen/2-2.pdf">2000 Shi J</a></li>
-<li><a href="/resources/HighDimen/2-3.pdf">1987 de Jong P</a></li>
-</ul>
-</li>
-<li>
-<p><input disabled="" type="checkbox"> <a href="/resources/HighDimen/3.pdf">2020 Chang et al</a></p>
-<ul>
-<li><a href="/resources/HighDimen/3-1.pdf">2009 Chen et al</a></li>
-<li><a href="/resources/HighDimen/3-2.pdf">2015 Chang et al</a></li>
-</ul>
 </li>
 </ul>
 

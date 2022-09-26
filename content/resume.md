@@ -23,7 +23,7 @@ disable_comments: true
 
 - 努力方向：除了课内的学习，课外主要的事情就是专一地写论文，附带培养自己编程的爱好。
 
-   - 从 2020-9 至 2022-6，已发表 1 篇中文普刊，还有 1 篇中文稿件已投稿《工程数学学报》，以及 1 篇英文稿件准投稿外刊
+   - 从 2020-9 至 2022-6，已发表 1 篇中文普刊，还有 3 篇论文正在投稿，其中包含一篇中文，两篇英文。
 
    - 2021-12 月申请了院级立项项目，计划 2022-12 月完成项目
 
@@ -69,8 +69,10 @@ disable_comments: true
 
 
 ### 网络文章
-CSDN文章参见[这里](https://blog.csdn.net/JTang1995?type=lately)。
-
+- CSDN文章参见[这里](https://blog.csdn.net/JTang1995?type=lately)。
+- 在线笔记
+   - [《论文写作听课笔记》](https://tang-jay.github.io/EssayNotes/)
+   - [《R语言画图》](https://tang-jay.github.io/RBook) 
 
 ## 荣誉证书
 1. 2021年9月通过全国计算机等级考试二级Python语言程序设计考试

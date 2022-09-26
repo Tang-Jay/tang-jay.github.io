@@ -5,8 +5,36 @@
     <description>Recent content in 论文 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E8%AE%BA%E6%96%87/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R画图笔记</title>
+      <link>/cn/2022/09/26/codes/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/26/codes/</guid>
+      <description>
+        <![CDATA[
+        <p>最近努力在复现论文上的QQ图<br>
+顺便将知道的R画图的代码一并整理出来   <br>
+用Bookdown很好地展示<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>出来～<br>
+继续加油！</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>唐洁,<a href="https://tang-jay.github.io/RBook">《R语言画图》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -30,7 +58,9 @@
 </ul>
 </li>
 <li>
-<p><input checked="" disabled="" type="checkbox"> Shi, J. (2007). Empirical likelihood for higher dimensional linear models. <em>J. Sys. Sci. &amp; Math. Scis., 27</em>, 124-133. <font style="background-color: #FFFFCD;"><a href="/resources/HighDimen/2.pdf">PDF</a></font>  <font style="background-color: #F0FFFF;"><a href="/resources/HighDimen/2-note.pdf">NOTE</a></font></p>
+<p><input checked="" disabled="" type="checkbox"> Shi, J. (2007). Empirical likelihood for higher dimensional linear models. <em>J. Sys. Sci. &amp; Math. Scis., 27</em>, 124-133.
+<font style="background-color: #FFFFCD;"><a href="/resources/HighDimen/2.pdf">PDF</a></font>
+<font style="background-color: #F0FFFF;"><a href="/resources/HighDimen/2-note.pdf">NOTE</a></font></p>
 <ul>
 <li><a href="/resources/HighDimen/2-1.pdf">1984 Ghosh M</a></li>
 <li><a href="/resources/HighDimen/2-2.pdf">2000 Shi J</a></li>
@@ -38,7 +68,10 @@
 </ul>
 </li>
 <li>
-<p><input checked="" disabled="" type="checkbox"> Chen, S.X., Peng, L. and Qin, Y.L. (2009). Effects of data dimension on empirical likelihood. <em>Biometrika, 96</em>, 711-722. <font style="background-color: #FFFFCD;"><a href="/resources/HighDimen/3.pdf">PDF</a></font>  <font style="background-color: #F0FFFF;"><a href="/resources/HighDimen/3-note.pdf">NOTE</a></font></p>
+<p><input checked="" disabled="" type="checkbox"> Chen, S.X., Peng, L. and Qin, Y.L. (2009). Effects of data dimension on empirical likelihood. <em>Biometrika, 96</em>, 711-722.
+<font style="background-color: #FFFFCD;"><a href="/resources/HighDimen/3.pdf">PDF</a></font>
+<font style="background-color: #F0FFFF;"><a href="/resources/HighDimen/3-note.pdf">NOTE</a></font>
+<font style="background-color: #E6E6FA;"><a href="https://github.com/Tang-Jay/HighDimen/tree/main/2009ChenSongxi">CODE</a></font></p>
 <ul>
 <li><a href="/resources/HighDimen/3-1.pdf">2020 Chang et al</a></li>
 <li><a href="/resources/HighDimen/3-2.pdf">2015 Chang et al</a></li>

@@ -5,8 +5,36 @@
     <description>Recent content in 随记 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E9%9A%8F%E8%AE%B0/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R画图笔记</title>
+      <link>/cn/2022/09/26/codes/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/26/codes/</guid>
+      <description>
+        <![CDATA[
+        <p>最近努力在复现论文上的QQ图<br>
+顺便将知道的R画图的代码一并整理出来   <br>
+用Bookdown很好地展示<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>出来～<br>
+继续加油！</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>唐洁,<a href="https://tang-jay.github.io/RBook">《R语言画图》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>

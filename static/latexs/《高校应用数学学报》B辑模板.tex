@@ -1,0 +1,82 @@
+%%%%%%定理Theorem，引理Lemma，推论Corollary，性质Proposition均用斜体表示
+
+%%%%%%定义Definition，注记Remark均用正体表示
+
+%%%%%%参考文献请按作者姓氏排列, 论文名请用斜体表示并请注意首字母的大小写
+
+\documentclass[10pt,twoside]{article}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{cite}
+\usepackage{ifthen}
+\usepackage{pifont}
+\usepackage{stmaryrd}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{amsmath,amssymb,amscd,bbm,amsthm,mathrsfs,dsfont}
+\input amssym.def
+
+\newcommand\upcite[1]{\textsuperscript{\cite{#1}}}
+\titleformat{\section}{\centering\large\bfseries}{\S\arabic{section}}{1em}{}
+\newboolean{first}
+\setboolean{first}{true}
+\renewcommand{\headrulewidth}{0pt}
+
+\textheight 205mm \textwidth 145mm \setlength{\oddsidemargin}{5.6mm}
+\setlength{\evensidemargin}{5.6mm} \pagestyle{myheadings}
+ \markboth{\textit{Appl. Math. J. Chinese Univ.}\qquad
+\qquad \qquad \rm Vol. 32, No. *}{{\footnotesize \textit{name.}%作者姓名
+}\qquad\qquad \footnotesize \rm Title}%标题
+\renewcommand\baselinestretch{1.20}
+
+
+\def\thefootnote{}\begin{document}
+
+\setlength\abovedisplayskip{2pt}
+\setlength\abovedisplayshortskip{0pt}
+\setlength\belowdisplayskip{2pt}
+\setlength\belowdisplayshortskip{0pt}
+
+\title{\bf \Large Title\author{name}\date{}} \maketitle%作者姓名,标题
+ \footnote{Received: 2016-**-**.}%%%%%%%%% 请输入投稿日期
+ \footnote{MR Subject Classification: .}%%%%%%%%% 请输入相应的MR主题分类号
+%%%%%%%%%%%%%%%%%关键词至少三个及以上
+ \footnote{Keywords: *******, ********, *******.}
+ \footnote{Digital Object Identifier(DOI): 10.1007/s11766-016-****-*.}
+ \footnote{Supported by the National Natural Science Foundation of China\,(********).}
+\begin{center}
+\begin{minipage}{135mm}
+
+{\bf \small Abstract}.\hskip 2mm {\small
+*****************************************************
+*****************************************************
+*****************************************************
+*****************************************************.}
+\end{minipage}
+\end{center}
+
+\thispagestyle{fancyplain} \fancyhead{}
+\fancyhead[L]{\textit{Appl. Math. J. Chinese Univ.}\\
+2017, 32(*): ***-***} \fancyfoot{} \vskip 10mm%\setcounter{page}{112}
+
+
+\section{Introduction}
+
+
+
+
+\vspace{1cm} \noindent {\bf {References}} \small
+
+%%%%%%%%%%%%参考文献请按作者姓氏排列, 请注意首字母的大小写, 论文名请用斜体表示 %%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item [{[1]}] E\,L\,Green. \emph{title}, Sci China Ser A, year, volume(issue): 141-162.
+
+
+\end{itemize}\vskip 10mm
+
+\noindent Department of Mathematics, *********** University, Hangzhou 310027,
+China.\\
+\indent Email:
+
+\end{document}

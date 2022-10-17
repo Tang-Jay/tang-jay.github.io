@@ -1,0 +1,521 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%中文摘要要求: 不用第一人称, 不要出现"本文", 不能出现参考文献序号%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   表示实数集用字母\mathbf{R}, 自然数集\mathbf{N}, 整数集\mathbf{Z}, 复数集\mathbf{C}, 有理数集\mathbf{Q}, %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%自然对数的底数e, 微分记号d请用正体, 也就是\mathrm{e}, \mathrm{d}%%%%%%%%%%%%%%
+%%%%%%    请不要使用中文标点符号(包括中文输入模式下各种括号), 而使用英文的标点符号,请注意标点符号后面要空开一个英文字符距离
+%%%%  参考文献格式务必请参考本刊的要求,特别重要的是按照参考文献引用先后顺序进行排序编号,摘要当中不能出现参考文献序号
+%   自己没有亲自查阅过的文献请不要引用,特别是不要盲目引用其他文献中自己没有查阅过的参考文献
+%%%%%% 英文摘要不能使用第一人称
+%其它要求参见  http: //www.math.zju.edu.cn/amjcu/bkyq.htm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%请详细阅读以上说明%%%%%%%%%%%
+%%%%%%%%%%%请详细阅读以上说明%%%%%%%%%%%
+%%%%%%%%%%%请详细阅读以上说明%%%%%%%%%%%
+%%%%%%%%%%%请详细阅读以上说明%%%%%%%%%%%
+%%%%%%%%%%%请详细阅读以上说明%%%%%%%%%%%
+%%%%%%%%%%%请详细阅读以上说明%%%%%%%%%%%
+%%%%%%%%%%%请详细阅读以上说明%%%%%%%%%%%
+
+
+
+\documentclass[10pt, twoside]{article}
+\usepackage{fancyhdr}
+\usepackage{CJK}
+\textheight 205mm \textwidth 145mm
+\setlength{\oddsidemargin}{5.6mm}
+\setlength{\evensidemargin}{5.6mm}
+\renewcommand\baselinestretch{1.25}
+\parindent 21pt
+\def\thefootnote{}
+
+
+
+
+
+
+
+
+
+\usepackage[dvips, usenames]{color}
+\usepackage{titletoc}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{indentfirst}
+\usepackage{epsfig}
+\usepackage{mathrsfs}
+\def\111{边值问题(1)--(2)}
+\def\x{\|x\|}
+\def\y{\|y\|}
+\def\xr{\|x\|_r}
+\def\xrr{(\sum_{i=1}^T|x_i|^r)^{\frac{1}{r}}}
+
+
+\begin{document}
+
+\begin{CJK*}{GBK}{song}
+\thispagestyle{plain} \pagestyle{fancy} \fancyhf{}
+\fancyhead[RE]{\CJKfamily{song}第X卷第X期}
+\fancyhead[CE]{\CJKfamily{kai}高~校~应~用~数~学~学~报~}
+\fancyhead[LE, RO]{\thepage} \fancyhead[CO]{\CJKfamily{kai}梁海华等:
+一类四阶差分边值问题解的存在性与临界点方法}
+
+\fancypagestyle{plain}{\renewcommand{\headrulewidth}{0pt}\fancyhf{}
+\lhead{高校应用数学学报投稿稿件\\
+2013, 28: } \lfoot{} \cfoot{} \rfoot{}}
+
+
+\setlength\abovedisplayskip{2pt}
+\setlength\abovedisplayshortskip{0pt}
+\setlength\belowdisplayskip{2pt}
+\setlength\belowdisplayshortskip{0pt}
+
+\title{\huge\CJKfamily{song}一类四阶差分边值问题解的存在性\\与临界点方法
+\author{\CJKfamily{fs}梁海华$^{1, 2}$, \quad翁佩萱$^{1}$\vspace{3mm}\\
+\CJKfamily{kai}\small(1. 华南师范大学\ 数学科学学院, \ 广东广州\
+510631; \\ \CJKfamily{kai}\small2. 广东技术师范学院\ 计算机科学系,
+广东广州\ 510665)}
+\date{}}
+\maketitle \footnote{收稿日期:  2013-10-08} \footnote{基金项目:
+国家自然科学基金(105710641); 广东省自然科学基金(04010364)}
+
+
+\begin{center}\begin{minipage}{13cm}
+{\CJKfamily{hei} 摘\quad 要}:  {\CJKfamily{kai}
+利用临界点方法研究了一类四阶差分边值问题, 分别得到了存在一个解和两
+个解的 若干充分条件,
+展示了临界点理论在研究差分边值问题中的重要作用.}
+
+{\CJKfamily{hei} 关键词}:  {\CJKfamily{kai}四阶; 差分边值问题;
+临界点; 存在性}
+
+{\CJKfamily{hei} 中图分类号}: O175.14
+
+{\CJKfamily{hei} 文献标识码}:  A\qquad {\CJKfamily{hei} 文章编号}:
+1000-4424(2013)03
+\end{minipage}\end{center}
+
+
+\setcounter{section}{1} \setcounter{equation}{0}
+\renewcommand{\theequation}
+{\arabic{equation}}
+\begin{center}
+{\Large\S1\quad{\CJKfamily{song}引\quad言}}
+\end{center}
+
+
+
+ 令$\mathbf R$和$\mathbf Z$分别为实数集和整数集. 对任意$a, b\in
+{ \bf Z}, a<b, $记$[a, b]: =\{a, a+1, \cdots, b\}.$假设$\Delta$是向前差分算子,  即$\Delta
+y_k=y_{k+1}-y_k$. 对固定的整数
+$N>2$, 考虑下列差分边值问题:  $$\Delta^2(p_{k-1}\Delta^2
+y_{k-2})+\Delta[q_k(\Delta
+y_{k-1})^\alpha]+r_ky_k^\beta=f(k, y_k), \ \ k\in[1, N], \eqno(1)
+$$
+$$y_{-1}=y_{0}=0=y_{N+1}=y_{N+2}.\eqno(2)
+$$
+  其中$\{p_k\}_{k\in [0, N+1]}, \{q_k\}_{k\in [1, N+1]}, \{r_k\}_{k\in [1, N]}$是三个实数列. $\alpha, \beta$均为
+  形如最简分数$\frac{m}{n}$且$n$为奇数的正有理数. $f: {\mathbf Z}\times {\mathbf R}\to
+  \mbox{\bf R}$关于第二个变量连续.如果序列$\{y_k\}_{k\in
+  [-1, N+2]}$满足方程$(1)$和边值条件$(2)$, 则称$\{y_k\}$为\111 的一个解.
+
+
+
+
+
+
+众所周知, 差分方程边值问题具有广泛的应用背景, 例如在电路分析,
+矩阵论, 控制论, 弹性理论和经济学等领域中均具有重要的应用, 因此,
+研究差分边值问题解的存在性很早就受到人们的重视,
+得到不少很好的结果(见[1--5]及其中的参考文献).目前研究这类问题的工具主要是使用Brouwer和
+ Schauder不动点定理、上下解方法、锥压缩和锥拉伸不动点定理以及拓扑度理论. 而在用这些方法处理时, 往往要构造格林函数,
+对差分方程的许多情形而言这决非易事.
+
+最近, 郭志明, 庾建设在文[6]中用临界点理论讨论了方程
+$$\Delta^2 x_{n-1}+f(n, x_n)=0, \ \ n\in {\bf Z}, \eqno(3)$$
+ 获得了它们的周期解与次调和解的存在结果.
+
+梁海华, 翁佩萱则在文[7]中使用变分方法研究了差分方程边值问题: \\
+\centerline{$\Delta(p_{k-1}\Delta x_{k-1})+q_kx_k+f(k, x_k)=0, \ \ k\in[1, N],  x_{0}=x_{N}, \qquad  p_0\Delta x_{0}=p_N\Delta x_{N}, $}
+得到多解存在的结果.
+
+
+这些工作表明, 用临界点理论处理差分边值问题是十分有效的.
+与前述诸方法相比, 采用这一方法时, 我们需要建立系统的变分结构, 但却
+避开了格林函数的构造. 因此在处理问题时有独特的优势.然而,
+用临界点方法研究差分方程的文献目前还很少.
+ \par
+ 另一方面, 现有的文献研究的对象大多为二阶差分方程, 研究三、四阶者不多$^{[8]}$.尤其是对模型(1), 尚未见有文献讨论过.
+ 本文的目的就是用临界点方法研究\111 解的存在结果.
+
+
+ \setcounter{section}{2} \setcounter{equation}{0}
+\renewcommand{\theequation}
+{\arabic{equation}}
+\begin{center}
+{\Large\S2\hspace*{3mm}{\CJKfamily{song}预备知识及变分结构}}
+\end{center}
+
+
+首先我们回顾文[9]中关于临界点理论的一些基本知识.
+
+
+
+ {\CJKfamily{hei}\bf{引理2.1}}(见[9, p423])\quad设$E$是自反的实 Banach 空间. 泛函$f: E\to $ $\mathbf
+ R$是弱下(上)半连续的, 并且满足$\lim\limits_{\parallel
+x\parallel\to \infty}f(x)=+\infty \ \ \ ( \lim\limits_{\parallel
+x\parallel\to \infty}f(x)=-\infty), $那么, 必有$x_0\in
+E$使得$f(x_0)=\inf\limits_{x\in E}f(x)\ \ (f(x_0)=\sup\limits_{x\in
+E}f(x)),$,因此若$f$还具有有界线性的G$\hat{a}$teaux微分,
+则必有$$\mbox{grad} f(x_0)=f'(x_0)=0.$$
+
+
+
+{\CJKfamily{hei}\bf{引理2.2}}(见[9,
+p482])(山路引理)\quad设$E$是实Banach空间.$f: E\to $ $\mathbf
+R$是$C^1$泛函, 满足P-S条件, $x_0, x_1\in E,
+\mathit\Omega$是$x_0$的开领域, $x_1\bar{\in}\mathit\Omega$. 假设
+$\mbox{max}\{f(x_0), f(x_1)\}<\inf\limits_{x\in
+\partial\mathit\Omega}f(x), $令$c=\inf\limits_{h\in
+\mathit\Gamma}\max\limits_{t\in [0, 1]}f(h(t)),
+$其中$\mathit\Gamma=\{h | h: [0, 1]\to E$连续, 且使 $h(0)=x_0,
+h(1)=x_1\}$. 那么,     $c$必是$f$的临界值, 即存在$x^*\in E$, 使
+$f'(x^*)=\theta$,  $f(x^*)=c.$
+
+ 下面我们将建立\111
+的变分结构. 令\\\centerline{$H=\{y | y: [-1, N+2]\to R,
+y_{-1}=y_{0}=0=y_{N+1}=y_{N+2}\}, $}定义 $H$上的内积及由它诱导的范数
+如下$(x, y)=\sum_{i=1}^Nx_iy_i, \ \ \ \
+\|y\|=(\sum_{i=1}^Ny_i^2)^{\frac{1}{2}}, \ \ \  \forall \ x, y\in
+H.$则 $H$ 是 $N$维Hilbert空间.$\forall \ r>1, $我们也可以定义范数
+$\|y\|_r=(\sum\limits_{i=1}^N|y_i|^r)^{\frac{1}{r}}, \ \forall \
+y\in H$. 容易知道$\|\cdot \|$与$\| \cdot\|_
+r$是范数等价的.故对$\alpha, \beta, $分别存在正常数$c_0, c$和$d_0,
+d$使得
+$$c_0\y\leq\y_{\alpha+1}\leq c\y,  \eqno(4)
+$$
+$$d_0\y\leq\y_{\beta+1}\leq d\y. \eqno(5)
+$$
+定义 $H$ 上的泛函$J$如下
+$$ \begin{array}{ll}J(y)=\sum\limits^N_{k=-1}[\frac{1}{2}p_{k+1}(\Delta^2
+y_{k})^2-\frac{1}{\alpha+1}q_{k+1}(\Delta y_{k})^{\alpha+1}+
+\frac{1}{\beta+1}r_ky_k^{\beta+1}-F(k, y_k)], \end{array}
+\eqno(6)$$其中$F(t, u)=\int_0^uf(t, s)\mathrm{d}s$.
+在$(6)$中, 我们总设$q_0=q_{N+1}=0,  r_{-1}=r_0=0$,  又因为$y\in H$,
+故$y_{-1}=y_0=0$, 因此总有$F(-1, y_{-1})=0=F(0, y_0)$.
+
+下面将证明$J$的临界点就是\111 的解.
+
+$\forall \ x, y \in H$, 由$(6)$经过简单计算得\\
+\centerline{$(J'(y), x)=\sum\limits^N_{k=-1}[p_{k+1}\Delta^2
+y_{k}\Delta^2 x_{k}-q_{k+1}(\Delta y_{k})^{\alpha}\Delta x_{k}+
+r_ky_k^{\beta}x_k-x_kf(k, y_k)].$}
+注意到$x_{-1}=x_{0}=0=x_{N+1}=x_{N+2}$, 我们有
+$$\sum\limits^{N}_{k=1}\{[\Delta^2(p_{k-1}\Delta^2
+y_{k-2})]x_{k}+\Delta[q_{k}(\Delta
+y_{k-1})^\alpha]x_{k}\}=
+\sum\limits^{N}_{k=-1}[p_{k+1}\Delta^2 y_{k}\Delta^2
+x_{k}-q_{k+1}(\Delta y_{k})^\alpha \Delta x_{k}].
+ \eqno(7)$$
+若$J'(y)=0$, 则 $$\sum\limits^N_{k=-1}[p_{k+1}\Delta^2
+y_{k}\Delta^2 x_{k}-q_{k+1}(\Delta y_{k})^{\alpha}\Delta x_{k}+
+r_ky_k^{\beta}x_k-x_kf(k, y_k)]=0,  \eqno(8)
+$$此时由$(7)$和$(8)$ 得
+\begin{eqnarray*} &&\sum\limits^{N}_{k=1}\{[\Delta^2(p_{k-1}\Delta^2
+y_{k-2})]+\Delta[q_{k}(\Delta
+y_{k-1})^\alpha]+r_ky_k^\beta-f(k, y_k)\}x_k
+\\&=&\sum\limits^{N}_{k=1}\{[\Delta^2(p_{k-1}\Delta^2
+y_{k-2})]x_k+\Delta[q_{k}(\Delta y_{k-1})^\alpha]x_k\}-\sum\limits^{N}_{k=-1}[p_{k+1}\Delta^2 y_{k}\Delta^2
+x_{k}-q_{k+1}(\Delta y_{k})^{\alpha}\Delta x_{k}]\\&=&0.
+\end{eqnarray*}
+由于$x\in H$是任意的, 故由上式可得$\Delta^2(p_{k-1}\Delta^2
+y_{k-2})+\Delta[q_{k}(\Delta
+y_{k-1})^\alpha]+r_ky_k^\beta-f(k, y_k)=0, \ k\in[1, N], $即$J$的临界点就是\111的解.
+
+
+
+
+\setcounter{section}{2} \setcounter{equation}{0}
+\renewcommand{\theequation}
+{\arabic{equation}}
+\begin{center}
+{\Large\S3\hspace*{3mm}{\CJKfamily{song}主要结果}}
+\end{center}
+
+
+
+
+
+
+ {\CJKfamily{hei}\bf{定理3.1}}\quad 设存在$M>0$, 使得当$|u|\geq M$时,
+$$F(k, u)\geq a|u| ^\sigma+b, \ \forall \ k\in[1, N],
+\eqno(9)$$ 其中$a, b, \sigma$是实常数,  $a>0, \
+\sigma>$max$\{2, \alpha+1, \beta+1\}$,  则\111 至少存在一个解.
+
+{\CJKfamily{hei}\bf证}\quad 由$(9)$知存在常数$C$使得$\forall k\in
+[1, N]$有$F(k, u)\geq a|u|^\sigma+C, \ u\in \mbox{{\bf R}}, $因此
+$$\sum\limits_{k=1}^NF(k, y_k)\geq a\sum\limits_{k=1}^N|y_k|
+^\sigma+NC=a\|y\|_\sigma^\sigma+NC\geq (a\sigma_0)^\sigma
+\|y\|^\sigma+NC \eqno(10)$$
+其中$\sigma_0$是满足$\|\cdot\|_\sigma\geq\sigma_0\|\cdot\|$的正常数.
+令$$p=\max\limits_{k\in[0, N+1]}\{|p_k|\}, \quad q=\max\limits_{k\in[1, N+1]}\{|q_k|\}, \quad
+r=\max\limits_{k\in[1, N]}\{|r_k|\}, \eqno(11)$$ 则由(6)得:
+$$\begin{array}{rcl}
+J(y)&\leq&\frac{p}{2}\sum\limits^N_{k=-1}(\Delta^2
+y_{k})^2+\frac{q}{\alpha+1}\sum\limits_{k=0}^N|\Delta
+y_{k}|^{\alpha+1}+\frac{r}{\beta+1}\sum\limits_{k=1}^N|y_k|^{\beta+1}-(a\sigma_0)^\sigma
+\|y\|^\sigma-NC\\
+&\leq&2p\sum\limits^N_{k=0}(\Delta
+y_{k})^2+\frac{q2^{\alpha+1}}{\alpha+1}\sum\limits_{k=1}^N|
+y_{k}|^{\alpha+1}+\frac{rd^{\beta+1}}{\beta+1}\y^{\beta+1}-(a\sigma_0)^\sigma
+\|y\|^\sigma-NC\\[4mm]&\leq&8p \y
+^2+\frac{q(2c)^{\alpha+1}}{\alpha+1}\y ^{\alpha+1}+
+\frac{rd^{\beta+1}}{\beta+1}\y^{\beta+1}-(a\sigma_0)^\sigma
+\|y\|^\sigma-NC.
+\end{array}\eqno(12)$$
+注意到$\sigma>\mathrm{max}\{2, \alpha+1, \beta+1\}$, 所以当$\y\to +\infty$时,
+$J(y)\to -\infty, $即$-J(y)$是强制的.
+  由引理$2.1$知存在$\bar{y}\in
+  H, $使得$J'(\bar{y})=0, $即$\bar{y}$是\111的一个解.
+
+{\CJKfamily{hei}\bf{推论3.1}}\quad 设当$|u|$充分大时$uf(k, u)\geq
+0$, 且存在正常数$w, v, $其中$w> \mathrm{max}\{1, \alpha, \beta\}, $使得
+$$\inf\limits_{k\in[1, N]}\lim\limits_{u\to \infty
+}\frac{|f(k, u)|}{|u|^w}\geq v,  \eqno(13)$$则\111至少存在一个解.
+
+
+{\CJKfamily{hei}\bf证}\quad 由假设,  存在$M_1>0$使得当$|u|\geq M_1$时
+$$uf(k, u)\geq 0\quad \mbox{且}\quad \frac{|f(k, u)|}{|u|^{w}}\geq
+\frac{v}{2}.\eqno(14)$$
+由(14)不难得到$$F(k, u)\geq
+\frac{v}{2(w+1)}|u|^{w+1}+C, \ \forall \ u\in\mbox{{\bf R}},
+\eqno(15)$$其中$C$是一常数. 故定理$3.1$中条件$(9)$满足.因此\111
+至少存在一个解.
+
+
+ 下面的推论显然成立.
+
+
+{\CJKfamily{hei}\bf{推论3.2}}\quad 设推论3.1的条件成立且$f(k, 0)\neq
+0(k\in[1, N])$, 则\111存在非零解.
+
+在下面的讨论中,  我们总假设$\beta$是两个不可约的正奇数之商.
+为方便起见, 令
+
+$I_1(y)=\frac{1}{2}\sum\limits^N_{k=-1}p_{k+1}(\Delta^2
+y_{k})^2, \
+I_2(y)=-\frac{1}{\alpha+1}\sum\limits_{k=-1}^Nq_{k+1}(\Delta
+y_{k})^{\alpha+1}, \
+ I_3(y)=\frac{1}{\beta+1}\sum\limits_{k=1}^Nr_ky_k^{\beta+1}$.
+
+
+
+{\CJKfamily{hei}\bf{定理3.2}}\quad 设定理$3.1$的条件成立且
+
+ $(\mathrm{i})\quad
+p_k>0, r_k\geq 0; \qquad (\mathrm{ii})$\quad $\alpha>1; \qquad (\mathrm{iii})\quad
+\lim\limits_{u\to 0}\frac{f(k, u)}{u}=0, $\\则\111至少存在两个解.
+
+{\CJKfamily{hei}\bf证}\quad 设序列$\{y^{(l)}\}_{l=1}^{\infty}\subset
+H$满足$\{J(y^{(l)})\}$有界, $J'(y^{(l)})\to 0(l\to
+\infty)$, 则由$(12)$知\\
+\centerline{$J(y^{(l)})\leq 8p \|y^{(l)}\| ^2+\frac{q(2c)^{\alpha+1}}{\alpha+1}\|y^{(l)}\|
+^{\alpha+1}+\frac{rd^{\beta+1}}{\beta+1}\|y^{(l)}\|^{\beta+1}-(a\sigma_0)^\sigma\|y^{(l)}\|^\sigma-NC, $}
+因此$\{y^{(l)}\}$必有界, 从而$\{y^{(l)}\}_{l=1}^{\infty}$有收敛子列, 故P-S条件成立.令
+$$\tilde{p}=\min\limits_{k\in[0, N+1]}\{p_k\}, q=\max\limits_{k\in[1, N+1]}\{|q_k|\}, \tilde{r}=\min\limits_{k\in[1, N]}\{r_k\}, \eqno(16)$$
+则由$p_k>0$ 知$\tilde{p}>0$且$I_1(y)\geq
+\frac{\tilde{p}}{2}\sum\limits^N_{k=-1}(\Delta^2
+y_{k})^2=\frac{\tilde{p}}{2}\sum\limits^N_{k=-1}(y_{k+2}-2y_{k+1}+
+y_{k})^2 =\frac{\tilde{p}}{2}Y^TDY, $其中$Y=( y_1,  y_2, \cdots,  y_N), Y^T$是$Y$的转置. 而
+
+\[D={\left(
+\begin{array}{rrrrrrrrr}
+6 & -4 & 1 & 0 & 0 & \cdots & 0 & 0 & 0\\
+-4 & 6 & -4 & 1 & 0 & \cdots & 0 & 0 & 0\\
+1 & -4 & 6 & -4 & 1&\cdots &0&0&0\\
+0& 1&-4&6&-4&\cdots &0&0&0\\
+\cdots &\cdots &\cdots &\cdots &\cdots &\cdots &\cdots &\cdots &\cdots\\
+0&0&0&0&0&\cdots &6&-4&1\\
+0&0&0&0&0&\cdots &-4&6&-4\\
+0&0&0&0&0&\cdots &1&-4&6
+\end{array}
+\right)}_{N\times N}.\]
+
+
+易知$D$是正定的, 设$\lambda>0$是$D$的最小特征值.从而$I_1(y)\geq\frac{\tilde{p}}{2}Y^TDY\geq\frac{\tilde{p}\lambda}{2}\y^2.$又
+\begin{eqnarray*} I_2(y)&\geq &\frac{-q}{\alpha+1}\sum\limits_{k=0}^N|\Delta
+y_{k}|^{\alpha+1}\geq
+\frac{-qc^{\alpha+1}}{\alpha+1}[\sum\limits_{k=0}^N(\Delta
+y_{k})^2]^{\frac{\alpha+1}{2}}\\&\geq&
+\frac{-qc^{\alpha+1}}{\alpha+1}(4\sum\limits_{k=0}^N|
+y_{k}|^2)^{\frac{\alpha+1}{2}}=\frac{-q( 2
+c)^{\alpha+1}}{\alpha+1}\y^{\alpha+1}.
+\end{eqnarray*}$\beta$是两个不可约的正奇数之商,  故$I_3(y)\geq \frac{\tilde{r}}{\beta+1}\sum\limits_{k=1}^Ny_k^{\beta+1}=
+\frac{\tilde{r}}{\beta+1}\sum\limits_{k=1}^N|y_k|^{\beta+1}\geq
+\frac{\tilde{r}d_0^{\beta+1}}{\beta+1}\y^{\beta+1}.$则$$J(y)\geq \frac{\tilde{p}\lambda }{2}\y^2 -\frac{q(2
+c)^{\alpha+1}}{\alpha+1}\y^{\alpha+1}+
+\frac{\tilde{r}d_0^{\beta+1}}{\beta+1}\y^{\beta+1}-\sum\limits_{k=1}^NF(k, y_k).\eqno(17)$$
+因为$\alpha>1, $所以存在$R_1>0$使得当$\y<R_1$时, \\
+\centerline{$J(y)\geq
+\frac{\tilde{p}\lambda }{4}\y^2
++\frac{\tilde{r}d_0^{\beta+1}}{\beta+1}\y^{\beta+1}-\sum\limits_{k=1}^NF(k, y_k)\geq
+\frac{\tilde{p}\lambda }{4}\y^2 -\sum\limits_{k=1}^NF(k, y_k).$}
+由(iii), 对$\varepsilon =\frac{\tilde{p}\lambda }{4}$, 存在$R_2>0(R_2<R_1)$, 使得当$|u|\leq R_2$时, $|f(k, u)|\leq
+\varepsilon|u|$.故$F(k, u)=\int_0^uf(k, s)\mathrm{d}a\leq \frac{\varepsilon}{2}u^2, $所以当$\y\leq R_2$时, $\sum\limits_{k=1}^NF(k, y_k)\leq \frac{\varepsilon}{2}\sum\limits_{k=1}^Ny_k^{2}=\frac{\varepsilon}{2}\y^{2}.$从而
+$J(y)\geq\frac{\tilde{p}\lambda }{4}\y^2-\frac{\varepsilon}{2}\y^{2}=\frac{\tilde{p}\lambda}{8}\y^2.$
+令$\mu=\frac{\tilde{p}\lambda }{8}R_2^2$,  则当$y\in
+\partial\mathit\Omega$时,  $J(y)\geq \mu>0$,  这里$\mathit\Omega =B_{R_2}=\{y\in
+H: \y\leq R_2\}$.
+
+ 此外,  由P-S条件的验证过程知, 当$\y$充分大时,
+$J(y)<0$. 即存在$y^0\bar{\in}\bar{\mathit\Omega} $,  使得$J(y^0)<0$.
+注意到$J(\theta)=0$, 因此由山路引理知$\xi =\inf\limits_{h\in
+\mathit\Gamma}\max\limits_{t\in
+[0, 1]}J(h(t))$是$J$的一个临界值, 其中$\mathit\Gamma=\{h\ |\ h: [0, 1]\to
+H: h(0)=\theta, h(1)=y^0\}$, 设$y^*$是其相应的一个临界点.另外由定理$3.1$
+的结论还知,  存在$J$的临界点$\bar y$,  使得$J(\bar
+y)=\sup\limits_{y\in H}J(y)$. 显然$\sup\limits_{y\in H}J(y)>0$.
+如果$\bar y \neq y^*$,  则$\bar y$和$y^*$是$J$的两个不同的临界点.
+ 若$\bar y =y^*$,  则$\inf\limits_{h\in \mathit\Gamma}\max\limits_{t\in
+[0, 1]}J(h(t))=\sup\limits_{y\in H}J(y)$,  这意味着对任意$h\in
+\mathit\Gamma$都有$\max\limits_{t\in [0, 1]}J(h(t))=\sup\limits_{y\in
+H}J(y)$,  从而$\max\limits_{t\in [0, 1]}J(h(t))$都是$J$的临界值.
+ 取$h_1, h_2\in \mathit\Gamma$使得$h_1(s)\neq h_2(s), \ s\in (0, 1) $.
+由$J(h(s))$连续知存在$s_1,  s_2\in(0, 1)$,
+ 使得$J(h_1(s_1))=\max\limits_{t\in
+[0, 1]}J(h_1(t)), \ J(h_2(s_2))=\max\limits_{t\in [0, 1]}J(h_2(t))$,
+则$h_1(s_1), \ h_2(s_2)$是$J$的两个不同的临界点. 因此,  不管如何,
+$J$至少存在两个不同的临界点,  即\111 至少存在两个解.
+
+
+
+{\CJKfamily{hei}\bf{定理3.3}}\quad 设定理$3.1$的条件成立且
+
+ $(\mathrm{i'})\ \
+p_k\geq 0, r_k> 0; \qquad(\mathrm{ii'})\ \ \alpha >\beta ; \qquad(\mathrm{iii'})\ \ \
+\lim\limits_{u\to 0}\frac{f(k, u)}{u^\beta}=0, $\\
+则\111至少存在两个解.
+
+{\CJKfamily{hei}\bf证}\quad若$p_k>0$, 逐字重复定理$3.2$的证明过程可以得到$(17)$式.
+又因为$\alpha>\beta, $所以存在$R_3>0$使得当$\y<R_3$时, $$J(y)\geq \frac{\tilde{p}\lambda }{2}\y^2 +
+\frac{\tilde{r}d_0^{\beta+1}}{2(\beta+1)}\y^{\beta+1}-\sum\limits_{k=1}^NF(k, y_k)
+\geq
+\frac{\tilde{r}d_0^{\beta+1}}{2(\beta+1)}\y^{\beta+1}-\sum\limits_{k=1}^NF(k, y_k).$$
+显然,  当$p_k\geq 0$时上式也成立.
+
+由(iii'),  对$\varepsilon_0
+=\frac{\tilde{r}d_0^{\beta+1}}{4d^{\beta+1}}$,
+存在$R_4>0(R_4<R_3)$,  使得当$|u|\leq R_4$时,  $|f(k, u)|\leq
+\varepsilon_0|u|^\beta$. 故
+$F(k, u)=\int_0^uf(k, s)\mathrm{d}a\leq \frac{\varepsilon_0}{\beta+1}u^{\beta+1}, $
+所以当$\y\leq R_4$时,
+$$\sum\limits_{k=1}^NF(k, y_k)\leq \frac{\varepsilon_0}{\beta+1}\sum\limits_{k=1}^Ny_k^{\beta+1}
+= \frac{\varepsilon_0}{\beta+1}\y_{\beta+1}^{\beta+1}\leq
+\frac{\varepsilon_0 d^{\beta+1}}{\beta+1}\y^{\beta+1}, $$ 从而
+$J(y)\geq
+\frac{\tilde{r}d_0^{\beta+1}}{2(\beta+1)}\y^{\beta+1}-\frac{\varepsilon_0
+d^{\beta+1}}{\beta+1}\y^{\beta+1}=\frac{\tilde{r}d_0^{\beta+1}}{4(\beta+1)}\y^{\beta+1}.
+$
+令$\mu_1=\frac{\tilde{r}d_0^{\beta+1}}{4(\beta+1)}R_4^{\beta+1}$,
+则当$y\in
+\partial\mathit\Omega_1$时,  $J(y)\geq \mu_1>0$,  这里$\mathit\Omega_1 =B_{R_4}=\{y\in
+H: \y\leq R_4\}$.
+
+
+余下的讨论跟定理$3.2$完全一样, 我们在此省略.
+
+{\CJKfamily{hei}\bf{推论3.3}} \quad 设$f(t, u)=g(t)\sum\limits_{i=1}^m|u|^{\gamma_i}\cdot \mbox{sgn}u$, 其中$g(t)$是连续正值函数,
+$\gamma_i>$max$\{1, \alpha, \beta\}, $   $ \ i=1, 2, \cdots, m$. 此外,
+设$p_k>0, \ q_k\geq 0,  r_k>0$,  $\alpha >\mbox{min}\{1,  \beta\}$.
+则\111 至少存在两个解.
+
+{\CJKfamily{hei}\bf证}\quad
+因为$g(t)>0$, 所以存在正数$G_1, G_2$使得$G_1\leq g(k) \leq
+G_2, k\in[1, N]$, 故$$\inf\limits_{k\in [1, N]}\lim\limits_{|u|\to
++\infty}\frac{|f(k, u)|}{|u^{\gamma_1}|}\geq G_1, $$ 且$uf(k, u)>0$,
+因此推论3.1的条件成立, 从而定理3.1的条件也成立. 此外,
+容易看出定理3.2中(iii)及定理3.3中(iii')都成立.
+
+由$\alpha >\mbox{min}\{1,  \beta\}$知,  $\alpha >1$和 $\alpha
+>\beta$中至少有一个成立. 若 $\alpha >1$,  则根据定理3.2知本推论结论成立;  若$\alpha
+>\beta$,  则由定理3.3可知结论成立. 因此, 不管如何,  \111 至少存在两个解.
+
+{\CJKfamily{hei}\bf{注}}\quad
+理论上, 四阶差分边值问题可以转化为二阶模型, 但对许多模型, 其具体实现过程并不容易.
+对本文的模型(1)-(2),  我们直接建立四阶方程的变分结构,
+并运用临界点理论在较简单的条件下给出了解存在的结果.
+
+
+
+\vspace{1cm} \noindent {\CJKfamily{hei}\bf参考文献: } \small
+\def\toto#1#2{\centerline{\hbox to0.7cm{#1\hss}
+\parbox[t]{13cm}{#2}}\vspace{2pt}}
+
+ \toto{[1]}{Atici F  M,  Guseinov  G  S.  Positive
+solutions for nonlinear difference equations with periodic
+coefficients[J].  J  Math  Anal  Appl,  1999,  232:  166-182.}
+\toto{[2]}{Cabada A,   Espinar V O.   Existence and comparison
+results  for difference $\Phi$-Laplacian  boundary value  problems
+with  lower  and  upper  solutions in reverse order[J]. J  Math  Anal  Appl,  2002,  267:  501-521.}
+\toto{[3]}{翁佩萱, 郭志浩.
+$P$-Laplace
+型非线性泛函差分方程正解的存在性[J]. 数学学报, 2006, 49(1): 187-194.}
+
+\toto{[4]}{Atici F M,
+ Cabada A. Existence  and  uniqueness  results  for  discrete
+ second-order  periodic  boundary  value  problems[J]. Comput
+ Math  Appl,  2003,  45:  1417-1427.}
+
+
+ \toto{[5]}{Thompson H  B,   Tisdell C.  Systems  of  difference  equations associated
+ with  boundary  value problems  for  second  order  systems  of ordinary  differential
+ equations[J]. J  Math  Anal  Appl,   2000,  248:  333-347.}
+ \toto{[6]}{郭志明, 庾建设.
+二阶超线性差分方程周期解与次调和解的存在性[J]. 中国科学A辑,  2003,
+46:
+ 226-235.}
+
+ \toto{[7]}{Liang Haihua,  Weng Peixuan. Existence and multiple
+ solutions for  a second-order difference boundary value
+problem  via  critical point theory[J].  J  Math  Anal  Appl,  2007,  326:
+511-520.}
+\toto{[8]}{Agarwal R P,   Henderson J.  Positive  solutions  and
+nonlinear  eigenvalue  problems  for  third-order difference
+equations[J]. Comput Math  Appl,  1998,  36:  347-355.}
+
+
+\toto{[9]}{郭大钧. 非线性泛函分析, 第2版[M].
+济南: 山东科学技术出版社,  2001.}
+
+
+
+
+
+
+
+\begin{center}
+{\bf \large Existence results for a fourth-order
+difference boundary value problem via critical point theory}\\
+LIANG Hai-hua$^{1, 2}$, \ \ WENG Pei-xuan$^{1}$\\
+(1. School of Math. Sci.,  South China Normal
+Univ.,  Guangzhou 510631, China; \\2. Dept. of Comput.
+Sci.,  Guangdong Polytechnic Normal Univ.,  Guangzhou
+510665, China)\end{center}
+
+ {\bf Abstract}: In this paper,  the critical point theory is employed to establish the existence of solutions
+ for a fourth-order difference boundary value problem.
+
+{\bf Keywords}:  fourth-order;   difference boundary value problem;
+critical point;  existence
+
+ {\bf MR Subject Classification}: 39A05;  34B10
+
+  \clearpage
+ \end{CJK*}
+\end{document}

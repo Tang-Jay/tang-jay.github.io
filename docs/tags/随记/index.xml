@@ -5,8 +5,37 @@
     <description>Recent content in 随记 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E9%9A%8F%E8%AE%B0/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>半参数模型是个啥</title>
+      <link>/cn/2022/10/17/note/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/17/note/</guid>
+      <description>
+        <![CDATA[
+        <p>看论文看着看着，看见“半参数模型”几个字，愣了一下，我竟然对这个朝夕相伴这么久的名词，还不知道究竟是个啥，自己研究的模型到底算不算半参数模型？头晕😵‍💫～</p>
+<p>上网搜一搜，大家给的答案：</p>
+<ul>
+<li><a href="https://www.jianshu.com/p/a97c5a0718f8">半参数模型</a></li>
+<li><a href="https://blog.sciencenet.cn/blog-941132-1080151.html">杨立坚写的统计学科普</a></li>
+<li><a href="https://www.zhihu.com/question/24373415">如何理解统计学半参数的概念？</a></li>
+</ul>
+<p>选择一个答案记录一下，</p>
+<p>参数回归是事先假定模型的形式，然后用数据去估计这个模型的系数。而非参数回归则是不假定模型形式，直接从数据来拟合模型。参数回归最基本的是线性模型，非参数回归最简单的最近邻方法。而半参数回归则是，模型中有一部分的结构是已知的，需要估计参数，而另外一部分结构未知。</p>
+<p>比如有<code>$X_1$</code>与<code>$X_2$</code>两个自变量，<code>$Y$</code>为因变量，我们可以对回归函数建模为：</p>
+<p>$$E[Y|X_1, X_2]= \alpha + \beta X_1 + h(X_2)$$</p>
+<p>那么，对<code>$h(X_2)$</code>的分析就是非参的，而对<code>$X_1$</code>的分析为参数的。但如果将其视作整体，其实整个模型严格意义上还是非参的。</p>
+<p>那我研究的模型是半参数模型吗？🤔</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>

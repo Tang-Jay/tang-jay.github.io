@@ -10,7 +10,7 @@
     
     
     <item>
-      <title>半参数模型是个啥</title>
+      <title>大脑突然就宕机了</title>
       <link>/cn/2022/10/17/note/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
@@ -29,7 +29,6 @@
 <p>比如有<code>$X_1$</code>与<code>$X_2$</code>两个自变量，<code>$Y$</code>为因变量，我们可以对回归函数建模为：</p>
 <p>$$E[Y|X_1, X_2]= \alpha + \beta X_1 + h(X_2)$$</p>
 <p>那么，对<code>$h(X_2)$</code>的分析就是非参的，而对<code>$X_1$</code>的分析为参数的。但如果将其视作整体，其实整个模型严格意义上还是非参的。</p>
-<p>那我研究的模型是半参数模型吗？🤔</p>
 
         
         ]]>
@@ -47,10 +46,16 @@
       <description>
         <![CDATA[
         <h2 id="高维问题">高维问题</h2>
+<p>曾力立说，</p>
 <ol>
 <li>传统的数据处理方法在处理高维数据时不能满足稳健性要求；</li>
 <li>高维导致空间的样本数变少，从而使得一些统计上的渐近性难以实现；</li>
 <li>维数的增加亦会导致数据的计算量迅速上升。</li>
+</ol>
+<p>方江林说，</p>
+<ol>
+<li>维数的增大会导致“维数灾难”问题；</li>
+<li>经典大样本统计推断理论一般都是建立在维数固定且相对较小，而样本量趋于无穷的假设下，在数据维数p随着样本容量n一起趋向无穷时，特别是在“超高维”(p &gt; n)数据情形下，经典统计理论的结论可能不再有效。</li>
 </ol>
 <h2 id="方向">方向</h2>
 <h3 id="方向一">方向一</h3>
@@ -91,10 +96,22 @@
 <p>曾力立提到，该论文表明，当协变量维数以某种合理的速度趋于无穷大时，我们仍可以利用经验似然方法构造 <code>$\beta$</code> 的置信域，不过此时有关临界值的确定依赖于正态分布而非卡方分布。</p>
 </blockquote>
 <ul>
-<li>陈松溪 <a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a> <a href="/papers/HigDimen/3.pdf"><code>高维对经验似然的影响</code></a></li>
+<li><a href="https://xueshu.zidianzhan.net/citations?user=pGvWCH4AAAAJ&amp;hl=zh-CN&amp;oi=sra">Hjort et al.</a> <a href="/papers/HigDimen/1-1.pdf"><code>拓展经验似然应用范围</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，当 <code>$p=o_p(n^{1/3}) \to \infty$</code> 时，在一定条件下，该文得出了经验似然比统计量渐近分布为正态分布的结论。</p>
+</blockquote>
+<blockquote>
+<p>曾力立提到，该文在基于plug-in估计对经验似然方法做了一个推广研究。</p>
+</blockquote>
+<ul>
+<li>陈松溪，<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a> <a href="/papers/HigDimen/3.pdf"><code>数据维数对经验似然的影响</code></a></li>
 </ul>
 <blockquote>
 <p>在一般的多元模型下，该文评估了数据维数对高维数据经验似然比的渐近正态性的影响，指出多元随机向量各分量之间的数据维数和相关性直接通过协方差矩阵的迹和特征值来影响经验似然。</p>
+</blockquote>
+<blockquote>
+<p>方江林提到，该文是在Hjort基础上，进一步研究了样本维数对经验似然方法的影响，证明了当 <code>$p=o_p(n^{1/2}) \to \infty$</code> 时，经验似然方法仍然适用，改进了Hjort的结果。</p>
 </blockquote>
 <blockquote>
 <p>曾力立提到，该文在多元模型下研究了均值的渐近性质。</p>
@@ -103,20 +120,17 @@
 <p>毛沥悦提到，该文证明了当参数的维数变化时，经验似然方法仍然有效。</p>
 </blockquote>
 <ul>
-<li>陈松溪 <a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a> <a href="/papers/HigDimen/3-1.pdf"><code>高维经验似然推断</code></a></li>
+<li>陈松溪，汤琤咏 <a href="/papers/HigDimen/3-1.pdf"><code>高维经验似然推断</code></a></li>
 </ul>
 <blockquote>
 <p>研究两个问题，多元参数估计量的置信域和模型假设检验，并提出两个建议，新的估计方程和检验统计量。</p>
 </blockquote>
 <ul>
-<li><a href="https://xueshu.zidianzhan.net/citations?user=pGvWCH4AAAAJ&amp;hl=zh-CN&amp;oi=sra">Hjort N L</a> <a href="/papers/HigDimen/1-1.pdf"><code>拓展经验似然应用范围</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷 <a href="/papers/HigDimen/5.pdf"><code>高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
-<p>曾力立提到，该文在基于plug-in估计对经验似然方法做了一个推广研究。</p>
+<p>方江林提到，该类惩罚的思想是在进行参数估计的同时，利用惩罚函数将较小的系数估计值压缩为零，而将系数估计值较大的保留，在估计出系数的同时选择出重要变量。这可以同时实现变量选择和系数估计两个目标。惩罚变量选择普遍采用“损失函数+惩罚函数”的变量选择方法，类似地，惩罚经验似然通常也使用“经验似然比函数+惩罚函数”方式。该文首次将惩罚经验似然方法应用于高维，不过要求在 <code>$p &lt; n$</code> 情形下。</p>
 </blockquote>
-<ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a> <a href="/papers/HigDimen/5.pdf"><code>高维惩罚经验似然</code></a></li>
-</ul>
 <blockquote>
 <p>曾力立提到，该文将经验似然应用于高维变量选择。</p>
 </blockquote>
@@ -124,10 +138,19 @@
 <p>何帮强提到，该文首次提出的惩罚经验似然（PEL）被用于分析多变量的均值向量和线性模型的发散数量回归系数。该文证实的PEL具有优点在来自非参数似然法的效率和适应性方面。另外，PEL方法具有使用数据来确定置信区域的形状和取向，与EL有相同优点并且不估计共协方差。</p>
 </blockquote>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a> <a href="/papers/HigDimen/8.pdf"><code>惩罚经验似然与高维估计方程</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏 <a href="/papers/HigDimen/8.pdf"><code>惩罚经验似然与高维估计方程</code></a></li>
 </ul>
 <blockquote>
+<p>方江林提到，该文将高维的惩罚经验似然方法推广到高维估计方程，仍要求<code>$p &lt; n$</code>。</p>
+</blockquote>
+<blockquote>
 <p>何帮强提到，该文将PEL方法应用于一般估计方程的参数估计和变量选择，并显示PEL具有oracle特征。</p>
+</blockquote>
+<ul>
+<li><a href="https://xs2.zidianzhan.net/citations?user=I5ZzKjAAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lahiri</a>， <a href="https://xs2.zidianzhan.net/citations?user=Wf3jLKoAAAAJ&amp;hl=zh-CN&amp;oi=sra">Mukhopadhyay</a> <a href="/papers/HigDimen/11.pdf"><code>高维中一种惩罚经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，当维数是超高维的，即 <code>$p &gt; n$</code> 时，该文研究了总体均值的惩罚经验似然推断，并给出了其统计量的渐近性质。</p>
 </blockquote>
 <h2 id="经验似然">经验似然</h2>
 <ul>
@@ -171,6 +194,15 @@
 <li>方江林 <a href="/papers/HigDimen/11.caj"><code>维数发散的高维数据的经验似然</code></a></li>
 </ul>
 <blockquote>
+<p>在样本维数 <code>$p$</code> 随容量 <code>$n$</code> 一起趋向无穷的情形下，本文研究了多个模型的经验似然推断，分别有半参数模型，可加危险率模型，异方差部分线性单指标模型，以及两样本问题（均值，线性模型系数之差）。</p>
+</blockquote>
+<blockquote>
+<p>具体工作：</p>
+<ol>
+<li>利用经验似然方法构造了参数的估计量及其置信域。证明了在一定条件下，当样本维数和容量都趋向无穷情形时，经验似然比渐近分布为正态分布，并证明了通过经验似然方法得到的参数估计量具有一致性。</li>
+<li>利用经验似然方法构造了参数分量的置信区间(置信域)。证明了在一定条件下，当样本维数发散时，通过经验似然方法得到的参数估计量具有一致性，并证明了关于参数分量的经验似然比渐近分布是 <code>$\chi^2_q$</code> 分布。</li>
+<li>将惩罚经验似然方法推广到高维稀疏情形下模型的变量选择和参数估计问题。证明了在一定条件下，当样本维数发散时，惩罚经验似然比统计量具有渐近 <code>$\chi^2_q$</code> 分布，同时证明了惩罚经验似然方法具有Oracle性质。</li>
+</ol>
 </blockquote>
 <ul>
 <li>马昀蓓 <a href="/papers/HigDimen/12.caj"><code>相依误差下线性模型的经验似然</code></a></li>
@@ -178,7 +210,18 @@
 <blockquote>
 </blockquote>
 <ul>
-<li>白璐 <a href="/papers/HigDimen/4.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></li>
+<li><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a> <a href="/papers/HigDimen/9.pdf"><code>高维变系数部分线性模型的经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，该文提出了改进的经验似然方法可以提高其统计推断的效率。</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a> <a href="/papers/HigDimen/10.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a></p>
+</li>
+<li>
+<p>白璐 <a href="/papers/HigDimen/4.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></p>
+</li>
 </ul>
 <blockquote>
 </blockquote>
@@ -200,7 +243,7 @@
 <blockquote>
 </blockquote>
 <ul>
-<li>吕升日 <a href="/papers/HigDimen/1.caj"><code>高维半参数回归模型的惩罚经验似然</code></a></li>
+<li>吕升日 <a href="/papers/HigDimen/1.caj"><code>半参数回归模型的高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>在半参数回归模型中，当协变量的维度随着样本量的增大而增大，即当协变量维度较高时，将会遇到“维数祸根”等问题。将经验似然方法与惩罚函数相结合并应用于模型当中，可以有效的解决高维数据情况下的变量选择问题，从而降低模型的复杂度，解决模型在做预测时的不稳定性的问题。</p>
@@ -567,47 +610,46 @@
     
     
     <item>
-      <title>推荐论文</title>
+      <title>秦导推荐</title>
       <link>/cn/2022/09/21/paper/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
       <guid>/cn/2022/09/21/paper/</guid>
       <description>
         <![CDATA[
-        <h2 id="空间数据">空间数据</h2>
+        <h2 id="摘要写作">摘要写作</h2>
 <ul>
 <li>
-<p><input disabled="" type="checkbox"> Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150. <a href="/papers/QinRecom/Reading_1.pdf"><code>PDF</code></a></p>
+<p><a href="/papers/QinRecom/Abstra-1.pdf">范文 1</a></p>
 </li>
 <li>
-<p><input disabled="" type="checkbox"> Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham. <a href="/papers/QinRecom/Reading_2.pdf"><code>PDF</code></a></p>
+<p><a href="/papers/QinRecom/Abstra-2.pdf">范文 2</a></p>
 </li>
 </ul>
-
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title>摘要写作</title>
-      <link>/cn/2022/09/20/abstract/</link>
-      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/2022/09/20/abstract/</guid>
-      <description>
-        <![CDATA[
-        <h3 id="摘要笔记">摘要笔记</h3>
+<h2 id="空间数据">空间数据</h2>
 <ul>
 <li>
-<p><a href="/papers/QinRecom/essay_1.pdf">NOTE 1</a></p>
+<p>Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150. <a href="/papers/QinRecom/Recom-1.pdf"><code>PDF</code></a></p>
 </li>
 <li>
-<p><a href="/papers/QinRecom/essay_2.pdf">NOTE 2</a></p>
+<p>Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham. <a href="/papers/QinRecom/Recom-2.pdf"><code>PDF</code></a></p>
 </li>
 </ul>
+<h2 id="经济类">经济类</h2>
+<p>来自<a href="www.must.edu.mo/cn/msb/staff">澳门科技大学老师主页</a>。</p>
+<ul>
+<li><a href="/papers/QinRecom/Lin-1.pdf"><code>PDF1</code></a></li>
+<li><a href="/papers/QinRecom/Lin-2.pdf"><code>PDF2</code></a></li>
+<li><a href="/papers/QinRecom/Lin-3.pdf"><code>PDF3</code></a></li>
+<li><a href="/papers/QinRecom/Lin-4.pdf"><code>PDF4</code></a></li>
+<li><a href="/papers/QinRecom/Lin-5.pdf"><code>PDF5</code></a></li>
+<li><a href="/papers/QinRecom/Lin-6.pdf"><code>PDF6</code></a></li>
+</ul>
+<!--
+## 老师原稿
+- [统计模拟和实证介绍](/papers/QinRecom/Qin-1.pdf) [`CODE`](/papers/QinRecom/Qin-1-code.R)
+- [空间计量经济模型的经验似然研究进展](/papers/QinRecom/Qin-2.pdf)
+-->
 
         
         ]]>

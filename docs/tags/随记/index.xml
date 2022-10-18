@@ -10,7 +10,7 @@
     
     
     <item>
-      <title>半参数模型是个啥</title>
+      <title>大脑突然就宕机了</title>
       <link>/cn/2022/10/17/note/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
@@ -29,7 +29,6 @@
 <p>比如有<code>$X_1$</code>与<code>$X_2$</code>两个自变量，<code>$Y$</code>为因变量，我们可以对回归函数建模为：</p>
 <p>$$E[Y|X_1, X_2]= \alpha + \beta X_1 + h(X_2)$$</p>
 <p>那么，对<code>$h(X_2)$</code>的分析就是非参的，而对<code>$X_1$</code>的分析为参数的。但如果将其视作整体，其实整个模型严格意义上还是非参的。</p>
-<p>那我研究的模型是半参数模型吗？🤔</p>
 
         
         ]]>

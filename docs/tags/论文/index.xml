@@ -54,12 +54,12 @@
       <description>
         <![CDATA[
         <!-- 
-- [``](/papers/HigDimen/4.caj)
+- [``](/papers/HigDimen/曾力立.caj)
 > 
 -->
 <h2 id="奠基">奠基</h2>
 <ul>
-<li>石坚  <a href="/papers/HigDimen/2.pdf"><code>高维线性模型中的经验似然</code></a></li>
+<li>石坚. <a href="/papers/HigDimen/2.pdf"><code>高维线性模型中的经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>当协变量的维数随样本量增加时，常规的经验似然推断失效，在适当的正则条件下，对修正的经验似然比统计量给出了渐近分布理论。</p>
@@ -77,7 +77,7 @@
 <p>曾力立提到，该文在基于plug-in估计对经验似然方法做了一个推广研究。</p>
 </blockquote>
 <ul>
-<li>陈松溪，<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a> <a href="/papers/HigDimen/3.pdf"><code>数据维数对经验似然的影响</code></a></li>
+<li>陈松溪，<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/3.pdf"><code>数据维数对经验似然的影响</code></a></li>
 </ul>
 <blockquote>
 <p>在一般的多元模型下，该文评估了数据维数对高维数据经验似然比的渐近正态性的影响，指出多元随机向量各分量之间的数据维数和相关性直接通过协方差矩阵的迹和特征值来影响经验似然。</p>
@@ -92,13 +92,13 @@
 <p>毛沥悦提到，该文证明了当参数的维数变化时，经验似然方法仍然有效。</p>
 </blockquote>
 <ul>
-<li>陈松溪，汤琤咏 <a href="/papers/HigDimen/3-1.pdf"><code>高维经验似然推断</code></a></li>
+<li>陈松溪，汤琤咏. <a href="/papers/HigDimen/3-1.pdf"><code>高维经验似然推断</code></a></li>
 </ul>
 <blockquote>
 <p>研究两个问题，多元参数估计量的置信域和模型假设检验，并提出两个建议，新的估计方程和检验统计量。</p>
 </blockquote>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷 <a href="/papers/HigDimen/5.pdf"><code>高维惩罚经验似然</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷. <a href="/papers/HigDimen/5.pdf"><code>高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，该类惩罚的思想是在进行参数估计的同时，利用惩罚函数将较小的系数估计值压缩为零，而将系数估计值较大的保留，在估计出系数的同时选择出重要变量。这可以同时实现变量选择和系数估计两个目标。惩罚变量选择普遍采用“损失函数+惩罚函数”的变量选择方法，类似地，惩罚经验似然通常也使用“经验似然比函数+惩罚函数”方式。该文首次将惩罚经验似然方法应用于高维，不过要求在 <code>$p &lt; n$</code> 情形下。</p>
@@ -110,7 +110,7 @@
 <p>何帮强提到，该文首次提出的惩罚经验似然（PEL）被用于分析多变量的均值向量和线性模型的发散数量回归系数。该文证实的PEL具有优点在来自非参数似然法的效率和适应性方面。另外，PEL方法具有使用数据来确定置信区域的形状和取向，与EL有相同优点并且不估计共协方差。</p>
 </blockquote>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏 <a href="/papers/HigDimen/8.pdf"><code>惩罚经验似然与高维估计方程</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏. <a href="/papers/HigDimen/8.pdf"><code>惩罚经验似然与高维估计方程</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，该文将高维的惩罚经验似然方法推广到高维估计方程，仍要求<code>$p &lt; n$</code>。</p>
@@ -119,14 +119,14 @@
 <p>何帮强提到，该文将PEL方法应用于一般估计方程的参数估计和变量选择，并显示PEL具有oracle特征。</p>
 </blockquote>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=I5ZzKjAAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lahiri</a>， <a href="https://xs2.zidianzhan.net/citations?user=Wf3jLKoAAAAJ&amp;hl=zh-CN&amp;oi=sra">Mukhopadhyay</a> <a href="/papers/HigDimen/11.pdf"><code>高维中一种惩罚经验似然</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=I5ZzKjAAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lahiri</a>， <a href="https://xs2.zidianzhan.net/citations?user=Wf3jLKoAAAAJ&amp;hl=zh-CN&amp;oi=sra">Mukhopadhyay</a>. <a href="/papers/HigDimen/Lahiri2012.pdf"><code>高维中一种惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，当维数是超高维的，即 <code>$p &gt; n$</code> 时，该文研究了总体均值的惩罚经验似然推断，并给出了其统计量的渐近性质。</p>
 </blockquote>
 <h2 id="经验似然">经验似然</h2>
 <ul>
-<li>曾力立 <a href="/papers/HigDimen/4.caj"><code>高维线性回归模型下的经验似然</code></a></li>
+<li>曾力立. <a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.caj"><code>高维线性回归模型下的经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>许多经典的低维数据处理方法，在处理髙维数据时面临着难以解决的困难。例如，传统的数据处理方法在处理高维数据时不能满足稳健性要求；高维导致空间的样本数变少，从而使得一些统计上的渐近性难以实现；维数的增加亦会导致数据的计算量迅速上升。</p>
@@ -140,7 +140,7 @@
 </ol>
 </blockquote>
 <blockquote>
-<p>曾力立指出，线性模型的统计推断中 <code>$p$</code> 是 <code>$n$</code> 的指数阶的情况下的研究现状：</p>
+<p>该文指出，线性模型的统计推断中 <code>$p$</code> 是 <code>$n$</code> 的指数阶的情况下的研究现状：</p>
 <ol>
 <li><code>$\beta$</code> 有很多分量为零，首先选出非零的分量（即变量选择，如Lasso），然后对被选出来的非零分量做统计推断。</li>
 <li><code>$\beta$</code> 有很多分量不为零，简单地考虑变量选择是不够的，需要新的方法，借鉴<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>在 <a href="/papers/HigDimen/7.pdf"><em>Empirical likelihood test for high dimensional linear models</em></a> 一文中的思想，通过一定手段——将样本数据分为两个部分，用每两个旧的观测值构造一个新的观测值——将约束条件与维数无关。</li>
@@ -157,13 +157,13 @@
 <p>由此将经验似然的方法应用于估计式及 <code>$E\omega_i(\beta_0)=0$</code>，从而解决 <code>$\beta$</code> 有很多分量不为零的假设检验问题。曾力立将高维转换为一维进行考虑，并称其为简单经验似然。</p>
 </blockquote>
 <ul>
-<li>何帮强 <a href="/papers/HigDimen/5.caj"><code>半参数带固定效应的面板数据模型的经验似然</code></a></li>
+<li>何帮强. <a href="/papers/HigDimen/%E4%BD%95%E5%B8%AE%E5%BC%BA.caj"><code>半参数带固定效应的面板数据模型的经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>第四章，对于带固定效应面板数据的高维部分线性误差变量模型，当误差方差为己知和未知情形下。在这一章，作者建议一个修正的回归参数和最大经验似然比率回归参数。同时，依据惩罚经验似然方法，这个模型的参数估计和变量选择被调查，这个建议的惩罚经验似然被证明具有神特征。同时，作者建议的惩罚经验似然比率统计在原假设下具有渐近卡方分布，其结果可以用来构造未知参数的置信域。模拟和实证结果用来评估经验似然方法的性能。</p>
 </blockquote>
 <ul>
-<li>方江林 <a href="/papers/HigDimen/11.caj"><code>维数发散的高维数据的经验似然</code></a></li>
+<li>方江林. <a href="/papers/HigDimen/11.caj"><code>维数发散的高维数据的经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>在样本维数 <code>$p$</code> 随容量 <code>$n$</code> 一起趋向无穷的情形下，本文研究了多个模型的经验似然推断，分别有半参数模型，可加危险率模型，异方差部分线性单指标模型，以及两样本问题（均值，线性模型系数之差）。</p>
@@ -176,52 +176,63 @@
 <li>将惩罚经验似然方法推广到高维稀疏情形下模型的变量选择和参数估计问题。证明了在一定条件下，当样本维数发散时，惩罚经验似然比统计量具有渐近 <code>$\chi^2_q$</code> 分布，同时证明了惩罚经验似然方法具有Oracle性质。</li>
 </ol>
 </blockquote>
+<blockquote>
+<p>发表论文：</p>
+<ol>
+<li>方江林，<a href="https://mc.hunnu.edu.cn/info/1673/3366.htm">刘万荣</a>，<a href="https://xueshu.zidianzhan.net/citations?user=3yVTsEEAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lu Xuewen</a>. <a href="/papers/HigDimen/11.pdf"><code>半参数模型的高维惩罚经验似然</code></a></li>
+</ol>
+</blockquote>
 <ul>
-<li>马昀蓓 <a href="/papers/HigDimen/12.caj"><code>相依误差下线性模型的经验似然</code></a></li>
+<li>马昀蓓. <a href="/papers/HigDimen/%E9%A9%AC%E6%98%80%E8%93%93.caj"><code>相依误差下线性模型的经验似然</code></a></li>
 </ul>
 <blockquote>
 </blockquote>
 <ul>
-<li><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a> <a href="/papers/HigDimen/9.pdf"><code>高维变系数部分线性模型的经验似然</code></a></li>
+<li><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a>. <a href="/papers/HigDimen/9.pdf"><code>高维变系数部分线性模型的经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，该文提出了改进的经验似然方法可以提高其统计推断的效率。</p>
 </blockquote>
 <ul>
 <li>
-<p><a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a> <a href="/papers/HigDimen/10.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a></p>
+<p><a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a>. <a href="/papers/HigDimen/10.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a></p>
 </li>
 <li>
-<p>白璐 <a href="/papers/HigDimen/4.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></p>
+<p>白璐. <a href="/papers/HigDimen/4.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></p>
 </li>
 </ul>
 <blockquote>
 </blockquote>
 <ul>
-<li>曾云辉 <a href="/papers/HigDimen/7.caj"><code>高维线性模型和部分线性模型的相合统计推断</code></a></li>
+<li>曾云辉. <a href="/papers/HigDimen/%E6%9B%BE%E4%BA%91%E8%BE%89.caj"><code>高维线性模型和部分线性模型的相合统计推断</code></a></li>
+</ul>
+<blockquote>
+</blockquote>
+<ul>
+<li>马莹莹. <a href="/papers/HigDimen/%E9%A9%AC%E8%8E%B9%E8%8E%B9.caj"><code>高维数据均值和协差阵检验的经验似然方法</code></a></li>
 </ul>
 <blockquote>
 </blockquote>
 <h2 id="惩罚经验似然">惩罚经验似然</h2>
 <ul>
-<li>毛沥悦 <a href="/papers/HigDimen/2.caj"><code>部分线性模型和广义线性模型的惩罚经验似然</code></a></li>
+<li>毛沥悦. <a href="/papers/HigDimen/%E6%AF%9B%E6%B2%A5%E6%82%A6.caj"><code>部分线性模型和广义线性模型的惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>第三章讨论高维情况下广义线性模型的参数估计与变量选择问题，通过通过适当的辅助随机变量研究了自适应Lasso下高维广义线性模型的惩罚经验似然。主要的结论有提出的方法具有Oracle性质以及在假设检验中构造的检验统计量的渐近分布为卡方分布。</p>
 </blockquote>
 <ul>
-<li>文怡方 <a href="/papers/HigDimen/9.caj"><code>部分函数型线性模型的高维惩罚经验似然</code></a></li>
+<li>文怡方. <a href="/papers/HigDimen/%E6%96%87%E6%80%A1%E6%96%B9.caj"><code>部分函数型线性模型的高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 </blockquote>
 <ul>
-<li>吕升日 <a href="/papers/HigDimen/1.caj"><code>半参数回归模型的高维惩罚经验似然</code></a></li>
+<li>吕升日. <a href="/papers/HigDimen/%E5%90%95%E5%8D%87%E6%97%A5.caj"><code>半参数回归模型的高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>在半参数回归模型中，当协变量的维度随着样本量的增大而增大，即当协变量维度较高时，将会遇到“维数祸根”等问题。将经验似然方法与惩罚函数相结合并应用于模型当中，可以有效的解决高维数据情况下的变量选择问题，从而降低模型的复杂度，解决模型在做预测时的不稳定性的问题。</p>
 </blockquote>
 <ul>
-<li>李吉妮 <a href="/papers/HigDimen/3.caj"><code>单指标模型的高维惩罚经验似然</code></a></li>
+<li>李吉妮. <a href="/papers/HigDimen/%E6%9D%8E%E5%90%89%E5%A6%AE.caj"><code>单指标模型的高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>高维数据的变量选择问题。在处理高维数据时，单指标模型的降维特性有效地避免了“维数灾难问题，还抓住了高维数据的稀疏特性。在论文中考虑参数维数会随着样本容量的增大而同时增大的情形，对单指标模型提出了一种稳健的变量选择方法：基于SCAD惩罚函数及经验似然的惩罚经验似然。</p>
@@ -230,24 +241,30 @@
 <p>论文发现，在一定正则条件下，参数维数随样本量同时增大的惩罚经验似然估计仍具有Oracle性质，即如果已知真实模型是稀疏的模型，则以概率趋向于1，惩罚经验似然确定模型的非零参数估计具有稀疏性（惩罚似然估计值应该有一个限制，这个限制自动将那些较小的估计系数设为，进而去掉，并删除对应的变量，从而降低模型的复杂度）。</p>
 </blockquote>
 <ul>
-<li>刘琦 <a href="/papers/HigDimen/8.caj"><code>广义线性模型的高维惩罚经验似然</code></a></li>
+<li>刘琦. <a href="/papers/HigDimen/%E5%88%98%E7%90%A6.caj"><code>广义线性模型的高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 </blockquote>
 <h2 id="变量选择">变量选择</h2>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=sdw9roIAAAAJ&amp;hl=zh-CN&amp;oi=sra">Meinshausen N</a> <a href="/papers/HigDimen/6.pdf"><code>高维回归p值</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=sdw9roIAAAAJ&amp;hl=zh-CN&amp;oi=sra">Meinshausen N</a>. <a href="/papers/HigDimen/6.pdf"><code>高维回归p值</code></a></li>
 </ul>
 <blockquote>
 <p>曾力立提到，该文研究了高维线性回归模型中的变量选择问题。</p>
 </blockquote>
 <ul>
-<li>李玲玲 <a href="/papers/HigDimen/6.caj"><code>高维线性模型的变量选择</code></a></li>
+<li>李玲玲. <a href="/papers/HigDimen/%E6%9D%8E%E7%8E%B2%E7%8E%B2.caj"><code>高维线性模型的变量选择</code></a></li>
 </ul>
 <blockquote>
 </blockquote>
 <ul>
-<li>唐莹莹 <a href="/papers/HigDimen/10.caj"><code>两类空间面板数据模型的变量选择</code></a></li>
+<li>唐莹莹. <a href="/papers/HigDimen/%E5%94%90%E8%8E%B9%E8%8E%B9.caj"><code>两类空间面板数据模型的变量选择</code></a></li>
+</ul>
+<blockquote>
+</blockquote>
+<h2 id="em算法">EM算法</h2>
+<ul>
+<li>王富雅. <a href="/papers/HigDimen/%E7%8E%8B%E5%AF%8C%E9%9B%85.caj"><code>海量高维数据的分位数回归</code></a></li>
 </ul>
 <blockquote>
 </blockquote>

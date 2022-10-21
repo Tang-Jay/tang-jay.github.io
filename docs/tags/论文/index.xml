@@ -5,8 +5,31 @@
     <description>Recent content in 论文 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E8%AE%BA%E6%96%87/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>空间文献摘录</title>
+      <link>/cn/2022/10/21/space/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/21/space/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="空间模型">空间模型</h2>
+<h3 id="秦永松-https-xueshu-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-ys-qin-empirical-likelihood-btng"><a href="https://xueshu.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=YS+Qin+empirical+likelihood&amp;btnG=">秦永松</a></h3>
+<p><a href="/papers/QinRecom/Qin-2.pdf"><code>空间计量经济模型的经验似然研究进展</code></a></p>
+<blockquote>
+<p>这是一篇经验似然方法应用于空间模型的综述。</p>
+</blockquote>
+<p><a href="/papers/SpaModel/Qin-1.pdf"><code>含空间误差项的空间自回归模型的经验似然</code></a></p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -443,6 +466,9 @@
 <h2 id="空间数据">空间数据</h2>
 <ul>
 <li>
+<p>秦永松 <a href="/papers/QinRecom/Qin-2.pdf"><code>空间计量经济模型的经验似然研究进展</code></a></p>
+</li>
+<li>
 <p>Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150. <a href="/papers/QinRecom/Recom-1.pdf"><code>PDF</code></a></p>
 </li>
 <li>
@@ -462,7 +488,6 @@
 <!--
 ## 老师原稿
 - [统计模拟和实证介绍](/papers/QinRecom/Qin-1.pdf) [`CODE`](/papers/QinRecom/Qin-1-code.R)
-- [空间计量经济模型的经验似然研究进展](/papers/QinRecom/Qin-2.pdf)
 -->
 
         

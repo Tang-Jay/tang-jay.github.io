@@ -1,5 +1,6 @@
 ---
-title: 《哲学家们都干了些什么》林欣浩/著
+title: 《哲学家们都干了些什么》
+subtitle: 林欣浩/著
 date: '2022-08-15'
 categories:
   - 读书志

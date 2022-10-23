@@ -1,6 +1,7 @@
 
 ---
-title: 《阅读、游历和爱情》梁永安/著
+title: 《阅读、游历和爱情》
+subtitle: 梁永安/著
 date: '2022-08-15'
 categories:
   - 读书志

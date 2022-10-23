@@ -1,5 +1,6 @@
 ---
-title: 《人类简史》林俊宏/译
+title: 《人类简史》
+subtitle: 林俊宏/译
 date: '2022-08-15'
 categories:
   - 读书志

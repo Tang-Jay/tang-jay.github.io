@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2022-10-22-sci/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E9%9A%8F%E6%83%B3/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/10/21/space/</loc>
     <lastmod>2022-10-21T00:00:00+00:00</lastmod>
@@ -26,9 +32,6 @@
     <loc>/cn/2022/10/19/day/</loc>
     <lastmod>2022-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/%E9%9A%8F%E6%83%B3/</loc>
-    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/cn/2022/10/17/note/</loc>
     <lastmod>2022-10-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,16 +44,37 @@
     <loc>/cn/2022/10/16/higdim/</loc>
     <lastmod>2022-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/out/</loc>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/cn/2022/10/11/note/</loc>
     <lastmod>2022-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E5%8F%8B%E4%BA%BA/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/vacation/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E7%A5%81%E4%B8%9C/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/10/05/view/</loc>
     <lastmod>2022-10-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/life/</loc>
+    <lastmod>2022-10-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/cn/2022/10/01/song/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/cn/2022/09/27/vark/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/xiang/</loc>
     <lastmod>2022-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/09/26/codes/</loc>
@@ -80,19 +104,10 @@
     <loc>/cn/2022/09/10/teacherday/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
-    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/cn/2022/09/06/liurun/</loc>
     <lastmod>2022-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/09/06/reasons/</loc>
-    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%E5%8F%8B%E4%BA%BA/</loc>
-    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%E7%A5%81%E4%B8%9C/</loc>
     <lastmod>2022-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E8%AF%AD%E5%BD%95/</loc>

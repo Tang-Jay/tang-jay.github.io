@@ -3,15 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2022-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
+    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/peng/</loc>
+    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E5%8F%8B%E4%BA%BA/</loc>
+    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/zhenhuan/</loc>
+    <loc>/cn/2022/10/27/zhenhuan/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E9%9A%8F%E6%83%B3/</loc>
@@ -56,9 +65,6 @@
     <loc>/vacation/</loc>
     <lastmod>2022-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/%E5%8F%8B%E4%BA%BA/</loc>
-    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/%E7%A5%81%E4%B8%9C/</loc>
     <lastmod>2022-10-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -70,9 +76,6 @@
   </url><url>
     <loc>/cn/2022/10/01/song/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
-    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/09/27/vark/</loc>
     <lastmod>2022-09-27T00:00:00+00:00</lastmod>

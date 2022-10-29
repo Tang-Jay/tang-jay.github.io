@@ -114,6 +114,9 @@
 <li><input disabled="" type="checkbox"> 《光明之光》<a href="https://book.douban.com/subject/26989163/"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《棋王》</li>
 <li><input checked="" disabled="" type="checkbox"> 《谈美》</li>
+<li><input disabled="" type="checkbox"> 《人生的进度条就该缓缓》<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li><input disabled="" type="checkbox"> 《走自己的路，戴自己的花》</li>
+<li><input disabled="" type="checkbox"> 《人看多了，还是书好看呀》</li>
 <li><input checked="" disabled="" type="checkbox"> 《一只特立独行的猪》</li>
 <li><input checked="" disabled="" type="checkbox"> 《爱因斯坦传》</li>
 <li><input checked="" disabled="" type="checkbox"> 《李鸿章家族》</li>
@@ -135,7 +138,7 @@
 <li><input checked="" disabled="" type="checkbox"> 《数学之美》<a href="https://book.douban.com/subject/26163454/"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《浪潮之巅》<a href="https://book.douban.com/subject/33474750/"><em>介绍</em></a></li>
 </ol>
-<h2 id="程序员数学-4">程序员数学<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<h2 id="程序员数学-4">程序员数学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《程序员的数学》</li>
 <li><input disabled="" type="checkbox"> 《程序员的数学2：概率统计》</li>
@@ -161,8 +164,8 @@
 <li><input disabled="" type="checkbox"> 《ggplot2：数据分析与图形艺术》<a href="https://pan.baidu.com/s/1XR_m0Mr7fCFaCsvVL62UUg?pwd=uue2"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《现代统计图形》<a href="https://cosx.org/2021/08/msg-preface/#fnref:1"><em>介绍</em></a></li>
 </ol>
-<h2 id="算法-1">算法<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2>
-<h3 id="排行榜-3">排行榜<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h3>
+<h2 id="算法-1">算法<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2>
+<h3 id="排行榜-3">排行榜<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h3>
 <ol>
 <li><input disabled="" type="checkbox"> 《算法（第4版）》</li>
 <li><input checked="" disabled="" type="checkbox"> 《算法图解》<a href="https://pan.baidu.com/s/1wxIAr6-vyjmf3PmFD0Fgqg?pwd=oq6t"><em>下载</em></a></li>
@@ -194,7 +197,7 @@
 <li><input disabled="" type="checkbox"> 《人工智能算法 卷2 受大自然启发的算法》</li>
 <li><input disabled="" type="checkbox"> 《人工智能算法 卷3 深度学习和神经网络》</li>
 </ol>
-<h2 id="推荐系统-2">推荐系统<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2>
+<h2 id="推荐系统-2">推荐系统<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《数据挖掘导论》<a href="https://pan.baidu.com/s/1gTd4dj_KTIapS2zRt6WbZw?pwd=18eb"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《Python数据科学手册》<a href="https://pan.baidu.com/s/1AkMdmw6LqgHk5zDgRrJzHA?pwd=ig81"><em>下载</em></a></li>
@@ -226,16 +229,19 @@
 <hr>
 <ol>
 <li id="fn:1">
-<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s?__biz=MjM5Njc0MjIwMA==&amp;mid=2649727621&amp;idx=2&amp;sn=08ad32e93fbdeac6a4ff352e323218b7&amp;chksm=beff97d289881ec4c230ee8b9c7e57254d03a088e198c2e1b2f8c95ebd0b344581e8af071507&amp;cur_album_id=1915222561131429892&amp;scene=189#wechat_redirect">书单 | 专为程序员而写的数学书</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>书单来了</em>。<a href="https://mp.weixin.qq.com/s/Ni3g4R6Oax3A5VuMuSv-Og">超级内卷的时代，文坛大师教你“躺平哲学”</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>公众号：<em>异步图书</em>。<a href="https://mp.weixin.qq.com/s/MC1Tl4JqajI9Ky_cBxdatg">从入门到进阶，10本算法好书，不止豆瓣9.3</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s?__biz=MjM5Njc0MjIwMA==&amp;mid=2649727621&amp;idx=2&amp;sn=08ad32e93fbdeac6a4ff352e323218b7&amp;chksm=beff97d289881ec4c230ee8b9c7e57254d03a088e198c2e1b2f8c95ebd0b344581e8af071507&amp;cur_album_id=1915222561131429892&amp;scene=189#wechat_redirect">书单 | 专为程序员而写的数学书</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s/3MKHNa00QbyDZL_X1CKE_Q">书单 | 本本经典，学算法就从这里选了！</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>异步图书</em>。<a href="https://mp.weixin.qq.com/s/MC1Tl4JqajI9Ky_cBxdatg">从入门到进阶，10本算法好书，不止豆瓣9.3</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">送你一份推荐系统学习资料</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s/3MKHNa00QbyDZL_X1CKE_Q">书单 | 本本经典，学算法就从这里选了！</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">送你一份推荐系统学习资料</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

@@ -3385,8 +3385,13 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
 <li><input disabled="" type="checkbox"> 《计算之魂》<a href="https://book.douban.com/subject/35641088/?dt_dapp=1"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《数学之美》<a href="https://book.douban.com/subject/26163454/"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《浪潮之巅》<a href="https://book.douban.com/subject/33474750/"><em>介绍</em></a></li>
+<li><input disabled="" type="checkbox"> 《数学女孩6：庞加莱猜想》<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
 </ol>
-<h2 id="程序员数学-4">程序员数学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2>
+<h2 id="脑科学">脑科学</h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《神奇的链接组：你的大脑可以改变》<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+</ol>
+<h2 id="程序员数学-4">程序员数学<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《程序员的数学》</li>
 <li><input disabled="" type="checkbox"> 《程序员的数学2：概率统计》</li>
@@ -3409,11 +3414,17 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
 </ol>
 <h2 id="r">R</h2>
 <ol>
+<li><input disabled="" type="checkbox"> 《R语言与统计分析》<a href="https://pan.baidu.com/s/1iLsn7rl-OijatOFFP0Wp1w?pwd=mgu7"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《R与实验设计与数据分析》<a href="https://pan.baidu.com/s/1iLsn7rl-OijatOFFP0Wp1w?pwd=mgu7"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《R与时间序列分析及应用》<a href="https://pan.baidu.com/s/1Au1wQJlChCBwoX3RZkujJw?pwd=ta7z"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《R与空间数据分析》<a href="https://pan.baidu.com/s/1fYeJljrs0gvcq9nrJi2sOw?pwd=cenn"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《R常见问题解答153分钟学会R》<a href="https://pan.baidu.com/s/1pTgRQ-A3J3o8TJXxFvvsXw?pwd=5u8c"><em>下载</em></a></li>
+<li><input disabled="" type="checkbox"> 《R语言实战》<a href="https://pan.baidu.com/s/1sudxtmSLhA8-bzN6bNJsFA?pwd=hgsp"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《ggplot2：数据分析与图形艺术》<a href="https://pan.baidu.com/s/1XR_m0Mr7fCFaCsvVL62UUg?pwd=uue2"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《现代统计图形》<a href="https://cosx.org/2021/08/msg-preface/#fnref:1"><em>介绍</em></a></li>
 </ol>
-<h2 id="算法-1">算法<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2>
-<h3 id="排行榜-3">排行榜<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h3>
+<h2 id="算法-1">算法<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2>
+<h3 id="排行榜-3">排行榜<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></h3>
 <ol>
 <li><input disabled="" type="checkbox"> 《算法（第4版）》</li>
 <li><input checked="" disabled="" type="checkbox"> 《算法图解》<a href="https://pan.baidu.com/s/1wxIAr6-vyjmf3PmFD0Fgqg?pwd=oq6t"><em>下载</em></a></li>
@@ -3445,7 +3456,7 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
 <li><input disabled="" type="checkbox"> 《人工智能算法 卷2 受大自然启发的算法》</li>
 <li><input disabled="" type="checkbox"> 《人工智能算法 卷3 深度学习和神经网络》</li>
 </ol>
-<h2 id="推荐系统-2">推荐系统<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></h2>
+<h2 id="推荐系统-2">推荐系统<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《数据挖掘导论》<a href="https://pan.baidu.com/s/1gTd4dj_KTIapS2zRt6WbZw?pwd=18eb"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《Python数据科学手册》<a href="https://pan.baidu.com/s/1AkMdmw6LqgHk5zDgRrJzHA?pwd=ig81"><em>下载</em></a></li>
@@ -3458,6 +3469,7 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
 </ol>
 <h2 id="教材">教材</h2>
 <ol>
+<li><input checked="" disabled="" type="checkbox"> 《计量经济学》<a href="https://pan.baidu.com/s/1uZeut7Y1ri_9XKphIntKoQ?pwd=gv82"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《多元统计分析引论》<a href="https://pan.baidu.com/s/10AvIHVRFAl6mgvw_qUVSjQ?pwd=1sfs"><em>下载</em></a></li>
 <li><input disabled="" type="checkbox"> 《测度论》<a href="https://pan.baidu.com/s/154lfLBKvCaef0DEi32heRg?pwd=h0ot"><em>下载</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《高等数理统计》 <a href="https://pan.baidu.com/s/1c0KlKYYiq0GP_UEAjs8XCA?pwd=hi6s"><em>下载</em></a></li>
@@ -3480,16 +3492,19 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
 <p>公众号：<em>书单来了</em>。<a href="https://mp.weixin.qq.com/s/Ni3g4R6Oax3A5VuMuSv-Og">超级内卷的时代，文坛大师教你“躺平哲学”</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s?__biz=MjM5Njc0MjIwMA==&amp;mid=2649727621&amp;idx=2&amp;sn=08ad32e93fbdeac6a4ff352e323218b7&amp;chksm=beff97d289881ec4c230ee8b9c7e57254d03a088e198c2e1b2f8c95ebd0b344581e8af071507&amp;cur_album_id=1915222561131429892&amp;scene=189#wechat_redirect">书单 | 专为程序员而写的数学书</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s/0XaSA2SAtjO-AZvDQIR5QA">9月书单</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p>公众号：<em>异步图书</em>。<a href="https://mp.weixin.qq.com/s/MC1Tl4JqajI9Ky_cBxdatg">从入门到进阶，10本算法好书，不止豆瓣9.3</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s?__biz=MjM5Njc0MjIwMA==&amp;mid=2649727621&amp;idx=2&amp;sn=08ad32e93fbdeac6a4ff352e323218b7&amp;chksm=beff97d289881ec4c230ee8b9c7e57254d03a088e198c2e1b2f8c95ebd0b344581e8af071507&amp;cur_album_id=1915222561131429892&amp;scene=189#wechat_redirect">书单 | 专为程序员而写的数学书</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s/3MKHNa00QbyDZL_X1CKE_Q">书单 | 本本经典，学算法就从这里选了！</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>异步图书</em>。<a href="https://mp.weixin.qq.com/s/MC1Tl4JqajI9Ky_cBxdatg">从入门到进阶，10本算法好书，不止豆瓣9.3</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5">
-<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">送你一份推荐系统学习资料</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s/3MKHNa00QbyDZL_X1CKE_Q">书单 | 本本经典，学算法就从这里选了！</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>公众号：<em>笑傲算法江湖</em>。 <a href="https://mp.weixin.qq.com/s/M1DUTbGmz_DN98ZzEiCHjw">送你一份推荐系统学习资料</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

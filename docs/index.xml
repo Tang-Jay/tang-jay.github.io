@@ -10,6 +10,33 @@
     
     
     <item>
+      <title>工作</title>
+      <link>/job/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/job/</guid>
+      <description>
+        <![CDATA[
+        <ol>
+<li>
+<p><a href="http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/person/person_home.html">国家公务员局</a></p>
+</li>
+<li>
+<p><a href="http://www.wenwu8.com/article/226955.html">湖南长沙市麓谷高级中学教师招聘</a></p>
+</li>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/gZwqv6HkNfYaO1kUI3b9zA">深圳市龙岗区教育局公开招聘教师</a></p>
+</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>情路坎坷</title>
       <link>/peng2/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
@@ -510,17 +537,13 @@ src="/songs/忽然之间_郑钧.mp3">
 <li>统计软件：<a href="http://www.r-project.org/">R</a>；<del>MatLab</del></li>
 <li>语言：<a href="http://www.r-project.org/">R</a>，<a href="http://www.python.org/">Python</a>，<a href="https://www.gohugo.cn">Hugo</a></li>
 <li>操作系统：日常使用 macOS</li>
-<li>计算机等级：
+<li><a href="/certificate/code.txt">计算机等级</a>：
 <ul>
 <li>国家计算机二级程序语言设计类之 C++、Python</li>
 <li>国家计算机三级之网络安全</li>
 </ul>
 </li>
 </ul>
-<!-- https://zscx.neea.edu.cn/html1/folder/22014/5516-1.htm -->
-<!-- 三级网络技术:  准考证号: 3543430022011020   证书编号:35434304541407  -->
-<!-- 二级C++: 	 准考证号: 2439430022043520   证书编号:24394303293402  -->
-<!-- 二级Python:   准考证号: 6662450042010156   证书编号:66624501807803  -->
 <h2 id="发表成果">发表成果</h2>
 <h3 id="中文论文">中文论文</h3>
 <ol>

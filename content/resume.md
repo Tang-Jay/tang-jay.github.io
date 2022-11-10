@@ -53,14 +53,11 @@ disable_comments: true
 - 统计软件：[R](http://www.r-project.org/)；~~MatLab~~
 - 语言：[R](http://www.r-project.org/)，[Python](http://www.python.org/)，[Hugo](https://www.gohugo.cn)
 - 操作系统：日常使用 macOS
-- 计算机等级：
+- [计算机等级](/certificate/code.txt)：
    - 国家计算机二级程序语言设计类之 C++、Python
    - 国家计算机三级之网络安全
 
-<!-- https://zscx.neea.edu.cn/html1/folder/22014/5516-1.htm -->
-<!-- 三级网络技术:  准考证号: 3543430022011020   证书编号:35434304541407  -->
-<!-- 二级C++: 	 准考证号: 2439430022043520   证书编号:24394303293402  -->
-<!-- 二级Python:   准考证号: 6662450042010156   证书编号:66624501807803  -->
+
 
 
 ## 发表成果

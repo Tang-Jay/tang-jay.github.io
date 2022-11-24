@@ -1,0 +1,982 @@
+\documentclass[a4paper,c5size,onecolumn,twoside,cap,Chinese]{APSart}
+\begin{document}
+\setcounter{page}{1}
+
+%%------------------ 编辑部提供的信息 ------------------------%%
+\newcommand{\pubvol}{xx}            % 卷号
+\newcommand{\enpubvol}{xx}        % 卷号
+\newcommand{\pubno}{x}              % 期号
+\newcommand{\enpubno}{x}          % 期号
+\newcommand{\pubyear}{20xx}      % 出版年份
+\newcommand{\enpubyear}{20xx}  % 出版年份
+\newcommand{\pubmonth}{xx}      % 出版月份
+\newcommand{\enpubmonth}{xx}  % 出版月份
+\newcommand{\ksym}{xxx}             % 开始页码
+\newcommand{\jsym}{xxx}              % 结束页码
+\newcommand{\receivedate}{本文XXXX年XX月XX日收到}     % 论文收到日期
+\newcommand{\modifydate}{XXXX年XX月XX日收到修改稿} % 论文修改日期
+\newcommand{\doino}{10.3969/j.issn.1001-4268.20xx.0x.0xx}      % doi号
+
+%%-------------------- 作者提供的信息 ------------------------%%
+\newcommand{\runcnauthors}{唐洁, 秦永松} %超过两个作者的请用：第一作者姓名~等
+%%中文信息
+\newcommand{\cnfirstauthor}{唐洁}
+\newcommand{\cnsecondauthor}{秦永松$^{**}$}
+\newcommand{\cnfirstinst}{广西师范大学数学与统计学院, 广西桂林, 541004}
+\newcommand{\cnsecondinst}{广西师范大学数学与统计学院, 广西桂林, 541004}
+\newcommand{\cntitle}{含空间自相关误差的空间自回归模型的调整经验似然推断}
+\newcommand{\cnkeywords}{ SARAR模型;调整经验似然;覆盖率}
+\newcommand{\cnclassno}{O212.7} % 中图分类号
+%%英文信息
+\newcommand{\enfirstauthor}{TANG Jie}
+\newcommand{\ensecondauthor}{QIN Yongsong$^{**}$}
+\newcommand{\enfirstinst}{Department of mathematics and statistics, Guangxi Normal University , Guilin, 541004, China}
+\newcommand{\ensecondinst}{Department of mathematics and statistics, Guangxi Normal University , Guilin, 541004, China}
+\newcommand{\entitle}{Adjusted Empirical Likelihood for Spatial Autoregressive Models with Spatial Autoregressive Disturbances}
+\newcommand{\enkeywords}{Spatial ARAR model; Adjusted Empirical Likelihood; Confidence region}
+\newcommand{\amsno}{Primary 62G05; Secondary 62E20} % AMS Subject Claassification
+%%
+%% 中文摘要
+\newcommand{\cnabstract}{本文研究含空间自相关误差的空间自回归模型的调整经验似然推断问题.利用调整经验似然方法，构造出含空间自相关误差的空间自回归模型的调整经验似然比统计量，证明调整经验似然统计量的极限分布为卡方分布，并模拟比较调整经验似然与一般经验似然方法的优劣.}
+%% 英文摘要
+\newcommand{\enabstract}{The adjusted empirical likelihood ratio statistics are constructed for the parameters in spatial autoregressive models with spatial autoregressive disturbances. It is shown that the limiting distributions of the adjusted empirical likelihood ratio statistics are chi-squared distributions, which are used to construct confidence regions for the parameters in the models. Our simulation indicates that the adjusted empirical likelihood in the models is much faster to compute than the profile empirical likelihood. The confidence region in the models constructed via the adjusted empirical likelihood are found to have coverage probabilities closer to the nominal levels. The adjusted empirical likelihood is also shown to be effective in solving practical problems associated with the profile empirical likelihood in the models.}
+%% 基金资助
+\newcommand{\fundinfo}{国家自然科学基金资助(12061017)、广西研究生教育创新计划项目资助(YJSCXP202104).}
+%% 作者信息
+\newcommand{\authorsinfo}{\textbf{**通讯作者}:~
+%唐洁(1995--),~女,~学生,~主要研究方向:~空间计量经济，经验似然,~E-mail:tanjay@foxmail.com~;
+秦永松(1964--):~男, 教授,主要研究方向:~空间计量经济, 经验似然,~E-mail:ysqin@mailbox.gxnu.edu.cn.~.}
+
+%        文章正文                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{\zihao{3}\bf{\cntitle}
+\thanks{\scriptsize{\fundinfo}}
+}
+
+% 第二种形式: 同一单位 多个作者 -- 名字左右并列,
+\author{\zihao{4}\fangsong{\cnfirstauthor\hy\hy\hy\cnsecondauthor}\\[-1pt]
+{\zihao{-5}(\cnfirstinst)}}
+
+\date{} % 这一行用来去掉默认的日期显示
+\maketitle
+\vspace{-6mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  中文摘要
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{minipage}[c]{14cm}
+\zihao{-5}
+\hspace{2\ccwd}\textbf{摘~~~要:}\quad\cnabstract\\
+\mbox{}\hspace{2\ccwd}\textbf{关键词:}\quad\cnkeywords\\
+\mbox{}\hspace{2\ccwd}\textbf{中图分类号:}\quad\cnclassno
+\end{minipage}
+\end{center}
+\footnote[0]{\scriptsize{\receivedate, \modifydate.\\
+\authorsinfo}}\vspace{-1em}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  正文由此开始
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{引\hy\hy\hy 言}
+
+众所周知，各省之间的经济不是完全独立的，经济数据涉及到一定的空间位置关系，正如地理学第一定律\ucite{1}所述，所有事物都与其他事物相关联，但较近的事物比较远的事物更关联，空间计量经济学正是对截面数据与面板数据中空间相互性(Spatial dependence)和空间异质性(Spatial heterogeneity)的定量研究，空间计量经济学广泛应用于经济学、环境科学、犯罪学、地理学和传染病学等多个研究领域.本文将研究含空间自相关误差的空间自回归模型\ucite{2}(Spatial Autoregressive Model with Spatial Autoregressive Disturbances，简记为SARAR model):
+\begin{equation}
+    Y_{n} =\rho_1W_nY_n+X_n\beta+u_{(n)}, u_{(n)}=\rho_2M_nu_{(n)}+\epsilon_{(n)} ,\label{model}\\
+\end{equation}
+其中，$n$是空间单元数量，$X_n=(x_1,x_2,...,x_n )'$是$n ×k$维解释变量的样本资料矩阵，$\beta$是$k×1$维$X_n$的回归系数向量，$Y_n=(y_1,y_2,...,y_n )'$是$n ×1$维响应变量，$\rho_j,j=1,2$是空间自回归系数且|$\rho_j$|<1，j=1,2，$W_n$是解释变量$Y_n$的空间邻接权重矩阵，$M_n$是扰动项$u_{(n)}$的空间邻接权重矩阵，它们都是已知的$n ×n$空间邻接权重矩阵（非随机），二者可以相等，$\epsilon_{(n)}$是$n ×1$维空间误差向量，且满足
+$$
+E\epsilon_{(n)}=0,Var(\epsilon_{(n)})=\sigma^2 I_n.
+$$
+
+SARAR模型对存在空间依赖性的数据有较好的解释作用，无论是滞后项存在空间依赖性还是扰动项存在空间依赖性, 空间依赖性由$\rho_j$刻画, $\rho_1$度量空间滞后项$W_nY_n$对解释变量$Y_n$的影响，也就是$Y_n$之间的空间依赖性，即相邻空间之间可能存在扩散、溢出等效应, $\rho_2$度量空间误差滞后项$M_nu_{(n)}$对扰动项$u_{(n)}$的影响，也就是不包含在$X_n$中且对$Y_n$有影响的遗漏变量的空间依赖性. SARAR模型是更一般的空间计量模型，它将空间误差模型(SEM)与空间自回归模型(SAR)结合起来，分别对应于$\rho_1$=0与 $\rho_2$=0的情形，当$\rho_1$=0且$\rho_2$=0时，为线性回归模型.
+
+Cliff and Ord\ucite{3}首次考虑到空间效应,提出空间自回归模型，由此，学者们纷纷加入对该模型的研究,如Anselin\ucite{4}从计量经济学角度处理空间效应，将空间效应视为计量经济学模型中一般问题的特例，并系统整理当时研究空间自回归模型的方法, Cressie\ucite{2}对可能的空间数据类型进行划分,  Kelejian and Prucha\ucite{5}提出使用广义空间两段最小二乘法估计SARAR模型的参数, Kelejian and Prucha\ucite{6}提出使用广义矩估计方法研究SAR模型, Kelejian et al.\ucite{7}推荐使用工具变量的迭代版本估计SARAR模型的参数, Lee\ucite{8}证明了SAR模型的拟极大似然估计的渐近性质, Kelejian and Prucha\ucite{9}研究了在空间模型中方差-协方差矩阵的异方差和自相关系数的相合估计, Arraiz et al.\ucite{10}通过蒙特卡罗模拟表明，在异方差情形下拟极大似然估计量不是相合估计,同时证明在异方差情形下工具变量法导出的估计量为相合估计, Anselin\ucite{11}对空间计量经济学领域在2010年之前的30年中的发展作了详细的阐述.
+
+目前，对空间计量模型的估计, 使用比较多的方法是极大似然法(如文献\ncite{2,3,12})、拟极大似然法(如文献\ncite{8,13})、两阶段最小二乘法(如文献\ncite{5,12,14})、或广义矩估计(如文献\ncite{6,15})，然而, 在渐近分布的渐近协方差未知时， 使用这些参数方法构造SARAR模型中参数的置信域是不容易的，更重要的是，估计的渐近协方差可能会影响基于正态近似的模型参数置信域的精度. 因此, Owen\ucite{16,17}提出的经验似然方法(EL)备受学者们青睐, 该方法构造置信区间除了有域保持性，变换不变性及置信域的形状由数据自行决定等优点外，还有Bartlett纠偏性及无需构造枢轴统计量等优点克服了参数方法的缺点, Qin and Lawless\ucite{18}在Owen基础上给出了一般情况下的经验似然估计方法, 从此, 经验似然得到了广泛地应用, 如Jin 和 Lee\ucite{19}利用广义经验似然方法研究SARAR模型的估计和检验,证明其广义经验似然估计与广义矩估计方法具有相同的渐近分布, Qin\ucite{20}利用经验似然方法构造SARAR模型的经验似然比统计量，证明其经验似然比统计量是渐近卡方分布.经验似然比统计量存在的前提条件是0必须在估计函数集合的凸包内部, 此时经验似然比才存在，Tsao\ucite{21}在小样本下证明了有较高的概率使得0不在估计函数集的凸包内部, Owen\ucite{22}将凸包问题作为经验似然未来之一的挑战问题提出，此后，有许多学者对此问题进行讨论，提出各种方法，这其中比较典型的是Bartolucci\ucite{23}提出的惩罚经验似然，Chen et al.\ucite{24}提出的调整经验似然(AEL)，Emerson and Owen\ucite{25}提出的平衡添加经验似然方法 . 在本文中，我们使用文献\ncite{24}中Chen等提出的调整经验似然思想，在SARAR模型下，讨论调整经验似然比统计量的构造及其相应的性质，并与经验似然进行了适当的模拟比较.  
+
+论文其余安排如下.第二部分给出主要结果.第三部分呈现模拟结果.第四部分给出证明细节.
+
+\section{主要结果}
+
+记$A_n(\rho_1)=I_n-\rho_1W_n,B_n(\rho_2)=I_n-\rho_2M_n$，并且假设$A_n(\rho_1)$和$B_n(\rho_2)$是非奇异矩阵，于是由模型$\rm(\ref{model}) $可知：
+$$
+Y_{n} =A_n^{-1}(\rho_1)X_n\beta+A_n^{-1}(\rho_1)B_n^{-1}(\rho_2)\epsilon_{(n)}. 
+$$
+此时，假设$\epsilon_{(n)}$服从标准正态分布的，则$Y_{n}$服从期望为$A_n^{-1}(\rho_1)X_n\beta$，方差为$A_n^{-1}(\rho_1)B_n^{-1}(\rho_2)$$\\ \sigma^2 I_n[A_n^{-1}(\rho_1)B_n^{-1}(\rho_2)]'$的正态分布，
+于是，$Y_{n}$的拟似然函数为：
+$$
+F =(2\pi)^{-\frac{n}{2}}|B_n(\rho_2)||A_n(\rho_1)|(\sigma^{2n})^{-\frac{1}{2}}\exp\{-\frac{1}{2\sigma^{2}}\epsilon_{(n)}'\epsilon_{(n)}\},
+$$
+其中$\epsilon_{(n)}=B_n(\rho_2)\{A_n(\rho_1)Y_{n}-X_n\beta  \}$,
+进而，$Y_{n}$的拟对数似然函数为：
+$$
+L =-\frac{n}{2}\log(2\pi) -\frac{n}{2}\log\sigma^{2}+\log|A_n(\rho_1)|+\log|B_n(\rho_2)|-\frac{1}{2\sigma^{2}}\epsilon_{(n)}'\epsilon_{(n)},
+$$
+令$G_n=B_n (\rho_2 ) W_n A_n^{-1} (\rho_1 ) B_n^{-1} (\rho_2 ),H_n=M_n B_n^{-1} (\rho_2),\tilde{G}_n=\frac{1}{2} (G_n+G_n' )$及$\tilde{H}_n=\frac{1}{2} (H_n+H_n' )$, 对对数似然函数L求偏导数可得：
+
+$$ \partial L/\partial \beta = \frac{1}{\sigma^{2}}X_n'B'_n(\rho_2)\epsilon_{(n)}, $$
+
+$$ \partial L/\partial \rho_1 = \frac{1}{\sigma^{2}}\{B_n (\rho_2 )W_nA_n^{-1} (\rho_1 )X_n\beta  \}'\epsilon_{(n)}+\frac{1}{\sigma^{2}}\{\epsilon_{(n)}'\tilde{G}_n\epsilon_{(n)} -\sigma^{2}tr(\tilde{G}_n)\}, $$
+
+$$ \partial L/\partial \rho_2 = \frac{1}{\sigma^{2}}\{\epsilon_{(n)}'\tilde{H}_n\epsilon_{(n)} -\sigma^{2}tr(\tilde{H}_n)\}, $$
+
+$$ \partial L/\partial \sigma^{2} = \frac{1}{2\sigma^{4}}\{\epsilon_{(n)}'\epsilon_{(n)} -n\sigma^{2}\}. $$
+令上述偏导数等于0，可以获得以下估计方程：
+
+
+\begin{equation}
+    X_n'B'_n(\rho_2)\epsilon_{(n)} =0,\label{2}
+\end{equation}
+
+\begin{equation}
+    \{B_n (\rho_2 )W_nA_n^{-1} (\rho_1 )X_n\beta  \}'\epsilon_{(n)}+\{\epsilon_{(n)}'\tilde{G}_n\epsilon_{(n)} -\sigma^{2}tr(\tilde{G}_n)\}=0,\label{3}
+\end{equation}
+
+\begin{equation}
+    \epsilon_{(n)}'\tilde{H}_n\epsilon_{(n)} -\sigma^{2}tr(\tilde{H}_n)=0, \label{4}
+\end{equation}    
+    
+\begin{equation}
+    \epsilon_{(n)}'\epsilon_{(n)} -n\sigma^{2}=0. \label{5}
+\end{equation}
+记$\tilde{g}_{ij}$，$\tilde{h} ̃_{ij}$，$b_i$和$s_i$分别表示矩阵$\tilde{G}_n$第$i$行第$j$列的元素，矩阵$\tilde{H}_n$第$i$行第$j$列的元素，矩阵$X_n'B'_n(\rho_2)$第$i$列向量和向量$B_n (\rho_2 )W_nA_n^{-1} (\rho_1 )X_n\beta $的第$i$个元素, $\epsilon_i$表示$\epsilon_{(n)}$的第$i$个元素, 并且规定，当求和符号的上标等于0时我们令该和为0. 为了处理$\rm(\ref{3}) $和$\rm(\ref{4}) $中的二次型形式，需要引入文献\ncite{26}中介绍的鞅差序列, 定义$\sigma$-域：${\mathcal{F}}_{0}=\{ {\emptyset}, \Omega\}, {\mathcal{F}}_{i}=\sigma(\epsilon_{1}, \epsilon_{2}, \cdots, \epsilon_i), 1\leq i\leq n$.令
+
+\begin{equation}
+    \tilde{Y}_{in} =\tilde{g}_{ii} (\epsilon_i^2-\sigma^2 )+2\epsilon_i\sum_{j=1}^{i-1} \tilde{g}_{ii}\epsilon_j, \quad  \tilde{Z}_{in} =\tilde{h}_{ii} (\epsilon_i^2-\sigma^2 )+2\epsilon_i\sum_{j=1}^{i-1} \tilde{h}_{ii}\epsilon_j. \label{6}\\
+\end{equation}
+则 $ {\mathcal{F}}_{i-1}  \subseteq {\mathcal{F}}_{i}$, $\tilde{Y}_{in}$ 是 ${\mathcal{F}}_{i}$-可测的，并且$E(\tilde{Y}_{in}|{\mathcal{F}}_{i-1})=0$.因此，$\{\tilde{Y}_{in}, {\mathcal{F}}_{i}, 1 \leq i\leq n\}$ 和$\{\tilde{Z}_{in}, {\mathcal{F}}_{i}, 1 \leq i\leq n\}$构成两个鞅差序列，且
+
+\begin{equation}
+   \epsilon_{(n)}'\tilde{G}_n\epsilon_{(n)}-\sigma^{2}tr(\tilde{G}_n)=\sum_{i=1}^{n} \tilde{Y}_{in}, \quad \epsilon_{(n)}'\tilde{H}_n\epsilon_{(n)}-\sigma^{2}tr(\tilde{H}_n)=\sum_{i=1}^{n} \tilde{Z}_{in} .\label{7}\\
+\end{equation}
+根据$\rm(\ref{2}) $到$\rm(\ref{7}) $，可知得分函数为：
+$$
+\omega_i(\theta)=\left ( 
+	\begin{array}{cccc} 
+		b_i\epsilon_i\\
+		\tilde{g}_{ii} (\epsilon_i^2-\sigma^2 ) + 2\epsilon_i\sum_{j=1}^{i-1} \tilde{g}_{ii}\epsilon_j + s_i\epsilon_i\\
+		\tilde{h}_{ii} (\epsilon_i^2-\sigma^2 )+2\epsilon_i\sum_{j=1}^{i-1} \tilde{h}_{ii}\epsilon_j\\
+		\epsilon_i^2-\sigma^2
+	\end{array} \right)_{(k+3)\times1},
+$$
+
+由 Owen\ucite{17} ,得到关于$\theta=(\beta', \rho_1,\rho_2,\sigma^2)'\in R^{k+3}$的经验似然比统计量：
+$$L_n(\theta)=\sup_{p_i, 1\leq i\leq n} \prod^n_{i=1}(np_i) , $$
+此处，$\{p_i\}$ 满足：
+$$p_i\geq 0, 1\leq i\leq n,  \sum^n_{i=1}p_i =1,  \sum^n_{i=1}p_i \omega_i(\theta)=0.$$
+由拉格朗日乘子可以算得:
+$$ p_i ={ 1\over n}\cdot{1 \over 1+\lambda'(\theta)\omega_i(\theta)}, 1\leq i\leq n,$$
+及
+$$\ell_n(\theta)  \hat{=} -2\log L_n(\theta)=2\sum^n_{i=1}\log \{1+\lambda'(\theta)\omega_i(\theta)\},$$
+其中 $\lambda(\theta)\in R^{k+3}$ 为以下方程的解:
+\begin{equation}
+{1\over n}\sum^n_{i=1}{\omega_i(\theta)\over 1+\lambda'(\theta)\omega_i(\theta)}=0.  \label{eq} 
+\end{equation}
+
+由 Chen\ucite{24},得到关于$\theta=(\beta', \rho_1,\rho_2,\sigma^2)'\in R^{k+3}$的调整经验似然比统计量：
+\begin{equation}
+L_n^*(\theta)=\sup_{p_i, 1\leq i\leq n+1} \prod^{n+1}_{i=1}\{(n+1)p_i\} , \label{Ln*} 
+\end{equation}
+此处，$\{p_i\}$ 满足：
+$$p_i\geq 0, 1\leq i\leq n+1,  \sum^{n+1}_{i=1}p_i =1,  \sum^{n+1}_{i=1}p_i \omega_i(\theta)=0.$$
+其中，
+$\omega_{n+1}(\theta)=-a_n\bar{\omega}_{n}$，$\bar{\omega}_{n} \ \hat{=} \ \bar{\omega}_{n}(\theta)= n^{-1} \sum^n_{i=1}\omega_i(\theta)$, $a_n>0$. $a_n$称为调整参数.调整经验似然就是在经验似然估计函数集合$\{\omega_{1}(\theta),\omega_{2}(\theta),...,\omega_{n}(\theta)\}$中增加一个元素$\omega_{n+1}(\theta)$，即$\{\omega_{1}(\theta),\omega_{2}(\theta),...,\omega_{n+1}(\theta)\}$.由此给出的调整经验似然估计函数集合的凸包内部包含0.由拉格朗日乘子可以算得:
+$$ p_i ^*={ 1\over n+1}\cdot{1 \over 1+\lambda'(\theta)\omega_i(\theta)},1\leq i\leq n+1,$$
+及
+\begin{equation}
+\ell^*_n(\theta)\hat{=} -2\log L_n^*(\theta)=2\sum^{n+1}_{i=1}\log \{1+\lambda'(\theta)\omega_i(\theta)\},   \label{ln*} 
+\end{equation}
+其中 $\lambda(\theta)\in R^{k+3}$ 为以下方程的解:
+\begin{equation}
+	{1\over n+1}\sum^{n+1}_{i=1}{\omega_i(\theta)\over 1+\lambda'(\theta)\omega_i(\theta)}=0.   \label{eq*} 
+\end{equation}
+显然，如果$\bar{\omega}_{n}=0$，那么$\ell^*_n(\theta)=\ell_n(\theta)=0$.如果给定$\theta$值使得$\bar{\omega}_{n}(\theta)\approx 0$，那么$\ell^*_n(\theta)\approx\ell_n(\theta)$.如果$\theta \in\Theta$，0不在$\{\omega_{1}(\theta),\omega_{2}(\theta),...,\omega_{n}(\theta)\}$的凸包内部时，经验似然方程 $(\ref{eq})$ 的解可能不存在，此时无法得到$\ell_n(\theta)$，但调整经验似然方程$(\ref{eq*})$的解一定存在，所以$\ell^*_n(\theta)$一定可得到.
+
+在本文中，记$\mu_j=E(\epsilon_1^j),j=3,4$, 用$Vec(diag⁡A )$表示由矩阵$A$的对角线上的元素构成的列向量, $\Vert a \Vert$表示向量$a$的第二范数, $\bm{1}_n$ 表示由1作为元素组成的$n$维列向量.为了获得调整经验似然比统计量$\ell^*_n(\theta)$的渐近分布，需要如下假设条件：
+
+A1.\  $\{\epsilon_{i}, 1\leq i\leq n\}$ 是均值为0，方差有限的独立同分布随机变量序列，且存在$\eta_1 > 0$，使$E|\epsilon_{1}|^{4+\eta_1 }<\infty$.
+
+A2.\ $W_n,M_n,A_n^{-1} (\rho_1 ),B_n^{-1} (\rho_2 )$及$\{x_i \}$满足如下条件：
+
+（i）矩阵$W_n,M_n,A_n^{-1} (\rho_1 ),$和$B_n^{-1} (\rho_2 )$的行元素的绝对值之和与列元素的绝对值之和均一致有界；
+
+（ii）$\{x_i \} , i=1,2,...,n$一致有界.
+
+A3.存在常数$c_j>0,j=1,2$使得$0<c_1\le \lambda_{min} (n^{-1}\Sigma_{k+3} ) \le \lambda_{max} (n^{-1} \Sigma_{k+3})\le c_2<∞$,其中$\lambda_{min} (A)$和$\lambda_{max} (A)$分别表示矩阵A的最小和最大的特征值, 且
+
+\begin{equation}
+\Sigma_{k+3}=\Sigma_{k+3}'=Cov\left \{\sum^{n}_{i=1}\omega_i(\theta)\right\}=						
+	\left ( 
+	\begin{array}{cccc} 
+		\Sigma_{11}&\Sigma_{12}&\Sigma_{13}&\Sigma_{14}\\
+		\Sigma_{21}&\Sigma_{22}&\Sigma_{23}&\Sigma_{24}\\
+		\Sigma_{31}&\Sigma_{32}&\Sigma_{33}&\Sigma_{34}\\
+		\Sigma_{41}&\Sigma_{42}&\Sigma_{43}&\Sigma_{44}\\
+	\end{array} \right),  \label{Sigma}
+\end{equation}
+其中，
+ \begin{flalign*}
+\quad \qquad \qquad \qquad \qquad \Sigma_{11}={}&\sigma^2\{B_n (\rho_2 )X_n \}'B_n (\rho_2 )X_n, &
+\end{flalign*}
+ \begin{flalign*}
+\quad \qquad \qquad \qquad \qquad  \Sigma_{12}={}&\sigma^2\{B_n (\rho_2 )X_n \}'B_n (\rho_2 )W_nA_n^{-1} (\rho_1 ) X_n\beta \\
+			&+\mu_3\{B_n (\rho_2 )X_n\}'Vec(diag⁡\tilde{G}_n ),&        
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad  \Sigma_{13}={}&\mu_3\{B_n (\rho_2 )X_n\}'Vec(diag⁡\tilde{H}_n ), &
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad      \Sigma_{14}={}&\mu_3\{B_n (\rho_2 )X_n\}'\bm{1}_n,&
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad  \Sigma_{22}={}&2\sigma^4tr(\tilde{G_n}^2) \\
+		&+\sigma^2\{B_n (\rho_2 )W_nA_n^{-1} (\rho_1 ) X_n\beta\}'B_n (\rho_2 )W_nA_n^{-1} (\rho_1 ) X_n\beta\\
+		&+(\mu_4-3\sigma^4) \Vert Vec(diag⁡\tilde{G}_n ) \Vert ^2 \\
+		&+2\mu_3\{B_n (\rho_2 )W_nA_n^{-1} (\rho_1 ) X_n\beta\ \}'  Vec(diag⁡\tilde{G}_n),    &	
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad  \Sigma_{23}={}&2\sigma^4tr(\tilde{G}_n\tilde{H}_n)\notag \\
+			&+(\mu_4-3\sigma^4)  Vec'(diag⁡\tilde{G}_n )Vec(diag⁡\tilde{H}_n )  \notag \\
+			&+\mu_3\{B_n (\rho_2 )W_nA_n^{-1} (\rho_1 ) X_n\beta\ \}'  Vec(diag⁡\tilde{H}_n), \notag        &
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad  \Sigma_{24}={}&(\mu_4-\sigma^4)  tr(\tilde{G}_n ) \notag \\
+		&+ \mu_3\{B_n (\rho_2 )W_nA_n^{-1} (\rho_1 ) X_n\beta\ \}'\bm{1}_n,  \notag          &
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad 
+\Sigma_{33}={}&2\sigma^4tr(\tilde{H_n}^2)(\mu_4-3\sigma^4) \Vert Vec(diag⁡\tilde{H}_n ) \Vert ^2 ,&
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad  \Sigma_{34}={}&(\mu_4-\sigma^4)  tr(\tilde{H}_n ) ,&
+\end{flalign*}
+\begin{flalign*}
+\quad \qquad \qquad \qquad \qquad  \Sigma_{44}={}&n(\mu_4-\sigma^4).&
+\end{flalign*}
+
+\smallskip
+
+\newtheorem{remank}{注}
+\begin{remank}
+(\ref{Sigma})的证明见文献\ncite{20}的引理3.条件A1至A3是空间模型的常见假设， 如A1和A2在文献\ncite{8}假设1、4、5和6中使用，A3在文献\ncite{5}和文献\ncite{26}证明定理\ref{th1} 中用到.
+\end{remank}
+
+\bigskip
+
+本文的主要结论如下：
+\noindent
+\newtheorem{thm}{定理}
+\begin{thm}\label{th1}
+在假设条件(A1)-(A3)及模型\rm(\ref{model})下，当$\theta = \theta_0$, $n \to \infty$, 且$a_n=o_p(n^{2/3})$时，有
+$$\ell^*_n ({\theta}_0 )   \stackrel{d}{\longrightarrow}\chi^2_{k+3},$$
+其中， $\chi^2_{k+3}$ 表示自由度为$k+3$ 的卡方分布.
+\end{thm}
+
+取定$\alpha$, $0<\alpha<1$,设$z_{\alpha}(k+3)$ 满足$P(\chi^2_{k+3}> z_{\alpha}(k+3))=\alpha$, 由定理\ref{th1} 可确定基于调整经验似然方法下$\theta_0$的置信水平为$1-\alpha$的渐近置信域为：
+$$\{ \theta: \ell^*_n(\theta)\leq z_{\alpha}(k+3) \},$$
+考虑检验问题：$\rm{H_0}:\theta=\theta_0$,  $\rm{H_1}:\theta\neq \theta_0$由定理\ref{th1} 知显著水平为$\alpha$的渐近否定域为：
+$$W\hat{=}\{ \theta: \ell^*_n(\theta) > z_{\alpha}(k+3) \}.$$
+
+
+\noindent
+\begin{thm}\label{th2}
+条件同定理\rm1，当 $\theta \neq \theta_0$，$n\to \infty$且$\Vert E\{\bar{\omega}_n(\theta) \} \Vert>0$时,有
+$$n^{-1/3}\ell^*_n ({\theta} )   \stackrel{p}{\longrightarrow}\infty,n^{-1/3}\ell_n ({\theta} )   \stackrel{p}{\longrightarrow}\infty,$$
+\end{thm}
+\noindent 其中， $ \bar{\omega}_{n}(\theta)= n^{-1} \sum^n_{i=1}\omega_i(\theta)$.
+
+由定理\ref{th2} 可知，定理\ref{th1} 确定的检验规则在$\theta \neq \theta_0$时的渐近功效为:
+$P(W|H_1)=P_{H_1}(\ell^*_n(\theta) > z_{\alpha}(k+3))=P_{H_1}(n^{-1/3}\ell^*_n(\theta) > n^{-1/3}z_{\alpha}(k+3))\to 1$.
+
+\section{模\hy\hy\hy 拟}
+我们通过模拟比较 EL 和 AEL 优劣，给定置信水平$1-\alpha=0.95$, 分别给出$ \ell_n(\theta_0)\leq z_{0.05}(k+3)$和$ \ell^*_n(\theta_0)\leq z_{0.05}(k+3)$在5000次模拟中出现的比例，其中$\theta_0$是$\theta$的真实值. 在模拟中，使用如下模型：$  Y_{n} =\rho_1W_nY_n+X_n\beta+u_{(n)}, u_{(n)}=\rho_2M_nu_{(n)}+\epsilon_{(n)} $，其中$x_i={i\over n+1}$, $1 \le i \le n$, $X_n=(x_1,x_2,\cdots,x_n)'$,  $\beta=3.5$, $a_n=\max\{1,\log(n)/2\}$, $(\rho_{1}$,$\rho_{2})$分别取为(-0.85，-0.15)、(-0.85，0.15)、(0.85，-0.15)和(0.85，0.15)， $\epsilon_{i}'s$分别来自$ N(0, 1)$,  $t(5)$和$\chi^2_{4}-4$.
+
+
+
+\begingroup					%调整表格行距 列距
+\renewcommand{\arraystretch}{0.85} % 行距 Default value: 1
+
+\begin{table}[htbp]
+\setlength{\abovecaptionskip}{0cm}%调整表头与表格的距离
+%\setlength{\belowcaptionskip}{0.9cm}
+\centering
+\caption{EL和AEL置信域中的覆盖率于$\epsilon_{i}$ $\sim$ N(0, 1)\label{table:1}}
+%\begin{tabular}{llllllll}
+\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}llllllll@{}}
+\hline
+($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL&($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL\\
+\hline
+(-0.85，-0.15)& $grid_{9}$  	 & 0.1994 & 1          &  (-0.85，0.15)	& $grid_{9}$ & 0.1988 & 1   \\
+		& $grid_{16}$   	& 0.5152 & 0.7800 	&                 		& $grid_{16}$  & 0.5214 & 0.7942 \\
+		& $grid_{25}$   	& 0.6892 & 0.7736 	&                 		& $grid_{25}$  & 0.6826 & 0.7752 \\
+		& $grid_{36}$   	& 0.7776 & 0.8270	&                	 	& $grid_{36}$  & 0.7760 & 0.8240\\
+		& $grid_{49}$   	& 0.8334 & 0.8648 	&                 		& $grid_{49}$  & 0.8248 & 0.8672\\
+                      & $grid_{100}$ 	& 0.9052 & 0.9184 	&                 		& $grid_{100}$ & 0.9004 & 0.9150\\
+                      & $grid_{169}$ 	& 0.9252 & 0.9326 	&                 		& $grid_{169}$ & 0.9302 & 0.9362 \\
+                      & $W_{49}$ 	& 0.8286 & 0.8630 	&                 		& $W_{49}$ & 0.8322 & 0.8688 \\
+                      & $I_{5}\otimes W_{49}$&0.9298& 0.9346 &     &$I_{5}\otimes W_{49}$&0.9340 &0.9390   \\
+\hline
+(0.85，-0.15) & $grid_{9}$   	& 0.1852 & 1           &  (0.85，0.15)	& $grid_{9}$  & 0.1762 & 1	\\
+		& $grid_{16}$   	& 0.4840 & 0.7584	&                 		& $grid_{16}$ & 0.4692 & 0.7544\\
+		& $grid_{25}$   	& 0.6676 & 0.7538	&                 		& $grid_{25}$ & 0.6438 & 0.7360\\
+		& $grid_{36}$   	& 0.7706 & 0.8232  &                 		& $grid_{36}$ & 0.7534 & 0.8046 \\
+		& $grid_{49}$   	& 0.8116 & 0.8510  &                  		& $grid_{49}$ & 0.8120 & 0.8452\\
+                      & $grid_{100}$ 	& 0.8896 & 0.9052  &                 		& $grid_{100}$ & 0.8964 & 0.9116\\
+                      & $grid_{169}$ 	& 0.9204 & 0.9300     &           		& $grid_{169}$ & 0.9176 & 0.9252\\
+                      & $W_{49}$ 	& 0.8320 & 0.8614  &                 		&  $W_{49}$ & 0.8182 & 0.8520  \\
+                      & $I_{5}\otimes W_{49}$&  0.9304 &0.9352	&     &$I_{5}\otimes W_{49}$&  0.9314 &0.9360   \\
+\hline
+\end{tabular*}
+\end{table}
+
+空间权重矩阵$W_n=(w_{ij})$，$w_{ij}$表示空间单元$i$与空间单元$j$之间的距离，同一空间单元的距离$w_{ii}$为0，$W_n$主对角元素为0.常用的距离函数为“邻接”(contiguity)，即空间单元$i$与空间单元$j$有共同的边界, 则$w_{ij}=1$，反之，则$w_{ij}=0$.  比照象棋中不同棋子的行走路线,  邻接关系可以分为:两个空间单元有公共边、有公共点无公共边、有公共边或公共点，该三种情况依次称为车邻接(rook contiguity)、 象邻接(bishop contiguity)、 后邻接(queen contiguity).模拟中，$w_{ij}$的度量采用后邻接(文献\ncite{3}第18页），即：
+ $$
+w_{ij}= \left\{
+		\begin{array}{l} 
+			1 ,\hspace{5mm}  \text{空间单元}\ i\ \text{和}\ j\ \text{有公共边或公共点},\\
+			0,\hspace{5mm}  \text{其他}.
+		\end{array} 
+	   \right.
+ $$
+ 
+
+%\begin{table}[htbp]
+%\setlength{\abovecaptionskip}{0.cm}
+%\centering
+%\caption{EL和AEL置信域中的覆盖率于  $\epsilon_{i}$ $\sim$ N(0, 0.75)}
+%%\begin{tabular}{llllllll}
+%\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}llllllll@{}}
+%\hline
+%($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL&($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL\\
+%\hline
+%(-0.85，-0.15) & $grid_{9}$   	& 0.2026 & 1		&  (-0.85，0.15)	& $grid_{9}$  & 0.1888 & 1       \\
+%		& $grid_{16}$   	& 0.5320 & 0.7926	&                 		& $grid_{16}$ & 0.4924 & 0.7770\\
+%		& $grid_{25}$   	&  0.6804 & 0.7720	&                 		& $grid_{25}$ & 0.6754 & 0.7646\\
+%		& $grid_{36}$   	& 0.7822 & 0.8330  &                 		& $grid_{36}$ & 0.7724 & 0.8266 \\
+%		& $grid_{49}$   	& 0.8360 & 0.8652  &                  		& $grid_{49}$ & 0.8300 & 0.8666\\
+%                      & $grid_{100}$ 	& 0.8992 & 0.9120  &                 		& $grid_{100}$ & 0.9038 & 0.9200\\
+%                      & $grid_{169}$ 	& 0.9246 & 0.9332  &                 		& $grid_{169}$ & 0.9216 & 0.9292 \\
+%                      & $W_{49}$ 	&  0.8274 & 0.8600     & 	&  $W_{49}$ & 0.8336 & 0.8660   \\
+%                      & $I_{5}\otimes W_{49}$&0.9302 & 0.9366&    &$I_{5}\otimes W_{49}$&0.9288 & 0.9338  \\
+%
+%\hline
+%(0.85，-0.15) & $grid_{9}$   	& 0.1976 & 1.0000	&  (0.85，0.15)	& $grid_{9}$  & 0.1784 & 1.0000    \\
+%		& $grid_{16}$   	& 0.4828 & 0.7762	&                 		& $grid_{16}$ & 0.4674 & 0.7552\\
+%		& $grid_{25}$   	& 0.6592 & 0.7512	&                 		& $grid_{25}$ & 0.6488 & 0.7482\\
+%		& $grid_{36}$   	& 0.7710 & 0.8252  &                 		& $grid_{36}$ & 0.7532 & 0.8064 \\
+%		& $grid_{49}$   	& 0.8174 & 0.8526  &                  		& $grid_{49}$ & 0.8138 & 0.8490\\
+%                      & $grid_{100}$ 	& 0.8978 & 0.9092  &                 		& $grid_{100}$ &  0.8840 & 0.8988\\
+%                      & $grid_{169}$ 	& 0.9244 & 0.9322  &                 		& $grid_{169}$ & 0.9268 & 0.9326  \\
+%                      & $W_{49}$ 	&0.8300 & 0.8614   &       		&  $W_{49}$ & 0.8342 & 0.8634    \\
+%                      & $I_{5}\otimes W_{49}$&0.9354 & 0.9410&  &$I_{5}\otimes W_{49}$&0.9274 & 0.9322    \\
+%\hline
+%\end{tabular*}
+%\end{table}
+
+
+\begin{table}[htbp]
+\setlength{\abovecaptionskip}{0.cm}
+\centering
+\caption{EL和AEL置信域中的覆盖率于$\epsilon_{i}$ $\sim$ t(5)\label{table:2}}
+%\begin{tabular}{llllllll}
+\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}llllllll@{}}
+\hline
+($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL&($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL\\
+\hline
+(-0.85，-0.15)& $grid_{9}$  	& 0.1508 & 1          &  (-0.85，0.15)	& $grid_{9}$ & 0.1522 & 1           \\
+		& $grid_{16}$   	& 0.4160 & 0.6848 	&                 		& $grid_{16}$  & 0.4062 & 0.6734 \\
+		& $grid_{25}$   	& 0.5634 & 0.6610 	&                 		& $grid_{25}$  & 0.5722 & 0.6718 \\
+		& $grid_{36}$   	& 0.6854 & 0.7350 	&                	 	& $grid_{36}$  & 0.6704 & 0.7302\\
+		& $grid_{49}$   	& 0.7406 & 0.7782 	&                 		& $grid_{49}$  & 0.7396 & 0.7776\\
+                      & $grid_{100}$ 	& 0.8350 & 0.8544 	&                 		& $grid_{100}$ & 0.8308 & 0.8484\\
+                      & $grid_{169}$ 	& 0.8746 & 0.8866	&                 		& $grid_{169}$ & 0.8778 & 0.8860 \\
+                      & $W_{49}$ 	& 0.7430 & 0.7826 &                 		&  $W_{49}$ & 0.7328 & 0.7764    \\
+                      & $I_{5}\otimes W_{49}$&0.8910& 0.8998&     &$I_{5}\otimes W_{49}$&   0.9010 &0.9068   \\
+\hline
+(0.85，-0.15) & $grid_{9}$   	& 0.1392 & 1           &  (0.85，0.15)	& $grid_{9}$  & 0.1300 & 1         \\
+		& $grid_{16}$   	& 0.3656 & 0.6410 	&                 		& $grid_{16}$ & 0.3598 & 0.6336\\
+		& $grid_{25}$   	& 0.5476 & 0.6436	&                 		& $grid_{25}$ & 0.5344 & 0.6324\\
+		& $grid_{36}$   	& 0.6486 & 0.7034   &                 		& $grid_{36}$ & 0.6274 & 0.6868 \\
+		& $grid_{49}$   	& 0.7176 & 0.7568   &                  		& $grid_{49}$ & 0.7206 & 0.7580\\
+                      & $grid_{100}$ 	& 0.8254 & 0.8426   &                 		& $grid_{100}$ & 0.8258 & 0.8452\\
+                      & $grid_{169}$ 	& 0.8620 & 0.8726   &                 		& $grid_{169}$ & 0.8804 & 0.8878 \\
+                      & $W_{49}$ 	& 0.7306 & 0.7750&                 		&  $W_{49}$ &  0.7206 & 0.7590 \\
+                      & $I_{5}\otimes W_{49}$& 0.8876 &0.8940 	&     &$I_{5}\otimes W_{49}$&0.8928& 0.8998   \\
+\hline
+\end{tabular*}
+\end{table}
+
+
+%\vspace{0.4cm}
+
+\begin{table}[htbp]
+\setlength{\abovecaptionskip}{0cm}
+\centering
+\caption{EL和AEL置信域中的覆盖率于$\epsilon_{i}+4$ $\sim$ $\chi^2_4$\label{table:3}}
+%\begin{tabular}{llllllll}
+\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}llllllll@{}}
+\hline
+($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL&($\rho_{1}$,$\rho_{2}$)&$W_n=M_n$ & EL&AEL\\
+\hline
+(-0.85，-0.15)& $grid_{9}$  	& 0.1874 & 1           &  (-0.85，0.15)	& $grid_{9}$ & 0.1766 & 1   \\
+		& $grid_{16}$   	& 0.4288 & 0.7236 	&                 		& $grid_{16}$  & 0.4222 & 0.7102 \\
+		& $grid_{25}$   	& 0.5888 & 0.6928 	&                 		& $grid_{25}$  & 0.5708 & 0.6688 \\
+		& $grid_{36}$   	& 0.6880 & 0.7422 	&                	 	& $grid_{36}$  & 0.6792 & 0.7356\\
+		& $grid_{49}$   	& 0.7292 & 0.7696	&                 		& $grid_{49}$  & 0.7310 & 0.7740\\
+                      & $grid_{100}$ 	& 0.8526 & 0.8690 	&                 		& $grid_{100}$ & 0.8408 & 0.8548\\
+                      & $grid_{169}$ 	& 0.8866 & 0.8948 	&                 		& $grid_{169}$ & 0.8894 & 0.8974 \\
+                      & $W_{49}$ 	&  0.7274 & 0.7700&                 		&  $W_{49}$ & 0.7440 & 0.7796 \\
+                      & $I_{5}\otimes W_{49}$& 0.9026 &0.9088   	&     &$I_{5}\otimes W_{49}$&0.8992 &0.9038   \\
+\hline
+(0.85，-0.15) & $grid_{9}$   	& 0.1622 & 1           &  (0.85，0.15)	& $grid_{9}$  & 0.1540 & 1\\
+		& $grid_{16}$   	& 0.4030 & 0.6758	&                 		& $grid_{16}$ & 0.3662 & 0.6566\\
+		& $grid_{25}$   	& 0.5588 & 0.6468	&                 		& $grid_{25}$ & 0.5514 & 0.6486\\
+		& $grid_{36}$   	& 0.6638 & 0.7226  &                 		& $grid_{36}$ & 0.6488 & 0.7094 \\
+		& $grid_{49}$   	& 0.7434 & 0.7822  &                  		& $grid_{49}$ & 0.7124 & 0.7556\\
+                      & $grid_{100}$ 	& 0.8246 & 0.8420  &                 		& $grid_{100}$ & 0.8324 & 0.8480\\
+                      & $grid_{169}$ 	& 0.8746 & 0.8848  &                 		& $grid_{169}$ & 0.8744 & 0.8842  \\
+                      & $W_{49}$ 	&  0.7230 & 0.7644&                 		&  $W_{49}$ &  0.7358 & 0.7742    \\
+                      & $I_{5}\otimes W_{49}$& 0.8964 &0.9032	&     &$I_{5}\otimes W_{49}$&0.9026 &0.9086   \\
+\hline
+\end{tabular*}
+\end{table}
+
+首先考虑空间单元的7种理想情况：规则正方形网格$n=m×m$，$m$=3、4、5、6、7、10、13，分别表示$W_n$为$grid_9$、$grid_{16}$、$grid_{25}$、$grid_{36}$、$grid_{49}$、$grid_{100}$和$grid_{169}$.
+其次，考虑一个实例，美国俄亥俄州哥伦布49个相邻规划街区的权重矩阵,记为$W_{49}$，该矩阵出现在文献\ncite{3}第188页.最后，考虑$W_n=I_5\otimes W_{49}$，其中$\otimes$是kronecker乘积，这相当于将五个独立的地区合并在一起，每个地区都有类似的相邻结构.模拟中 $W_n$将进行标准化使得行和为1，即$w_{ij}$由$w_{ij}/\sum_{j=1}^{n}w_{ij}$替换，同时取$M_n=W_n$. 
+
+
+覆盖率方面，由表\ref{table:1}-\ref{table:3} 可知，当误差项 $\epsilon_{i}$服从正态分布时，EL和AEL方法在置信域中表现良好，随着空间样本单元数量增大，二者的覆盖率接近名义水平0.95;当误差项 $\epsilon_{i}$服从$t$正态分布、卡方分布时也有不错的表现.同时可看出，空间样本单元数量较大时，AEL所得的置信域的覆盖率与EL所得的置信域的覆盖率很接近；空间样本单元数量较少时，AEL所得的置信域的覆盖率要远远优于EL所得的置信域的覆盖率.总之，无论误差项服从什么分布，无论是大样本还是小样本，AEL置信域要宽于EL的置信域（文献\ncite{24}第435页），AEL所得的置信域的覆盖率要优于EL. 从模拟结果看出，无论EL还是AEL在置信域中的覆盖率都小于名义水平0.95，出现这一现象的原因值得进一步探索.
+
+
+\begin{table}[htbp]
+\small
+\setlength{\abovecaptionskip}{0.cm}%调整表头与表格的距离
+%\setlength{\belowcaptionskip}{0.9cm}
+\centering
+\caption{计算EL和AEL覆盖率所用时长对比于$\epsilon_{i}$ $\sim$ N(0, 1)\label{table:4}}
+
+%\begin{tabular}{cccc}
+\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}cccc@{}}
+\hline
+($\rho_{1}$,$\rho_{2}$)=(0.85,0.15)&{模拟100次用时(s)}&{模拟1000次用时(s)}&{模拟5000次用时(min)}\\
+\hline
+
+\begin{tabular}{c}
+$W_n=M_n$\\
+$grid_{9}$\\
+$grid_{16}$ \\
+$grid_{25}$ \\
+$grid_{36}$ \\
+$grid_{49}$ \\
+$grid_{100}$ \\
+$grid_{169}$ \\
+\end{tabular}& 
+
+\begin{tabular}{cc}
+EL&AEL\\
+2.885219 &1.423074\\
+1.976392 &1.579790\\
+2.093846 &1.585393\\
+1.887539 &1.855006\\
+1.955715 &1.879727\\
+2.098889 &2.102570\\
+2.422594 &2.122525\\
+\end{tabular}& 
+
+\begin{tabular}{cc}
+EL&AEL\\
+28.97090 &14.11247\\
+21.10942 &15.99530\\
+17.99317 &17.22005\\
+19.59968 &18.46207\\
+20.00176 &20.11319\\
+21.89202 &20.65957\\
+22.52230 &21.16723\\
+\end{tabular}&
+
+\begin{tabular}{cc}
+EL&AEL\\
+ 2.504900 &1.200872\\
+ 1.818595 &1.410732\\
+ 1.534813 &1.407241\\
+ 1.569183 &1.542990\\
+ 1.578801 &1.559771\\
+ 1.760640 &1.747285\\
+ 1.784222 &1.769154\\
+\end{tabular}\\
+\hline
+总时间&
+\begin{tabular}{cc}
+15.32019 &12.54808\\
+\end{tabular}             &
+\begin{tabular}{cc}
+152.0892 &127.7299\\
+\end{tabular}            &
+\begin{tabular}{cc}
+12.55115 & 10.63805 \\
+\end{tabular}\\
+\hline
+\end{tabular*}
+
+\end{table}
+
+
+计算效率方面，EL的估计函数集的凸包内部有可能不包含0，EL方程 $(\ref{eq})$ 不一定有解，则经验似然比统计量$L_n(\theta)$不一定存在，AEL的估计函数集的凸包内部必包含0，AEL方程$(\ref{eq*})$ 一定有解, 则调整经验似然比统计量$L_n^*(\theta)$一定存在. 我们推荐使用修正的Newton-Raphson算法\ucite{24}求方程的解,该算法的收敛性证明见文献\ncite{27}, 表\ref{table:5} 给出两种经验似然方法的运行总时间，可以看出模拟100次时，AEL比EL快2秒左右，模拟1000次时，AEL比EL快25秒左右，模拟5000次时，AEL比EL快120秒左右.小样本情形，两者运行时间的差异较大，可能的原因是，在求解EL方程的解时，如果初始点远离真实解，其收敛性不能保证，直到迭代次数(设置迭代300次)用完被迫退出循环，而AEL方程的解很快收敛，迭代次数还没用完就已退出循环.该模拟在运行环境为：处理器为1.4GHz, Intel Core i5，内存8 GB 上运行得出.
+
+
+
+%新表
+%\begin{table}[H]
+%\setlength{\abovecaptionskip}{0.cm}%调整表头与表格的距离
+%\caption{Code running time of the EL and AEL confidence regions with $\epsilon_{i}$ $\sim$ N(0, 1)} 
+%\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}cccc@{}}
+%\hline
+% ($\rho_{1}$,$\rho_{2}$)=(0.85，0.15)&$\sigma^2=1$&$\sigma^2=1+n^{-3}$&$\sigma^2=2$\\
+%\hline
+%\begin{tabular}{c}
+%$W_n=M_n$\\
+%$grid_{9}$\\
+%$grid_{16}$ \\
+%$grid_{25}$ \\
+%$grid_{36}$ \\
+%$grid_{49}$ \\
+%$grid_{100}$ \\
+%$grid_{169}$ \\
+%$grid_{400}$\\
+%\end{tabular}& 
+%
+%\begin{tabular}{cc}
+%EL&AEL\\
+%0.8178 & 0.0000\\
+%0.5398 & 0.2520\\
+%0.3432 & 0.2514\\
+%0.2438 & 0.1908\\
+%0.1910 & 0.1512\\
+%0.1042 & 0.0898\\
+%0.0886 & 0.0800\\
+%0.0608 & 0.0580\\
+%\end{tabular}& 
+%
+%\begin{tabular}{cc}
+%EL&AEL\\
+%0.8410 & 0.0000\\
+%0.5898 & 0.3082\\
+%0.4032 & 0.3066\\
+%0.2982 & 0.2448\\
+%0.2434 & 0.2092\\
+%0.1610 & 0.1440\\
+%0.1488 & 0.1396\\
+%0.1746 & 0.1678\\
+%\end{tabular}&
+%
+%\begin{tabular}{cc}
+%EL&AEL\\
+%0.9604 & 0.0000\\
+%0.9068 & 0.7616\\
+%0.8834 & 0.8418\\
+%0.8960 & 0.8694\\
+%0.9268 & 0.9104\\
+%0.9928 & 0.9912\\
+%1.0000 & 1.0000\\
+%1.0000 & 1.0000\\
+%\end{tabular}\\
+%\hline
+%\end{tabular*}
+%\end{table}
+
+%新表
+\begin{table}[htbp]
+\setlength{\abovecaptionskip}{0.cm}%调整表头与表格的距离
+\renewcommand\arraystretch{0.8}%局部调整行高
+\caption{ 模拟中不同假设下的SARAR模型\label{table:5}} 
+\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}cllll@{}}
+\hline
+Model  & $\beta$  & $\rho_1$  & $\rho_2$ & $\sigma^2$\\
+\hline
+$\rm{H_0}$  &3.5   &0.85 &0.15 &1   \\
+$\rm{A_1}$ &3.5   &0.85 &0.15 &1.001  \\
+$\rm{A_2}$ &3.5   &0.85 &0.15 &1.1  \\
+$\rm{A_3}$  &3.5   &0.85 &0.15 &2   \\
+$\rm{A_4}$  &3.5   &0.85 &0.15 &3   \\
+\hline
+\end{tabular*}
+\end{table}
+
+检验功效方面，考虑假设检验问题，原假设$\rm{H_0}:\theta = \theta_0$对备择假设$\rm{H_1}:\theta \neq \theta_0$，其中备择假设检验$\rm{H_1}$考虑表\ref{table:5} 中$\rm{A_1}$、$\rm{A_2}$、$\rm{A_3}$和$\rm{A_4}$四种模型设定. $\rm{A_1}$、$\rm{A_2}$、$\rm{A_3}$和$\rm{A_4}$分别代表了非真值参数与真值参数从近到远的距离，即: $||\theta-\theta_0||<n^{-1}$、
+$ ||\theta-\theta_0||<n^{-1/3}$、
+$||\theta-\theta_0||>n^{-1/12} $和
+$||\theta-\theta_0|| >n^{1/9}$. 
+空间邻接权重矩阵$grid_{400}$同上文，使用规则正方形网格$n=m×m$，$m$ = 20.
+
+由表\ref{table:6} 可见四种对立假设被拒绝的比例情况，随着参数与真值参数的距离逐渐变大，EL和AEL被拒绝的比例都逐渐增大；  当参数与真值参数距离很大时，EL和AEL被拒绝的比例都很接近1，甚至等于1.
+
+
+
+%新表
+\begin{table}[htbp]
+\small
+\setlength{\abovecaptionskip}{0.cm}%调整表头与表格的距离
+\centering
+\caption{EL和AEL拒绝域中的拒绝比例于 $\epsilon_{i}$ $\sim$ N(0, $\sigma^2$)\label{table:6}}
+
+\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}cllllllllll@{}}
+\hline
+  &EL&&&&&AEL&&\\
+\hline
+  $W_n=M_n$ & $\rm{H_0}$ & $\rm{A_1}$ & $\rm{A_2}$ & $\rm{A_3}$ & $\rm{A_4}$ & $\rm{H_0}$ & $\rm{A_1}$ &$\rm{A_2}$ & $\rm{A_3}$& $\rm{A_4}$\\
+\hline
+$grid_{9}$  & 0.8308 & 0.8306 & 0.8504 & 0.9634 & 0.9928 & 0.0000 & 0.0000 & 0.0000 & 0.0000 &0.0000\\
+$grid_{16}$  &  0.5308 & 0.5312 & 0.5730 & 0.9134  & 0.9912 & 0.2478 & 0.2484 & 0.3034 & 0.7666& 0.9562\\
+$grid_{25}$   & 0.3422 & 0.3428 & 0.3970 & 0.8840 & 0.9940 & 0.2452 & 0.2458 & 0.3082 & 0.8382&0.9908\\
+$grid_{36}$   & 0.2530 & 0.2534 & 0.3132 & 0.8980 & 0.9976 & 0.2054 & 0.2052 & 0.2586 & 0.8690& 0.9962\\
+$grid_{49}$   & 0.1894 & 0.1890 & 0.2380 & 0.9316 & 0.9994 & 0.1584 & 0.1592 & 0.2028 & 0.9172& 0.9988\\
+$grid_{100}$  &  0.1090 & 0.1094 & 0.1680 & 0.9938 &  1 & 0.0958 & 0.0968 & 0.1510 & 0.9920& 1  \\
+$grid_{169}$  &  0.0764 & 0.0770 & 0.1374 & 1  &  1 & 0.0678 & 0.0682 & 0.1302 & 1 & 1  \\
+$grid_{400}$  &  0.0622 & 0.0620 & 0.1858 & 1  &  1 & 0.0602 & 0.0600 & 0.1776 & 1 & 1  \\
+\hline
+\end{tabular*}
+
+\end{table}
+
+
+
+%新表
+\begin{table}[htbp]
+\setlength{\abovecaptionskip}{0.cm}%调整表头与表格的距离
+\caption{拒绝域中EL和AEL的拒绝比例对比于 $\epsilon_{i}$ $\sim$ N(0, $\sigma^2$)\label{table:7}} 
+%\begin{tabular*}{\hsize}{@{}@{\extracolsep{\fill}}cccccc@{}}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{cccccc}
+\hline
+          & $\rm{H_0}$ & $\rm{A_1}$ & $\rm{A_2}$ & $\rm{A_3}$& $\rm{A_4}$\\
+\hline
+\begin{tabular}{c}
+$W_n=M_n$\\
+$grid_{9}$\\
+$grid_{16}$ \\
+$grid_{25}$ \\
+$grid_{36}$ \\
+$grid_{49}$ \\
+$grid_{100}$ \\
+$grid_{169}$ \\
+$grid_{400}$\\
+\end{tabular}& 
+
+\begin{tabular}{cc}
+EL&AEL\\
+\hline
+0.8308  & 0.0000\\
+0.5308  & 0.2478\\
+0.3422  & 0.2452\\
+0.2530  & 0.2054\\
+0.1894  & 0.1584\\
+ 0.1090 & 0.0958\\
+ 0.0764 & 0.0678\\
+ 0.0622 & 0.0602\\
+\end{tabular}& 
+
+\begin{tabular}{cc}
+EL&AEL\\
+\hline
+0.8306  & 0.0000\\
+0.5312  & 0.2484\\
+0.3428  & 0.2458\\
+0.2534  & 0.2052\\
+0.1890  & 0.1592\\
+0.1094 & 0.0968 \\
+ 0.0770 & 0.0682\\
+ 0.0620 & 0.0600\\
+\end{tabular}& 
+
+\begin{tabular}{cc}
+EL&AEL\\
+\hline
+0.8504  & 0.0000\\
+0.5730  & 0.3034\\
+0.3970  & 0.3082\\
+0.3132  & 0.2586\\
+0.2380  & 0.2028\\
+ 0.1680 & 0.1510\\
+0.1374 & 0.1302 \\
+0.1858 & 0.1776 \\
+\end{tabular}&
+
+\begin{tabular}{cc}
+EL&AEL\\
+\hline
+0.9634 & 0.0000\\
+0.9134 & 0.7666\\
+0.8840 & 0.8382\\
+0.8980 & 0.8690\\
+0.9316 & 0.9172\\
+0.9938 & 0.9920 \\
+1  & 1  \\
+1  & 1  \\
+\end{tabular}&
+
+\begin{tabular}{cc}
+EL&AEL\\
+\hline
+0.9928 & 0.0000\\
+0.9912 & 0.9562\\
+0.9940 & 0.9908\\
+0.9976 & 0.9962\\
+0.9994 & 0.9988\\
+ 1 & 1 \\
+ 1 & 1\\
+ 1 & 1\\
+\end{tabular}\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+由表\ref{table:7} 进行EL与AEL的两两对比.原假设$\rm{H_0}$下，AEL被拒绝比例比EL更接近$\alpha$为0.05的名义水平, AEL被拒绝比例优于EL；当样本较大且$||\theta-\theta_0||<n^{-1/3}$时，两种方法被拒绝的比例相近，但AEL被拒绝比例更优于EL被拒绝比例；当样本较大且$||\theta-\theta_0||>n^{-1/3}$时，两种方法下被拒绝的比例都趋近于1；当样本数量很少时，比如9个样本，EL在原假设下被拒绝比例很高，AEL在对立假设下被接受比例很高.总之，AEL犯第一类错误的比例优于EL，AEL犯第二错误的比例略劣于EL.
+
+
+总结, 调整经验似然比一般经验似然置信域的覆盖精度更高,计算速度更快，检验功效略小.大样本时，无论误差项是否服从正态分布，推荐EL和AEL方法（文献\ncite{20}）；小样本时，模拟结果推荐AEL方法.
+
+
+
+
+
+\section{证\hy\hy\hy 明}
+
+\newtheorem{lem}{引理}
+\begin{lem}\label{le1}
+设条件(A1)-(A3)满足，则$\theta = \theta_0$，$n \to \infty$时，有
+$$
+\max_{ 1\leq i\leq n} \Vert  \omega_i(\theta) \Vert=o_p(n^{1/2})  \ a.s., 
+ $$
+
+$$
+\Sigma_{k+3}^{-1/2}\sum^{n}_{i=1}{\omega_i(\theta)}\stackrel{d}{\longrightarrow}N(0,I_{k+3}),
+$$
+
+$$
+\ n^{-1}\sum^{n}_{i=1}{\omega_i(\theta)}{\omega_i'(\theta)}=n^{-1}\Sigma_{k+3}+o_p(1) ,
+$$
+    
+$$
+\sum^{n}_{i=1}\Vert  \omega_i(\theta) \Vert^3=O_p(n) ,
+$$
+其中\( \Sigma_{k+3}\)已在\( \rm(\ref{Sigma}) \)中给出.
+\end{lem}
+
+{\bf 证明. }见文献\ncite{20}的引理3.
+
+
+{\bf 定理\ref{th1} 的证明. }令记$\lambda=\lambda(\theta)$，$\lambda$是满足方程$(\ref{eq*})$的解，只要\( a_n=o_p(n)\)，
+令\( \omega^* = \max_{ 1\leq i\leq n} \Vert  \omega_i(\theta) \Vert  \)，由引理\ref{le1} 可知，
+$$  \bar{\omega}_{n}=O_p(n^{-1/2}),\   \omega^* =o_p(n^{1/2})$$
+令$\omega_i=\omega_i(\theta),\rho=||\lambda||,\hat{\lambda}=\lambda/\rho$,有$||\hat{\lambda}||=1,\lambda=\rho\hat{\lambda},\lambda'=\rho\hat{\lambda}'$.
+
+于是，由$\rm(\ref{eq*}) $可得，
+\begin{eqnarray*}
+0 &=&{\hat{\lambda}'\over n}\sum^{n+1}_{i=1}{\omega_i \over 1+\lambda'\omega_i}\\
+%&={\hat{\lambda}'\over n}\sum^{n+1}_{i=1}(\omega_i- { \omega_i\lambda'\omega_i \over 1+\lambda'\omega_i})\\
+&=&{\hat{\lambda}'\over n}\sum^{n+1}_{i=1}{\omega_i}-{\rho\over n}\sum^{n+1}_{i=1}{(\hat{\lambda}'\omega_i)^2 \over 1+\rho\hat{\lambda}'\omega_i} \\
+&=&{\hat{\lambda}'\over n}(\sum^{n}_{i=1}{\omega_i}+\omega_{n+1})-{\rho\over n}(\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 \over 1+\rho\hat{\lambda}'\omega_i}+{(\hat{\lambda}'\omega_{n+1})^2 \over 1+\rho\hat{\lambda}'\omega_{n+1}})\\
+&=&\hat{\lambda}'\bar{\omega}_n(1-a_n/n)-{\rho\over n}(\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 \over 1+\rho\hat{\lambda}'\omega_i}+{(\hat{\lambda}'\omega_{n+1})^2 \over 1+\rho\hat{\lambda}'\omega_{n+1}})\\
+&\le& \hat{\lambda}'\bar{\omega}_n(1-a_n/n)-{\rho\over n}\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 \over 1+\rho\hat{\lambda}'\omega_i}\\
+&\le& \hat{\lambda}'\bar{\omega}_n(1-a_n/n)-{\rho\over n}\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 \over 1+\rho\omega^*}\\
+&=& \hat{\lambda}'\bar{\omega}_n-{\rho\over n(1+\rho\omega^*)}\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 }+O_p(n^{-3/2}a_n)\\
+&=& \hat{\lambda}'\bar{\omega}_n-{\rho\over n(1+\rho\omega^*)}\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 }+o_p(n^{-1/2}).
+\end{eqnarray*}
+从而，
+$${\rho\over 1+\rho\omega^*}\cdot {1 \over n}\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 }= \hat{\lambda}'\bar{\omega}_n+o_p(n^{-1/2}).$$
+令$V_0 =\ n^{-1}\sum^{n}_{i=1}{\omega_i(\theta)}{\omega_i'(\theta)}$，结合条件A3可知，
+$${1 \over n}\sum^{n}_{i=1}{(\hat{\lambda}'\omega_i)^2 }=\hat{\lambda}'\cdot{1 \over n}\sum^{n}_{i=1}{\omega_i\omega_i'}\cdot\hat{\lambda}=\hat{\lambda}'V_0\hat{\lambda} \ge \lambda_{min} (V_0),$$
+ $$
+ |\hat{\lambda}'\bar{\omega}_n| \le |\hat{\lambda}'\Sigma_{k+3}^{1/2}\Sigma_{k+3}^{-1/2}\bar{\omega}_n| \le  ||\Sigma_{k+3}^{1/2}\hat{\lambda}|| \cdot ||\Sigma_{k+3}^{-1/2}\bar{\omega}_n|| \le  \lambda_{max} ( \Sigma_{k+3}^{1/2})||\hat{\lambda}|| \cdot ||\Sigma_{k+3}^{-1/2}\bar{\omega}_n||   ,$$
+即，
+ $${\rho\over 1+\rho\omega^*}\lambda_{min} (V_0) \le  \lambda_{max} ( \Sigma_{k+3}^{1/2})||\hat{\lambda}|| \cdot ||\Sigma_{k+3}^{-1/2}\bar{\omega}_n||+o_p(n^{-1/2}).$$
+ 由引理\ref{le1} 可知$||\Sigma_{k+3}^{-1/2}\bar{\omega}_n||=O_p(n^{-1})$，结合条件A3得，
+$${\rho\over 1+\rho\omega^*}= O_p(n^{-1/2}),$$
+再由引理\ref{le1} 可知，
+$${\rho}= O_p(n^{-1/2}),$$
+即，
+\begin{equation}
+\lambda= O_p(n^{-1/2}) .\label{lam}
+\end{equation}
+令$\gamma_i=\lambda'\omega_i$, 由柯西-施瓦茨不等式可知，
+$\max_{ 1\leq i\leq n}|  \gamma_i | \le  ||\lambda || \cdot \omega^*  $, \ $|  \gamma_{n+1} | =  |\lambda' \omega_{n+1} |=|a_n \lambda' \bar{\omega}_{n} |\le  a_n||\lambda || \cdot  ||\bar{\omega}_{n}||$
+由引理\ref{le1} 可得，
+
+\begin{equation}
+\max_{ 1\leq i\leq (n+1)} |  \gamma_i |=o_p(1) ,\label{op1}
+\end{equation}
+由$\rm(\ref{eq*}) $可得，
+\begin{eqnarray*}
+0 &=&{1 \over n}\sum^{n+1}_{i=1}{\omega_i \over 1+\lambda'\omega_i}\\
+%&={1 \over n}\sum^{n+1}_{i=1}{\omega_i(1+\lambda'\omega_i)- \omega_i\lambda'\omega_i \over 1+\lambda'\omega_i}\\
+&=&{1 \over n}\sum^{n+1}_{i=1}{\omega_i}-{1 \over n}\sum^{n+1}_{i=1}{\omega_i\lambda'\omega_i \over 1+\lambda'\omega_i} \\
+%&={1 \over n}\sum^{n+1}_{i=1}{\omega_i}-{1 \over n}\sum^{n+1}_{i=1}{\omega_i\lambda'\omega_i(1+\lambda'\omega_i)-\omega_i(\lambda'\omega_i)^2 \over 1+\lambda'\omega_i} \\
+&=&{1 \over n}\sum^{n+1}_{i=1}{\omega_i}-\{{1 \over n}\sum^{n+1}_{i=1}\omega_i\omega_i '\}\lambda+{1 \over n}\sum^{n+1}_{i=1}{\omega_i(\lambda'\omega_i)^2 \over 1+\lambda'\omega_i}\\
+%&=\bar{\omega}_n+{1 \over n}\omega_{n+1}-V_0\lambda-{1 \over n}\omega_{n+1}\omega_{n+1} '\lambda+{1 \over n}\sum^{n}_{i=1}{\omega_i(\lambda'\omega_i)^2 \over 1+\lambda'\omega_i}+{1 \over n} \cdot {\omega_{n+1}(\lambda'\omega_{n+1})^2 \over 1+\lambda'\omega_{n+1}}\\
+%&=\bar{\omega}_n+{1 \over n}\omega_{n+1}-V_0\lambda-{1 \over n}\omega_{n+1}\gamma_{n+1} +{1 \over n}\sum^{n+1}_{i=1}{\omega_i\gamma_i^2 \over 1+\lambda'\omega_i}\\
+&=&\bar{\omega}_n+{1 \over n}\omega_{n+1}-V_0\lambda-{1 \over n}\omega_{n+1}\gamma_{n+1}+{1 \over n}\sum^{n}_{i=1}{\omega_i\gamma_i^2 \over 1+\lambda'\omega_i}+{1 \over n} \cdot {\omega_{n+1}\gamma_{n+1}^2 \over 1+\lambda'\omega_{n+1}}
+\end{eqnarray*}
+结合引理\ref{le1} 和条件A3,上式可得，
+\begin{equation}
+\lambda=V_0^{-1}\bar{\omega}_{n}+o_p(n^{-1/2}),\label{lambda}\\
+\end{equation}
+其中，$||n^{-1}\sum^{n}_{i=1}\omega_i\gamma_i^2||\le n^{-1}\sum^{n}_{i=1}||\omega_i||^3 \cdot||\lambda||^2=O_p(n^{-1})=o_p(n^{-1/2})$.\\
+由$\rm(\ref{op1}) $可以泰勒展开$\log(1+\gamma_i)=\gamma_i-\gamma_i^2/2+\nu_i$,其中，存在$B>0$,使得当$n \to \infty$时，
+$$P(|\nu_i| \le B|\gamma_i|^3,1 \le i \le n+1) \to 1$$
+因此，由$\rm(\ref{ln*}) $，$\rm(\ref{lambda}) $和泰勒展开，可以得到
+\begin{eqnarray*}
+\ell^*_n(\theta_0)& = & 2\sum_{j=1}^{n+1} \log(1+\gamma_j)=2\sum_{j=1}^{n+1}\gamma_j-\sum_{j=1}^{n+1}\gamma_j^2+2\sum_{j=1}^{n+1}\nu_j\\
+& = & 2\sum_{j=1}^{n}\gamma_j-\sum_{j=1}^{n}\gamma_j^2+2\gamma_{n+1}-\gamma^2_{n+1}+2\sum_{j=1}^{n+1}\nu_j\\
+& = & 2n\lambda'\bar{\omega}_n-n\lambda'V_0\lambda+2\sum_{j=1}^{n+1}\nu_j +o_p(1)\\
+& = & 2n(V_0^{-1}\bar{\omega}_{n})'\bar{\omega}_n+2n\cdot o_p(n^{-1/2})\bar{\omega}_n-n\bar{\omega}_{n}'V_0^{-1}\bar{\omega}_{n}\\
+&     &-2n\cdot o_p(n^{-1/2})\bar{\omega}_n-n \cdot o_p(n^{-1/2})V_0o_p(n^{-1/2})+2\sum_{j=1}^{n+1}\nu_j +o_p(1)\\
+& = & n\bar{\omega}_{n}'V_0^{-1}\bar{\omega}_n+2\sum_{j=1}^{n+1}\nu_j +o_p(1)\\
+&=&  \{n\Sigma^{-1/2}_{k+3}\bar{\omega}_{n}\}'\{n\Sigma^{-1/2}_{k+3} V_0 \Sigma^{-1/2}_{k+3}\}^{-1}\{n\Sigma^{-1/2}_{k+3}\bar{\omega}_{n}\}+2\sum_{j=1}^{n+1}\nu_j +o_p(1).
+\end{eqnarray*}
+结合引理\ref{le1} 和条件A3,可知，
+$$
+ \{n\Sigma^{-1/2}_{k+3}\bar{\omega}_{n}\}'  \{n\Sigma^{-1/2}_{k+3} V_0 \Sigma^{-1/2}_{k+3})\}^{-1}\{n\Sigma^{-1/2}_{k+3}\bar{\omega}_{n}\} \stackrel{d}{\longrightarrow}\chi^2_{k+3}.
+$$
+其中，
+$$
+|\sum_{j=1}^{n+1}\nu_j| \le |\sum_{j=1}^{n}\nu_j|+|\nu_{n+1}|\leq B ||\lambda||^3\sum_{j=1}^{n}||\omega_{j}||^3+B ||\lambda||^3||\omega_{n+1}||^3 =O_p(n^{-1/2})+o_p(1)=o_p(1).
+$$
+ 定理\ref{th1} 证毕.
+
+{\bf 定理\ref{th2} 的证明. }令$\bar{\omega}_n=\bar{\omega}_n(\theta)$, 当$n \to \infty$时，由大数定律可知，$||\bar{\omega}_n'\bar{\omega}_n||\stackrel{p}{\longrightarrow}\delta^2>0$，类似文献\ncite{20}中(4.2)的证明可得$\omega^* \ \hat{=}\  \max_{ 1\leq i\leq n} ||  \omega_i(\theta)  || =o_p(n^{1/2}) $.
+ 令
+$\tilde\lambda=n^{-2/3}\bar{\omega}_nM$, $M$为正数, 
+$\tilde\gamma_i=\tilde\lambda'\omega_i(\theta)$, 
+有
+$\max_{ 1\leq i\leq n}|  \tilde\gamma_i | \le  ||\tilde\lambda || \cdot \omega^*=o_p(1),$
+$|  \tilde\gamma_{n+1} | =  |\tilde\lambda\omega_{n+1}(\theta)|=o_p(1),$
+得
+\begin{equation}
+\max_{ 1\leq i\leq (n+1)} |  \tilde\gamma_i |=o_p(1) , \label{op2}
+\end{equation}
+由$\rm(\ref{op2}) $可以泰勒展开$\log(1+ \tilde\gamma_i)= \tilde\gamma_i- \tilde\gamma_i^2/2+ \tilde\nu_i$,其中，存在$B>0$,使得当$n \to \infty$时，
+$$P(| \tilde\nu_i| \le B| \tilde\gamma_i|^3,1 \le i \le n+1) \to 1$$
+因此，由$\rm(\ref{op2}) $和泰勒展开，可以得到
+\begin{eqnarray*}
+%\sum\limits^{n+1}_{i=1}\log \{1+\tilde\lambda'\omega_i(\theta)\}& = & 
+\sum_{j=1}^{n+1} \log(1+\tilde\gamma_j)& = &\sum_{j=1}^{n+1}\tilde\gamma_j-{1 \over 2}\sum_{j=1}^{n+1}\tilde\gamma_j^2+\sum_{j=1}^{n+1}\tilde\nu_j\\
+& = & \sum_{j=1}^{n}\tilde\gamma_j-{1 \over 2}\sum_{j=1}^{n}\tilde\gamma_j^2+\sum_{j=1}^{n+1}\tilde\nu_j+\tilde\gamma_{n+1}-{1 \over 2}\tilde\gamma^2_{n+1}\\
+& = & n^{1/3}\delta^2M-{1 \over 2}\sum_{j=1}^{n}\tilde\gamma_j^2+\sum_{j=1}^{n+1}\tilde\nu_j +o_p(1).
+\end{eqnarray*}
+其中，
+$$|\sum_{j=1}^{n}\tilde\gamma_j^2|\le |n\tilde\lambda'V_0\tilde\lambda|\le |n\tilde\lambda'\lambda_{max} (V_0)\tilde\lambda|=O_p(n^{-4/3}) =o_p(1),$$
+$$|\sum_{j=1}^{n+1}\tilde\nu_j|  \leq B ||\tilde\lambda||^3\sum_{j=1}^{n}||\omega_{j}(\theta)||^3+B ||\tilde\lambda||^3||\omega_{n+1}(\theta)||^3 =O_p(n^{-5/2})+O_p(n^{-2})=o_p(1),$$
+当$\theta \neq \theta_0$时, $ \sum_{j=1}^{n}||\omega_{j}(\theta)||^3 =O_p(n) $的证明与文献\ncite{20}中(4.5)的证明类似.
+由$\rm(\ref{Ln*}) $和最大化问题的对偶性，可得
+\begin{eqnarray*}
+W^*(\theta)&\hat{=}&  \log L_n^*(\theta)=\sup_{p_i, 1\leq i\leq n+1}\left \{\sum\limits^{n+1}_{i=1}\log(n+1)p_i\right \}\\
+                              & =&  -\sup\limits_{\lambda}\left \{ \sum\limits^{n+1}_{i=1}\log (1+\lambda'\omega_i) \right \}\\
+                              &\le& -\sum\limits^{n+1}_{i=1}\log (1+\tilde\lambda'\omega_i) \\
+                               &=&  -n^{1/3}\delta^2M+o_p(1)
+\end{eqnarray*}
+因为 $M$是个任意大的数，于是，$-2n^{-1/3}W^*(\theta)\to \infty$
+即$n^{-1/3}\ell^*_n ({\theta} )   \stackrel{p}{\longrightarrow}\infty$.
+类似可证，$n^{-1/3}\ell_n ({\theta} )   \stackrel{p}{\longrightarrow}\infty$.\\
+定理\ref{th2} 证毕.
+
+
+
+
+\vspace{6mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  参考文献
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\zihao{-5}
+\begin{thebibliography}{99}
+\setlength{\parskip}{0pt}  %段落之间的竖直距离
+\addtolength{\itemsep}{-0.8 em} % 缩小参考文献间的垂直间距
+  
+\bibitem{1}Tobler, R. A Computer movie simulating urban growth in the Detroit Region [J]. {\it Economic Geography}, 1970, {\bf 46(2)}, 234-240.
+
+\bibitem{2} Cressie, N. {\it Statistics for spatial data} [M]. New York: Wiley, 1993.
+
+\bibitem{3}Cliff, A. D., and Ord, J. K. {\it Spatial autocorrelation} [M]. London: Pion Ltd, 1973.
+
+\bibitem{4}Anselin, L. {\it Spatial econometrics: methods and models} [M]. Berlin: Springer, 1988.
+
+\bibitem{5} Kelejian, H. H., and Prucha, L. R. A generalized spatial two-stage least squares procedure for estimating a spatial autoregressive model with autoregressive disturbances [J].  {\it The Journal of Real Estate Finance and Economics}, 1998,  {\bf 17(1)}, 99-121.
+
+\bibitem{6}Kelejian, H. H., and Prucha, L. R. A generalized moments estimator for the autoregressive
+parameter in a spatial model [J].  {\it International Economic Review}, 1999,  {\bf 40(2)}, 509-533. 
+
+\bibitem{7}Kelejian, H. H., Prucha, I. R., and Yuzefovich, Y. Instrumental variable estimation of a spatial autoregressive model with autoregressive disturbances: large and small sample results [J]. {\it Spatial and Spatiotemporal Econometrics}, 2004, {\bf 18}, 163-198. 
+
+\bibitem{8}Lee, L. F. Asymptotic distributions of quasi-maximum likelihood estimators for spatial auto-regressive models [J]. {\it Econometrica}, 2004, {\bf 72(6)}, 1899-1925.
+
+\bibitem{9} Kelejian, H. H., and Prucha, I. R. HAC estimation in a spatial framework [J]. {\it Journal of Econometrics}, 2006,  {\bf 140(1)}, 131-154.
+
+\bibitem{10}Arraiz, I., Drukker, D. M., Kelejian, H. H., and Prucha, I. R. A spatial cliff-ord- type model with heteroskedastic innovations: small and large sample results [J].{\it Journal of Regional Science}, 2010, {\bf 50(2)}, 592-614.
+
+\bibitem{11} Anselin, L. Thirty years of spatial econometrics [J].  {\it Papers in Regional Science}, 2010, {\bf 89(1)},  3-25.
+
+\bibitem{12} Arbia, G. {\it Spatial econometrics: statistical foundations and applications to regional convergence} [M]. Berlin: Springer, 2006. 
+
+\bibitem{13} Lee, L. F., and Yu,  J. Estimation of spatial autoregressive panel data models with fixed effects [J]. {\it Journal of Econometrics}, 2010, {\bf 154(2)}, 165-185. 
+
+\bibitem{14}Lee, L. F. Best spatial two-stage least squares estimators for a spatial autoregressive model with autoregressive disturbances [J].  {\it Econometric Reviews}, 2003, {\bf 22(4)}, 307-335. 
+
+\bibitem{15} Liu, X., Lee, L. F., and Bollinger, C. R. An efficient GMM estimator of spatial autoregressive models [J]. {\it Journal of Econometrics}, 2010, {\bf 159(2)}, 303-319.
+
+\bibitem{16} Owen, A. B. Empirical likelihood ratio confidence intervals for a single function [J]. {\it Biometrika}, 1988, {\bf 75(2)}, 237-249.
+
+\bibitem{17} Owen, A. B. Empirical likelihood ratio confidence regions [J]. {\it Ann. Statist}, 1990, {\bf 18(1)}, 90-120.
+
+\bibitem{18}Qin, J., and Lawless, J. Empirical likelihood and general estimating equations [J].  {\it Ann. Statist}, 1994, {\bf 22(1)}, 300-325.
+
+\bibitem{19} Jin, F., and Lee, L. F. GEL estimation and tests of spatial autoregressive models [J]. {\it Journal of Econometrics}, 2019, {\bf 208(2)}, 585-612.
+
+\bibitem{20} Qin, Y. S. Empirical likelihood for spatial autoregressive models with spatial autoregressive disturbances [J].  {\it Sankhy$\bar{a}$ A: The Indian Journal of Statistics}, 2021, {\bf 83(1)}, 1-25.
+
+\bibitem{21} Tsao, M. Bounds on coverage probabilities of the empirical likelihood ratio confidence regions [J].  {\it Ann. Statist}, 2004, {\bf 32(3)}, 1215-1221.
+
+\bibitem{22} Owen, A. B. {\it Empirical Likelihood} [M].  New York: Chapman and Hall, 2001.  
+
+\bibitem{23} Bartolucci, F. A penalized version of the empirical likelihood ration for the population mean [J].  {\it Statist.Probab.Lett}, 2007, {\bf 77(1)}, 104-110.
+
+\bibitem{24} Chen, J., Variyath, A. M., and Abraham, B. Adjusted empirical likelihood and its properties [J]. {\it Journal of Computational and Craphical Statistics}, 2008, {\bf17(2)}, 426-443.
+
+\bibitem{25}Emerson, S. C., and Owen A. B. Calibration of the empirical likelihood method for a vector mean [J]. {\it Electronic Journal of Statistics}, 2009, {\bf 3}, 1161-1192. 
+
+\bibitem{26} Kelejian, H. H., and Prucha, I. R. On the asymptotic distribution of the moran I test statistic with applications [J].{\it  Journal of Econometrics}, 2001, {\bf 104(2)}, 219-257.
+
+\bibitem{27} Chen, J., Sitter, R. R., and Wu, C. Using empirical likelihood methods to obtain range restricted weights in regression estimators for surveys [J].  {\it Biometrika}, 2002, {\bf 89(1)}, 230-237.
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  英文摘要
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{6mm}\hspace{-8mm}
+\parbox{\textwidth}{
+\begin{center}
+%% 标题
+\Large{\bf{\entitle}}\\[1em]
+%% 作者
+\author{\zihao{-4}\fangsong{\enfirstauthor\hy\hy\hy\ensecondauthor}\\[-1pt]
+{\zihao{-5}(\ensecondinst)}}
+\end{center}
+
+\mbox{}\hspace{2em}\textbf{Abstract:}\quad\enabstract\\
+\mbox{}\hspace{2em}\textbf{Keywords:}\quad\enkeywords\\
+\mbox{}\hspace{2em}\textbf{2010 Mathematics Subject Classification:}\quad\amsno}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  文章结束
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\end{document}
+
+
+
+
+
+

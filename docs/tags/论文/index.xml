@@ -5,25 +5,221 @@
     <description>Recent content in 论文 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E8%AE%BA%E6%96%87/" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>知识版图扩建</title>
+      <link>/cn/2022/11/29/xuwangli/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/11/29/xuwangli/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="课外拓展">课外拓展</h2>
+<ul>
+<li>
+<p>卢一强. <a href="/papers/XuWangli/%E5%8D%A2%E4%B8%80%E5%BC%BA.pdf"><code>变系数混合模型的光滑样条推断</code></a></p>
+</li>
+<li>
+<p>李再兴. <a href="/papers/XuWangli/%E6%9D%8E%E5%86%8D%E5%85%B4.pdf"><code>大学课程第一堂课的教学探讨——以《数理统计》为例</code></a></p>
+</li>
+<li>
+<p>何胜美. <a href="/papers/XuWangli/%E4%BD%95%E8%83%9C%E7%BE%8E.pdf"><code>基于秩能量距离的超高维特征筛选研究</code></a></p>
+</li>
+<li>
+<p>陈松灿. <a href="/papers/XuWangli/%E9%99%88%E6%9D%BE%E7%81%BF.pdf"><code>基于随机投影的高维数据流聚类</code></a></p>
+</li>
+<li>
+<p>崔甲蓉. <a href="/papers/XuWangli/%E5%B4%94%E7%94%B2%E8%93%89-2019.pdf"><code>改进的基于图方法对真实原假设比例的估计_</code></a></p>
+</li>
+<li>
+<p>崔甲蓉. <a href="/papers/XuWangli/%E5%B4%94%E7%94%B2%E8%93%89-2020.pdf"><code>基于经验分布函数的高维正态性检验</code></a></p>
+</li>
+<li>
+<p>石磊. <a href="/papers/XuWangli/%E7%9F%B3%E7%A3%8A.pdf"><code>物种间不确定性相互关系分析一种基于非参数估计的变系数模型</code></a></p>
+</li>
+<li>
+<p>金立斌. <a href="/papers/XuWangli/%E9%87%91%E7%AB%8B%E6%96%8C.pdf"><code>偏正态混合模型的惩罚极大似然估计</code></a></p>
+</li>
+<li>
+<p>张军舰. <a href="/papers/XuWangli/%E5%BC%A0%E5%86%9B%E8%88%B0.pdf"><code>非参数似然方法及其应用研究进展</code></a></p>
+</li>
+<li>
+<p>邱涛. <a href="/papers/XuWangli/%E9%82%B1%E6%B6%9B.pdf"><code>高维两样本位置参数秩和检验</code></a></p>
+</li>
+<li>
+<p>朱利平. <a href="/papers/XuWangli/%E6%9C%B1%E5%88%A9%E5%B9%B3.pdf"><code>含发散维数自变量的单指标模型中方向向量的稳健估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2009-1.pdf"><code>双向分类随机效应模型中方差分量的估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2009-2.pdf"><code>线性混合效应模型中方差分量的估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2012.pdf"><code>线性混合模型方差分量的谱分解估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2007.pdf"><code>对部分线性模型用惩罚最小二乘最优光滑化的注记</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2022.pdf"><code>一个高维两样本检验</code></a></p>
+</li>
+</ul>
+<blockquote>
+<p>其中提到文献有，</p>
+</blockquote>
+<blockquote>
+<p>白志东. <a href="/papers/XuWangli/BaiZD-1996.pdf"><code>以两样本均值问题为例说明高维影响</code></a></p>
+</blockquote>
+<blockquote>
+<p>陈松溪. <a href="/papers/XuWangli/ChenSX-2010.pdf"><code>高维两样本检验应用于基因组测试</code></a></p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>高维在读论文</title>
+      <link>/cn/2022/11/29/higdimen/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/11/29/higdimen/</guid>
+      <description>
+        <![CDATA[
+        <!-- <font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
+<font style="background-color: #F0FFFF;">[✓](/papers/HigDimen/2-note.pdf)</font>
+<font style="background-color: #E6E6FA;">[](/papers/HigDimen/2-code.pdf)</font>
+-->
+<h2 id="高维数据-https-tang-jay-github-io-highdimen"><a href="https://tang-jay.github.io/HighDimen">高维数据</a></h2>
+<p><code>2007</code>. 石坚. <a href="/papers/HigDimen/ShiJ-2007.pdf"><code>高维线性模型中的经验似然</code></a>.
+<a href="/papers/HigDimen/Ghosh-1984.pdf"><code>文献5</code></a>.<a href="/papers/HigDimen/ShiJ-2000.pdf"><code>文献6</code></a>.<a href="/papers/HigDimen/Peter-1987.pdf"><code>文献7</code></a>.
+<a href="/papers/HigDimen/ShiJ-2007-note.pdf">✓</a>.</p>
+<p><code>2009</code>. Hjort. <a href="/papers/HigDimen/Hjort-2009.pdf"><code>拓展经验似然范围</code></a>.</p>
+<p><code>2009</code>. 秦YL. <a href="/papers/HigDimen/QinYL-2009.pdf"><code>高维数据统计推断</code></a>.</p>
+<p><code>2009</code>.  陈松溪，彭亮，秦YL. <a href="/papers/HigDimen/ChenSX-2009.pdf"><code>数据维数对经验似然的影响</code></a>.
+<a href="/papers/HigDimen/ChenSX-2009-note.pdf">✓</a></p>
+<p><code>2013</code>. <a href="https://xueshu.studiodahu.com/citations?user=6z-xg3AAAAAJ&amp;hl=zh-CN&amp;oi=sra">Wang ZJ</a>. <a href="/papers/HigDimen/WangZJ-2013.pdf"><code>高维回归模型的校正经验似然</code></a>.</p>
+<p><code>2013</code>. <a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a>. <a href="/papers/HigDimen/HengL-2013.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a>.</p>
+<p><code>2014</code>. Nordmana，Lahiri. <a href="/papers/HigDimen/Nordmana-2014.pdf"><code>一篇综述关于经验似然方法应用于时间序列</code></a>.
+<a href="/papers/HigDimen/Nordmana-2014-note.pdf">✓</a></p>
+<p><code>2015</code>. 常晋源，陈松溪. <a href="/papers/HigDimen/ChangJY-2015.pdf"><code>高维一般经验似然于相依数据矩约束</code></a>.</p>
+<p><code>2017</code>. 常晋源，陈松溪. <a href="/papers/HigDimen/ChangJY-2017.pdf"><code>高维经验似然估计方程新范围</code></a>.</p>
+<p><code>2020</code>. 常晋源，陈松溪，汤琤咏. <a href="/papers/HigDimen/ChangJY-2020.pdf"><code>数据经验似然推断</code></a>.</p>
+<p><code>2018</code>. 陈夏. <a href="/papers/HigDimen/ChenX-2018-1.pdf"><code>高维广义线性模型的惩罚拟似然SCAD估计</code></a></p>
+<p><code>2018</code>. 陈夏. <a href="/papers/HigDimen/ChenX-2018-2.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></p>
+<p><code>2020</code>. 张金廷. <a href="/papers/HigDimen/ZhangJT-2020.pdf"><code>基于L2范数的高维数据双因素方差分析方法</code></a></p>
+<p><code>2020</code>. 周杰. <a href="/papers/HigDimen/ZhouJ-2020.pdf"><code>基于随机矩阵理论的高维数据球形检验</code></a></p>
+<p><code>2021</code>. 刘锋. <a href="/papers/HigDimen/LiuF-2021.pdf"><code>高维数据下线性模型的序列相关检验</code></a></p>
+<h2 id="硕博论文">硕博论文</h2>
+<ul>
+<li>
+<p>周雅诗. <a href="/papers/HigDimen/%E5%91%A8%E9%9B%85%E8%AF%97.pdf"><code>关于高维协方差矩阵迹的若干估计</code></a></p>
+</li>
+<li>
+<p>胡浩. <a href="/papers/HigDimen/%E8%83%A1%E6%B5%A9.pdf"><code>一种新的高维两样本均值检验</code></a></p>
+</li>
+<li>
+<p>唐莹莹. <a href="/papers/HigDimen/%E5%94%90%E8%8E%B9%E8%8E%B9.pdf"><code>两类空间面板数据模型的变量选择</code></a></p>
+</li>
+<li>
+<p>马昀蓓. <a href="/papers/HigDimen/%E9%A9%AC%E6%98%80%E8%93%93.pdf"><code>相依误差下线性模型的经验似然</code></a></p>
+</li>
+<li>
+<p>文怡方. <a href="/papers/HigDimen/%E6%96%87%E6%80%A1%E6%96%B9.pdf"><code>部分函数型线性模型的高维惩罚经验似然</code></a></p>
+</li>
+<li>
+<p>刘琦. <a href="/papers/HigDimen/%E5%88%98%E7%90%A6.pdf"><code>广义线性模型的高维惩罚经验似然</code></a></p>
+</li>
+<li>
+<p>王富雅. <a href="/papers/HigDimen/%E7%8E%8B%E5%AF%8C%E9%9B%85.pdf"><code>海量高维数据的分位数回归</code></a></p>
+</li>
+<li>
+<p>曾云辉. <a href="/papers/HigDimen/%E6%9B%BE%E4%BA%91%E8%BE%89.pdf"><code>高维线性模型和部分线性模型的相合统计推断</code></a></p>
+</li>
+<li>
+<p>马莹莹. <a href="/papers/HigDimen/%E9%A9%AC%E8%8E%B9%E8%8E%B9.pdf"><code>高维数据均值和协差阵检验的经验似然方法</code></a></p>
+</li>
+<li>
+<p>李玲玲. <a href="/papers/HigDimen/%E6%9D%8E%E7%8E%B2%E7%8E%B2.pdf"><code>高维线性模型的变量选择</code></a></p>
+</li>
+<li>
+<p>慕娟. <a href="/papers/HigDimen/%E6%85%95%E5%A8%9F.pdf"><code>高维变点模型自适应GroupLasso惩罚分位回归估计</code></a></p>
+</li>
+<li>
+<p>胡玉婷. <a href="/papers/HigDimen/%E8%83%A1%E7%8E%89%E5%A9%B7.pdf"><code>高维两样本比对问题的一种新统计检验方法</code></a></p>
+</li>
+<li>
+<p>李扬. <a href="/papers/HigDimen/%E6%9D%8E%E6%89%AC.pdf"><code>高维数据的正态性假设检验</code></a></p>
+</li>
+<li>
+<p>邓语菲. <a href="/papers/HigDimen/%E9%82%93%E8%AF%AD%E8%8F%B2.pdf"><code>高维数据下的单指标期望分位数回归模型研究</code></a></p>
+</li>
+<li>
+<p>江梦婕. <a href="/papers/HigDimen/%E6%B1%9F%E6%A2%A6%E5%A9%95.pdf"><code>高维数据下的多元均值检验</code></a></p>
+</li>
+<li>
+<p>王一静. <a href="/papers/HigDimen/%E7%8E%8B%E4%B8%80%E9%9D%99.pdf"><code>高维数据下的协方差和总体均值检验</code></a></p>
+</li>
+<li>
+<p>李熠璇. <a href="/papers/HigDimen/%E6%9D%8E%E7%86%A0%E7%92%87.pdf"><code>高维数据下正态总体的假设检验问题</code></a></p>
+</li>
+<li>
+<p>袁百城. <a href="/papers/HigDimen/%E8%A2%81%E7%99%BE%E5%9F%8E.pdf"><code>高维数据总体双可交换协方差矩阵的似然比检验</code></a></p>
+</li>
+<li>
+<p>邹婷婷. <a href="/papers/HigDimen/%E9%82%B9%E5%A9%B7%E5%A9%B7.pdf"><code>高维协方差矩阵的单样本和双样本检验方法</code></a></p>
+</li>
+<li>
+<p>向邱燕. <a href="/papers/HigDimen/%E5%90%91%E9%82%B1%E7%87%95.pdf"><code>基于稀疏张量回归的高维数据预测</code></a></p>
+</li>
+<li>
+<p>杨静. <a href="/papers/HigDimen/%E6%9D%A8%E9%9D%99.pdf"><code>基于置换检验对高维数据两样本均值的假设检验</code></a></p>
+</li>
+<li>
+<p>曾銮杰. <a href="/papers/HigDimen/%E6%9B%BE%E9%8A%AE%E6%9D%B0.pdf"><code>基于bootstrap方法的高维数据两样本均值检验</code></a></p>
+</li>
+<li>
+<p>贾婉茹. <a href="/papers/HigDimen/%E8%B4%BE%E5%A9%89%E8%8C%B9.pdf"><code>基于bootstrap方法Behrens-Fisher问题的假设检验</code></a></p>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>空间文献摘录</title>
-      <link>/cn/2022/10/21/space/</link>
+      <link>/cn/2022/10/21/spamodel/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/21/space/</guid>
+      <guid>/cn/2022/10/21/spamodel/</guid>
       <description>
         <![CDATA[
         <h2 id="空间模型">空间模型</h2>
 <h3 id="秦永松-https-xueshu-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-ys-qin-empirical-likelihood-btng"><a href="https://xueshu.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=YS+Qin+empirical+likelihood&amp;btnG=">秦永松</a></h3>
-<p><a href="/papers/QinRecom/Qin-2.pdf"><code>空间计量经济模型的经验似然研究进展</code></a></p>
+<p><code>2021</code> <a href="/papers/SpaModel/QinYS-2021-1.pdf"><code>含空间误差项的空间自回归模型的经验似然</code></a></p>
+<blockquote>
+<p>经验似然方法成功应用空间模型的奠基之作。</p>
+</blockquote>
+<p><code>2021</code> <a href="/papers/SpaModel/QinYS-2021-2.pdf"><code>三种空间截面数据模型的GMM与经验似然</code></a></p>
+<p><code>2022</code> <a href="/papers/SpaModel/QinYS-2022.pdf"><code>空间计量经济模型的经验似然研究进展</code></a></p>
 <blockquote>
 <p>这是一篇经验似然方法应用于空间模型的综述。</p>
 </blockquote>
-<p><a href="/papers/SpaModel/Qin-1.pdf"><code>含空间误差项的空间自回归模型的经验似然</code></a></p>
+<h3 id="李英华">李英华</h3>
+<p><code>2020</code> <a href="/papers/SpaModel/LiYH-2020.pdf"><code>含空间误差项的面板数据模型的经验似然</code></a></p>
+<p><code>2021</code> <a href="/papers/SpaModel/LiYH-2021.pdf"><code>含空间误差项的非参数回归模型的经验似然</code></a></p>
+<p><code>2022</code> <a href="/papers/SpaModel/LiYH-2022.pdf"><code>含空间误差项的动态面板数据模型的经验似然</code></a></p>
 
         
         ]]>
@@ -34,10 +230,10 @@
     
     <item>
       <title>面板文献摘录</title>
-      <link>/cn/2022/10/20/panel/</link>
+      <link>/cn/2022/10/20/panempir/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/20/panel/</guid>
+      <guid>/cn/2022/10/20/panempir/</guid>
       <description>
         <![CDATA[
         <h2 id="面板数据-https-xs2-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-panel-data-btng"><a href="https://xs2.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=panel+data&amp;btnG=">面板数据</a></h2>
@@ -46,26 +242,27 @@
 <blockquote>
 <p>此篇博士论文中研究了，带固定效应面板数据半参数模型的经验似然问题。</p>
 </blockquote>
-<p><a href="/papers/PanEmpir/HeBQ-1.pdf"><code>带固定效应 + 面板数据 + 半变系数模型 + 经验似然</code></a></p>
-<p><a href="/papers/PanEmpir/HeBQ-2.pdf"><code>带固定效应 + 面板数据 + 部分线性模型 + 块经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2016-1.pdf"><code>带固定效应 + 面板数据 + 半变系数模型 + 经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2017.pdf"><code>带固定效应 + 面板数据 + 部分线性模型 + 块经验似然</code></a></p>
 <!--
-[`随机审查下pareto分布参数的单调经验贝叶斯检验`](/papers/PanEmpir/HeBQ-3.pdf)  
+[`随机审查下pareto分布参数的单调经验贝叶斯检验`](/papers/PanEmpir/HeBQ-2016-2.pdf)  
 -->
-<p><a href="/papers/PanEmpir/HeBQ-4.pdf"><code>带固定效应 + 面板数据 + 部分线性误差变量模型 + 统计推断</code></a></p>
-<p><a href="/papers/PanEmpir/HeBQ-5.pdf"><code>带固定效应 + 面板数据 + 部分线性误差变量模型 + 惩罚经验似然</code></a></p>
-<p><a href="/papers/PanEmpir/HeBQ-6.pdf"><code>删失数据 + 面板数据 + 半变系数变量误差模型 + 经验似然</code></a></p>
-<p><a href="/papers/PanEmpir/HeBQ-7.pdf"><code>鞅差序列 + 非线性半参数测量误差模型 + 经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2021.pdf"><code>带固定效应 + 面板数据 + 部分线性误差变量模型 + 统计推断</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2018.pdf"><code>带固定效应 + 面板数据 + 部分线性误差变量模型 + 惩罚经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2020.pdf"><code>鞅差序列 + 非线性半参数测量误差模型 + 经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2022.pdf"><code>删失数据 + 面板数据 + 半变系数变量误差模型 + 经验似然</code></a></p>
 <h3 id="李高荣-https-xueshu-zidianzhan-net-citations-user-cakqlosaaaaj-hl-zh-cn-oi-sra-1"><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3>
-<p><a href="/papers/PanEmpir/LiGR-1.pdf"><code>带固定效应 + 面板数据 + 部分线性模型 + 经验似然</code></a></p>
-<p><a href="/papers/HigDimen/9.pdf"><code>高维 + 截面数据 + 变系数部分线性模型 + 经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/LiGR-2011.pdf"><code>带固定效应 + 面板数据 + 部分线性模型 + 经验似然</code></a></p>
+<p><a href="/papers/HigDimen/LiGR-2012.pdf"><code>高维 + 截面数据 + 变系数部分线性模型 + 经验似然</code></a></p>
 <blockquote>
 <p>方江林提到，该文提出了改进的经验似然方法可以提高其统计推断的效率。</p>
 </blockquote>
 <h3 id="baltagi-badi-h-https-xueshu-zidianzhan-net-citations-user-xwrdl6iaaaaj-hl-zh-cn-oi-sra"><a href="https://xueshu.zidianzhan.net/citations?user=XWrDL6IAAAAJ&amp;hl=zh-CN&amp;oi=sra">Baltagi, Badi H</a></h3>
-<p><a href="/papers/PanEmpir/BaltagiBH-1.pdf"><code>空间自回归误差项 + 面板数据 + 线性模型 + 似然比检验</code></a></p>
+<p><code>2003</code> <a href="/papers/PanEmpir/BaltagiBH-2003.pdf"><code>空间自回归误差项 + 面板数据 + 线性模型 + 似然比检验</code></a></p>
 <blockquote>
 <p>先做一种检验问题的似然<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>检验和经验似然检验的模拟研究，并进行比较。</p>
 </blockquote>
+<p><code>2021</code> <a href="/papers/PanEmpir/BaltagiBH-2021.pdf"><code>面板数据的计量分析</code></a></p>
 <!--
 [`Monotone empirical bayes test for the parameter of pareto distribution under random censorship
 `](/papers/PanEmpir/HeBQ-3.pdf)
@@ -128,10 +325,10 @@
     
     <item>
       <title>高维文献摘录</title>
-      <link>/cn/2022/10/16/higdim/</link>
+      <link>/cn/2022/10/16/higdimen/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/16/higdim/</guid>
+      <guid>/cn/2022/10/16/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- 
@@ -143,7 +340,7 @@
 -->
 <h2 id="奠基">奠基</h2>
 <ul>
-<li>石坚. <a href="/papers/HigDimen/%E7%9F%B3%E5%9D%9A.pdf"><code>高维线性模型中的经验似然</code></a></li>
+<li>石坚. <a href="/papers/HigDimen/ShiJ-2007.pdf"><code>高维线性模型中的经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>当协变量的维数随样本量增加时，常规的经验似然推断失效，在适当的正则条件下，对修正的经验似然比统计量给出了渐近分布理论。</p>
@@ -152,7 +349,7 @@
 <p>曾力立提到，该论文表明，当协变量维数以某种合理的速度趋于无穷大时，我们仍可以利用经验似然方法构造 <code>$\beta$</code> 的置信域，不过此时有关临界值的确定依赖于正态分布而非卡方分布。</p>
 </blockquote>
 <ul>
-<li><a href="https://xueshu.zidianzhan.net/citations?user=pGvWCH4AAAAJ&amp;hl=zh-CN&amp;oi=sra">Hjort et al.</a> <a href="/papers/HigDimen/Hjort.pdf"><code>拓展经验似然应用范围</code></a></li>
+<li><a href="https://xueshu.zidianzhan.net/citations?user=pGvWCH4AAAAJ&amp;hl=zh-CN&amp;oi=sra">Hjort et al.</a> <a href="/papers/HigDimen/Hjort-2009.pdf"><code>拓展经验似然应用范围</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，当 <code>$p=o_p(n^{1/3}) \to \infty$</code> 时，在一定条件下，该文得出了经验似然比统计量渐近分布为正态分布的结论。</p>
@@ -161,7 +358,7 @@
 <p>曾力立提到，该文在基于plug-in估计对经验似然方法做了一个推广研究。</p>
 </blockquote>
 <ul>
-<li>陈松溪，<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/%E9%99%88%E6%9D%BE%E6%BA%AA.pdf"><code>数据维数对经验似然的影响</code></a></li>
+<li>陈松溪，<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/ChenSX-2009.pdf"><code>数据维数对经验似然的影响</code></a></li>
 </ul>
 <blockquote>
 <p>在一般的多元模型下，该文评估了数据维数对高维数据经验似然比的渐近正态性的影响，指出多元随机向量各分量之间的数据维数和相关性直接通过协方差矩阵的迹和特征值来影响经验似然。</p>
@@ -176,13 +373,13 @@
 <p>毛沥悦提到，该文证明了当参数的维数变化时，经验似然方法仍然有效。</p>
 </blockquote>
 <ul>
-<li>常晋源，陈松溪，汤琤咏. <a href="/papers/HigDimen/%E5%B8%B8%E6%99%8B%E6%BA%90.pdf"><code>高维经验似然推断</code></a></li>
+<li>常晋源，陈松溪，汤琤咏. <a href="/papers/HigDimen/ChangJY-2020.pdf"><code>高维经验似然推断</code></a></li>
 </ul>
 <blockquote>
 <p>研究两个问题，多元参数估计量的置信域和模型假设检验，并提出两个建议，新的估计方程和检验统计量。</p>
 </blockquote>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷. <a href="/papers/HigDimen/%E6%B1%A4%E7%90%A4%E5%92%8F.pdf"><code>高维惩罚经验似然</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷. <a href="/papers/HigDimen/TangCY-2010.pdf"><code>高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，该类惩罚的思想是在进行参数估计的同时，利用惩罚函数将较小的系数估计值压缩为零，而将系数估计值较大的保留，在估计出系数的同时选择出重要变量。这可以同时实现变量选择和系数估计两个目标。惩罚变量选择普遍采用“损失函数+惩罚函数”的变量选择方法，类似地，惩罚经验似然通常也使用“经验似然比函数+惩罚函数”方式。该文首次将惩罚经验似然方法应用于高维，不过要求在 <code>$p &lt; n$</code> 情形下。</p>
@@ -194,7 +391,7 @@
 <p>何帮强提到，该文首次提出的惩罚经验似然（PEL）被用于分析多变量的均值向量和线性模型的发散数量回归系数。该文证实的PEL具有优点在来自非参数似然法的效率和适应性方面。另外，PEL方法具有使用数据来确定置信区域的形状和取向，与EL有相同优点并且不估计共协方差。</p>
 </blockquote>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏. <a href="/papers/HigDimen/%E5%86%B7%E7%90%9B%E9%9B%B7.pdf"><code>惩罚经验似然与高维估计方程</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏. <a href="/papers/HigDimen/LengCL-2012.pdf"><code>惩罚经验似然与高维估计方程</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，该文将高维的惩罚经验似然方法推广到高维估计方程，仍要求<code>$p &lt; n$</code>。</p>
@@ -203,12 +400,23 @@
 <p>何帮强提到，该文将PEL方法应用于一般估计方程的参数估计和变量选择，并显示PEL具有oracle特征。</p>
 </blockquote>
 <ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=I5ZzKjAAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lahiri</a>， <a href="https://xs2.zidianzhan.net/citations?user=Wf3jLKoAAAAJ&amp;hl=zh-CN&amp;oi=sra">Mukhopadhyay</a>. <a href="/papers/HigDimen/Lahiri.pdf"><code>高维中一种惩罚经验似然</code></a></li>
+<li><a href="https://xs2.zidianzhan.net/citations?user=I5ZzKjAAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lahiri</a>， <a href="https://xs2.zidianzhan.net/citations?user=Wf3jLKoAAAAJ&amp;hl=zh-CN&amp;oi=sra">Mukhopadhyay</a>. <a href="/papers/HigDimen/Lahiri-2012.pdf"><code>高维中一种惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>方江林提到，当维数是超高维的，即 <code>$p &gt; n$</code> 时，该文研究了总体均值的惩罚经验似然推断，并给出了其统计量的渐近性质。</p>
 </blockquote>
-<hr>
+<ul>
+<li><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a>. <a href="/papers/HigDimen/LiGR-2012.pdf"><code>高维变系数部分线性模型的经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，该文提出了改进的经验似然方法可以提高其统计推断的效率。</p>
+</blockquote>
+<ul>
+<li><a href="https://xs2.zidianzhan.net/citations?user=sdw9roIAAAAJ&amp;hl=zh-CN&amp;oi=sra">Meinshausen N</a>. <a href="/papers/HigDimen/MeinshausenN-2009.pdf"><code>高维回归p值</code></a></li>
+</ul>
+<blockquote>
+<p>曾力立提到，该文研究了高维线性回归模型中的变量选择问题。</p>
+</blockquote>
 <h2 id="经验似然">经验似然</h2>
 <ul>
 <li>曾力立. <a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.pdf"><code>高维线性回归模型下的经验似然</code></a></li>
@@ -228,7 +436,7 @@
 <p>该文指出，线性模型的统计推断中 <code>$p$</code> 是 <code>$n$</code> 的指数阶的情况下的研究现状：</p>
 <ol>
 <li><code>$\beta$</code> 有很多分量为零，首先选出非零的分量（即变量选择，如Lasso），然后对被选出来的非零分量做统计推断。</li>
-<li><code>$\beta$</code> 有很多分量不为零，简单地考虑变量选择是不够的，需要新的方法，借鉴<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>在 <a href="/papers/HigDimen/%E5%BD%AD%E4%BA%AE.pdf"><em>Empirical likelihood test for high dimensional linear models</em></a> 一文中的思想，通过一定手段——将样本数据分为两个部分，用每两个旧的观测值构造一个新的观测值——将约束条件与维数无关。</li>
+<li><code>$\beta$</code> 有很多分量不为零，简单地考虑变量选择是不够的，需要新的方法，借鉴<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>在 <a href="/papers/HigDimen/PengL-2014.pdf"><em>Empirical likelihood test for high dimensional linear models</em></a> 一文中的思想，通过一定手段——将样本数据分为两个部分，用每两个旧的观测值构造一个新的观测值——将约束条件与维数无关。</li>
 </ol>
 </blockquote>
 <blockquote>
@@ -258,41 +466,9 @@
 <blockquote>
 <p>发表论文：</p>
 <ol>
-<li>方江林，<a href="https://mc.hunnu.edu.cn/info/1673/3366.htm">刘万荣</a>，<a href="https://xueshu.zidianzhan.net/citations?user=3yVTsEEAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lu Xuewen</a>. <a href="/papers/HigDimen/%E6%96%B9%E6%B1%9F%E6%9E%972.pdf"><code>半参数模型的高维惩罚经验似然</code></a></li>
+<li>方江林，<a href="https://mc.hunnu.edu.cn/info/1673/3366.htm">刘万荣</a>，<a href="https://xueshu.zidianzhan.net/citations?user=3yVTsEEAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lu Xuewen</a>. <a href="/papers/HigDimen/FangJL-2017.pdf"><code>半参数模型的高维惩罚经验似然</code></a></li>
 </ol>
 </blockquote>
-<ul>
-<li><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a>. <a href="/papers/HigDimen/%E6%9D%8E%E9%AB%98%E8%8D%A3.pdf"><code>高维变系数部分线性模型的经验似然</code></a></li>
-</ul>
-<blockquote>
-<p>方江林提到，该文提出了改进的经验似然方法可以提高其统计推断的效率。</p>
-</blockquote>
-<ul>
-<li>马昀蓓. <a href="/papers/HigDimen/%E9%A9%AC%E6%98%80%E8%93%93.pdf"><code>相依误差下线性模型的经验似然</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-<ul>
-<li>
-<p><a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a>. <a href="/papers/HigDimen/HengL.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a></p>
-</li>
-<li>
-<p>白璐. <a href="/papers/HigDimen/%E7%99%BD%E7%92%90.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></p>
-</li>
-</ul>
-<blockquote>
-</blockquote>
-<ul>
-<li>曾云辉. <a href="/papers/HigDimen/%E6%9B%BE%E4%BA%91%E8%BE%89.pdf"><code>高维线性模型和部分线性模型的相合统计推断</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-<ul>
-<li>马莹莹. <a href="/papers/HigDimen/%E9%A9%AC%E8%8E%B9%E8%8E%B9.pdf"><code>高维数据均值和协差阵检验的经验似然方法</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-<hr>
 <h2 id="惩罚经验似然">惩罚经验似然</h2>
 <ul>
 <li>毛沥悦. <a href="/papers/HigDimen/%E6%AF%9B%E6%B2%A5%E6%82%A6.pdf"><code>部分线性模型和广义线性模型的惩罚经验似然</code></a></li>
@@ -301,18 +477,16 @@
 <p>第三章讨论高维情况下广义线性模型的参数估计与变量选择问题，通过通过适当的辅助随机变量研究了自适应Lasso下高维广义线性模型的惩罚经验似然。主要的结论有提出的方法具有Oracle性质以及在假设检验中构造的检验统计量的渐近分布为卡方分布。</p>
 </blockquote>
 <ul>
-<li>文怡方. <a href="/papers/HigDimen/%E6%96%87%E6%80%A1%E6%96%B9.pdf"><code>部分函数型线性模型的高维惩罚经验似然</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-<ul>
 <li>吕升日. <a href="/papers/HigDimen/%E5%90%95%E5%8D%87%E6%97%A5.pdf"><code>半参数回归模型的高维惩罚经验似然</code></a></li>
 </ul>
 <blockquote>
 <p>在半参数回归模型中，当协变量的维度随着样本量的增大而增大，即当协变量维度较高时，将会遇到“维数祸根”等问题。将经验似然方法与惩罚函数相结合并应用于模型当中，可以有效的解决高维数据情况下的变量选择问题，从而降低模型的复杂度，解决模型在做预测时的不稳定性的问题。</p>
 </blockquote>
+<ul>
+<li>何帮强. <a href="/papers/HigDimen/%E4%BD%95%E5%B8%AE%E5%BC%BA.pdf"><code>半参数带固定效应的面板数据模型的经验似然</code></a></li>
+</ul>
 <blockquote>
-<p>吕升日硕士导师，何帮强. <a href="/papers/HigDimen/%E4%BD%95%E5%B8%AE%E5%BC%BA.pdf"><code>半参数带固定效应的面板数据模型的经验似然</code></a>，更多面板研究成果<a href="/cn/2022/10/20/panel">见此</a>。</p>
+<p>何帮强更多面板研究成果<a href="/cn/2022/10/20/panel">见此</a>。</p>
 </blockquote>
 <ul>
 <li>李吉妮. <a href="/papers/HigDimen/%E6%9D%8E%E5%90%89%E5%A6%AE.pdf"><code>单指标模型的高维惩罚经验似然</code></a></li>
@@ -323,70 +497,6 @@
 <blockquote>
 <p>论文发现，在一定正则条件下，参数维数随样本量同时增大的惩罚经验似然估计仍具有Oracle性质，即如果已知真实模型是稀疏的模型，则以概率趋向于1，惩罚经验似然确定模型的非零参数估计具有稀疏性（惩罚似然估计值应该有一个限制，这个限制自动将那些较小的估计系数设为，进而去掉，并删除对应的变量，从而降低模型的复杂度）。</p>
 </blockquote>
-<ul>
-<li>刘琦. <a href="/papers/HigDimen/%E5%88%98%E7%90%A6.pdf"><code>广义线性模型的高维惩罚经验似然</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-<hr>
-<h2 id="变量选择">变量选择</h2>
-<ul>
-<li><a href="https://xs2.zidianzhan.net/citations?user=sdw9roIAAAAJ&amp;hl=zh-CN&amp;oi=sra">Meinshausen N</a>. <a href="/papers/HigDimen/MeinshausenN.pdf"><code>高维回归p值</code></a></li>
-</ul>
-<blockquote>
-<p>曾力立提到，该文研究了高维线性回归模型中的变量选择问题。</p>
-</blockquote>
-<ul>
-<li>李玲玲. <a href="/papers/HigDimen/%E6%9D%8E%E7%8E%B2%E7%8E%B2.pdf"><code>高维线性模型的变量选择</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-<ul>
-<li>唐莹莹. <a href="/papers/HigDimen/%E5%94%90%E8%8E%B9%E8%8E%B9.pdf"><code>两类空间面板数据模型的变量选择</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-<hr>
-<h2 id="em算法">EM算法</h2>
-<ul>
-<li>王富雅. <a href="/papers/HigDimen/%E7%8E%8B%E5%AF%8C%E9%9B%85.pdf"><code>海量高维数据的分位数回归</code></a></li>
-</ul>
-<blockquote>
-</blockquote>
-
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title>高维在读论文</title>
-      <link>/cn/2022/09/23/paper/</link>
-      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/2022/09/23/paper/</guid>
-      <description>
-        <![CDATA[
-        <!-- <font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
-<font style="background-color: #F0FFFF;">[`NOTE`](/papers/HigDimen/2-note.pdf)</font>
-<font style="background-color: #E6E6FA;">[](/papers/HigDimen/2-code.pdf)</font>
--->
-<h2 id="高维数据-https-tang-jay-github-io-highdimen"><a href="https://tang-jay.github.io/HighDimen">高维数据</a></h2>
-<p><code>2007</code>. 石坚. <a href="/papers/HigDimen/%E7%9F%B3%E5%9D%9A.pdf"><code>高维线性模型中的经验似然</code></a>.
-<a href="/papers/HigDimen/Ghosh.pdf"><code>文献5</code></a>.<a href="/papers/HigDimen/%E7%9F%B3%E5%9D%9A2.pdf"><code>文献6</code></a>.<a href="/papers/HigDimen/Peter.pdf"><code>文献7</code></a>.
-<a href="/papers/HigDimen/%E7%9F%B3%E5%9D%9A-note.pdf"><code>NOTE</code></a>.</p>
-<p><code>2009</code>. Hjort. <a href="/papers/HigDimen/Hjort.pdf"><code>拓展经验似然范围</code></a>.</p>
-<p><code>2009</code>. 秦YL. <a href="/papers/HigDimen/QinYL.pdf"><code>高维数据统计推断</code></a>.</p>
-<p><code>2009</code>.  陈松溪，彭亮，秦YL. <a href="/papers/HigDimen/%E9%99%88%E6%9D%BE%E6%BA%AA.pdf"><code>数据维数对经验似然的影响</code></a>.
-<a href="/papers/HigDimen/%E9%99%88%E6%9D%BE%E6%BA%AA-note.pdf"><code>NOTE</code></a></p>
-<p><code>2013</code>. <a href="https://xueshu.studiodahu.com/citations?user=6z-xg3AAAAAJ&amp;hl=zh-CN&amp;oi=sra">Wang ZJ</a>. <a href="/papers/HigDimen/WangZJ.pdf"><code>高维回归模型的校正经验似然</code></a>.</p>
-<p><code>2014</code>. Nordmana，Lahiri. <a href="/papers/HigDimen/Nordmana.pdf"><code>一篇综述关于经验似然方法应用于时间序列</code></a>.
-<a href="/papers/HigDimen/Nordmana-note.pdf"><code>NOTE</code></a></p>
-<p><code>2015</code>. 常晋源，陈松溪. <a href="/papers/HigDimen/%E5%B8%B8%E6%99%8B%E6%BA%902.pdf"><code>高维一般经验似然于相依数据矩约束</code></a>.</p>
-<p><code>2017</code>. 常晋源，陈松溪. <a href="/papers/HigDimen/%E5%B8%B8%E6%99%8B%E6%BA%903.pdf"><code>高维经验似然估计方程新范围</code></a>.</p>
-<p><code>2020</code>. 常晋源，陈松溪，汤琤咏. <a href="/papers/HigDimen/%E5%B8%B8%E6%99%8B%E6%BA%90.pdf"><code>数据经验似然推断</code></a>.</p>
 
         
         ]]>
@@ -397,10 +507,10 @@
     
     <item>
       <title>对称矩阵</title>
-      <link>/cn/2022/09/22/paper/</link>
+      <link>/cn/2022/09/22/symmatrix/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/22/paper/</guid>
+      <guid>/cn/2022/09/22/symmatrix/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -450,32 +560,20 @@
     
     <item>
       <title>秦导推荐</title>
-      <link>/cn/2022/09/21/paper/</link>
+      <link>/cn/2022/09/21/qinrecom/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/21/paper/</guid>
+      <guid>/cn/2022/09/21/qinrecom/</guid>
       <description>
         <![CDATA[
-        <h2 id="摘要写作">摘要写作</h2>
+        <h2 id="老师手稿">老师手稿</h2>
 <ul>
-<li>
-<p><a href="/papers/QinRecom/Abstra-1.pdf">范文 1</a></p>
-</li>
-<li>
-<p><a href="/papers/QinRecom/Abstra-2.pdf">范文 2</a></p>
-</li>
+<li><a href="/papers/QinRecom/Qin-1.pdf">统计模拟和实证介绍</a> <a href="/papers/QinRecom/Qin-1-code.R"><code>CODE</code></a></li>
 </ul>
-<h2 id="空间数据">空间数据</h2>
+<h2 id="写作推荐">写作推荐</h2>
 <ul>
-<li>
-<p>秦永松 <a href="/papers/QinRecom/Qin-2.pdf"><code>空间计量经济模型的经验似然研究进展</code></a></p>
-</li>
-<li>
-<p>Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150. <a href="/papers/QinRecom/Recom-1.pdf"><code>PDF</code></a></p>
-</li>
-<li>
-<p>Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham. <a href="/papers/QinRecom/Recom-2.pdf"><code>PDF</code></a></p>
-</li>
+<li><a href="/papers/QinRecom/Abstra-1.pdf">范文 1</a></li>
+<li><a href="/papers/QinRecom/Abstra-2.pdf">范文 2</a></li>
 </ul>
 <h2 id="经济类">经济类</h2>
 <p>来自<a href="www.must.edu.mo/cn/msb/staff">澳门科技大学老师主页</a>。</p>
@@ -487,10 +585,6 @@
 <li><a href="/papers/QinRecom/Lin-5.pdf"><code>PDF5</code></a></li>
 <li><a href="/papers/QinRecom/Lin-6.pdf"><code>PDF6</code></a></li>
 </ul>
-<!--
-## 老师原稿
-- [统计模拟和实证介绍](/papers/QinRecom/Qin-1.pdf) [`CODE`](/papers/QinRecom/Qin-1-code.R)
--->
 
         
         ]]>

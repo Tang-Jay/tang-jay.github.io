@@ -35,32 +35,20 @@
     
     <item>
       <title>秦导推荐</title>
-      <link>/cn/2022/09/21/paper/</link>
+      <link>/cn/2022/09/21/qinrecom/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/21/paper/</guid>
+      <guid>/cn/2022/09/21/qinrecom/</guid>
       <description>
         <![CDATA[
-        <h2 id="摘要写作">摘要写作</h2>
+        <h2 id="老师手稿">老师手稿</h2>
 <ul>
-<li>
-<p><a href="/papers/QinRecom/Abstra-1.pdf">范文 1</a></p>
-</li>
-<li>
-<p><a href="/papers/QinRecom/Abstra-2.pdf">范文 2</a></p>
-</li>
+<li><a href="/papers/QinRecom/Qin-1.pdf">统计模拟和实证介绍</a> <a href="/papers/QinRecom/Qin-1-code.R"><code>CODE</code></a></li>
 </ul>
-<h2 id="空间数据">空间数据</h2>
+<h2 id="写作推荐">写作推荐</h2>
 <ul>
-<li>
-<p>秦永松 <a href="/papers/QinRecom/Qin-2.pdf"><code>空间计量经济模型的经验似然研究进展</code></a></p>
-</li>
-<li>
-<p>Baltagi, B. H., Song, S. H., and Won K. (2003). Testing panel data regression models with spatial error correlation. <em>Journal of Econometrics, 117</em>, 123-150. <a href="/papers/QinRecom/Recom-1.pdf"><code>PDF</code></a></p>
-</li>
-<li>
-<p>Baltagi, B. H. (2021). <em>Econometric Analysis of Panel Data</em>. Springer Cham. <a href="/papers/QinRecom/Recom-2.pdf"><code>PDF</code></a></p>
-</li>
+<li><a href="/papers/QinRecom/Abstra-1.pdf">范文 1</a></li>
+<li><a href="/papers/QinRecom/Abstra-2.pdf">范文 2</a></li>
 </ul>
 <h2 id="经济类">经济类</h2>
 <p>来自<a href="www.must.edu.mo/cn/msb/staff">澳门科技大学老师主页</a>。</p>
@@ -72,10 +60,6 @@
 <li><a href="/papers/QinRecom/Lin-5.pdf"><code>PDF5</code></a></li>
 <li><a href="/papers/QinRecom/Lin-6.pdf"><code>PDF6</code></a></li>
 </ul>
-<!--
-## 老师原稿
-- [统计模拟和实证介绍](/papers/QinRecom/Qin-1.pdf) [`CODE`](/papers/QinRecom/Qin-1-code.R)
--->
 
         
         ]]>

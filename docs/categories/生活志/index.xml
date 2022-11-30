@@ -5,8 +5,42 @@
     <description>Recent content in 生活志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>私奔</title>
+      <link>/cn/2022/11/30/song/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/11/30/song/</guid>
+      <description>
+        <![CDATA[
+        <center> 
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/私奔_郑钧.mp3"> </audio></p>
+<p>把青春献给身后那座辉煌的都市</p>
+<p>为了这个美梦我们付出着代价</p>
+<p>把爱情留给我身边最真心的姑娘</p>
+<p>你陪我歌唱你陪我流浪陪我两败俱伤</p>
+<p>一直到现在才突然明白我梦寐以求</p>
+<p>是真爱和自由</p>
+<p>想带上你私奔，奔向最遥远城镇</p>
+<p>想带上你私奔，去做最幸福的人</p>
+<p>不要再悲伤，我看到了希望</p>
+<p>你是否还有勇气，随着我离去</p>
+<!--
+
+<video preload="auto" controls="" autoplay="autoplay" name="media"><source src="/videos/带上你私奔.mp4" type="video/mp4"></video>
+
+-->
+</center>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -196,7 +230,7 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
 <p>这天上午呢，在路宽车少的地方练了练自家的车，熟悉了一下车的性能，日后用车就方便了。晚上呢，跟香看了场电影《万里归途》，算是跟过去不愉快的我俩道别，向快乐的我俩进发，好朋友要(互相)珍惜。</p>
 <h3 id="7号">7号</h3>
 <p>这天是亮亮（表弟）的婚礼，在衡阳市里办酒席。练车派上用场了，可以护送老妈和秋阿姨，很开心。长途开车容易累，先天睡得饱饱的，哈哈，对生命负责。婚礼现场很漂亮，新娘很漂亮，饭菜很香。我真开心自己长大了，懂事了，能体会到目之所及的一切都来之不易，希望大娘（我妈的姐姐）在天有灵，能看到这一切，得到慰藉。</p>
-<p><video preload="auto" controls="" autoplay="autoplay" name="media"><source src="/videos/1009liang.mp4" type="video/mp4"></video></p>
+<p><video preload="auto" controls="" autoplay="autoplay" name="media"><source src="/videos/亮亮大婚.mp4" type="video/mp4"></video></p>
 <h3 id="8号">8号</h3>
 <p>赶最早的高铁返程。每一个选择都需要勇气，进取需要勇气，放弃需要勇气，在一起需要勇气，断舍离需要勇气。祝福我的朋友们、家人们都有勇气做出自己的选择。这个国庆，我花光了我所有的勇气，奔赴祁东，奔赴每一场见面，我很开心，我愿意为我的行为（不学习）买单（回来好好学）。</p>
 
@@ -371,10 +405,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>忽然之间</title>
-      <link>/song/</link>
+      <link>/cn/2022/10/01/song/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/song/</guid>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/01/song/</guid>
       <description>
         <![CDATA[
         <center> 
@@ -400,13 +434,15 @@ src="/songs/忽然之间_郑钧.mp3">
 就算生命像尘埃<br>
 分不开<br>
 我们也许反而更相信爱</p>
-<p>我没想到 <br>
-分手竟与地震来临<br>
-如此相似</p>
-<p>我没想到<br>
-我会这般难受和想你<br>
-分不开<br>
-我该是开心还是难过呢</p>
+<!--我没想到    
+分手竟与地震来临   
+如此相似   
+
+我没想到   
+我会这般难受和想你   
+分不开   
+我该是开心还是难过呢
+-->
 </center>
 
         

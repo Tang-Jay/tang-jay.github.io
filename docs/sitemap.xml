@@ -2,16 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/conclusion/</loc>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cn/2022/11/29/reference/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E6%AD%8C%E6%9B%B2/</loc>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2022/11/30/song/</loc>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E9%9A%8F%E6%83%B3/</loc>
+    <lastmod>2022-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2022/11/29/reference/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/11/29/xuwangli/</loc>
@@ -20,16 +35,10 @@
     <loc>/tags/%E8%AE%BA%E6%96%87/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/%E9%9A%8F%E6%83%B3/</loc>
-    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/cn/2022/11/29/higdimen/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/job/</loc>
-    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
     <lastmod>2022-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E9%9A%8F%E8%AE%B0/</loc>
@@ -50,7 +59,7 @@
     <loc>/cn/2022/10/27/zhenhuan/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2022-10-22-sci/</loc>
+    <loc>/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</loc>
     <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/10/21/spamodel/</loc>
@@ -92,7 +101,7 @@
     <loc>/life/</loc>
     <lastmod>2022-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/song/</loc>
+    <loc>/cn/2022/10/01/song/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/09/27/vark/</loc>

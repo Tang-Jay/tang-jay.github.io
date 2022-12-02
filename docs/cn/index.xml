@@ -10,6 +10,38 @@
     
     
     <item>
+      <title>NBEL</title>
+      <link>/cn/2022/12/02/nbel/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/12/02/nbel/</guid>
+      <description>
+        <![CDATA[
+        <ul>
+<li>
+<p>曾力立. <a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.pdf"><code>高维线性回归模型下的经验似然</code></a></p>
+</li>
+<li>
+<p><a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/PengL-2014.pdf"><code>高维线性模型经验似然检验</code></a></p>
+<ul>
+<li>
+<p><a href="/papers/NBEL/PengL-2014.pdf"><code>高维线性模型经验似然检验</code></a></p>
+</li>
+<li>
+<p><a href="/papers/NBEL/WangR-2013.pdf"><code>Jacknife经验似然比检验两个高维均值是否相等问题</code></a></p>
+</li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>私奔</title>
       <link>/cn/2022/11/30/song/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
@@ -110,7 +142,7 @@
 <p>张军舰. <a href="/papers/XuWangli/%E5%BC%A0%E5%86%9B%E8%88%B0.pdf"><code>非参数似然方法及其应用研究进展</code></a></p>
 </li>
 <li>
-<p>邱涛. <a href="/papers/XuWangli/%E9%82%B1%E6%B6%9B.pdf"><code>高维两样本位置参数秩和检验</code></a></p>
+<p>邱涛. <a href="/papers/XuWangli/%E9%82%B1%E6%B6%9B.pdf"><code>高维两样本位置参数秩和检验</code></a> <a href="/papers/XuWangli/%E9%82%B1%E6%B6%9B-note.pdf">✓</a></p>
 </li>
 <li>
 <p>朱利平. <a href="/papers/XuWangli/%E6%9C%B1%E5%88%A9%E5%B9%B3.pdf"><code>含发散维数自变量的单指标模型中方向向量的稳健估计</code></a></p>

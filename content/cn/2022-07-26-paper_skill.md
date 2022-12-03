@@ -5,6 +5,7 @@ categories:
   - 学习志
 tags:
   - 英语
+  - 论文
 slug: paper_skill
 disable_comments: true
 ---

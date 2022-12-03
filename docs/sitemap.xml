@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cn/2022/12/02/nbel/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
+    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/english/</loc>
+    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E8%8B%B1%E8%AF%AD/</loc>
+    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2022/12/02/nbel/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E8%AE%BA%E6%96%87/</loc>
@@ -159,9 +165,6 @@
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/09/02/error/</loc>
-    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%E8%8B%B1%E8%AF%AD/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/09/02/cihuo/</loc>

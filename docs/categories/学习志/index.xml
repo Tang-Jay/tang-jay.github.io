@@ -5,8 +5,36 @@
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新概念英语</title>
+      <link>/english/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/english/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="新概念语法大全-papers-english-新概念英语语法-pdf"><a href="/papers/English/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95.pdf">新概念语法大全</a></h3>
+<h3 id="新概念第一册-papers-english-新概念英语1-pdf"><a href="/papers/English/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD1.pdf">新概念第一册</a></h3>
+<h3 id="新概念第二册">新概念第二册</h3>
+<ul>
+<li><a href="/papers/English/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD2%E7%9F%AD%E6%96%87.pdf"><code>短文</code></a></li>
+</ul>
+<h3 id="新概念第三册-papers-english-新概念英语3-pdf"><a href="/papers/English/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD3.pdf">新概念第三册</a></h3>
+<ul>
+<li><a href="/papers/English/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD3%E7%9F%AD%E6%96%87.pdf"><code>短文</code></a></li>
+<li><a href="/papers/English/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD3%E7%BF%BB%E8%AF%91.pdf"><code>翻译</code></a></li>
+<li><a href="https://pan.baidu.com/s/1uSHzFXowhGLuDs3TqAgn2w?pwd=sg5n"><code>听力</code></a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -22,7 +50,7 @@
 <p>曾力立. <a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.pdf"><code>高维线性回归模型下的经验似然</code></a></p>
 </li>
 <li>
-<p><a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/PengL-2014.pdf"><code>高维线性模型经验似然检验</code></a></p>
+<p><a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/PengL-2014.pdf"><code>高维线性模型经验似然检验</code></a> <a href="/papers/NBEL/PengL-2014-note.pdf">✓</a></p>
 <ul>
 <li>
 <p><a href="/papers/NBEL/PengL-2014.pdf"><code>高维线性模型经验似然检验</code></a></p>
@@ -31,6 +59,9 @@
 <p><a href="/papers/NBEL/WangR-2013.pdf"><code>Jacknife经验似然比检验两个高维均值是否相等问题</code></a></p>
 </li>
 </ul>
+</li>
+<li>
+<p>Kitamura. <a href="/papers/NBEL/Kitamura-1997.pdf"><code>经验似然方法及弱相依过程</code></a> <a href="/papers/NBEL/Kitamura-1997-note.pdf">✓</a></p>
 </li>
 </ul>
 

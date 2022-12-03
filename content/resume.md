@@ -5,7 +5,7 @@ disable_mathjax: true
 disable_highlight: true
 disable_comments: true
 ---
-# 唐洁简历
+# 唐 洁
 ## 自我评价
 客观说，九五后，湖南人，小个子，五口人，血型AB。
 

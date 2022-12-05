@@ -220,19 +220,23 @@
 -->
 <h2 id="高维数据-https-tang-jay-github-io-highdimen"><a href="https://tang-jay.github.io/HighDimen">高维数据</a></h2>
 <p><code>2007</code>. 石坚. <a href="/papers/HigDimen/ShiJ-2007.pdf"><code>高维线性模型中的经验似然</code></a>.
-<a href="/papers/HigDimen/Ghosh-1984.pdf"><code>文献5</code></a>.<a href="/papers/HigDimen/ShiJ-2000.pdf"><code>文献6</code></a>.<a href="/papers/HigDimen/Peter-1987.pdf"><code>文献7</code></a>.
-<a href="/papers/HigDimen/ShiJ-2007-note.pdf">✓</a>.</p>
-<p><code>2009</code>. Hjort. <a href="/papers/HigDimen/Hjort-2009.pdf"><code>拓展经验似然范围</code></a>.</p>
-<p><code>2009</code>. 秦YL. <a href="/papers/HigDimen/QinYL-2009.pdf"><code>高维数据统计推断</code></a>.</p>
-<p><code>2009</code>.  陈松溪，彭亮，秦YL. <a href="/papers/HigDimen/ChenSX-2009.pdf"><code>数据维数对经验似然的影响</code></a>.
+<a href="/papers/HigDimen/Ghosh-1984.pdf"><code>文献5</code></a>.<a href="/papers/HigDimen/ShiJ-2000.pdf"><code>文献6</code></a>.<a href="/papers/HigDimen/Peter-1987.pdf"><code>文献7</code></a>
+<a href="/papers/HigDimen/ShiJ-2007-note.pdf">✓</a></p>
+<p><code>2009</code>. Hjort. <a href="/papers/HigDimen/Hjort-2009.pdf"><code>拓展经验似然范围</code></a></p>
+<p><code>2009</code>. 秦YL. <a href="/papers/HigDimen/QinYL-2009.pdf"><code>高维数据统计推断</code></a></p>
+<p><code>2009</code>. 陈松溪, 彭亮, 秦YL. <a href="/papers/HigDimen/ChenSX-2009.pdf"><code>数据维数对经验似然的影响</code></a>
 <a href="/papers/HigDimen/ChenSX-2009-note.pdf">✓</a></p>
-<p><code>2013</code>. <a href="https://xueshu.studiodahu.com/citations?user=6z-xg3AAAAAJ&amp;hl=zh-CN&amp;oi=sra">Wang ZJ</a>. <a href="/papers/HigDimen/WangZJ-2013.pdf"><code>高维回归模型的校正经验似然</code></a>.</p>
-<p><code>2013</code>. <a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a>. <a href="/papers/HigDimen/HengL-2013.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a>.</p>
-<p><code>2014</code>. Nordmana，Lahiri. <a href="/papers/HigDimen/Nordmana-2014.pdf"><code>一篇综述关于经验似然方法应用于时间序列</code></a>.
+<p><code>2010</code>. <a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>, 冷琛雷. <a href="/papers/HigDimen/TangCY-2010.pdf"><code>高维惩罚经验似然</code></a>
+<a href="/papers/HigDimen/TangCY-2010-note.pdf">✓</a></p>
+<p><code>2012</code>. <a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>, 汤琤咏. <a href="/papers/HigDimen/LengCL-2012.pdf"><code>惩罚经验似然与高维估计方程</code></a>
+<a href="/papers/HigDimen/LengCL-2012-note.pdf">✓</a></p>
+<p><code>2013</code>. <a href="https://xueshu.studiodahu.com/citations?user=6z-xg3AAAAAJ&amp;hl=zh-CN&amp;oi=sra">Wang ZJ</a>. <a href="/papers/HigDimen/WangZJ-2013.pdf"><code>高维回归模型的校正经验似然</code></a></p>
+<p><code>2013</code>. <a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a>. <a href="/papers/HigDimen/HengL-2013.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a></p>
+<p><code>2014</code>. Nordmana, Lahiri. <a href="/papers/HigDimen/Nordmana-2014.pdf"><code>一篇综述关于经验似然方法应用于时间序列</code></a>
 <a href="/papers/HigDimen/Nordmana-2014-note.pdf">✓</a></p>
-<p><code>2015</code>. 常晋源，陈松溪. <a href="/papers/HigDimen/ChangJY-2015.pdf"><code>高维一般经验似然于相依数据矩约束</code></a>.</p>
-<p><code>2017</code>. 常晋源，陈松溪. <a href="/papers/HigDimen/ChangJY-2017.pdf"><code>高维经验似然估计方程新范围</code></a>.</p>
-<p><code>2020</code>. 常晋源，陈松溪，汤琤咏. <a href="/papers/HigDimen/ChangJY-2020.pdf"><code>数据经验似然推断</code></a>.</p>
+<p><code>2015</code>. 常晋源, 陈松溪. <a href="/papers/HigDimen/ChangJY-2015.pdf"><code>高维一般经验似然于相依数据矩约束</code></a></p>
+<p><code>2017</code>. 常晋源, 陈松溪. <a href="/papers/HigDimen/ChangJY-2017.pdf"><code>高维经验似然估计方程新范围</code></a></p>
+<p><code>2020</code>. 常晋源, 陈松溪, 汤琤咏. <a href="/papers/HigDimen/ChangJY-2020.pdf"><code>数据经验似然推断</code></a></p>
 <p><code>2018</code>. 陈夏. <a href="/papers/HigDimen/ChenX-2018-1.pdf"><code>高维广义线性模型的惩罚拟似然SCAD估计</code></a></p>
 <p><code>2018</code>. 陈夏. <a href="/papers/HigDimen/ChenX-2018-2.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></p>
 <p><code>2020</code>. 张金廷. <a href="/papers/HigDimen/ZhangJT-2020.pdf"><code>基于L2范数的高维数据双因素方差分析方法</code></a></p>

@@ -86,10 +86,10 @@
 <p>曾力立. <a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.pdf"><code>高维线性回归模型下的经验似然</code></a></p>
 </li>
 <li>
-<p><a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/PengL-2014.pdf"><code>高维线性模型经验似然检验</code></a> <a href="/papers/NBEL/PengL-2014-note.pdf">✓</a></p>
+<p><a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/NBEL/PengL-2014-1.pdf"><code>高维线性模型经验似然检验</code></a> <a href="/papers/NBEL/PengL-2014-1-note.pdf">✓</a></p>
 <ul>
 <li>
-<p><a href="/papers/NBEL/PengL-2014.pdf"><code>高维线性模型经验似然检验</code></a></p>
+<p><a href="/papers/NBEL/PengL-2014-2.pdf"><code>高维线性模型经验似然检验</code></a></p>
 </li>
 <li>
 <p><a href="/papers/NBEL/WangR-2013.pdf"><code>Jacknife经验似然比检验两个高维均值是否相等问题</code></a></p>
@@ -98,6 +98,12 @@
 </li>
 <li>
 <p>Kitamura. <a href="/papers/NBEL/Kitamura-1997.pdf"><code>经验似然方法及弱相依过程</code></a> <a href="/papers/NBEL/Kitamura-1997-note.pdf">✓</a></p>
+</li>
+<li>
+<p><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷. <a href="/papers/HigDimen/TangCY-2010.pdf"><code>高维惩罚经验似然</code></a> <a href="/papers/HigDimen/TangCY-2010-note.pdf">✓</a></p>
+</li>
+<li>
+<p><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏. <a href="/papers/HigDimen/LengCL-2012.pdf"><code>惩罚经验似然与高维估计方程</code></a> <a href="/papers/HigDimen/LengCL-2012-note.pdf">✓</a></p>
 </li>
 </ul>
 
@@ -777,7 +783,7 @@
 <p>该文指出，线性模型的统计推断中 <code>$p$</code> 是 <code>$n$</code> 的指数阶的情况下的研究现状：</p>
 <ol>
 <li><code>$\beta$</code> 有很多分量为零，首先选出非零的分量（即变量选择，如Lasso），然后对被选出来的非零分量做统计推断。</li>
-<li><code>$\beta$</code> 有很多分量不为零，简单地考虑变量选择是不够的，需要新的方法，借鉴<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>在 <a href="/papers/HigDimen/PengL-2014.pdf"><em>Empirical likelihood test for high dimensional linear models</em></a> 一文中的思想，通过一定手段——将样本数据分为两个部分，用每两个旧的观测值构造一个新的观测值——将约束条件与维数无关。</li>
+<li><code>$\beta$</code> 有很多分量不为零，简单地考虑变量选择是不够的，需要新的方法，借鉴<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>在 <a href="/papers/NBEL/PengL-2014-1.pdf"><em>Empirical likelihood test for high dimensional linear models</em></a> 一文中的思想，通过一定手段——将样本数据分为两个部分，用每两个旧的观测值构造一个新的观测值——将约束条件与维数无关。</li>
 </ol>
 </blockquote>
 <blockquote>

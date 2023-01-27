@@ -1,0 +1,819 @@
+% Version on
+% Submitted to on
+% Submitted to
+\documentstyle[12pt]{article}
+ \textheight=8.0truein
+ \textwidth=5.3truein
+ \topmargin -0.2in
+ \oddsidemargin 0.5in
+ \def\nh{\noindent\hangindent=0.45truecm\hangafter=1}
+ \def\sqr#1#2{{\vcenter{\hrule height.#2pt \hbox{\vrule width.#2pt
+ height#2pt \kern#1pt \vrule width.#2pt} \hrule height.#2pt}}}
+ \def\square{\mathchoice\sqr34\sqr34\sqr{2.1}3\sqr{1.5}3}
+ \newcommand{\btheta}{{\mbox{\boldmath$\theta$}}}
+ \newcommand{\balpha}{{\mbox{\boldmath$\alpha$}}}
+ \newcommand{\bomega}{{\mbox{\boldmath$\omega$}}}
+ \newcommand{\bg}{{\mbox{\boldmath$g$}}}
+ \newcommand{\meta}{{\mbox{\boldmath$\eta$}}}
+ \newcommand{\bmu}{{\mbox{\boldmath$\mu$}}}
+ \newcommand{\bM}{{\mbox{\boldmath$M$}}}
+ %\newtheorem{defi}{\sc Definition}[section]
+%\newtheorem{theo}{\sc Theorem}[section]
+%\newtheorem{lemm}{\sc Lemma}[section]
+%\newtheorem{prop}{\sc Proposition}[section]
+%\newtheorem{coll}{\sc Corollary}[section]
+%\newtheorem{rema}{\sc Remark}[section]
+%\newtheorem{theo1}{\sc Theorem}[section]
+%\newtheorem{lemm1}{\sc Lemma }[section]
+ \newtheorem{defi}{\sc Definition}
+\newtheorem{theo}{\sc Theorem}
+\newtheorem{lemm}{\sc Lemma}
+\newtheorem{prop}{\sc Proposition}
+\newtheorem{coll}{\sc Corollary}
+\newtheorem{rema}{\sc Remark}
+\newtheorem{theo1}{\sc Theorem}
+\newtheorem{lemm1}{\sc Lemma }
+\newcommand{\tod}{\stackrel{d}{\longrightarrow}}
+\newcommand{\tow}{\stackrel{{\cal{W}}}{\longrightarrow}}
+\newcommand{\mstackit}[2]{\mbox{\raisebox{-1.1ex}{$\stackrel{{\textstyle{#1}}}{\
+ scriptstyle{#2}}$}}\mbox{}}
+  \newcommand{\herefig}[2]{\leavevmode
+                           \epsfxsize=#1
+                           \epsffile{#2} }
+%\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+\renewcommand{\baselinestretch}{1.25}
+\makeatletter
+ %\@addtoreset{equation}{section}
+  \makeatother
+  \def\ssc{\sscriptstyle}
+  \def\txs{\textstyle}
+   \def\half{\txs{1\over 2}}
+  \def\sn{\smallskip}
+  \def\mn{\medskip}
+  \def\ssn{\smallskip\noindent}
+  \def\msn{\medskip\noindent}
+  \def\bsn{\noindent}
+  \def\nshs{\noalign{\smallskip\hrule\smallskip}}
+  \def\ns{\noalign{\smallskip}}
+  \def\nsh{\noalign{\smallskip\hrule}}
+  \def\nhs{\noalign{\hrule\smallskip}}
+  \def\po{\phantom1}
+  \def\poo{\phantom{11}}
+  \def\pooo{\phantom{111}}
+  \font\er=cmr8
+\def\be{\begin{equation}}
+  \def\ee{\end{equation}}
+  \def\nn{\nonumber}
+  \def\bea{\begin{eqnarray}}
+  \def\eea{\end{eqnarray}}
+  \def\bw{\bar{w}}
+  \pagenumbering{arabic}
+
+\begin{document}
+
+\begin{center}
+ {\bf \large Empirical likelihood for moving average models}
+\end{center}
+
+\bigskip
+
+\begin{center}
+Yinghua Li\ \  \
+Yongsong Qin\footnote{Corresponding author.
+
+\ \ \  Email address: ysqin@gxnu.edu.cn; 54503514@qq.com}
+\bigskip
+
+
+{\small  Department of Mathematics, Guangxi Normal University\\
+Guilin, Guangxi 541004, China}
+
+
+\end{center}
+\bigskip
+
+
+ \noindent
+{\bf Abstract }  In this article, we study the construction of confidence regions for the parameters in moving average (MA) models by using the empirical likelihood (EL) method. It is shown that the EL ratio statistics are asymptotically $\chi^2$-type distributed, which are used to obtain EL based confidence regions for the parameters in MA models.
+
+\noindent {\it Keywords:}  MA model;  empirical likelihood; confidence region
+
+\noindent AMS 2010 subject classification: Primary 62G05\ \ \  secondary
+62E20
+
+\noindent {\it Short title:} Empirical likelihood for moving average models
+
+\newpage
+
+\setcounter{section}{1}
+%\setcounter{equation}{0}
+%\setcounter{equation}{0}
+ \noindent
+{\bf 1. Introduction}
+
+Apparently,  autoregressive moving average (ARMA) models, including purely autoregressive (AR)
+and purely moving-average (MA) models as special cases,  are frequently used to model linear dynamic structures, to depict linear
+relationships among lagged variables, and to serve as vehicles for linear forecasting.
+They form a fundament in the statistical analysis of time series, which are widely used  for time series data.
+
+The empirical likelihood (EL) method is originally proposed for independent data by Owen (1988, 1990), which has many advantages over its counterparts like the normal-approximation-based method and the bootstrap method (e.g., Hall and La Scala 1990; Hall, 1992). Progress in using
+the EL method to different time series models has been studied by many researchers. For example, Mykland (1995) made the connection between the dual likelihood and the EL through the martingale estimating equations and applied
+to time series model. Kitamura (1997) has used  blockwise EL (BEL) method to construct
+confidence intervals for parameters with mixing samples. Chen and Wong (2009) developed  BEL method to construct
+confidence intervals for quantiles with mixing samples.  Chan (2011) considered the Bartlett corrections of EL for short-memory time series.  Monti (1997) extended the EL method to stationary time series by using the Whittle¡¯s (1953) estimation method to obtain an M-estimator of the periodogram ordinates of time series models
+which are asymptotically independent. For long-memory or long-range dependent time series,
+Yau (2012) extended Monit's results to long-memory time series models.
+Nordman et al. (2007) proposed to use BEL method to construct confidence intervals for the mean of a long-range dependent process.
+Chen et al. (2003) employed EL method to carry out the goodness of fit test on the time series model.
+On the other hand, for linear time series models,
+Chuang and Chan (2002) introduced the EL method to the AR models, which proved the validity of independent and identically distributed (i.i.d.) version of EL with a chi-square limit (allowing AR innovations  to be a martingale difference).
+Chan and Ling (2006) developed an EL approach for regular generalized autoregressive conditional heteroskedasticity (GARCH) models and GARCH models with unit roots.
+Further, Nordman and Lahiri (2014) summarized advances in EL for time series data
+and presented the frequency domain EL methods based on the periodogram for short- and long-range dependence.
+Recently,  Piydi Gamage et al.(2017a) proposed an adjusted EL method to extend Nordman and Lahiri's EL method by adopting Chen's idea for dependent observations, specifically short-memory time series models and  Piydi Gamage et al.(2017b) extended Nordman and Lahiri's EL method for the
+autoregressive fractionally integrated moving average (ARFIMA) model by proposing an adjusted EL method.
+But these methods can not be directly applied to the general long memory time series models. Thus, Jiang and Wang (2018)
+combined the BEL method with the adjusted EL to develop an adjusted blockwise EL (ABEL) method
+for long memory time series models. However, for weakly dependent data, which contains MA models under certain conditions,
+BEL approach has been developed and studied by Kitamura (1997), Bravo (2009) and Wu and Cao (2011), among others. These literatures all
+applied  blockwise method to the weakly dependent data.
+
+In this article, we will use the EL method to construct confidence regions for the MA models, where we do not need to use the BEL method although MA structures can be viewed as mixing dependence under certain conditions.
+For MA models, the proposed EL method seems more natural since we do not need to study the choice of block size. Note that, in order to deduce the score function, the paper assumed that $y_n$ is normally distributed. And this assumption is only used in determining the score function. This restriction does not hinder the applicability of the results as the results in this article do not need to assume the normality.
+
+The article is organized as follows.  Section 2 gives the main results. Results from a simulation study and the analysis of a real data example are reported in Section 3. All  technical details are  presented in Sections 4 and 5.
+
+\bigskip
+\setcounter{section}{2}
+%\setcounter{equation}{0}
+ \noindent
+{\bf 2. Main results}
+
+\bigskip
+Consider the following moving average (MA) model:
+\be
+x_t=\epsilon_t+\beta_1\epsilon_{t-1}+\beta_2\epsilon_{t-2}+\cdots+\beta_q\epsilon_{t-q} , \label{1}
+\ee
+where $q$ is the order of the model which is a positive integer, and $\beta_1, \beta_2,\cdots, \beta_q$ are the parameters of
+the model. $\{\epsilon_t\}$ is an independent identically distributed sequence with non-degenerate density function, and
+\[
+E\epsilon_t=0, Var(\epsilon_t)=\sigma^2>0.
+\]
+Let $y_n=(x_1, \cdots, x_n)'$ be the observations of $\{x_t\}$ from model (\ref{1}). Denote  $\beta_0=1, \beta=(\beta_1, \beta_2,\cdots, \beta_q)', \theta=(\beta', \sigma^2)'=(\theta_1, \theta_2, \cdots, \theta_{q+1})'$. Then $E(y_n)=0, \Sigma_n=Cov(y_n)=(Cov(x_i, x_j))_{n\times n}$, where
+\[
+Cov(x_i, x_j)=E(x_ix_j)=\left \{ \begin{array}{ll} \sigma^2\sum_{s=|i-j|}^{q}  \beta_s \beta_{s-|i-j|}, & \hbox{  if } |i-j|\leq q,\\
+0,  & \hbox{  if } |i-j|\geq q+1. \end{array} \right.
+\]
+At this moment, suppose that $y_n$ is normally distributed, which is  used to derive the EL statistic only and not employed in our main results. At this stage, we may say that we are using the so called quasi-likelihood method. Moreover, the EL estimator derived by this method is asymptotically efficient as the parametric likelihood estimator when data are normally distributed. Then the log-likelihood function (apart from a constant term)  is
+\[
+L_n(\theta)=-\half \log (|\Sigma_n|)-\half y_n'\Sigma_n^{-1}y_n.
+\]
+For $1\leq k \leq q+1$, it can be shown that
+\bea
+2 \cdot  \partial L_n(\theta)/\partial \theta_k =y_n'\Sigma_n^{-1} (\partial \Sigma_n/\partial \theta_k)\Sigma_n^{-1}y_n-tr (\Sigma_n^{-1}\cdot(\partial \Sigma_n/\partial \theta_k)). \label{ln}
+\eea
+Letting above derivatives be $0$, we obtain the following estimating equations:
+\bea
+y_n'\Sigma_n^{-1} (\partial \Sigma_n/\partial \theta_k)\Sigma_n^{-1}y_n-tr (\Sigma_n^{-1}\cdot(\partial
+\Sigma_n/\partial \theta_k)) =0,
+1\leq k \leq q+1. \label{yn0}
+\eea
+Let $\epsilon_{(n)}=(\epsilon_{1-q}, \epsilon_{2-q}, \cdots, \epsilon_{n})',
+\beta_{(i)}=(0, \cdots 0, \beta_q,\cdots, \beta_0,0,\cdots0 )'$, where $\beta_q$ is the ith component of the
+vector $\beta_{(i)}$. Then $x_i=\beta'_{(i)}\epsilon_{(n)}, 1\leq i \leq n$.  It  follows that
+\bea
+&&y_n'\Sigma_n^{-1} (\partial \Sigma_n/\partial \theta_k)\Sigma_n^{-1}y_n\nn\\
+&=&\epsilon'_{(n)}\{(\beta_{(1)}, \cdots,\beta_{(n)})\Sigma_n^{-1} (\partial \Sigma_n/\partial \theta_k)\Sigma_n^{-1}(\beta'_{(1)}, \cdots,\beta'_{(n)})'\}\epsilon_{(n)}\nn\\
+&=&\epsilon'_{(n)}B_{k, n}\epsilon_{(n)},\nn
+\eea
+where $B_{k, n}=(\beta_{(1)}, \cdots,\beta_{(n)})\Sigma_n^{-1} (\partial \Sigma_n/\partial \theta_k)\Sigma_n^{-1}(\beta'_{(1)}, \cdots,\beta'_{(n)})'$.
+So (\ref{yn0}) can be rewritten as
+\bea
+\epsilon'_{(n)}B_{k, n}\epsilon_{(n)}-tr (B_{k, n})=0, 1\leq k \leq q+1. \label{yn1}
+\eea
+We use  $b_{ki, j}$ to denote the $(i, j)$ element of the matrix $B_{k, n}$
+and adapt the convention that any sum with an upper index of less than one is zero. To deal with the quadratic form in (\ref{yn1}), we follow Kelejian and Prucha (2001) to introduce a martingale difference array. Define the $\sigma$-fields: ${\mathcal{F}}_{0}=\{ {\emptyset}, \Omega\}, {\mathcal{F}}_{i}=\sigma(\epsilon_{1-q}, \epsilon_{2-q}, \cdots, \epsilon_i), 1-q\leq i\leq n$. Let
+\be
+e_{ik,n}=b_{ki, i}(\epsilon^2_i-\sigma^2)+2\epsilon_i\sum^{i-1}_{j=1-q}b_{ki, j}\epsilon_j.\label{4.1.1}
+\ee
+Then $ {\mathcal{F}}_{i-1}  \subseteq {\mathcal{F}}_{i}, e_{ik,n}$ is ${\mathcal{F}}_{i}-$measurable
+and $E(e_{ik,n}|{\mathcal{F}}_{i-1})=0$. Thus $\{e_{ik,n}, {\mathcal{F}}_{i}, 1-q \leq i\leq n\}$ forms a martingale difference array and
+\be
+\epsilon'_{(n)}B_{k, n}\epsilon_{(n)}-tr (B_{k, n})=\sum^n_{i=1-q}e_{ik,n}. \label{ln2}
+\ee
+By (\ref{ln})-(\ref{ln2}), we have
+\bea
+\partial L_n(\theta)/\partial \theta_k =\sum_{i=1-q}^n e_{ik,n}, 1\leq k \leq q+1.
+\eea
+Thus the score function is
+\be
+\omega_i(\theta)=( e_{i1,n}, \cdots,  e_{i,q+1,n})'. \label{omega}
+\ee
+
+
+{\bf Remark 1. } From Condition A4,  the MR(q) is invertible, which means that $\epsilon_{(n)}$ can be expressed as the linear function of $y_n$. Therefore, this score function works well.
+
+Using the score function, we propose the following profile EL ratio statistic for $\theta$:
+\be
+R_n(\theta)=\sup_{p_i, 1-q\leq i\leq n}\left (\prod^n_{i=1-q}p_i\right ), \label{7}
+\ee
+where $\{p_i\}$ satisfy
+\bea
+&& p_i\geq 0, 1-q\leq i\leq n, \sum^n_{i=1-q}p_i \omega_i(\theta)=0.\nn
+\eea
+
+
+Following Owen (1990), one can show that
+\be
+\ell_n(\theta)=-2\log R_n(\theta)=2\sum^n_{i=1-q}\log \{1+\lambda'(\theta)\omega_i(\theta)\},  \label{8}
+\ee
+where $\lambda(\theta)$ is the solution of the following equation:
+\be
+{1\over n+q}\sum^n_{i=1-q}{\omega_i(\theta)\over 1+\lambda'(\theta)\omega_i(\theta)}=0.  \label{9}
+\ee
+
+
+
+Use $Vec(Diag(A))$ to denote the column vector formed with the diagonal elements of $A$. Let ${\Sigma_{S_n}}=2\sigma^4C_1+(\mu_4-3\sigma^4)C_2$, where $C_1=(C_{1i,j}),\ C_{1i,j}=tr(B_{in}B_{jn})$, and
+$C_2=(C_{2i,j}),\ C_{2i,j}=(Vec(diag(B_{in})))'(Vec(diag(B_{jn})))$. To obtain the asymptotical distribution of $\ell_n(\theta)$, we need
+following assumptions.
+
+A1.\  $\{\epsilon_{i}, 1-q\leq i\leq n\}$ are independent random variables with mean $0$ and
+$\sup_{1-q\leq i\leq n, n\geq 1}E|\epsilon_{i}|^{4+\eta_1}<\infty$ for some $\eta_1>0$;
+
+A2.\  \ Let $\Sigma_n^{-1}$ and $\partial \Sigma_n/\partial \theta_k (1\leq k\leq q+1)$  be as described above.
+ The row and column sums of $\Sigma_n^{-1}$ and $\partial \Sigma_n/\partial \theta_k (1\leq k\leq q+1)$ are uniformly bounded in absolute value.
+
+A3.\  \  There exists some constant $c>0$ such that
+ $\lambda_{min}((n+q)^{-1}\Sigma_{S_n})\geq c$, where $\lambda_{min}(A)$ denotes the smallest eigenvalues of a matrix $A$.
+
+A4. The roots of the characteristic polynomial of the MA model lie outside the unit circle.
+
+
+
+\smallskip
+
+We now state the main results.
+%, which establish the asymptotic normality of  $\sqrt{n}(\hat{\theta}-\theta)$
+%and $\sqrt{n}\{(\hat{\theta}_{\gamma_2}-\hat{\theta}_{\gamma_1})-(\theta_{\gamma_2}-\theta_{\gamma_1})\}$.
+
+%\noindent
+\begin{theo}\label{theo2.1}
+Suppose that conditions A1-A3 hold. Then
+\[
+\ell_n ({\theta} )\tod \chi^2_{q+1},
+\]
+where $\chi^2_{q+1}$ is a chi-squared distributed random variable with
+$q+1$ degrees of freedom.
+\end{theo}
+
+Let $z_{\alpha}(q+1)$ satisfy  $P(\chi^2_{q+1}\leq z_{\alpha}(q+1))=\alpha$ for $0<\alpha<1$. It follows from Theorem
+\ref{theo2.1} that an EL based confidence region for $\theta$ with
+asymptotically correct coverage probability $\alpha$ can be
+constructed as
+\[
+\{ \theta: \ell_n(\theta)\leq z_{\alpha}(q+1) \}.
+\]
+
+If we need to obtain the confidence region for $\beta$ only, we can let  $\ell_{n2}(\beta)=2\log\{{R}_n(\hat{\theta})\}-2\log\{{R}_n(\beta, \hat{\sigma}^2)\}$, where $\hat{\theta}$ and
+$\hat{\sigma}^2$ are the EL estimators of $\theta$ and $\sigma^2$ (with $\beta$ fixed for the later estimator), respectively. Then following the proof of Corollary $5$ in Qin and Lawless (1994), we have the following result.
+
+\noindent
+\begin{theo}\label{theo2.2}
+Suppose that Assumptions (A1) to (A3) are satisfied. Then as $n\to \infty$,
+\[
+\ell_{n2}(\beta)\tod \chi^2_{q}.
+\]
+\end{theo}
+
+From this result, the EL based confidence region for $\beta$ with
+asymptotically correct coverage probability $\alpha$ can be
+constructed as
+\[
+\{ \beta: \ell_{n2}(\beta)\leq z_{\alpha}(q) \}.
+\]
+
+{\bf Remark 2. } By using the special structure of the MA model, this article proposes an EL method to construct confidence regions for the parameters in MA models. Compared with the existing BEL method for time series models, the method in this article does not need to chooses block sizes. Different block sizes may lead to big difference in performance. Unfortunately, so far there is no good method to choose block sizes.  We can not see that this EL method can be used directly to a long-memory time series model or a short-memory time series model. However, this method may be used to some specific time series models mentioned above. This is left for our future study.
+
+
+\bigskip
+\setcounter{section}{3}
+%\setcounter{equation}{0}
+ \noindent
+{\bf 3. Simulations and real data analysis}
+\bigskip
+
+We conduct a small simulation study to compare the finite sample performances of the confidence regions based on the LR method, the EL method proposed in this article and the BEL method in Kitamura (1997).
+To this end, we first outline the LR and the BEL methods.
+
+When the error term $\epsilon_{(n)}$  is normal distributed, the likelihood ratio (LR)
+$LR(\theta_0)=2(L_n(\hat\theta)-L_n(\theta_0))$ is asymptotically distributed as $\chi^2_{k+2}$ under the null hypothesis: $\theta=\theta_0$, where $L_n$ is the log-likelihood function of $y_{(n)}$.
+The LR based confidence region for $\theta$ with
+asymptotically correct coverage probability $\alpha$ can be
+constructed as
+\[
+\{ \theta: LR(\theta)\leq z_{\alpha}(q+1) \}.
+\]
+
+Let $M$ be a positive integer representing the block length, $L$  the gap between the beginnings of two consecutive blocks and $Q$  the total number of blocks, where $M\to \infty, M=o(n^{1/2})$ and $L\leq M$. Define $z_i={1\over M}\sum^M_{j=1}\omega_{(i-1)L+j}(\theta), 1\leq i\leq Q$, where $\omega_i(\theta)$ is defined in (\ref{omega}). Then define the BEL ratio statistic for $\theta$ as
+\[
+\ell_B(\theta)=2\sum^Q_{i=1}\log (1+\kappa'_n z_i)
+\]
+where $\kappa_n\in R^{q+1}$ is determined by
+\[
+\frac{1}{Q}\sum_{i=1}^{Q}
+\frac{z_i}{1+\kappa^{\tau}_n z_i}=0.
+\]
+Under some regularity conditions, it can be shown that ${n\over QM}\ell_B(\theta)\tod \chi^2_{q+1}$. The the BEL based confidence region is
+\[
+\left \{ \theta: {n\over QM}\ell_B(\theta)\leq z_{\alpha}(q+1) \right \}.
+\]
+
+Let $\alpha=0.95$. We report the proportion of $\ell_{n} (\theta_0) \le z_{\alpha}(q+1)$, ${n\over QM}\ell_B(\theta_0)\le z_{\alpha}(q+1)$ and $LR(\theta_0) \le z_{\alpha}(q+1)$ respectively in our $2,000$ simulations, where $\theta_0$ is the true value of $\theta$. For the BEL method, the choice of the block size is an important problem and there is no satisfactory solution for this issue. To conduct the simulation for BEL case, we take $M=n^{1/2}/\log n, L=n^{1/3}$, which satisfy the basic conditions stated above.
+In the simulations, we use the model: $x_t=\epsilon_t+\beta_1\epsilon_{t-1}+\beta_2\epsilon_{t-2}$ where $\beta_1=1/2, \beta_2= 1/3$, and $\epsilon_{t}'s$ are taken from $ N(0,1)$, $t(5), \chi^2_{1}-1$ and $\chi^2_{4}-4$, respectively.  The sample size $n$ is taken as $100, 200, 300, 400$ and $500$, respectively. The results of simulations are reported in Table 1.
+
+We can see, from Table 1, the coverage probability (CP) of the confidence regions based on EL method converge to the nominal level $\alpha$ as $n$ is large enough, whether the error term $\epsilon_{(n)}$ is normally distributed or not. On the other hand,
+the CP under BEL method goes closer to $\alpha$ as $n$ is large enough, but the performance of the EL method is  better compared with the BEL method. Finally, the LR method performs well when $\epsilon_{(n)}$ is normally distributed, but is less satisfactory in other cases.
+
+\bigskip
+{\bf Table 1 is about here.}
+\bigskip
+
+We now consider the data of a chemical process. This time series data are£º $47, 64, 23, 71, 38, 64, 55, 41, 59, 48 , 71, 35, 57, 40, 58, 44, 80,  55,  37,  74$,  $51, 57 ,  50, 60, 45, 57, 50, 45, 25, 59, 50, 71, 56, 74, 50, 58,  45, 54,  36,  54, 48,  55,  45$,  $57, 50, 62,  44 ,
+ 64, 43, 52, 38, 59, 55, 41, 53, 49, 34, 35, 54 ,  45, 68, 38, 50, 60, 39, 59$, $40, 57, 54$ and $23$.
+By fitting these data, it is found that the MA(2): $x_t=\epsilon_t+\beta_1\epsilon_{t-1}+\beta_2\epsilon_{t-2}$  can fit the data well. Firstly, we use the quasi-likelihood method to obtain the estimators of parameters. Secondly, letting $\alpha=0.95$, we respectively obtain the EL, BEL and LR based confidence intervals for parameters. These results are summarized in Table 2. It is obvious that the lengths of the EL confidence intervals are uniformly shorter than that of the BEL and LR confidence intervals. This result may confirm that the EL method has better performance than other methods.
+
+
+
+\bigskip
+\setcounter{section}{4}
+%\setcounter{equation}{0}
+ \noindent
+{\bf 4. Lemmas}
+\bigskip
+
+To prove the main results, we need following lemmas.
+
+Let
+\[
+Q_n=\sum^n_{i=1}\sum^n_{j=1}a_{nij}\epsilon_{ni}\epsilon_{nj}+\sum^n_{i=1}b_{ni}\epsilon_{ni},
+\]
+where $\epsilon_{ni}$ are real valued random variables, and the $a_{nij}$ and $b_{ni}$ denote the real valued coefficients of the linear-quadratic form.
+We need the following assumptions in Lemma \ref{lemm4.2}.
+
+(C1)  $\{\epsilon_{ni}, 1\leq i\leq n\}$ are independent random variables with mean $0$ and $\sup_{1\leq i\leq n, n\geq 1}E|\epsilon_{ni}|^{4+\eta_1}<\infty$ for some
+$\eta_1>0$;
+
+(C2)  For all $1\leq i, j\leq n, n\geq 1, a_{nij}=a_{nji}$, $\sup_{1\leq j\leq n, n\geq 1} \sum^n_{i=1}|a_{nij}|<\infty$, and $\sup_{n\geq 1}n^{-1}\sum^n_{i=1}|b_{ni}|^{2+\eta_2}<\infty$ for some $\eta_2>0$.
+
+Given the above assumptions (C1) and (C2), the mean and variance of $Q_n$ are given  as (e.g. Kelejian and Prucha, 2001)
+\[
+\mu_Q=\sum^n_{i=1}a_{nii}\sigma^2_{ni},
+\]
+\[
+\sigma^2_Q = 2\sum^n_{i=1}\sum^{n}_{j=1}a^2_{nij}\sigma^2_{ni}\sigma^2_{nj}+\sum^n_{i=1}b^2_{ni}\sigma^2_{ni}
+ +\sum^n_{i=1}\{ a^2_{nii}(\mu^{(4)}_{ni}-3\sigma^4_{ni})+2b_{ni}a_{nii}\mu^{(3)}_{ni}  \},
+\]
+with $\sigma^2_{ni}=E(\epsilon_{ni}^2)$ and $\mu^{(s)}_{ni}=E(\epsilon_{ni}^s)$ for $s=3, 4$.
+
+\begin{lemm}\label{lemm4.1}
+Suppose that Assumptions C1 and C2 hold true and $n^{-1}\sigma^2_Q\geq c$ for some constant $c>0$. Then
+\[
+{Q_n-\mu_Q\over \sigma_Q } \tod N(0, 1).
+\]
+\end{lemm}
+
+{\bf Proof. } See Theorem $1$ and the remark $12$ in Kelejian and Prucha (2001).
+\begin{lemm}\label{lemm4.2}
+Let $\eta_1, \eta_2,\cdots, \eta_n$  be a sequence of stationary random variables,
+ with $E|\eta_1|^s<\infty$ for some constants $s>0$ and $C>0$.  Then
+\[
+\max_{1\leq i \leq n }|\eta_i|=o(n^{1/s}), \ \   a.s.
+\]
+\end{lemm}
+
+{ \bf Proof. } It is straightforward.
+
+\begin{lemm}\label{lemm4.4}
+Suppose that Assumptions A1-A3 are satisfied,
+then
+\bea
+Z_n=\max_{1-q\leq i \leq n}||\omega_i(\theta)||=o_p((n+q)^{1/2})\ \ a.s., \label{21}
+\eea
+\be {\Sigma_{S_n}^{-1/2}\sum_{i=1-q}^n \omega_i(\theta)}\tod
+N(0, {I_{q+1}}) \label{lim00.01}, \ee
+\bea
+(n+q)^{-1}\sum_{i=1-q}^n \omega_i(\theta)\omega_i^\tau(\theta)=(n+q)^{-1}\Sigma_{S_n}+o_p(1),\label{23}
+\eea
+\bea
+\sum_{i=1-q}^n ||\omega_i(\theta)||^3=O_p((n+q)).\label{24}
+\eea
+\end{lemm}
+{ \bf Proof. } As
+\bea
+Z_n&\leq& \max_{1-q\leq i \leq n}||e_{ik,n}||=\max_{1-q\leq i \leq n} ||b_{ki, i}(\epsilon^2_i-\sigma^2)+2\epsilon_i\sum^{i-1}_{j=1-q}b_{ki, j}\epsilon_j||,\nn
+\eea
+and by conditions A1, A2 and Lemma \ref{lemm4.2},
+\[
+\max_{1-q\leq i \leq n}|\epsilon^2_i-\sigma^2|=o_p((n+q)^{1/2}),
+\]
+\[
+\max_{1-q\leq i \leq n}|\epsilon_i\sum^{i-1}_{j=1-q}b_{ki, j}\epsilon_j|=(\max_{1-q\leq i \leq n}|\epsilon_i|)^2\cdot
+\max_{1-q\leq i \leq n}|\sum^{i-1}_{j=1-q}b_{ki, j}|=o_p((n+q)^{1/2}).
+\]
+Thus $Z_n=o_p((n+q)^{1/2})$. (\ref{21}) is proved.
+
+For any given ${l}=(l_1,\cdots,l_{q+1})'\in R^{q+1}$ with $||{l}||=1$,  that
+\bea
+\sum_{i=1-q}^n l'\omega_i(\theta)&=&\sum_{i=1-q}^n (l_1e_{i1,n}+\cdots+l_qe_{i, q+1,n})\nn\\
+&=&l'\cdot (\partial L_n(\theta)/\partial \theta_1, \cdots, \partial L_n(\theta)/\partial \theta_{q+1})'\nn\\
+&=&l_1\cdot\partial L_n(\theta)/\partial \theta_1+\cdots+l_q\cdot\partial L_n(\theta)/\partial \theta_{q+1}\nn\\
+&=&\sum_{k=1}^{q+1} l_k \{\epsilon'_{(n)}B_{k, n}\epsilon_{(n)}-tr (\Sigma_n^{-1}\cdot(\partial
+\Sigma_n/\partial \theta_k))
+\}\nn\\
+&=& \epsilon'_{(n)}A_n\epsilon_{(n)}-E (\epsilon'_{(n)}A_n\epsilon_{(n)})\nn\\
+&=& \sum_{i=1-q}^n \{a_{ni, i}(\epsilon^2_i-\sigma^2)+2\epsilon_i\sum^{i-1}_{j=1-q}a_{ni, j}\epsilon_j\}=\tilde{Q}_n-\tilde{\mu}_Q,
+\eea
+where $A_n=\sum_{k=1}^{q+1} l_k B_{k, n},\ a_{ni,j}$ denotes the $(i, j)$ element of the matrix $A_n$,
+$\tilde{Q}_n=\sum_{i=1-q}^n \{a_{ni, i}(\epsilon^2_i-\sigma^2)+2\epsilon_i\sum^{i-1}_{j=1-q}a_{ni, j}\epsilon_j\}, \tilde{\mu}_Q=E(\tilde{Q}_n)=0.$
+Note that
+$a_{ni,j}=\sum_{k=1}^{q+1} l_k b_{ki, j}$, by condition A2, it follows that
+\bea
+\sum^n_{i=1-q}|a_{ni,j}| &=& \sum^n_{i=1-q}|\sum_{k=1}^{q+1} l_k b_{ki, j}|=\sum_{k=1}^{q+1} |l_k|\sum^n_{i=1-q}|b_{ki, j}|\leq C.\nn
+\eea
+Therefore, condition C2 in Lemma \ref{lemm4.1} is satisfied. On the other hand,
+condition C1 in Lemma \ref{lemm4.1} is also satisfied by condition A1.
+We now derive the variance of $\tilde{Q}_n$. Note that
+\bea
+\sum^n_{i=1-q}\sum^{n}_{j=1-q}a^2_{ni, j} &=& \sum^n_{i=1-q}\sum^{n}_{j=1-q}(\sum_{k=1}^{q+1} l_k b_{ki, j})^2\nn\\
+&=& \sum^n_{i=1-q}\sum^{n}_{j=1-q}(\sum_{k=1}^{q+1} l_k^2 b^2_{ki, j}+2\sum_{r\neq s}l_rl_sb_{ri, j}b_{si, j})\nn\\
+&=& \sum_{k=1}^{q+1} l_k^2\sum^n_{i=1-q}\sum^{n}_{j=1-q} b^2_{ki, j}+2\sum_{r\neq s}l_rl_s\sum^n_{i=1-q}\sum^{n}_{j=1-q}b_{ri, j}b_{si, j}\nn\\
+&=& \sum_{k=1}^{q+1} l_k^2tr(B_{kn}^2)+2\sum_{r\neq s}l_rl_str(B_{rn}B_{sn})\nn\\
+&=& (l_1, \cdots, l_q) C_1 (l_1, \cdots, l_q)'=l'C_1l,\nn
+\eea
+where $C_1=(C_{1i,j}),\ C_{1i,j}=tr(B_{in}B_{jn})$, and
+\bea
+\sum^n_{i=1-q}a^2_{ni, i} &=& \sum^n_{i=1-q}(\sum_{k=1}^{q+1} l_k b_{ki, i})^2\nn\\
+&=& \sum_{k=1}^{q+1}l_k^2\sum^n_{i=1-q}b_{ki, i}^2+2\sum_{r\neq s}l_rl_s\sum^n_{i=1-q}b_{ri, i}b_{si, i}\nn\\
+&=& \sum_{k=1}^{q+1}l_k^2||Vec(diag(B_{kn}))||^2\nn\\
+&& +2\sum_{r\neq s}l_rl_s(Vec(diag(B_{rn})))'(Vec(diag(B_{sn})))\nn\\
+&=& (l_1, \cdots, l_{q+1}) C_2 (l_1, \cdots, l_{q+1})'=l'C_2l,\nn
+\eea
+where $C_2=(C_{2i,j}),\ C_{2i,j}=(Vec(diag(B_{in})))'(Vec(diag(B_{jn})))$.
+From A3 and Lemma \ref{lemm4.1}, we have
+\be
+\tilde{Q}_n-\tilde{\mu}_Q\tod
+N(0, {\tilde{\sigma}_Q^2}),
+\ee
+where \bea
+\tilde{\sigma}_Q^2&=&2\sigma^4\sum_{i=1-q}^n\sum_{j=1-q}^na_{ni,j}^2+(\mu_4-3\sigma^4)\sum_{i=1-q}^na_{ni,i}^2\nn\\
+&=& l'(2\sigma^4C_1+(\mu_4-3\sigma^4)C_2)l,\nn
+\eea
+$\mu_4=E\epsilon^4_t$. i. e.
+\[
+\sum_{i=1-q}^n l'\omega_i(\theta)\tod N(0, {\tilde{\sigma}_Q^2}).
+\]
+Thus we have (\ref{lim00.01}).
+Next we will prove (\ref{23}),  i. e.
+\bea
+(n+q)^{-1}\sum_{i=1-q}^n (l^\tau\omega_i(\theta))^2=(n+q)^{-1}\tilde{\sigma}_Q^2+o_p(1).\label{wn2}
+\eea
+It is equivalent to prove
+\bea
+(n+q)^{-1}\sum_{i=1-q}^n (l^\tau\omega_i(\theta))^2-(n+q)^{-1}\tilde{\sigma}_Q^2=o_p(1).\nn
+\eea
+Let
+\bea
+Y_{in}&=& l^\tau\omega_i(\theta)
+= a_{ni, i}(\epsilon^2_i-\sigma^2)+2\epsilon_i\sum^{i-1}_{j=1-q}a_{ni, j}\epsilon_j\nn\\
+&=&a_{ni, i}(\epsilon^2_i-\sigma^2)+B_i\epsilon_i,
+\eea
+where $B_i=2\sum^{i-1}_{j=1-q}a_{ni, j}\epsilon_j$.
+Note that
+\bea
+&&(n+q)^{-1}\sum_{i=1-q}^n (l^\tau\omega_i(\theta))^2-(n+q)^{-1}\tilde{\sigma}_Q^2\nn\\
+&=&(n+q)^{-1}\sum_{i=1-q}^n(Y_{in}^2-EY_{in}^2)\nn\\
+&=& (n+q)^{-1}\sum_{i=1-q}^n\{Y_{in}^2-E(Y_{in}^2|{\mathcal{F}}_{i-1})+E(Y_{in}^2|{\mathcal{F}}_{i-1})-EY_{in}^2 \}\nn\\
+&=& (n+q)^{-1}S_{n1}+(n+q)^{-1}S_{n2},
+\eea
+where $S_{n1}=\sum_{i=1-q}^n\{Y_{in}^2-E(Y_{in}^2|{\mathcal{F}}_{i-1})\}$, $S_{n2}=\sum_{i=1-q}^n
+\{E(Y_{in}^2|{\mathcal{F}}_{i-1})-EY_{in}^2\}$.
+Next we will prove
+\bea
+(n+q)^{-1}S_{n1}=o_p(1),\label{sn1}
+\eea
+and
+\bea
+(n+q)^{-1}S_{n2}=o_p(1).\label{sn2}
+\eea
+In order to prove (\ref{sn1}) and (\ref{sn2}), we just need to prove $(n+q)^{-2}ES_{n1}^2\to 0$ and
+ $(n+q)^{-2}ES_{n2}^2\to 0$ respectively. Obviously,
+ \[
+ Y_{in}^2=a_{ni,i}^2(\epsilon^2_i-\sigma^2)^2+B_i^2\epsilon_i^2+2a_{ni,i}B_i(\epsilon^2_i-\sigma^2)\epsilon_i,
+ \]
+then
+\[
+E(Y_{in}^2|{\mathcal{F}}_{i-1})=a_{ni,i}^2E(\epsilon^2_i-\sigma^2)^2+B_i^2\sigma^2+2a_{ni,i}B_i\mu_3.
+\]
+It follows that
+\bea
+&&(n+q)^{-2}ES_{n1}^2=(n+q)^{-2}\sum_{i=1-q}^nE\{Y_{in}^2-E(Y_{in}^2|{\mathcal{F}}_{i-1})\}^2\nn\\
+&=&(n+q)^{-2}\sum_{i=1-q}^n E[a_{ni,i}^2\{(\epsilon^2_i-\sigma^2)^2-E(\epsilon^2_i-\sigma^2)^2\}+B_i^2(\epsilon_i^2-\sigma^2)\nn\\
+&&+2a_{ni,i}B_i
+(\epsilon^3_i-\sigma^2\epsilon_i-\mu_3)]^2\nn\\
+&\leq& C(n+q)^{-2}\sum_{i=1-q}^n E[a_{ni,i}^4\{(\epsilon^2_i-\sigma^2)^2-E(\epsilon^2_i-\sigma^2)^2\}^2]\nn\\
+&& +C(n+q)^{-2}\sum_{i=1-q}^n E[B_i^4(\epsilon_i^2-\sigma^2)^2]\nn\\
+&&+C(n+q)^{-2}\sum_{i=1-q}^n E[a_{ni,i}^2B_i^2(\epsilon^3_i-\sigma^2\epsilon_i-\mu_3)^2]\nn\\
+&\leq& C(n+q)^{-2}\sum_{i=1-q}^n E[a_{ni,i}^4\{(\epsilon^2_i-\sigma^2)^2-E(\epsilon^2_i-\sigma^2)^2\}^2]\nn\\
+&&+C(n+q)^{-2}\sum_{i=1-q}^n E[B_i^4(\epsilon_i^2-\sigma^2)^2].\label{sn11}
+\eea
+By condition A1, we have
+\bea
+(n+q)^{-2}\sum_{i=1-q}^n E[a_{ni,i}^4\{(\epsilon^2_i-\sigma^2)^2-E(\epsilon^2_i-\sigma^2)^2\}^2]\leq C (n+q)^{-1}\to 0,\label{sn12}
+\eea
+and
+\bea
+&&(n+q)^{-2}\sum_{i=1-q}^n E[B_i^4(\epsilon_i^2-\sigma^2)^2]\leq C (n+q)^{-2}\sum_{i=1-q}^n E(2\sum^{i-1}_{j=1-q}a_{ni, j}\epsilon_j)^4\nn\\
+&\leq& C (n+q)^{-2}\sum_{i=1-q}^n \sum^{i-1}_{j=1-q}a_{ni,j}^4\mu_4+C (n+q)^{-2}\sum_{i=1-q}^n (\sum^{i-1}_{j=1-q}a_{ni,j}^2\sigma^2)^2\nn\\
+&\leq& C (n+q)^{-1}\to 0.\label{sn13}
+\eea
+From (\ref{sn11})-(\ref{sn13}), we have $(n+q)^{-2}ES_{n1}^2\to 0$.
+Furthermore,
+\bea
+EY_{in}^2&=&E(E(Y_{in}^2|{\mathcal{F}}_{i-1}))=a_{ni,i}^2E(\epsilon^2_i-\sigma^2)^2+\sigma^2EB_i^2+2a_{ni,i}\mu_3EB_i\nn\\
+&=& a_{ni,i}^2E(\epsilon^2_i-\sigma^2)^2+4\sigma^2\sum^{i-1}_{j=1-q}a^2_{ni, j}\sigma^2.\nn
+\eea
+Thus,
+\bea
+&&(n+q)^{-2}ES_{n2}^2=(n+q)^{-2}E[\sum_{i=1-q}^n\{E(Y_{in}^2|{\mathcal{F}}_{i-1})-EY_{in}^2\}]^2\nn\\
+&=& (n+q)^{-2}E[\sum_{i=1-q}^n \{(B_i^2\sigma^2-4\sigma^2\sum^{i-1}_{j=1-q}a^2_{ni, j}\sigma^2)+2a_{ni,i}\mu_3B_i\}]^2\nn\\
+&=& (n+q)^{-2}\sum_{i=1-q}^n E[\{4\sigma^2\{(\sum^{i-1}_{j=1-q}a_{ni,j}\epsilon_j)^2-\sum^{i-1}_{j=1-q}a_{ni,j}^2\sigma^2\}\nn\\
+&& +4a_{ni,i}\mu_3(\sum^{i-1}_{j=1-q}a_{ni,j}\epsilon_j)\}]^2\nn\\
+&\leq& C(n+q)^{-2}\sum_{i=1-q}^nE[4\sigma^2\{(\sum^{i-1}_{j=1-q}a_{ni,j}\epsilon_j)^2-\sum^{i-1}_{j=1-q}a_{ni,j}^2\sigma^2\}]^2\nn\\
+&&+C(n+q)^{-2}\sum_{i=1-q}^nE\{4a_{ni,i}\mu_3(\sum^{i-1}_{j=1-q}a_{ni,j}\epsilon_j)\}^2.\label{sn21}
+\eea
+Note that
+\bea
+&&(n+q)^{-2}\sum_{i=1-q}^nE[4\sigma^2\{(\sum^{i-1}_{j=1-q}a_{ni,j}\epsilon_j)^2-\sum^{i-1}_{j=1-q}a_{ni,j}^2\sigma^2\}]^2\nn\\
+&\leq& C(n+q)^{-2}\sigma^4\sum_{i=1-q}^n
+E(\sum^{i-1}_{j=1-q}a_{ni,j}\epsilon_j)^4\nn\\
+&\leq & C(n+q)^{-2}\sum_{i=1-q}^n\sum^{i-1}_{j=1-q}a_{ni,j}^4\mu_4+C (n+q)^{-2}\sum_{i=1-q}^n (\sum^{i-1}_{j=1-q}a_{ni,j}^2\sigma^2)^2\nn\\
+&\leq& C (n+q)^{-1}\to 0,\label{sn22}
+\eea
+and
+\bea
+&& (n+q)^{-2}\sum_{i=1-q}^nE\{4a_{ni,i}\mu_3(\sum^{i-1}_{j=1-q}a_{ni,j}\epsilon_j)\}^2\nn\\
+& = & 16\mu_3^2\sigma^2(n+q)^{-2}
+\sum_{i=1-q}^na_{ni,i}^2\sum^{i-1}_{j=1-q}a_{ni,j}^2
+\leq C (n+q)^{-2}\to 0,\label{sn24}
+\eea
+where we use conditions A1 and A2.
+From (\ref{sn21})-(\ref{sn24}), we have $n^{-2}ES_{n2}^2\to 0$. Then (\ref{wn2}) can be proved.
+From (\ref{sn21})-(\ref{sn24}), we have $n^{-2}ES_{n2}^2\to 0$. Then (\ref{wn2}) can be proved. Finally, we will prove (\ref{24}). Note that
+\bea
+&&\sum_{i=1-q}^n E||\omega_i(\theta)||^3\leq\sum_{i=1-q}^n\sum_{k=1}^{q+1}E|b_{ki, i}(\epsilon^2_i-\sigma^2)+2\epsilon_i\sum^{i-1}_{j=1-q}b_{ki, j}\epsilon_j|^3 \nn\\
+&\leq& q\sum_{i=1-q}^nE|b_{ki, i}(\epsilon^2_i-\sigma^2)|^3+
+q\sum_{i=1-q}^nE|2\epsilon_i\sum^{i-1}_{j=1-q}b_{ki, j}\epsilon_j|^3\nn\\
+&\leq& q\sum_{i=1-q}^nE|b_{ki, i}(\epsilon^2_i-\sigma^2)|^3+
+C\sum_{i=1-q}^nE\epsilon_i^3\sum^{i-1}_{j=1-q}E|b_{ki, j}\epsilon_j|^3\nn\\&&+
+C\sum_{i=1-q}^nE\epsilon_i^3\{\sum^{i-1}_{j=1-q}E(b_{ki, j}\epsilon_j)^2\}^{3/2}\nn\\
+% &\leq& C(n+q)E\epsilon_1^6+C(n+q)^2(E\epsilon_1^3)^2+C(n+q)E\epsilon_1^3\cdot((n+q)E\epsilon_1^2)^{3/2}\nn\\
+&=&O((n+q)).\label{33}
+\eea
+By (\ref{33}) and  Markov inequality, we obtain $\sum_{i=1-q}^n ||\omega_i(\theta)||^3=O_p((n+q))$. Thus (\ref{24})
+is proved.
+
+\bigskip
+{\bf 5. Proof of Theorem \ref{theo2.1}}
+\bigskip
+
+Let $\lambda=\lambda(\theta), \rho_0=||\lambda||,
+\lambda=\rho_0\eta_0$. From (\ref{9}), we have
+\[
+\frac{\eta_0^{\tau}}{n}\sum_{j=1}^{n}\omega_{j}(\theta)-\frac{\rho_0}{n}\sum_{j=1}^{n}
+{(\eta_0^{\tau}\omega_{j}(\theta))^2\over
+1+\lambda^{\tau} \omega_{j}(\theta)}=0.
+\]
+It follows that
+\[
+|\eta_0^{\tau}\bar{\omega}|\geq
+{\rho_0\over 1+\rho_0
+Z_{n}}\lambda_{min}(S_0),
+%\label{theo3.1.10}
+\]
+where $Z_{n}$ is defined in (\ref{21}), $\bar{\omega}=n^{-1}\sum^n_{i=1}\omega_i(\theta), S_0=n^{-1}\sum^n_{i=1}\omega_i(\theta)\omega^{\tau}_i(\theta)$.
+That is
+\[
+| \eta_0^{\tau}\Sigma^{1/2}_{S_n}\Sigma^{-1/2}_{S_n}\bar{\omega}|\geq
+{\rho_0\over 1+\rho_0
+Z_{n}}\lambda_{min}(S_0),
+%\label{theo3.1.10}
+\]
+i. e.
+\[
+\lambda_{max}(\Sigma^{1/2}_{S_n})|| \eta_0||\cdot ||\Sigma^{-1/2}_{S_n}\bar{\omega}||\geq
+{\rho_0\over 1+\rho_0
+Z_{n}}\lambda_{min}(S_0).
+%\label{theo3.1.10}
+\]
+Combining with Lemma \ref{lemm4.4} and Condition A3, we have
+\[
+{\rho_0\over 1+\rho_0  Z_{n}}=O_p(n^{-1/2}).
+\]
+Therefore, from Lemma \ref{lemm4.4},
+\[
+\rho_0=O_p(n^{-1/2}).
+\]
+Let
+$\gamma_i=\lambda^{\tau}\omega_{i}(\theta)$. Then \be \max_{1\leq i \leq
+n}|\gamma_i|=o_p(1).  \label{gam}
+\ee
+Using (\ref{9})  again, we have
+\begin{eqnarray*}
+0 & = & {1\over {n}}\sum_{j=1}^{n}{\omega_{j}(\theta)\over 1+\lambda^{\tau} \omega_{j}(\theta)}\\
+& = & {1\over {n}}\sum_{j=1}^{n} \omega_{j}(\theta)-{1\over
+{n}}\sum_{j=1}^{n}{\omega_{j}(\theta)\{\lambda^{\tau}\omega_{j}(\theta)\}
+\over 1+\lambda^{\tau} \omega_{j}(\theta)}\\
+& = & {1\over {n}}\sum_{j=1}^{n} \omega_{j}(\theta)- \{{1\over
+{n}}\sum_{j=1}^{n}\omega_{j}(\theta)\omega_{j}(\theta)^{\tau}\}\lambda+
+{1\over {n}}\sum_{j=1}^{n}{\omega_{j}(\theta)\{\lambda^{\tau}\omega_{j}(\theta)\}^2\over 1
++\lambda^{\tau} \omega_{j}(\theta)}\\
+& = & {1\over {n}}\sum_{j=1}^{n} \omega_{j}(\theta)-  \{{1\over
+{n}}\sum_{j=1}^{n}\omega_{j}(\theta)\omega_{j}(\theta)^{\tau}\}\lambda+ {1\over {n} }
+\sum_{j=1}^{n}\frac{\omega_{j}(\theta)\gamma_j^2}{1+\gamma_j}\\
+&=& \overline{\omega}- S_0\lambda+{1\over {n} }
+\sum_{j=1}^{n}\frac{\omega_{j}(\theta)\gamma_j^2}{1+\gamma_j}.
+\end{eqnarray*}
+Combining with Lemma \ref{lemm4.4} and Condition A3,  we may write
+\be
+\lambda=S_0^{-1}\overline{\omega}+\varsigma,  \label{lambda000}
+\ee
+ where  $||\varsigma||$ is  bounded by
+\[
+ n^{-1}\sum_{j=1}^{n}||\omega_{j}(\theta)||^3||\lambda||^2
+=O_p(n^{-1}).
+\]
+By (\ref{gam}) we may
+expand $\log(1+\gamma_i)=\gamma_i-\gamma_i^2/2+\nu_i$  where, for
+some finite $B>0$,
+$$
+P(|\nu_i|\leq B|\gamma_i|^3, 1\leq i \leq n)\rightarrow 1, \hbox{ as } n\rightarrow \infty.
+$$
+Therefore, from (\ref{8}), (\ref{lambda000}) and Taylor expansion, we have
+\begin{eqnarray*}
+\ell_n(\theta)& = & 2\sum_{j=1}^{n} \log(
+1+\gamma_j)=2\sum_{j=1}^{n}
+\gamma_j-\sum_{j=1}^{n}\gamma_j^2+2\sum_{j=1}^{n}\nu_j\\
+& = & 2n\lambda^{\tau}\overline{\omega}-n\lambda^{\tau}S_0\lambda+2\sum_{j=1}^{n}\nu_j\\
+&=&2n(S_0^{-1}\overline{\omega})^{\tau}\overline{\omega}+2n\varsigma^{\tau}\overline{\omega}
+-n\overline{\omega}^{\tau}S_0^{-1}\overline{\omega}-\\
+&&2n\varsigma^{\tau}\overline{\omega}
+-n\varsigma^{\tau}S_0\varsigma+2\sum_{j=1}^{n}\nu_j\\
+&=&n\overline{\omega}^{\tau}S_0^{-1}\overline{\omega}-
+n\varsigma^{\tau}S_0\varsigma+2\sum_{j=1}^{n}\nu_j\nn\\
+&=&  \{n\Sigma^{-1/2}_{k+2}\overline{\omega}\}^{\tau}
+\{n\Sigma^{-1/2}_{k+2} S_0 \Sigma^{-1/2}_{k+2}\}^{-1}
+\{n\Sigma^{-1/2}_{k+2}\overline{\omega}\}\nn\\
+&& -n\varsigma^{\tau}S_0\varsigma+2\sum_{j=1}^{n}\nu_j.\nn
+\end{eqnarray*}
+From Lemma \ref{lemm4.4} and Condition A3, we have
+\[
+ \{n\Sigma^{-1/2}_{S_n}\overline{\omega}\}^{\tau}  \{n\Sigma^{-1/2}_{S_n} S_0 \Sigma^{-1/2}_{S_n})\}^{-1}
+\{n\Sigma^{-1/2}_{S_n}\overline{\omega}\} \tod \chi^2_{q+1}.
+\]
+On the other hand, using Lemma \ref{lemm4.4} and above derivations, we can see that $n\varsigma^{\tau}S_0\varsigma=O_p(n^{-1})=o_p(1)$
+and
+\[
+|\sum_{j=1}^{n}\nu_j|\leq B ||\lambda||^3\sum_{j=1}^{n}||\omega_{j}(\theta)||^3 =O_p(n^{-1/2})=o_p(1).
+\]
+ The proof of Theorem \ref{theo2.1} is thus complete.
+
+
+%\vskip1cm
+\bigskip
+\noindent {\bf Acknowledgements  }
+ This work was partially
+supported by the National Natural Science Foundation of China
+(11671102), the Natural Science Foundation of Guangxi (2016GXNSFAA3800163, 2017GXNSFAA198349) and the Program on the High Level  Innovation Team and Outstanding
+Scholars in Universities of Guangxi Province.
+The authors are thankful to the referees for constructive suggestions.
+
+
+\bigskip
+% \vskip1cm
+\noindent {\bf References}
+%\begin{itemize}
+
+
+\noindent
+
+\nh Bravo, F., 2009,  Blockwise generalized empirical likelihood inference for non-linear dynamic moment
+conditions models. Econom J, 12, 208-231.
+
+\nh Chan, N. H., 2011, Bartlett correctability of empirical likelihood in time series.
+J. Japan. Stat. Soc. 40, 1-5.
+
+\nh Chan N. H. and Ling S. Q., 2006,  Empirical likelihood for GARCH models, Econometric Theory, 22, 403-428.
+
+\nh Chen, S. X.  and Wong, C. M. 2009,  Smoothed block empirical likelihood for quantiles of
+weakly dependent processes, Statistica Sinica, 19, 71-81.
+
+\nh Chen, S.X., H\"{a}rdle, W. and Li, M., 2003, An empirical likelihood goodness-of-fit test for time series. J. R. Statist. Soc. B, 65, 663-678.
+
+\nh Chuang, C. S. and Chan, N. H., 2002, Empirical likelihood for autoregressive models,
+with applications to unstable time series, Statistica Sinica,  12, 387-407.
+
+\nh Hall, P., 1992,  The Bootstrap and Edgeworth Expansion, Springer-Verlag, New York.
+
+\nh Hall,  P. and La Scala,  B., 1990,  Methodology and algorithms of empirical likelihood,  Int.
+Statist. Rev.,   58,  109-127.
+
+\nh Jiang, F. F. and Wang L. H., 2018, Adjusted blockwise empirical likelihood for long memory time series models,
+Stat. Methodes Appl., 27, 319-332.
+
+\nh Kelejian, H. H. and  Prucha, I. R., 2001, On the asymptotic distribution of the Moran $I$ test statistic with applications, Journal of Econometrics, 104, 219-257.
+
+\nh Kitamura, Y., 1997,  Empirical likelihood methods for weakly dependent processes, Ann. Statist., 25, 2084-2102.
+
+\nh Monti A. C., 1997, Empirical likelihood confidence regions in time series analysis. Biometrika, 84, 395-405.
+
+\nh Mykland, P. A.,1995,  Dual likelihood. Ann. Stat. 23, 396-421.
+
+\nh Nordman, D. J. and Lahiri, S. N., 2014,  A review of empirical likelihood methods for time
+series. J. Stati. Plan. Inference 155, 1-18.
+
+\nh Nordman, D. J., Sibbertsen, P. and  Lahiri, S. N., 2007, Empirical likelihood confidence intervals for the mean of
+a long-range dependent process, Journal of Time Series Analysis, 28, 576-599.
+
+\nh  Owen, A. B., 1988,  Empirical likelihood ratio confidence intervals for a single functional,
+ Biometrika, 75, 237-249.
+
+\nh  Owen, A. B., 1990, Empirical likelihood ratio confidence regions,
+Ann. Statist., 18, 90-120.
+
+\nh Owen, A. B., 2001, Empirical Likelihood, London: Chapman \& Hall.
+
+\nh   Piydi Gamage, R.D., Ning, W., and Gupta, A.K., 2017a, Adjusted empirical likelihood for time series models, Sankhy$\bar{a}$: The Indian Journal of Statistics, 79-B, 336-360.
+
+\nh   Piydi Gamage, R.D., Ning, W., and Gupta, A.K., 2017b, Adjusted empirical likelihood for long-memory time-series models, Journal of Statistical Theory and Practice, 11, 220-233.
+
+\nh  Qin, J. and Lawless, J., 1994, Empirical likelihood and general estimating equations,
+Ann. Statist., 22, 300-325.
+
+\nh Whittle, P., 1953,  Estimation and information in stationary time series, Arkiv F\"{o}r Matematik, 2, 423-34.
+
+\nh Wu, R. and Cao, J., 2011,  Blockwise empirical likelihood for time series of counts, J Multivar Anal., 102, 661-673.
+
+\nh Yau, C. Y., 2012, Empirical likelihood in long-memory time series models. J. Time Series Anal., 33, 269-75.
+
+
+\newpage
+
+
+
+\begin{table}[htbp]
+\centering
+
+  \caption{Coverage probabilities of the EL, BEL and LR confidence regions  with $\alpha=0.95$}\label{1}
+  \vspace{.1in}
+
+
+\begin{tabular}{ccccc|ccccc}
+\hline
+$\epsilon_t$ & $n$ & EL & BEL & LR& $\epsilon_t$ & $n$ & EL & BEL&LR\\
+\hline
+$N(0, 1)$ &100 &0.902 &0.816 & 0.901& $t(5)$ & 100 &0.848&0.727& 0.735\\
+      &200 &0.934 &0.881 & 0.935&  & 200 &0.861&0.773& 0.768\\
+      &300 &0.939 &0.887& 0.936&  & 300 &0.907&0.815& 0.824\\
+      &400 &0.94 &0.894& 0.941&  & 400 &0.905&0.845& 0.830\\
+      &500 &0.948 &0.933& 0.947& & 500 &0.901&0.831& 0.838\\
+ \hline
+ $U[-0.5,0.5]$ &100 &0.942 &0.899& 0.825& $\chi^2_{4}-4$ & 100 &0.861&0.708& 0.702\\
+      &200 &0.957&0.922& 0.839  &  & 200 &0.904&0.770& 0.766\\
+      &300 &0.947&0.933 & 0.855 &  & 300 &0.924&0.806& 0.814\\
+      &400 &0.945 &0.948& 0.847&  & 400 &0.911&0.821& 0.829\\
+      &500 &0.951 &0.941& 0.856& & 500 &0.929&0.861& 0.855\\
+\hline
+\end{tabular}
+\end{table}
+%\end{center}
+
+
+\begin{table}
+\centering
+
+  \caption{Analysis results for the chemical process data (CI stands for confidence interval)}\label{2}
+  \vspace{.1in}
+
+\begin{tabular}{c|c|c|c|c}
+\hline
+Variable & Estimation &  CI (EL) & CI(BEL)& CI(LR)\\
+\hline
+$\beta_1$ &0.32286 & [0.1771, 0.7916] & [0.0171, 1.3229]& [0.0101, 1.8578]  \\
+$\beta_2$ & -0.31009&[-1.3101, 1.1899] & [-1.8101, 1.2809]&  [-1.9771, 1.7408] \\
+$\sigma^2$   & 119.5653& [116.5653, 121.5653] & [112.0653, 122.5653] &  [112.5601, 126.5642]\\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}

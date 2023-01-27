@@ -1,0 +1,466 @@
+\documentclass[cs4size]{article}
+\usepackage[fontset=mac]{ctex}
+\usepackage{fontspec}
+\setCJKmainfont[BoldFont=STHeiti, ItalicFont=STKaiti]{STSong}
+\usepackage{cite}
+\bibliographystyle{unsrt}%声明参考文献格式
+%\newcommand{\link}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}} 
+
+\headsep 0.5 true cm \topmargin 0pt \oddsidemargin 0pt
+\evensidemargin 0pt \textheight 215mm \textwidth 160mm
+\renewcommand\baselinestretch{1.16}
+\renewcommand\arraystretch{1.2}
+
+\setlength\parindent{2.15em}
+%\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\usepackage{indentfirst,amsmath,amsfonts,amssymb,amsthm,cite,multirow}
+
+\newtheorem{theo}{\sc Theorem}
+\newtheorem{lemm}{\sc Lemma}
+\newtheorem{rema}{\sc Remark}
+\newcommand{\tod}{\stackrel{d}{\longrightarrow}}
+\newcommand{\tods}{\stackrel{d^*}{\longrightarrow}}
+\def\ng{\noindent \hangindent=0.9 truecm\hangafter=1}
+\def\nh{\noindent \hangindent=0.8 truecm\hangafter=1}
+\def\txs{\textstyle}
+\def\half{\txs{1\over 2}}
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\nn{\nonumber}
+\def\bea{\begin{eqnarray}}
+\def\eea{\end{eqnarray}}
+\pagenumbering{arabic}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+%    pdfpagemode=FullScreen,
+    }
+\urlstyle{same}
+\def\link{\hyperlink}
+\def\target{\hypertarget}
+
+\usepackage{setspace}%\singlespacing %单倍行距\onehalfspacing %1.5倍行距 \doublespacing %双倍行距
+\setstretch{1.25} %任意行距
+
+\usepackage{fancyhdr,booktabs}%页眉宏包
+\usepackage{graphicx,color}
+\renewcommand\refname{\bf \zihao{-4}{参考文献：}}
+\renewcommand{\figurename}{\kaishu\small 图}
+\def\nh{\noindent \hangindent=0.8 truecm\hangafter=1}
+\begin{document}
+%\wuhao
+%\pagestyle{fancy}%页眉版式
+%\pagestyle{fancy}%页眉版式
+%--------------------------页数命令和公式标号命令-------------------------------------
+\setcounter{page}{1} %设置起始页码
+\newcounter{jie}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%---------------------------页眉命令--------------------------------------------------
+\fancyhf{} % 清除原有设置
+%\fancyhead[RE]{\footnotesize{\songti 唐 洁 }} % 两个作者全上页眉,三个以上作者只上第一作者
+%\fancyhead[LO]{\footnotesize{\songti 研究构想}} % 请检查“Running Title”是否过长、合适
+%\fancyhead[LE,RO]{\thepage} % 奇偶页外侧
+%\fancyhead[CE]{\footnotesize{\songti 工\qquad 程\qquad 数\qquad 学\qquad 学\qquad 报}} % 偶数页居中
+%\fancyhead[CO]{\footnotesize{\songti 作者姓名：文章题目 }} % 奇数页居中
+\renewcommand\headrulewidth{0.4pt} %页眉分隔线
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%---------------------文章头----------------------------------------------------------
+%\vspace*{0.2cm}
+\begin{center}
+{{\LARGE\heiti 博士学习期间研究构想}\\[0.6cm]
+{\normalsize 唐\ 洁\footnotemark[1]}\\[0.1cm]}
+{\small(广西师范大学数学与统计学院, 广西桂林, 541004)}
+\end{center}
+%-----------------脚注----------------------------------------------------------------
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %将脚注符号设置为fnsymbol类型,即特殊符号表示
+\footnotetext[1]{{\heiti 基本信息}:{唐洁, 1995年生, 女, 湖南人. 报名号: 1000297301. 本科专业：数学与应用数学. 研究生专业：统计学,研究方向：空间计量,经验似然.}}
+
+%---------------------------正文------------------------------------------------------
+\vspace*{1cm}
+
+\noindent
+{\bf  1 拟解决问题：}{ 高维情形下空间数据模型的经验似然推断.}
+
+\noindent
+{\bf  2 知识储备：}{高等数学；线性代数；概率轮与数理统计；极限理论等专业基础知识.}
+
+\noindent
+{\bf  3 创新点：}
+
+首次考虑高维情形下的空间数据模型的经验似然推断；我们提出创新的经验似然方法并成功应用到高维情形的空间模型；模拟实验证明创新的经验似然方法有非常接近名义水平的覆盖率且计算速度非常快,无须增加惩罚项等复杂的过程.
+
+\noindent
+{\bf  4 研究框架：}
+
+拟研究问题的来源、研究的目的意义、国内外研究现状及水平. 
+
+{\kaishu（一）拟研究问题的来源}
+
+学位论文选题来源于硕士导师主持的国家自然科学基金项目(12061017, 12161009).
+
+{\kaishu（二）研究目的和意义}
+
+众所周知, 各省之间的经济不是完全独立的,经济数据涉及到一定的空间位置关系, 正如地理学第一定律所述,所有事物都与其他事物相关联, 但较近的事物比较远的事物更关联,也就是说地理单元之间存在着交互效用(空间相依性). 然而, 在同一个空间系统中,地理单元之间也存在差异(空间异质性). 同时, 如同时间序列一样, 过去的空间单元对现在的空间单元也存在着影响, 产生了动态效应, 如某时某地的GDP、房价、病毒感染人数, 等等. 空间相依性、异质性和动态效应, 推动了空间计量经济模型(简称空间模型)的建立. 空间计量经济学的研究发展迅速, 并在许多不同的科学领域中得到广泛的应用,比如区域经济学、人口统计学、传染病学、城市规划学、政治学和心理学等等. 关于空间计量经济模型的估计方法大多采用(拟)极大似然(QML)方法、两阶段最小二乘(2SLS)方法和广义矩(GMM)方法等, 且理论相对成熟. 这些主流的估计手段集中在参数方法, 而经验似然推断作为模型参数估计和区间估计的一种行之有效的非参数统计方法, 在空间计量经济模型的理论研究和应用上还没有得到大力推广. 因此, 研究空间计量经济模型的经验似然推断的理论与应用具有现实意义. 
+
+{\kaishu（三）国内外研究现状及水平}
+
+自从Cliff and Ord (\link{Cliff and Ord 1973}{1973})首次考虑到空间效应之后, Anselin (\link{Anselin 1988}{1988})从计量经济学角度处理空间效应, 将空间效应视为计量经济学模型中一般问题的特例, Cressie (\link{Cressie 1993}{1993})对空间数据类型进行划分, 由此空间计量模型逐步由边缘步入主流. 此时的空间模型主要分为两类, 一是静态{\bf 截面}空间数据模型, 二是静态{\bf 面板}空间数据模型, 面板是截面空间数据模型的推广, 不仅包含同一空间系统里不同空间之间的交互效应和异质效应, 还考虑了时间因素. 第三类是由Anselin (\link{Anselin 2001}{2001})提出{\bf 动态}面板空间数据模型, 不仅考虑了被解释变量和解释变量在空间上的滞后，还考虑了它们在时间上的滞后，以及序列误差的自相关性.  
+
+关于第一类空间数据模型的相关研究有Kelejian and Prucha (\link{Kelejian and Prucha 1998}{1998})提出使用广义空间两段最小二乘法估计含空间误差的空间自回归截面数据模型的参数, Kelejian and Prucha (\link{Kelejian and Prucha 1999}{1999})提出使用广义矩估计方法研究截面空间自回归模型, Kelejian et al. (\link{Kelejian et al. 2004}{2004})推荐使用工具变量的迭代版本估计空间自回归截面数据模型的参数, Lee (\link{Lee 2004}{2004})证明了截面空间自回归模型的拟极大似然估计的渐近性质, Kelejian and Prucha (\link{Kelejian and Prucha 2006}{2006})研究了在空间模型中方差-协方差矩阵的异方差和自相关系数的相合估计, Arraiz et al. (\link{Arraiz et al. 2010}{2010})通过蒙特卡罗模拟表明,在异方差情形下拟极大似然估计量不是相合估计,同时证明在异方差情形下工具变量法导出的估计量为相合估计, 更多文献可参见Cliff and Ord (\link{Cliff and Ord 1973}{1973}), Anselin (\link{Anselin 1988}{1988}), Cressie (\link{Cressie 1993}{1993}), Kelejian and Prucha (\link{Kelejian and Prucha 1998}{1998}, \link{Kelejian and Prucha 1999}{1999}, \link{Kelejian et al. 2004}{2004}, \link{Kelejian and Prucha 2006}{2006}), Liu et al. (\link{Liu et al. 2010}{2010})等等. 这些空间截面数据模型下的研究情况，其中的方法在空间面板数据模型下同样适用, 关于第二类空间数据模型的相关研究可参见Anselin (\link{Anselin 1988}{1988}), Elhorst (\link{Elhorst 2003}{2003}), Baltagi et al. (\link{Baltagi et al. 2003}{2003}), Anselin et al. (\link{Anselin et al. 2008}{2008}), Parent and LeSage (\link{Parent and LeSage 2011}{2011}), Baltagi et al. (\link{Baltagi et al. 2013}{2013}), Lee and Yu (\link{Lee and Yu 2016}{2016})等等. 关于第三类空间数据模型的相关研究目前较少, 可参见Yang et al. (\link{Yang et al. 2006}{2006}), Yu et al. (\link{Yu et al. 2008}{2008}), Lee and Yu (\link{Lee and Yu 2010}{2010}), Elhorst (\link{Elhorst 2012}{2012}), Su and Yang (\link{Su and Yang 2015}{2015}), Qu et al. (\link{Qu et al. 2017}{2017}) 等等. Anselin (\link{Anselin 2010}{2010})对空间计量经济学领域在2010年之前的30年中的发展作了详细的阐述. 
+
+下面我们首先介绍本项目感兴趣的空间计量经济模型,经验似然方法的研究进展,并提出本项目研究的可行性和必要性.  
+
+{\bf (1) 空间数据模型的定义}
+
+一般的空间数据模型如下所示, 该模型也称为{\kaishu 带固定效应的动态含空间自回归误差的空间自回归面板数据模型}:
+\bea
+\begin{cases}
+y_t=\lambda y_{t-1}+ \rho_1 W_n y_t+x_{t}\beta +z\gamma+u_t,\\
+u_t = \rho_2 M_n u_t + \varepsilon_t,
+\end{cases} t=1,2,...,T, \label{SARAR panel model 1}
+\eea
+其中，
+$n$和$T$分别表示是空间单元数和时间单位数，
+$y_t = (y_{1t}, y_{2t},..., y_{nt})'$是$n \times1$维被解释变量的观测值, 
+$x_t = (x_{1t},x_{2t}, ... , x_{nt})'$是$n \times p$维解释变量随时间变化的样本资料矩阵, 
+$z = (z_{1},z_{2}, ... , z_{n})'$是$n \times q$维解释变量不随时间变化的样本资料矩阵，
+标量$\lambda ~ (|\lambda|<1)$是动态效应因子，
+$\rho_j~ (|\rho_j|<1), j=1,2$是空间自相关系数，
+$\beta$是$p\times1$维$x_t$的回归系数向量，
+$\gamma$是$q\times1$维$z$的回归系数向量，
+$W_n$是解释变量$y_t$的空间邻接权重矩阵，
+$M_n$是扰动项$u_t$的空间邻接权重矩阵，它们都是预先给定的$n \times n$空间权重矩阵，二者可以相等，
+$\varepsilon_t=(\varepsilon_{1t},\varepsilon_{2t}, ... , \varepsilon_{nt})'$是$n \times1$维误差向量，$\varepsilon_{it}$为独立同分布的随机误差项，且满足$E(\varepsilon_{it})=0$，$Var(\varepsilon_{it}^2)=\sigma^2$，其中$0<\sigma^2<\infty$. 
+
+模型(\ref{SARAR panel model 1}) 可写成如下的矩阵形式：
+\[
+\left(
+\begin{array}{cccc}
+ A_n& 0&\cdots & 0\\ 
+ 0& A_n &\cdots& 0\\ 
+ \vdots& \vdots& \ddots&\vdots \\ 
+ 0& 0&\cdots &A_n
+\end{array}
+\right )
+\left(
+\begin{array}{c}
+ y_{1}\\ 
+ y_{2}\\ 
+ \vdots \\ 
+ y_{T}
+\end{array}
+\right)
+=\lambda
+\left(
+\begin{array}{c}
+ y_{0}\\ 
+ y_{1}\\ 
+ \vdots \\ 
+ y_{n}
+\end{array}
+\right )
++
+\left(
+\begin{array}{c}
+ x_{1}\\ 
+ x_{2}\\ 
+ \vdots \\ 
+ x_{T}
+\end{array} 
+\right ) \beta
++
+\left(
+\begin{array}{c}
+ z\\ 
+ z\\ 
+ \vdots \\ 
+ z
+\end{array}
+\right ) \gamma
++
+\left(
+\begin{array}{c}
+ u_1\\ 
+ u_2\\ 
+ \vdots \\ 
+ u_T
+\end{array}
+\right )
+\]
+和
+\[
+\left(
+\begin{array}{cccc}
+ B_n& 0&\cdots & 0\\ 
+ 0& B_n &\cdots& 0\\ 
+ \vdots& \vdots& \ddots&\vdots \\ 
+ 0& 0&\cdots &B_n
+\end{array}
+\right )
+\left(
+\begin{array}{c}
+ u_{1}\\ 
+ u_{2}\\ 
+ \vdots \\ 
+ u_{T}
+\end{array}
+\right )
+=
+\left(
+\begin{array}{c}
+ \varepsilon_{1}\\ 
+ \varepsilon_{2}\\ 
+ \vdots \\ 
+ \varepsilon_{T}
+\end{array}
+\right )
+\]
+或者
+\bea
+\begin{cases}
+(I_T \otimes A_n)Y=\lambda Y_{-1}+X\beta +Z\gamma+u,\\
+(I_T \otimes B_n)u=\varepsilon,
+\nn\end{cases}  \label{SARAR panel model 2}
+\eea
+其中 $Y=(y'_1,y'_2,...,y'_T)'$, $Y_{-1}=(y'_0,y'_1,...,y'_{T-1})'$, $X=(x'_1,x'_2,...,x'_T)'$, $Z={\mathbf 1}_T \otimes z$, $u=(u'_1,u'_2,...,u'_T)'$, $\varepsilon=(\varepsilon'_1,\varepsilon'_2,...,\varepsilon'_T)'$, $A_n=A_n(\lambda)=I_n-\rho_1 W_n$ 以及$B_n=B_n(\lambda)=I_n-\rho_2 M_n$.
+
+当$t$为固定时间点且$\lambda = 0$时，模型(\ref{SARAR panel model 1})即为{\kaishu 带固定效应的含空间自回归误差的空间自回归截面数据模型}:
+\bea
+\begin{cases}
+y_t= \rho_1 W_n y_t+x_{t}\beta +z\gamma+u_t,\\
+u_t = \rho_2 M_n u_t + \varepsilon_t.
+\end{cases}  \label{SARAR model 1}
+\nn\eea
+%\bea
+%\begin{cases}
+% A_nY=X\beta +Z\gamma+u,\\
+%B_n u=\varepsilon,
+%\end{cases}  
+%\nn\eea
+当$t$为固定时间点且$\lambda = 0, \gamma=0$时，模型(\ref{SARAR panel model 1})即为{\kaishu 不带固定效应的含空间自回归误差的空间自回归截面数据模型}:
+\bea
+\begin{cases}
+y_t= \rho_1 W_n y_t+x_{t}\beta + u_t,\\
+u_t = \rho_2 M_n u_t + \varepsilon_t.
+\end{cases}  \label{SARAR model 2}
+\eea
+若$\rho_1 = \rho_2 = \gamma =0$，模型(\ref{SARAR panel model 1})即为{\kaishu 一般线性模型}:
+\bea
+\begin{cases}
+y_t=  x_{t}\beta + u_t,\\
+u_t =   \varepsilon_t.
+\end{cases}  \label{linear model}
+\nn\eea
+当$t$为时间序列且$\rho_1 =  0$时，模型(\ref{SARAR panel model 1})即为{\kaishu 带固定效应的动态含空间误差的面板数据模型}:
+\bea
+\begin{cases}
+y_t=\lambda y_{t-1}+x_{t}\beta +z\gamma+u_t,\\
+u_t = \rho_2 M_n u_t + \varepsilon_t,
+\end{cases} t=1,2,...,T, \label{SEM panel model 1}
+\nn\eea
+%或记为
+%\bea
+%\begin{cases}
+%Y=\lambda Y_{-1}+X\beta +Z\gamma+u,\\
+%(I_T \otimes B_n)u=\varepsilon.
+%\end{cases}  \label{SEM panel model 2}
+%\nn\eea
+
+{\bf (2) 拟研究的空间数据模型}
+
+拟研究问题从{\kaishu 不带固定效应的空间截面数据模型}(\ref{SARAR model 2})开始, 并简写为SARAR模型, 用新的符号记为: 
+\be
+    Y_{n} =\rho_1W_nY_n+X_n\beta+u_{(n)}, u_{(n)}=\rho_2M_nu_{(n)}+\epsilon_{(n)} ,\label{model}
+\nn
+\ee
+其中, $n$是空间单元数量, $\rho_j$, $j=1,2$是空间自回归系数且$|\rho_j|<1$,$j=1,2$, $X_n=(x_1,x_2,...,x_n )'$是$n \times p$维解释变量的样本资料矩阵, $\beta$是$p\times 1$维$X_n$的回归系数向量, $Y_n=(y_1,y_2,...,y_n )'$是$n \times 1$维响应变量, $W_n$是解释变量$Y_n$的空间邻接权重矩阵, $M_n$是扰动项$u_{(n)}$的空间邻接权重矩阵, 它们都是已知的$n \times n$空间邻接权重矩阵(非随机), 二者可以相等, $\epsilon_{(n)}$是$n \times 1$维空间误差向量,满足$E\epsilon_{(n)}=0,Var(\epsilon_{(n)})=\sigma^2 I_n$.
+
+SARAR模型对存在空间依赖性的数据有较好的解释作用, 无论是滞后项存在空间依赖性还是扰动项存在空间依赖性, 空间依赖性由$\rho_j$刻画, $\rho_1$度量空间滞后项$W_nY_n$对解释变量$Y_n$的影响, 也就是$Y_n$之间的空间依赖性, 即相邻空间之间可能存在扩散、溢出等效应, $\rho_2$度量空间误差滞后项$M_nu_{(n)}$对扰动项$u_{(n)}$的影响, 也就是不包含在$X_n$中且对$Y_n$有影响的遗漏变量的空间依赖性.
+SARAR模型是更一般的空间计量截面数据模型, 当$\rho_1=\rho_2=0$时, 该模型即为一般线性模型; 当$\beta=0$, $\rho_2=0$时, 该模型为最简单的空间截面数据模型; 当$\rho_1=0$时, 该模型为空间误差模型, 简写为SEM模型; 当$\rho_2=0$时, 该模型为空间自回归模型, 简写为SAR模型.
+
+我们拟研究空间解释变量数据维数$p \to \infty$的情形,即高维情形.
+
+{\bf (2) 经验似然方法研究进展}
+
+经验似然方法是Owen (\link{Owen 1988}{1988}) 提出的在完全样本下的一种非参数统计推断方法, 在一定约束条件下可以将参数似然比极大化, 具有类似于Bootstrap的抽样特性. 经验似然方法比传统的或现代的统计方法具有很多突出的优点, 比如用经验似然构造置信区间具有域保持性、变换不变性、置信区间的形状由数据本身自行决定, 还有Bartlett纠偏性和无需构造轴统计量等优点. 经验似然的这些优良特性深受许多统计学者的欢迎, Qin and Lawless (\link{Qin and Lawless 1994}{1994})在Owen基础上给出了一般情况下的经验似然估计方法, 从此, 经验似然得到了广泛地应用. 更多经验似然的参考文献可参见Chen and Qin (\link{Chen and Qin 1993}{1993}), Qin and Lawless (\link{Qin and Lawless 1994}{1994}), Zhong and Rao (\link{Zhong and Rao 2000}{2000}), Owen (\link{Owen 1988}{1988}, \link{Owen 1990}{1990}, \link{Owen 1991}{1991}, \link{Owen 2001}{2001}) and Wu (\link{Wu 2004}{2004})等. 
+
+经验似然方法虽然具有上述提到的许多优点,在实际应用中并没有被更多的计量经济学家和实证研究者关注, 经验似然方法在空间数据模型中的应用方面的已有成果较少, 原因是经验似然应用于空间模型时由拟似然函数构造的估计方程是误差的线性-二次型形式, 这为得分函数的构造带来困难. 我们经过研究发现, 对于多数空间计量经济模型, 这样的情形下可以构造一个鞅差序列,把线性-二次型转化为鞅差序列的线性形式, 且不需要对数据进行分组,可以直接利用经验似然方法, 这为非参数方法在空间模型上的应用迈进一大步. 此结论由Jin and Lee以及本人导师秦永松教授独立发现,并成功应用到含空间自回归误差的空间自回归截面数据模型的研究, Jin and Lee (\link{Jin and Lee 2019}{2019})利用广义经验似然方法研究SARAR模型的估计和检验,证明其广义经验似然估计与广义矩估计方法具有相同的渐近分布, Qin (\link{Qin 2021}{2021})利用经验似然方法构造SARAR模型的经验似然比统计量,证明其经验似然比统计量是渐近卡方分布, 由此关于空间模型的经验似然统计推断的研究蓬勃发展, Qin and Lei (\link{Qin and Lei 2022}{2022})详细介绍了空间计量模型的经验似然研究进展, 更多文献可见Qin and Lei (\link{Qin and Lei}{2021}), Li and Qin (\link{Li and Qin 2022}{2022}), Rong et al. (\link{Rong et al. 2021}{2021})等等. 
+
+理论上, 经验似然方法能在空间计量模型上得到应用, 然而实际中仍存在一些问题仍有许多问题值得研究. 在分析高维数据过程中面临的一大挑战是维数的膨胀, 也就是通常所说的“维数灾难”. 有研究表明, 当维数越来越大时, 分析和处理数据的成本于复杂度成指数级增长. 在对高维数据进行分析时,所需的空间样本会随着维数的增加而呈指数增长. 处理这类问题的非参数方法主要依赖大样本理论, 但会出现样本量相比数据维数显得较少的情况, 从而大样本理论处理高维数据方法失效. 另外, 传统的经验似然方法在处理高维数据时不能满足稳健性要求；高维导致样本量变少使得理论上的渐近性难以实现；维数的增加导致数据的计算量迅速上升等等. 
+
+最早由Dempster发现当维数大于样本容量时,传统Hotelling检验没用定义,因为样本协方差矩阵不可逆,并发表Dempster (\link{Dempster 1958}{1958})和Dempster (\link{Dempster 1960}{1960})两篇论文提出一种非精确检验(non-exacttest)来解决高维数据的两样本均值问题,关于高维数据的两样本均值检验问题更多文献可见Bai and Saranadasa (\link{Bai and Saranadasa 1996}{1996}), Chen and Qin (\link{Chen and Qin 2010}{2010}), Wang and Xu (\link{Wang and Xu 2022}{2022})等等.随着高维数据的出现越来越频繁,变量的维数$p$的增加使得传统统计推断的精度变低, 日常数据分析亟需在之前的基础上寻找或改进为新的统计方法来处理高维数据, 研究高维数据成为当下统计学的热点问题. 
+
+
+在经验似然领域中, 处理高维数据的常见手段分两种, 一类以修正原来的经验似然比统计量为基础, 另一类采用降维的思想. 第一类中, Shi (\link{Shi 2007}{2007}) 指出, 当协变量维数以合理的速度趋于无穷大时, 仍可利用经验似然方法构造高维线性模型参数的置信域, 不过修正的经验似然统计量的渐近分布为正态分布而非卡方. Hjort et al. (\link{Hjort et al. 2009}{2009})从理论上拓展了经验似然方法的适用范围, 即当$p=o_p(n^{1/3})\to \infty$时, 在一定条件下, 经验似然比统计量渐近分布为正态分布. Chen (\link{Chen 2009}{2009}) 研究了均值模型下数据维数对经验似然的影响, 并证明当$p=o_p (n^{1/2})→∞$时,比Hjort更少的约束条件下, 经验似然比统计量渐近分布为正态分布. Li et al (\link{Li et al. 2012}{2012})研究了高维变系数部分线性模型的经验似然推断,提出纠偏经验似然方法,并证明其统计量渐近分布为正态. 更多文献可见Tang et al. (\link{Tang et al. 2013}{2013}), Liu et al. (\link{Liu et al. 2013}{2013}), Fang et al. (\link{Fang et al. 2017}{2017})等等. 这类方法虽然使得统计量不发散, 但都以$p<n$为前提在应用中有所局限.
+
+第二类中,在保证重要信息不损失的情形下对高维进行降维,其中著名的方法就是惩罚经验似然. 惩罚的思想是在进行参数估计的同时,利用惩罚函数将较小的系数估计值压缩为零,而将系数估计值较大的保留,在估计出系数的同时选择出重要变量,这可以同时实现变量选择和系数估计两个目标. 惩罚变量选择普遍采用“损失函数+惩罚函数”的方式,惩罚函数的选择有很多,比如熵惩罚、桥回归(Frank and Friedman, \link{Frank and Friedman 1993}{1993})、LASSO惩罚(Tibshiani, \link{Tibshiani 1996}{1996})、岭回归、硬门限惩罚(Antoniadis, \link{Antoniadis 1997}{1997})等等,一个关键问题是如何选择惩罚函数. Antoniadis and Fan (\link{Antoniadis and Fan 2001}{2001})与Fan and Li (\link{Fan and Li 2001}{2001})对如何选择惩罚函数提出深刻的见解,他们在Fan and Li (\link{Fan and Li 2001}{2001})一文中提出SCAD惩罚方法,该方法得到的估计量具有无偏性、稀疏性、连续性. 类似地, 惩罚经验似然也使用“经验似然比函数+惩罚函数”方式.  Tang and Leng (\link{Tang and Leng 2010}{2010})首次将惩罚经验似然方法于高维分析多变量的均值向量和线性模型的高维回归系数, 证明惩罚经验似然具有与一般经验似然的类似性质, 例如, 依靠数据确定置信区域的形状和取向, 无须估计共协方差, 相同的渐近分布等, 研究高维数据的非参数方法开辟新的道路. Leng and Tang (\link{Leng and Tang 2012}{2012})将高维惩罚经验似然方法应用于一般估计方程的参数估计和变量选择，并证明惩罚经验似然方法具有oracle特征. Lahiri and Mukhopadhyay (\link{Lahiri and Mukhopadhyay 2012}{2012})推广高维中一种惩罚经验似然方法可适用于$p>n$的情形, 成功应用于总体均值模型.至此, 高维经验似然方法备受学者们关注, 比如Fang et al. (\link{Fang et al. 2017}{2017})研究了半参数模型的高维惩罚经验似然, Yan and Chen(\link{Yan and Chen 2018}{2018})研究了高维广义线性模型的惩罚拟似然SCAD估计,更多文献可参见Lahiri and Mukhopadhyay (\link{Lahiri and Mukhopadhyay 2012}{2012}), Peng et al. (\link{Peng et al. 2014}{2014}), Yan and Chen (\link{Yan and Chen 2018}{2018})等等. 
+
+目前未见有当数据维数发散时关于空间截面数据模型的经验似然方法的相关研究报道, 因而拟研究问题属于科学前沿问题. 关于降维的方式, 我们拟采用主成分分析, 无须选择惩罚函数, 这样既可以保证信息损失较少又可以避免复杂的计算过程, 目前经验似然领域尚未有主成分分析思想的相关论文, 因此, 拟研究的问题丰富了高维情形的经验似然领域理论, 有值得研究的价值.
+
+\noindent
+{\bf  5 研究方法：}
+ 
+拟研究问题的主要内容、方案和准备采取的措施. 
+
+{\kaishu (一)研究主要内容}
+
+拟研究含空间数据模型的高维经验似然推断问题, 证明其高维经验似然比统计量的极限分布渐近服从卡方分布, 构造该模型参数的经验似然置信区间(域), 并通过模拟实验验证这些置信区间(域)的优良性. 
+
+{\kaishu (二)拟解决的关键问题}
+
+本项目有以下几个关键问题需要解决：
+
+{\kaishu (1)}经验似然方法的使用过程中, 得分方程或估计方程的确定是一个重要的前提, 相比通常的数据模型, 空间或时空数据模型模型不易得到得分方程, 即使找到了得分函数, 其形式往往也比较复杂, 不方便直接使用, 故在研究其经验似然推断时得分方程的确定是一个关键问题；
+
+(2)传统经验似然估计方程的维数发散，如何进行有效的降维是一个难题；
+
+(3)在经验似然方法的研究中, 如何得到并证明高维经验似然比统计量的极限分布是一个需要解决的关键问题；
+
+(4)比较普通经验似然方法与要研究的估计方法的优劣也是一个需要解决的关键问题. 
+
+{\kaishu (三)拟采取的研究方法、手段或技术路线}
+
+(1)采用拟极大似然(QML)方法或广义矩方法(GMM)得到的估计方程作为经验似然方法的初次估计方程, 如果初次估计方程是模型误差的线性-二次型, 则可以采用参考文献Jin and Lee (\link{Jin and Lee 2019}{2019})和Qin (\link{Qin 2021}{2021})中的方法, 构造一个鞅差序列, 将线性-二次型转化为鞅差序列的线性形式, 由此得到一般经验似然方法的最终估计方程. 
+
+(2)对所得的高维估计方程进行选择, 将其由高维转化为低维, 如何选择是一个难点, 既要压缩信息又要充分利用信息, 拟采用手段是对既有的一般经验似然渐近协方差进行主成分分析.
+
+(3)高维经验似然的最终估计方程是鞅差序列的线性函数, 在证明经验似然比统计量的渐近卡方分布时, 可利用鞅差序列的极限理论. 
+
+(4)在高维情形下, 拟研究出主成分经验似然方法构造则高维经验似然比统计量并证明其统计量服从卡方分布, 并设计实验与传统经验似然方法对比.
+
+
+\vspace{5mm}
+\noindent
+{\bf  参考文献：}
+
+\nh\target{Antoniadis 1997}Antoniadis, A., 1997. Wavelets in statistics: A review. Journal Italian Statistics Assocasion, 6, 97-144.
+
+\nh\target{Antoniadis and Fan 2001}Antoniadis, A., Fan, J., 2001. Regularization of wavelets approximations. Journal of the American Statistical Association, 96, 939-967.
+
+\nh\target{Anselin 1988} Anselin,L., 1988. Spatial econometrics: methods and models. Berlin: Springer.
+
+\nh \target{Anselin 2001}{Anselin, L., 2001. Spatial econometrics. In: Baltagi, B. H. (Ed.), A companion to theoretical econometrics. Blackwell Publishers Ltd., Massachusetts, 310-330.}
+
+\nh \target{Anselin et al. 2008}{Anselin, L., Le Gallo, J.,  Jayet, H., 2008. Spatial panel econometrics. In: M$\acute{a}$ty$\acute{a}$s, L., Sevestre, P. (Eds.),  The econometrics of panel data: fundamentals and recent developments in theory and practice. SpringerVerlag, Berlin Heidelberg, 625-660.}
+
+\nh \target{Anselin 2010}{Anselin, L., 2010. Thirty years of spatial econometrics. Papers in Regional Science, 89,  3-25.}
+
+\nh\target{Arraiz et al. 2010}Arraiz, I., Drukker, D. M., Kelejian, H. H., Prucha, I. R., 2010. A spatial cliff-ord-type model with hetero-skedastic innovations: small and large sample results. Journal of Regional Science, 50, 592-614.
+
+\nh \target{Baltagi et al. 2003}{Baltagi, B. H., Song, S. H.,  Koh, W., 2003. Testing panel data regression models with spatial error correlation.  Journal of Econometrics, 117, 123-150.}
+
+\nh \target{Baltagi et al. 2013}{Baltagi, B. H., Egger, P., Pfaffermayr, M., 2013. A generalized spatial panel data model with random effects. Econometric Reviews, 32, 650-685.}
+
+\nh\target{Bai and Saranadasa 1996}Bai, Z. and Saranadasa, H., 1996. Effect of high dimension: by an example of a two sample problem. Statistica Sinica, 6, 311-329.
+
+\nh\target{Chen and Qin 1993}{Chen, J., Qin, J., 1993. Empirical likelihood estimation for finite populations and the effective usage of auxiliary information. Biometrika, 80, 107-116.}
+
+\nh\target{Chen et al. 2008}{Chen,J., Variyath,A.M., Abraham,B., 2008. Adjusted empirical likelihood and its properties. Journal of computational and craphical statistics, 17, 426-443.}
+
+\nh\target{Chen and Qin 2010}{Chen, S. X., Qin, Y. L., 2010. A two-sample test for high-dimensional data with applications to gene-settesting. The Annals of Statistics, 38, 808-835.}
+
+\nh\target{Chen 2009}{Chen, S. X., Peng, L., Qin, Y. L., 2009. Effects of data dimension on empirical likelihood. Biometrika, 96, 711-722.}
+
+\nh\target{Cliff and Ord 1973}{Cliff, A. D., Ord, J. K., 1973. Spatial autocorrelation.London: Pion Ltd.}
+
+\nh\target{Cressie 1993}{Cressie, N., 1993. Statistics for spatial data. New York: Wiley.}
+
+\nh\target{Dempster 1958}{Dempster, A. P., 1958. A high dimenstional two sample significance test. The Annals of Mathematical Statistics, 29, 995-1010.}
+
+\nh\target{Dempster 1960}{Dempster, A. P., 1960. A significance test for the separation of two highly multivariate small samples. Biometrics, 16, 41-50.}
+
+\nh \target{Elhorst 2003}{Elhorst, J.P., 2003. Specification and estimation of spatial panel data models. International Regional Science Review, 26, 244-268.}
+
+\nh \target{Elhorst 2012}{Elhorst, J. P., 2012. Dynamic spatial panels: models, methods, and inferences. {\it Journal of geographical systems, 14}, 5-28.}
+
+\nh\target{Fang et al. 2017}{Fang, J. L., Liu, W. R., Lu, X. W., 2017. Penalized empirical likelihood for semiparametric models with a diverging number of parameters. Journal of Statistical Planning and Inference, 186, 42-57.}
+
+\nh\target{Frank and Friedman 1993}{Frank, I. E., Friedman, J. H., 1993. A statistical view of same chemometrics regression tools (with discussion). Technometrics, 35, 109-148.}
+
+\nh\target{Fan and Li 2001}{Fan, J. Q., Li, R. Z., 2001. Variable selection via nonconcave penalized likelihood and its oracle properties. Journal of the American Statistical Association, 96: 1348-1360.}
+
+\nh\target{Hjort et al. 2009}{Hjort, N. L., Eague, I. W., Eilegom, I. V., 2009. Extending the scope of empirical likelihood. The Annals of Statistics., 37, 1079-1111.}
+
+\nh\target{Jin and Lee 2019}{Jin, F.,  Lee, L. F., 2019. GEL estimation and tests of spatial autoregressive models. Journal of Econometrics, 208, 585-612.}
+
+\nh\target{Kelejian and Prucha 1998}{Kelejian, H. H., Prucha, L. R., 1998. A generalized spatial two-stage least squares procedure for estimating a spatial autoregressive model with autoregressive disturbances. The Journal of Real Estate Finance and Economics, 17, 99-121.}
+
+\nh\target{Kelejian and Prucha 1999}{Kelejian, H. H., Prucha, L. R., 1999. A generalized moments estimator for the autoregressive parameter in a spatial model. International Economic Review, 40, 509-33.}
+
+\nh\target{Kelejian et al. 2004}{Kelejian, H. H., Prucha, I. R., Yuzefovich,Y., 2004. Instrumental variable estimation of a spatial autoregressive model with autoregressive disturbances: large and small sample results. Spatial and Spatiotemporal Econometrics, 18, 163-198.}
+
+\nh\target{Kelejian and Prucha 2006}{Kelejian, H. H. ,Prucha, I. R., 2006. HAC estimation in a spatial framework. Journal of Econometrics, 140, 131-154.}
+
+\nh\target{Lahiri and Mukhopadhyay 2012}{Lahiri, S. N. and Mukhopadhyay, S., 2012. A penalized empirical likelihood method in high dimensions. The Annals of Statistics, 40, 2511-2540.}
+
+\nh\target{Lee 2004}{Lee, L. F., 2004. Asymptotic distributions of quasi-maximum likelihood estimators for spatial auto-regressive models. Econometrica, 72, 1899-1925.}
+
+\nh \target{Lee and Yu 2016}{Lee, L. F.,  Yu, J., 2016. Identification of Spatial Durbin Panel Models. Applied Economics, 31, 133-162.}
+
+\nh \target{Lee and Yu 2010}{Lee, L. F.,  Yu, J., 2010. A spatial dynamic panel data model with both time and individual fixed effects. Econometric Theory, 26, 564-597.}
+
+\nh\target{Leng and Tang 2012}{Leng, C. L., Tang, X. Y., 2012. Penalized empirical likelihood and growing dimensional general estimating equations. Biometrika, 99, 706-716. }
+
+\nh\target{Liu et al. 2013}{Liu, Y., Zou, C., Wang, Z., 2013. Calibration of the empirical likelihood for high-dimensional data. Annals of the Institute of Statistical Mathematics, 69,529-550.}
+
+\nh\target{Li and Qin 2022}{Li, Y. H., \& Qin, Y. S., 2022. Empirical likelihood for spatial dynamic panel data models, {\it Journal of the Korean Statistical Society, 51}, 500-525.}
+
+\nh\target{Li et al. 2012}{Li, G. R., Lin, L., Zhu, L. X., 2012. Empirical likelihood for a varying coefficient partially linear model with diverging number of parameters. Journal of Multivariate Analysis, 105, 85-111.}
+
+\nh \target{Liu et al. 2010}{Liu, X., Lee, L. F., Bollinger, C. R., 2010. An efficient GMM estimator of spatial autoregressive models. Journal of Econometrics, 159, 303-319.}
+
+\nh\target{Owen 1988}{Owen, A. B., 1988. Empirical Likelihood Ratio Confidence Intervals for a single functional. Biomertika, 75, 237-249.}
+
+\nh\target{Owen 1990}{Owen, A.B., 1990. Empirical likelihood ratio confidence regions. Ann. Statist., 18, 90-120.}
+
+\nh\target{Owen 1991}{Owen, A. B., 1991. Empirical likelihood for linear models. Ann. Statist., 19, 1725-1747.}
+
+\nh\target{Owen 2001}{Owen, A. B., 2001. Empirical likelihood. London: Chapman \& Hall.}
+
+\nh \target{Parent and LeSage 2011}{Parent, O., LeSage, J. P., 2011. A space-time filter for panel data models containing random effects. Computational Statistics \& Data Analysis, 55, 475-490.}
+
+\nh\target{Peng et al. 2014}{Peng, L.,  Qi, Y. C.,  Wang, R. D., 2014. Empirical likelihood test for high dimensional linear models. Statistics and Probability Letters, 86,85-90.}
+
+\nh\target{Piribauer and Fischer 2014}{Piribauer, P., Fischer, M. M., 2014. Model Uncertainty in Matrix Exponential Spatial Growth Regression Models. Geographical Analysis, 47, 240-261.}
+
+\nh \target{Qu et al. 2017}{Qu, X., Lee, L. F., Yu, J., 2017. QML estimation of spatial dynamic panel data models with endogenous time varying spatial weights matrices. Econometrics, 197, 173-201.}
+
+\nh \target{Qin and Lawless 1994}{Qin, J.,  Lawless, J., 1994. Empirical likelihood and general estimating equations. Annals of Statistics, 22, 300-325.}
+
+\nh\target{Qin 2021}{Qin, Y., 2021. Empirical likelihood for spatial autoregressive models with spatial autoregressive disturbances. Sankhy$\bar{a}$ A: Indian J. Statist., 83, 1-25.}
+
+\nh \target{Qin and Lei 2021}{Qin, Y. S., Lei, Q. Z., 2021. Empirical likelihood for mixed regressive, spatial autoregressive model based on GMM.  Sankhy$\bar{a}$ A: Indian J. Statist., 83, 353-378.}
+
+\nh \target{Qin and Lei 2022}{Qin, Y. S., Lei, Q. Z., 2022. Review on empirical likelihood for spatial econometric models. Journal of Guangxi Normal University ( Natural Science Edition), 40, 138-149.}
+
+\nh \target{Rong et al. 2021}{Rong, J. R., Liu, Y., Qin, Y. S., 2021. Empirical likelihood for spatial dynamic panel data models with spatial lags and spatial errors. Communications in Statistics-Theory and Methods. \url{https://doi.org/10.1080/03610926.2022.2032172}.}
+
+\nh\target{Shi 2007}{Shi, J., 2007. Empirical likelihood for higher dimensional linear models. J.Sys.Sci. \& Math.Scis., 27, 124-133.}
+
+\nh \target{Su and Yang 2015}{Su, L.,  Yang, Z., 2015. QML estimation of dynamic panel data models with spatial errors. {\it Econometrics, 185}, 230-258.}
+
+\nh\target{Tang et al. 2013}{Tang, X. Y., Li, J. B., Lian, H., 2013. Empirical likelihood for partially linear proportional hazards models with growing dimensions . Journal of Multivariate Analysis, 121, 22-32.}
+
+\nh\target{Tang and Leng 2010}Tang, X. Y., Leng, C. L., 2010. Penalized high-dimensional empirical likelihood. Biometrika, 97, 905-920. 
+
+\nh\target{Tibshiani 1996}{Tibshiani, R. J., 1996, Regression shrinkage and selection via the lasso. Journal of the Royal Statistical Society Series B, 58, 267-288. }
+
+\nh\target{Wang and Xu 2022}{Wang, R., Xu, W. L., 2022. An approximate randomization test for high-dimensional two-sample Behrens-Fisher problem under arbitrary covariances. Biometrika. \url{https://doi.org/10.1093/biomet/asac014}.}
+
+\nh \target{Wu 2004}{Wu, C. B., 2004. Weighted empirical likelihood inference. Statistics \& Probability Letters, 66, 67-79.}
+
+\nh\target{Yan and Chen 2018}{Yan, L., Chen, X., 2018. Penalized quasi-Likelihood SCAD estimator in high-dimensional generalized linear models. J. Wuhan Univ., 64, 533-539.}
+
+\nh \target{Yang et al. 2006}{Yang, Z., Li, C.,  Tse, Y.K., 2006. Functional form and spatial dependence in dynamic panels. Economics Letters, 91, 138-145.}
+
+\nh \target{Yu et al. 2008}{Yu, J., R, de Jong., Lee, L.F., 2008. Quasi-maximum likelihood estimators for spatial dynamic panel data with fixed effects when both $n$ and $T$ are large.  Journal of Econometrics, 146, 118-134.}
+
+\nh \target{Zhong and Rao 2000}{Zhong, B., Rao, J. N. K., 2000. Empirical likelihood inference under stratified random sampling using auxiliary population information. Biometrika, 87, 929-938.}
+
+\end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  22 DEC 2022 13:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  1 MAR 2023 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,10 +841,10 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
-File: figs/身份证正面.JPG Graphic file (type bmp)
-<figs/身份证正面.JPG>
-File: figs/身份证反面.JPG Graphic file (type bmp)
-<figs/身份证反面.JPG>
+File: figs/身份证1.JPG Graphic file (type bmp)
+<figs/身份证1.JPG>
+File: figs/身份证2.JPG Graphic file (type bmp)
+<figs/身份证2.JPG>
 File: pdfs/本科毕业证与学位证.pdf Graphic file (type pdf)
 <use pdfs/本科毕业证与学位证.pdf>
 File: pdfs/本科毕业证与学位证.pdf Graphic file (type pdf)
@@ -856,7 +856,7 @@ File: pdfs/本科毕业证与学位证.pdf Graphic file (type pdf)
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-83.
+81.
  [1
 
 ]
@@ -912,313 +912,48 @@ File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
 File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
 <use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
  [5]
-File: figs/20170610.JPG Graphic file (type bmp)
-<figs/20170610.JPG>
-File: figs/20140429_1.JPG Graphic file (type bmp)
-<figs/20140429_1.JPG>
-File: figs/201509_1.JPG Graphic file (type bmp)
-<figs/201509_1.JPG>
-File: figs/201403.JPG Graphic file (type bmp)
-<figs/201403.JPG>
-File: figs/202109.JPG Graphic file (type bmp)
-<figs/202109.JPG>
-File: figs/20201209.JPG Graphic file (type bmp)
-<figs/20201209.JPG>
-File: figs/202012.JPG Graphic file (type bmp)
-<figs/202012.JPG>
-
-Overfull \hbox (0.63365pt too wide) in paragraph at lines 91--98
- [] 
- []
-
-[6
-
-] [7] [8] [9]
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 1>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 1>
- [10
+File: figs/教师资格证.JPG Graphic file (type bmp)
+<figs/教师资格证.JPG>
+File: figs/计算机二级C.JPG Graphic file (type bmp)
+<figs/计算机二级C.JPG>
+File: figs/计算机三级证书.JPG Graphic file (type bmp)
+<figs/计算机三级证书.JPG>
+File: figs/计算机二级Python.JPG Graphic file (type bmp)
+<figs/计算机二级Python.JPG>
+ [6
 
 ]
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 1>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 1>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 1>
- [11]
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 2>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 2>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 2>
- [12]
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 3>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 3>
-File: pdfs/科研情况一览表.pdf Graphic file (type pdf)
-<use pdfs/科研情况一览表.pdf, page 3>
- [13]
-File: pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf Graphic file (type pdf)
-<use pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf>
-File: pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf Graphic file (type pdf)
-<use pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf>
-File: pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf Graphic file (type pdf)
-<use pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf, page 1>
-File: pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf Graphic file (type pdf)
-<use pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf, page 1>
-File: pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf Graphic file (type pdf)
-<use pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf, page 1>
-File: pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf Graphic file (type pdf)
-<use pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf, page 1>
-File: pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf Graphic file (type pdf)
-<use pdfs/含空间自回归误差的空间自回归模型的经验欧氏似然推断_唐洁.pdf, page 1>
- [14]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 1>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 1>
- [15]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 1>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 1>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 1>
- [16]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 2>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 2>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 2>
- [17]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 3>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 3>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 3>
- [18]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 4>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 4>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 4>
- [19]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 5>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 5>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 5>
- [20]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 6>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 6>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 6>
- [21]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 7>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 7>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 7>
-
-[22]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 8>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 8>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 8>
- [23]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 9>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 9>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 9>
- [24]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 10>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 10>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 10>
- [25]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 11>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 11>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 11>
- [26]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 12>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 12>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 12>
- [27]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 13>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 13>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 13>
- [28]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 14>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 14>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 14>
- [29]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 15>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 15>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 15>
- [30]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 16>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 16>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 16>
- [31]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 17>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 17>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 17>
- [32]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 18>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 18>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 18>
- [33]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 19>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 19>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 19>
- [34]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 20>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 20>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 20>
- [35]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 21>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 21>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 21>
- [36]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 22>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 22>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 22>
-
-[37]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 23>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 23>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 23>
- [38]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 24>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 24>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 24>
- [39]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 25>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 25>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 25>
- [40]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 26>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 26>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 26>
- [41]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 27>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 27>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 27>
- [42]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 28>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 28>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 28>
- [43]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 29>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 29>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 29>
- [44]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 30>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 30>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 30>
- [45]
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 31>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 31>
-File: pdfs/代表作原件.pdf Graphic file (type pdf)
-<use pdfs/代表作原件.pdf, page 31>
- [46] (./申请材料.aux)
+File: figs/普通话证.JPG Graphic file (type bmp)
+<figs/普通话证.JPG>
+File: figs/英语六级.JPG Graphic file (type bmp)
+<figs/英语六级.JPG>
+ [7]
+File: figs/特岗服务证书.JPG Graphic file (type bmp)
+<figs/特岗服务证书.JPG>
+File: figs/201804.JPG Graphic file (type bmp)
+<figs/201804.JPG>
+File: figs/20180517.JPG Graphic file (type bmp)
+<figs/20180517.JPG>
+File: figs/201706.JPG Graphic file (type bmp)
+<figs/201706.JPG>
+File: figs/20160106.JPG Graphic file (type bmp)
+<figs/20160106.JPG>
+File: figs/20160504.JPG Graphic file (type bmp)
+<figs/20160504.JPG>
+File: figs/20160106_2.JPG Graphic file (type bmp)
+<figs/20160106_2.JPG>
+ [8] [9] [10] [11] [12]
+(./申请材料.aux)
 Package rerunfilecheck Info: File `申请材料.out' has not changed.
-(rerunfilecheck)             Checksum: EA56DD5A288D8752B7113BF63017BA10;383.
+(rerunfilecheck)             Checksum: 8DA6A7610D3ACA3B677A50C1B066E4B1;292.
  ) 
 Here is how much of TeX's memory you used:
- 18466 strings out of 476179
- 397287 string characters out of 5809545
- 701960 words of memory out of 5000000
- 38897 multiletter control sequences out of 15000+600000
+ 18339 strings out of 476179
+ 389683 string characters out of 5809545
+ 698960 words of memory out of 5000000
+ 38770 multiletter control sequences out of 15000+600000
  471663 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,17n,97p,465b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,17n,97p,465b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 申请材料.pdf (48 pages).
+Output written on 申请材料.pdf (14 pages).

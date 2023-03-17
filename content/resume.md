@@ -33,7 +33,7 @@ disable_comments: true
 ### 2017-09～2020-06  灵官镇大同市中学  乡村特岗教师（工作）
 
 - 工作内容：班主任，数学教师。
-- 工作感悟：这段经历是个慢生活，晨光会洒满你的窗台，余晖会晕染整个天空，暴风雷电会响彻整个屋顶，我在这样一片自然风光里与学生们相处。与其说我是教学生，真的不如说是学生教我。我见他们如见自己。当他们因为数学题头大的时候，我发现自己也曾因畏惧数学而忽略了动手；当学生否定自己的时候，我发现自己也总在不经意间就不自信了；当学生只想玩手机不读书的时候，我发现曾经许多光阴就是这样自以为是地虚度了。我也是由他们成长过来的，我把学生看作曾经那个自己，与他们交流就是想告诉他们，时光倒流的话我会这样做吧——要动手要自信要读点书，同样也是告诉现在的自己要勇敢要坚韧要明事理。
+- 工作感悟：这段经历是个慢生活，晨光会洒满你的窗台，余晖会晕染整个天空，暴风雷电会响彻整个屋顶，我在这样一片自然风光里与学生们相处。很感谢这段时光，学生的喜爱与信任，令我对生活充满希望，领导的肯定与表扬，令我对工作充满热情，同事的鼓励与陪伴，令我对上班充满期待。一直有个念头，研究生毕业后希望能回去看看她们。
 
 ### 2013-09～2017-06  衡阳师范学院  数学与应用数学（本科）
 - 主修科目：数学分析，高等代数，抽象代数，数理统计，常微分方程，数学软件与实验，MATLAB与建模，教师心理学，教育学，初等几何研究等课程。
@@ -53,12 +53,18 @@ disable_comments: true
 ## 目前成果
 
 ### 已发表论文
-1. 唐洁.含空间自回归误差的空间自回归模型的经验欧氏似然推断[J].广西民族大学学报(自然科学版),2021,27(04):70-74. 
+1. 唐洁.含空间自回归误差的空间自回归模型的经验欧氏似然推断[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
 
 ### 待发表论文
-1. 唐洁，秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.
-2. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.
-3. Tang Jie, Qin Yongsong. Adjusted empirical likelihood for probability density functions under strong mixing samples.
+1. 唐洁，秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(已投)
+2. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(已投)
+3. Tang Jie, Qin Yongsong. Adjusted empirical likelihood for probability density functions under strong
+mixing samples.(已投)
+4. Zou Yunlong, Tang Jie, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
+5. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
+constraints.(已投)
+6. Tang Jie, Zou Yunlong, Qin Yongsong. PCA empirical likelihood for spatial autoregressive models with
+spatial autoregressive disturbances.(未投)
 
 ### 承担课题
 1. 2021年12月立广西研究生教育创新计划项目(YJSCXP202104)，承担课题《空间计量经济模型的调整经验似然》，计划2023年06月结题。

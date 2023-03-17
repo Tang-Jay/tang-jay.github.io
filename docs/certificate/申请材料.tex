@@ -12,7 +12,7 @@
 \usepackage{booktabs}% \toprule \midrule \bottomrule
 \usepackage{multirow}% \multicolumn{}{}{}
 \usepackage{ulem}%\xout 斜删除线 \sout 删除线 \uline下划线 \uuline 双下划线 \uwave 波浪线 
-
+ \usepackage{geometry} \geometry{a4paper}
 \usepackage{graphicx}
 
 \newcommand\mydot[1]{\scalebox{#1}{.}}
@@ -48,15 +48,15 @@
 \def\target{\hypertarget}
 
 
-\headsep 0.5 true cm \topmargin 0pt \oddsidemargin 0pt
-\evensidemargin 0pt \textheight 215mm \textwidth 155mm
+%\headsep 0.5 true cm \topmargin 0pt \oddsidemargin 0pt
+%\evensidemargin -10pt \textheight 297mm \textwidth 210mm
 
 \begin{document}
 %\pagestyle{empty}%全部页码为空
 \thispagestyle{empty} %该页页码为空
 \vspace*{3cm}
 \begin{center}
-{{\LARGE\heiti 2023年长沙金阳高级中学报名材料}\\[0.6cm]
+{{\LARGE\heiti 2023年长沙金海高级中学报名材料}\\[0.6cm]
 {\normalsize 唐洁}\\[0.1cm]
 {\small(广西师范大学数学与统计学院, 广西桂林, 541004)}}
 \end{center}
@@ -69,13 +69,20 @@
 \setcounter{page}{1}%设置首页
 本人应聘数学岗位，以下为个人材料。
 
+%\includepdf[pages=1-3]{唐洁简历.pdf}
 
 \section{身份证}
 \begin{center}
-  \includegraphics[scale=0.2]{figs/身份证1.JPG }
-  \includegraphics[scale=0.2]{figs/身份证2.JPG }
+  \includegraphics[scale=0.1]{figs/身份证1.JPG }
+  \includegraphics[scale=0.1]{figs/身份证2.JPG }
 \end{center}
 
+\section{学生证}
+\begin{center}
+  \includegraphics[scale=0.1]{figs/学生证1.JPG }
+  \includegraphics[scale=0.1]{figs/学生证2.JPG }
+  \includegraphics[scale=0.1]{figs/学生证3.JPG }
+\end{center}
 
 \section{学历证明}
 \includepdf[pages=1]{pdfs/本科毕业证与学位证.pdf}
@@ -83,20 +90,40 @@
 \includepdf[pages=1]{pdfs/教育部学籍在线验证报告本科.pdf}
 \includepdf[pages=1]{pdfs/教育部学籍在线验证报告硕士.pdf}
 
+\clearpage
+\section{成绩单}
+\begin{center}
+
+ \includegraphics[scale=0.28]{figs/本科成绩单.JPG }
+
+  \includegraphics[scale=0.4]{figs/硕士成绩单1.JPG }
+  \includegraphics[scale=0.35]{figs/硕士成绩单2.JPG }
+  
+   
+\end{center}
 
 \clearpage
 \section{相关证件}
 \begin{center}
 教师资格证
   \includegraphics[scale=0.20]{figs/教师资格证.JPG }
+
+职称证书
+  \includegraphics[scale=0.25]{figs/中二职称证书.JPG }
   
-计算机证
+计算机二级证
   \includegraphics[scale=0.22]{figs/计算机二级C.JPG }
-   \includegraphics[scale=0.22]{figs/计算机三级证书.JPG }
-   \includegraphics[scale=0.45]{figs/计算机二级Python.JPG }
+  \includegraphics[scale=0.22]{figs/计算机三级证书.JPG }
    
-\includegraphics[scale=0.23]{figs/普通话证.JPG }
-\includegraphics[scale=0.24]{figs/英语六级.JPG }
+计算机三级证
+   \includegraphics[scale=0.45]{figs/计算机二级Python.JPG }
+
+普通话证
+\includegraphics[scale=0.26]{figs/普通话证.JPG }
+
+英语六级
+
+\includegraphics[scale=0.3]{figs/英语六级.JPG }
 \end{center}
 
 \section{荣誉证书}

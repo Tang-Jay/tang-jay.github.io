@@ -53,7 +53,7 @@ disable_comments: true
 ## 目前成果
 
 ### 已发表论文
-1. 唐洁.含空间自回归误差的空间自回归模型的经验欧氏似然推断[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
+1. 唐洁.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT)[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
 
 ### 待发表论文
 1. 唐洁，秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(已投)
@@ -63,8 +63,7 @@ mixing samples.(已投)
 4. Zou Yunlong, Tang Jie, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
 5. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
 constraints.(已投)
-6. Tang Jie, Zou Yunlong, Qin Yongsong. PCA empirical likelihood for spatial autoregressive models with
-spatial autoregressive disturbances.(未投)
+6. Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(未投)
 
 ### 承担课题
 1. 2021年12月立广西研究生教育创新计划项目(YJSCXP202104)，承担课题《空间计量经济模型的调整经验似然》，计划2023年06月结题。

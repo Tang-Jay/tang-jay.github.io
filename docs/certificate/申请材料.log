@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  9 MAR 2023 21:51
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  2 APR 2023 19:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -915,7 +915,7 @@ File: pdfs/本科毕业证与学位证.pdf Graphic file (type pdf)
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-88.
+89.
  [1
 
 ]
@@ -971,24 +971,6 @@ File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
 File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
 <use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
  [5]
-File: figs/本科成绩单.JPG Graphic file (type bmp)
-<figs/本科成绩单.JPG>
-File: figs/硕士成绩单1.JPG Graphic file (type bmp)
-<figs/硕士成绩单1.JPG>
-File: figs/硕士成绩单2.JPG Graphic file (type bmp)
-<figs/硕士成绩单2.JPG>
-
-Overfull \hbox (63.5378pt too wide) in paragraph at lines 99--101
- [][] 
- []
-
-[6
-
-]
-Overfull \vbox (79.36441pt too high) has occurred while \output is active []
-
-
-[7] [8]
 File: figs/教师资格证.JPG Graphic file (type bmp)
 <figs/教师资格证.JPG>
 File: figs/中二职称证书.JPG Graphic file (type bmp)
@@ -997,17 +979,18 @@ File: figs/计算机二级C.JPG Graphic file (type bmp)
 <figs/计算机二级C.JPG>
 File: figs/计算机三级证书.JPG Graphic file (type bmp)
 <figs/计算机三级证书.JPG>
- [9
+ [6
+
 
 ]
 File: figs/计算机二级Python.JPG Graphic file (type bmp)
 <figs/计算机二级Python.JPG>
- [10]
+ [7]
 File: figs/普通话证.JPG Graphic file (type bmp)
 <figs/普通话证.JPG>
 File: figs/英语六级.JPG Graphic file (type bmp)
 <figs/英语六级.JPG>
- [11]
+ [8]
 File: figs/特岗服务证书.JPG Graphic file (type bmp)
 <figs/特岗服务证书.JPG>
 File: figs/201804.JPG Graphic file (type bmp)
@@ -1016,23 +999,17 @@ File: figs/20180517.JPG Graphic file (type bmp)
 <figs/20180517.JPG>
 File: figs/201706.JPG Graphic file (type bmp)
 <figs/201706.JPG>
-File: figs/20160106.JPG Graphic file (type bmp)
-<figs/20160106.JPG>
-File: figs/20160504.JPG Graphic file (type bmp)
-<figs/20160504.JPG>
-File: figs/20160106_2.JPG Graphic file (type bmp)
-<figs/20160106_2.JPG>
- [12] [13] [14] [15] [16] (./申请材料.aux)
+ [9] [10] [11] (./申请材料.aux)
 Package rerunfilecheck Info: File `申请材料.out' has not changed.
-(rerunfilecheck)             Checksum: 568D78A912C6311532A8E9F5A8A5CC15;426.
+(rerunfilecheck)             Checksum: A6934BDA51B14165C2FB326677336585;359.
  ) 
 Here is how much of TeX's memory you used:
- 18890 strings out of 476179
- 398520 string characters out of 5809545
- 712969 words of memory out of 5000000
- 39308 multiletter control sequences out of 15000+600000
+ 18814 strings out of 476179
+ 395919 string characters out of 5809545
+ 711969 words of memory out of 5000000
+ 39238 multiletter control sequences out of 15000+600000
  471663 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,465b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 申请材料.pdf (18 pages).
+Output written on 申请材料.pdf (13 pages).

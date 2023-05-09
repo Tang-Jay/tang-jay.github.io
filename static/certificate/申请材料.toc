@@ -3,3 +3,4 @@
 \contentsline {section}{\numberline {3}学历证明}{1}{section.3}%
 \contentsline {section}{\numberline {4}相关证件}{6}{section.4}%
 \contentsline {section}{\numberline {5}荣誉证书}{10}{section.5}%
+\contentsline {section}{\numberline {6}研究成果}{12}{section.6}%

@@ -10,6 +10,100 @@
     
     
     <item>
+      <title>打卡表</title>
+      <link>/cn/2023/05/29/plan/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/05/29/plan/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="第一周">第一周</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日期</th>
+<th style="text-align:center">星期</th>
+<th style="text-align:center">雅思听力</th>
+<th style="text-align:center">毕业事项</th>
+<th style="text-align:center">机器学习</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">05-29</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">①②③</td>
+<td style="text-align:center">②</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">05-30</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">05-31</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-01</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-02</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-03</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-04</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">答辩</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>雅思听力：①背语料库②王陆听力课</li>
+<li>毕业事项：①答辩PPT②学生手册填写③监工</li>
+<li>机器学习：①<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a>②<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a>③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a>④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a><br>
+⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/HeXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/HeXF-2.pdf">论文2</a></li>
+<li>备注：①经验似然求线性模型估计值</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>考编历程</title>
       <link>/cn/2023/05/09/exams/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
@@ -21,34 +115,34 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left">岗位</th>
-<th style="text-align:left">最低入面</th>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center">最低入面</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">高中城区</td>
-<td style="text-align:left">79</td>
+<td style="text-align:center">高中城区</td>
+<td style="text-align:center">79</td>
 </tr>
 <tr>
-<td style="text-align:left">高中农村</td>
-<td style="text-align:left">67</td>
+<td style="text-align:center">高中农村</td>
+<td style="text-align:center">67</td>
 </tr>
 <tr>
-<td style="text-align:left">初中城区</td>
-<td style="text-align:left">79</td>
+<td style="text-align:center">初中城区</td>
+<td style="text-align:center">79</td>
 </tr>
 <tr>
-<td style="text-align:left">初中农村</td>
-<td style="text-align:left">71</td>
+<td style="text-align:center">初中农村</td>
+<td style="text-align:center">71</td>
 </tr>
 <tr>
-<td style="text-align:left">小学城区</td>
-<td style="text-align:left">79</td>
+<td style="text-align:center">小学城区</td>
+<td style="text-align:center">79</td>
 </tr>
 <tr>
-<td style="text-align:left">小学农村</td>
-<td style="text-align:left">69.5</td>
+<td style="text-align:center">小学农村</td>
+<td style="text-align:center">69.5</td>
 </tr>
 </tbody>
 </table>
@@ -57,26 +151,26 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left">岗位</th>
-<th style="text-align:left">最低入面</th>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center">最低入面</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">初中数学毕业生类</td>
-<td style="text-align:left">85.5</td>
+<td style="text-align:center">初中数学毕业生类</td>
+<td style="text-align:center">85.5</td>
 </tr>
 <tr>
-<td style="text-align:left">初中数学在职类</td>
-<td style="text-align:left">89</td>
+<td style="text-align:center">初中数学在职类</td>
+<td style="text-align:center">89</td>
 </tr>
 <tr>
-<td style="text-align:left">小学数学毕业生类</td>
-<td style="text-align:left">80.5</td>
+<td style="text-align:center">小学数学毕业生类</td>
+<td style="text-align:center">80.5</td>
 </tr>
 <tr>
-<td style="text-align:left">小学数学在职类</td>
-<td style="text-align:left">78.5</td>
+<td style="text-align:center">小学数学在职类</td>
+<td style="text-align:center">78.5</td>
 </tr>
 </tbody>
 </table>
@@ -85,14 +179,14 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left">岗位</th>
-<th style="text-align:left">最低入面</th>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center">最低入面</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">初中数学毕业生类</td>
-<td style="text-align:left">70.5</td>
+<td style="text-align:center">初中数学毕业生类</td>
+<td style="text-align:center">70.5</td>
 </tr>
 </tbody>
 </table>
@@ -101,22 +195,22 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:left">岗位</th>
-<th style="text-align:left"><a href="http://www.yuelu.gov.cn/yl_xxgk/bmxxgkml/qjyj/tzgg/202305/P020230512329398193459.pdf">最低入面</a></th>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center"><a href="http://www.yuelu.gov.cn/yl_xxgk/bmxxgkml/qjyj/tzgg/202305/P020230512329398193459.pdf">最低入面</a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">在职教师A</td>
-<td style="text-align:left">53.40</td>
+<td style="text-align:center">在职教师A</td>
+<td style="text-align:center">53.40</td>
 </tr>
 <tr>
-<td style="text-align:left">在职教师B</td>
-<td style="text-align:left">67.40</td>
+<td style="text-align:center">在职教师B</td>
+<td style="text-align:center">67.40</td>
 </tr>
 <tr>
-<td style="text-align:left">高校毕业生</td>
-<td style="text-align:left">62.70</td>
+<td style="text-align:center">高校毕业生</td>
+<td style="text-align:center">62.70</td>
 </tr>
 </tbody>
 </table>
@@ -758,9 +852,7 @@
 <p>而这个世界上的其他人其实并不知道我们在做什么，付出了多少，从他们的角度，我们多多少少是很奇怪的人。</p>
 </blockquote>
 <p>也许更打动我的，是她的经历和这段话。出名之前，求学时，原来攻读的博士方向做不下去，换个方向又是7年，毕竟博士正常毕业5年，她这一波转攻就是8年。她为了她想要的东西坚持着，外人看到的或许是，这个人延毕了。工作时，上课教学，学生说听不懂，这个老师讲课不仔细，教学质量一般，只会念ppt等等。她尽力了，学生看到的或许是，这个老师一般般。出名后，人们纷纷送祝福了，学生不敢说老师不好了。因为成功了，由不理解而带来的“误会”变少了，可是童话里的人，始终没有等到证明自己的那一刻。</p>
-<!-- 
-我想递进我的观点。我也感受过这种偏见，当这股偏见是信任的时候，我感受过其中快乐，当这股偏见是歧视的时候，我感受过其中困苦。我更想将这股偏见化为正向的东西，尽量不要是负面的，比如，当老师的时候就不要只关心成绩好的，在女孩面前不要一直强调肤白貌美大长腿，谈对象的时候不要只看房子车子票子，世界这么大，和而不同，学生各有各的天赋，女孩各有各的美丽，对象各有各的不足。不能理解时候，就给出一份包容吧，允许他们这样的存在，不要攻击和诽谤。
--->
+<p>我想递进我的观点。我也感受过这种偏见，当这股偏见是信任的时候，我感受过其中快乐，当这股偏见是歧视的时候，我感受过其中困苦。我更想将这股偏见化为正向的东西，尽量不要是负面的，比如，当老师的时候就不要只关心成绩好的，在女孩面前不要一直强调肤白貌美大长腿，谈对象的时候不要只看房子车子票子，世界这么大，和而不同，学生各有各的天赋，女孩各有各的美丽，对象各有各的不足。不能理解时候，就给出一份包容吧，允许他们这样的存在，不要攻击和诽谤。</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

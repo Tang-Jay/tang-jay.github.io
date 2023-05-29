@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2023/05/29/plan/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E6%B8%85%E5%8D%95/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
@@ -52,9 +61,6 @@
   </url><url>
     <loc>/cn/2022/12/08/companion/</loc>
     <lastmod>2022-12-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
-    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/12/03/english/</loc>
     <lastmod>2022-12-03T00:00:00+00:00</lastmod>
@@ -193,9 +199,6 @@
   </url><url>
     <loc>/cn/2022/09/02/cihuo/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%E6%B8%85%E5%8D%95/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2022/09/01/ielts/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>

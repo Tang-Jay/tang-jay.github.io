@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/yan/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E6%A1%82%E6%9E%97/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/dinner/</loc>
+    <lastmod>2023-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2023/06/01/plan/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
@@ -55,9 +67,6 @@
   </url><url>
     <loc>/cn/2023/01/27/newyear/</loc>
     <lastmod>2023-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
-    <lastmod>2022-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E5%8F%8B%E4%BA%BA/</loc>
     <lastmod>2022-12-08T00:00:00+00:00</lastmod>

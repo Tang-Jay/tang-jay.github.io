@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  23 JUN 2023 21:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  25 JUN 2023 12:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,51 +897,35 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
-File: pdfs/湖南省事业单位公开招聘人员报名表.pdf Graphic file (type pdf)
-<use pdfs/湖南省事业单位公开招聘人员报名表.pdf>
-File: pdfs/湖南省事业单位公开招聘人员报名表.pdf Graphic file (type pdf)
-<use pdfs/湖南省事业单位公开招聘人员报名表.pdf>
-File: pdfs/湖南省事业单位公开招聘人员报名表.pdf Graphic file (type pdf)
-<use pdfs/湖南省事业单位公开招聘人员报名表.pdf, page 1>
-File: pdfs/湖南省事业单位公开招聘人员报名表.pdf Graphic file (type pdf)
-<use pdfs/湖南省事业单位公开招聘人员报名表.pdf, page 1>
+File: pdfs/简历2023-1.pdf Graphic file (type pdf)
+<use pdfs/简历2023-1.pdf>
+File: pdfs/简历2023-1.pdf Graphic file (type pdf)
+<use pdfs/简历2023-1.pdf>
+File: pdfs/简历2023-1.pdf Graphic file (type pdf)
+<use pdfs/简历2023-1.pdf, page 2>
+File: pdfs/简历2023-1.pdf Graphic file (type pdf)
+<use pdfs/简历2023-1.pdf, page 2>
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-80.
+85.
  [1
 
 ]
-File: pdfs/湖南省事业单位公开招聘人员报名表.pdf Graphic file (type pdf)
-<use pdfs/湖南省事业单位公开招聘人员报名表.pdf, page 1>
-File: pdfs/湖南省事业单位公开招聘人员报名表.pdf Graphic file (type pdf)
-<use pdfs/湖南省事业单位公开招聘人员报名表.pdf, page 1>
-File: pdfs/湖南省事业单位公开招聘人员报名表.pdf Graphic file (type pdf)
-<use pdfs/湖南省事业单位公开招聘人员报名表.pdf, page 1>
+File: pdfs/简历2023-1.pdf Graphic file (type pdf)
+<use pdfs/简历2023-1.pdf, page 2>
+File: pdfs/简历2023-1.pdf Graphic file (type pdf)
+<use pdfs/简历2023-1.pdf, page 2>
+File: pdfs/简历2023-1.pdf Graphic file (type pdf)
+<use pdfs/简历2023-1.pdf, page 2>
  [2]
 File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf>
+<use pdfs/简历2023-1.pdf, page 3>
 File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf>
+<use pdfs/简历2023-1.pdf, page 3>
 File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 2>
-File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 2>
+<use pdfs/简历2023-1.pdf, page 3>
  [3]
-File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 2>
-File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 2>
-File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 2>
- [4]
-File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 3>
-File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 3>
-File: pdfs/简历2023-1.pdf Graphic file (type pdf)
-<use pdfs/简历2023-1.pdf, page 3>
- [5]
 File: figs/身份证1.JPG Graphic file (type bmp)
 <figs/身份证1.JPG>
 File: figs/身份证2.JPG Graphic file (type bmp)
@@ -950,26 +934,26 @@ File: figs/教师资格证.JPG Graphic file (type bmp)
 <figs/教师资格证.JPG>
 File: figs/20150710.JPG Graphic file (type bmp)
 <figs/20150710.JPG>
- [6]
+ [4]
 File: figs/中二职称证书.JPG Graphic file (type bmp)
 <figs/中二职称证书.JPG>
- [7]
+ [5]
 File: figs/计算机二级C.JPG Graphic file (type bmp)
 <figs/计算机二级C.JPG>
 File: figs/计算机二级Python.JPG Graphic file (type bmp)
 <figs/计算机二级Python.JPG>
 File: figs/计算机三级证书.JPG Graphic file (type bmp)
 <figs/计算机三级证书.JPG>
- [8] [9]
+ [6] [7]
 Overfull \vbox (4.65834pt too high) has occurred while \output is active []
 
 
-[10]
+[8]
 File: figs/普通话证.JPG Graphic file (type bmp)
 <figs/普通话证.JPG>
 File: figs/英语六级.JPG Graphic file (type bmp)
 <figs/英语六级.JPG>
- [11]
+ [9]
 File: figs/特岗服务证书.JPG Graphic file (type bmp)
 <figs/特岗服务证书.JPG>
 File: figs/20160106.JPG Graphic file (type bmp)
@@ -978,7 +962,7 @@ File: figs/20160504.JPG Graphic file (type bmp)
 <figs/20160504.JPG>
 File: figs/20160106_2.JPG Graphic file (type bmp)
 <figs/20160106_2.JPG>
- [12] [13]
+ [10] [11]
 File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
 <use pdfs/成绩单硕士3.pdf>
 File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
@@ -987,90 +971,90 @@ File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
 <use pdfs/成绩单硕士3.pdf, page 1>
 File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
 <use pdfs/成绩单硕士3.pdf, page 1>
+ [12]
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+ [13]
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
  [14]
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
  [15]
-File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证本科.pdf>
-File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证本科.pdf>
-File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证本科.pdf, page 1>
-File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
  [16]
-File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证本科.pdf, page 1>
-File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证本科.pdf, page 1>
-File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表本科.pdf>
+File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表本科.pdf>
+File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
  [17]
-File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证硕士.pdf>
-File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证硕士.pdf>
-File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证硕士.pdf, page 1>
-File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证硕士.pdf, page 1>
-File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证硕士.pdf, page 1>
-File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证硕士.pdf, page 1>
-File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
-<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学籍在线验证报告本科.pdf>
+File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学籍在线验证报告本科.pdf>
+File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
+File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
+File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
+File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
+File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
+<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
  [18]
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
+File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
+File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
+File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
+<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
  [19]
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
- [20]
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
- [21]
 File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
 <use pdfs/教育部学籍在线验证报告硕士.pdf>
 File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
@@ -1085,17 +1069,17 @@ File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
 <use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
 File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
 <use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
- [22] (./报名材料.aux)
+ [20] (./报名材料.aux)
 Package rerunfilecheck Info: File `报名材料.out' has not changed.
-(rerunfilecheck)             Checksum: F9AE30BC69B78138228D98D4FDA14633;1595.
+(rerunfilecheck)             Checksum: 6B2A8C96C2094F009F3C942E1CB6ADC9;1513.
  ) 
 Here is how much of TeX's memory you used:
- 19036 strings out of 476179
- 401240 string characters out of 5809545
- 723217 words of memory out of 5000000
- 39444 multiletter control sequences out of 15000+600000
+ 19025 strings out of 476179
+ 400889 string characters out of 5809545
+ 723218 words of memory out of 5000000
+ 39435 multiletter control sequences out of 15000+600000
  471687 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,17n,97p,465b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,17n,97p,465b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 报名材料.pdf (24 pages).
+Output written on 报名材料.pdf (22 pages).

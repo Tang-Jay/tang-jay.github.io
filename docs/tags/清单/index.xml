@@ -5,19 +5,135 @@
     <description>Recent content in 清单 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E6%B8%85%E5%8D%95/" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>六月计划表</title>
+      <title>六月安排表(下)</title>
+      <link>/cn/2023/06/22/plan/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/06/22/plan/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="计划清单-下">计划清单 (下)</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日期</th>
+<th style="text-align:center">星期</th>
+<th style="text-align:center">雅思听力</th>
+<th style="text-align:center">机器学习</th>
+<th style="text-align:center">又战长沙</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">06-22</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">外婆家</td>
+</tr>
+<tr>
+<td style="text-align:center">06-23</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">收拾屋子</td>
+</tr>
+<tr>
+<td style="text-align:center">06-24</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">整理AEL</td>
+</tr>
+<tr>
+<td style="text-align:center">06-25</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">高考线</td>
+</tr>
+<tr>
+<td style="text-align:center">06-26</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center">①6/9</td>
+<td style="text-align:center">②100/297⑦2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-27</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center">①4-6/9</td>
+<td style="text-align:center">②150/297⑦2</td>
+<td style="text-align:center">网络报名</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-28</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center">①1-3/9</td>
+<td style="text-align:center">②200/297⑦2</td>
+<td style="text-align:center">株洲报名</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-29</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center">②250/297⑦2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-30</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center">②297/297⑦2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-01</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">株洲面试</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>雅思听力：①背语料库 ②王陆听力课</li>
+<li>机器学习：①<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ②<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a> ④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a><br>
+⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a> ⑥经验似然求线性模型估计值 ⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>六月安排表(上)</title>
       <link>/cn/2023/06/01/plan/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
       <guid>/cn/2023/06/01/plan/</guid>
       <description>
         <![CDATA[
-        <h2 id="计划清单">计划清单</h2>
+        <h2 id="计划清单-上">计划清单 (上)</h2>
 <table>
 <thead>
 <tr>
@@ -92,7 +208,7 @@
 <td style="text-align:center"></td>
 <td style="text-align:center">②</td>
 <td style="text-align:center"></td>
-<td style="text-align:center">大哥、凯哥</td>
+<td style="text-align:center">大哥凯哥</td>
 </tr>
 <tr>
 <td style="text-align:center">06-09</td>
@@ -108,7 +224,7 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center">室友</td>
+<td style="text-align:center">宿舍聚餐</td>
 </tr>
 <tr>
 <td style="text-align:center">06-11</td>
@@ -140,7 +256,7 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center">室友合照</td>
+<td style="text-align:center">宿舍合照</td>
 </tr>
 <tr>
 <td style="text-align:center">06-15</td>
@@ -197,78 +313,6 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center">离校</td>
-</tr>
-<tr>
-<td style="text-align:center">06-22</td>
-<td style="text-align:center">周四</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">外婆家</td>
-</tr>
-<tr>
-<td style="text-align:center">06-23</td>
-<td style="text-align:center">周五</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">收拾屋子</td>
-</tr>
-<tr>
-<td style="text-align:center">06-24</td>
-<td style="text-align:center">周六</td>
-<td style="text-align:center">①6/9</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">②？/297⑦2</td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">06-25</td>
-<td style="text-align:center">周日</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">06-26</td>
-<td style="text-align:center">周一</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">06-27</td>
-<td style="text-align:center">周二</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">06-28</td>
-<td style="text-align:center">周三</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">06-29</td>
-<td style="text-align:center">周四</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-<tr>
-<td style="text-align:center">06-30</td>
-<td style="text-align:center">周五</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 </tbody>
 </table>

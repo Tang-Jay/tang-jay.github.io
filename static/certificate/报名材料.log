@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  29 JUN 2023 16:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  3 JUL 2023 09:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,39 +897,39 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf>
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf>
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 1>
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-90.
+91.
  [1
 
 ]
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 1>
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 1>
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
  [2]
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 2>
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 2>
-File: docs/保险职业学院招聘简历.pdf Graphic file (type pdf)
-<use docs/保险职业学院招聘简历.pdf, page 2>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 2>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 2>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 2>
  [3]
-File: figs/身份证1.png Graphic file (type bmp)
-<figs/身份证1.png>
-File: figs/身份证2.png Graphic file (type bmp)
-<figs/身份证2.png>
+File: figs/身份证1.jpg Graphic file (type bmp)
+<figs/身份证1.jpg>
+File: figs/身份证2.jpg Graphic file (type bmp)
+<figs/身份证2.jpg>
 File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
 <use pdfs/毕业证与学位证本科.pdf>
 File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
@@ -961,119 +961,75 @@ File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
 File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
 <use pdfs/毕业证与学位证硕士.pdf, page 1>
  [6]
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
+File: figs/教师资格证.jpg Graphic file (type bmp)
+<figs/教师资格证.jpg>
+File: figs/2015-07.jpg Graphic file (type bmp)
+<figs/2015-07.jpg>
+File: figs/中二职称证书.jpg Graphic file (type bmp)
+<figs/中二职称证书.jpg>
  [7]
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
- [8]
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
- [9]
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
+File: figs/计算机二级C.jpg Graphic file (type bmp)
+<figs/计算机二级C.jpg>
+File: figs/计算机二级Python.jpg Graphic file (type bmp)
+<figs/计算机二级Python.jpg>
+File: figs/计算机三级证书.jpg Graphic file (type bmp)
+<figs/计算机三级证书.jpg>
+ [8] [9]
+File: figs/普通话证.jpg Graphic file (type bmp)
+<figs/普通话证.jpg>
+File: figs/英语六级.jpg Graphic file (type bmp)
+<figs/英语六级.jpg>
  [10]
-File: figs/教师资格证.png Graphic file (type bmp)
-<figs/教师资格证.png>
-File: figs/2015-07.png Graphic file (type bmp)
-<figs/2015-07.png>
-File: figs/中二职称证书.png Graphic file (type bmp)
-<figs/中二职称证书.png>
- [11]
-File: figs/计算机二级C.png Graphic file (type bmp)
-<figs/计算机二级C.png>
-File: figs/计算机二级Python.png Graphic file (type bmp)
-<figs/计算机二级Python.png>
-File: figs/计算机三级证书.png Graphic file (type bmp)
-<figs/计算机三级证书.png>
- [12]
-[13]
-File: figs/普通话证.png Graphic file (type bmp)
-<figs/普通话证.png>
-File: figs/英语六级.png Graphic file (type bmp)
-<figs/英语六级.png>
- [14]
-File: figs/2020-12.png Graphic file (type bmp)
-<figs/2020-12.png>
-File: figs/2021-12.png Graphic file (type bmp)
-<figs/2021-12.png>
-File: figs/2022-12.png Graphic file (type bmp)
-<figs/2022-12.png>
-File: figs/特岗服务证书.png Graphic file (type bmp)
-<figs/特岗服务证书.png>
-File: figs/2018-04.png Graphic file (type bmp)
-<figs/2018-04.png>
-File: figs/2018-05.png Graphic file (type bmp)
-<figs/2018-05.png>
-File: figs/2016-05.png Graphic file (type bmp)
-<figs/2016-05.png>
-File: figs/2016-01_1.png Graphic file (type bmp)
-<figs/2016-01_1.png>
-File: figs/2016-01_2.png Graphic file (type bmp)
-<figs/2016-01_2.png>
-File: figs/2015-09.png Graphic file (type bmp)
-<figs/2015-09.png>
-File: figs/2015-06.png Graphic file (type bmp)
-<figs/2015-06.png>
- [15] [16] [17] [18] [19] [20] (./报名材料.aux)
+File: figs/2020-12.jpg Graphic file (type bmp)
+<figs/2020-12.jpg>
+File: figs/2021-12.jpg Graphic file (type bmp)
+<figs/2021-12.jpg>
+File: figs/2022-12.jpg Graphic file (type bmp)
+<figs/2022-12.jpg>
+File: figs/特岗服务证书.jpg Graphic file (type bmp)
+<figs/特岗服务证书.jpg>
+File: figs/2018-04.jpg Graphic file (type bmp)
+<figs/2018-04.jpg>
+File: figs/2018-05.jpg Graphic file (type bmp)
+<figs/2018-05.jpg>
+File: figs/2016-05.jpg Graphic file (type bmp)
+<figs/2016-05.jpg>
+File: figs/2016-01_1.jpg Graphic file (type bmp)
+<figs/2016-01_1.jpg>
+File: figs/2016-01_2.jpg Graphic file (type bmp)
+<figs/2016-01_2.jpg>
+File: figs/2015-09.jpg Graphic file (type bmp)
+<figs/2015-09.jpg>
+File: figs/2015-06.jpg Graphic file (type bmp)
+<figs/2015-06.jpg>
+ [11] [12]
+[13] [14] [15]
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+ [16]
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+ [17] (./报名材料.aux)
 Package rerunfilecheck Info: File `报名材料.out' has not changed.
-(rerunfilecheck)             Checksum: 3B0074BC83D570A18E170DB943B6103C;1019.
+(rerunfilecheck)             Checksum: 1F8E1B8EBDDF2421533314A318315331;1101.
  ) 
 Here is how much of TeX's memory you used:
- 19055 strings out of 476179
- 400491 string characters out of 5809545
- 719683 words of memory out of 5000000
- 39459 multiletter control sequences out of 15000+600000
+ 19022 strings out of 476179
+ 399381 string characters out of 5809545
+ 720776 words of memory out of 5000000
+ 39432 multiletter control sequences out of 15000+600000
  471687 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,465b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 报名材料.pdf (22 pages).
+Output written on 报名材料.pdf (19 pages).

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  3 JUL 2023 09:11
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  5 JUL 2023 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,14 +897,14 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf>
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf>
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 1>
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 1>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 1>
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
@@ -912,19 +912,19 @@ able
  [1
 
 ]
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 1>
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 1>
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 1>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 1>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 1>
  [2]
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 2>
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 2>
-File: docs/唐洁简历excel.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel.pdf, page 2>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 2>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 2>
+File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel1.pdf, page 2>
  [3]
 File: figs/身份证1.jpg Graphic file (type bmp)
 <figs/身份证1.jpg>
@@ -992,16 +992,14 @@ File: figs/2018-04.jpg Graphic file (type bmp)
 <figs/2018-04.jpg>
 File: figs/2018-05.jpg Graphic file (type bmp)
 <figs/2018-05.jpg>
+File: figs/2017-06.jpg Graphic file (type bmp)
+<figs/2017-06.jpg>
 File: figs/2016-05.jpg Graphic file (type bmp)
 <figs/2016-05.jpg>
 File: figs/2016-01_1.jpg Graphic file (type bmp)
 <figs/2016-01_1.jpg>
 File: figs/2016-01_2.jpg Graphic file (type bmp)
 <figs/2016-01_2.jpg>
-File: figs/2015-09.jpg Graphic file (type bmp)
-<figs/2015-09.jpg>
-File: figs/2015-06.jpg Graphic file (type bmp)
-<figs/2015-06.jpg>
  [11] [12]
 [13] [14] [15]
 File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
@@ -1024,10 +1022,10 @@ Package rerunfilecheck Info: File `报名材料.out' has not changed.
 (rerunfilecheck)             Checksum: 1F8E1B8EBDDF2421533314A318315331;1101.
  ) 
 Here is how much of TeX's memory you used:
- 19022 strings out of 476179
- 399381 string characters out of 5809545
+ 19013 strings out of 476179
+ 399207 string characters out of 5809545
  720776 words of memory out of 5000000
- 39432 multiletter control sequences out of 15000+600000
+ 39424 multiletter control sequences out of 15000+600000
  471687 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,465b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s

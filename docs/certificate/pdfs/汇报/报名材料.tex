@@ -1,0 +1,88 @@
+\documentclass[UFT8]{ctexart}%\setcounter{page}{1}
+\setCJKmainfont[BoldFont=STHeiti,ItalicFont=STKaiti]{STSong}%\fangsong \songti  \heiti \kaishu \wuhao \small \large \LARGE
+\usepackage{graphicx} % 导入插图功能
+\usepackage{float}
+\usepackage{threeparttable}
+\usepackage{caption}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{diagbox} % \diagbox[斜线方形]{分区1内容}{分区2内容}{分区3内容}...
+\usepackage{ulem}
+\usepackage{ctex}
+\usepackage{booktabs}% \toprule \midrule \bottomrule
+\usepackage{multirow}% \multicolumn{}{}{}
+\usepackage{ulem}%\xout 斜删除线 \sout 删除线 \uline下划线 \uuline 双下划线 \uwave 波浪线 
+ \usepackage{geometry} \geometry{a4paper}
+\usepackage{graphicx}
+
+\newcommand\mydot[1]{\scalebox{#1}{.}}
+%\renewcommand\cftdot{\mydot{0.8}} % change the size of dots
+%\renewcommand\cftdotsep{3} % change the space between dots
+
+
+\usepackage{pdfpages}%\includepdf[pages=-]{插入的文件.pdf} 
+%\usepackage[final]{pdfpages} %\includepdf{figure.pdf} 
+
+\usepackage{color}
+\def\red{\textcolor{red}}
+\def\blue{\textcolor{blue}}
+\definecolor{green}{RGB}{0,153,51}
+\def\green{\textcolor{green}}
+
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\be{ \begin{enumerate}}
+\def\ee{ \end{enumerate}}
+
+\def\nh{\noindent\hangindent=0.45truecm\hangafter=1}
+
+\usepackage{hyperref}% \url \href
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=blue,
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+%    pdfpagemode=FullScreen,
+    }
+\urlstyle{same}
+\def\link{\hyperlink}
+\def\target{\hypertarget}
+
+% 控制目录的宏包
+\usepackage{titletoc}
+% 按清华标准, 缩小目录中各级标题之间的缩进
+\dottedcontents{section}[2cm]{\bfseries\vspace{0.4em}}{1.5em}{5pt}
+\dottedcontents{subsection}[3.00cm]{}{2.7em}{5pt}
+\dottedcontents{subsubsection}[4.30cm]{}{3.4em}{5pt}
+
+%\headsep 0.5 true cm \topmargin 0pt \oddsidemargin 0pt
+%\evensidemargin -10pt \textheight 297mm \textwidth 210mm
+
+\begin{document}
+%\pagestyle{empty}%全部页码为空
+\thispagestyle{empty} %该页页码为空
+\vspace*{3cm}
+\begin{center}
+{{\LARGE\heiti 研究生阶段汇报材料}\\[0.6cm]
+{\normalsize 唐\ 洁}\\[0.1cm]
+{\small(广西师范大学数学与统计学院, 广西桂林, 541004)}}
+\end{center}
+
+\clearpage%新的一页
+%\tableofcontents%输出目录
+\thispagestyle{empty} % 当前页不显示页码
+
+\clearpage%新的一页
+\setcounter{page}{1}%设置首页
+
+\includepdf[pages=1-10]{2021-11-12.pdf}
+\includepdf[pages=1-8]{2022-11-02.pdf}
+\includepdf[pages=1-7]{2022-11-08.pdf}
+\includepdf[pages=1-12]{2022-11-15.pdf}
+\end{document}
+
+
+
+
+

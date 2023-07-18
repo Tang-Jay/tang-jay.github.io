@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  5 JUL 2023 19:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  18 JUL 2023 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,34 +897,34 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf>
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf>
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 1>
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 1>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 1>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 1>
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-91.
+93.
  [1
 
 ]
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 1>
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 1>
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 1>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 1>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 1>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 1>
  [2]
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 2>
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 2>
-File: docs/唐洁简历excel1.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel1.pdf, page 2>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 2>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 2>
+File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel2.pdf, page 2>
  [3]
 File: figs/身份证1.jpg Graphic file (type bmp)
 <figs/身份证1.jpg>
@@ -963,71 +963,50 @@ File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
  [6]
 File: figs/教师资格证.jpg Graphic file (type bmp)
 <figs/教师资格证.jpg>
-File: figs/2015-07.jpg Graphic file (type bmp)
-<figs/2015-07.jpg>
 File: figs/中二职称证书.jpg Graphic file (type bmp)
 <figs/中二职称证书.jpg>
- [7]
 File: figs/计算机二级C.jpg Graphic file (type bmp)
 <figs/计算机二级C.jpg>
 File: figs/计算机二级Python.jpg Graphic file (type bmp)
 <figs/计算机二级Python.jpg>
 File: figs/计算机三级证书.jpg Graphic file (type bmp)
 <figs/计算机三级证书.jpg>
- [8] [9]
+ [7] [8]
 File: figs/普通话证.jpg Graphic file (type bmp)
 <figs/普通话证.jpg>
-File: figs/英语六级.jpg Graphic file (type bmp)
-<figs/英语六级.jpg>
- [10]
+File: figs/特岗服务证书.jpg Graphic file (type bmp)
+<figs/特岗服务证书.jpg>
+ [9]
 File: figs/2020-12.jpg Graphic file (type bmp)
 <figs/2020-12.jpg>
 File: figs/2021-12.jpg Graphic file (type bmp)
 <figs/2021-12.jpg>
 File: figs/2022-12.jpg Graphic file (type bmp)
 <figs/2022-12.jpg>
-File: figs/特岗服务证书.jpg Graphic file (type bmp)
-<figs/特岗服务证书.jpg>
-File: figs/2018-04.jpg Graphic file (type bmp)
-<figs/2018-04.jpg>
 File: figs/2018-05.jpg Graphic file (type bmp)
 <figs/2018-05.jpg>
-File: figs/2017-06.jpg Graphic file (type bmp)
-<figs/2017-06.jpg>
 File: figs/2016-05.jpg Graphic file (type bmp)
 <figs/2016-05.jpg>
 File: figs/2016-01_1.jpg Graphic file (type bmp)
 <figs/2016-01_1.jpg>
 File: figs/2016-01_2.jpg Graphic file (type bmp)
 <figs/2016-01_2.jpg>
- [11] [12]
-[13] [14] [15]
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf>
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf>
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
- [16]
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
-File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
-<use pdfs/成绩单硕士3.pdf, page 1>
- [17] (./报名材料.aux)
+File: figs/2015-09.jpg Graphic file (type bmp)
+<figs/2015-09.jpg>
+File: figs/2015-06.jpg Graphic file (type bmp)
+<figs/2015-06.jpg>
+ [10] [11] [12]
+[13] [14] (./报名材料.aux)
 Package rerunfilecheck Info: File `报名材料.out' has not changed.
-(rerunfilecheck)             Checksum: 1F8E1B8EBDDF2421533314A318315331;1101.
+(rerunfilecheck)             Checksum: 61D0F324F0DD097B5AAA3CE14B09ECF7;1009.
  ) 
 Here is how much of TeX's memory you used:
- 19013 strings out of 476179
- 399207 string characters out of 5809545
- 720776 words of memory out of 5000000
- 39424 multiletter control sequences out of 15000+600000
+ 18984 strings out of 476179
+ 398619 string characters out of 5809545
+ 719678 words of memory out of 5000000
+ 39399 multiletter control sequences out of 15000+600000
  471687 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,465b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 报名材料.pdf (19 pages).
+Output written on 报名材料.pdf (16 pages).

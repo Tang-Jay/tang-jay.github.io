@@ -108,13 +108,10 @@
 <li>
 <p>努力方向：除了课内的学习，课外主要的事情就是专一地写论文，附带培养自己编程的爱好。</p>
 <ul>
-<li>研究生阶段完成6篇论文写作。</li>
-<li>主持1项科研项目。</li>
-<li>掌握 Python 掌握爬虫、自动化办公等技能，利用所学技能搭建模型(如漏斗分析模型、RFM用户分析模型等)做数据分析。</li>
-<li>leetcode 刷题(因为大部分精力在写论文，所以刷题并不多)。</li>
-<li>出于兴趣购买网课了解部分机器视觉的知识。</li>
-<li>掌握 git 基本命令。</li>
-<li>掌握 Hugo 搭建网站，例如我的<a href="https://tang-jay.github.io">个人网站</a>。</li>
+<li>研究生阶段完成6篇论文写作，主持1项科研项目。</li>
+<li>熟练统计软件。能使用Python 进行爬虫、自动化办公、数据分析等技能。</li>
+<li>课外编程拓展。在leetcode上刷大厂编程题，掌握 git + Hugo 搭建网站，例如我的<a href="https://tang-jay.github.io">个人网站</a>。</li>
+<li>课外专业拓展。出于兴趣购买网课了解部分机器视觉的知识。</li>
 </ul>
 </li>
 </ul>
@@ -129,7 +126,7 @@
 <li>本科感悟：除了课内学习，我还参加了许多课外活动，比如：考证(C++程序语言设计国家计算机二级等级证书、会计从业资格证、英语四级)，比赛（数学建模、演讲比赛、英语演讲比赛、辩论赛、数学竞赛），练习口语(参加点亮英语集训营)、创业(一分钟快照)、实习(祁东启航学校中学部)等等。这一时期，我把自己塞得满满当当的，因为不知道自己怎样做是最好，就都尝试一遍。回头看，还是很感谢这段时间的自己，虽然有些盲目但一直在努力。</li>
 </ul>
 <h2 id="英语水平">英语水平</h2>
-<p>通过六级考试，口语需练习，听力水平需练习，阅读基本无碍，写作需练习。</p>
+<p>通过六级，口语需练习，听力需练习，阅读流畅，写作需练习。</p>
 <h2 id="计算机水平">计算机水平</h2>
 <p>对 R、Python 更熟悉。</p>
 <ul>
@@ -151,12 +148,20 @@
 mixing samples.(录用)</li>
 </ol>
 <h3 id="待发表论文">待发表论文</h3>
-<ol start="2">
-<li>Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(已投)</li>
-<li>Zou Yunlong, Tang Jie, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)</li>
-<li>Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
-constraints.(已投)</li>
-<li>Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(未投)</li>
+<ol>
+<li>
+<p>Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(已投)</p>
+</li>
+<li>
+<p>Zou Yunlong, Tang Jie, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)</p>
+</li>
+<li>
+<p>Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
+constraints.(已投)</p>
+</li>
+<li>
+<p>Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(未投)</p>
+</li>
 </ol>
 <h3 id="承担课题">承担课题</h3>
 <ol>
@@ -174,13 +179,16 @@ constraints.(已投)</li>
 </ul>
 <h2 id="荣誉证书">荣誉证书</h2>
 <ol>
-<li>2021年9月通过全国计算机等级考试二级Python语言程序设计考试</li>
-<li>2020年12月通过全国大学英语六级考试</li>
+<li>2022年12月获得2021-2022年硕士研究生学业奖学金三等</li>
+<li>2021年12月获得2020-2021年硕士研究生学业奖学金三等</li>
+<li>2020年12月获得2020年硕士研究生新生三等学业奖学金</li>
 <li>2020年12月获得农村义务教育阶段学校特设岗位计划教师服务证书</li>
-<li>2018年5月作平《尺规作图》获得衡阳市中小学微课大赛二等奖</li>
-<li>2017年6月具备高级中学教师资格</li>
-<li>2015年9月通过全国计算机等级考试三级网络技术考试</li>
-<li>2015年7月获得会计从业资格证书</li>
+<li>2018年5月作品《尺规作图》获得衡阳市中小学微课大赛二等奖</li>
+<li>2018年4月获得“一师一优课、一课一名师”竞赛活动安全心理家庭教育组二等奖</li>
+<li>2016年5月在2015-2016学年度中获得“优秀共青团员”称号</li>
+<li>2016年1月在2014-2015学年度中获得三等奖学金</li>
+<li>2016年1月在2014-2015学年度中获得“三好学生”称号</li>
+<li>2015年第八届“认证杯”数学中国数学建模网络挑战大赛优胜奖</li>
 <li>2015年6月获得“2015年全国大学生英语竞赛”衡阳师范学院一等奖</li>
 <li>2015年5月获得衡阳师范学院南岳学院“公益活动人人参与”主题演讲大赛二等奖</li>
 <li>2014年3月通过全国计算机等级考试二级C语言程序设计考试</li>

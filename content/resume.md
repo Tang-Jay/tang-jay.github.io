@@ -24,13 +24,10 @@ disable_comments: true
 - 主修科目：应用随机过程，高等数理统计，高等概率论，极限理论，统计学习方法，统计软件与计算，应用回归分析，应用时间序列分析，现代非参数统计，抽样调查方法与应用，统计学案例研究，金融工具，数理金融，中级计量经济学，多元统计分析课程。
 - 努力方向：除了课内的学习，课外主要的事情就是专一地写论文，附带培养自己编程的爱好。
 
-   - 研究生阶段完成6篇论文写作。
-   - 主持1项科研项目。
-   - 掌握 Python 掌握爬虫、自动化办公等技能，利用所学技能搭建模型(如漏斗分析模型、RFM用户分析模型等)做数据分析。
-   - leetcode 刷题(因为大部分精力在写论文，所以刷题并不多)。
-   - 出于兴趣购买网课了解部分机器视觉的知识。
-   - 掌握 git 基本命令。
-   - 掌握 Hugo 搭建网站，例如我的[个人网站](https://tang-jay.github.io)。
+   - 研究生阶段完成6篇论文写作，主持1项科研项目。
+   - 熟练统计软件。能使用Python 进行爬虫、自动化办公、数据分析等技能。
+   - 课外编程拓展。在leetcode上刷大厂编程题，掌握 git + Hugo 搭建网站，例如我的[个人网站](https://tang-jay.github.io)。
+   - 课外专业拓展。出于兴趣购买网课了解部分机器视觉的知识。
 
 ### 2017-09～2020-06  灵官镇大同市中学  乡村特岗教师（工作）
 
@@ -42,7 +39,7 @@ disable_comments: true
 - 本科感悟：除了课内学习，我还参加了许多课外活动，比如：考证(C++程序语言设计国家计算机二级等级证书、会计从业资格证、英语四级)，比赛（数学建模、演讲比赛、英语演讲比赛、辩论赛、数学竞赛），练习口语(参加点亮英语集训营)、创业(一分钟快照)、实习(祁东启航学校中学部)等等。这一时期，我把自己塞得满满当当的，因为不知道自己怎样做是最好，就都尝试一遍。回头看，还是很感谢这段时间的自己，虽然有些盲目但一直在努力。
 
 ## 英语水平
-通过六级考试，口语需练习，听力水平需练习，阅读基本无碍，写作需练习。
+通过六级，口语需练习，听力需练习，阅读流畅，写作需练习。
 
 ## 计算机水平
 对 R、Python 更熟悉。
@@ -62,11 +59,12 @@ mixing samples.(录用)
 
 ### 待发表论文
 
-2. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(已投)
-4. Zou Yunlong, Tang Jie, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
-5. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
-constraints.(已投)
-6. Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(未投)
+1. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(已投)
+
+2. Zou Yunlong, Tang Jie, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
+3. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
+  constraints.(已投)
+4. Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(未投)
 
 ### 承担课题
 1. 2022年4月—2023年4月主持广西研究生教育创新计划项目(YJSCXP202104)“空间计量经济模型的调整经验似然”，结题（1/5）。
@@ -78,13 +76,16 @@ constraints.(已投)
    - [《论文写作听课笔记》](https://tang-jay.github.io/EssayNotes/)
 
 ## 荣誉证书
-1. 2021年9月通过全国计算机等级考试二级Python语言程序设计考试
-1. 2020年12月通过全国大学英语六级考试
+1. 2022年12月获得2021-2022年硕士研究生学业奖学金三等
+1. 2021年12月获得2020-2021年硕士研究生学业奖学金三等
+1. 2020年12月获得2020年硕士研究生新生三等学业奖学金
 1. 2020年12月获得农村义务教育阶段学校特设岗位计划教师服务证书
-1. 2018年5月作平《尺规作图》获得衡阳市中小学微课大赛二等奖
-1. 2017年6月具备高级中学教师资格
-1. 2015年9月通过全国计算机等级考试三级网络技术考试
-1. 2015年7月获得会计从业资格证书
+1. 2018年5月作品《尺规作图》获得衡阳市中小学微课大赛二等奖
+1. 2018年4月获得“一师一优课、一课一名师”竞赛活动安全心理家庭教育组二等奖
+1. 2016年5月在2015-2016学年度中获得“优秀共青团员”称号
+1. 2016年1月在2014-2015学年度中获得三等奖学金
+1. 2016年1月在2014-2015学年度中获得“三好学生”称号
+1. 2015年第八届“认证杯”数学中国数学建模网络挑战大赛优胜奖
 1. 2015年6月获得“2015年全国大学生英语竞赛”衡阳师范学院一等奖
 1. 2015年5月获得衡阳师范学院南岳学院“公益活动人人参与”主题演讲大赛二等奖
 1. 2014年3月通过全国计算机等级考试二级C语言程序设计考试

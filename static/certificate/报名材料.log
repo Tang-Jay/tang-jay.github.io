@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  25 JUL 2023 16:51
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  31 JUL 2023 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,14 +897,14 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf>
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf>
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 1>
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
@@ -912,19 +912,19 @@ able
  [1
 
 ]
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 1>
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 1>
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 1>
  [2]
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 2>
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 2>
-File: docs/唐洁简历excel2.pdf Graphic file (type pdf)
-<use docs/唐洁简历excel2.pdf, page 2>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 2>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 2>
+File: docs/唐洁简历excel.pdf Graphic file (type pdf)
+<use docs/唐洁简历excel.pdf, page 2>
  [3]
 File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
 <use pdfs/毕业证与学位证本科.pdf>
@@ -1122,90 +1122,83 @@ File: pdfs/Jay3.pdf Graphic file (type pdf)
 File: pdfs/Jay3.pdf Graphic file (type pdf)
 <use pdfs/Jay3.pdf, page 1>
  [23]
-File: pdfs/Jay3.pdf Graphic file (type pdf)
-<use pdfs/Jay3.pdf, page 2>
-File: pdfs/Jay3.pdf Graphic file (type pdf)
-<use pdfs/Jay3.pdf, page 2>
-File: pdfs/Jay3.pdf Graphic file (type pdf)
-<use pdfs/Jay3.pdf, page 2>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
  [24]
-File: pdfs/论文5.pdf Graphic file (type pdf)
-<use pdfs/论文5.pdf>
-File: pdfs/论文5.pdf Graphic file (type pdf)
-<use pdfs/论文5.pdf>
-File: pdfs/论文5.pdf Graphic file (type pdf)
-<use pdfs/论文5.pdf, page 1>
-File: pdfs/论文5.pdf Graphic file (type pdf)
-<use pdfs/论文5.pdf, page 1>
-File: pdfs/论文5.pdf Graphic file (type pdf)
-<use pdfs/论文5.pdf, page 1>
-File: pdfs/论文5.pdf Graphic file (type pdf)
-<use pdfs/论文5.pdf, page 1>
-File: pdfs/论文5.pdf Graphic file (type pdf)
-<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
  [25]
-File: pdfs/论文6.pdf Graphic file (type pdf)
-<use pdfs/论文6.pdf>
-File: pdfs/论文6.pdf Graphic file (type pdf)
-<use pdfs/论文6.pdf>
-File: pdfs/论文6.pdf Graphic file (type pdf)
-<use pdfs/论文6.pdf, page 1>
-File: pdfs/论文6.pdf Graphic file (type pdf)
-<use pdfs/论文6.pdf, page 1>
-File: pdfs/论文6.pdf Graphic file (type pdf)
-<use pdfs/论文6.pdf, page 1>
-File: pdfs/论文6.pdf Graphic file (type pdf)
-<use pdfs/论文6.pdf, page 1>
-File: pdfs/论文6.pdf Graphic file (type pdf)
-<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
  [26]
-File: pdfs/论文7.pdf Graphic file (type pdf)
-<use pdfs/论文7.pdf>
-File: pdfs/论文7.pdf Graphic file (type pdf)
-<use pdfs/论文7.pdf>
-File: pdfs/论文7.pdf Graphic file (type pdf)
-<use pdfs/论文7.pdf, page 1>
-File: pdfs/论文7.pdf Graphic file (type pdf)
-<use pdfs/论文7.pdf, page 1>
-File: pdfs/论文7.pdf Graphic file (type pdf)
-<use pdfs/论文7.pdf, page 1>
-File: pdfs/论文7.pdf Graphic file (type pdf)
-<use pdfs/论文7.pdf, page 1>
-File: pdfs/论文7.pdf Graphic file (type pdf)
-<use pdfs/论文7.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
  [27]
 File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
-<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf>
-File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
-<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf>
-File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
-<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
-File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
-<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
-File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
-<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
-File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
-<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
-File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
-<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
- [28]
-File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
 <use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 2>
 File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
 <use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 2>
 File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
 <use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 2>
- [29] (./报名材料.aux)
+ [28] (./报名材料.aux)
 Package rerunfilecheck Info: File `报名材料.out' has not changed.
 (rerunfilecheck)             Checksum: E983D787F2FC4D9E09168778E244588D;1565.
  ) 
 Here is how much of TeX's memory you used:
- 19169 strings out of 476179
- 404665 string characters out of 5809545
+ 19167 strings out of 476179
+ 404591 string characters out of 5809545
  723276 words of memory out of 5000000
- 39555 multiletter control sequences out of 15000+600000
+ 39553 multiletter control sequences out of 15000+600000
  471727 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,465b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 报名材料.pdf (31 pages).
+Output written on 报名材料.pdf (30 pages).

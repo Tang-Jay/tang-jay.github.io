@@ -22,12 +22,12 @@ disable_comments: true
 ## 个人履历
 ### 2020-09～2023-06  广西师范大学  统计学（硕士）
 - 主修科目：应用随机过程，高等数理统计，高等概率论，极限理论，统计学习方法，统计软件与计算，应用回归分析，应用时间序列分析，现代非参数统计，抽样调查方法与应用，统计学案例研究，金融工具，数理金融，中级计量经济学，多元统计分析课程。
-- 努力方向：除了课内的学习，课外主要的事情就是专一地写论文，附带培养自己编程的爱好。
+- 努力方向：课程学习加专心写论文，附带培养爱好。
 
    - 研究生阶段完成6篇论文写作，主持1项科研项目。
    - 熟练统计软件。能使用Python 进行爬虫、自动化办公、数据分析等技能。
-   - 课外编程拓展。在leetcode上刷大厂编程题，掌握 git + Hugo 搭建网站，例如我的[个人网站](https://tang-jay.github.io)。
-   - 课外专业拓展。出于兴趣购买网课了解部分机器视觉的知识。
+   - 编程能力拓展。在leetcode上刷编程题，掌握 git + Hugo 搭建网站，例如我的[个人网站](https://tang-jay.github.io)。
+   - 专业知识拓展。出于兴趣购买网课了解部分机器视觉的知识。
 
 ### 2017-09～2020-06  灵官镇大同市中学  乡村特岗教师（工作）
 
@@ -52,19 +52,19 @@ disable_comments: true
 ## 目前成果
 
 ### 已发表论文
-1. 唐洁.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT)[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
-1. 唐洁，秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(待录用)
-3. Tang Jie, Qin Yongsong. Adjusted empirical likelihood for probability density functions under strong
+1. **唐洁**.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT)[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
+1. **唐洁**，秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(待录用)
+3. **Tang Jie**, Qin Yongsong. Adjusted empirical likelihood for probability density functions under strong
 mixing samples.(录用)
 
 ### 待发表论文
 
-1. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(已投)
+1. **Tang Jie**, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(定稿)
 
-2. Zou Yunlong, Tang Jie, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
+2. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
 3. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
   constraints.(已投)
-4. Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(未投)
+4. **Tang Jie**, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(定稿)
 
 ### 承担课题
 1. 2022年4月—2023年4月主持广西研究生教育创新计划项目(YJSCXP202104)“空间计量经济模型的调整经验似然”，结题（1/5）。

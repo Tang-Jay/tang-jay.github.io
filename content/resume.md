@@ -53,7 +53,7 @@ disable_comments: true
 
 ### 已发表论文
 1. **唐洁**.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT)[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
-1. **唐洁**，秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(待录用)
+1. **唐洁**, 秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(待录用)
 3. **Tang Jie**, Qin Yongsong. Adjusted empirical likelihood for probability density functions under strong
 mixing samples.(录用)
 
@@ -63,11 +63,11 @@ mixing samples.(录用)
 
 2. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
 3. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
-  constraints.(已投)
+    constraints.(已投)
 4. **Tang Jie**, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(定稿)
 
 ### 承担课题
-1. 2022年4月—2023年4月主持广西研究生教育创新计划项目(YJSCXP202104)“空间计量经济模型的调整经验似然”，结题（1/5）。
+1. 2022年4月—2023年4月主持广西研究生教育创新计划项目(YJSCXP202104)“空间计量经济模型的调整经验似然”，唐洁（1/5）。
 
 ### 网络文章
 - [CSDN文章](https://blog.csdn.net/JTang1995?type=lately)
@@ -87,5 +87,3 @@ mixing samples.(录用)
 1. 2016年1月在2014-2015学年度中获得“三好学生”称号
 1. 2015年第八届“认证杯”数学中国数学建模网络挑战大赛优胜奖
 1. 2015年6月获得“2015年全国大学生英语竞赛”衡阳师范学院一等奖
-1. 2015年5月获得衡阳师范学院南岳学院“公益活动人人参与”主题演讲大赛二等奖
-1. 2014年3月通过全国计算机等级考试二级C语言程序设计考试

@@ -25,50 +25,44 @@
 <th style="text-align:center">星期</th>
 <th style="text-align:center">英语</th>
 <th style="text-align:center">科研</th>
-<th style="text-align:center">社考</th>
-<th style="text-align:center">运动</th>
+<th style="text-align:center">备注</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center">08-01</td>
 <td style="text-align:center">周二</td>
-<td style="text-align:center">①7/9③</td>
-<td style="text-align:center">②85/297</td>
-<td style="text-align:center">①</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">①②7/9</td>
+<td style="text-align:center">①85/297</td>
+<td style="text-align:center">申论</td>
 </tr>
 <tr>
 <td style="text-align:center">08-02</td>
 <td style="text-align:center">周三</td>
-<td style="text-align:center">①8/9③</td>
+<td style="text-align:center">①②8/9</td>
 <td style="text-align:center"></td>
-<td style="text-align:center">①</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
 </tr>
 <tr>
 <td style="text-align:center">08-03</td>
 <td style="text-align:center">周四</td>
+<td style="text-align:center">①②8/9</td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">①</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
 </tr>
 <tr>
 <td style="text-align:center">08-04</td>
 <td style="text-align:center">周五</td>
+<td style="text-align:center">①②8/9</td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center">①</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
 </tr>
 <tr>
 <td style="text-align:center">08-05</td>
 <td style="text-align:center">周六</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center">①</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
 </tr>
 <tr>
 <td style="text-align:center">08-06</td>
@@ -76,7 +70,6 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center">长沙工业学院</td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-07</td>
@@ -84,44 +77,38 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-08</td>
 <td style="text-align:center">周二</td>
+<td style="text-align:center">①②8/9④</td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论+公基</td>
 </tr>
 <tr>
 <td style="text-align:center">08-09</td>
 <td style="text-align:center">周三</td>
+<td style="text-align:center">①②8/9④</td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论+公基</td>
 </tr>
 <tr>
 <td style="text-align:center">08-10</td>
 <td style="text-align:center">周四</td>
+<td style="text-align:center">①②8/9④</td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论+公基</td>
 </tr>
 <tr>
 <td style="text-align:center">08-11</td>
 <td style="text-align:center">周五</td>
+<td style="text-align:center">①②8/9④</td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td style="text-align:center">申论+公基</td>
 </tr>
 <tr>
 <td style="text-align:center">08-12</td>
 <td style="text-align:center">周六</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -132,12 +119,10 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-14</td>
 <td style="text-align:center">周一</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -148,12 +133,10 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-16</td>
 <td style="text-align:center">周三</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -164,12 +147,10 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-18</td>
 <td style="text-align:center">周五</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -180,20 +161,17 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-20</td>
 <td style="text-align:center">周日</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td style="text-align:center">入职培训</td>
 </tr>
 <tr>
 <td style="text-align:center">08-21</td>
 <td style="text-align:center">周一</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -204,7 +182,6 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-23</td>
@@ -212,12 +189,10 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center">新生军训</td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-24</td>
 <td style="text-align:center">周四</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -228,12 +203,10 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-26</td>
 <td style="text-align:center">周六</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -244,12 +217,10 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-28</td>
 <td style="text-align:center">周一</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -260,12 +231,10 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center">结束军训</td>
-<td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-30</td>
 <td style="text-align:center">周三</td>
-<td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
@@ -276,20 +245,19 @@
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"></td>
 </tr>
 </tbody>
 </table>
 <ol>
 <li>英语学习
 <ul>
-<li>雅思听力：①背语料库 ②王陆听力课 ③BBC</li>
-<li>雅思写作：④翻译100句+语法改错题+手把手书上22篇翻译⑤刘洪波写作课⑥顾家北精品班+句法语法班+精品班的材料包练习⑦整理话题，词伙，复盘话题，重新写，对照</li>
+<li>雅思听力：①BBC ②听力单词 ③听力真题</li>
+<li>雅思写作：④翻译100句⑤语法改错400句⑥手把手书上22篇翻译⑦刘洪波写作课、顾家北精品班+句法语法班+精品班的材料包练习、整理话题，词伙，复盘话题，重新写，对照</li>
 </ul>
 </li>
 <li>科研学习
 <ul>
-<li>专业书籍：①<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ②<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a></li>
+<li>专业书籍：①<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a>②<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a>  ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a></li>
 <li>专家论文：④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a> ⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a></li>
 <li>网络课程：⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></li>
 <li>动手实践：⑥经验似然求线性模型估计值</li>
@@ -297,8 +265,8 @@
 </li>
 <li>社会考试
 <ul>
-<li>大学考试：①申论+公基</li>
-<li>考编考试：②教综(<a href="https://shop.liangshiba.com/#/liveDetail?shopid=18018&amp;livetype=5&amp;distribution=207135&amp;school=2&amp;distributionEntry=1">良师</a>/粉笔)+学科</li>
+<li>大学考试：①<a href="https://pan.baidu.com/s/1X9fXk24Cnty1dY3MCYNvDg?pwd=bv4g">申论</a>+<a href="https://pan.baidu.com/s/1G5VYlegYRcwQFM5YgcJiwQ?pwd=ab7n">公基</a></li>
+<li>考编考试：②教综(<a href="https://shop.liangshiba.com/#/liveDetail?shopid=18018&amp;livetype=5&amp;distribution=207135&amp;school=2&amp;distributionEntry=1">良师</a>/[粉笔](链接: <a href="https://pan.baidu.com/s/1lLx10z7PXmsEtW6IIalBhQ?pwd=62pa))+%5B">https://pan.baidu.com/s/1lLx10z7PXmsEtW6IIalBhQ?pwd=62pa))+[</a>学科](<a href="https://www.bilibili.com/video/BV1VD4y1D7UB/?p=22&amp;spm_id_from=333.880.my_history.page.click&amp;vd_source=813a147d7428303db620774cb1ec7ba8">https://www.bilibili.com/video/BV1VD4y1D7UB/?p=22&amp;spm_id_from=333.880.my_history.page.click&amp;vd_source=813a147d7428303db620774cb1ec7ba8</a>)</li>
 <li>博士考试：③统计类</li>
 </ul>
 </li>

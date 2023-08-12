@@ -1,17 +1,2 @@
-\contentsline {section}{\numberline {1}个人简历}{1}{section.1}%
-\contentsline {section}{\numberline {2}相关材料}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}学历证明}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}过级证书}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}职业资格证}{7}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}职称证书}{7}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}计算机等级证}{8}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}普通话证}{9}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}英语六级}{10}{subsubsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.3}工作证明}{11}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}荣誉证书}{12}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}攻读硕士学位期间取得成绩}{16}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}成绩单}{16}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}发表学术论文}{18}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}科研项目经历}{18}{subsubsection.2.5.3}%
-\contentsline {section}{\numberline {3}附件}{18}{section.3}%
+\contentsline {section}{\numberline {1}学历学位证明}{1}{section.1}%
 \contentsfinish 

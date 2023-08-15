@@ -539,7 +539,7 @@
 <tr>
 <td style="text-align:center">08-08</td>
 <td style="text-align:center">周二</td>
-<td style="text-align:center">①②3-8④</td>
+<td style="text-align:center">①②3-8③</td>
 <td style="text-align:center"></td>
 <td style="text-align:center">申论+公基</td>
 </tr>
@@ -567,28 +567,28 @@
 <tr>
 <td style="text-align:center">08-12</td>
 <td style="text-align:center">周六</td>
-<td style="text-align:center">①②3-8④</td>
+<td style="text-align:center">①②3-8③</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-13</td>
 <td style="text-align:center">周日</td>
-<td style="text-align:center">①②3-8④</td>
+<td style="text-align:center">①②3-8③</td>
 <td style="text-align:center"></td>
 <td style="text-align:center">备战博士</td>
 </tr>
 <tr>
 <td style="text-align:center">08-14</td>
 <td style="text-align:center">周一</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">①②3-8③</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">08-15</td>
 <td style="text-align:center">周二</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">①②3-8③</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
@@ -709,14 +709,13 @@
 <ol>
 <li>英语学习
 <ul>
-<li>雅思听力：①精听 ②听力单词 ③听力真题</li>
-<li>雅思写作：④翻译100句⑤语法改错400句⑥手把手书上22篇翻译⑦刘洪波写作课、顾家北精品班+句法语法班+精品班的材料包练习、整理话题，词伙，复盘话题，重新写，对照</li>
+<li>雅思听力：①精听5句 ②听写单词</li>
+<li>雅思写作：③翻译100句④语法改错400句⑤手把手书上22篇翻译⑥刘洪波写作课、顾家北精品班</li>
 </ul>
 </li>
 <li>科研学习
 <ul>
 <li>专业书籍：①<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a>②<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a></li>
-<li>专家论文：④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a> ⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a></li>
 <li>网络课程：⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></li>
 <li>动手实践：⑥经验似然求线性模型估计值</li>
 </ul>

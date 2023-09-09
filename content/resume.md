@@ -53,18 +53,17 @@ disable_comments: true
 
 ### 已发表论文
 1. **唐洁**.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT)[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
-1. **唐洁**, 秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(待录用)
-3. **Tang Jie**, Qin Yongsong. Adjusted empirical likelihood for probability density functions under strong
-mixing samples.(录用)
+1. **唐洁**, 秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(修回)
+3. **Tang Jie**, Qin Yongsong. [Adjusted empirical likelihood for probability density functions under strong
+mixing samples](https://www.tandfonline.com/doi/pdf/10.1080/03610926.2023.2246088). DOI: 10.1080/03610926.2023.2246088.
 
 ### 待发表论文
 
-1. **Tang Jie**, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(定稿)
-
-2. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(已投)
-3. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
-    constraints.(已投)
-4. **Tang Jie**, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(定稿)
+1. **Tang Jie**, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(二审)
+2. **Tang Jie**, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(定稿)
+3. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(定稿)
+4. Li Yufang, **Tang Jie**, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
+    constraints.(二审)
 
 ### 承担课题
 1. 2022年4月—2023年4月主持广西研究生教育创新计划项目(YJSCXP202104)“空间计量经济模型的调整经验似然”，唐洁（1/5）。

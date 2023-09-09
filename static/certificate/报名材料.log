@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  11 AUG 2023 13:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  8 SEP 2023 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,6 +897,10 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
+File: figs/身份证1.jpg Graphic file (type bmp)
+<figs/身份证1.jpg>
+File: figs/身份证2.jpg Graphic file (type bmp)
+<figs/身份证2.jpg>
 File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
 <use pdfs/毕业证与学位证本科.pdf>
 File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
@@ -934,106 +938,31 @@ File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
 File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
 <use pdfs/毕业证与学位证硕士.pdf, page 1>
  [3]
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表本科.pdf, page 1>
+File: figs/教师资格证.jpg Graphic file (type bmp)
+<figs/教师资格证.jpg>
+File: figs/中二职称证书.jpg Graphic file (type bmp)
+<figs/中二职称证书.jpg>
+File: figs/计算机二级Python.jpg Graphic file (type bmp)
+<figs/计算机二级Python.jpg>
+File: figs/计算机三级证书.jpg Graphic file (type bmp)
+<figs/计算机三级证书.jpg>
  [4]
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
-File: pdfs/教育部学历证书电子注册备案表硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学历证书电子注册备案表硕士.pdf, page 1>
+File: figs/普通话证.jpg Graphic file (type bmp)
+<figs/普通话证.jpg>
  [5]
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告本科.pdf, page 1>
- [6]
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
-File: pdfs/教育部学籍在线验证报告硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学籍在线验证报告硕士.pdf, page 1>
- [7]
-File: pdfs/教育部学位在线本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线本科.pdf>
-File: pdfs/教育部学位在线本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线本科.pdf>
-File: pdfs/教育部学位在线本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线本科.pdf, page 1>
-File: pdfs/教育部学位在线本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线本科.pdf, page 1>
-File: pdfs/教育部学位在线本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线本科.pdf, page 1>
-File: pdfs/教育部学位在线本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线本科.pdf, page 1>
-File: pdfs/教育部学位在线本科.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线本科.pdf, page 1>
- [8]
-File: pdfs/教育部学位在线硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线硕士.pdf>
-File: pdfs/教育部学位在线硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线硕士.pdf>
-File: pdfs/教育部学位在线硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线硕士.pdf, page 1>
-File: pdfs/教育部学位在线硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线硕士.pdf, page 1>
-File: pdfs/教育部学位在线硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线硕士.pdf, page 1>
-File: pdfs/教育部学位在线硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线硕士.pdf, page 1>
-File: pdfs/教育部学位在线硕士.pdf Graphic file (type pdf)
-<use pdfs/教育部学位在线硕士.pdf, page 1>
- [9] (./报名材料.aux)
+File: figs/英语六级.jpg Graphic file (type bmp)
+<figs/英语六级.jpg>
+ [6] [7] (./报名材料.aux)
 Package rerunfilecheck Info: File `报名材料.out' has not changed.
-(rerunfilecheck)             Checksum: 0CCAE320FE212A0ECCAB92FA208A6B4E;91.
+(rerunfilecheck)             Checksum: E0AA0B9A6EB356B0296B1B80A3A71E40;855.
  ) 
 Here is how much of TeX's memory you used:
- 18862 strings out of 476179
- 396576 string characters out of 5809545
- 715409 words of memory out of 5000000
- 39292 multiletter control sequences out of 15000+600000
- 471663 words of font info for 69 fonts, out of 8000000 for 9000
+ 18881 strings out of 476179
+ 396352 string characters out of 5809545
+ 718502 words of memory out of 5000000
+ 39309 multiletter control sequences out of 15000+600000
+ 471687 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,17n,97p,465b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,17n,97p,465b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 报名材料.pdf (11 pages).
+Output written on 报名材料.pdf (9 pages).

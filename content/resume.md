@@ -55,7 +55,7 @@ disable_comments: true
 1. **唐洁**.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT)[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
 1. **唐洁**, 秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(录用)
 3. **Tang Jie**, Qin Yongsong. [Adjusted empirical likelihood for probability density functions under strong
-mixing samples](https://www.tandfonline.com/doi/pdf/10.1080/03610926.2023.2246088). DOI: 10.1080/03610926.2023.2246088.
+mixing samples](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088). DOI: 10.1080/03610926.2023.2246088.
 
 ### 待发表论文
 

@@ -6,7 +6,7 @@ disable_highlight: true
 disable_comments: true
 ---
 # 唐 洁
-更新日期：2023年9月29日
+更新日期：2024年8月2日
 
 ## 自我评价
 客观说，九五后，湖南人，小个子，五口人，血型AB。
@@ -20,6 +20,13 @@ disable_comments: true
 邮箱地址： tanjay@foxmail.com
 
 ## 个人履历
+
+### 2024-09～至今 北京师范大学 应用统计（博士）
+
+### 2023-08～2024-08  湖南大学附属中学  中学数学教师（工作一年）
+- 工作内容：班主任，数学教师。
+- 工作感悟：长沙的工作强度很大，很佩服长沙的老师们，时间缝都是填满的，比如园姐从早七到晚七，带小孩上学，带学生背书，考虑年级组的事情；王老师一边带两个子弟班，作业试卷一个不落，还担任教务处各项协调工作；常规的老师，除了本职的备课上课改作业，还要听课磨课赛课。任何一小件事情，就像雪花一片一片地飘落在肩上，也不知道何时就觉得特别得沉重。经历一年的历练，感觉意志力又得到了提升，与这么多努力的教师共事一场，学习到很多，希望我的同事们认真工作之余，好好享受生活，身体健康。
+
 ### 2020-09～2023-06  广西师范大学  统计学（硕士）
 - 主修科目：应用随机过程，高等数理统计，高等概率论，极限理论，统计学习方法，统计软件与计算，应用回归分析，应用时间序列分析，现代非参数统计，抽样调查方法与应用，统计学案例研究，金融工具，数理金融，中级计量经济学，多元统计分析课程。
 - 努力方向：课程学习加专心写论文，附带培养爱好。
@@ -29,7 +36,7 @@ disable_comments: true
    - 编程能力拓展。在leetcode上刷编程题，掌握 git + Hugo 搭建网站，例如我的[个人网站](https://tang-jay.github.io)。
    - 专业知识拓展。出于兴趣购买网课了解部分机器视觉的知识。
 
-### 2017-09～2020-06  灵官镇大同市中学  乡村特岗教师（工作）
+### 2017-08～2020-08  灵官镇大同市中学  乡村特岗教师（工作三年）
 
 - 工作内容：班主任，数学教师。
 - 工作感悟：这段经历是个慢生活，晨光会洒满你的窗台，余晖会晕染整个天空，暴风雷电会响彻整个屋顶，我在这样一片自然风光里与学生们相处。很感谢这段时光，学生的喜爱与信任，令我对生活充满希望，领导的肯定与表扬，令我对工作充满热情，同事的鼓励与陪伴，令我对上班充满期待。一直有个念头，研究生毕业后希望能回去看看她们。
@@ -39,7 +46,7 @@ disable_comments: true
 - 本科感悟：除了课内学习，我还参加了许多课外活动，比如：考证(C++程序语言设计国家计算机二级等级证书、会计从业资格证、英语四级)，比赛（数学建模、演讲比赛、英语演讲比赛、辩论赛、数学竞赛），练习口语(参加点亮英语集训营)、创业(一分钟快照)、实习(祁东启航学校中学部)等等。这一时期，我把自己塞得满满当当的，因为不知道自己怎样做是最好，就都尝试一遍。回头看，还是很感谢这段时间的自己，虽然有些盲目但一直在努力。
 
 ## 英语水平
-通过六级，口语需练习，听力需练习，阅读流畅，写作需练习。
+通过六级，口语待提高，听力待提高，阅读无碍，写作尚可。
 
 ## 计算机水平
 对 R、Python 更熟悉。
@@ -54,16 +61,17 @@ disable_comments: true
 ### 已发表论文
 1. **唐洁**.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT)[J].广西民族大学学报(自然科学版), 2021, 27 (04): 70-74. 
 1. **唐洁**, 秦永松.含空间自相关误差的空间自回归模型的调整经验似然推断.(录用)
-3. **Tang Jie**, Qin Yongsong. [Adjusted empirical likelihood for probability density functions under strong
+1. **Tang Jie**, Qin Yongsong. [Adjusted empirical likelihood for probability density functions under strong
 mixing samples](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088). DOI: 10.1080/03610926.2023.2246088.
+1. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(录用)
 
+    
 ### 待发表论文
 
 1. **Tang Jie**, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(二审)
-2. **Tang Jie**, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(定稿)
-3. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(定稿)
-4. Li Yufang, **Tang Jie**, Qin Yongsong. Empirical likelihood ratio test for linear models with equality
-    constraints.(二审)
+1. Li Yufang, **Tang Jie**, Qin Yongsong. Empirical likelihood ratio test for linear models with equality constraints.(二审)
+1. **Tang Jie**, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(定稿)
+
 
 ### 承担课题
 1. 2022年4月—2023年4月主持广西研究生教育创新计划项目(YJSCXP202104)“空间计量经济模型的调整经验似然”，唐洁（1/5）。

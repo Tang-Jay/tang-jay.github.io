@@ -1,2 +1,11 @@
-\contentsline {section}{\numberline {1}获奖证书}{1}{section.1}%
+\contentsline {section}{\numberline {1}提供与身份相关证明}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}身份证}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}学历学位证明}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}攻读硕士学位期间科研情况}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}发表学术论文}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}主持科研项目证明材料}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}其他科研能力证明材料}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}计算机等级证}{18}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}英语六级}{20}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}本硕成绩单}{20}{subsubsection.2.3.3}%
 \contentsfinish 

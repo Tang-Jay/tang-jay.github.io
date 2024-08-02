@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  10 DEC 2023 12:56
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  6 APR 2024 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,35 +897,317 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
  [2
 
 ]
+File: figs/身份证1.jpg Graphic file (type bmp)
+<figs/身份证1.jpg>
+File: figs/身份证2.jpg Graphic file (type bmp)
+<figs/身份证2.jpg>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
+able
+(Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
+104.
+ [1
+
+]
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+File: pdfs/毕业证与学位证本科.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证本科.pdf, page 1>
+ [2]
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
+<use pdfs/毕业证与学位证硕士.pdf, page 1>
+ [3]
+
+Package fontspec Warning: Font "Kaiti SC" does not contain requested Script
+(fontspec)                "CJK".
+
+
+Package fontspec Info: Could not resolve font "Kaiti SC Bold/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Kaiti SC/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Kaiti SC/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
+(fontspec)             with options [Script={CJK},BoldFont={Kaiti SC Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Kaiti
+(fontspec)             SC/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Kaiti SC
+(fontspec)             Bold/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+File: pdfs/论文4发表.pdf Graphic file (type pdf)
+<use pdfs/论文4发表.pdf>
+File: pdfs/论文4发表.pdf Graphic file (type pdf)
+<use pdfs/论文4发表.pdf>
+File: pdfs/论文4发表.pdf Graphic file (type pdf)
+<use pdfs/论文4发表.pdf, page 1>
+File: pdfs/论文4发表.pdf Graphic file (type pdf)
+<use pdfs/论文4发表.pdf, page 1>
+[4]
+File: pdfs/论文4发表.pdf Graphic file (type pdf)
+<use pdfs/论文4发表.pdf, page 1>
+File: pdfs/论文4发表.pdf Graphic file (type pdf)
+<use pdfs/论文4发表.pdf, page 1>
+File: pdfs/论文4发表.pdf Graphic file (type pdf)
+<use pdfs/论文4发表.pdf, page 1>
+ [5]
+File: pdfs/论文4.pdf Graphic file (type pdf)
+<use pdfs/论文4.pdf>
+File: pdfs/论文4.pdf Graphic file (type pdf)
+<use pdfs/论文4.pdf>
+File: pdfs/论文4.pdf Graphic file (type pdf)
+<use pdfs/论文4.pdf, page 2>
+File: pdfs/论文4.pdf Graphic file (type pdf)
+<use pdfs/论文4.pdf, page 2>
+File: pdfs/论文4.pdf Graphic file (type pdf)
+<use pdfs/论文4.pdf, page 2>
+File: pdfs/论文4.pdf Graphic file (type pdf)
+<use pdfs/论文4.pdf, page 2>
+File: pdfs/论文4.pdf Graphic file (type pdf)
+<use pdfs/论文4.pdf, page 2>
+ [6]
+File: pdfs/论文2录用.pdf Graphic file (type pdf)
+<use pdfs/论文2录用.pdf>
+File: pdfs/论文2录用.pdf Graphic file (type pdf)
+<use pdfs/论文2录用.pdf>
+File: pdfs/论文2录用.pdf Graphic file (type pdf)
+<use pdfs/论文2录用.pdf, page 1>
+File: pdfs/论文2录用.pdf Graphic file (type pdf)
+<use pdfs/论文2录用.pdf, page 1>
+File: pdfs/论文2录用.pdf Graphic file (type pdf)
+<use pdfs/论文2录用.pdf, page 1>
+File: pdfs/论文2录用.pdf Graphic file (type pdf)
+<use pdfs/论文2录用.pdf, page 1>
+File: pdfs/论文2录用.pdf Graphic file (type pdf)
+<use pdfs/论文2录用.pdf, page 1>
+ [7]
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+File: pdfs/论文5.pdf Graphic file (type pdf)
+<use pdfs/论文5.pdf, page 1>
+ [8]
+File: pdfs/论文1封面.pdf Graphic file (type pdf)
+<use pdfs/论文1封面.pdf>
+File: pdfs/论文1封面.pdf Graphic file (type pdf)
+<use pdfs/论文1封面.pdf>
+File: pdfs/论文1封面.pdf Graphic file (type pdf)
+<use pdfs/论文1封面.pdf, page 1>
+File: pdfs/论文1封面.pdf Graphic file (type pdf)
+<use pdfs/论文1封面.pdf, page 1>
+File: pdfs/论文1封面.pdf Graphic file (type pdf)
+<use pdfs/论文1封面.pdf, page 1>
+File: pdfs/论文1封面.pdf Graphic file (type pdf)
+<use pdfs/论文1封面.pdf, page 1>
+File: pdfs/论文1封面.pdf Graphic file (type pdf)
+<use pdfs/论文1封面.pdf, page 1>
+ [9]
+File: pdfs/论文1.pdf Graphic file (type pdf)
+<use pdfs/论文1.pdf>
+File: pdfs/论文1.pdf Graphic file (type pdf)
+<use pdfs/论文1.pdf>
+File: pdfs/论文1.pdf Graphic file (type pdf)
+<use pdfs/论文1.pdf, page 1>
+File: pdfs/论文1.pdf Graphic file (type pdf)
+<use pdfs/论文1.pdf, page 1>
+File: pdfs/论文1.pdf Graphic file (type pdf)
+<use pdfs/论文1.pdf, page 1>
+File: pdfs/论文1.pdf Graphic file (type pdf)
+<use pdfs/论文1.pdf, page 1>
+File: pdfs/论文1.pdf Graphic file (type pdf)
+<use pdfs/论文1.pdf, page 1>
+ [10]
+File: pdfs/论文3投稿.pdf Graphic file (type pdf)
+<use pdfs/论文3投稿.pdf>
+File: pdfs/论文3投稿.pdf Graphic file (type pdf)
+<use pdfs/论文3投稿.pdf>
+File: pdfs/论文3投稿.pdf Graphic file (type pdf)
+<use pdfs/论文3投稿.pdf, page 1>
+File: pdfs/论文3投稿.pdf Graphic file (type pdf)
+<use pdfs/论文3投稿.pdf, page 1>
+File: pdfs/论文3投稿.pdf Graphic file (type pdf)
+<use pdfs/论文3投稿.pdf, page 1>
+File: pdfs/论文3投稿.pdf Graphic file (type pdf)
+<use pdfs/论文3投稿.pdf, page 1>
+File: pdfs/论文3投稿.pdf Graphic file (type pdf)
+<use pdfs/论文3投稿.pdf, page 1>
+ [11]
+File: pdfs/论文3.pdf Graphic file (type pdf)
+<use pdfs/论文3.pdf>
+File: pdfs/论文3.pdf Graphic file (type pdf)
+<use pdfs/论文3.pdf>
+File: pdfs/论文3.pdf Graphic file (type pdf)
+<use pdfs/论文3.pdf, page 1>
+File: pdfs/论文3.pdf Graphic file (type pdf)
+<use pdfs/论文3.pdf, page 1>
+File: pdfs/论文3.pdf Graphic file (type pdf)
+<use pdfs/论文3.pdf, page 1>
+File: pdfs/论文3.pdf Graphic file (type pdf)
+<use pdfs/论文3.pdf, page 1>
+File: pdfs/论文3.pdf Graphic file (type pdf)
+<use pdfs/论文3.pdf, page 1>
+ [12]
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+File: pdfs/论文6.pdf Graphic file (type pdf)
+<use pdfs/论文6.pdf, page 1>
+ [13]
+File: pdfs/论文7投稿.pdf Graphic file (type pdf)
+<use pdfs/论文7投稿.pdf>
+File: pdfs/论文7投稿.pdf Graphic file (type pdf)
+<use pdfs/论文7投稿.pdf>
+File: pdfs/论文7投稿.pdf Graphic file (type pdf)
+<use pdfs/论文7投稿.pdf, page 1>
+File: pdfs/论文7投稿.pdf Graphic file (type pdf)
+<use pdfs/论文7投稿.pdf, page 1>
+File: pdfs/论文7投稿.pdf Graphic file (type pdf)
+<use pdfs/论文7投稿.pdf, page 1>
+File: pdfs/论文7投稿.pdf Graphic file (type pdf)
+<use pdfs/论文7投稿.pdf, page 1>
+File: pdfs/论文7投稿.pdf Graphic file (type pdf)
+<use pdfs/论文7投稿.pdf, page 1>
+ [14]
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+File: pdfs/论文7.pdf Graphic file (type pdf)
+<use pdfs/论文7.pdf, page 1>
+ [15]
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 1>
+ [16]
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 2>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 2>
+File: pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf Graphic file (type pdf)
+<use pdfs/2022度硕士研究生创新计划项目评选结果公示.pdf, page 2>
+ [17]
 File: figs/计算机二级C.jpg Graphic file (type bmp)
 <figs/计算机二级C.jpg>
 File: figs/计算机二级Python.jpg Graphic file (type bmp)
 <figs/计算机二级Python.jpg>
 File: figs/计算机三级证书.jpg Graphic file (type bmp)
 <figs/计算机三级证书.jpg>
-File: figs/2020-12.jpg Graphic file (type bmp)
-<figs/2020-12.jpg>
-File: figs/2021-12.jpg Graphic file (type bmp)
-<figs/2021-12.jpg>
-File: figs/2022-12.jpg Graphic file (type bmp)
-<figs/2022-12.jpg>
-LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <10.53937> not avail
-able
-(Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-180.
- [1
+ [18]
+File: figs/英语六级.jpg Graphic file (type bmp)
+<figs/英语六级.jpg>
+ [19]
+File: pdfs/成绩单本科.pdf Graphic file (type pdf)
+<use pdfs/成绩单本科.pdf>
+File: pdfs/成绩单本科.pdf Graphic file (type pdf)
+<use pdfs/成绩单本科.pdf>
+File: pdfs/成绩单本科.pdf Graphic file (type pdf)
+<use pdfs/成绩单本科.pdf, page 1>
+File: pdfs/成绩单本科.pdf Graphic file (type pdf)
+<use pdfs/成绩单本科.pdf, page 1>
 
-] [2] [3] (./报名材料.aux)
+[20]
+File: pdfs/成绩单本科.pdf Graphic file (type pdf)
+<use pdfs/成绩单本科.pdf, page 1>
+File: pdfs/成绩单本科.pdf Graphic file (type pdf)
+<use pdfs/成绩单本科.pdf, page 1>
+File: pdfs/成绩单本科.pdf Graphic file (type pdf)
+<use pdfs/成绩单本科.pdf, page 1>
+ [21]
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+File: pdfs/成绩单硕士3.pdf Graphic file (type pdf)
+<use pdfs/成绩单硕士3.pdf, page 1>
+ [22] (./报名材料.aux)
 Package rerunfilecheck Info: File `报名材料.out' has not changed.
-(rerunfilecheck)             Checksum: E22CD1D26292EE2DC479CD8F1327986C;75.
+(rerunfilecheck)             Checksum: AF39A2BA40D114D58F238D724D79BCC6;1141.
  ) 
 Here is how much of TeX's memory you used:
- 18829 strings out of 476179
- 395295 string characters out of 5809545
- 715409 words of memory out of 5000000
- 39268 multiletter control sequences out of 15000+600000
- 471663 words of font info for 69 fonts, out of 8000000 for 9000
+ 19091 strings out of 476179
+ 403466 string characters out of 5809545
+ 727812 words of memory out of 5000000
+ 39485 multiletter control sequences out of 15000+600000
+ 471727 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,5n,97p,465b,417s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,17n,97p,465b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 报名材料.pdf (5 pages).
+Output written on 报名材料.pdf (24 pages).

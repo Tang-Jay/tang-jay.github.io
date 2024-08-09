@@ -5,8 +5,47 @@
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OOD学习</title>
+      <link>/cn/2024/08/02/ood/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2024/08/02/ood/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="sharon-li">Sharon Li</h2>
+<table>
+<thead>
+<tr>
+<th>网页</th>
+<th style="text-align:left">链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主页</td>
+<td style="text-align:left"><a href="https://pages.cs.wisc.edu/~sharonli/index.html">Sharon Li - UW Madison Computer Sciences</a></td>
+</tr>
+<tr>
+<td>代码</td>
+<td style="text-align:left"><a href="https://github.com/deeplearning-wisc/knn-ood">deeplearning-wisc/knn-ood: Code for ICML 2022 paper &ldquo;Out-of-distribution Detection with Deep Nearest Neighbors&rdquo;</a></td>
+</tr>
+<tr>
+<td>github</td>
+<td style="text-align:left"><a href="https://github.com/yixuanli">YixuanLi (Sharon Y. Li)</a></td>
+</tr>
+</tbody>
+</table>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>

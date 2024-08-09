@@ -904,7 +904,25 @@ src="/songs/忽然之间_郑钧.mp3">
       <guid>/cn/2022/08/11/todo/</guid>
       <description>
         <![CDATA[
-        <h2 id="人文">人文</h2>
+        <h2 id="成长">成长</h2>
+<ol>
+<li><input disabled="" type="checkbox"> 《神奇的链接组：你的大脑可以改变》<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li><input checked="" disabled="" type="checkbox"> 《效率脑科学》</li>
+<li><input checked="" disabled="" type="checkbox"> 《认知觉醒》<a href="https://qweree.cn/index.php/510/"><em>下载</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《世界小史》<a href="/cn/2022/08/15/wuxiujie/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《人类简史-从动物到上帝》<a href="/cn/2022/08/15/linjunhong/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《哲学家们都干了些什么》<a href="/cn/2022/08/15/linxinhao/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《蛤蟆先生去看心理医生》<a href="/cn/2022/08/15/chenying/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《阅读、游历和爱情》<a href="/cn/2022/08/15/laingyongan/"><em>笔记</em></a></li>
+<li><input checked="" disabled="" type="checkbox"> 《从一到无穷大》<a href="/cn/2022/08/15/yangxi/"><em>笔记</em></a></li>
+</ol>
+<h2 id="名人">名人</h2>
+<ol>
+<li><input checked="" disabled="" type="checkbox"> 《爱因斯坦传》</li>
+<li><input checked="" disabled="" type="checkbox"> 《李鸿章家族》</li>
+<li><input checked="" disabled="" type="checkbox"> 《杨绛传》<a href="/cn/2022/06/26/yangjiang/"><em>笔记</em></a></li>
+</ol>
+<h2 id="文学">文学</h2>
 <ol>
 <li><input disabled="" type="checkbox"> 《理想国》</li>
 <li><input disabled="" type="checkbox"> 《大英博物馆世界简史》</li>
@@ -912,20 +930,11 @@ src="/songs/忽然之间_郑钧.mp3">
 <li><input disabled="" type="checkbox"> 《光明之光》<a href="https://book.douban.com/subject/26989163/"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《棋王》</li>
 <li><input checked="" disabled="" type="checkbox"> 《谈美》</li>
-<li><input disabled="" type="checkbox"> 《人生的进度条就该缓缓》<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li><input disabled="" type="checkbox"> 《人生的进度条就该缓缓》<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
 <li><input disabled="" type="checkbox"> 《走自己的路，戴自己的花》</li>
 <li><input disabled="" type="checkbox"> 《人看多了，还是书好看呀》</li>
 <li><input checked="" disabled="" type="checkbox"> 《一只特立独行的猪》</li>
-<li><input checked="" disabled="" type="checkbox"> 《爱因斯坦传》</li>
-<li><input checked="" disabled="" type="checkbox"> 《李鸿章家族》</li>
 <li><input checked="" disabled="" type="checkbox"> 《大话西方艺术史》<a href="/cn/2022/08/15/yigongzi/"><em>笔记</em></a></li>
-<li><input checked="" disabled="" type="checkbox"> 《世界小史》<a href="/cn/2022/08/15/wuxiujie/"><em>笔记</em></a></li>
-<li><input checked="" disabled="" type="checkbox"> 《人类简史-从动物到上帝》<a href="/cn/2022/08/15/linjunhong/"><em>笔记</em></a></li>
-<li><input checked="" disabled="" type="checkbox"> 《哲学家们都干了些什么》<a href="/cn/2022/08/15/linxinhao/"><em>笔记</em></a></li>
-<li><input checked="" disabled="" type="checkbox"> 《蛤蟆先生去看心理医生》<a href="/cn/2022/08/15/chenying/"><em>笔记</em></a></li>
-<li><input checked="" disabled="" type="checkbox"> 《阅读、游历和爱情》<a href="/cn/2022/08/15/laingyongan/"><em>笔记</em></a></li>
-<li><input checked="" disabled="" type="checkbox"> 《杨绛传》<a href="/cn/2022/06/26/yangjiang/"><em>笔记</em></a></li>
-<li><input checked="" disabled="" type="checkbox"> 《从一到无穷大》<a href="/cn/2022/08/15/yangxi/"><em>笔记</em></a></li>
 </ol>
 <h2 id="数学">数学</h2>
 <ol>
@@ -935,11 +944,7 @@ src="/songs/忽然之间_郑钧.mp3">
 <li><input disabled="" type="checkbox"> 《计算之魂》<a href="https://book.douban.com/subject/35641088/?dt_dapp=1"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《数学之美》<a href="https://book.douban.com/subject/26163454/"><em>介绍</em></a></li>
 <li><input checked="" disabled="" type="checkbox"> 《浪潮之巅》<a href="https://book.douban.com/subject/33474750/"><em>介绍</em></a></li>
-<li><input disabled="" type="checkbox"> 《数学女孩6：庞加莱猜想》<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
-</ol>
-<h2 id="脑科学">脑科学</h2>
-<ol>
-<li><input disabled="" type="checkbox"> 《神奇的链接组：你的大脑可以改变》<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+<li><input disabled="" type="checkbox"> 《数学女孩6：庞加莱猜想》<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
 </ol>
 <h2 id="程序员数学-4">程序员数学<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2>
 <ol>
@@ -1039,10 +1044,10 @@ src="/songs/忽然之间_郑钧.mp3">
 <hr>
 <ol>
 <li id="fn:1">
-<p>公众号：<em>书单来了</em>。<a href="https://mp.weixin.qq.com/s/Ni3g4R6Oax3A5VuMuSv-Og">超级内卷的时代，文坛大师教你“躺平哲学”</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s/0XaSA2SAtjO-AZvDQIR5QA">9月书单</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s/0XaSA2SAtjO-AZvDQIR5QA">9月书单</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>公众号：<em>书单来了</em>。<a href="https://mp.weixin.qq.com/s/Ni3g4R6Oax3A5VuMuSv-Og">超级内卷的时代，文坛大师教你“躺平哲学”</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
 <p>公众号：<em>图灵教育</em>。<a href="https://mp.weixin.qq.com/s?__biz=MjM5Njc0MjIwMA==&amp;mid=2649727621&amp;idx=2&amp;sn=08ad32e93fbdeac6a4ff352e323218b7&amp;chksm=beff97d289881ec4c230ee8b9c7e57254d03a088e198c2e1b2f8c95ebd0b344581e8af071507&amp;cur_album_id=1915222561131429892&amp;scene=189#wechat_redirect">书单 | 专为程序员而写的数学书</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>

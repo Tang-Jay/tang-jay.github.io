@@ -1,4 +1,4 @@
-{{ if and (not (eq .Site.DisqusShortname "")) (and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content))) }}
+{{ if and (not (eq .Site.Params.disqusShortname "")) (and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content))) }}
 <section class="comments">
   <div class="tabs" style="display: none;">
   <input name="tabs" type="radio" id="tab-1" checked class="input"/>

@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>论文 on Tan Jay | 唐 洁</title>
-    <link>/tags/%E8%AE%BA%E6%96%87/</link>
+    <link>//localhost:1313/tags/%E8%AE%BA%E6%96%87/</link>
     <description>Recent content in 论文 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E8%AE%BA%E6%96%87/" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E8%AE%BA%E6%96%87/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OOD学习</title>
-      <link>/cn/2024/08/02/ood/</link>
+      <link>//localhost:1313/cn/2024/08/02/ood/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/08/02/ood/</guid>
+      <guid>//localhost:1313/cn/2024/08/02/ood/</guid>
       <description>
         <![CDATA[
         <h2 id="sharon-li">Sharon Li</h2>
@@ -50,10 +50,10 @@
     
     <item>
       <title>专家</title>
-      <link>/cn/2023/08/15/dr/</link>
+      <link>//localhost:1313/cn/2023/08/15/dr/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/dr/</guid>
+      <guid>//localhost:1313/cn/2023/08/15/dr/</guid>
       <description>
         <![CDATA[
         <h3 id="王建军-http-math-swu-edu-cn-info-1019-2612-htm"><a href="http://math.swu.edu.cn/info/1019/2612.htm">王建军</a></h3>
@@ -73,10 +73,10 @@
     
     <item>
       <title>李红权</title>
-      <link>/cn/2023/08/15/dr.li/</link>
+      <link>//localhost:1313/cn/2023/08/15/dr.li/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/dr.li/</guid>
+      <guid>//localhost:1313/cn/2023/08/15/dr.li/</guid>
       <description>
         <![CDATA[
         <h2 id="李红权-https-sxy-hunnu-edu-cn-info-1054-2670-htm"><a href="https://sxy.hunnu.edu.cn/info/1054/2670.htm">李红权</a></h2>
@@ -106,10 +106,10 @@
     
     <item>
       <title>蔡宗武</title>
-      <link>/cn/2023/08/15/dr.zong/</link>
+      <link>//localhost:1313/cn/2023/08/15/dr.zong/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/dr.zong/</guid>
+      <guid>//localhost:1313/cn/2023/08/15/dr.zong/</guid>
       <description>
         <![CDATA[
         <h2 id="蔡宗武">蔡宗武</h2>
@@ -141,10 +141,10 @@
     
     <item>
       <title>NBEL</title>
-      <link>/cn/2022/12/02/nbel/</link>
+      <link>//localhost:1313/cn/2022/12/02/nbel/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/12/02/nbel/</guid>
+      <guid>//localhost:1313/cn/2022/12/02/nbel/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -182,10 +182,10 @@
     
     <item>
       <title>知识版图扩建</title>
-      <link>/cn/2022/11/29/xuwangli/</link>
+      <link>//localhost:1313/cn/2022/11/29/xuwangli/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/xuwangli/</guid>
+      <guid>//localhost:1313/cn/2022/11/29/xuwangli/</guid>
       <description>
         <![CDATA[
         <h2 id="课外拓展">课外拓展</h2>
@@ -258,10 +258,10 @@
     
     <item>
       <title>高维在读论文</title>
-      <link>/cn/2022/11/29/higdimen/</link>
+      <link>//localhost:1313/cn/2022/11/29/higdimen/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/higdimen/</guid>
+      <guid>//localhost:1313/cn/2022/11/29/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- <font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
@@ -374,10 +374,10 @@
     
     <item>
       <title>空间文献摘录</title>
-      <link>/cn/2022/10/21/spamodel/</link>
+      <link>//localhost:1313/cn/2022/10/21/spamodel/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/21/spamodel/</guid>
+      <guid>//localhost:1313/cn/2022/10/21/spamodel/</guid>
       <description>
         <![CDATA[
         <h2 id="空间模型">空间模型</h2>
@@ -405,10 +405,10 @@
     
     <item>
       <title>面板文献摘录</title>
-      <link>/cn/2022/10/20/panempir/</link>
+      <link>//localhost:1313/cn/2022/10/20/panempir/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/20/panempir/</guid>
+      <guid>//localhost:1313/cn/2022/10/20/panempir/</guid>
       <description>
         <![CDATA[
         <h2 id="面板数据-https-xs2-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-panel-data-btng"><a href="https://xs2.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=panel+data&amp;btnG=">面板数据</a></h2>
@@ -464,10 +464,10 @@
     
     <item>
       <title>高维可尝试方向</title>
-      <link>/cn/2022/10/17/higdim/</link>
+      <link>//localhost:1313/cn/2022/10/17/higdim/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/17/higdim/</guid>
+      <guid>//localhost:1313/cn/2022/10/17/higdim/</guid>
       <description>
         <![CDATA[
         <h2 id="高维问题">高维问题</h2>
@@ -500,10 +500,10 @@
     
     <item>
       <title>高维文献摘录</title>
-      <link>/cn/2022/10/16/higdimen/</link>
+      <link>//localhost:1313/cn/2022/10/16/higdimen/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/16/higdimen/</guid>
+      <guid>//localhost:1313/cn/2022/10/16/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- 
@@ -682,10 +682,10 @@
     
     <item>
       <title>对称矩阵</title>
-      <link>/cn/2022/09/22/symmatrix/</link>
+      <link>//localhost:1313/cn/2022/09/22/symmatrix/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/22/symmatrix/</guid>
+      <guid>//localhost:1313/cn/2022/09/22/symmatrix/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -735,10 +735,10 @@
     
     <item>
       <title>秦导推荐</title>
-      <link>/cn/2022/09/21/qinrecom/</link>
+      <link>//localhost:1313/cn/2022/09/21/qinrecom/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/21/qinrecom/</guid>
+      <guid>//localhost:1313/cn/2022/09/21/qinrecom/</guid>
       <description>
         <![CDATA[
         <h2 id="老师手稿">老师手稿</h2>
@@ -770,10 +770,10 @@
     
     <item>
       <title>论文英语</title>
-      <link>/cn/2022/07/26/paper_skill/</link>
+      <link>//localhost:1313/cn/2022/07/26/paper_skill/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/07/26/paper_skill/</guid>
+      <guid>//localhost:1313/cn/2022/07/26/paper_skill/</guid>
       <description>
         <![CDATA[
         <h2 id="原则">原则</h2>

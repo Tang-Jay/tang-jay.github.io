@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>清单 on Tan Jay | 唐 洁</title>
-    <link>/tags/%E6%B8%85%E5%8D%95/</link>
+    <link>//localhost:1313/tags/%E6%B8%85%E5%8D%95/</link>
     <description>Recent content in 清单 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E6%B8%85%E5%8D%95/" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E6%B8%85%E5%8D%95/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>八月安排表</title>
-      <link>/cn/2023/08/01/plan/</link>
+      <link>//localhost:1313/cn/2023/08/01/plan/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/01/plan/</guid>
+      <guid>//localhost:1313/cn/2023/08/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -280,10 +280,10 @@
     
     <item>
       <title>七月安排表</title>
-      <link>/cn/2023/07/01/plan/</link>
+      <link>//localhost:1313/cn/2023/07/01/plan/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/07/01/plan/</guid>
+      <guid>//localhost:1313/cn/2023/07/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -532,10 +532,10 @@
     
     <item>
       <title>六月安排表(下)</title>
-      <link>/cn/2023/06/22/plan/</link>
+      <link>//localhost:1313/cn/2023/06/22/plan/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/22/plan/</guid>
+      <guid>//localhost:1313/cn/2023/06/22/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-下">计划清单 (下)</h2>
@@ -640,10 +640,10 @@
     
     <item>
       <title>六月安排表(上)</title>
-      <link>/cn/2023/06/01/plan/</link>
+      <link>//localhost:1313/cn/2023/06/01/plan/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/01/plan/</guid>
+      <guid>//localhost:1313/cn/2023/06/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-上">计划清单 (上)</h2>
@@ -845,10 +845,10 @@
     
     <item>
       <title>五月底计划表</title>
-      <link>/cn/2023/05/31/plan/</link>
+      <link>//localhost:1313/cn/2023/05/31/plan/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/05/31/plan/</guid>
+      <guid>//localhost:1313/cn/2023/05/31/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="第一周">第一周</h2>
@@ -944,10 +944,10 @@
     
     <item>
       <title>雅思</title>
-      <link>/cn/2022/09/01/ielts/</link>
+      <link>//localhost:1313/cn/2022/09/01/ielts/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/01/ielts/</guid>
+      <guid>//localhost:1313/cn/2022/09/01/ielts/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -1033,10 +1033,10 @@
     
     <item>
       <title>书单</title>
-      <link>/cn/2022/08/11/todo/</link>
+      <link>//localhost:1313/cn/2022/08/11/todo/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/11/todo/</guid>
+      <guid>//localhost:1313/cn/2022/08/11/todo/</guid>
       <description>
         <![CDATA[
         <h2 id="成长">成长</h2>
@@ -1208,10 +1208,10 @@
     
     <item>
       <title>推文</title>
-      <link>/cn/2022/08/02/webpages/</link>
+      <link>//localhost:1313/cn/2022/08/02/webpages/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/02/webpages/</guid>
+      <guid>//localhost:1313/cn/2022/08/02/webpages/</guid>
       <description>
         <![CDATA[
         <h2 id="一些有用的网文">一些有用的网文</h2>
@@ -1349,10 +1349,10 @@
     
     <item>
       <title>影单</title>
-      <link>/cn/2022/07/13/films/</link>
+      <link>//localhost:1313/cn/2022/07/13/films/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/07/13/films/</guid>
+      <guid>//localhost:1313/cn/2022/07/13/films/</guid>
       <description>
         <![CDATA[
         <h2 id="电影">电影</h2>

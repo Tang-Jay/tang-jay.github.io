@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>秦导 on Tan Jay | 唐 洁</title>
-    <link>/tags/%E7%A7%A6%E5%AF%BC/</link>
+    <link>//localhost:1313/tags/%E7%A7%A6%E5%AF%BC/</link>
     <description>Recent content in 秦导 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E7%A7%A6%E5%AF%BC/" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E7%A7%A6%E5%AF%BC/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>记一次腾讯会议</title>
-      <link>/cn/2023/04/03/meeting/</link>
+      <link>//localhost:1313/cn/2023/04/03/meeting/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/04/03/meeting/</guid>
+      <guid>//localhost:1313/cn/2023/04/03/meeting/</guid>
       <description>
         <![CDATA[
         <p>今日周一，老师如以往一样很认真地给了我论文修改的意见。老师的风格就是干净利落，简洁明快，这基于老师看过思考过，才可以在会议上这么快速准确地找出论文存在的问题。可每一次，跟老师无论是长还是短地交涉之后，我总是要花点时间去平复一下心绪。并不是老师说了什么批评我的话，相反，他总是能站在你的角度考虑问题，共情到你的感受，并给出适合你的建议，一语中的，掷地有声。</p>
@@ -31,10 +31,10 @@
     
     <item>
       <title>磨砺</title>
-      <link>/cn/2023/03/04/loser/</link>
+      <link>//localhost:1313/cn/2023/03/04/loser/</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/03/04/loser/</guid>
+      <guid>//localhost:1313/cn/2023/03/04/loser/</guid>
       <description>
         <![CDATA[
         <p>从备考开始，就好像未婚却秘密怀孕了一样，激动紧张又恐惧。激动是因为这是我做梦都不敢想的事情，我一个草根，一个三流学生，竟然能报名人民大学的博士，如果能考上，祖坟真的是要冒青烟了。紧张大概是踏出自己的舒适圈，从一个小地方到大城市，从一个热闹的小巷到肃穆的街道，从和蔼和亲的是师朋好友到铁面无私的面试官们，自己却没有做到踏出舒适圈充足的准备，例如，专业不够精(统计很多经典的书，我都没有读过，或者没读透)，涉猎不够广(MCMC、统计建模、信息论领域、统计推断在经济领域生物领域的应用、数学或统计领域最新成果等等)。恐惧是未来不确定性所带来的慌张，自己的状态没有打满却要与人进行搏斗，等待搏斗的过程中，却不知那人何时何地出现、力量、技能是什么，自己是否有胜算的可能。</p>
@@ -50,10 +50,10 @@
     
     <item>
       <title>都在同一天</title>
-      <link>/cn/2022/10/19/day/</link>
+      <link>//localhost:1313/cn/2022/10/19/day/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/19/day/</guid>
+      <guid>//localhost:1313/cn/2022/10/19/day/</guid>
       <description>
         <![CDATA[
         <p>老妈今天考过了科三，带点轻微的发烧。老师今天在育才授课，带点拇指的戳伤。</p>
@@ -74,10 +74,10 @@
     
     <item>
       <title>秦导推荐</title>
-      <link>/cn/2022/09/21/qinrecom/</link>
+      <link>//localhost:1313/cn/2022/09/21/qinrecom/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/21/qinrecom/</guid>
+      <guid>//localhost:1313/cn/2022/09/21/qinrecom/</guid>
       <description>
         <![CDATA[
         <h2 id="老师手稿">老师手稿</h2>
@@ -109,10 +109,10 @@
     
     <item>
       <title>老师说：“没关系。”</title>
-      <link>/cn/2022/09/01/tutor/</link>
+      <link>//localhost:1313/cn/2022/09/01/tutor/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/01/tutor/</guid>
+      <guid>//localhost:1313/cn/2022/09/01/tutor/</guid>
       <description>
         <![CDATA[
         <p>放松<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
@@ -137,10 +137,10 @@
     
     <item>
       <title>偷懒被抓包，糗</title>
-      <link>/cn/2022/07/18/tutor/</link>
+      <link>//localhost:1313/cn/2022/07/18/tutor/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/07/18/tutor/</guid>
+      <guid>//localhost:1313/cn/2022/07/18/tutor/</guid>
       <description>
         <![CDATA[
         <p>回家半个月了<br>
@@ -207,10 +207,10 @@
     
     <item>
       <title>秦导语录</title>
-      <link>/cn/2022/07/13/tutor/</link>
+      <link>//localhost:1313/cn/2022/07/13/tutor/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/07/13/tutor/</guid>
+      <guid>//localhost:1313/cn/2022/07/13/tutor/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -296,10 +296,10 @@
     
     <item>
       <title>离开老师办公室之后(二)</title>
-      <link>/cn/2022/06/28/tutor/</link>
+      <link>//localhost:1313/cn/2022/06/28/tutor/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/06/28/tutor/</guid>
+      <guid>//localhost:1313/cn/2022/06/28/tutor/</guid>
       <description>
         <![CDATA[
         <p>今天准备去见老师 看到老师有事在忙 本来打算溜了 结果人还没撤退 就在楼梯口被老师逮到了 老师见到我 面带笑容 眼神里还有点小星星 （老师爱笑 所以 我真觉得老师待人很温柔）</p>
@@ -318,10 +318,10 @@
     
     <item>
       <title>离开老师办公室之后(一)</title>
-      <link>/cn/2022/06/13/tutor/</link>
+      <link>//localhost:1313/cn/2022/06/13/tutor/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/06/13/tutor/</guid>
+      <guid>//localhost:1313/cn/2022/06/13/tutor/</guid>
       <description>
         <![CDATA[
         <p>每次见<a href="https://baike.baidu.com/item/%E7%A7%A6%E6%B0%B8%E6%9D%BE/8349515?fr=aladdin">老师</a>前都很紧张<br>
@@ -369,10 +369,10 @@
     
     <item>
       <title>秦老师的回信</title>
-      <link>/cn/2021/09/10/tutor/</link>
+      <link>//localhost:1313/cn/2021/09/10/tutor/</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2021/09/10/tutor/</guid>
+      <guid>//localhost:1313/cn/2021/09/10/tutor/</guid>
       <description>
         <![CDATA[
         <h2 id="感恩我的老师-对我们温柔以待">感恩我的老师，对我们温柔以待。</h2>

@@ -1,20 +1,936 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学习志 on Tan Jay | 唐 洁</title>
-    <link>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</link>
+    <link>//localhost:1313/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</link>
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DRO研究梳理</title>
+      <link>//localhost:1313/cn/2025/02/27/dro/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2025/02/27/dro/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>Distribution Shift 与 Distribution Robust Optimization 之间的关系为：问题与方法。</p>
+</blockquote>
+<hr>
+<h2 id="现实问题">现实问题</h2>
+<p>在机器学习中，<strong>Distribution Shift（分布偏移）</strong> 是指模型在训练阶段使用的数据分布与测试阶段（或实际部署时）的数据分布不一致的现象。这种不一致性可能导致<strong>模型在实际应用中出现性能下降</strong>，因为模型假设训练数据和测试数据来自同一分布的前提被打破。</p>
+<h3 id="distribution-shift-的常见类型">Distribution Shift 的常见类型</h3>
+<ol>
+<li>
+<p><strong>协变量偏移（Covariate Shift）</strong></p>
+<ul>
+<li><strong>问题</strong>：输入特征（X）的分布发生变化，但标签条件分布（P(Y|X)）保持不变。</li>
+<li><strong>例子</strong>：训练数据是白天的街景图片，而测试数据是夜间图片。</li>
+</ul>
+</li>
+<li>
+<p><strong>标签偏移（Label Shift）</strong></p>
+<ul>
+<li><strong>问题</strong>：标签（Y）的分布发生变化，但特征条件分布（P(X|Y)）保持不变。</li>
+<li><strong>例子</strong>：训练时疾病诊断数据中健康样本占多数，但测试时患病样本占多数。</li>
+</ul>
+</li>
+<li>
+<p><strong>概念偏移（Concept Shift）</strong></p>
+<ul>
+<li><strong>问题</strong>：输入特征和标签的映射关系（P(Y|X)）发生变化。</li>
+<li><strong>例子</strong>：用户对“好电影”的定义随时间变化（如评分标准改变）。</li>
+</ul>
+</li>
+<li>
+<p><strong>系统性偏移（Systematic Shift）</strong></p>
+<ul>
+<li><strong>问题</strong>：数据生成机制发生变化。</li>
+<li><strong>例子</strong>：传感器校准改变或采集环境变化。</li>
+</ul>
+</li>
+</ol>
+<h2 id="解决方案">解决方案</h2>
+<p>针对 Distribution Shift 问题，Distribution Robust Optimization 是对应的解决方案：一种优化框架，旨在直接建模分布的不确定性，通过最坏情况（Worst-Case）优化，使模型对潜在的分布偏移具有鲁棒性。二者关系更详细的阐述可见<a href="/cn/2025/02/27/shift/">此处</a>。</p>
+<h3 id="dro-的数学目标"><strong>DRO 的数学目标</strong></h3>
+<p>DRO 的优化目标不是最小化训练数据分布（即经验分布）上的风险，而是最小化<strong>某个不确定性集合（Uncertainty Set）内所有可能分布的最大风险</strong>：
+<code>$ \min_{\theta} \max_{Q \in \mathcal{Q}} \mathbb{E}_{(x,y) \sim Q} [\mathcal{L}(f_\theta(x), y)] $</code></p>
+<p>其中：</p>
+<ul>
+<li><code>$\mathcal{Q}$</code> 是围绕训练数据分布 <code>$P_{\text{train}}$</code> 构建的分布集合（如 Wasserstein 球内的分布）。</li>
+<li><strong>目标</strong>：通过优化最坏情况（<code>$\max_{Q}$</code>）的损失，确保模型在分布偏移时依然稳定。</li>
+</ul>
+<h3 id="挑战与难题"><strong>挑战与难题</strong></h3>
+<ol>
+<li>
+<p><strong>不确定性集合的设计</strong>：如何合理定义分布集合 <code>$\mathcal{Q}$</code>（如选择距离度量、半径大小）。若 <code>$\mathcal{Q}$</code> 过小，无法覆盖实际偏移；若过大，模型可能过于保守，导致性能下降；若测试分布完全超出 <code>$\mathcal{Q}$</code> 的覆盖范围（如从自然图像转移到抽象艺术），DRO 的鲁棒性保证失效。</p>
+</li>
+<li>
+<p><strong>计算复杂性</strong>：DRO 需要求解内层的 <code>$\max_{Q}$</code> 优化问题，可能带来较高的计算成本（尤其对高维数据）。</p>
+</li>
+</ol>
+<h2 id="历史已有研究方法">历史已有研究方法</h2>
+<h4 id="纵向回顾-时间线">纵向回顾（时间线）</h4>
+<h3 id="应对-distribution-shift-的研究方法"><strong>应对 Distribution Shift 的研究方法</strong></h3>
+<h4 id="1-检测与诊断">1. <strong>检测与诊断</strong> （✅）</h4>
+<ul>
+<li><strong>统计检验</strong>：使用 KL 散度、最大均值差异（MMD）或假设检验（如卡方检验）量化分布差异。</li>
+<li><strong>模型性能监控</strong>：实时监测模型在测试环境中的性能下降，触发重新训练或报警。</li>
+</ul>
+<h4 id="2-分布适应-domain-adaptation">2. <strong>分布适应（Domain Adaptation）</strong></h4>
+<ul>
+<li><strong>无监督域适应（Unsupervised DA）</strong>：在目标域无标签的情况下，对齐源域和目标域的特征分布（如通过对抗训练、域混淆损失）。</li>
+<li><strong>重要性加权（Importance Weighting）</strong>：对训练样本加权，使源域数据在目标域分布下重新加权（如通过密度比率估计）。</li>
+<li><strong>特征对齐</strong>：学习域不变特征表示（如使用对抗网络或领域特定归一化）。</li>
+</ul>
+<h4 id="3-鲁棒性增强">3. <strong>鲁棒性增强</strong></h4>
+<ul>
+<li><strong>数据增强</strong>：通过合成多样化数据（如对抗样本生成、风格迁移）覆盖潜在的分布变化。</li>
+<li><strong>对抗训练</strong>：在训练中引入扰动，增强模型对输入变化的鲁棒性。</li>
+<li><strong>不变性学习</strong>：强制模型学习与分布无关的特征（如因果推断中的不变性假设）。</li>
+</ul>
+<h4 id="4-动态适应与在线学习">4. <strong>动态适应与在线学习</strong></h4>
+<ul>
+<li><strong>持续学习（Continual Learning）</strong>：在部署过程中持续更新模型，适应新分布。</li>
+<li><strong>元学习（Meta-Learning）</strong>：学习一个能快速适应新分布的初始化模型（如 MAML）。</li>
+</ul>
+<h4 id="5-不确定性估计">5. <strong>不确定性估计</strong> （✅）</h4>
+<ul>
+<li><strong>校准置信度</strong>：使用温度缩放（Temperature Scaling）或贝叶斯方法校准模型预测的不确定性。</li>
+<li><strong>拒绝机制</strong>：对低置信度的样本拒绝预测，避免分布外的错误。</li>
+</ul>
+<h4 id="6-因果推断方法">6. <strong>因果推断方法</strong></h4>
+<ul>
+<li><strong>因果特征学习</strong>：基于因果图识别稳定特征（如干预不变性），减少对虚假相关性的依赖。</li>
+<li><strong>反事实增强</strong>：生成反事实样本，增强模型对分布变化的泛化能力。</li>
+</ul>
+<h4 id="7-半监督与自监督学习">7. <strong>半监督与自监督学习</strong></h4>
+<ul>
+<li><strong>利用目标域未标注数据</strong>：通过自监督预训练（如对比学习）提取目标域特征。</li>
+<li><strong>伪标签（Pseudo-Labeling）</strong>：用模型对目标域数据生成伪标签进行微调。</li>
+</ul>
+<h3 id="横向回顾-个人线">横向回顾（个人线）</h3>
+<h4 id="duchi">Duchi</h4>
+<h4 id="candes">Candes</h4>
+<h2 id="未来可行研究方向">未来可行研究方向</h2>
+<ul>
+<li><strong>数据高效适应</strong>：如何在目标域标注数据极少时有效适应。</li>
+<li><strong>实时性要求</strong>：动态环境（如自动驾驶）中模型的快速适应能力。</li>
+<li><strong>可解释性</strong>：诊断分布偏移的具体原因（如特征级偏移 vs. 标签级偏移）。</li>
+<li><strong>多源迁移</strong>：从多个源域迁移知识到目标域。</li>
+</ul>
+<p>Distribution Shift 是实际部署中的核心挑战之一，研究需结合具体场景（如医疗、金融、自动驾驶）的特点，设计针对性的解决方案。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>不确定量化</title>
+      <link>//localhost:1313/cn/2025/02/27/uc/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2025/02/27/uc/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="不确定量化">不确定量化</h1>
+<h2 id="与分布偏移的关系">与分布偏移的关系</h2>
+<p>不确定量化（Uncertainty Quantification）与分布偏移（Distribution Shift）在机器学习中是紧密相关的两个问题。它们的关系可以从以下几个方面理解：</p>
+<hr>
+<h3 id="1-分布偏移会引发模型的不确定性变化"><strong>1. 分布偏移会引发模型的不确定性变化</strong></h3>
+<ul>
+<li><strong>现象</strong>：当模型遇到分布外的数据（即测试数据分布与训练数据不同）时，其预测的<strong>不确定性（如置信度、方差）通常会显著增加</strong>，甚至可能给出错误的“过度自信”预测。</li>
+<li><strong>意义</strong>：
+<ul>
+<li>不确定性可以作为<strong>分布偏移的检测信号</strong>。例如，模型对某些样本的预测不确定性突然升高，可能暗示这些样本来自新分布（即发生了分布偏移）。</li>
+<li>在分布偏移场景中，<strong>校准不确定性</strong>（即确保模型输出的置信度与真实准确率匹配）尤为重要。未校准的不确定性会导致误导性决策（如自动驾驶中对陌生场景的过度自信）。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="2-不确定性量化是应对分布偏移的关键工具"><strong>2. 不确定性量化是应对分布偏移的关键工具</strong></h3>
+<h4 id="1-检测分布偏移"><strong>(1) 检测分布偏移</strong></h4>
+<ul>
+<li><strong>方法</strong>：通过模型输出的不确定性（如预测熵、方差、置信度）判断样本是否来自新分布。
+<ul>
+<li>例如：使用<strong>离群检测</strong>（Out-of-Distribution Detection），若模型对某样本的预测熵远高于训练数据，则可能属于分布外样本。</li>
+<li>工具：蒙特卡洛 Dropout（MC Dropout）、深度集成（Deep Ensemble）等方法可估计模型的不确定性。</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-自适应决策"><strong>(2) 自适应决策</strong></h4>
+<ul>
+<li><strong>拒绝机制</strong>：当模型对某样本的不确定性超过阈值时，拒绝预测并交由人工处理（如医疗诊断中的高风险案例）。</li>
+<li><strong>动态资源分配</strong>：在边缘计算中，对高不确定性样本分配更多计算资源（如调用更复杂的模型）。</li>
+</ul>
+<h4 id="3-鲁棒模型训练"><strong>(3) 鲁棒模型训练</strong></h4>
+<ul>
+<li><strong>对抗训练</strong>：通过最大化模型在扰动样本上的不确定性，增强对分布偏移的鲁棒性。</li>
+<li><strong>不确定性正则化</strong>：在损失函数中加入不确定性惩罚项，防止模型对训练分布过拟合。</li>
+</ul>
+<hr>
+<h3 id="3-分布偏移挑战不确定性量化的可靠性"><strong>3. 分布偏移挑战不确定性量化的可靠性</strong></h3>
+<ul>
+<li><strong>问题</strong>：传统不确定性估计方法（如贝叶斯神经网络）通常假设训练和测试数据同分布，但在分布偏移下可能失效。
+<ul>
+<li>例如：模型可能对分布外样本给出<strong>错误的高置信度</strong>（即“自信的错误”）。</li>
+</ul>
+</li>
+<li><strong>解决方法</strong>：
+<ul>
+<li><strong>领域自适应不确定性校准</strong>：在目标域数据（即使无标签）上重新校准模型的不确定性（如使用温度缩放）。</li>
+<li><strong>因果不确定性建模</strong>：分离不确定性中与分布偏移无关的因果因素（如物体形状）和相关的非因果因素（如背景颜色）。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="4-实际应用中的协同作用"><strong>4. 实际应用中的协同作用</strong></h3>
+<h4 id="案例1-自动驾驶"><strong>案例1：自动驾驶</strong></h4>
+<ul>
+<li><strong>分布偏移</strong>：训练数据多为晴天场景，测试时遇到暴雨。</li>
+<li><strong>不确定性量化</strong>：模型对雨天图像预测的不确定性升高，触发安全模式（如降速或提醒驾驶员接管）。</li>
+</ul>
+<h4 id="案例2-医疗诊断"><strong>案例2：医疗诊断</strong></h4>
+<ul>
+<li><strong>分布偏移</strong>：训练数据来自年轻患者，测试数据为老年患者。</li>
+<li><strong>不确定性量化</strong>：模型对老年患者的预测给出高不确定性，提示医生需结合其他检查。</li>
+</ul>
+<hr>
+<h3 id="5-研究方法与前沿方向"><strong>5. 研究方法与前沿方向</strong></h3>
+<ul>
+<li><strong>不确定性校准 + 分布适应</strong><br>
+结合领域自适应（Domain Adaptation）技术，在适应目标域分布的同时校准不确定性（如 <a href="https://arxiv.org/abs/2207.01587">CAN</a> 方法）。</li>
+<li><strong>贝叶斯方法与分布鲁棒优化</strong>（✅）<br>
+使用贝叶斯神经网络或分布鲁棒优化（DRO）直接建模分布偏移下的不确定性。</li>
+<li><strong>因果不确定性分解</strong><br>
+从因果视角区分不确定性的来源（如 <a href="https://arxiv.org/abs/1907.02893">Invariant Risk Minimization</a>）。</li>
+</ul>
+<hr>
+<h3 id="总结关系"><strong>总结关系</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>不确定性量化</strong></th>
+<th><strong>分布偏移</strong></th>
+<th><strong>交互作用</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测信号</td>
+<td>诱因</td>
+<td>通过不确定性升高<strong>预警分布偏移</strong></td>
+</tr>
+<tr>
+<td>决策依据</td>
+<td>应对手段</td>
+<td>基于不确定性<strong>动态调整</strong>模型行为</td>
+</tr>
+<tr>
+<td>校准目标</td>
+<td>挑战</td>
+<td>分布偏移可能导致未校准的不确定性</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="关键要点"><strong>关键要点</strong></h3>
+<ul>
+<li>不确定性量化是<strong>检测和缓解分布偏移的核心工具</strong>。</li>
+<li>分布偏移会破坏传统不确定性估计的可靠性，需设计<strong>领域自适应的不确定性方法</strong>。</li>
+<li>两者结合可提升模型在开放环境中的<strong>安全性与可信度</strong>（如医疗、自动驾驶等高风险场景）。</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>分布偏移</title>
+      <link>//localhost:1313/cn/2025/02/27/shift/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2025/02/27/shift/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="与dro关系">与DRO关系</h2>
+<p>在机器学习中，<strong>Distribution Robust Optimization（分布鲁棒优化，DRO）</strong> 和 <strong>Distribution Shift（分布偏移）</strong> 是紧密相关的两个概念，二者的关系可以从以下角度理解：</p>
+<h3 id="1-核心关系"><strong>1. 核心关系</strong></h3>
+<ul>
+<li><strong>Distribution Shift</strong> 是 <strong>问题</strong>：描述模型在训练和部署时面临的数据分布不一致现象（如协变量偏移、标签偏移等），导致模型性能下降。</li>
+<li><strong>Distribution Robust Optimization</strong> 是 <strong>解决方案</strong>：一种优化框架，旨在直接建模分布的不确定性，通过<strong>最坏情况（Worst-Case）优化</strong>，使模型对潜在的分布偏移具有鲁棒性。</li>
+</ul>
+<p>简言之，<strong>DRO 是应对 Distribution Shift 的一种主动防御方法</strong>，而 Distribution Shift 是 DRO 需要解决的核心挑战。</p>
+<h3 id="2-具体关联"><strong>2. 具体关联</strong></h3>
+<h4 id="1-dro-的数学目标"><strong>(1) DRO 的数学目标</strong></h4>
+<p>DRO 的优化目标不是最小化训练数据分布（即经验分布）上的风险，而是最小化<strong>某个不确定性集合（Uncertainty Set）内所有可能分布的最大风险</strong>：
+<code>$ \min_{\theta} \max_{Q \in \mathcal{Q}} \mathbb{E}_{(x,y) \sim Q} [\mathcal{L}(f_\theta(x), y)] $</code></p>
+<p>其中：</p>
+<ul>
+<li><code>$\mathcal{Q}$</code> 是围绕训练数据分布 <code>$P_{\text{train}}$</code> 构建的分布集合（如 Wasserstein 球内的分布）。</li>
+<li><strong>目标</strong>：通过优化最坏情况（<code>$\max_{Q}$</code>）的损失，确保模型在分布偏移时依然稳定。</li>
+</ul>
+<h4 id="2-与-distribution-shift-的联系"><strong>(2) 与 Distribution Shift 的联系</strong></h4>
+<ul>
+<li>如果测试分布 <code>$P_{\text{test}}$</code> 属于 DRO 定义的集合 <code>$\mathcal{Q}$</code>，则 DRO 训练的模型在 <code>$P_{\text{test}}$</code> 上的性能有理论保障。</li>
+<li><strong>DRO 的关键假设</strong>：测试分布 <code>$P_{\text{test}}$</code> 与训练分布 <code>$P_{\text{train}}$</code> 的差异不超过某个范围（由 <code>$\mathcal{Q}$</code> 的半径控制）。
+<ul>
+<li>若实际分布偏移超出 <code>$\mathcal{Q}$</code> 的范围，DRO 的鲁棒性可能失效。</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-dro-如何应对-distribution-shift"><strong>3. DRO 如何应对 Distribution Shift</strong></h3>
+<h4 id="1-对协变量偏移-covariate-shift-的鲁棒性"><strong>(1) 对协变量偏移（Covariate Shift）的鲁棒性</strong></h4>
+<ul>
+<li>DRO 通过约束输入特征 <code>$x$</code> 的分布变化范围（如 Wasserstein 距离约束），直接覆盖协变量偏移场景。</li>
+<li><strong>例子</strong>：训练数据是晴天图片，测试数据是雨天图片。若雨天分布在 <code>$\mathcal{Q}$</code> 内，DRO 模型仍能保持性能。</li>
+</ul>
+<h4 id="2-对标签偏移-label-shift-的鲁棒性"><strong>(2) 对标签偏移（Label Shift）的鲁棒性</strong></h4>
+<ul>
+<li>若 <code>$\mathcal{Q}$</code> 包含标签分布 <code>$P(y)$</code> 的变化，DRO 可缓解标签偏移的影响（如医疗诊断中患病率变化）。</li>
+</ul>
+<h4 id="3-对未知偏移类型的保守防御"><strong>(3) 对未知偏移类型的保守防御</strong></h4>
+<ul>
+<li>DRO 不假设具体的偏移类型（如协变量或标签偏移），而是通过最坏情况优化提供一种<strong>保守但通用的鲁棒性</strong>。</li>
+</ul>
+<h3 id="4-局限性"><strong>4. 局限性</strong></h3>
+<h4 id="1-计算复杂性"><strong>(1) 计算复杂性</strong></h4>
+<ul>
+<li>DRO 需要求解内层的 <code>$\max_{Q}$</code> 优化问题，可能带来较高的计算成本（尤其对高维数据）。</li>
+</ul>
+<h4 id="2-不确定性集合的设计"><strong>(2) 不确定性集合的设计</strong></h4>
+<ul>
+<li><strong>关键挑战</strong>：如何合理定义分布集合 <code>$\mathcal{Q}$</code>（如选择距离度量、半径大小）。
+<ul>
+<li>若 <code>$\mathcal{Q}$</code> 过小，无法覆盖实际偏移；若过大，模型可能过于保守，导致性能下降。</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-对极端偏移的脆弱性"><strong>(3) 对极端偏移的脆弱性</strong></h4>
+<ul>
+<li>若测试分布完全超出 <code>$\mathcal{Q}$</code> 的覆盖范围（如从自然图像转移到抽象艺术），DRO 的鲁棒性保证失效。</li>
+</ul>
+<h3 id="5-实际应用场景"><strong>5. 实际应用场景</strong></h3>
+<h4 id="1-高风险领域"><strong>(1) 高风险领域</strong></h4>
+<ul>
+<li><strong>金融风控</strong>：贷款申请数据分布随时间变化（如经济危机），DRO 可减少模型失效风险。</li>
+<li><strong>医疗诊断</strong>：患者群体分布变化（如新人群、新设备），DRO 提供稳定性保障。</li>
+</ul>
+<h4 id="2-数据稀缺场景"><strong>(2) 数据稀缺场景</strong></h4>
+<ul>
+<li>当目标域数据难以获取时，DRO 通过理论驱动的分布覆盖，替代传统领域自适应（Domain Adaptation）的数据依赖方法。</li>
+</ul>
+<h3 id="6-与其他方法的对比"><strong>6. 与其他方法的对比</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>方法</strong></th>
+<th><strong>核心思想</strong></th>
+<th><strong>与 Distribution Shift 的关系</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>经验风险最小化 (ERM)</strong></td>
+<td>最小化训练数据上的平均损失</td>
+<td>忽略分布偏移，在偏移下性能可能崩溃</td>
+</tr>
+<tr>
+<td><strong>领域自适应 (DA)</strong></td>
+<td>对齐源域和目标域的特征分布</td>
+<td>依赖目标域数据，需明确知道偏移存在</td>
+</tr>
+<tr>
+<td><strong>分布鲁棒优化 (DRO)</strong></td>
+<td>最小化最坏情况分布下的损失</td>
+<td>不依赖目标域数据，主动防御潜在偏移</td>
+</tr>
+</tbody>
+</table>
+<h3 id="7-前沿研究方向"><strong>7. 前沿研究方向</strong></h3>
+<ol>
+<li><strong>高效不确定性集合设计</strong>
+<ul>
+<li>如何结合先验知识（如物理规律、因果结构）构建更合理的 <code>$\mathcal{Q}$</code>。</li>
+</ul>
+</li>
+<li><strong>动态 DRO</strong>
+<ul>
+<li>在在线学习或持续学习中，动态调整 <code>$\mathcal{Q}$</code> 以适应实时分布变化。</li>
+</ul>
+</li>
+<li><strong>DRO 与因果推断结合</strong>
+<ul>
+<li>通过因果图识别分布偏移的稳定特征（如 <a href="https://arxiv.org/abs/1907.02893">Invariant Risk Minimization</a>），优化对不变量的鲁棒性。</li>
+</ul>
+</li>
+<li><strong>可扩展优化算法</strong>
+<ul>
+<li>开发更高效的优化方法（如对偶化、随机梯度下降），降低 DRO 的计算成本。</li>
+</ul>
+</li>
+</ol>
+<h3 id="总结"><strong>总结</strong></h3>
+<p>DRO 和 Distribution Shift 二者关系可类比为 <strong>“防御（DRO）” vs “攻击（Distribution Shift）”</strong>，DRO 为模型穿上了一层针对分布偏移的“盔甲”。</p>
+<ul>
+<li><strong>DRO 是应对 Distribution Shift 的数学框架</strong>：通过最坏情况优化，主动增强模型对分布变化的鲁棒性。</li>
+<li><strong>适用条件</strong>：测试分布需在预设的不确定性集合 <code>$\mathcal{Q}$</code> 内，且 <code>$\mathcal{Q}$</code> 的设计需要领域知识。</li>
+<li><strong>优势</strong>：不依赖目标域数据，适合数据稀缺或偏移类型未知的场景。</li>
+<li><strong>挑战</strong>：平衡鲁棒性与泛化性，避免过度保守。</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>研究主题</title>
+      <link>//localhost:1313/cn/2025/02/26/topics/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2025/02/26/topics/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="distributional-robust-optimization-dro-cn-2025-02-27-dro">distributional robust optimization (<a href="/cn/2025/02/27/dro/">DRO</a>)</h1>
+<p>经验似然，保形推断，公平性，差分隐私，<a href="/cn/2025/02/27/uc/">不确定量化</a>，f散度与DRO关系紧密，其中公平性，差分隐私是distribution shift 包装问题；经验似然，保形推断是在 distribution shift 问题背景下保持分布稳健的方法；f散度度量了 distribution shift 的偏移程度；不确定量化是检测和缓解 distribution shift 的核心工具。这些方法的结合可提升模型在开放环境中的<strong>安全性与可信度</strong>（如医疗、自动驾驶等高风险场景）。</p>
+<h2 id="经验似然-empirical-likelihood">经验似然 empirical likelihood</h2>
+<h2 id="保形推断-conformal-inference-cn-2025-02-25-conformity">保形推断 <a href="/cn/2025/02/25/conformity/">conformal inference</a></h2>
+<h2 id="公平性-fairness">公平性 fairness</h2>
+<ul>
+<li>文章</li>
+<li>代码
+<ul>
+<li><a href="https://fate-computing.mpi-sws.org/">https://fate-computing.mpi-sws.org/</a></li>
+<li><a href="https://github.com/mbilalzafar/fair-classification">https://github.com/mbilalzafar/fair-classification</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="不确定量化-uncertainty-quantification-cn-2025-02-27-uc">不确定量化 <a href="/cn/2025/02/27/uc/">uncertainty quantification</a></h2>
+<h2 id="差分隐私-differential-privacy">差分隐私 Differential privacy</h2>
+<h2 id="f散度">f散度</h2>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>保形推断</title>
+      <link>//localhost:1313/cn/2025/02/25/conformity/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2025/02/25/conformity/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="研究记录之保形推断">研究记录之保形推断</h1>
+<p>主题：confermal inference、参考文献、nonconformity measure、重对数律。</p>
+<h2 id="confermal-inference">confermal inference</h2>
+<p>Conformal Inference（保形推断）是一种非参数的统计方法，用于为预测模型生成具有严格概率保证的预测区间或集合。其核心目标是在不依赖数据分布假设的情况下，确保新观测值的真实结果以预定概率（如95%）落入预测范围内。以下是其关键要点：</p>
+<h3 id="核心思想">核心思想</h3>
+<ol>
+<li><strong>覆盖概率保证</strong>：无论数据分布如何，Conformal Inference生成的预测区间能以指定的置信水平（如1-α）覆盖真实值，适用于有限样本且无需渐近近似。</li>
+<li><strong>非参数与模型无关</strong>：不假设数据分布或模型结构，适用于任何预测模型（如线性回归、神经网络等），尤其适合复杂机器学习模型的不确定性量化。</li>
+</ol>
+<h3 id="关键步骤">关键步骤</h3>
+<ol>
+<li><strong>划分数据</strong>：将数据集分为训练集和校准集。</li>
+<li><strong>训练模型</strong>：使用训练集训练模型。</li>
+<li><strong>计算非合群分数（Nonconformity Score）</strong>：衡量预测与实际值的差异。例如：
+<ul>
+<li><strong>回归任务</strong>：残差绝对值 <code>$ |y_i - \hat{y}_i| $</code> 。</li>
+<li><strong>分类任务</strong>：1减去正确类别的预测概率 <code>$ 1 - P(y_i|x_i) $</code>。</li>
+</ul>
+</li>
+<li><strong>确定分位数</strong>：基于校准集的分数计算调整后的分位数 <code>$q = \lceil (n+1)(1-\alpha) \rceil / n $</code> ，其中 <code>$ n $</code>为校准集大小。</li>
+<li><strong>构建预测区间</strong>：新样本的预测区间为 <code>$\hat{y}_{\text{new}} \pm q $</code> （回归）或包含概率高于阈值的类别集合（分类）。</li>
+</ol>
+<h3 id="优势">优势</h3>
+<ul>
+<li><strong>强理论保证</strong>：严格覆盖概率，无需分布假设。</li>
+<li><strong>灵活性</strong>：兼容任何模型，适应回归与分类任务。</li>
+<li><strong>实用性强</strong>：适用于小样本，直接反映模型预测的不确定性。</li>
+</ul>
+<h3 id="局限性">局限性</h3>
+<ul>
+<li><strong>数据交换性假设</strong>：要求数据满足交换性（弱于独立同分布），可能不适用于时间序列等有序数据。</li>
+<li><strong>区间宽度依赖模型质量</strong>：模型预测越准，区间越窄；反之则越宽。</li>
+</ul>
+<h3 id="应用场景">应用场景</h3>
+<ul>
+<li><strong>高风险领域</strong>：如医疗诊断（预测疾病风险区间）、金融（风险估值）等需可靠不确定性的场景。</li>
+<li><strong>模型评估</strong>：对比不同模型的不确定性估计能力。</li>
+</ul>
+<h3 id="示例">示例</h3>
+<p><strong>回归任务</strong>：校准集残差为[0.5, 1.2, 2.0]，置信水平95%时，调整后分位数取第3大值（2.0）。新预测值为10，则区间为[8.0, 12.0]，保证真实值有95%概率落入。</p>
+<p><strong>分类任务</strong>：某样本正确类别的预测概率为0.6，阈值为0.3（对应1-α=95%），则预测集合包含所有概率≥0.4的类别，确保真实类别被包含的概率≥95%。</p>
+<p>总之，Conformal Inference通过数据驱动的方法，为复杂模型提供可靠的不确定性估计，增强其在现实应用中的可信度。</p>
+<p>以下是关于 <strong>Conformal Inference（保形推断）</strong> 的经典论文和最新研究推荐，涵盖理论、应用及扩展方向。这些论文适合深入理解其数学基础、算法实现及实际应用场景。</p>
+<h2 id="参考文献">参考文献</h2>
+<h3 id="1-奠基性论文"><strong>1. 奠基性论文</strong></h3>
+<h4 id="1-algorithmic-learning-in-a-random-world-https-link-springer-com-book-10-1007-978-3-031-06649-8"><strong>(1) <a href="https://link.springer.com/book/10.1007/978-3-031-06649-8">Algorithmic Learning in a Random World</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Vovk, Gammerman, Shafer (2005)</li>
+<li><strong>贡献</strong>: 系统提出保形推断的框架，定义了非合群分数（nonconformity score）和覆盖概率保证的数学证明，是保形推断的理论基石。</li>
+</ul>
+<h4 id="2-conformal-prediction-for-reliable-machine-learning-https-arxiv-org-abs-1404-1393"><strong>(2) <a href="https://arxiv.org/abs/1404.1393">Conformal Prediction for Reliable Machine Learning</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Balasubramanian, Ho, Vovk (2014)</li>
+<li><strong>贡献</strong>: 综述性论文，总结保形推断在分类、回归、异常检测等任务中的应用，并讨论与贝叶斯方法的对比。</li>
+</ul>
+<h3 id="2-分类与回归任务"><strong>2. 分类与回归任务</strong></h3>
+<h4 id="3-conformal-prediction-under-covariate-shift-https-arxiv-org-abs-1904-06019"><strong>(3) <a href="https://arxiv.org/abs/1904.06019">Conformal Prediction Under Covariate Shift</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Tibshirani et al. (2019)</li>
+<li><strong>贡献</strong>: 提出协变量偏移（covariate shift）下的保形推断方法，扩展了传统方法的适用范围。</li>
+</ul>
+<h4 id="4-distribution-free-predictive-inference-for-regression-https-arxiv-org-abs-1802-06307"><strong>(4) <a href="https://arxiv.org/abs/1802.06307">Distribution-Free Predictive Inference for Regression</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lei et al. (2018)</li>
+<li><strong>贡献</strong>: 针对回归任务提出分位数回归与保形推断结合的方法（<strong>Conformalized Quantile Regression, CQR</strong>），生成更紧致的预测区间。</li>
+</ul>
+<h4 id="5-classification-with-valid-and-adaptive-coverage-https-arxiv-org-abs-2006-02544"><strong>(5) <a href="https://arxiv.org/abs/2006.02544">Classification with Valid and Adaptive Coverage</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2020)</li>
+<li><strong>贡献</strong>: 提出自适应保形分类（Adaptive Conformal Classification），动态调整预测集合大小以提升效率。</li>
+</ul>
+<h3 id="3-时间序列与非交换数据"><strong>3. 时间序列与非交换数据</strong></h3>
+<h4 id="6-conformal-prediction-for-time-series-https-arxiv-org-abs-2205-00127"><strong>(6) <a href="https://arxiv.org/abs/2205.00127">Conformal Prediction for Time Series</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Xu &amp; Xie (2022)</li>
+<li><strong>贡献</strong>: 解决时间序列数据因违反交换性假设（exchangeability）带来的挑战，提出滑动窗口或分块保形推断方法。</li>
+</ul>
+<h4 id="7-conformal-pid-control-for-time-series-prediction-https-arxiv-org-abs-2307-16895"><strong>(7) <a href="https://arxiv.org/abs/2307.16895">Conformal PID Control for Time Series Prediction</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lindemann et al. (2023)</li>
+<li><strong>贡献</strong>: 将保形推断与PID控制结合，动态调整预测区间宽度，适应非平稳时间序列。</li>
+</ul>
+<h3 id="4-深度学习与高维数据"><strong>4. 深度学习与高维数据</strong></h3>
+<h4 id="8-conformal-prediction-for-deep-classifiers-via-clustering-https-arxiv-org-abs-2107-03363"><strong>(8) <a href="https://arxiv.org/abs/2107.03363">Conformal Prediction for Deep Classifiers via Clustering</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lu et al. (2021)</li>
+<li><strong>贡献</strong>: 针对深度神经网络分类任务，提出基于聚类的保形推断方法，降低预测集合的冗余性。</li>
+</ul>
+<h4 id="9-uncertainty-quantification-with-conformal-prediction-for-deep-learning-https-arxiv-org-abs-2207-12254"><strong>(9) <a href="https://arxiv.org/abs/2207.12254">Uncertainty Quantification with Conformal Prediction for Deep Learning</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2022)</li>
+<li><strong>贡献</strong>: 系统性讨论如何将保形推断与深度学习结合，提供代码库（如 <code>TorchCP</code>）实现。</li>
+</ul>
+<h3 id="5-最新扩展方向"><strong>5. 最新扩展方向</strong></h3>
+<h4 id="10-conformal-risk-control-https-arxiv-org-abs-2208-02814"><strong>(10) <a href="https://arxiv.org/abs/2208.02814">Conformal Risk Control</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2022)</li>
+<li><strong>贡献</strong>: 将保形推断推广到更一般的风险控制框架，适用于多任务学习与复杂损失函数。</li>
+</ul>
+<h4 id="11-conformal-off-policy-prediction-for-contextual-bandits-https-arxiv-org-abs-2306-04410"><strong>(11) <a href="https://arxiv.org/abs/2306.04410">Conformal Off-Policy Prediction for Contextual Bandits</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Bastani et al. (2023)</li>
+<li><strong>贡献</strong>: 在强化学习（Contextual Bandits）中应用保形推断，解决策略评估的覆盖性问题。</li>
+</ul>
+<h3 id="6-实用教程与书籍"><strong>6. 实用教程与书籍</strong></h3>
+<ul>
+<li><strong>书籍</strong>: <a href="https://arxiv.org/abs/2305.12621"><em>Conformal Prediction: A Unified Review of Theory and New Challenges</em></a> (2023)
+<ul>
+<li>最新综述，涵盖理论、算法及在因果推断、联邦学习等场景的扩展。</li>
+</ul>
+</li>
+<li><strong>教程代码库</strong>:
+<ul>
+<li><a href="https://github.com/donlnz/nonconformist">Python库 <code>nonconformist</code></a></li>
+<li><a href="https://github.com/ShuoYang-1998/TorchCP">TorchCP (PyTorch实现)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="选择建议"><strong>选择建议</strong></h3>
+<ul>
+<li><strong>入门</strong>：从奠基性论文（1-2）和教程代码库开始，理解核心思想。</li>
+<li><strong>应用场景</strong>：
+<ul>
+<li>时间序列选（6-7），</li>
+<li>深度学习选（8-9），</li>
+<li>分类回归优化选（3-5）。</li>
+</ul>
+</li>
+<li><strong>理论扩展</strong>：关注（10-11）的前沿方向。</li>
+</ul>
+<p>保形推断的核心优势在于其非参数性和严格的覆盖保证，但需注意其<strong>数据交换性假设</strong>是否满足（如时间序列需调整方法）。</p>
+<h2 id="nonconformity-measure">nonconformity measure</h2>
+<p>“<strong>Nonconformity measure</strong>”（非符合性度量）是统计学习和机器学习中的一个术语，尤其在 <strong>Conformal Prediction</strong>（保形预测）框架中扮演核心角色。它用于量化一个数据点与已有数据分布或模型预测的“不一致程度”，从而评估新样本的异常性或不确定性。</p>
+<h3 id="核心概念"><strong>核心概念</strong></h3>
+<ol>
+<li>
+<p><strong>基本定义</strong>：</p>
+<ul>
+<li><strong>Nonconformity measure</strong> 是一个函数，用于计算某个数据点（或样本）与已有数据/模型的“不匹配程度”。</li>
+<li>值越大，表示该数据点越不符合当前模型或数据分布，可能属于异常或需要特别关注。</li>
+</ul>
+</li>
+<li>
+<p><strong>在 Conformal Prediction 中的作用</strong>：</p>
+<ul>
+<li>Conformal Prediction 是一种生成预测集合并提供统计置信度的方法，确保预测结果在指定置信水平下覆盖真实值。</li>
+<li>通过 <strong>nonconformity measure</strong>，算法会为每个候选预测结果计算一个“不一致分数”，从而确定哪些预测应被包含在置信区间或预测集合中。</li>
+</ul>
+</li>
+</ol>
+<h3 id="应用示例"><strong>应用示例</strong></h3>
+<ul>
+<li>
+<p><strong>分类任务</strong>：
+假设一个图像分类模型需要判断一张新图片是否属于“猫”。对于每个可能的类别（猫、狗、鸟等），nonconformity measure 可能基于模型输出的概率，计算该图片与各类别训练数据的差异。若“猫”类别的差异分数最低，则该图片更可能被归为“猫”。</p>
+</li>
+<li>
+<p><strong>回归任务</strong>：
+在房价预测中，nonconformity measure 可以是预测房价与实际房价的绝对误差。误差越大，样本的“非符合性”越高。</p>
+</li>
+</ul>
+<h3 id="技术意义"><strong>技术意义</strong></h3>
+<ul>
+<li><strong>异常检测</strong>：高 nonconformity score 可能标志异常值（outlier）。</li>
+<li><strong>不确定性量化</strong>：在 Conformal Prediction 中，通过非符合性分数生成预测区间（例如，“房价在 80% 置信度下位于 [500k, 600k]”）。</li>
+<li><strong>模型校准</strong>：帮助评估模型对新数据的泛化能力。</li>
+</ul>
+<h3 id="与其他概念的区别"><strong>与其他概念的区别</strong></h3>
+<ul>
+<li><strong>Loss Function（损失函数）</strong>：损失函数用于训练模型，而非符合性度量用于评估模型预测与数据的一致性。</li>
+<li><strong>Anomaly Score（异常分数）</strong>：两者类似，但 nonconformity measure 更强调统计框架下的置信度保证。</li>
+</ul>
+<p>简而言之，<strong>nonconformity measure</strong> 是连接数据、模型与统计置信度的桥梁，尤其在需要可靠不确定性估计的场景（如医疗诊断、金融风险评估）中至关重要。</p>
+<p>这段话讨论了保形预测（Conformal Prediction）中 <strong>非对称非符合性度量（Asymmetric Nonconformity Measure）</strong> 的设计及其意义。以下是逐层解析：</p>
+<h3 id="度量方式"><strong>度量方式</strong></h3>
+<ol>
+<li>
+<p><strong>对称与非对称的对比</strong></p>
+<ul>
+<li><strong>对称非符合性度量</strong>（如公式 2.30 或 2.32）：通常使用绝对值（如预测误差的绝对值 <code>$ |y_i - \hat{y}_i| $</code>），表示“偏离程度的量级”，不区分方向（如高估或低估）。</li>
+<li><strong>非对称非符合性度量</strong>（如公式 2.33 或 2.34）：允许区分方向（如 <code>$ y_i - \hat{y}_i $</code>或 <code>$ \hat{y}_i - y_i $</code>），可衡量样本对某一特定属性的符合程度（例如“标签是否足够大”或“标签是否足够小”）。</li>
+</ul>
+</li>
+<li>
+<p><strong>非对称度量的意义</strong></p>
+<ul>
+<li><strong>公式 2.33</strong>：<code>$ \alpha_i := y_i - \hat{y}_i $</code>
+<ul>
+<li><strong>含义</strong>：实际值 <code>$ y_i $</code>比预测值 <code>$ \hat{y}_i $</code>大多少。</li>
+<li><strong>用途</strong>：衡量样本 <code>$ z_i $</code>对“标签较大”这一属性的符合程度。例如，若 `$\alpha_i$ 很大，说明真实标签远超预测，可能属于异常（或需特别关注的高值样本）。</li>
+</ul>
+</li>
+<li><strong>公式 2.34</strong>：<code>$ \alpha_i := \hat{y}_i - y_i $</code>
+<ul>
+<li><strong>含义</strong>：预测值 <code>$ \hat{y}_i $</code>比实际值 <code>$ y_i $</code>大多少。</li>
+<li><strong>用途</strong>：衡量样本 <code>$ z_i $</code>对“标签较小”这一属性的符合程度。例如，若 <code>$\alpha_i $</code>很大，说明预测显著高估真实值，可能属于低估异常。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="技术意义-1"><strong>技术意义</strong></h3>
+<ol>
+<li>
+<p><strong>灵活建模单侧关注问题</strong></p>
+<ul>
+<li>在现实场景中，我们可能只关心某一方向的偏差（例如：
+<ul>
+<li><strong>金融风控</strong>：更关注损失超过预期的样本（即   <code>$ y_i - \hat{y}_i $</code>为正的情况）。</li>
+<li><strong>医疗诊断</strong>：更关注检测结果远低于预期的样本（即 <code>$ \hat{y}_i - y_i $</code>为正的情况）。</li>
+</ul>
+</li>
+<li>非对称度量允许针对特定方向定义“非符合性”，从而生成单侧置信区间或异常检测规则。</li>
+</ul>
+</li>
+<li>
+<p><strong>与通用框架的关系</strong></p>
+<ul>
+<li>非对称度量（如 2.33 和 2.34）是通用非符合性度量（公式 2.31）的特例。</li>
+<li><strong>通用框架</strong>（公式 2.31）：允许自定义非符合性函数，只需满足“可比较性”（即不同样本的非符合性分数可排序）。</li>
+<li><strong>非对称实现</strong>：通过调整符号（如 <code>$ y_i - \hat{y}_i $</code>或 <code>$ \hat{y}_i - y_i $</code>），将方向信息编码到分数中。</li>
+</ul>
+</li>
+</ol>
+<h3 id="示例说明"><strong>示例说明</strong></h3>
+<h4 id="场景-房价预测"><strong>场景：房价预测</strong></h4>
+<ul>
+<li><strong>对称度量</strong>：<code>$\alpha_i = |y_i - \hat{y}_i| $</code>
+<ul>
+<li>关注预测误差的绝对值，无论实际房价高于或低于预测。</li>
+</ul>
+</li>
+<li><strong>非对称度量</strong>：
+<ul>
+<li><strong>公式 2.33</strong>：<code>$\alpha_i = y_i - \hat{y}_i $</code>
+<ul>
+<li>正值越大，说明真实房价远高于预测（可能提示模型低估风险）。</li>
+</ul>
+</li>
+<li><strong>公式 2.34</strong>：<code>$\alpha_i = \hat{y}_i - y_i $</code>
+<ul>
+<li>正值越大，说明预测远高于真实房价（可能提示模型高估风险）。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="应用-生成单侧置信区间"><strong>应用：生成单侧置信区间</strong></h4>
+<ul>
+<li>若使用 <code>$\alpha_i = y_i - \hat{y}_i $</code> ，则可生成 <strong>上限区间</strong>（如“房价有 95% 概率低于 <code>$ \hat{y}_i + \Delta $</code>”）。</li>
+<li>若使用 <code>$\alpha_i = \hat{y}_i - y_i $</code> ，则可生成 <strong>下限区间</strong>（如“房价有 95% 概率高于 <code>$ \hat{y}_i - \Delta $</code>”）。</li>
+</ul>
+<h3 id="与-p-值的关系"><strong>与 p 值的关系</strong></h3>
+<ul>
+<li><strong>非对称度量影响 p 值计算</strong>：
+<ul>
+<li>p 值定义为“集合中非符合性分数大于等于当前样本的比例”。</li>
+<li>若使用 <code>$\alpha_i = y_i - \hat{y}_i $</code>，p 值小表示真实值显著高于预测（异常高值）；</li>
+<li>若使用 <code>$\alpha_i = \hat{y}_i - y_i $</code> ，p 值小表示真实值显著低于预测（异常低值）。</li>
+</ul>
+</li>
+</ul>
+<h3 id="总结"><strong>总结</strong></h3>
+<ul>
+<li><strong>对称 vs 非对称</strong>：
+<ul>
+<li>对称度量关注偏差的“量级”，非对称度量关注偏差的“方向”。</li>
+</ul>
+</li>
+<li><strong>实际价值</strong>：
+<ul>
+<li>允许模型针对业务需求（如风险偏好、单侧异常检测）灵活调整置信区间或异常判定规则。</li>
+</ul>
+</li>
+<li><strong>理论一致性</strong>：
+<ul>
+<li>非对称度量仍属于保形预测的通用框架，仅通过函数设计引入方向信息。</li>
+</ul>
+</li>
+</ul>
+<h2 id="重对数律">重对数律</h2>
+<p><strong>重对数律（Law of the Iterated Logarithm, LIL）</strong> 是概率论中描述独立同分布随机变量部分和波动性的精确渐近结果。它刻画了随机波动幅度的上下极限，揭示了大数定律和中心极限定理之间的更深层规律。</p>
+<h3 id="核心定义"><strong>核心定义</strong></h3>
+<p>设 <code>$X_1, X_2, \dots $</code>是独立同分布（i.i.d.）的随机变量，满足：</p>
+<ul>
+<li>均值 <code>$\mathbb{E}[X_i] = \mu $</code></li>
+<li>方差 <code>$\text{Var}(X_i) = \sigma^2 &lt; \infty $</code></li>
+</ul>
+<p>定义部分和 <code>$S_n = X_1 + X_2 + \dots + X_n $</code>，则重对数律表明：</p>
+<p>$$
+\limsup_{n \to \infty} \frac{S_n - n\mu}{\sigma \sqrt{2n \log \log n}} = 1 \quad \text{a.s.}
+$$</p>
+<p>$$
+\liminf_{n \to \infty} \frac{S_n - n\mu}{\sigma \sqrt{2n \log \log n}} = -1 \quad \text{a.s.}
+$$</p>
+<p>即部分和的偏差被限制在 <code>$\pm \sigma \sqrt{2n \log \log n} $</code>内，且此界限是紧的（几乎必然达到）。</p>
+<h3 id="直观解释"><strong>直观解释</strong></h3>
+<ol>
+<li>
+<p><strong>波动范围的精确刻画</strong></p>
+<ul>
+<li><strong>大数定律</strong>： <code>$S_n / n \to \mu $</code>（均值收敛）。</li>
+<li><strong>中心极限定理</strong>：偏差按 <code>$\sqrt{n} $</code>增长，服从正态分布。</li>
+<li><strong>重对数律</strong>：进一步给出偏差的极值波动幅度，由 <code>$ \sqrt{n \log \log n} $</code>主导，精确到常数因子 <code>$\sigma \sqrt{2} $</code>。</li>
+</ul>
+</li>
+<li>
+<p><strong>“几乎必然”收敛</strong>
+波动幅度在无限次观测中会被无限次接近上述上下界，但不会持续超出。</p>
+</li>
+</ol>
+<h3 id="关键意义"><strong>关键意义</strong></h3>
+<ol>
+<li>
+<p><strong>理论深度</strong></p>
+<ul>
+<li>填补了大数定律（收敛性）与中心极限定理（分布形态）之间的空白，描述了极值波动的渐近行为。</li>
+</ul>
+</li>
+<li>
+<p><strong>应用场景</strong></p>
+<ul>
+<li><strong>随机过程分析</strong>：如布朗运动的路径性质。</li>
+<li><strong>统计推断</strong>：评估估计量的收敛速度。</li>
+<li><strong>金融数学</strong>：资产价格波动幅度的极端情况建模。</li>
+</ul>
+</li>
+</ol>
+<h3 id="示例说明-1"><strong>示例说明</strong></h3>
+<p>考虑一个简单对称随机游动（如抛硬币）：</p>
+<ul>
+<li>每次步长 <code>$X_i $</code>为 +1 或 -1，概率各 0.5。</li>
+<li>均值 <code>$\mu = 0 $</code>，方差 <code>$ \sigma^2 = 1 $</code>。</li>
+</ul>
+<p>根据重对数律，部分和 <code>$S_n $</code>的极值波动满足：
+`$$
+\limsup_{n \to \infty} \frac{S_n}{\sqrt{2n \log \log n}} = 1 \quad \text{a.s.}
+$$</p>
+<p>这意味着，当 <code>$ n $</code>极大时，随机游动的路径几乎必然会在 <code>$\pm \sqrt{2n \log \log n} $</code>之间无限次触碰边界，但不会持续超出。</p>
+<h3 id="与其他定理的关系"><strong>与其他定理的关系</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>定理</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>缩放因子</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大数定律 (LLN)</td>
+<td>均值收敛</td>
+<td><code>$ n $</code></td>
+</tr>
+<tr>
+<td>中心极限定理 (CLT)</td>
+<td>偏差分布趋近正态</td>
+<td><code>$\sqrt{n} $</code></td>
+</tr>
+<tr>
+<td>重对数律 (LIL)</td>
+<td>极值波动的上下限</td>
+<td><code>$ \sqrt{n \log \log n} $</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="注意事项"><strong>注意事项</strong></h3>
+<ul>
+<li><strong>独立性假设</strong>：随机变量必须独立同分布。</li>
+<li><strong>方差有限性</strong>：若方差无限，结论可能不成立。</li>
+<li><strong>多维推广</strong>：存在高维版本，但形式更复杂。</li>
+</ul>
+<h3 id="总结-1"><strong>总结</strong></h3>
+<p>重对数律揭示了随机变量部分和的极值波动被严格约束在 <code>$\pm \sigma \sqrt{2n \log \log n} $</code> 内，是概率论中对随机性本质的深刻刻画，为理解复杂随机现象提供了理论基石。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>周三研究汇报</title>
+      <link>//localhost:1313/cn/2025/02/25/report/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2025/02/25/report/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
+<h3 id="汇报内容">汇报内容：</h3>
+<ul>
+<li>GSPC 修改：Introduction 后面基本实现修改（加分组描述，步骤间逻辑解释，评估指标解释，分类依据等），主要问题集中在Introduction 怎么改。</li>
+<li>DSDE 修改：实验数据还没有，只有小调整，没有大进展。</li>
+<li>自己看的论文进度：在了解 <a href="/cn/2025/02/25/conformity/">conformal perdiction</a>一些理论，老师给的 UC 也在看。边看论文也一边在构思，自己置信区间这个事情能为神经网络做些什么，目前还没有具体想法。</li>
+</ul>
+<h3 id="讨论结果">讨论结果：</h3>
+<ul>
+<li>围绕 robust 问题，寻找 distribution shift 的设置展开，会有什么挑战</li>
+<li>shift 的分类</li>
+<li>set-up 设计什么问题，OOD detection，估计问题，检验问题</li>
+<li>横向问题：Robust，差分隐私，公平性</li>
+<li>纵向问题：DRO</li>
+<li>研究问题：问题的设计DRO，设计检验的地方（因果推断）</li>
+<li>Online Data</li>
+<li>发展脉络
+<ul>
+<li>往前：之前做了什么</li>
+<li>往后：之后做了什么 （paper connection 软件）</li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>每日研究进度条</title>
+      <link>//localhost:1313/cn/2025/02/25/record/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2025/02/25/record/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="2025-02-23-周日">2025-02-23 周日</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.1 节，下次 2.2 节。</li>
+<li>收获：一些精确定义，关于 conformal prediction。</li>
+</ul>
+</li>
+<li>改分组对比学习论文</li>
+</ul>
+<h2 id="2025-02-25-周二">2025-02-25 周二</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.2.4节，下次 2.2.9 节。</li>
+<li>收获：一些精确定义，关于 nonconformal measures。</li>
+</ul>
+</li>
+<li>改分组对比学习论文</li>
+</ul>
+<h2 id="2025-02-26-周三">2025-02-26 周三</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.3节，下次 2.4节。</li>
+<li>收获：conformal inference 的应用。</li>
+</ul>
+</li>
+<li>面见导师</li>
+</ul>
+<h2 id="2025-02-27-周四">2025-02-27 周四</h2>
+<ul>
+<li>时间管理：3+4+（晚上上课）</li>
+<li>任务：
+<ul>
+<li>纵向DRO的工作总结</li>
+<li>询问大模型DRO可研究方向 <a href="https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent">https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-02-28-周五">2025-02-28 周五</h2>
+<ul>
+<li>时间管理：4+3+2</li>
+<li>任务：
+<ul>
+<li>横向Duchi的工作总结</li>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
       <title>周二汇报</title>
-      <link>/cn/2024/11/25/storey/</link>
+      <link>//localhost:1313/cn/2024/11/25/storey/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/11/25/storey/</guid>
+      <guid>//localhost:1313/cn/2024/11/25/storey/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -292,10 +1208,10 @@
     
     <item>
       <title>经验过程</title>
-      <link>/cn/2024/11/25/empirical-process/</link>
+      <link>//localhost:1313/cn/2024/11/25/empirical-process/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/11/25/empirical-process/</guid>
+      <guid>//localhost:1313/cn/2024/11/25/empirical-process/</guid>
       <description>
         <![CDATA[
         <h1 id="经验过程">经验过程</h1>
@@ -327,11 +1243,46 @@
     
     
     <item>
+      <title>积累</title>
+      <link>//localhost:1313/cn/2024/10/07/bnuz/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2024/10/07/bnuz/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="一些博主">一些博主</h3>
+<ul>
+<li><a href="https://www.cnblogs.com/leftnoteasy">LeftNotEasy</a> ：关注于 机器学习、数据挖掘、并行计算、数学</li>
+</ul>
+<h3 id="奇异值">奇异值</h3>
+<ul>
+<li><a href="https://blog.csdn.net/csyifanZhang/article/details/105937638">深度理解矩阵的奇异值，特征值</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/480389473">彻底搞懂矩阵奇异值分解（SVD）</a></li>
+</ul>
+<h3 id="算子范数">算子范数</h3>
+<ul>
+<li><a href="https://www.zhihu.com/column/matrix-learning">矩阵理论学习笔记</a></li>
+<li><a href="https://blog.csdn.net/weixin_41094315/article/details/112253105">数值分析6 - 向量范数、矩阵范数、算子范数概念</a></li>
+</ul>
+<h3 id="一些技巧">一些技巧</h3>
+<ul>
+<li><a href="https://xj.123147.top">科学上网</a></li>
+<li><a href="https://www.bilibili.com/read/cv16673703/">zotero一次性下载所有文献</a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>OOD学习</title>
-      <link>/cn/2024/08/02/ood/</link>
+      <link>//localhost:1313/cn/2024/08/02/ood/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/08/02/ood/</guid>
+      <guid>//localhost:1313/cn/2024/08/02/ood/</guid>
       <description>
         <![CDATA[
         <h2 id="sharon-li">Sharon Li</h2>
@@ -367,10 +1318,10 @@
     
     <item>
       <title>专家</title>
-      <link>/cn/2023/08/15/dr/</link>
+      <link>//localhost:1313/cn/2023/08/15/dr/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/dr/</guid>
+      <guid>//localhost:1313/cn/2023/08/15/dr/</guid>
       <description>
         <![CDATA[
         <h3 id="王建军-http-math-swu-edu-cn-info-1019-2612-htm"><a href="http://math.swu.edu.cn/info/1019/2612.htm">王建军</a></h3>
@@ -390,10 +1341,10 @@
     
     <item>
       <title>李红权</title>
-      <link>/cn/2023/08/15/dr.li/</link>
+      <link>//localhost:1313/cn/2023/08/15/dr.li/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/dr.li/</guid>
+      <guid>//localhost:1313/cn/2023/08/15/dr.li/</guid>
       <description>
         <![CDATA[
         <h2 id="李红权-https-sxy-hunnu-edu-cn-info-1054-2670-htm"><a href="https://sxy.hunnu.edu.cn/info/1054/2670.htm">李红权</a></h2>
@@ -423,10 +1374,10 @@
     
     <item>
       <title>蔡宗武</title>
-      <link>/cn/2023/08/15/dr.zong/</link>
+      <link>//localhost:1313/cn/2023/08/15/dr.zong/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/dr.zong/</guid>
+      <guid>//localhost:1313/cn/2023/08/15/dr.zong/</guid>
       <description>
         <![CDATA[
         <h2 id="蔡宗武">蔡宗武</h2>
@@ -458,10 +1409,10 @@
     
     <item>
       <title>地理常识</title>
-      <link>/cn/2023/08/09/geogeaphy/</link>
+      <link>//localhost:1313/cn/2023/08/09/geogeaphy/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/09/geogeaphy/</guid>
+      <guid>//localhost:1313/cn/2023/08/09/geogeaphy/</guid>
       <description>
         <![CDATA[
         <p style="text-align: center;">
@@ -895,10 +1846,10 @@
     
     <item>
       <title>八月安排表</title>
-      <link>/cn/2023/08/01/plan/</link>
+      <link>//localhost:1313/cn/2023/08/01/plan/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/01/plan/</guid>
+      <guid>//localhost:1313/cn/2023/08/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -1164,10 +2115,10 @@
     
     <item>
       <title>七月安排表</title>
-      <link>/cn/2023/07/01/plan/</link>
+      <link>//localhost:1313/cn/2023/07/01/plan/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/07/01/plan/</guid>
+      <guid>//localhost:1313/cn/2023/07/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -1416,10 +2367,10 @@
     
     <item>
       <title>六月安排表(下)</title>
-      <link>/cn/2023/06/22/plan/</link>
+      <link>//localhost:1313/cn/2023/06/22/plan/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/22/plan/</guid>
+      <guid>//localhost:1313/cn/2023/06/22/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-下">计划清单 (下)</h2>
@@ -1524,10 +2475,10 @@
     
     <item>
       <title>六月安排表(上)</title>
-      <link>/cn/2023/06/01/plan/</link>
+      <link>//localhost:1313/cn/2023/06/01/plan/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/01/plan/</guid>
+      <guid>//localhost:1313/cn/2023/06/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-上">计划清单 (上)</h2>
@@ -1729,10 +2680,10 @@
     
     <item>
       <title>五月底计划表</title>
-      <link>/cn/2023/05/31/plan/</link>
+      <link>//localhost:1313/cn/2023/05/31/plan/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/05/31/plan/</guid>
+      <guid>//localhost:1313/cn/2023/05/31/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="第一周">第一周</h2>
@@ -1828,10 +2779,10 @@
     
     <item>
       <title>新概念英语</title>
-      <link>/cn/2022/12/03/english/</link>
+      <link>//localhost:1313/cn/2022/12/03/english/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/12/03/english/</guid>
+      <guid>//localhost:1313/cn/2022/12/03/english/</guid>
       <description>
         <![CDATA[
         <h3 id="第一册">第一册</h3>
@@ -1868,10 +2819,10 @@
     
     <item>
       <title>NBEL</title>
-      <link>/cn/2022/12/02/nbel/</link>
+      <link>//localhost:1313/cn/2022/12/02/nbel/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/12/02/nbel/</guid>
+      <guid>//localhost:1313/cn/2022/12/02/nbel/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -1909,10 +2860,10 @@
     
     <item>
       <title>十一月完结</title>
-      <link>/cn/2022/11/30/conclusion/</link>
+      <link>//localhost:1313/cn/2022/11/30/conclusion/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/30/conclusion/</guid>
+      <guid>//localhost:1313/cn/2022/11/30/conclusion/</guid>
       <description>
         <![CDATA[
         <p style="text-align: center;">
@@ -1928,10 +2879,10 @@
     
     <item>
       <title>如何整理文献</title>
-      <link>/cn/2022/11/29/reference/</link>
+      <link>//localhost:1313/cn/2022/11/29/reference/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/reference/</guid>
+      <guid>//localhost:1313/cn/2022/11/29/reference/</guid>
       <description>
         <![CDATA[
         <p>近期写材料，发现之前的文献是可以利用上的，但是曾经的我和现在的我，保存文献的方式不统一，这对再次引用文献这一步带来很大的不便。换而言之，抄自己的东西都抄得不是很愉快。那么如何让之后的工作开展得更丝滑呢，我觉得要做到如下几点：</p>
@@ -1957,10 +2908,10 @@
     
     <item>
       <title>知识版图扩建</title>
-      <link>/cn/2022/11/29/xuwangli/</link>
+      <link>//localhost:1313/cn/2022/11/29/xuwangli/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/xuwangli/</guid>
+      <guid>//localhost:1313/cn/2022/11/29/xuwangli/</guid>
       <description>
         <![CDATA[
         <h2 id="课外拓展">课外拓展</h2>
@@ -2033,10 +2984,10 @@
     
     <item>
       <title>高维在读论文</title>
-      <link>/cn/2022/11/29/higdimen/</link>
+      <link>//localhost:1313/cn/2022/11/29/higdimen/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/higdimen/</guid>
+      <guid>//localhost:1313/cn/2022/11/29/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- <font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
@@ -2149,10 +3100,10 @@
     
     <item>
       <title>宇宙认知的演化</title>
-      <link>/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</link>
+      <link>//localhost:1313/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</guid>
+      <guid>//localhost:1313/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</guid>
       <description>
         <![CDATA[
         <p>遇到一个<a href="https://mp.weixin.qq.com/s/m2yp0aFq0BCBnxwqE6l51Q">《我是科学家演讲合集》</a>专栏，里面罗列了一场场高级的脱口秀，知识的饕餮盛宴，有用又有趣，虽不能至，心向往之，收藏了。其中对太空<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>的讲解，更是激发从小就埋在心中的种子，产生无限的遐想。一位名为“道可道”的博主在其<a href="https://www.bilibili.com/video/BV1dd4y1P7DN/?spm_id_from=333.337.search-card.all.click">视频</a>中提到，</p>
@@ -2220,10 +3171,10 @@
     
     <item>
       <title>空间文献摘录</title>
-      <link>/cn/2022/10/21/spamodel/</link>
+      <link>//localhost:1313/cn/2022/10/21/spamodel/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/21/spamodel/</guid>
+      <guid>//localhost:1313/cn/2022/10/21/spamodel/</guid>
       <description>
         <![CDATA[
         <h2 id="空间模型">空间模型</h2>
@@ -2251,10 +3202,10 @@
     
     <item>
       <title>面板文献摘录</title>
-      <link>/cn/2022/10/20/panempir/</link>
+      <link>//localhost:1313/cn/2022/10/20/panempir/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/20/panempir/</guid>
+      <guid>//localhost:1313/cn/2022/10/20/panempir/</guid>
       <description>
         <![CDATA[
         <h2 id="面板数据-https-xs2-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-panel-data-btng"><a href="https://xs2.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=panel+data&amp;btnG=">面板数据</a></h2>
@@ -2310,10 +3261,10 @@
     
     <item>
       <title>大脑突然就宕机了</title>
-      <link>/cn/2022/10/17/note/</link>
+      <link>//localhost:1313/cn/2022/10/17/note/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/17/note/</guid>
+      <guid>//localhost:1313/cn/2022/10/17/note/</guid>
       <description>
         <![CDATA[
         <p>看论文看着看着，看见“半参数模型”几个字，愣了一下，我竟然对这个朝夕相伴这么久的名词，还不知道究竟是个啥，自己研究的模型到底算不算半参数模型？头晕😵‍💫～</p>
@@ -2338,10 +3289,10 @@
     
     <item>
       <title>高维可尝试方向</title>
-      <link>/cn/2022/10/17/higdim/</link>
+      <link>//localhost:1313/cn/2022/10/17/higdim/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/17/higdim/</guid>
+      <guid>//localhost:1313/cn/2022/10/17/higdim/</guid>
       <description>
         <![CDATA[
         <h2 id="高维问题">高维问题</h2>
@@ -2374,10 +3325,10 @@
     
     <item>
       <title>高维文献摘录</title>
-      <link>/cn/2022/10/16/higdimen/</link>
+      <link>//localhost:1313/cn/2022/10/16/higdimen/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/16/higdimen/</guid>
+      <guid>//localhost:1313/cn/2022/10/16/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- 
@@ -2556,10 +3507,10 @@
     
     <item>
       <title>深度思考</title>
-      <link>/cn/2022/10/11/note/</link>
+      <link>//localhost:1313/cn/2022/10/11/note/</link>
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/11/note/</guid>
+      <guid>//localhost:1313/cn/2022/10/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -2638,10 +3589,10 @@
     
     <item>
       <title>学习风格测试</title>
-      <link>/cn/2022/09/27/vark/</link>
+      <link>//localhost:1313/cn/2022/09/27/vark/</link>
       <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/27/vark/</guid>
+      <guid>//localhost:1313/cn/2022/09/27/vark/</guid>
       <description>
         <![CDATA[
         <p>专属学习风格测试<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>通过视觉（Visual）、听觉（Auditory）、阅读（Reading）和动感（Kinesthetic）四个角度评估人类的学习模式。</p>
@@ -2742,10 +3693,10 @@
     
     <item>
       <title>R画图笔记</title>
-      <link>/cn/2022/09/26/codes/</link>
+      <link>//localhost:1313/cn/2022/09/26/codes/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/26/codes/</guid>
+      <guid>//localhost:1313/cn/2022/09/26/codes/</guid>
       <description>
         <![CDATA[
         <p>最近努力在复现论文上的QQ图<br>
@@ -2770,10 +3721,10 @@
     
     <item>
       <title>对称矩阵</title>
-      <link>/cn/2022/09/22/symmatrix/</link>
+      <link>//localhost:1313/cn/2022/09/22/symmatrix/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/22/symmatrix/</guid>
+      <guid>//localhost:1313/cn/2022/09/22/symmatrix/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -2823,10 +3774,10 @@
     
     <item>
       <title>秦导推荐</title>
-      <link>/cn/2022/09/21/qinrecom/</link>
+      <link>//localhost:1313/cn/2022/09/21/qinrecom/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/21/qinrecom/</guid>
+      <guid>//localhost:1313/cn/2022/09/21/qinrecom/</guid>
       <description>
         <![CDATA[
         <h2 id="老师手稿">老师手稿</h2>
@@ -2858,10 +3809,10 @@
     
     <item>
       <title>Bookdown&#43;GitHub发布电子书</title>
-      <link>/cn/2022/09/15/bookdown/</link>
+      <link>//localhost:1313/cn/2022/09/15/bookdown/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/15/bookdown/</guid>
+      <guid>//localhost:1313/cn/2022/09/15/bookdown/</guid>
       <description>
         <![CDATA[
         <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
@@ -2895,10 +3846,10 @@
     
     <item>
       <title>如何写好学术论文</title>
-      <link>/cn/2022/09/11/note/</link>
+      <link>//localhost:1313/cn/2022/09/11/note/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/11/note/</guid>
+      <guid>//localhost:1313/cn/2022/09/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -3080,10 +4031,10 @@
     
     <item>
       <title>刘润语录</title>
-      <link>/cn/2022/09/06/liurun/</link>
+      <link>//localhost:1313/cn/2022/09/06/liurun/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/06/liurun/</guid>
+      <guid>//localhost:1313/cn/2022/09/06/liurun/</guid>
       <description>
         <![CDATA[
         <ol>
@@ -3108,10 +4059,10 @@
     
     <item>
       <title>成甲语录</title>
-      <link>/cn/2022/09/04/note/</link>
+      <link>//localhost:1313/cn/2022/09/04/note/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/04/note/</guid>
+      <guid>//localhost:1313/cn/2022/09/04/note/</guid>
       <description>
         <![CDATA[
         <p>原文<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>讲述了一个学习公式，学习 <code>$=$</code> 改变，改变 <code>$=$</code> 尝试 <code>$\times$</code> 反思 <code>$\times$</code> 对标 <code>$\times$</code> 圈子。文章写得挺有好👍，奈何吸收不了🤦‍♀️，那就挑喜欢的抄一下吧✌️。</p>
@@ -3141,10 +4092,10 @@
     
     <item>
       <title>Borel-Cantelli引理</title>
-      <link>/cn/2022/09/03/borel-cantelli/</link>
+      <link>//localhost:1313/cn/2022/09/03/borel-cantelli/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/03/borel-cantelli/</guid>
+      <guid>//localhost:1313/cn/2022/09/03/borel-cantelli/</guid>
       <description>
         <![CDATA[
         <p>这是一篇摘记<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
@@ -3184,10 +4135,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>《手把手教你雅思写作剑12》</title>
-      <link>/cn/2022/09/02/writing/</link>
+      <link>//localhost:1313/cn/2022/09/02/writing/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/writing/</guid>
+      <guid>//localhost:1313/cn/2022/09/02/writing/</guid>
       <description>
         <![CDATA[
         <h2 id="雅思写作主要学习方法">雅思写作主要学习方法</h2>
@@ -3231,10 +4182,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>句子结构</title>
-      <link>/cn/2022/09/02/sentence/</link>
+      <link>//localhost:1313/cn/2022/09/02/sentence/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/sentence/</guid>
+      <guid>//localhost:1313/cn/2022/09/02/sentence/</guid>
       <description>
         <![CDATA[
         <h2 id="判别句子结构">判别句子结构</h2>
@@ -3267,10 +4218,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>总结错误</title>
-      <link>/cn/2022/09/02/error/</link>
+      <link>//localhost:1313/cn/2022/09/02/error/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/error/</guid>
+      <guid>//localhost:1313/cn/2022/09/02/error/</guid>
       <description>
         <![CDATA[
         <h2 id="错过的地方">错过的地方</h2>
@@ -3288,10 +4239,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>词伙</title>
-      <link>/cn/2022/09/02/cihuo/</link>
+      <link>//localhost:1313/cn/2022/09/02/cihuo/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/cihuo/</guid>
+      <guid>//localhost:1313/cn/2022/09/02/cihuo/</guid>
       <description>
         <![CDATA[
         <p>词伙字典，<a href="https://mp.weixin.qq.com/s/D2JxLIiNUubRsy4f0el7-w">教程</a>，<a href="https://pan.baidu.com/s/1HLrOoATaYFQhMcvGB7rgLg?pwd=j5b2">下载</a>。</p>
@@ -3336,10 +4287,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>雅思</title>
-      <link>/cn/2022/09/01/ielts/</link>
+      <link>//localhost:1313/cn/2022/09/01/ielts/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/01/ielts/</guid>
+      <guid>//localhost:1313/cn/2022/09/01/ielts/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -3425,10 +4376,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>刘润对谈吴军</title>
-      <link>/cn/2022/08/11/note/</link>
+      <link>//localhost:1313/cn/2022/08/11/note/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/11/note/</guid>
+      <guid>//localhost:1313/cn/2022/08/11/note/</guid>
       <description>
         <![CDATA[
         <h2 id="笔记">笔记</h2>
@@ -3665,10 +4616,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>杨绛语录</title>
-      <link>/cn/2022/08/07/yangjiang/</link>
+      <link>//localhost:1313/cn/2022/08/07/yangjiang/</link>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/07/yangjiang/</guid>
+      <guid>//localhost:1313/cn/2022/08/07/yangjiang/</guid>
       <description>
         <![CDATA[
         <h2 id="语录">语录</h2>
@@ -3694,10 +4645,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>推文</title>
-      <link>/cn/2022/08/02/webpages/</link>
+      <link>//localhost:1313/cn/2022/08/02/webpages/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/02/webpages/</guid>
+      <guid>//localhost:1313/cn/2022/08/02/webpages/</guid>
       <description>
         <![CDATA[
         <h2 id="一些有用的网文">一些有用的网文</h2>
@@ -3835,10 +4786,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>论文英语</title>
-      <link>/cn/2022/07/26/paper_skill/</link>
+      <link>//localhost:1313/cn/2022/07/26/paper_skill/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/07/26/paper_skill/</guid>
+      <guid>//localhost:1313/cn/2022/07/26/paper_skill/</guid>
       <description>
         <![CDATA[
         <h2 id="原则">原则</h2>
@@ -3943,10 +4894,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>诗</title>
-      <link>/cn/2022/04/10/poetry/</link>
+      <link>//localhost:1313/cn/2022/04/10/poetry/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/04/10/poetry/</guid>
+      <guid>//localhost:1313/cn/2022/04/10/poetry/</guid>
       <description>
         <![CDATA[
         <h3 id="heading"></h3>
@@ -3999,10 +4950,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>同义替换</title>
-      <link>/cn/2020/05/28/synonymous-substitution/</link>
+      <link>//localhost:1313/cn/2020/05/28/synonymous-substitution/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/05/28/synonymous-substitution/</guid>
+      <guid>//localhost:1313/cn/2020/05/28/synonymous-substitution/</guid>
       <description>
         <![CDATA[
         <h2 id="同义替换">同义替换</h2>
@@ -4112,10 +5063,10 @@ attract sb. to do sth. / attract sb. to sth. 错误的事</p>
     
     <item>
       <title>情绪词语</title>
-      <link>/cn/2020/05/14/emotional-words/</link>
+      <link>//localhost:1313/cn/2020/05/14/emotional-words/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/05/14/emotional-words/</guid>
+      <guid>//localhost:1313/cn/2020/05/14/emotional-words/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -4173,10 +5124,10 @@ attract sb. to do sth. / attract sb. to sth. 错误的事</p>
     
     <item>
       <title>易混单词</title>
-      <link>/cn/2020/04/19/confusing-word/</link>
+      <link>//localhost:1313/cn/2020/04/19/confusing-word/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/04/19/confusing-word/</guid>
+      <guid>//localhost:1313/cn/2020/04/19/confusing-word/</guid>
       <description>
         <![CDATA[
         <h2 id="对比">对比</h2>
@@ -4301,10 +5252,10 @@ prolonged 的意义则更为中性客观。
     
     <item>
       <title>英译成语</title>
-      <link>/cn/2020/04/09/idiom/</link>
+      <link>//localhost:1313/cn/2020/04/09/idiom/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/04/09/idiom/</guid>
+      <guid>//localhost:1313/cn/2020/04/09/idiom/</guid>
       <description>
         <![CDATA[
         <h3 id="形容词性">形容词性</h3>
@@ -4483,6 +5434,22 @@ prolonged 的意义则更为中性客观。
 </li>
 </ul>
 
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/2025-00-00-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/2025-00-00-/</guid>
+      <description>
+        <![CDATA[
+        
         
         ]]>
       </description>

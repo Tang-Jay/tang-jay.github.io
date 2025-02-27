@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>随想 on Tan Jay | 唐 洁</title>
-    <link>/tags/%E9%9A%8F%E6%83%B3/</link>
+    <link>//localhost:1313/tags/%E9%9A%8F%E6%83%B3/</link>
     <description>Recent content in 随想 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E9%9A%8F%E6%83%B3/" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E9%9A%8F%E6%83%B3/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>狂飙</title>
-      <link>/cn/2023/03/27/anger/</link>
+      <link>//localhost:1313/cn/2023/03/27/anger/</link>
       <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/03/27/anger/</guid>
+      <guid>//localhost:1313/cn/2023/03/27/anger/</guid>
       <description>
         <![CDATA[
         <p><strong>激发愤怒使我充满战斗力</strong>。接二两三的失利，使我真的愤怒了。先有博士考试失利，随后论文被拒，紧接着教师笔试也频频滑坡。想象中的自己不应该沦落至此，我也可骄傲了，可爱面子了，可好斗了。因为愤怒，昨天考前吃只吃半口米饭，免得血糖升得太快带来疲惫，影响下午发挥，因为愤怒，考场上我不畏寒冷，撸起袖子，咔咔就是一顿计算。</p>
@@ -30,10 +30,10 @@
     
     <item>
       <title>十一月完结</title>
-      <link>/cn/2022/11/30/conclusion/</link>
+      <link>//localhost:1313/cn/2022/11/30/conclusion/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/30/conclusion/</guid>
+      <guid>//localhost:1313/cn/2022/11/30/conclusion/</guid>
       <description>
         <![CDATA[
         <p style="text-align: center;">
@@ -49,10 +49,10 @@
     
     <item>
       <title>如何整理文献</title>
-      <link>/cn/2022/11/29/reference/</link>
+      <link>//localhost:1313/cn/2022/11/29/reference/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/reference/</guid>
+      <guid>//localhost:1313/cn/2022/11/29/reference/</guid>
       <description>
         <![CDATA[
         <p>近期写材料，发现之前的文献是可以利用上的，但是曾经的我和现在的我，保存文献的方式不统一，这对再次引用文献这一步带来很大的不便。换而言之，抄自己的东西都抄得不是很愉快。那么如何让之后的工作开展得更丝滑呢，我觉得要做到如下几点：</p>
@@ -78,10 +78,10 @@
     
     <item>
       <title>真郇传</title>
-      <link>/cn/2022/10/27/zhenhuan/</link>
+      <link>//localhost:1313/cn/2022/10/27/zhenhuan/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/27/zhenhuan/</guid>
+      <guid>//localhost:1313/cn/2022/10/27/zhenhuan/</guid>
       <description>
         <![CDATA[
         <p>最近，郇真<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>点爆学术圈，只因为她以独立作者身份问鼎Acta Mathematica。</p>
@@ -128,10 +128,10 @@
     
     <item>
       <title>宇宙认知的演化</title>
-      <link>/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</link>
+      <link>//localhost:1313/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</guid>
+      <guid>//localhost:1313/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</guid>
       <description>
         <![CDATA[
         <p>遇到一个<a href="https://mp.weixin.qq.com/s/m2yp0aFq0BCBnxwqE6l51Q">《我是科学家演讲合集》</a>专栏，里面罗列了一场场高级的脱口秀，知识的饕餮盛宴，有用又有趣，虽不能至，心向往之，收藏了。其中对太空<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>的讲解，更是激发从小就埋在心中的种子，产生无限的遐想。一位名为“道可道”的博主在其<a href="https://www.bilibili.com/video/BV1dd4y1P7DN/?spm_id_from=333.337.search-card.all.click">视频</a>中提到，</p>
@@ -199,10 +199,10 @@
     
     <item>
       <title>都在同一天</title>
-      <link>/cn/2022/10/19/day/</link>
+      <link>//localhost:1313/cn/2022/10/19/day/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/19/day/</guid>
+      <guid>//localhost:1313/cn/2022/10/19/day/</guid>
       <description>
         <![CDATA[
         <p>老妈今天考过了科三，带点轻微的发烧。老师今天在育才授课，带点拇指的戳伤。</p>
@@ -223,10 +223,10 @@
     
     <item>
       <title>走出去</title>
-      <link>/cn/2022/10/15/out/</link>
+      <link>//localhost:1313/cn/2022/10/15/out/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/15/out/</guid>
+      <guid>//localhost:1313/cn/2022/10/15/out/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -252,10 +252,10 @@
     
     <item>
       <title>反过来看看</title>
-      <link>/cn/2022/10/05/view/</link>
+      <link>//localhost:1313/cn/2022/10/05/view/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/05/view/</guid>
+      <guid>//localhost:1313/cn/2022/10/05/view/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -324,10 +324,10 @@
     
     <item>
       <title>努力有多少种理由</title>
-      <link>/cn/2022/09/06/reasons/</link>
+      <link>//localhost:1313/cn/2022/09/06/reasons/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/06/reasons/</guid>
+      <guid>//localhost:1313/cn/2022/09/06/reasons/</guid>
       <description>
         <![CDATA[
         <p>小A的理由，为了创造新世界，努力改变旧世界。</p>
@@ -349,10 +349,10 @@
     
     <item>
       <title>论文教会我的事</title>
-      <link>/cn/2022/08/07/paper/</link>
+      <link>//localhost:1313/cn/2022/08/07/paper/</link>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/07/paper/</guid>
+      <guid>//localhost:1313/cn/2022/08/07/paper/</guid>
       <description>
         <![CDATA[
         <blockquote>

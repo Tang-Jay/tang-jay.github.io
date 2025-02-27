@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>桂林 on Tan Jay | 唐 洁</title>
-    <link>/tags/%E6%A1%82%E6%9E%97/</link>
+    <link>//localhost:1313/tags/%E6%A1%82%E6%9E%97/</link>
     <description>Recent content in 桂林 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E6%A1%82%E6%9E%97/" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E6%A1%82%E6%9E%97/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>炎哥</title>
-      <link>/cn/2023/06/07/yan/</link>
+      <link>//localhost:1313/cn/2023/06/07/yan/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/07/yan/</guid>
+      <guid>//localhost:1313/cn/2023/06/07/yan/</guid>
       <description>
         <![CDATA[
         <p>向优秀的炎哥学习。<a href="/papers/Other/6.4%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E9%A2%98%E8%AE%A8%E8%AE%BA.pdf">PDF</a></p>
@@ -28,10 +28,10 @@
     
     <item>
       <title>谢师宴</title>
-      <link>/cn/2023/06/06/dinner/</link>
+      <link>//localhost:1313/cn/2023/06/06/dinner/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/06/dinner/</guid>
+      <guid>//localhost:1313/cn/2023/06/06/dinner/</guid>
       <description>
         <![CDATA[
         <p>我是睡觉很踏实的人，外面狂风掀屋顶对我一点影响都没有，可我今天人都还没醒，大脑就自动开机了。</p>

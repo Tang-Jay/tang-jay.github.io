@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>祁东 on Tan Jay | 唐 洁</title>
-    <link>//localhost:1313/tags/%E7%A5%81%E4%B8%9C/</link>
+    <link>/tags/%E7%A5%81%E4%B8%9C/</link>
     <description>Recent content in 祁东 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%E7%A5%81%E4%B8%9C/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E7%A5%81%E4%B8%9C/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>夜思</title>
-      <link>//localhost:1313/cn/2025/02/17/last-meeting/</link>
+      <link>/cn/2025/02/17/last-meeting/</link>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/17/last-meeting/</guid>
+      <guid>/cn/2025/02/17/last-meeting/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -22,7 +22,7 @@
 <li>毕业后独立买房，经济自由。</li>
 <li>十一点半睡觉。</li>
 <li>心态平和，不想一些没用的。</li>
-<li>除了自己的事，不要对外讲他人的事情，不要大嘴巴.</li>
+<li>逢人只讲自己的事，不要巴巴第二个人的事情，不要大嘴巴。</li>
 <li>白天喝泡热的咖啡、茶、水更提神。</li>
 </ul>
 
@@ -35,15 +35,15 @@
     
     <item>
       <title>2024年前最后一次组会</title>
-      <link>//localhost:1313/cn/2025/01/22/last-meeting/</link>
+      <link>/cn/2025/01/22/last-meeting/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/01/22/last-meeting/</guid>
+      <guid>/cn/2025/01/22/last-meeting/</guid>
       <description>
         <![CDATA[
         <p>被谢老师震撼到，不仅是努力，且努力已成为习惯了。按时给我们组织组会，不因为已经放寒假就断了。旁听了老师与其他学校老师的组会，内容充实，议题新颖。第一，问了浮游生物的类的文字描述；第二，了解到论文的修改意见。</p>
 <p>在家玩，真的不是很舒心，除了必要的睡觉和外出爬山，我心思都希望用在学习上，但是驯服自己有时候也有点费劲。不能专注和完全沉浸其中，原因是，手头内容杂且多，比如帮忙修改论文，下个学习期专业课要讲的内容，组会要讲的内容，自己毕业方向要去钻研的内容，太多太杂，对单线程生物不是很友好呀。</p>
-<p>机器学习里有一个注意力机制，给当前的事情排个优先顺序，那我就专注自己毕业向的论文和帮人早点修改论文吧。</p>
+<p>深度学习里有一个注意力机制，就是关注你想关注的事情，忽略与你无关的事情，运用这个思想给当前的事情排个优先顺序的话，那我就专注自己毕业向的论文，其余事情不要太占心力，尽量尽早解决和忽略。</p>
 
         
         ]]>
@@ -54,10 +54,10 @@
     
     <item>
       <title>又上线了</title>
-      <link>//localhost:1313/cn/2024/08/02/hello/</link>
+      <link>/cn/2024/08/02/hello/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/08/02/hello/</guid>
+      <guid>/cn/2024/08/02/hello/</guid>
       <description>
         <![CDATA[
         <p>历经一年没有打开自己的网站了。这一年的时间经历了许多的事情，我想按照时间线捋一下这一年的发生的事情。</p>
@@ -77,10 +77,10 @@
     
     <item>
       <title>回望暑假</title>
-      <link>//localhost:1313/cn/2023/08/12/conclusion/</link>
+      <link>/cn/2023/08/12/conclusion/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/08/12/conclusion/</guid>
+      <guid>/cn/2023/08/12/conclusion/</guid>
       <description>
         <![CDATA[
         <p>时间流走很快。谁能想到一个月前还是学生，转身自己即将成为别人的老师。</p>
@@ -98,10 +98,10 @@
     
     <item>
       <title>考编历程</title>
-      <link>//localhost:1313/cn/2023/05/09/exams/</link>
+      <link>/cn/2023/05/09/exams/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/05/09/exams/</guid>
+      <guid>/cn/2023/05/09/exams/</guid>
       <description>
         <![CDATA[
         <h3 id="第一场-长沙县-初中城区-68-5">第一场 长沙县 初中城区 68.5</h3>
@@ -222,10 +222,10 @@
     
     <item>
       <title>嘿，好久不见</title>
-      <link>//localhost:1313/cn/2023/05/08/jay/</link>
+      <link>/cn/2023/05/08/jay/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/05/08/jay/</guid>
+      <guid>/cn/2023/05/08/jay/</guid>
       <description>
         <![CDATA[
         <p>嘿，唐洁，你知道吗，在这消失的这一个月里，发生了太多太多的故事，尽管多，但是还是想一件件描述出来讲给你听，你帮我理一理这个中间我追求的是什么。</p>
@@ -247,10 +247,10 @@
     
     <item>
       <title>磨砺</title>
-      <link>//localhost:1313/cn/2023/03/04/loser/</link>
+      <link>/cn/2023/03/04/loser/</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/03/04/loser/</guid>
+      <guid>/cn/2023/03/04/loser/</guid>
       <description>
         <![CDATA[
         <p>从备考开始，就好像未婚却秘密怀孕了一样，激动紧张又恐惧。激动是因为这是我做梦都不敢想的事情，我一个草根，一个三流学生，竟然能报名人民大学的博士，如果能考上，祖坟真的是要冒青烟了。紧张大概是踏出自己的舒适圈，从一个小地方到大城市，从一个热闹的小巷到肃穆的街道，从和蔼和亲的是师朋好友到铁面无私的面试官们，自己却没有做到踏出舒适圈充足的准备，例如，专业不够精(统计很多经典的书，我都没有读过，或者没读透)，涉猎不够广(MCMC、统计建模、信息论领域、统计推断在经济领域生物领域的应用、数学或统计领域最新成果等等)。恐惧是未来不确定性所带来的慌张，自己的状态没有打满却要与人进行搏斗，等待搏斗的过程中，却不知那人何时何地出现、力量、技能是什么，自己是否有胜算的可能。</p>
@@ -266,10 +266,10 @@
     
     <item>
       <title>唐洁，新年好</title>
-      <link>//localhost:1313/cn/2023/01/27/newyear/</link>
+      <link>/cn/2023/01/27/newyear/</link>
       <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/01/27/newyear/</guid>
+      <guid>/cn/2023/01/27/newyear/</guid>
       <description>
         <![CDATA[
         <p>自放寒假以来，生活就是一场快进的PPT，不停地下一页下一页，模糊了很多细节。你有慌乱、焦虑、彷徨过，沉静之后，一件件捋顺，终是通畅了些。新年到了，我想跟你说，你要学会与自己相处，尊重自己的感受，倾听自己的声音，驭心有术。</p>
@@ -307,10 +307,10 @@
     
     <item>
       <title>举国同庆</title>
-      <link>//localhost:1313/cn/2022/10/09/vacation/</link>
+      <link>/cn/2022/10/09/vacation/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/09/vacation/</guid>
+      <guid>/cn/2022/10/09/vacation/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -347,10 +347,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>领取第一张伴娘体验卡</title>
-      <link>//localhost:1313/cn/2022/09/06/gaoli/</link>
+      <link>/cn/2022/09/06/gaoli/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/06/gaoli/</guid>
+      <guid>/cn/2022/09/06/gaoli/</guid>
       <description>
         <![CDATA[
         <p>日子与寻常的每一天一样，到点吃饭。<br>
@@ -394,10 +394,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>返校</title>
-      <link>//localhost:1313/cn/2022/08/27/ending/</link>
+      <link>/cn/2022/08/27/ending/</link>
       <pubDate>Sat, 27 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/27/ending/</guid>
+      <guid>/cn/2022/08/27/ending/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -427,10 +427,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>心情低落干点啥</title>
-      <link>//localhost:1313/cn/2022/08/13/daily/</link>
+      <link>/cn/2022/08/13/daily/</link>
       <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/13/daily/</guid>
+      <guid>/cn/2022/08/13/daily/</guid>
       <description>
         <![CDATA[
         <!-- 投稿十天，今天收到被拒消息，难过到不是被拒，而是要继续改。多历练吧，加油 -->
@@ -503,10 +503,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>论文教会我的事</title>
-      <link>//localhost:1313/cn/2022/08/07/paper/</link>
+      <link>/cn/2022/08/07/paper/</link>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/07/paper/</guid>
+      <guid>/cn/2022/08/07/paper/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -573,10 +573,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>暑假开启</title>
-      <link>//localhost:1313/cn/2022/07/03/vacation/</link>
+      <link>/cn/2022/07/03/vacation/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/03/vacation/</guid>
+      <guid>/cn/2022/07/03/vacation/</guid>
       <description>
         <![CDATA[
         <p>宿舍四人，二位离校了。我以为我会很淡定，我会坚持到学校赶人，没想到我… …</p>
@@ -594,10 +594,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>收到婚帖</title>
-      <link>//localhost:1313/cn/2022/06/21/wedding/</link>
+      <link>/cn/2022/06/21/wedding/</link>
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/06/21/wedding/</guid>
+      <guid>/cn/2022/06/21/wedding/</guid>
       <description>
         <![CDATA[
         <h2 id="祝福">祝福</h2>

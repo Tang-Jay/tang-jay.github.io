@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>益辉 on Tan Jay | 唐 洁</title>
-    <link>//localhost:1313/tags/%E7%9B%8A%E8%BE%89/</link>
+    <link>/tags/%E7%9B%8A%E8%BE%89/</link>
     <description>Recent content in 益辉 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%E7%9B%8A%E8%BE%89/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E7%9B%8A%E8%BE%89/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R画图笔记</title>
-      <link>//localhost:1313/cn/2022/09/26/codes/</link>
+      <link>/cn/2022/09/26/codes/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/26/codes/</guid>
+      <guid>/cn/2022/09/26/codes/</guid>
       <description>
         <![CDATA[
         <p>最近努力在复现论文上的QQ图<br>
@@ -39,10 +39,10 @@
     
     <item>
       <title>Bookdown&#43;GitHub发布电子书</title>
-      <link>//localhost:1313/cn/2022/09/15/bookdown/</link>
+      <link>/cn/2022/09/15/bookdown/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/15/bookdown/</guid>
+      <guid>/cn/2022/09/15/bookdown/</guid>
       <description>
         <![CDATA[
         <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
@@ -76,10 +76,10 @@
     
     <item>
       <title>又挖宝了</title>
-      <link>//localhost:1313/cn/2022/08/02/yihui/</link>
+      <link>/cn/2022/08/02/yihui/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/02/yihui/</guid>
+      <guid>/cn/2022/08/02/yihui/</guid>
       <description>
         <![CDATA[
         <p>今日特别想做些喜欢的事情<br>
@@ -114,10 +114,10 @@
     
     <item>
       <title>初遇本站架构</title>
-      <link>//localhost:1313/cn/2022/06/17/glimpse/</link>
+      <link>/cn/2022/06/17/glimpse/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/06/17/glimpse/</guid>
+      <guid>/cn/2022/06/17/glimpse/</guid>
       <description>
         <![CDATA[
         <p>我无意浏览到<a href="https://yihui.org">谢益辉网页</a>，简洁干净的画面，井然有序的资料&hellip; 嘣！弹壳落地的声音，我的心被狙中了，心猿意马形容我的心情都不为过，心中就想着，我也想搭一个自己的博客，整理资料。于是，我鼓起勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>

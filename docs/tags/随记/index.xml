@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>随记 on Tan Jay | 唐 洁</title>
-    <link>//localhost:1313/tags/%E9%9A%8F%E8%AE%B0/</link>
+    <link>/tags/%E9%9A%8F%E8%AE%B0/</link>
     <description>Recent content in 随记 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%E9%9A%8F%E8%AE%B0/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E9%9A%8F%E8%AE%B0/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>大脑突然就宕机了</title>
-      <link>//localhost:1313/cn/2022/10/17/note/</link>
+      <link>/cn/2022/10/17/note/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/17/note/</guid>
+      <guid>/cn/2022/10/17/note/</guid>
       <description>
         <![CDATA[
         <p>看论文看着看着，看见“半参数模型”几个字，愣了一下，我竟然对这个朝夕相伴这么久的名词，还不知道究竟是个啥，自己研究的模型到底算不算半参数模型？头晕😵‍💫～</p>
@@ -39,10 +39,10 @@
     
     <item>
       <title>深度思考</title>
-      <link>//localhost:1313/cn/2022/10/11/note/</link>
+      <link>/cn/2022/10/11/note/</link>
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/11/note/</guid>
+      <guid>/cn/2022/10/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -121,10 +121,10 @@
     
     <item>
       <title>学习风格测试</title>
-      <link>//localhost:1313/cn/2022/09/27/vark/</link>
+      <link>/cn/2022/09/27/vark/</link>
       <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/27/vark/</guid>
+      <guid>/cn/2022/09/27/vark/</guid>
       <description>
         <![CDATA[
         <p>专属学习风格测试<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>通过视觉（Visual）、听觉（Auditory）、阅读（Reading）和动感（Kinesthetic）四个角度评估人类的学习模式。</p>
@@ -225,10 +225,10 @@
     
     <item>
       <title>R画图笔记</title>
-      <link>//localhost:1313/cn/2022/09/26/codes/</link>
+      <link>/cn/2022/09/26/codes/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/26/codes/</guid>
+      <guid>/cn/2022/09/26/codes/</guid>
       <description>
         <![CDATA[
         <p>最近努力在复现论文上的QQ图<br>
@@ -253,10 +253,10 @@
     
     <item>
       <title>Bookdown&#43;GitHub发布电子书</title>
-      <link>//localhost:1313/cn/2022/09/15/bookdown/</link>
+      <link>/cn/2022/09/15/bookdown/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/15/bookdown/</guid>
+      <guid>/cn/2022/09/15/bookdown/</guid>
       <description>
         <![CDATA[
         <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
@@ -290,10 +290,10 @@
     
     <item>
       <title>如何写好学术论文</title>
-      <link>//localhost:1313/cn/2022/09/11/note/</link>
+      <link>/cn/2022/09/11/note/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/11/note/</guid>
+      <guid>/cn/2022/09/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -475,10 +475,10 @@
     
     <item>
       <title>Borel-Cantelli引理</title>
-      <link>//localhost:1313/cn/2022/09/03/borel-cantelli/</link>
+      <link>/cn/2022/09/03/borel-cantelli/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/03/borel-cantelli/</guid>
+      <guid>/cn/2022/09/03/borel-cantelli/</guid>
       <description>
         <![CDATA[
         <p>这是一篇摘记<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
@@ -518,10 +518,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>刘润对谈吴军</title>
-      <link>//localhost:1313/cn/2022/08/11/note/</link>
+      <link>/cn/2022/08/11/note/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/11/note/</guid>
+      <guid>/cn/2022/08/11/note/</guid>
       <description>
         <![CDATA[
         <h2 id="笔记">笔记</h2>
@@ -758,10 +758,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>诗</title>
-      <link>//localhost:1313/cn/2022/04/10/poetry/</link>
+      <link>/cn/2022/04/10/poetry/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/04/10/poetry/</guid>
+      <guid>/cn/2022/04/10/poetry/</guid>
       <description>
         <![CDATA[
         <h3 id="heading"></h3>

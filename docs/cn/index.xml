@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日志 on Tan Jay | 唐 洁</title>
-    <link>//localhost:1313/cn/</link>
+    <link>/cn/</link>
     <description>Recent content in 日志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/cn/" rel="self" type="application/rss+xml" />
+    <atom:link href="/cn/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DRO研究梳理</title>
-      <link>//localhost:1313/cn/2025/02/27/dro/</link>
+      <link>/cn/2025/02/27/dro/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/27/dro/</guid>
+      <guid>/cn/2025/02/27/dro/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -134,10 +134,10 @@
     
     <item>
       <title>不确定量化</title>
-      <link>//localhost:1313/cn/2025/02/27/uc/</link>
+      <link>/cn/2025/02/27/uc/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/27/uc/</guid>
+      <guid>/cn/2025/02/27/uc/</guid>
       <description>
         <![CDATA[
         <h1 id="不确定量化">不确定量化</h1>
@@ -257,10 +257,10 @@
     
     <item>
       <title>分布偏移</title>
-      <link>//localhost:1313/cn/2025/02/27/shift/</link>
+      <link>/cn/2025/02/27/shift/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/27/shift/</guid>
+      <guid>/cn/2025/02/27/shift/</guid>
       <description>
         <![CDATA[
         <h2 id="与dro关系">与DRO关系</h2>
@@ -398,10 +398,10 @@
     
     <item>
       <title>研究主题</title>
-      <link>//localhost:1313/cn/2025/02/26/topics/</link>
+      <link>/cn/2025/02/26/topics/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/26/topics/</guid>
+      <guid>/cn/2025/02/26/topics/</guid>
       <description>
         <![CDATA[
         <h1 id="distributional-robust-optimization-dro-cn-2025-02-27-dro">distributional robust optimization (<a href="/cn/2025/02/27/dro/">DRO</a>)</h1>
@@ -431,10 +431,10 @@
     
     <item>
       <title>保形推断</title>
-      <link>//localhost:1313/cn/2025/02/25/conformity/</link>
+      <link>/cn/2025/02/25/conformity/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/25/conformity/</guid>
+      <guid>/cn/2025/02/25/conformity/</guid>
       <description>
         <![CDATA[
         <h1 id="研究记录之保形推断">研究记录之保形推断</h1>
@@ -821,10 +821,10 @@ $$</p>
     
     <item>
       <title>周三研究汇报</title>
-      <link>//localhost:1313/cn/2025/02/25/report/</link>
+      <link>/cn/2025/02/25/report/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/25/report/</guid>
+      <guid>/cn/2025/02/25/report/</guid>
       <description>
         <![CDATA[
         <h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
@@ -860,10 +860,10 @@ $$</p>
     
     <item>
       <title>每日研究进度条</title>
-      <link>//localhost:1313/cn/2025/02/25/record/</link>
+      <link>/cn/2025/02/25/record/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/25/record/</guid>
+      <guid>/cn/2025/02/25/record/</guid>
       <description>
         <![CDATA[
         <h2 id="2025-02-23-周日">2025-02-23 周日</h2>
@@ -927,10 +927,10 @@ $$</p>
     
     <item>
       <title>夜思</title>
-      <link>//localhost:1313/cn/2025/02/17/last-meeting/</link>
+      <link>/cn/2025/02/17/last-meeting/</link>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/17/last-meeting/</guid>
+      <guid>/cn/2025/02/17/last-meeting/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -938,7 +938,7 @@ $$</p>
 <li>毕业后独立买房，经济自由。</li>
 <li>十一点半睡觉。</li>
 <li>心态平和，不想一些没用的。</li>
-<li>除了自己的事，不要对外讲他人的事情，不要大嘴巴.</li>
+<li>逢人只讲自己的事，不要巴巴第二个人的事情，不要大嘴巴。</li>
 <li>白天喝泡热的咖啡、茶、水更提神。</li>
 </ul>
 
@@ -951,15 +951,15 @@ $$</p>
     
     <item>
       <title>2024年前最后一次组会</title>
-      <link>//localhost:1313/cn/2025/01/22/last-meeting/</link>
+      <link>/cn/2025/01/22/last-meeting/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/01/22/last-meeting/</guid>
+      <guid>/cn/2025/01/22/last-meeting/</guid>
       <description>
         <![CDATA[
         <p>被谢老师震撼到，不仅是努力，且努力已成为习惯了。按时给我们组织组会，不因为已经放寒假就断了。旁听了老师与其他学校老师的组会，内容充实，议题新颖。第一，问了浮游生物的类的文字描述；第二，了解到论文的修改意见。</p>
 <p>在家玩，真的不是很舒心，除了必要的睡觉和外出爬山，我心思都希望用在学习上，但是驯服自己有时候也有点费劲。不能专注和完全沉浸其中，原因是，手头内容杂且多，比如帮忙修改论文，下个学习期专业课要讲的内容，组会要讲的内容，自己毕业方向要去钻研的内容，太多太杂，对单线程生物不是很友好呀。</p>
-<p>机器学习里有一个注意力机制，给当前的事情排个优先顺序，那我就专注自己毕业向的论文和帮人早点修改论文吧。</p>
+<p>深度学习里有一个注意力机制，就是关注你想关注的事情，忽略与你无关的事情，运用这个思想给当前的事情排个优先顺序的话，那我就专注自己毕业向的论文，其余事情不要太占心力，尽量尽早解决和忽略。</p>
 
         
         ]]>
@@ -970,10 +970,10 @@ $$</p>
     
     <item>
       <title>2024最后一天</title>
-      <link>//localhost:1313/cn/2024/12/31/last-day-of-2024/</link>
+      <link>/cn/2024/12/31/last-day-of-2024/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/12/31/last-day-of-2024/</guid>
+      <guid>/cn/2024/12/31/last-day-of-2024/</guid>
       <description>
         <![CDATA[
         <p>今天是一年最后一天。
@@ -991,10 +991,10 @@ $$</p>
     
     <item>
       <title>与炎哥交流</title>
-      <link>//localhost:1313/cn/2024/12/11/yan/</link>
+      <link>/cn/2024/12/11/yan/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/12/11/yan/</guid>
+      <guid>/cn/2024/12/11/yan/</guid>
       <description>
         <![CDATA[
         <p>昨天跟在上海读博士的炎哥交流一番，重获激情人生。</p>
@@ -1012,16 +1012,16 @@ $$</p>
     
     <item>
       <title>读博日常</title>
-      <link>//localhost:1313/cn/2024/12/06/today/</link>
+      <link>/cn/2024/12/06/today/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/12/06/today/</guid>
+      <guid>/cn/2024/12/06/today/</guid>
       <description>
         <![CDATA[
         <p>从开学至现在，已然四个月过去了，今天才有感觉，能好好写个日记，记录自己的生活。</p>
 <p>首先，心情会很好的原因是，终于要结束了本学期所有要上台的展示。每一次上台，都跟打仗一样，得做好万无一失的准备。每一次可能长达40小时的准备，从自己理清证明，到设计板书的呈现，在脑海不断地多预演几遍，直到真的呈现完，才算是结束一桩事情。这件事才不会像是电脑后台一项一直占着很大内容的任务消耗着大脑的资源，处理不了别的事情。但，仍然不能尽善尽美。</p>
 <p>昨天星期四，下午高维课，童老师是本次研讨课的上课老师。虽然，下课的时候，童老师说看得出我有认真准备，但是在讲授过程中，我在证明定理时要用到一个引理，结果问题就出在这个引理上，因为我的重心在于找到这个引理作为搭桥过渡，而没有去证明，想当然地去用，得出自己的结论就好了。万万没想到，大家在这个引理上做了很多讨论，但是我没有去证明也不敢乱讲。我有点被问得呆住了。最难受的是，大家觉得这个东西是我讲错了，只因为我没有证明这个引理，认为我乱用了这个引理。我表示很难受。因为我调查了大量的资料，我是看到严肃的论文都是这样推断的，才敢去呈现我的结果。结果，不仅没有得到一个好的呈现，还让大家觉得这个定理很乱，与我本意想给出一个简洁对称的结果相违背。并且，我更想说，我证的是对的，不能因为我没有说清楚而说它是错的！！这个不能忍。</p>
-<p>为了说明我是对的。从昨天下课后，我的大脑就一直在琢磨这个事情，甚至到了凌晨还没困意，就因为想要说明自己没有错。今天一起来，饭也没心思吃，找了很多材料去佐证自己是对的，下午本来想着证据充分了，干点别的，结果还是不自觉回到这个引理的证明上，继续找资料，找更加直接的证明，证明我是对的。没想到，我找到了，在<a href="https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf">高维概率论</a>这本书上163页给出的Gaussian interpolation方法证明过程与我在黑板呈现的是一致的。我找到铁的证据了，恨不得下周四赶紧到来，让我给这个引理平反昭雪！！</p>
+<p>为了说明我是对的。从昨天下课后，我的大脑就一直在琢磨这个事情，甚至到了凌晨还没困意，就因为想要说明自己没有错。今天一起来，饭也没心思吃，找了很多材料去佐证自己是对的，下午本来想着证据充分了，干点别的，结果还是不自觉回到这个引理的证明上，继续找资料，想找更加直接的证明，证明我是对的。没想到，我真的找到了，在<a href="https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf">高维概率论</a>这本书上163页给出的Gaussian interpolation方法，证明过程与我在黑板呈现的是一致的。我找到铁的证据，恨不得下周四赶紧到来，让我给这个引理平反昭雪！！</p>
 <p>所以，心情好的第二原因就是，最后一次上台展示需要的证据有了，讲完就好了！就彻底这个学期课程任务算是解放了。</p>
 <p>尽管知道，事情是一波接一波，没有完的时候，但结束一件是一件吧～</p>
 <p>通过这件事情，我再次发现自己犟起来真的很犟啊！🤦明明这个定理自己以后也不需要，也没有人在乎这个定理能不能证，过去了也不会有人提了，我还继续拿出来硬要讲清楚它。真犟。</p>
@@ -1035,10 +1035,10 @@ $$</p>
     
     <item>
       <title>周二汇报</title>
-      <link>//localhost:1313/cn/2024/11/25/storey/</link>
+      <link>/cn/2024/11/25/storey/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/11/25/storey/</guid>
+      <guid>/cn/2024/11/25/storey/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -1316,10 +1316,10 @@ $$</p>
     
     <item>
       <title>经验过程</title>
-      <link>//localhost:1313/cn/2024/11/25/empirical-process/</link>
+      <link>/cn/2024/11/25/empirical-process/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/11/25/empirical-process/</guid>
+      <guid>/cn/2024/11/25/empirical-process/</guid>
       <description>
         <![CDATA[
         <h1 id="经验过程">经验过程</h1>
@@ -1352,10 +1352,10 @@ $$</p>
     
     <item>
       <title>积累</title>
-      <link>//localhost:1313/cn/2024/10/07/bnuz/</link>
+      <link>/cn/2024/10/07/bnuz/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/10/07/bnuz/</guid>
+      <guid>/cn/2024/10/07/bnuz/</guid>
       <description>
         <![CDATA[
         <h3 id="一些博主">一些博主</h3>
@@ -1387,10 +1387,10 @@ $$</p>
     
     <item>
       <title>新生自传</title>
-      <link>//localhost:1313/cn/2024/09/04/self-intro/</link>
+      <link>/cn/2024/09/04/self-intro/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/09/04/self-intro/</guid>
+      <guid>/cn/2024/09/04/self-intro/</guid>
       <description>
         <![CDATA[
         <p>我的名字叫唐洁，1995年生人，来自湖南祁东，以下是我的自传内容分为三个部分，个人成长经历，自我评价和大学生活规划。</p>
@@ -1424,10 +1424,10 @@ $$</p>
     
     <item>
       <title>OOD学习</title>
-      <link>//localhost:1313/cn/2024/08/02/ood/</link>
+      <link>/cn/2024/08/02/ood/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/08/02/ood/</guid>
+      <guid>/cn/2024/08/02/ood/</guid>
       <description>
         <![CDATA[
         <h2 id="sharon-li">Sharon Li</h2>
@@ -1463,10 +1463,10 @@ $$</p>
     
     <item>
       <title>又上线了</title>
-      <link>//localhost:1313/cn/2024/08/02/hello/</link>
+      <link>/cn/2024/08/02/hello/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/08/02/hello/</guid>
+      <guid>/cn/2024/08/02/hello/</guid>
       <description>
         <![CDATA[
         <p>历经一年没有打开自己的网站了。这一年的时间经历了许多的事情，我想按照时间线捋一下这一年的发生的事情。</p>
@@ -1486,10 +1486,10 @@ $$</p>
     
     <item>
       <title>专家</title>
-      <link>//localhost:1313/cn/2023/08/15/dr/</link>
+      <link>/cn/2023/08/15/dr/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/08/15/dr/</guid>
+      <guid>/cn/2023/08/15/dr/</guid>
       <description>
         <![CDATA[
         <h3 id="王建军-http-math-swu-edu-cn-info-1019-2612-htm"><a href="http://math.swu.edu.cn/info/1019/2612.htm">王建军</a></h3>
@@ -1509,10 +1509,10 @@ $$</p>
     
     <item>
       <title>李红权</title>
-      <link>//localhost:1313/cn/2023/08/15/dr.li/</link>
+      <link>/cn/2023/08/15/dr.li/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/08/15/dr.li/</guid>
+      <guid>/cn/2023/08/15/dr.li/</guid>
       <description>
         <![CDATA[
         <h2 id="李红权-https-sxy-hunnu-edu-cn-info-1054-2670-htm"><a href="https://sxy.hunnu.edu.cn/info/1054/2670.htm">李红权</a></h2>
@@ -1542,10 +1542,10 @@ $$</p>
     
     <item>
       <title>蔡宗武</title>
-      <link>//localhost:1313/cn/2023/08/15/dr.zong/</link>
+      <link>/cn/2023/08/15/dr.zong/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/08/15/dr.zong/</guid>
+      <guid>/cn/2023/08/15/dr.zong/</guid>
       <description>
         <![CDATA[
         <h2 id="蔡宗武">蔡宗武</h2>
@@ -1577,10 +1577,10 @@ $$</p>
     
     <item>
       <title>回望暑假</title>
-      <link>//localhost:1313/cn/2023/08/12/conclusion/</link>
+      <link>/cn/2023/08/12/conclusion/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/08/12/conclusion/</guid>
+      <guid>/cn/2023/08/12/conclusion/</guid>
       <description>
         <![CDATA[
         <p>时间流走很快。谁能想到一个月前还是学生，转身自己即将成为别人的老师。</p>
@@ -1598,10 +1598,10 @@ $$</p>
     
     <item>
       <title>地理常识</title>
-      <link>//localhost:1313/cn/2023/08/09/geogeaphy/</link>
+      <link>/cn/2023/08/09/geogeaphy/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/08/09/geogeaphy/</guid>
+      <guid>/cn/2023/08/09/geogeaphy/</guid>
       <description>
         <![CDATA[
         <p style="text-align: center;">
@@ -2035,10 +2035,10 @@ $$</p>
     
     <item>
       <title>八月安排表</title>
-      <link>//localhost:1313/cn/2023/08/01/plan/</link>
+      <link>/cn/2023/08/01/plan/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/08/01/plan/</guid>
+      <guid>/cn/2023/08/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -2304,10 +2304,10 @@ $$</p>
     
     <item>
       <title>七月安排表</title>
-      <link>//localhost:1313/cn/2023/07/01/plan/</link>
+      <link>/cn/2023/07/01/plan/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/07/01/plan/</guid>
+      <guid>/cn/2023/07/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -2556,10 +2556,10 @@ $$</p>
     
     <item>
       <title>六月安排表(下)</title>
-      <link>//localhost:1313/cn/2023/06/22/plan/</link>
+      <link>/cn/2023/06/22/plan/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/06/22/plan/</guid>
+      <guid>/cn/2023/06/22/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-下">计划清单 (下)</h2>
@@ -2664,10 +2664,10 @@ $$</p>
     
     <item>
       <title>炎哥</title>
-      <link>//localhost:1313/cn/2023/06/07/yan/</link>
+      <link>/cn/2023/06/07/yan/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/06/07/yan/</guid>
+      <guid>/cn/2023/06/07/yan/</guid>
       <description>
         <![CDATA[
         <p>向优秀的炎哥学习。<a href="/papers/Other/6.4%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E9%A2%98%E8%AE%A8%E8%AE%BA.pdf">PDF</a></p>
@@ -2681,10 +2681,10 @@ $$</p>
     
     <item>
       <title>谢师宴</title>
-      <link>//localhost:1313/cn/2023/06/06/dinner/</link>
+      <link>/cn/2023/06/06/dinner/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/06/06/dinner/</guid>
+      <guid>/cn/2023/06/06/dinner/</guid>
       <description>
         <![CDATA[
         <p>我是睡觉很踏实的人，外面狂风掀屋顶对我一点影响都没有，可我今天人都还没醒，大脑就自动开机了。</p>
@@ -2704,10 +2704,10 @@ $$</p>
     
     <item>
       <title>六月安排表(上)</title>
-      <link>//localhost:1313/cn/2023/06/01/plan/</link>
+      <link>/cn/2023/06/01/plan/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/06/01/plan/</guid>
+      <guid>/cn/2023/06/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-上">计划清单 (上)</h2>
@@ -2909,10 +2909,10 @@ $$</p>
     
     <item>
       <title>五月底计划表</title>
-      <link>//localhost:1313/cn/2023/05/31/plan/</link>
+      <link>/cn/2023/05/31/plan/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/05/31/plan/</guid>
+      <guid>/cn/2023/05/31/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="第一周">第一周</h2>
@@ -3008,10 +3008,10 @@ $$</p>
     
     <item>
       <title>考编历程</title>
-      <link>//localhost:1313/cn/2023/05/09/exams/</link>
+      <link>/cn/2023/05/09/exams/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/05/09/exams/</guid>
+      <guid>/cn/2023/05/09/exams/</guid>
       <description>
         <![CDATA[
         <h3 id="第一场-长沙县-初中城区-68-5">第一场 长沙县 初中城区 68.5</h3>
@@ -3132,10 +3132,10 @@ $$</p>
     
     <item>
       <title>嘿，好久不见</title>
-      <link>//localhost:1313/cn/2023/05/08/jay/</link>
+      <link>/cn/2023/05/08/jay/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/05/08/jay/</guid>
+      <guid>/cn/2023/05/08/jay/</guid>
       <description>
         <![CDATA[
         <p>嘿，唐洁，你知道吗，在这消失的这一个月里，发生了太多太多的故事，尽管多，但是还是想一件件描述出来讲给你听，你帮我理一理这个中间我追求的是什么。</p>
@@ -3157,10 +3157,10 @@ $$</p>
     
     <item>
       <title>生活碎片</title>
-      <link>//localhost:1313/cn/2023/04/11/daily/</link>
+      <link>/cn/2023/04/11/daily/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/04/11/daily/</guid>
+      <guid>/cn/2023/04/11/daily/</guid>
       <description>
         <![CDATA[
         <p>要忙的事情还很多，但暂时清空了一些。毕业论文提交了，稿件跟龙哥对过了，明天的面试还没来。自己给自己抽出来的空闲，特别想记录一下，最近所闻所感的事情。</p>
@@ -3177,10 +3177,10 @@ $$</p>
     
     <item>
       <title>记一次腾讯会议</title>
-      <link>//localhost:1313/cn/2023/04/03/meeting/</link>
+      <link>/cn/2023/04/03/meeting/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/04/03/meeting/</guid>
+      <guid>/cn/2023/04/03/meeting/</guid>
       <description>
         <![CDATA[
         <p>今日周一，老师如以往一样很认真地给了我论文修改的意见。老师的风格就是干净利落，简洁明快，这基于老师看过思考过，才可以在会议上这么快速准确地找出论文存在的问题。可每一次，跟老师无论是长还是短地交涉之后，我总是要花点时间去平复一下心绪。并不是老师说了什么批评我的话，相反，他总是能站在你的角度考虑问题，共情到你的感受，并给出适合你的建议，一语中的，掷地有声。</p>
@@ -3197,10 +3197,10 @@ $$</p>
     
     <item>
       <title>狂飙</title>
-      <link>//localhost:1313/cn/2023/03/27/anger/</link>
+      <link>/cn/2023/03/27/anger/</link>
       <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/03/27/anger/</guid>
+      <guid>/cn/2023/03/27/anger/</guid>
       <description>
         <![CDATA[
         <p><strong>激发愤怒使我充满战斗力</strong>。接二两三的失利，使我真的愤怒了。先有博士考试失利，随后论文被拒，紧接着教师笔试也频频滑坡。想象中的自己不应该沦落至此，我也可骄傲了，可爱面子了，可好斗了。因为愤怒，昨天考前吃只吃半口米饭，免得血糖升得太快带来疲惫，影响下午发挥，因为愤怒，考场上我不畏寒冷，撸起袖子，咔咔就是一顿计算。</p>
@@ -3216,10 +3216,10 @@ $$</p>
     
     <item>
       <title>磨砺</title>
-      <link>//localhost:1313/cn/2023/03/04/loser/</link>
+      <link>/cn/2023/03/04/loser/</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/03/04/loser/</guid>
+      <guid>/cn/2023/03/04/loser/</guid>
       <description>
         <![CDATA[
         <p>从备考开始，就好像未婚却秘密怀孕了一样，激动紧张又恐惧。激动是因为这是我做梦都不敢想的事情，我一个草根，一个三流学生，竟然能报名人民大学的博士，如果能考上，祖坟真的是要冒青烟了。紧张大概是踏出自己的舒适圈，从一个小地方到大城市，从一个热闹的小巷到肃穆的街道，从和蔼和亲的是师朋好友到铁面无私的面试官们，自己却没有做到踏出舒适圈充足的准备，例如，专业不够精(统计很多经典的书，我都没有读过，或者没读透)，涉猎不够广(MCMC、统计建模、信息论领域、统计推断在经济领域生物领域的应用、数学或统计领域最新成果等等)。恐惧是未来不确定性所带来的慌张，自己的状态没有打满却要与人进行搏斗，等待搏斗的过程中，却不知那人何时何地出现、力量、技能是什么，自己是否有胜算的可能。</p>
@@ -3235,10 +3235,10 @@ $$</p>
     
     <item>
       <title>唐洁，新年好</title>
-      <link>//localhost:1313/cn/2023/01/27/newyear/</link>
+      <link>/cn/2023/01/27/newyear/</link>
       <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2023/01/27/newyear/</guid>
+      <guid>/cn/2023/01/27/newyear/</guid>
       <description>
         <![CDATA[
         <p>自放寒假以来，生活就是一场快进的PPT，不停地下一页下一页，模糊了很多细节。你有慌乱、焦虑、彷徨过，沉静之后，一件件捋顺，终是通畅了些。新年到了，我想跟你说，你要学会与自己相处，尊重自己的感受，倾听自己的声音，驭心有术。</p>
@@ -3276,10 +3276,10 @@ $$</p>
     
     <item>
       <title>同门伙伴</title>
-      <link>//localhost:1313/cn/2022/12/08/companion/</link>
+      <link>/cn/2022/12/08/companion/</link>
       <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/12/08/companion/</guid>
+      <guid>/cn/2022/12/08/companion/</guid>
       <description>
         <![CDATA[
         <p>昨天周三，4个人，雨晴、静静子、龙哥还有我，如往常一样去育才听课。</p>
@@ -3300,10 +3300,10 @@ $$</p>
     
     <item>
       <title>新概念英语</title>
-      <link>//localhost:1313/cn/2022/12/03/english/</link>
+      <link>/cn/2022/12/03/english/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/12/03/english/</guid>
+      <guid>/cn/2022/12/03/english/</guid>
       <description>
         <![CDATA[
         <h3 id="第一册">第一册</h3>
@@ -3340,10 +3340,10 @@ $$</p>
     
     <item>
       <title>NBEL</title>
-      <link>//localhost:1313/cn/2022/12/02/nbel/</link>
+      <link>/cn/2022/12/02/nbel/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/12/02/nbel/</guid>
+      <guid>/cn/2022/12/02/nbel/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -3381,10 +3381,10 @@ $$</p>
     
     <item>
       <title>十一月完结</title>
-      <link>//localhost:1313/cn/2022/11/30/conclusion/</link>
+      <link>/cn/2022/11/30/conclusion/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/11/30/conclusion/</guid>
+      <guid>/cn/2022/11/30/conclusion/</guid>
       <description>
         <![CDATA[
         <p style="text-align: center;">
@@ -3400,10 +3400,10 @@ $$</p>
     
     <item>
       <title>私奔</title>
-      <link>//localhost:1313/cn/2022/11/30/song/</link>
+      <link>/cn/2022/11/30/song/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/11/30/song/</guid>
+      <guid>/cn/2022/11/30/song/</guid>
       <description>
         <![CDATA[
         <center> 
@@ -3434,10 +3434,10 @@ $$</p>
     
     <item>
       <title>如何整理文献</title>
-      <link>//localhost:1313/cn/2022/11/29/reference/</link>
+      <link>/cn/2022/11/29/reference/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/11/29/reference/</guid>
+      <guid>/cn/2022/11/29/reference/</guid>
       <description>
         <![CDATA[
         <p>近期写材料，发现之前的文献是可以利用上的，但是曾经的我和现在的我，保存文献的方式不统一，这对再次引用文献这一步带来很大的不便。换而言之，抄自己的东西都抄得不是很愉快。那么如何让之后的工作开展得更丝滑呢，我觉得要做到如下几点：</p>
@@ -3463,10 +3463,10 @@ $$</p>
     
     <item>
       <title>知识版图扩建</title>
-      <link>//localhost:1313/cn/2022/11/29/xuwangli/</link>
+      <link>/cn/2022/11/29/xuwangli/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/11/29/xuwangli/</guid>
+      <guid>/cn/2022/11/29/xuwangli/</guid>
       <description>
         <![CDATA[
         <h2 id="课外拓展">课外拓展</h2>
@@ -3539,10 +3539,10 @@ $$</p>
     
     <item>
       <title>高维在读论文</title>
-      <link>//localhost:1313/cn/2022/11/29/higdimen/</link>
+      <link>/cn/2022/11/29/higdimen/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/11/29/higdimen/</guid>
+      <guid>/cn/2022/11/29/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- <font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
@@ -3655,10 +3655,10 @@ $$</p>
     
     <item>
       <title>情路坎坷</title>
-      <link>//localhost:1313/cn/2022/11/01/peng2/</link>
+      <link>/cn/2022/11/01/peng2/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/11/01/peng2/</guid>
+      <guid>/cn/2022/11/01/peng2/</guid>
       <description>
         <![CDATA[
         <p>距离上回说，要好好在一起，不要闹了。这才刚过去一个月，那种难受又一股脑侵噬回来了！</p>
@@ -3681,10 +3681,10 @@ $$</p>
     
     <item>
       <title>再添把柴</title>
-      <link>//localhost:1313/cn/2022/10/29/peng/</link>
+      <link>/cn/2022/10/29/peng/</link>
       <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/29/peng/</guid>
+      <guid>/cn/2022/10/29/peng/</guid>
       <description>
         <![CDATA[
         <p>与龙佳鹏谈朋友相处3.75年，他父母还不知。</p>
@@ -3743,10 +3743,10 @@ $$</p>
     
     <item>
       <title>真郇传</title>
-      <link>//localhost:1313/cn/2022/10/27/zhenhuan/</link>
+      <link>/cn/2022/10/27/zhenhuan/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/27/zhenhuan/</guid>
+      <guid>/cn/2022/10/27/zhenhuan/</guid>
       <description>
         <![CDATA[
         <p>最近，郇真<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>点爆学术圈，只因为她以独立作者身份问鼎Acta Mathematica。</p>
@@ -3793,10 +3793,10 @@ $$</p>
     
     <item>
       <title>宇宙认知的演化</title>
-      <link>//localhost:1313/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</link>
+      <link>/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</guid>
+      <guid>/cn/2022/10/22/%E5%AE%87%E5%AE%99%E8%AE%A4%E7%9F%A5%E7%9A%84%E6%BC%94%E5%8C%96/</guid>
       <description>
         <![CDATA[
         <p>遇到一个<a href="https://mp.weixin.qq.com/s/m2yp0aFq0BCBnxwqE6l51Q">《我是科学家演讲合集》</a>专栏，里面罗列了一场场高级的脱口秀，知识的饕餮盛宴，有用又有趣，虽不能至，心向往之，收藏了。其中对太空<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>的讲解，更是激发从小就埋在心中的种子，产生无限的遐想。一位名为“道可道”的博主在其<a href="https://www.bilibili.com/video/BV1dd4y1P7DN/?spm_id_from=333.337.search-card.all.click">视频</a>中提到，</p>
@@ -3864,10 +3864,10 @@ $$</p>
     
     <item>
       <title>空间文献摘录</title>
-      <link>//localhost:1313/cn/2022/10/21/spamodel/</link>
+      <link>/cn/2022/10/21/spamodel/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/21/spamodel/</guid>
+      <guid>/cn/2022/10/21/spamodel/</guid>
       <description>
         <![CDATA[
         <h2 id="空间模型">空间模型</h2>
@@ -3895,10 +3895,10 @@ $$</p>
     
     <item>
       <title>面板文献摘录</title>
-      <link>//localhost:1313/cn/2022/10/20/panempir/</link>
+      <link>/cn/2022/10/20/panempir/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/20/panempir/</guid>
+      <guid>/cn/2022/10/20/panempir/</guid>
       <description>
         <![CDATA[
         <h2 id="面板数据-https-xs2-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-panel-data-btng"><a href="https://xs2.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=panel+data&amp;btnG=">面板数据</a></h2>
@@ -3954,10 +3954,10 @@ $$</p>
     
     <item>
       <title>都在同一天</title>
-      <link>//localhost:1313/cn/2022/10/19/day/</link>
+      <link>/cn/2022/10/19/day/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/19/day/</guid>
+      <guid>/cn/2022/10/19/day/</guid>
       <description>
         <![CDATA[
         <p>老妈今天考过了科三，带点轻微的发烧。老师今天在育才授课，带点拇指的戳伤。</p>
@@ -3978,10 +3978,10 @@ $$</p>
     
     <item>
       <title>大脑突然就宕机了</title>
-      <link>//localhost:1313/cn/2022/10/17/note/</link>
+      <link>/cn/2022/10/17/note/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/17/note/</guid>
+      <guid>/cn/2022/10/17/note/</guid>
       <description>
         <![CDATA[
         <p>看论文看着看着，看见“半参数模型”几个字，愣了一下，我竟然对这个朝夕相伴这么久的名词，还不知道究竟是个啥，自己研究的模型到底算不算半参数模型？头晕😵‍💫～</p>
@@ -4006,10 +4006,10 @@ $$</p>
     
     <item>
       <title>高维可尝试方向</title>
-      <link>//localhost:1313/cn/2022/10/17/higdim/</link>
+      <link>/cn/2022/10/17/higdim/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/17/higdim/</guid>
+      <guid>/cn/2022/10/17/higdim/</guid>
       <description>
         <![CDATA[
         <h2 id="高维问题">高维问题</h2>
@@ -4042,10 +4042,10 @@ $$</p>
     
     <item>
       <title>高维文献摘录</title>
-      <link>//localhost:1313/cn/2022/10/16/higdimen/</link>
+      <link>/cn/2022/10/16/higdimen/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/16/higdimen/</guid>
+      <guid>/cn/2022/10/16/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- 
@@ -4224,10 +4224,10 @@ $$</p>
     
     <item>
       <title>走出去</title>
-      <link>//localhost:1313/cn/2022/10/15/out/</link>
+      <link>/cn/2022/10/15/out/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/15/out/</guid>
+      <guid>/cn/2022/10/15/out/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -4253,10 +4253,10 @@ $$</p>
     
     <item>
       <title>深度思考</title>
-      <link>//localhost:1313/cn/2022/10/11/note/</link>
+      <link>/cn/2022/10/11/note/</link>
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/11/note/</guid>
+      <guid>/cn/2022/10/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -4335,10 +4335,10 @@ $$</p>
     
     <item>
       <title>举国同庆</title>
-      <link>//localhost:1313/cn/2022/10/09/vacation/</link>
+      <link>/cn/2022/10/09/vacation/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/09/vacation/</guid>
+      <guid>/cn/2022/10/09/vacation/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -4375,10 +4375,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>反过来看看</title>
-      <link>//localhost:1313/cn/2022/10/05/view/</link>
+      <link>/cn/2022/10/05/view/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/05/view/</guid>
+      <guid>/cn/2022/10/05/view/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -4447,10 +4447,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>支离破碎的感情</title>
-      <link>//localhost:1313/cn/2022/10/02/life/</link>
+      <link>/cn/2022/10/02/life/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/02/life/</guid>
+      <guid>/cn/2022/10/02/life/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -4537,10 +4537,10 @@ $$v = a_1 t_1 + a_2 t_2 + \cdots + a_n t_n$$
     
     <item>
       <title>忽然之间</title>
-      <link>//localhost:1313/cn/2022/10/01/song/</link>
+      <link>/cn/2022/10/01/song/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/10/01/song/</guid>
+      <guid>/cn/2022/10/01/song/</guid>
       <description>
         <![CDATA[
         <center> 
@@ -4586,10 +4586,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>学习风格测试</title>
-      <link>//localhost:1313/cn/2022/09/27/vark/</link>
+      <link>/cn/2022/09/27/vark/</link>
       <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/27/vark/</guid>
+      <guid>/cn/2022/09/27/vark/</guid>
       <description>
         <![CDATA[
         <p>专属学习风格测试<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>通过视觉（Visual）、听觉（Auditory）、阅读（Reading）和动感（Kinesthetic）四个角度评估人类的学习模式。</p>
@@ -4690,10 +4690,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>完了，把香惹毛了</title>
-      <link>//localhost:1313/cn/2022/09/27/xiang/</link>
+      <link>/cn/2022/09/27/xiang/</link>
       <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/27/xiang/</guid>
+      <guid>/cn/2022/09/27/xiang/</guid>
       <description>
         <![CDATA[
         <p>今天学校荷园办美食节，红烧肉碗碗送，蛋糕坨坨送&hellip; 我把盛大的场景录给小香看。小香问：“这是大佬过生日吗？这么大的蛋糕🍰～ ”我说：“没有呢，学校办活动。”紧接着小香说：“她现在每天一碗饭，只是为了活着。”</p>
@@ -4743,10 +4743,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>R画图笔记</title>
-      <link>//localhost:1313/cn/2022/09/26/codes/</link>
+      <link>/cn/2022/09/26/codes/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/26/codes/</guid>
+      <guid>/cn/2022/09/26/codes/</guid>
       <description>
         <![CDATA[
         <p>最近努力在复现论文上的QQ图<br>
@@ -4771,10 +4771,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>对称矩阵</title>
-      <link>//localhost:1313/cn/2022/09/22/symmatrix/</link>
+      <link>/cn/2022/09/22/symmatrix/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/22/symmatrix/</guid>
+      <guid>/cn/2022/09/22/symmatrix/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -4824,10 +4824,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>秦导推荐</title>
-      <link>//localhost:1313/cn/2022/09/21/qinrecom/</link>
+      <link>/cn/2022/09/21/qinrecom/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/21/qinrecom/</guid>
+      <guid>/cn/2022/09/21/qinrecom/</guid>
       <description>
         <![CDATA[
         <h2 id="老师手稿">老师手稿</h2>
@@ -4859,10 +4859,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>Bookdown&#43;GitHub发布电子书</title>
-      <link>//localhost:1313/cn/2022/09/15/bookdown/</link>
+      <link>/cn/2022/09/15/bookdown/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/15/bookdown/</guid>
+      <guid>/cn/2022/09/15/bookdown/</guid>
       <description>
         <![CDATA[
         <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
@@ -4896,10 +4896,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>如何写好学术论文</title>
-      <link>//localhost:1313/cn/2022/09/11/note/</link>
+      <link>/cn/2022/09/11/note/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/11/note/</guid>
+      <guid>/cn/2022/09/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -5081,10 +5081,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>优秀的同学</title>
-      <link>//localhost:1313/cn/2022/09/10/teacherday/</link>
+      <link>/cn/2022/09/10/teacherday/</link>
       <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/10/teacherday/</guid>
+      <guid>/cn/2022/09/10/teacherday/</guid>
       <description>
         <![CDATA[
         <p>今天教师节，给小周老师发了消息。小周老师说，我怎么不来看他，两年没见到我人了。我说，哪有，见过的啦，次数少了点嘛。没做出点啥真的不好意思见他，不想辜负他。老师说，同进来的炎哥已经申请博士成功了，准备去上海攻读博士学位了。我说恭喜如愿呀。我真心替他感到开心，他就是别人家的孩子，一直备受瞩目。我欣赏但不羡慕，我觉得每个人轨迹是不一样的，因为每个人肩上的担子和身上的性子不同。</p>
@@ -5108,10 +5108,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>刘润语录</title>
-      <link>//localhost:1313/cn/2022/09/06/liurun/</link>
+      <link>/cn/2022/09/06/liurun/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/06/liurun/</guid>
+      <guid>/cn/2022/09/06/liurun/</guid>
       <description>
         <![CDATA[
         <ol>
@@ -5136,10 +5136,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>努力有多少种理由</title>
-      <link>//localhost:1313/cn/2022/09/06/reasons/</link>
+      <link>/cn/2022/09/06/reasons/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/06/reasons/</guid>
+      <guid>/cn/2022/09/06/reasons/</guid>
       <description>
         <![CDATA[
         <p>小A的理由，为了创造新世界，努力改变旧世界。</p>
@@ -5161,10 +5161,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>领取第一张伴娘体验卡</title>
-      <link>//localhost:1313/cn/2022/09/06/gaoli/</link>
+      <link>/cn/2022/09/06/gaoli/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/06/gaoli/</guid>
+      <guid>/cn/2022/09/06/gaoli/</guid>
       <description>
         <![CDATA[
         <p>日子与寻常的每一天一样，到点吃饭。<br>
@@ -5208,10 +5208,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>成甲语录</title>
-      <link>//localhost:1313/cn/2022/09/04/note/</link>
+      <link>/cn/2022/09/04/note/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/04/note/</guid>
+      <guid>/cn/2022/09/04/note/</guid>
       <description>
         <![CDATA[
         <p>原文<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>讲述了一个学习公式，学习 <code>$=$</code> 改变，改变 <code>$=$</code> 尝试 <code>$\times$</code> 反思 <code>$\times$</code> 对标 <code>$\times$</code> 圈子。文章写得挺有好👍，奈何吸收不了🤦‍♀️，那就挑喜欢的抄一下吧✌️。</p>
@@ -5241,10 +5241,10 @@ src="/songs/忽然之间_郑钧.mp3">
     
     <item>
       <title>Borel-Cantelli引理</title>
-      <link>//localhost:1313/cn/2022/09/03/borel-cantelli/</link>
+      <link>/cn/2022/09/03/borel-cantelli/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/03/borel-cantelli/</guid>
+      <guid>/cn/2022/09/03/borel-cantelli/</guid>
       <description>
         <![CDATA[
         <p>这是一篇摘记<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
@@ -5284,10 +5284,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>《手把手教你雅思写作剑12》</title>
-      <link>//localhost:1313/cn/2022/09/02/writing/</link>
+      <link>/cn/2022/09/02/writing/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/02/writing/</guid>
+      <guid>/cn/2022/09/02/writing/</guid>
       <description>
         <![CDATA[
         <h2 id="雅思写作主要学习方法">雅思写作主要学习方法</h2>
@@ -5331,10 +5331,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>句子结构</title>
-      <link>//localhost:1313/cn/2022/09/02/sentence/</link>
+      <link>/cn/2022/09/02/sentence/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/02/sentence/</guid>
+      <guid>/cn/2022/09/02/sentence/</guid>
       <description>
         <![CDATA[
         <h2 id="判别句子结构">判别句子结构</h2>
@@ -5367,10 +5367,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>总结错误</title>
-      <link>//localhost:1313/cn/2022/09/02/error/</link>
+      <link>/cn/2022/09/02/error/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/02/error/</guid>
+      <guid>/cn/2022/09/02/error/</guid>
       <description>
         <![CDATA[
         <h2 id="错过的地方">错过的地方</h2>
@@ -5388,10 +5388,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>词伙</title>
-      <link>//localhost:1313/cn/2022/09/02/cihuo/</link>
+      <link>/cn/2022/09/02/cihuo/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/02/cihuo/</guid>
+      <guid>/cn/2022/09/02/cihuo/</guid>
       <description>
         <![CDATA[
         <p>词伙字典，<a href="https://mp.weixin.qq.com/s/D2JxLIiNUubRsy4f0el7-w">教程</a>，<a href="https://pan.baidu.com/s/1HLrOoATaYFQhMcvGB7rgLg?pwd=j5b2">下载</a>。</p>
@@ -5436,10 +5436,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>老师说：“没关系。”</title>
-      <link>//localhost:1313/cn/2022/09/01/tutor/</link>
+      <link>/cn/2022/09/01/tutor/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/01/tutor/</guid>
+      <guid>/cn/2022/09/01/tutor/</guid>
       <description>
         <![CDATA[
         <p>放松<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
@@ -5464,10 +5464,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>雅思</title>
-      <link>//localhost:1313/cn/2022/09/01/ielts/</link>
+      <link>/cn/2022/09/01/ielts/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/01/ielts/</guid>
+      <guid>/cn/2022/09/01/ielts/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -5553,10 +5553,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>返校</title>
-      <link>//localhost:1313/cn/2022/08/27/ending/</link>
+      <link>/cn/2022/08/27/ending/</link>
       <pubDate>Sat, 27 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/27/ending/</guid>
+      <guid>/cn/2022/08/27/ending/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -5586,10 +5586,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>发哥带我飞宇宙</title>
-      <link>//localhost:1313/cn/2022/08/23/tanf/</link>
+      <link>/cn/2022/08/23/tanf/</link>
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/23/tanf/</guid>
+      <guid>/cn/2022/08/23/tanf/</guid>
       <description>
         <![CDATA[
         <h2 id="发哥的进化">发哥的进化</h2>
@@ -5664,10 +5664,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>《世界小史》</title>
-      <link>//localhost:1313/cn/2022/08/15/wuxiujie/</link>
+      <link>/cn/2022/08/15/wuxiujie/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/15/wuxiujie/</guid>
+      <guid>/cn/2022/08/15/wuxiujie/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -7233,10 +7233,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>《人类简史》</title>
-      <link>//localhost:1313/cn/2022/08/15/linjunhong/</link>
+      <link>/cn/2022/08/15/linjunhong/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/15/linjunhong/</guid>
+      <guid>/cn/2022/08/15/linjunhong/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -7443,10 +7443,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>《从一到无穷大》</title>
-      <link>//localhost:1313/cn/2022/08/15/yangxi/</link>
+      <link>/cn/2022/08/15/yangxi/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/15/yangxi/</guid>
+      <guid>/cn/2022/08/15/yangxi/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -7790,10 +7790,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>《哲学家们都干了些什么》</title>
-      <link>//localhost:1313/cn/2022/08/15/linxinhao/</link>
+      <link>/cn/2022/08/15/linxinhao/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/15/linxinhao/</guid>
+      <guid>/cn/2022/08/15/linxinhao/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -8223,10 +8223,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>《大话中国艺术史》</title>
-      <link>//localhost:1313/cn/2022/08/15/yigongzi/</link>
+      <link>/cn/2022/08/15/yigongzi/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/15/yigongzi/</guid>
+      <guid>/cn/2022/08/15/yigongzi/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -8404,10 +8404,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>《蛤蟆先生去看心理医生》</title>
-      <link>//localhost:1313/cn/2022/08/15/chenying/</link>
+      <link>/cn/2022/08/15/chenying/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/15/chenying/</guid>
+      <guid>/cn/2022/08/15/chenying/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -8556,10 +8556,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>《阅读、游历和爱情》</title>
-      <link>//localhost:1313/cn/2022/08/15/laingyongan/</link>
+      <link>/cn/2022/08/15/laingyongan/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/15/laingyongan/</guid>
+      <guid>/cn/2022/08/15/laingyongan/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -9001,10 +9001,10 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
     
     <item>
       <title>心情低落干点啥</title>
-      <link>//localhost:1313/cn/2022/08/13/daily/</link>
+      <link>/cn/2022/08/13/daily/</link>
       <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/13/daily/</guid>
+      <guid>/cn/2022/08/13/daily/</guid>
       <description>
         <![CDATA[
         <!-- 投稿十天，今天收到被拒消息，难过到不是被拒，而是要继续改。多历练吧，加油 -->
@@ -9077,10 +9077,10 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
     
     <item>
       <title>书单</title>
-      <link>//localhost:1313/cn/2022/08/11/todo/</link>
+      <link>/cn/2022/08/11/todo/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/11/todo/</guid>
+      <guid>/cn/2022/08/11/todo/</guid>
       <description>
         <![CDATA[
         <h2 id="成长">成长</h2>
@@ -9252,10 +9252,10 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
     
     <item>
       <title>刘润对谈吴军</title>
-      <link>//localhost:1313/cn/2022/08/11/note/</link>
+      <link>/cn/2022/08/11/note/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/11/note/</guid>
+      <guid>/cn/2022/08/11/note/</guid>
       <description>
         <![CDATA[
         <h2 id="笔记">笔记</h2>
@@ -9492,10 +9492,10 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
     
     <item>
       <title>杨绛语录</title>
-      <link>//localhost:1313/cn/2022/08/07/yangjiang/</link>
+      <link>/cn/2022/08/07/yangjiang/</link>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/07/yangjiang/</guid>
+      <guid>/cn/2022/08/07/yangjiang/</guid>
       <description>
         <![CDATA[
         <h2 id="语录">语录</h2>
@@ -9521,10 +9521,10 @@ A：两个相爱的人，他们精神上是很宽广辽阔的。爱本身就是�
     
     <item>
       <title>论文教会我的事</title>
-      <link>//localhost:1313/cn/2022/08/07/paper/</link>
+      <link>/cn/2022/08/07/paper/</link>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/07/paper/</guid>
+      <guid>/cn/2022/08/07/paper/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -9591,10 +9591,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>假期第一次约香</title>
-      <link>//localhost:1313/cn/2022/08/06/xiang/</link>
+      <link>/cn/2022/08/06/xiang/</link>
       <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/06/xiang/</guid>
+      <guid>/cn/2022/08/06/xiang/</guid>
       <description>
         <![CDATA[
         <p>昨日谢邀刘兄 今日却约见了香🤦‍♀️<br>
@@ -9634,10 +9634,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>刘兄邀约</title>
-      <link>//localhost:1313/cn/2022/08/05/liu/</link>
+      <link>/cn/2022/08/05/liu/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/05/liu/</guid>
+      <guid>/cn/2022/08/05/liu/</guid>
       <description>
         <![CDATA[
         <p><a href="https://www.hunliji.com/m/ling-xi/new-card/index.html?card_id=NTI4NTc0MDlmaXJlX2Nsb3Vk#/">刘兄</a>喊我出去吃中饭 我拒绝了<br>
@@ -9761,10 +9761,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>Typora&#43;Github&#43;Picgo</title>
-      <link>//localhost:1313/cn/2022/08/02/picgo/</link>
+      <link>/cn/2022/08/02/picgo/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/02/picgo/</guid>
+      <guid>/cn/2022/08/02/picgo/</guid>
       <description>
         <![CDATA[
         <h1 id="记录用图成功">记录用图成功！</h1>
@@ -9789,10 +9789,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>又挖宝了</title>
-      <link>//localhost:1313/cn/2022/08/02/yihui/</link>
+      <link>/cn/2022/08/02/yihui/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/02/yihui/</guid>
+      <guid>/cn/2022/08/02/yihui/</guid>
       <description>
         <![CDATA[
         <p>今日特别想做些喜欢的事情<br>
@@ -9827,10 +9827,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>推文</title>
-      <link>//localhost:1313/cn/2022/08/02/webpages/</link>
+      <link>/cn/2022/08/02/webpages/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/02/webpages/</guid>
+      <guid>/cn/2022/08/02/webpages/</guid>
       <description>
         <![CDATA[
         <h2 id="一些有用的网文">一些有用的网文</h2>
@@ -9968,10 +9968,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>发哥惊艳亮相</title>
-      <link>//localhost:1313/cn/2022/07/28/tanf/</link>
+      <link>/cn/2022/07/28/tanf/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/28/tanf/</guid>
+      <guid>/cn/2022/07/28/tanf/</guid>
       <description>
         <![CDATA[
         <p>今天看到发哥少有的QQ动态<br>
@@ -10033,10 +10033,10 @@ $$ a_n^{-1}b_n = o(b_n)^{-1}b_n=o(1)b_n^{-1}b_n=o(1) \to 0.$$
     
     <item>
       <title>论文英语</title>
-      <link>//localhost:1313/cn/2022/07/26/paper_skill/</link>
+      <link>/cn/2022/07/26/paper_skill/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/26/paper_skill/</guid>
+      <guid>/cn/2022/07/26/paper_skill/</guid>
       <description>
         <![CDATA[
         <h2 id="原则">原则</h2>
@@ -10141,10 +10141,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>偷懒被抓包，糗</title>
-      <link>//localhost:1313/cn/2022/07/18/tutor/</link>
+      <link>/cn/2022/07/18/tutor/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/18/tutor/</guid>
+      <guid>/cn/2022/07/18/tutor/</guid>
       <description>
         <![CDATA[
         <p>回家半个月了<br>
@@ -10211,10 +10211,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>影单</title>
-      <link>//localhost:1313/cn/2022/07/13/films/</link>
+      <link>/cn/2022/07/13/films/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/13/films/</guid>
+      <guid>/cn/2022/07/13/films/</guid>
       <description>
         <![CDATA[
         <h2 id="电影">电影</h2>
@@ -10333,10 +10333,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>秦导语录</title>
-      <link>//localhost:1313/cn/2022/07/13/tutor/</link>
+      <link>/cn/2022/07/13/tutor/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/13/tutor/</guid>
+      <guid>/cn/2022/07/13/tutor/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -10422,10 +10422,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>暑假开启</title>
-      <link>//localhost:1313/cn/2022/07/03/vacation/</link>
+      <link>/cn/2022/07/03/vacation/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/03/vacation/</guid>
+      <guid>/cn/2022/07/03/vacation/</guid>
       <description>
         <![CDATA[
         <p>宿舍四人，二位离校了。我以为我会很淡定，我会坚持到学校赶人，没想到我… …</p>
@@ -10443,10 +10443,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>离开老师办公室之后(二)</title>
-      <link>//localhost:1313/cn/2022/06/28/tutor/</link>
+      <link>/cn/2022/06/28/tutor/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/06/28/tutor/</guid>
+      <guid>/cn/2022/06/28/tutor/</guid>
       <description>
         <![CDATA[
         <p>今天准备去见老师 看到老师有事在忙 本来打算溜了 结果人还没撤退 就在楼梯口被老师逮到了 老师见到我 面带笑容 眼神里还有点小星星 （老师爱笑 所以 我真觉得老师待人很温柔）</p>
@@ -10465,10 +10465,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>《杨绛传》</title>
-      <link>//localhost:1313/cn/2022/06/26/yangjiang/</link>
+      <link>/cn/2022/06/26/yangjiang/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/06/26/yangjiang/</guid>
+      <guid>/cn/2022/06/26/yangjiang/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -10637,10 +10637,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>收到婚帖</title>
-      <link>//localhost:1313/cn/2022/06/21/wedding/</link>
+      <link>/cn/2022/06/21/wedding/</link>
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/06/21/wedding/</guid>
+      <guid>/cn/2022/06/21/wedding/</guid>
       <description>
         <![CDATA[
         <h2 id="祝福">祝福</h2>
@@ -10677,10 +10677,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>初遇本站架构</title>
-      <link>//localhost:1313/cn/2022/06/17/glimpse/</link>
+      <link>/cn/2022/06/17/glimpse/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/06/17/glimpse/</guid>
+      <guid>/cn/2022/06/17/glimpse/</guid>
       <description>
         <![CDATA[
         <p>我无意浏览到<a href="https://yihui.org">谢益辉网页</a>，简洁干净的画面，井然有序的资料&hellip; 嘣！弹壳落地的声音，我的心被狙中了，心猿意马形容我的心情都不为过，心中就想着，我也想搭一个自己的博客，整理资料。于是，我鼓起勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
@@ -10711,10 +10711,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>离开老师办公室之后(一)</title>
-      <link>//localhost:1313/cn/2022/06/13/tutor/</link>
+      <link>/cn/2022/06/13/tutor/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/06/13/tutor/</guid>
+      <guid>/cn/2022/06/13/tutor/</guid>
       <description>
         <![CDATA[
         <p>每次见<a href="https://baike.baidu.com/item/%E7%A7%A6%E6%B0%B8%E6%9D%BE/8349515?fr=aladdin">老师</a>前都很紧张<br>
@@ -10762,10 +10762,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>诗</title>
-      <link>//localhost:1313/cn/2022/04/10/poetry/</link>
+      <link>/cn/2022/04/10/poetry/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/04/10/poetry/</guid>
+      <guid>/cn/2022/04/10/poetry/</guid>
       <description>
         <![CDATA[
         <h3 id="heading"></h3>
@@ -10818,10 +10818,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>秦老师的回信</title>
-      <link>//localhost:1313/cn/2021/09/10/tutor/</link>
+      <link>/cn/2021/09/10/tutor/</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2021/09/10/tutor/</guid>
+      <guid>/cn/2021/09/10/tutor/</guid>
       <description>
         <![CDATA[
         <h2 id="感恩我的老师-对我们温柔以待">感恩我的老师，对我们温柔以待。</h2>
@@ -10843,10 +10843,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>同义替换</title>
-      <link>//localhost:1313/cn/2020/05/28/synonymous-substitution/</link>
+      <link>/cn/2020/05/28/synonymous-substitution/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2020/05/28/synonymous-substitution/</guid>
+      <guid>/cn/2020/05/28/synonymous-substitution/</guid>
       <description>
         <![CDATA[
         <h2 id="同义替换">同义替换</h2>
@@ -10956,10 +10956,10 @@ attract sb. to do sth. / attract sb. to sth. 错误的事</p>
     
     <item>
       <title>情绪词语</title>
-      <link>//localhost:1313/cn/2020/05/14/emotional-words/</link>
+      <link>/cn/2020/05/14/emotional-words/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2020/05/14/emotional-words/</guid>
+      <guid>/cn/2020/05/14/emotional-words/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -11017,10 +11017,10 @@ attract sb. to do sth. / attract sb. to sth. 错误的事</p>
     
     <item>
       <title>易混单词</title>
-      <link>//localhost:1313/cn/2020/04/19/confusing-word/</link>
+      <link>/cn/2020/04/19/confusing-word/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2020/04/19/confusing-word/</guid>
+      <guid>/cn/2020/04/19/confusing-word/</guid>
       <description>
         <![CDATA[
         <h2 id="对比">对比</h2>
@@ -11145,10 +11145,10 @@ prolonged 的意义则更为中性客观。
     
     <item>
       <title>英译成语</title>
-      <link>//localhost:1313/cn/2020/04/09/idiom/</link>
+      <link>/cn/2020/04/09/idiom/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2020/04/09/idiom/</guid>
+      <guid>/cn/2020/04/09/idiom/</guid>
       <description>
         <![CDATA[
         <h3 id="形容词性">形容词性</h3>

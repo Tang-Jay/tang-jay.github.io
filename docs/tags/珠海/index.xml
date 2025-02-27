@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>珠海 on Tan Jay | 唐 洁</title>
-    <link>//localhost:1313/tags/%E7%8F%A0%E6%B5%B7/</link>
+    <link>/tags/%E7%8F%A0%E6%B5%B7/</link>
     <description>Recent content in 珠海 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%E7%8F%A0%E6%B5%B7/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E7%8F%A0%E6%B5%B7/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DRO研究梳理</title>
-      <link>//localhost:1313/cn/2025/02/27/dro/</link>
+      <link>/cn/2025/02/27/dro/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/27/dro/</guid>
+      <guid>/cn/2025/02/27/dro/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -134,10 +134,10 @@
     
     <item>
       <title>不确定量化</title>
-      <link>//localhost:1313/cn/2025/02/27/uc/</link>
+      <link>/cn/2025/02/27/uc/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/27/uc/</guid>
+      <guid>/cn/2025/02/27/uc/</guid>
       <description>
         <![CDATA[
         <h1 id="不确定量化">不确定量化</h1>
@@ -257,10 +257,10 @@
     
     <item>
       <title>分布偏移</title>
-      <link>//localhost:1313/cn/2025/02/27/shift/</link>
+      <link>/cn/2025/02/27/shift/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/27/shift/</guid>
+      <guid>/cn/2025/02/27/shift/</guid>
       <description>
         <![CDATA[
         <h2 id="与dro关系">与DRO关系</h2>
@@ -398,10 +398,10 @@
     
     <item>
       <title>研究主题</title>
-      <link>//localhost:1313/cn/2025/02/26/topics/</link>
+      <link>/cn/2025/02/26/topics/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/26/topics/</guid>
+      <guid>/cn/2025/02/26/topics/</guid>
       <description>
         <![CDATA[
         <h1 id="distributional-robust-optimization-dro-cn-2025-02-27-dro">distributional robust optimization (<a href="/cn/2025/02/27/dro/">DRO</a>)</h1>
@@ -431,10 +431,10 @@
     
     <item>
       <title>保形推断</title>
-      <link>//localhost:1313/cn/2025/02/25/conformity/</link>
+      <link>/cn/2025/02/25/conformity/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/25/conformity/</guid>
+      <guid>/cn/2025/02/25/conformity/</guid>
       <description>
         <![CDATA[
         <h1 id="研究记录之保形推断">研究记录之保形推断</h1>
@@ -821,10 +821,10 @@ $$</p>
     
     <item>
       <title>周三研究汇报</title>
-      <link>//localhost:1313/cn/2025/02/25/report/</link>
+      <link>/cn/2025/02/25/report/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/25/report/</guid>
+      <guid>/cn/2025/02/25/report/</guid>
       <description>
         <![CDATA[
         <h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
@@ -860,10 +860,10 @@ $$</p>
     
     <item>
       <title>每日研究进度条</title>
-      <link>//localhost:1313/cn/2025/02/25/record/</link>
+      <link>/cn/2025/02/25/record/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2025/02/25/record/</guid>
+      <guid>/cn/2025/02/25/record/</guid>
       <description>
         <![CDATA[
         <h2 id="2025-02-23-周日">2025-02-23 周日</h2>
@@ -927,10 +927,10 @@ $$</p>
     
     <item>
       <title>2024最后一天</title>
-      <link>//localhost:1313/cn/2024/12/31/last-day-of-2024/</link>
+      <link>/cn/2024/12/31/last-day-of-2024/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/12/31/last-day-of-2024/</guid>
+      <guid>/cn/2024/12/31/last-day-of-2024/</guid>
       <description>
         <![CDATA[
         <p>今天是一年最后一天。
@@ -948,10 +948,10 @@ $$</p>
     
     <item>
       <title>与炎哥交流</title>
-      <link>//localhost:1313/cn/2024/12/11/yan/</link>
+      <link>/cn/2024/12/11/yan/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/12/11/yan/</guid>
+      <guid>/cn/2024/12/11/yan/</guid>
       <description>
         <![CDATA[
         <p>昨天跟在上海读博士的炎哥交流一番，重获激情人生。</p>
@@ -969,16 +969,16 @@ $$</p>
     
     <item>
       <title>读博日常</title>
-      <link>//localhost:1313/cn/2024/12/06/today/</link>
+      <link>/cn/2024/12/06/today/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/12/06/today/</guid>
+      <guid>/cn/2024/12/06/today/</guid>
       <description>
         <![CDATA[
         <p>从开学至现在，已然四个月过去了，今天才有感觉，能好好写个日记，记录自己的生活。</p>
 <p>首先，心情会很好的原因是，终于要结束了本学期所有要上台的展示。每一次上台，都跟打仗一样，得做好万无一失的准备。每一次可能长达40小时的准备，从自己理清证明，到设计板书的呈现，在脑海不断地多预演几遍，直到真的呈现完，才算是结束一桩事情。这件事才不会像是电脑后台一项一直占着很大内容的任务消耗着大脑的资源，处理不了别的事情。但，仍然不能尽善尽美。</p>
 <p>昨天星期四，下午高维课，童老师是本次研讨课的上课老师。虽然，下课的时候，童老师说看得出我有认真准备，但是在讲授过程中，我在证明定理时要用到一个引理，结果问题就出在这个引理上，因为我的重心在于找到这个引理作为搭桥过渡，而没有去证明，想当然地去用，得出自己的结论就好了。万万没想到，大家在这个引理上做了很多讨论，但是我没有去证明也不敢乱讲。我有点被问得呆住了。最难受的是，大家觉得这个东西是我讲错了，只因为我没有证明这个引理，认为我乱用了这个引理。我表示很难受。因为我调查了大量的资料，我是看到严肃的论文都是这样推断的，才敢去呈现我的结果。结果，不仅没有得到一个好的呈现，还让大家觉得这个定理很乱，与我本意想给出一个简洁对称的结果相违背。并且，我更想说，我证的是对的，不能因为我没有说清楚而说它是错的！！这个不能忍。</p>
-<p>为了说明我是对的。从昨天下课后，我的大脑就一直在琢磨这个事情，甚至到了凌晨还没困意，就因为想要说明自己没有错。今天一起来，饭也没心思吃，找了很多材料去佐证自己是对的，下午本来想着证据充分了，干点别的，结果还是不自觉回到这个引理的证明上，继续找资料，找更加直接的证明，证明我是对的。没想到，我找到了，在<a href="https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf">高维概率论</a>这本书上163页给出的Gaussian interpolation方法证明过程与我在黑板呈现的是一致的。我找到铁的证据了，恨不得下周四赶紧到来，让我给这个引理平反昭雪！！</p>
+<p>为了说明我是对的。从昨天下课后，我的大脑就一直在琢磨这个事情，甚至到了凌晨还没困意，就因为想要说明自己没有错。今天一起来，饭也没心思吃，找了很多材料去佐证自己是对的，下午本来想着证据充分了，干点别的，结果还是不自觉回到这个引理的证明上，继续找资料，想找更加直接的证明，证明我是对的。没想到，我真的找到了，在<a href="https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf">高维概率论</a>这本书上163页给出的Gaussian interpolation方法，证明过程与我在黑板呈现的是一致的。我找到铁的证据，恨不得下周四赶紧到来，让我给这个引理平反昭雪！！</p>
 <p>所以，心情好的第二原因就是，最后一次上台展示需要的证据有了，讲完就好了！就彻底这个学期课程任务算是解放了。</p>
 <p>尽管知道，事情是一波接一波，没有完的时候，但结束一件是一件吧～</p>
 <p>通过这件事情，我再次发现自己犟起来真的很犟啊！🤦明明这个定理自己以后也不需要，也没有人在乎这个定理能不能证，过去了也不会有人提了，我还继续拿出来硬要讲清楚它。真犟。</p>
@@ -992,10 +992,10 @@ $$</p>
     
     <item>
       <title>周二汇报</title>
-      <link>//localhost:1313/cn/2024/11/25/storey/</link>
+      <link>/cn/2024/11/25/storey/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/11/25/storey/</guid>
+      <guid>/cn/2024/11/25/storey/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -1273,10 +1273,10 @@ $$</p>
     
     <item>
       <title>经验过程</title>
-      <link>//localhost:1313/cn/2024/11/25/empirical-process/</link>
+      <link>/cn/2024/11/25/empirical-process/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/11/25/empirical-process/</guid>
+      <guid>/cn/2024/11/25/empirical-process/</guid>
       <description>
         <![CDATA[
         <h1 id="经验过程">经验过程</h1>
@@ -1309,10 +1309,10 @@ $$</p>
     
     <item>
       <title>积累</title>
-      <link>//localhost:1313/cn/2024/10/07/bnuz/</link>
+      <link>/cn/2024/10/07/bnuz/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/10/07/bnuz/</guid>
+      <guid>/cn/2024/10/07/bnuz/</guid>
       <description>
         <![CDATA[
         <h3 id="一些博主">一些博主</h3>
@@ -1344,10 +1344,10 @@ $$</p>
     
     <item>
       <title>新生自传</title>
-      <link>//localhost:1313/cn/2024/09/04/self-intro/</link>
+      <link>/cn/2024/09/04/self-intro/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2024/09/04/self-intro/</guid>
+      <guid>/cn/2024/09/04/self-intro/</guid>
       <description>
         <![CDATA[
         <p>我的名字叫唐洁，1995年生人，来自湖南祁东，以下是我的自传内容分为三个部分，个人成长经历，自我评价和大学生活规划。</p>
@@ -1381,10 +1381,10 @@ $$</p>
     
     <item>
       <title></title>
-      <link>//localhost:1313/2025-00-00-/</link>
+      <link>/2025-00-00-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/2025-00-00-/</guid>
+      <guid>/2025-00-00-/</guid>
       <description>
         <![CDATA[
         

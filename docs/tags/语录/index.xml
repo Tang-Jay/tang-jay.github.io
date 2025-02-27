@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>语录 on Tan Jay | 唐 洁</title>
-    <link>//localhost:1313/tags/%E8%AF%AD%E5%BD%95/</link>
+    <link>/tags/%E8%AF%AD%E5%BD%95/</link>
     <description>Recent content in 语录 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%E8%AF%AD%E5%BD%95/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%E8%AF%AD%E5%BD%95/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>刘润语录</title>
-      <link>//localhost:1313/cn/2022/09/06/liurun/</link>
+      <link>/cn/2022/09/06/liurun/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/06/liurun/</guid>
+      <guid>/cn/2022/09/06/liurun/</guid>
       <description>
         <![CDATA[
         <ol>
@@ -39,10 +39,10 @@
     
     <item>
       <title>成甲语录</title>
-      <link>//localhost:1313/cn/2022/09/04/note/</link>
+      <link>/cn/2022/09/04/note/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/09/04/note/</guid>
+      <guid>/cn/2022/09/04/note/</guid>
       <description>
         <![CDATA[
         <p>原文<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>讲述了一个学习公式，学习 <code>$=$</code> 改变，改变 <code>$=$</code> 尝试 <code>$\times$</code> 反思 <code>$\times$</code> 对标 <code>$\times$</code> 圈子。文章写得挺有好👍，奈何吸收不了🤦‍♀️，那就挑喜欢的抄一下吧✌️。</p>
@@ -72,10 +72,10 @@
     
     <item>
       <title>杨绛语录</title>
-      <link>//localhost:1313/cn/2022/08/07/yangjiang/</link>
+      <link>/cn/2022/08/07/yangjiang/</link>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/08/07/yangjiang/</guid>
+      <guid>/cn/2022/08/07/yangjiang/</guid>
       <description>
         <![CDATA[
         <h2 id="语录">语录</h2>
@@ -101,10 +101,10 @@
     
     <item>
       <title>秦导语录</title>
-      <link>//localhost:1313/cn/2022/07/13/tutor/</link>
+      <link>/cn/2022/07/13/tutor/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>//localhost:1313/cn/2022/07/13/tutor/</guid>
+      <guid>/cn/2022/07/13/tutor/</guid>
       <description>
         <![CDATA[
         <blockquote>

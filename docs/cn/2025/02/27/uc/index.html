@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>不确定量化 - Tan Jay | 唐 洁</title>
-    <meta property="og:title" content="不确定量化 - Tan Jay | 唐 洁">
+    <title>不确定量化与分布偏移 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="不确定量化与分布偏移 - Tan Jay | 唐 洁">
     
     <meta name="twitter:card" content="summary">
 
@@ -82,7 +82,7 @@
     <article class="main">
       <header class="title">
       
-<h1>不确定量化</h1>
+<h1>不确定量化与分布偏移</h1>
 
 
 <h3>Tan Jay / 
@@ -97,10 +97,8 @@
 
 
 
-<h1 id="不确定量化">不确定量化</h1>
 <h2 id="与分布偏移的关系">与分布偏移的关系</h2>
 <p>不确定量化（Uncertainty Quantification）与分布偏移（Distribution Shift）在机器学习中是紧密相关的两个问题。它们的关系可以从以下几个方面理解：</p>
-<hr>
 <h3 id="1-分布偏移会引发模型的不确定性变化"><strong>1. 分布偏移会引发模型的不确定性变化</strong></h3>
 <ul>
 <li><strong>现象</strong>：当模型遇到分布外的数据（即测试数据分布与训练数据不同）时，其预测的<strong>不确定性（如置信度、方差）通常会显著增加</strong>，甚至可能给出错误的“过度自信”预测。</li>
@@ -111,7 +109,6 @@
 </ul>
 </li>
 </ul>
-<hr>
 <h3 id="2-不确定性量化是应对分布偏移的关键工具"><strong>2. 不确定性量化是应对分布偏移的关键工具</strong></h3>
 <h4 id="1-检测分布偏移"><strong>(1) 检测分布偏移</strong></h4>
 <ul>
@@ -132,7 +129,6 @@
 <li><strong>对抗训练</strong>：通过最大化模型在扰动样本上的不确定性，增强对分布偏移的鲁棒性。</li>
 <li><strong>不确定性正则化</strong>：在损失函数中加入不确定性惩罚项，防止模型对训练分布过拟合。</li>
 </ul>
-<hr>
 <h3 id="3-分布偏移挑战不确定性量化的可靠性"><strong>3. 分布偏移挑战不确定性量化的可靠性</strong></h3>
 <ul>
 <li><strong>问题</strong>：传统不确定性估计方法（如贝叶斯神经网络）通常假设训练和测试数据同分布，但在分布偏移下可能失效。
@@ -147,7 +143,6 @@
 </ul>
 </li>
 </ul>
-<hr>
 <h3 id="4-实际应用中的协同作用"><strong>4. 实际应用中的协同作用</strong></h3>
 <h4 id="案例1-自动驾驶"><strong>案例1：自动驾驶</strong></h4>
 <ul>
@@ -159,7 +154,6 @@
 <li><strong>分布偏移</strong>：训练数据来自年轻患者，测试数据为老年患者。</li>
 <li><strong>不确定性量化</strong>：模型对老年患者的预测给出高不确定性，提示医生需结合其他检查。</li>
 </ul>
-<hr>
 <h3 id="5-研究方法与前沿方向"><strong>5. 研究方法与前沿方向</strong></h3>
 <ul>
 <li><strong>不确定性校准 + 分布适应</strong><br>
@@ -169,7 +163,6 @@
 <li><strong>因果不确定性分解</strong><br>
 从因果视角区分不确定性的来源（如 <a href="https://arxiv.org/abs/1907.02893">Invariant Risk Minimization</a>）。</li>
 </ul>
-<hr>
 <h3 id="总结关系"><strong>总结关系</strong></h3>
 <table>
 <thead>
@@ -195,9 +188,13 @@
 <td>挑战</td>
 <td>分布偏移可能导致未校准的不确定性</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<hr>
 <h3 id="关键要点"><strong>关键要点</strong></h3>
 <ul>
 <li>不确定性量化是<strong>检测和缓解分布偏移的核心工具</strong>。</li>
@@ -210,7 +207,7 @@
   <footer>
   
 <nav class="post-nav">
-  <span class="nav-prev">&larr; <a href="/cn/2025/02/27/shift/">分布偏移</a></span>
+  <span class="nav-prev">&larr; <a href="/cn/2025/02/27/shift/">分布偏移与DRO</a></span>
   <span class="nav-next"><a href="/cn/2025/02/27/dro/">DRO研究梳理</a> &rarr;</span>
 </nav>
 <script type="text/javascript">

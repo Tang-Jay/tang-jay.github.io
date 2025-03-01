@@ -5,8 +5,154 @@
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>保形预测与公平性</title>
+      <link>/cn/2025/03/01/%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B%E4%B8%8E%E5%85%AC%E5%B9%B3%E6%80%A7/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/01/%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B%E4%B8%8E%E5%85%AC%E5%B9%B3%E6%80%A7/</guid>
+      <description>
+        <![CDATA[
+        <p>保形预测的无条件有效性依赖于数据的可交换性假设，但在实际中，数据可能存在异质性，不同子群体的分布不同。当模型在训练时没有考虑到这些子群体的特性时，预测集的覆盖可能在局部失效。例如，如果某个子群体的数据分布与整体差异大，非符合性评分可能在该子群中偏差较大，导致覆盖率下降。</p>
+<p>“loss of coverage”在条件于 <code>$\hat{C} $</code> 和 <code>$X \in G$</code> 时可能发生。这意味着即使整体覆盖率达标，当聚焦于特定子群体或特定预测集时，覆盖率可能不足。例如，模型可能在男性样本上覆盖率高，但在女性样本上覆盖率低，导致性别偏见。针对保形预测的局限性，可能的解决方法有，如条件保形预测或分层方法，来确保各子群体的局部覆盖率。另外，如何在实际应用中检测和缓解这种覆盖不均的问题，尤其是在敏感领域如医疗、金融等，公平性和可靠性至关重要。</p>
+<hr>
+<h3 id="1-保形预测的基本保证"><strong>1. 保形预测的基本保证</strong></h3>
+<p>保形预测通过训练数据 <code>$ \{X_i, Y_i\}_{i=1}^n $</code> 和新样本 <code>$X_{n+1}$</code> 生成一个<strong>集合值函数</strong> <code>$\hat{C}(\cdot)$</code>，满足：
+$$
+P(Y_{n+1} \in \hat{C}(X_{n+1})) \geq 1 - \alpha
+$$
+这一保证称为<strong>边际有效性（marginal validity）</strong>，其含义是：</p>
+<ul>
+<li><strong>覆盖概率的全局性</strong>：在训练数据和测试点的随机性下，预测集合覆盖真实标签的概率<strong>平均</strong>至少为 <code>$1 - \alpha$</code>。</li>
+<li><strong>不涉及具体条件</strong>：这一保证不考虑特定子群体、特征区间或预测集合的具体形态。</li>
+</ul>
+<hr>
+<h3 id="2-边际有效性的局限性"><strong>2. 边际有效性的局限性</strong></h3>
+<h4 id="1-条件覆盖可能失效"><strong>(1) 条件覆盖可能失效</strong></h4>
+<p>尽管整体覆盖概率满足 <code>$1 - \alpha$</code>，但存在某些子集 <code>$G \subseteq \mathcal{X}$</code>（如特定人群、特征区间），使得在<strong>条件概率</strong>下覆盖可能不足：
+$$
+P\left(Y \in \hat{C}(X) \mid \hat{C}, X \in G\right) \neq 1 - \alpha
+$$
+<strong>具体表现</strong>：</p>
+<ul>
+<li><strong>某些子群体覆盖过高</strong>：例如，对“容易分类”的样本（如清晰的数字“0”），预测集合可能过于保守，覆盖概率接近 100%。</li>
+<li><strong>某些子群体覆盖过低</strong>：例如，对“困难样本”（如模糊的“5”），覆盖概率可能远低于 <code>$1 - \alpha $</code>。</li>
+</ul>
+<h4 id="2-敏感应用中的公平性问题"><strong>(2) 敏感应用中的公平性问题</strong></h4>
+<ul>
+<li><strong>受保护子群体（Protected Subgroups）</strong>：<br>
+在医疗诊断、贷款审批等场景中，若预测集合对某些敏感群体（如特定种族、性别）的覆盖不足，会导致系统性偏见。
+<ul>
+<li><strong>示例</strong>：
+<ul>
+<li>模型对男性患者的诊断覆盖率为 90%（高于 95% 置信水平），但对女性患者仅为 80%（低于置信水平）。</li>
+<li>表面上的“全局有效性”掩盖了子群体间的不公平性。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="3-关键术语解析"><strong>3. 关键术语解析</strong></h3>
+<ul>
+<li>
+<p><strong>边际保证（Marginal Guarantee）</strong>：<br>
+覆盖概率的全局平均值，不关注数据内部的结构或子群体差异。</p>
+<ul>
+<li><strong>数学表达</strong>：
+<code>$ \text{Marginal Coverage} = \mathbb{E}_{(X,Y)} \left[ \mathbf{1}_{\{Y \in \hat{C}(X)\}} \right] \geq 1 - \alpha $</code></li>
+</ul>
+</li>
+<li>
+<p><strong>条件覆盖（Conditional Coverage）</strong>：<br>
+在特定条件（如 <code>$X \in G$</code> 或预测集合 <code>$\hat{C}$</code> 的形态）下的覆盖概率。</p>
+<ul>
+<li><strong>数学表达</strong>：<code>$\text{Conditional Coverage} = P\left(Y \in \hat{C}(X) \mid X \in G\right)$</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="4-为何说-边际保证不排除条件覆盖的失效"><strong>4. 为何说“边际保证不排除条件覆盖的失效”？</strong></h3>
+<ul>
+<li>
+<p><strong>统计视角</strong>：<br>
+边际有效性仅保证覆盖率的<strong>期望值</strong>，但无法约束<strong>条件分布</strong>的覆盖。即使整体覆盖率为 95%，仍可能存在子集 <code>$G$</code>，其条件覆盖率显著偏离 95%。</p>
+<ul>
+<li><strong>示例</strong>：<br>
+假设数据包含两个子群体 <code>$G_1$</code> 和 <code>$G_2$</code>，占比各 50%。
+<ul>
+<li><code>$G_1$</code> 的条件覆盖率为 99%（过度覆盖），</li>
+<li><code>$G_2$</code> 的条件覆盖率为 91%（不足覆盖）。</li>
+<li><strong>整体覆盖率</strong>：<code>$0.5 \times 0.99 + 0.5 \times 0.91 = 0.95$</code>，满足边际保证，但子群体覆盖不均。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>算法视角</strong>：<br>
+保形预测基于<strong>全局分位数</strong>（如非符合性分数的 <code>$1 - \alpha$</code> 分位数）构建预测集合，未考虑子群体间的分布差异。</p>
+<ul>
+<li><strong>问题根源</strong>：<br>
+不同子群体的非符合性分数分布可能差异显著（如困难样本的分数普遍更高），导致分位数阈值在局部失效。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="5-敏感应用中的实际影响"><strong>5. 敏感应用中的实际影响</strong></h3>
+<ul>
+<li><strong>医疗诊断</strong>：<br>
+若模型对某类疾病的亚型（如罕见病）覆盖不足，可能导致漏诊风险增加。</li>
+<li><strong>金融风控</strong>：<br>
+对低收入群体的贷款审批预测集合过窄，可能加剧系统性排斥。</li>
+<li><strong>法律判决</strong>：<br>
+对特定族群的保释预测覆盖不均，可能引发公平性质疑。</li>
+</ul>
+<hr>
+<h3 id="6-解决方向"><strong>6. 解决方向</strong></h3>
+<h4 id="1-条件保形预测-conditional-conformal-prediction"><strong>(1) 条件保形预测（Conditional Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：在子群体或特征区间内独立应用保形预测。</li>
+<li><strong>实现方式</strong>：
+<ul>
+<li><strong>按特征分层</strong>：对每个子群体 <code>$G$</code> 单独计算非符合性分数和分位数阈值。</li>
+<li><strong>动态分位数调整</strong>：根据局部数据分布自适应调整阈值。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：确保每个子群体的覆盖概率接近 <code>$1 - \alpha$</code>。</li>
+<li><strong>挑战</strong>：小样本子群体的分位数估计可能不稳定。</li>
+</ul>
+<h4 id="2-加权保形预测-weighted-conformal-prediction"><strong>(2) 加权保形预测（Weighted Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：在全局分位数计算中，对不同子群体赋予权重。</li>
+<li><strong>数学形式</strong>：<code>$ \hat{Q}_{1-\alpha} = \inf \left\{ q : \sum_{i=1}^{n+1} w_i \cdot \mathbf{1}_{\{\alpha_i \leq q\}} \geq (1 - \alpha) \sum_{i=1}^{n+1} w_i \right\} $</code>，其中 <code>$w_i$</code> 反映样本 <code>$i$</code> 所属子群体的重要性。</li>
+<li><strong>优点</strong>：灵活平衡不同子群体的覆盖需求。</li>
+<li><strong>挑战</strong>：权重设计需结合领域知识或公平性约束。</li>
+</ul>
+<h4 id="3-公平性约束"><strong>(3) 公平性约束</strong></h4>
+<ul>
+<li><strong>统计公平性指标</strong>：<br>
+要求所有子群体的条件覆盖率满足 <code>$P(Y \in \hat{C}(X) \mid X \in G) \geq 1 - \alpha$</code>。</li>
+<li><strong>优化框架</strong>：<br>
+在保形预测中引入公平性约束，通过优化算法联合优化覆盖概率和公平性。</li>
+</ul>
+<hr>
+<h3 id="7-总结"><strong>7. 总结</strong></h3>
+<ul>
+<li><strong>边际有效性</strong>是保形预测的基础，但<strong>无法保证条件覆盖的均匀性</strong>。</li>
+<li><strong>现实挑战</strong>：在敏感应用中，条件覆盖的失效可能导致系统性偏见或风险。</li>
+<li><strong>解决路径</strong>：通过条件保形预测、加权方法或公平性约束，提升局部覆盖的可靠性。</li>
+</ul>
+<p>保形预测的进一步发展需在保持全局有效性的同时，增强对局部数据分布的适应性，以应对复杂现实场景中的公平性和可靠性需求。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -133,17 +279,15 @@
     
     
     <item>
-      <title>不确定量化</title>
+      <title>不确定量化与分布偏移</title>
       <link>/cn/2025/02/27/uc/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
       <guid>/cn/2025/02/27/uc/</guid>
       <description>
         <![CDATA[
-        <h1 id="不确定量化">不确定量化</h1>
-<h2 id="与分布偏移的关系">与分布偏移的关系</h2>
+        <h2 id="与分布偏移的关系">与分布偏移的关系</h2>
 <p>不确定量化（Uncertainty Quantification）与分布偏移（Distribution Shift）在机器学习中是紧密相关的两个问题。它们的关系可以从以下几个方面理解：</p>
-<hr>
 <h3 id="1-分布偏移会引发模型的不确定性变化"><strong>1. 分布偏移会引发模型的不确定性变化</strong></h3>
 <ul>
 <li><strong>现象</strong>：当模型遇到分布外的数据（即测试数据分布与训练数据不同）时，其预测的<strong>不确定性（如置信度、方差）通常会显著增加</strong>，甚至可能给出错误的“过度自信”预测。</li>
@@ -154,7 +298,6 @@
 </ul>
 </li>
 </ul>
-<hr>
 <h3 id="2-不确定性量化是应对分布偏移的关键工具"><strong>2. 不确定性量化是应对分布偏移的关键工具</strong></h3>
 <h4 id="1-检测分布偏移"><strong>(1) 检测分布偏移</strong></h4>
 <ul>
@@ -175,7 +318,6 @@
 <li><strong>对抗训练</strong>：通过最大化模型在扰动样本上的不确定性，增强对分布偏移的鲁棒性。</li>
 <li><strong>不确定性正则化</strong>：在损失函数中加入不确定性惩罚项，防止模型对训练分布过拟合。</li>
 </ul>
-<hr>
 <h3 id="3-分布偏移挑战不确定性量化的可靠性"><strong>3. 分布偏移挑战不确定性量化的可靠性</strong></h3>
 <ul>
 <li><strong>问题</strong>：传统不确定性估计方法（如贝叶斯神经网络）通常假设训练和测试数据同分布，但在分布偏移下可能失效。
@@ -190,7 +332,6 @@
 </ul>
 </li>
 </ul>
-<hr>
 <h3 id="4-实际应用中的协同作用"><strong>4. 实际应用中的协同作用</strong></h3>
 <h4 id="案例1-自动驾驶"><strong>案例1：自动驾驶</strong></h4>
 <ul>
@@ -202,7 +343,6 @@
 <li><strong>分布偏移</strong>：训练数据来自年轻患者，测试数据为老年患者。</li>
 <li><strong>不确定性量化</strong>：模型对老年患者的预测给出高不确定性，提示医生需结合其他检查。</li>
 </ul>
-<hr>
 <h3 id="5-研究方法与前沿方向"><strong>5. 研究方法与前沿方向</strong></h3>
 <ul>
 <li><strong>不确定性校准 + 分布适应</strong><br>
@@ -212,7 +352,6 @@
 <li><strong>因果不确定性分解</strong><br>
 从因果视角区分不确定性的来源（如 <a href="https://arxiv.org/abs/1907.02893">Invariant Risk Minimization</a>）。</li>
 </ul>
-<hr>
 <h3 id="总结关系"><strong>总结关系</strong></h3>
 <table>
 <thead>
@@ -238,9 +377,13 @@
 <td>挑战</td>
 <td>分布偏移可能导致未校准的不确定性</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<hr>
 <h3 id="关键要点"><strong>关键要点</strong></h3>
 <ul>
 <li>不确定性量化是<strong>检测和缓解分布偏移的核心工具</strong>。</li>
@@ -256,7 +399,7 @@
     
     
     <item>
-      <title>分布偏移</title>
+      <title>分布偏移与DRO</title>
       <link>/cn/2025/02/27/shift/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
@@ -408,7 +551,7 @@
 <p>经验似然，保形推断，公平性，差分隐私，<a href="/cn/2025/02/27/uc/">不确定量化</a>，f散度与DRO关系紧密，其中公平性，差分隐私是distribution shift 包装问题；经验似然，保形推断是在 distribution shift 问题背景下保持分布稳健的方法；f散度度量了 distribution shift 的偏移程度；不确定量化是检测和缓解 distribution shift 的核心工具。这些方法的结合可提升模型在开放环境中的<strong>安全性与可信度</strong>（如医疗、自动驾驶等高风险场景）。</p>
 <h2 id="经验似然-empirical-likelihood">经验似然 empirical likelihood</h2>
 <h2 id="保形推断-conformal-inference-cn-2025-02-25-conformity">保形推断 <a href="/cn/2025/02/25/conformity/">conformal inference</a></h2>
-<h2 id="公平性-fairness">公平性 fairness</h2>
+<h2 id="公平性-fairness-cn-2025-03-01-保形预测与公平性">公平性 <a href="/cn/2025/03/01/%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B%E4%B8%8E%E5%85%AC%E5%B9%B3%E6%80%A7/">fairness</a></h2>
 <ul>
 <li>文章</li>
 <li>代码
@@ -870,50 +1013,71 @@ $$</p>
 <ul>
 <li>conformal inference
 <ul>
-<li>书籍看完 2.1 节，下次 2.2 节。</li>
-<li>收获：一些精确定义，关于 conformal prediction。</li>
+<li>书籍看完 2.1 节。✅</li>
+<li>收获：一些精确定义，关于 conformal prediction。✅</li>
 </ul>
 </li>
-<li>改分组对比学习论文</li>
+<li>改GPSC论文 ✅</li>
 </ul>
 <h2 id="2025-02-25-周二">2025-02-25 周二</h2>
 <ul>
 <li>conformal inference
 <ul>
-<li>书籍看完 2.2.4节，下次 2.2.9 节。</li>
-<li>收获：一些精确定义，关于 nonconformal measures。</li>
+<li>书籍看完 2.2.4节。✅</li>
+<li>收获：一些精确定义，关于 nonconformal measures。✅</li>
 </ul>
 </li>
-<li>改分组对比学习论文</li>
+<li>改GPSC论文✅</li>
 </ul>
 <h2 id="2025-02-26-周三">2025-02-26 周三</h2>
 <ul>
 <li>conformal inference
 <ul>
-<li>书籍看完 2.3节，下次 2.4节。</li>
-<li>收获：conformal inference 的应用。</li>
+<li>书籍看完 2.3节。✅</li>
+<li>收获：conformal inference 的应用。✅</li>
 </ul>
 </li>
 <li>面见导师</li>
 </ul>
 <h2 id="2025-02-27-周四">2025-02-27 周四</h2>
 <ul>
-<li>时间管理：3+4+（晚上上课）</li>
+<li>时间管理：3+4+（晚上上课）(✅)</li>
 <li>任务：
 <ul>
-<li>纵向DRO的工作总结</li>
-<li>询问大模型DRO可研究方向 <a href="https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent">https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent</a></li>
+<li>纵向DRO的工作总结 ⁉️</li>
+<li>询问大模型DRO可研究方向 <a href="https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent">https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent</a> ❌</li>
 </ul>
 </li>
 </ul>
 <h2 id="2025-02-28-周五">2025-02-28 周五</h2>
 <ul>
-<li>时间管理：4+3+2</li>
+<li>时间管理：3.5+3.5+2.5 ✅</li>
 <li>任务：
 <ul>
-<li>横向Duchi的工作总结</li>
-<li></li>
-<li></li>
+<li>阅读 conformal 论文工作，2 篇 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-01-周六">2025-03-01 周六</h2>
+<ul>
+<li>
+<p>时间管理：1+助教+拿快递+3.5+2</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>fairness 论文阅读，1篇 ✅</p>
+</li>
+<li>
+<p>横向 Duchi 的工作总结：发表的论文/指导的毕业论文</p>
+</li>
+<li>
+<p>conformity 书籍看完第二章</p>
+</li>
+<li>
+<p>修改GPSC</p>
+</li>
 </ul>
 </li>
 </ul>

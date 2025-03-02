@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>保形推断与DRO - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="保形推断与DRO - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="DRO（分布鲁棒优化）与 Conformal Inference（保形推断）的关系
+DRO 和 Conformal Inference 是统计学习中处理不确定性的两种重要方法，目标均是为模型在复杂或未知环境中提供可靠性保障。它们的关系可从以下角度理解：
+[&amp;hellip;] DRO：
+通过定义分布邻域（如 Wasserstein 球、矩约束集合），优化模型在这些邻域内最坏情况下的损失：
+$$ &amp;hellip;">
+      <meta property="og:description" content="DRO（分布鲁棒优化）与 Conformal Inference（保形推断）的关系
+DRO 和 Conformal Inference 是统计学习中处理不确定性的两种重要方法，目标均是为模型在复杂或未知环境中提供可靠性保障。它们的关系可从以下角度理解：
+[&amp;hellip;] DRO：
+通过定义分布邻域（如 Wasserstein 球、矩约束集合），优化模型在这些邻域内最坏情况下的损失：
+$$ &amp;hellip;">
+      
+    
+
+    
+    
+    
+    <meta name="twitter:image" content="/images/logo.png">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>保形推断与DRO</h1>
+
+
+<h3>Tan Jay / 
+2025-03-02</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p><strong>DRO（分布鲁棒优化）与 Conformal Inference（保形推断）的关系</strong></p>
+<p>DRO 和 Conformal Inference 是统计学习中处理不确定性的两种重要方法，目标均是为模型在复杂或未知环境中提供可靠性保障。它们的关系可从以下角度理解：</p>
+<h3 id="1-核心目标"><strong>1. 核心目标</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>方法</strong></th>
+<th><strong>核心目标</strong></th>
+<th><strong>不确定性类型</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DRO</strong></td>
+<td>优化模型在<strong>最坏情况分布</strong>下的性能，防范分布偏移（如训练与测试分布不一致）。</td>
+<td><strong>分布不确定性</strong>（数据生成分布的变化）</td>
+</tr>
+<tr>
+<td><strong>Conformal Inference</strong></td>
+<td>生成具有<strong>统计保证的预测区间</strong>，确保覆盖概率（如 95% 置信水平）的无偏性。</td>
+<td><strong>预测不确定性</strong>（单个样本的预测波动）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-方法论联系"><strong>2. 方法论联系</strong></h3>
+<h4 id="1-对不确定性的建模"><strong>(1) 对不确定性的建模</strong></h4>
+<ul>
+<li>
+<p><strong>DRO</strong>：<br>
+通过定义<strong>分布邻域</strong>（如 Wasserstein 球、矩约束集合），优化模型在这些邻域内最坏情况下的损失：<br>
+$$
+\min_{\theta} \sup_{Q \in \mathcal{U}(P)} \mathbb{E}_{Q}[L(\theta; X,Y)]
+$$
+其中 <code>$\mathcal{U}(P)$</code> 是围绕参考分布 <code>$P$</code> 的邻域。</p>
+</li>
+<li>
+<p><strong>Conformal Inference</strong>：<br>
+通过<strong>非参数分位数估计</strong>（如分位数回归、排列方法）生成预测区间，满足：
+$$
+P(Y \in \hat{C}(X)) \geq 1 - \alpha
+$$
+其中覆盖概率的保证基于数据可交换性（exchangeability）假设。</p>
+</li>
+<li>
+<p><strong>分布鲁棒的保形预测</strong>：
+将 DRO 的分布邻域约束嵌入 Conformal Inference 的分位数估计中，确保预测区间在分布偏移下的覆盖概率：<br>
+<code>$ \hat{Q}_{1-\alpha} = \inf \left\{ q : \sup_{Q \in \mathcal{U}(P)} P_Q(\alpha_i \leq q) \geq 1 - \alpha \right\} $</code>，其中 <code>$\alpha_i$</code> 为非符合性评分，<code>$\mathcal{U}(P)$</code> 为分布邻域。</p>
+</li>
+</ul>
+<h4 id="2-互补性"><strong>(2) 互补性</strong></h4>
+<ul>
+<li>
+<p><strong>鲁棒性与统计保证的结合</strong>：<br>
+DRO 可训练对分布偏移鲁棒的模型，而 Conformal Inference 可为该模型的预测提供不确定性量化。例如：</p>
+<ul>
+<li>使用 DRO 训练模型参数，确保在分布扰动下性能稳定。</li>
+<li>应用 Conformal Inference 生成预测区间，覆盖概率在分布偏移时仍保持有效（需结合加权或条件保形方法）。</li>
+</ul>
+</li>
+<li>
+<p><strong>分布鲁棒的预测区间</strong>：<br>
+在 Conformal Inference 中引入 DRO 思想，构建对分布扰动鲁棒的预测区间。例如：</p>
+<ul>
+<li>基于 Wasserstein DRO 的非符合性评分分位数估计，使预测区间在分布偏移时仍满足覆盖要求。</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-应用场景的交叉"><strong>3. 应用场景的交叉</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>场景</strong></th>
+<th><strong>DRO 的作用</strong></th>
+<th><strong>Conformal Inference 的作用</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>医疗诊断</strong></td>
+<td>训练对患者群体分布变化鲁棒的疾病预测模型。</td>
+<td>生成诊断结果的置信区间，量化不确定性。</td>
+</tr>
+<tr>
+<td><strong>自动驾驶</strong></td>
+<td>优化感知模型，防范极端天气或罕见场景的分布偏移。</td>
+<td>提供车辆位置或障碍物距离的可靠预测区间。</td>
+</tr>
+<tr>
+<td><strong>金融风控</strong></td>
+<td>防范经济周期变化导致的信用评分分布偏移。</td>
+<td>输出贷款违约概率的置信区间，支持风险决策。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-前沿研究方向"><strong>4. 前沿研究方向</strong></h3>
+<h4 id="1-分布鲁棒的保形预测"><strong>(1) 分布鲁棒的保形预测</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：将 DRO 的分布邻域约束嵌入 Conformal Inference 的分位数估计中，确保预测区间在分布偏移下的覆盖概率。</li>
+<li><strong>数学形式</strong>：<br>
+<code>$ \hat{Q}_{1-\alpha} = \inf \left\{ q : \sup_{Q \in \mathcal{U}(P)} P_Q(\alpha_i \leq q) \geq 1 - \alpha \right\} $</code>
+其中 <code>$\alpha_i$</code> 为非符合性评分，<code>$\mathcal{U}(P)$</code> 为分布邻域。</li>
+</ul>
+<h4 id="2-条件覆盖的鲁棒性"><strong>(2) 条件覆盖的鲁棒性</strong></h4>
+<ul>
+<li><strong>问题</strong>：传统保形预测的边际覆盖保证无法约束子群体（如敏感属性）的条件覆盖。</li>
+<li><strong>解决方案</strong>：结合 DRO 的鲁棒优化框架，对子群体覆盖概率施加约束：<br>
+$$
+\min_{\hat{C}} \sup_{Q \in \mathcal{U}(P)} \mathbb{E}_Q[L(\hat{C})] \quad \text{s.t.} \quad P_Q(Y \in \hat{C}(X) \geq 1 - \alpha, \forall Q \in \mathcal{U}(P)
+$$</li>
+</ul>
+<h4 id="3-自适应分位数校准"><strong>(3) 自适应分位数校准</strong></h4>
+<ul>
+<li><strong>方法</strong>：利用 DRO 优化非符合性评分的分位数阈值，使其在分布扰动下自适应调整。</li>
+<li><strong>优势</strong>：在数据分布动态变化时（如在线学习），保持预测区间的有效性和实用性。</li>
+</ul>
+<h3 id="5-关键挑战"><strong>5. 关键挑战</strong></h3>
+<ol>
+<li><strong>计算复杂性</strong>：<br>
+DRO 的分布邻域优化和 Conformal Inference 的分位数估计均可能引入高计算成本，联合方法需平衡效率与精度。</li>
+<li><strong>理论兼容性</strong>：<br>
+DRO 的鲁棒性定义（如 Wasserstein 距离）与 Conformal Inference 的可交换性假设需在数学上兼容。</li>
+<li><strong>小样本场景</strong>：<br>
+在数据有限时，分布邻域的估计和分位数校准可能不稳定。</li>
+</ol>
+<h3 id="6-总结"><strong>6. 总结</strong></h3>
+<ul>
+<li><strong>DRO</strong> 和 <strong>Conformal Inference</strong> 分别从<strong>分布鲁棒性</strong>和<strong>预测不确定性量化</strong>的角度提升模型的可靠性。</li>
+<li><strong>结合方向</strong>：
+<ul>
+<li>使用 DRO 训练鲁棒模型，增强对分布偏移的适应能力。</li>
+<li>通过 Conformal Inference 提供统计保证的预测区间，量化不确定性。</li>
+<li>开发分布鲁棒的保形方法，确保预测区间在复杂分布下的有效性。</li>
+</ul>
+</li>
+<li><strong>未来价值</strong>：在医疗、金融、自动驾驶等领域，二者结合可为高风险决策提供既鲁棒又可信的AI系统。</li>
+</ul>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/03/01/fairness/">保形预测与公平性</a></span>
+  <span class="nav-next"></span>
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/cn\/2025\/03\/01\/fairness\/';
+    
+  } else if (e.which == 39) {  
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
+
+
+
+
+
+
+<script async src="https://cdn.jsdelivr.net/combine/npm/@xiee/utils/js/fix-toc.min.js,npm/@xiee/utils/js/center-img.min.js,npm/@xiee/utils/js/right-quote.min.js,npm/@xiee/utils/js/no-highlight.min.js,npm/@xiee/utils/js/fix-footnote.min.js,npm/@xiee/utils/js/math-code.min.js,npm/@xiee/utils/js/hash-notes.min.js,npm/@xiee/utils/js/external-link.min.js,npm/@xiee/utils/js/alt-title.min.js,npm/@xiee/utils/js/header-link.min.js"></script>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/toggle-notes.min.js" defer></script>
+
+
+
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

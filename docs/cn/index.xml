@@ -379,22 +379,22 @@ $$
 <h3 id="1-标准保形推断-cn-2025-03-03-standardci"><strong>1. <a href="/cn/2025/03/03/standardci/">标准保形推断</a></strong></h3>
 <p>利用验证集的非符合性分数计算分位数阈值 <code>$\hat{t}$</code>，确保覆盖概率至少为 <code>$1 - \alpha$</code>：
 $$
-P_{P_0}(s \leq t) \geq 1 - \alpha
+\mathrm{Pr}_{P_0}(s \leq t) \geq 1 - \alpha
 $$</p>
 <p>$$
-\hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right)
+\hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) = \inf{ \{ q \in \mathbb{R}: \ P_0(S \le q) \ge 1 - \alpha \}}
 $$</p>
 <p>其中，<code>$n_{\text{cal}}$</code>：验证集样本数量，调整项 <code>$\frac{1}{n_{\text{cal}} + 1}$</code> 保证覆盖概率的有限样本有效性。公式表示将验证集分数排序后，取第 <code>$\lceil (1 - \alpha)(n_{\text{cal}} + 1) \rceil$</code> 小的值作为阈值。</p>
 <h4 id="2-稳健保形推断"><strong>2. 稳健保形推断</strong></h4>
 <p>核心思想：  结合分布鲁棒优化（DRO），在最坏分布扰动下保证覆盖概率。数学形式：<br>
 $$
-P_{Q \in \mathcal{U}(P_0)}(s \leq t) \geq 1 - \alpha
+\mathrm{Pr}_{Q \in \mathcal{U}(P_0)}(s \leq t) \geq 1 - \alpha
 $$</p>
 <p>$$
-\hat{t} = \max_{Q \in \mathcal{U}(P_0)} \text{Quantile} \left( 1 - \alpha; Q \right)
+\hat{t} = \max_{Q \in \mathcal{U}(P_0)} \text{Quantile} \left( 1 - \alpha; Q \right)  = \max_{Q \in \mathcal{U}(P_0)} \inf{ \{ q \in \mathbb{R}: \ Q(S \le q) \ge 1 - \alpha \}}
 $$</p>
 <p>$$
-\hat{t} = \inf{ \{ q: P_{ Q \in \mathcal{U}(P_0)}(s \le q) \ge 1 - \alpha \}}
+\hat{t} = \inf{ \{ q: Q(s \le q) \ge 1 - \alpha , \ \forall Q \in \mathcal{U}(P_0)} \}
 $$</p>
 <p>其中，<code>$\mathcal{U}(P)$</code> 是围绕训练分布 <code>$P$</code> 的邻域（如 Wasserstein 球）。优点：防范未知但有限的分布偏移。</p>
 
@@ -1554,28 +1554,32 @@ $$</p>
 </ul>
 <h4 id="2-前期准备">2. 前期准备</h4>
 <ul>
-<li><a href="/cn/2025/02/27/dro/">Distributions Shift 与 DRO 的关系</a></li>
-<li><a href="/cn/2025/03/03/dsandci/">Distributions Shift 与 Conformal Inference 的关系</a></li>
-<li><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a>
+<li>
+<p><a href="/cn/2025/02/27/dro/">Distributions Shift 与 DRO 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/03/dsandci/">Distributions Shift 与 Conformal Inference 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a></p>
 <ul>
 <li><a href="/cn/2025/03/03/standardci/">A standard practice</a></li>
 <li><a href="/cn/2025/03/03/robustci/"> A robust practice</a></li>
 </ul>
 </li>
-<li><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a>
+<li>
+<p><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a></p>
 <ul>
 <li><em>Algorithmic Learning in a Random World</em></li>
 <li><a href="https://arxiv.org/pdf/2005.07972"><em>Conformal Prediction: a Unified Review of Theory and New Challenges</em></a></li>
 <li><a href="/cn/2025/03/01/fairness/">Conformal Inference 与 fairness 的关系</a></li>
 </ul>
 </li>
-<li>DRO研究路程</li>
+<li>
+<p>DRO 研究路程</p>
+</li>
 </ul>
-<h4 id="3-主要内容">3. 主要内容</h4>
-<ul>
-<li></li>
-</ul>
-<h4 id="4-不成熟提案">4. 不成熟提案</h4>
+<h4 id="3-不成熟提案">3. 不成熟提案</h4>
 <ul>
 <li>
 <p>应用</p>
@@ -1595,12 +1599,41 @@ $$</p>
 </ul>
 </li>
 </ul>
-<h4 id="5-下一步研究计划">5. 下一步研究计划</h4>
+<h4 id="4-下一步研究计划">4. 下一步研究计划</h4>
 <ul>
 <li>Fairness</li>
 <li>UC</li>
 <li>Privacy</li>
 <li><strong>Duchi 指导的毕业论文</strong>：<a href="https://www.proquest.com/docview/2723853375?pq-origsite=gscholar&amp;fromopenview=true&amp;sourcetype=Dissertations%20&amp;%20Theses"><em>RELIABILITY AND STABILITY IN STATISTICAL AND MACHINE LEARNING PROBLEMS</em></a></li>
+</ul>
+<h3 id="讨论结果-1">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250303-meeting.m4a"> </audio></p>
+<ul>
+<li>
+<p>EL 结合 DRO 在分布偏移上的相关论文有哪些</p>
+<ul>
+<li>按时间发展已有成果</li>
+<li>按类型分类已有成果</li>
+</ul>
+</li>
+<li>
+<p>Duchi 在 EL 上做过哪些内容。</p>
+</li>
+<li>
+<p>Domian</p>
+</li>
+<li>
+<p>Optimazation 改进</p>
+</li>
+<li>
+<p>RKHS</p>
+</li>
+<li>
+<p>VC</p>
+</li>
+<li>
+<p>induce</p>
+</li>
 </ul>
 
         
@@ -1676,7 +1709,7 @@ $$</p>
 </ul>
 </li>
 </ul>
-<h2 id="2025-03-02周日">2025-03-02周日</h2>
+<h2 id="2025-03-02-周日">2025-03-02 周日</h2>
 <ul>
 <li>
 <p>时间管理：3.5+1+助教+3.5 ✅</p>
@@ -1689,19 +1722,37 @@ $$</p>
 </ul>
 </li>
 </ul>
-<h2 id="2025-03-03周一">2025-03-03周一</h2>
+<h2 id="2025-03-03-周一">2025-03-03 周一</h2>
 <ul>
 <li>
-<p>时间管理：3.5+1+汇报+3</p>
+<p>时间管理：4+汇报+3 ✅</p>
 </li>
 <li>
 <p>任务：</p>
 <ul>
 <li>
-<p>继续总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a></p>
+<p>继续总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a> ✅</p>
 </li>
 <li>
-<p>面见老师</p>
+<p>面见老师 ✅</p>
+</li>
+</ul>
+<h2 id="2025-03-04-周二">2025-03-04 周二</h2>
+<ul>
+<li>
+<p>时间管理：4+汇报+3 ✅</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>朱老师高维课</p>
+</li>
+<li>
+<p>案例讲座安排签到</p>
+</li>
+<li>
+<p>搜 EL 与 DRO 结合的相关论文</p>
 </li>
 <li>
 <p>fairness 论文阅读，P？</p>
@@ -1714,6 +1765,8 @@ $$</p>
 </li>
 <li>
 <p>修改GPSC</p>
+</li>
+</ul>
 </li>
 </ul>
 </li>

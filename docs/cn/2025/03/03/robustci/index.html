@@ -15,12 +15,10 @@
 
     
       
-      <meta property="description" content="利用验证集的非符合性分数计算分位数阈值 $\hat{t}$，确保覆盖概率至少为 $1 - \alpha$： $$ P_{P_0}(s \leq t) \geq 1 - \alpha $$
-$$ \hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) $$
-其中，$n_{\text{cal}}$：验证集样本数量， &amp;hellip;">
-      <meta property="og:description" content="利用验证集的非符合性分数计算分位数阈值 $\hat{t}$，确保覆盖概率至少为 $1 - \alpha$： $$ P_{P_0}(s \leq t) \geq 1 - \alpha $$
-$$ \hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) $$
-其中，$n_{\text{cal}}$：验证集样本数量， &amp;hellip;">
+      <meta property="description" content="利用验证集的非符合性分数计算分位数阈值 $\hat{t}$，确保覆盖概率至少为 $1 - \alpha$： $$ \mathrm{Pr}_{P_0}(s \leq t) \geq 1 - \alpha $$
+$$ \hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) = \inf{ \{ q \in \mathbb{R}: \ P_0(S &amp;hellip;">
+      <meta property="og:description" content="利用验证集的非符合性分数计算分位数阈值 $\hat{t}$，确保覆盖概率至少为 $1 - \alpha$： $$ \mathrm{Pr}_{P_0}(s \leq t) \geq 1 - \alpha $$
+$$ \hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) = \inf{ \{ q \in \mathbb{R}: \ P_0(S &amp;hellip;">
       
     
 
@@ -103,22 +101,22 @@ $$ \hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) $$
 <h3 id="1-标准保形推断-cn-2025-03-03-standardci"><strong>1. <a href="/cn/2025/03/03/standardci/">标准保形推断</a></strong></h3>
 <p>利用验证集的非符合性分数计算分位数阈值 <code>$\hat{t}$</code>，确保覆盖概率至少为 <code>$1 - \alpha$</code>：
 $$
-P_{P_0}(s \leq t) \geq 1 - \alpha
+\mathrm{Pr}_{P_0}(s \leq t) \geq 1 - \alpha
 $$</p>
 <p>$$
-\hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right)
+\hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) = \inf{ \{ q \in \mathbb{R}: \ P_0(S \le q) \ge 1 - \alpha \}}
 $$</p>
 <p>其中，<code>$n_{\text{cal}}$</code>：验证集样本数量，调整项 <code>$\frac{1}{n_{\text{cal}} + 1}$</code> 保证覆盖概率的有限样本有效性。公式表示将验证集分数排序后，取第 <code>$\lceil (1 - \alpha)(n_{\text{cal}} + 1) \rceil$</code> 小的值作为阈值。</p>
 <h4 id="2-稳健保形推断"><strong>2. 稳健保形推断</strong></h4>
 <p>核心思想：  结合分布鲁棒优化（DRO），在最坏分布扰动下保证覆盖概率。数学形式：<br>
 $$
-P_{Q \in \mathcal{U}(P_0)}(s \leq t) \geq 1 - \alpha
+\mathrm{Pr}_{Q \in \mathcal{U}(P_0)}(s \leq t) \geq 1 - \alpha
 $$</p>
 <p>$$
-\hat{t} = \max_{Q \in \mathcal{U}(P_0)} \text{Quantile} \left( 1 - \alpha; Q \right)
+\hat{t} = \max_{Q \in \mathcal{U}(P_0)} \text{Quantile} \left( 1 - \alpha; Q \right)  = \max_{Q \in \mathcal{U}(P_0)} \inf{ \{ q \in \mathbb{R}: \ Q(S \le q) \ge 1 - \alpha \}}
 $$</p>
 <p>$$
-\hat{t} = \inf{ \{ q: P_{ Q \in \mathcal{U}(P_0)}(s \le q) \ge 1 - \alpha \}}
+\hat{t} = \inf{ \{ q: Q(s \le q) \ge 1 - \alpha , \ \forall Q \in \mathcal{U}(P_0)} \}
 $$</p>
 <p>其中，<code>$\mathcal{U}(P)$</code> 是围绕训练分布 <code>$P$</code> 的邻域（如 Wasserstein 球）。优点：防范未知但有限的分布偏移。</p>
 

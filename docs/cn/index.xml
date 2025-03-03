@@ -10,6 +10,402 @@
     
     
     <item>
+      <title>分布偏移与保形推断</title>
+      <link>/cn/2025/03/03/dsandci/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/03/dsandci/</guid>
+      <description>
+        <![CDATA[
+        <p><strong>Distribution Shift 与 Conformal Inference 的关系</strong></p>
+<p>在机器学习中，<strong>Distribution Shift（分布偏移）</strong> 和 <strong>Conformal Inference（保形推断）</strong> 的关系可以从以下角度分析：</p>
+<h3 id="1-核心挑战-可交换性假设的违背"><strong>1. 核心挑战：可交换性假设的违背</strong></h3>
+<ul>
+<li><strong>Conformal Inference 的基础假设</strong>：<br>
+保形推断依赖数据的<strong>可交换性（exchangeability）</strong>，即数据的顺序不影响联合分布。这一假设在独立同分布（i.i.d.）或有限总体不放回抽样时成立。</li>
+<li><strong>Distribution Shift 的影响</strong>：<br>
+当训练数据与测试数据分布不一致（如协变量偏移、标签偏移等），可交换性假设被打破，传统保形推断的覆盖概率保证（如 95% 置信水平）可能失效。</li>
+</ul>
+<h3 id="2-覆盖概率的退化"><strong>2. 覆盖概率的退化</strong></h3>
+<ul>
+<li><strong>边缘覆盖（Marginal Coverage）</strong>：<br>
+传统保形推断保证<strong>整体数据集</strong>的覆盖概率，但无法约束<strong>特定子群体或条件</strong>下的覆盖。
+<ul>
+<li><strong>示例</strong>：在医疗数据中，模型对多数群体的覆盖概率为 95%，但对少数群体可能降至 80%。</li>
+</ul>
+</li>
+<li><strong>条件覆盖（Conditional Coverage）</strong>：<br>
+Distribution Shift 要求保形推断在子群体或局部条件下仍满足覆盖保证，这对传统方法提出挑战。</li>
+</ul>
+<h3 id="3-应对-distribution-shift-的保形方法"><strong>3. 应对 Distribution Shift 的保形方法</strong></h3>
+<p>为在分布偏移下保持有效性，研究者提出以下改进方法：</p>
+<h4 id="1-加权保形推断-weighted-conformal-prediction"><strong>(1) 加权保形推断（Weighted Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+根据测试分布与训练分布的差异，为校准集样本分配权重，调整分位数阈值。</li>
+<li><strong>数学形式</strong>：<br>
+<code>$ \hat{t} = \inf{ \left\{ t : \sum_{i=1}^{n} w_i \cdot \mathbf{1}_{\{s_i \leq t\}} \geq (1 - \alpha) \sum_{i=1}^{n} w_i \right\} } $</code>，<code>$w_i$</code> 反映样本 <code>$i$</code> 在测试分布中的重要性（如密度比 <code>$P_{\text{test}}(x)/P_{\text{train}}(x)$</code>）。</li>
+<li><strong>适用场景</strong>：协变量偏移（Covariate Shift），即 <code>$P_{\text{train}}(y|x) = P_{\text{test}}(y|x)$</code> 但 <code>$P_{\text{train}}(x) \neq P_{\text{test}}(x)$</code>。</li>
+</ul>
+<h4 id="2-条件保形推断-conditional-conformal-prediction"><strong>(2) 条件保形推断（Conditional Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+在子群体或特征分层内独立应用保形推断，确保每个子群体的覆盖概率达标。</li>
+<li><strong>实现方式</strong>：
+<ul>
+<li>按敏感属性（如性别、年龄）划分数据，对每个子群体单独计算分位数阈值。</li>
+<li>使用条件非符合性评分（如分位数回归）。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：解决子群体间覆盖不均问题，提升公平性。</li>
+</ul>
+<h4 id="3-自适应保形推断-adaptive-conformal-inference"><strong>(3) 自适应保形推断（Adaptive Conformal Inference）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+在在线学习或数据流中动态调整分位数阈值，适应分布变化。</li>
+<li><strong>方法</strong>：
+<ul>
+<li>滑动窗口校准：仅用最近数据计算分位数。</li>
+<li>动量更新：平滑历史分位数与新观测的权重。</li>
+</ul>
+</li>
+<li><strong>适用场景</strong>：时间序列数据、概念漂移（Concept Drift）。</li>
+</ul>
+<h4 id="4-分布鲁棒保形推断-distributionally-robust-conformal-prediction"><strong>(4) 分布鲁棒保形推断（Distributionally Robust Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+结合分布鲁棒优化（DRO），在最坏分布扰动下保证覆盖概率。</li>
+<li><strong>数学形式</strong>：<br>
+$$
+\hat{t} = \inf{\{ t : \sup_{Q \in \mathcal{U}(P)} P_Q(s \leq t) \geq 1 - \alpha\}}
+$$
+<ul>
+<li><code>$\mathcal{U}(P)$</code> 是围绕训练分布 <code>$P$</code> 的邻域（如 Wasserstein 球）。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：防范未知但有限的分布偏移。</li>
+</ul>
+<h3 id="4-不同类型-distribution-shift-的影响"><strong>4. 不同类型 Distribution Shift 的影响</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>偏移类型</strong></th>
+<th><strong>对保形推断的挑战</strong></th>
+<th><strong>解决方法</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>协变量偏移</strong></td>
+<td>输入分布 <code>$P(x)$</code> 变化，但 <code>$P(y|x)$</code> 不变</td>
+<td>加权保形推断、条件保形推断</td>
+</tr>
+<tr>
+<td><strong>标签偏移</strong></td>
+<td>标签分布 <code>$P(y)$</code> 变化，但 <code>$P(x|y)$</code> 不变</td>
+<td>反向加权校准（如标签密度比调整）</td>
+</tr>
+<tr>
+<td><strong>概念偏移</strong></td>
+<td>条件分布 <code>$P(y|x)$</code> 变化</td>
+<td>自适应保形推断、在线重校准</td>
+</tr>
+<tr>
+<td><strong>联合分布偏移</strong></td>
+<td><code>$P(x,y)$</code> 整体变化</td>
+<td>分布鲁棒保形推断、领域自适应</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-实际应用与挑战"><strong>5. 实际应用与挑战</strong></h3>
+<ul>
+<li><strong>医疗诊断</strong>：患者群体分布变化时，需确保对罕见病的覆盖概率不下降。</li>
+<li><strong>金融风控</strong>：经济周期变化导致用户特征偏移，需动态调整预测区间。</li>
+<li><strong>自动驾驶</strong>：不同天气条件下，传感器数据分布变化需鲁棒的置信区间。</li>
+</ul>
+<p><strong>主要挑战</strong>：</p>
+<ul>
+<li><strong>小样本子群体</strong>：条件保形推断在样本不足时阈值估计不稳定。</li>
+<li><strong>复杂偏移检测</strong>：实时检测分布偏移类型并选择合适方法。</li>
+<li><strong>计算效率</strong>：加权或分布鲁棒方法可能增加计算开销。</li>
+</ul>
+<h3 id="6-总结"><strong>6. 总结</strong></h3>
+<ul>
+<li><strong>Distribution Shift 威胁传统保形推断</strong>：破坏可交换性假设，导致覆盖概率失效。</li>
+<li><strong>改进方法</strong>：加权、条件、自适应、分布鲁棒保形推断等，针对不同偏移类型提供解决方案。</li>
+<li><strong>未来方向</strong>：
+<ul>
+<li>结合因果推断解决混杂偏移。</li>
+<li>开发高效的小样本条件校准方法。</li>
+<li>增强对复杂分布变化的自动适应能力。</li>
+</ul>
+</li>
+</ul>
+<p>保形推断在分布偏移下的研究，正推动其从理论工具向实际高可靠性系统的演进，尤其在医疗、金融等高风险领域具有重要价值。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>标准保形推断</title>
+      <link>/cn/2025/03/03/standardci/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/03/standardci/</guid>
+      <description>
+        <![CDATA[
+        <p><strong>保形推断（Conformal Inference）</strong> 通过 <strong>验证集的非符合性分数分位数</strong> 构建预测区间，提供无分布假设的统计覆盖保证。其核心优势在于：</p>
+<ul>
+<li><strong>无分布假设</strong>：仅需可交换性，不依赖数据分布形态。</li>
+<li><strong>灵活性</strong>：适配任意基模型（黑箱模型亦可）。</li>
+<li><strong>实用性</strong>：适用于高风险场景（如医疗、金融）的可靠不确定性量化。</li>
+</ul>
+<p>以下是保形推断的标准流程，适用于回归或分类任务，旨在生成具有统计保证的预测区间或集合。流程分步详解如下：</p>
+<pre><code class="language-plaintext">数据准备 → 模型训练 → 计算验证集非符合性分数 → 确定分位数阈值 → 构建预测区间 → 验证覆盖概率
+</code></pre>
+<h3 id="1-数据准备"><strong>1. 数据准备</strong></h3>
+<p>将数据集划分为 <strong>训练集（Train）</strong>、<strong>验证集（Calibration）</strong> 和 <strong>测试集（Test）</strong>：</p>
+<ul>
+<li><strong>训练集</strong>：用于训练基模型（如回归模型、分类器）。</li>
+<li><strong>验证集</strong>：用于计算非符合性分数（Nonconformity Scores）并确定分位数阈值。</li>
+<li><strong>测试集</strong>：评估预测区间的覆盖概率（Coverage Probability）。</li>
+</ul>
+<p><strong>示例划分比例</strong>：</p>
+<ul>
+<li>训练集（60%）、验证集（20%）、测试集（20%）。<br>
+<em>注</em>：验证集和测试集需满足可交换性（Exchangeability）假设。</li>
+</ul>
+<h3 id="2-模型训练"><strong>2. 模型训练</strong></h3>
+<p>使用训练集训练一个基模型（Base Model）：</p>
+<ul>
+<li><strong>回归任务</strong>：如线性回归、随机森林、神经网络等。</li>
+<li><strong>分类任务</strong>：如逻辑回归、支持向量机、梯度提升树等。</li>
+</ul>
+<p><strong>模型输出</strong>：</p>
+<ul>
+<li>回归：预测值 <code>$\hat{y} = \mu(x)$</code>。</li>
+<li>分类：类别概率分布 <code>$P(y \mid x)$</code>。</li>
+</ul>
+<h3 id="3-计算非符合性分数-nonconformity-scores"><strong>3. 计算非符合性分数（Nonconformity Scores）</strong></h3>
+<p>对验证集中的每个样本 <code>$(x_i, y_i)$</code>，计算其与模型预测的 <strong>不一致程度</strong>：</p>
+<ul>
+<li>
+<p><strong>回归任务</strong></p>
+<ul>
+<li><strong>绝对误差</strong>：<code>$s_i = |\hat{y}_i - y_i|$</code>。</li>
+<li><strong>其他选择</strong>：标准化误差、分位数损失等。</li>
+</ul>
+</li>
+<li>
+<p><strong>分类任务</strong></p>
+<ul>
+<li><strong>概率补数</strong>：<code>$s_i = 1 - P(y_i \mid x_i)$</code>（真实类别的概率越低，分数越高）。</li>
+<li><strong>其他选择</strong>：基于间隔（Margin）的分数、熵等。</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-确定分位数阈值-quantile-threshold"><strong>4. 确定分位数阈值（Quantile Threshold）</strong></h3>
+<p>利用验证集的非符合性分数计算分位数阈值 <code>$\hat{t}$</code>，确保覆盖概率至少为 <code>$1 - \alpha$</code>：</p>
+<p>$$
+\hat{t} = \text{Quantile} \left( 1 - \alpha + \frac{1}{n_{\text{cal}} + 1}; \text{scores} \right)
+$$</p>
+<ul>
+<li><code>$n_{\text{cal}}$</code>：验证集样本数量。</li>
+<li><strong>调整项 <code>$\frac{1}{n_{\text{cal}} + 1}$</code></strong>：保证覆盖概率的有限样本有效性。</li>
+</ul>
+<p><strong>公式解释</strong>：<br>
+将验证集分数排序后，取第 <code>$\lceil (1 - \alpha)(n_{\text{cal}} + 1) \rceil$</code> 小的值作为阈值。还可以用其他依据选择分位数阈值，比如：<a href="/cn/2025/03/03/robustci/">稳健分位数阈值</a>。</p>
+<h3 id="5-构建预测区间或集合"><strong>5. 构建预测区间或集合</strong></h3>
+<p>对测试样本 <code>$x_{\text{test}}$</code>，生成预测区间或集合：</p>
+<ul>
+<li>
+<p><strong>回归任务</strong>
+<code>$ C_{\text{test}}(x_{\text{test}}) = \left[ \hat{y}_{\text{test}} - \hat{t}, \, \hat{y}_{\text{test}} + \hat{t} \right] $</code></p>
+</li>
+<li>
+<p><strong>分类任务</strong>
+<code>$C_{\text{test}}(x_{\text{test}}) = \left\{ y | P(y \mid x_{\text{test}}) \geq 1 - \hat{t} \right\}$</code>
+或通过累积概率排序选择最可能的类别集合。</p>
+</li>
+</ul>
+<h3 id="6-验证覆盖概率"><strong>6. 验证覆盖概率</strong></h3>
+<p>在测试集上评估预测区间/集合的覆盖概率：
+$$
+\text{Coverage} = \frac{1}{n_{\text{test}}} \sum_{i=1}^{n_{\text{test}}} \mathbf{1}\{y_i \in C(x_i)\}
+$$</p>
+<ul>
+<li><strong>目标</strong>：覆盖率 <code>$\geq 1 - \alpha$</code>（如设定 <code>$\alpha = 0.1$</code>，则覆盖率应 <code>$\geq 90\%$</code>）。</li>
+</ul>
+<h3 id="示例-波士顿房价预测"><strong>示例：波士顿房价预测</strong></h3>
+<ol>
+<li><strong>数据划分</strong>：<br>
+506个样本 → 训练集（303）、验证集（101）、测试集（102）。</li>
+<li><strong>模型训练</strong>：<br>
+随机森林回归模型。</li>
+<li><strong>非符合性分数</strong>：<br>
+验证集样本的预测误差绝对值 <code>$|y_i - \hat{y}_i|$</code>。</li>
+<li><strong>分位数阈值</strong>：<br>
+<code>$\alpha = 0.1$</code> → 取验证集误差的第91大值作为 <code>$\hat{t}$</code>。</li>
+<li><strong>预测区间</strong>：<br>
+新样本预测值 ± <code>$\hat{t}$</code>。</li>
+<li><strong>覆盖验证</strong>：<br>
+测试集中至少90%的真实房价落在区间内。</li>
+</ol>
+<h3 id="关键注意事项"><strong>关键注意事项</strong></h3>
+<ol>
+<li><strong>可交换性假设</strong>：<br>
+数据需满足可交换性（如i.i.d.或有限总体不放回抽样），否则覆盖概率可能失效。</li>
+<li><strong>分位数调整</strong>：<br>
+验证集大小影响阈值稳定性，小样本时覆盖率可能波动。</li>
+<li><strong>非符合性评分选择</strong>：<br>
+分数函数需与任务匹配（如回归用绝对误差，分类用概率补数）。</li>
+</ol>
+<hr>
+<h2 id="补充"><strong>补充</strong></h2>
+<p>在保形推断中，<strong>分位数阈值 <code>$\hat{t}$</code></strong> 的正确计算公式和详细推导如下：</p>
+<h3 id="数学公式"><strong>数学公式</strong></h3>
+<p>给定显著性水平 <code>$\alpha$</code>（如 <code>$\alpha = 0.1$</code> 对应 90% 置信水平），验证集大小为 <code>$n_{\text{cal}}$</code>，分位数阈值的计算公式为：
+$$
+\hat{t} = \text{Quantile}\left(1 - \alpha + \frac{1}{n_{\text{cal}} + 1}; \text{scores}\right)
+$$
+或等价地：
+$$
+\hat{t} = \text{第 } \left\lceil (1 - \alpha)(n_{\text{cal}} + 1) \right\rceil \text{小的非符合性分数}
+$$</p>
+<h3 id="公式详解"><strong>公式详解</strong></h3>
+<h4 id="1-公式推导"><strong>1. 公式推导</strong></h4>
+<ul>
+<li>
+<p><strong>目标</strong>：保证覆盖概率至少为 <code>$1 - \alpha$</code>，即：
+$$
+P(Y_{\text{test}} \in C(X_{\text{test}})) \geq 1 - \alpha
+$$</p>
+</li>
+<li>
+<p><strong>核心思想</strong>：<br>
+使用验证集的非符合性分数 <code>$\{s_1, s_2, \dots, s_{n_{\text{cal}}}\}$</code>，调整分位数以补偿有限样本偏差。</p>
+</li>
+<li>
+<p><strong>调整项 <code>$\frac{1}{n_{\text{cal}} + 1}$</code></strong>：<br>
+对分位数位置进行校正，确保有限样本下的覆盖概率不低于 <code>$1 - \alpha$</code>。<br>
+公式中的 <code>$n_{\text{cal}} + 1$</code> 是因为在计算分位数时，需将测试样本的非符合性分数（假设为 <code>$s_{\text{test}}$</code>）也纳入排序后的分位数估计。</p>
+</li>
+</ul>
+<h4 id="2-计算步骤"><strong>2. 计算步骤</strong></h4>
+<ol>
+<li><strong>排序非符合性分数</strong>：<br>
+将验证集的非符合性分数从小到大排序：<br>
+$$
+s_{(1)} \leq s_{(2)} \leq \dots \leq s_{(n_{\text{cal}})}
+$$</li>
+<li><strong>确定分位数位置</strong>：<br>
+计算分位数的索引位置：
+$$
+k = \left\lceil (1 - \alpha)(n_{\text{cal}} + 1) \right\rceil
+$$
+其中，<code>$\lceil \cdot \rceil$</code> 表示向上取整。</li>
+<li><strong>取第 <code>$k$</code> 小的分数作为阈值</strong>：<br>
+$$
+\hat{t} = s_{(k)}
+$$</li>
+</ol>
+<h3 id="示例说明"><strong>示例说明</strong></h3>
+<p>假设：</p>
+<ul>
+<li>验证集大小 <code>$n_{\text{cal}} = 100$</code></li>
+<li>显著性水平 <code>$\alpha = 0.1$</code>（即 90% 置信水平）</li>
+</ul>
+<p>则：
+$$
+k = \left\lceil (1 - 0.1)(100 + 1) \right\rceil = \left\lceil 0.9 \times 101 \right\rceil = \left\lceil 90.9 \right\rceil = 91
+$$
+因此，<code>$\hat{t}$</code> 取验证集排序后的第 91 小的非符合性分数。</p>
+<h3 id="调整项的意义"><strong>调整项的意义</strong></h3>
+<ul>
+<li>
+<p><strong>有限样本校正</strong>：<br>
+理想情况下，无限样本时直接使用分位数 <code>$1 - \alpha$</code>，但有限样本需通过调整项补偿偏差。<br>
+例如，当 <code>$n_{\text{cal}} = 100$</code> 时，调整后的分位数位置为 <code>$1 - \alpha + \frac{1}{n_{\text{cal}} + 1} = 0.9 + \frac{1}{101} \approx 0.9099$</code>，而非简单的 0.9。</p>
+</li>
+<li>
+<p><strong>覆盖概率保证</strong>：<br>
+该调整确保：
+$$
+P(Y_{\text{test}} \in C(X_{\text{test}})) \geq 1 - \alpha
+$$
+即使在小样本场景下，覆盖概率也不会低于预设值。</p>
+</li>
+</ul>
+<h3 id="常见错误"><strong>常见错误</strong></h3>
+<ol>
+<li>
+<p><strong>忽略调整项</strong>：<br>
+直接使用 <code>$k = \lceil (1 - \alpha)n_{\text{cal}} \rceil$</code>，导致覆盖概率不足。<br>
+<strong>错误示例</strong>：<br>
+<code>$n_{\text{cal}} = 100, \alpha = 0.1 \Rightarrow k = 90$</code>，此时实际覆盖率可能仅接近 90%，而非至少 90%。</p>
+</li>
+<li>
+<p><strong>分母错误</strong>：<br>
+误用 <code>$n_{\text{cal}}$</code> 而非 <code>$n_{\text{cal}} + 1$</code>，导致分位数位置偏差。</p>
+</li>
+</ol>
+<h3 id="总结"><strong>总结</strong></h3>
+<p>分位数阈值 <code>$\hat{t}$</code> 的正确计算是保形推断有效性的核心。其公式为：
+$$
+\hat{t} = s_{(k)}, \quad k = \left\lceil (1 - \alpha)(n_{\text{cal}} + 1) \right\rceil
+$$
+通过引入调整项 <code>$\frac{1}{n_{\text{cal}} + 1}$</code>，保形推断在有限样本下仍能严格保证覆盖概率不低于 <code>$1 - \alpha$</code>。这一机制是保形推断理论严谨性的关键体现。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>稳健保形推断</title>
+      <link>/cn/2025/03/03/robustci/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/03/robustci/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="确定分位数阈值方式"><strong>确定分位数阈值方式</strong></h2>
+<h3 id="1-标准保形推断-cn-2025-03-03-standardci"><strong>1. <a href="/cn/2025/03/03/standardci/">标准保形推断</a></strong></h3>
+<p>利用验证集的非符合性分数计算分位数阈值 <code>$\hat{t}$</code>，确保覆盖概率至少为 <code>$1 - \alpha$</code>：
+$$
+P_{P_0}(s \leq t) \geq 1 - \alpha
+$$</p>
+<p>$$
+\hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right)
+$$</p>
+<p>其中，<code>$n_{\text{cal}}$</code>：验证集样本数量，调整项 <code>$\frac{1}{n_{\text{cal}} + 1}$</code> 保证覆盖概率的有限样本有效性。公式表示将验证集分数排序后，取第 <code>$\lceil (1 - \alpha)(n_{\text{cal}} + 1) \rceil$</code> 小的值作为阈值。</p>
+<h4 id="2-稳健保形推断"><strong>2. 稳健保形推断</strong></h4>
+<p>核心思想：  结合分布鲁棒优化（DRO），在最坏分布扰动下保证覆盖概率。数学形式：<br>
+$$
+P_{Q \in \mathcal{U}(P_0)}(s \leq t) \geq 1 - \alpha
+$$</p>
+<p>$$
+\hat{t} = \max_{Q \in \mathcal{U}(P_0)} \text{Quantile} \left( 1 - \alpha; Q \right)
+$$</p>
+<p>$$
+\hat{t} = \inf{ \{ q: P_{ Q \in \mathcal{U}(P_0)}(s \le q) \ge 1 - \alpha \}}
+$$</p>
+<p>其中，<code>$\mathcal{U}(P)$</code> 是围绕训练分布 <code>$P$</code> 的邻域（如 Wasserstein 球）。优点：防范未知但有限的分布偏移。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
       <title>保形推断与DRO</title>
       <link>/cn/2025/03/02/droandci/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
@@ -162,18 +558,18 @@ DRO 的鲁棒性定义（如 Wasserstein 距离）与 Conformal Inference 的可
     
     
     <item>
-      <title>保形预测与公平性</title>
+      <title>保形推断与公平性</title>
       <link>/cn/2025/03/01/fairness/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
       <guid>/cn/2025/03/01/fairness/</guid>
       <description>
         <![CDATA[
-        <p>保形预测的无条件有效性依赖于数据的可交换性假设，但在实际中，数据可能存在异质性，不同子群体的分布不同。当模型在训练时没有考虑到这些子群体的特性时，预测集的覆盖可能在局部失效。例如，如果某个子群体的数据分布与整体差异大，非符合性评分可能在该子群中偏差较大，导致覆盖率下降。</p>
-<p>“loss of coverage”在条件于 <code>$\hat{C} $</code> 和 <code>$X \in G$</code> 时可能发生。这意味着即使整体覆盖率达标，当聚焦于特定子群体或特定预测集时，覆盖率可能不足。例如，模型可能在男性样本上覆盖率高，但在女性样本上覆盖率低，导致性别偏见。针对保形预测的局限性，可能的解决方法有，如条件保形预测或分层方法，来确保各子群体的局部覆盖率。另外，如何在实际应用中检测和缓解这种覆盖不均的问题，尤其是在敏感领域如医疗、金融等，公平性和可靠性至关重要。</p>
+        <p>保形推断的无条件有效性依赖于数据的可交换性假设，但在实际中，数据可能存在异质性，不同子群体的分布不同。当模型在训练时没有考虑到这些子群体的特性时，预测集的覆盖可能在局部失效。例如，如果某个子群体的数据分布与整体差异大，非符合性评分可能在该子群中偏差较大，导致覆盖率下降。</p>
+<p>“loss of coverage”在条件于 <code>$\hat{C} $</code> 和 <code>$X \in G$</code> 时可能发生。这意味着即使整体覆盖率达标，当聚焦于特定子群体或特定预测集时，覆盖率可能不足。例如，模型可能在男性样本上覆盖率高，但在女性样本上覆盖率低，导致性别偏见。针对保形推断的局限性，可能的解决方法有，如条件保形推断或分层方法，来确保各子群体的局部覆盖率。另外，如何在实际应用中检测和缓解这种覆盖不均的问题，尤其是在敏感领域如医疗、金融等，公平性和可靠性至关重要。</p>
 <hr>
-<h3 id="1-保形预测的基本保证"><strong>1. 保形预测的基本保证</strong></h3>
-<p>保形预测通过训练数据 <code>$ \{X_i, Y_i\}_{i=1}^n $</code> 和新样本 <code>$X_{n+1}$</code> 生成一个<strong>集合值函数</strong> <code>$\hat{C}(\cdot)$</code>，满足：
+<h3 id="1-保形推断的基本保证"><strong>1. 保形推断的基本保证</strong></h3>
+<p>保形推断通过训练数据 <code>$ \{X_i, Y_i\}_{i=1}^n $</code> 和新样本 <code>$X_{n+1}$</code> 生成一个<strong>集合值函数</strong> <code>$\hat{C}(\cdot)$</code>，满足：
 $$
 P(Y_{n+1} \in \hat{C}(X_{n+1})) \geq 1 - \alpha
 $$
@@ -246,7 +642,7 @@ $$
 </li>
 <li>
 <p><strong>算法视角</strong>：<br>
-保形预测基于<strong>全局分位数</strong>（如非符合性分数的 <code>$1 - \alpha$</code> 分位数）构建预测集合，未考虑子群体间的分布差异。</p>
+保形推断基于<strong>全局分位数</strong>（如非符合性分数的 <code>$1 - \alpha$</code> 分位数）构建预测集合，未考虑子群体间的分布差异。</p>
 <ul>
 <li><strong>问题根源</strong>：<br>
 不同子群体的非符合性分数分布可能差异显著（如困难样本的分数普遍更高），导致分位数阈值在局部失效。</li>
@@ -265,9 +661,9 @@ $$
 </ul>
 <hr>
 <h3 id="6-解决方向"><strong>6. 解决方向</strong></h3>
-<h4 id="1-条件保形预测-conditional-conformal-prediction"><strong>(1) 条件保形预测（Conditional Conformal Prediction）</strong></h4>
+<h4 id="1-条件保形推断-conditional-conformal-prediction"><strong>(1) 条件保形推断（Conditional Conformal Prediction）</strong></h4>
 <ul>
-<li><strong>核心思想</strong>：在子群体或特征区间内独立应用保形预测。</li>
+<li><strong>核心思想</strong>：在子群体或特征区间内独立应用保形推断。</li>
 <li><strong>实现方式</strong>：
 <ul>
 <li><strong>按特征分层</strong>：对每个子群体 <code>$G$</code> 单独计算非符合性分数和分位数阈值。</li>
@@ -277,7 +673,7 @@ $$
 <li><strong>优点</strong>：确保每个子群体的覆盖概率接近 <code>$1 - \alpha$</code>。</li>
 <li><strong>挑战</strong>：小样本子群体的分位数估计可能不稳定。</li>
 </ul>
-<h4 id="2-加权保形预测-weighted-conformal-prediction"><strong>(2) 加权保形预测（Weighted Conformal Prediction）</strong></h4>
+<h4 id="2-加权保形推断-weighted-conformal-prediction"><strong>(2) 加权保形推断（Weighted Conformal Prediction）</strong></h4>
 <ul>
 <li><strong>核心思想</strong>：在全局分位数计算中，对不同子群体赋予权重。</li>
 <li><strong>数学形式</strong>：<code>$ \hat{Q}_{1-\alpha} = \inf \left\{ q : \sum_{i=1}^{n+1} w_i \cdot \mathbf{1}_{\{\alpha_i \leq q\}} \geq (1 - \alpha) \sum_{i=1}^{n+1} w_i \right\} $</code>，其中 <code>$w_i$</code> 反映样本 <code>$i$</code> 所属子群体的重要性。</li>
@@ -289,16 +685,16 @@ $$
 <li><strong>统计公平性指标</strong>：<br>
 要求所有子群体的条件覆盖率满足 <code>$P(Y \in \hat{C}(X) \mid X \in G) \geq 1 - \alpha$</code>。</li>
 <li><strong>优化框架</strong>：<br>
-在保形预测中引入公平性约束，通过优化算法联合优化覆盖概率和公平性。</li>
+在保形推断中引入公平性约束，通过优化算法联合优化覆盖概率和公平性。</li>
 </ul>
 <hr>
 <h3 id="7-总结"><strong>7. 总结</strong></h3>
 <ul>
-<li><strong>边际有效性</strong>是保形预测的基础，但<strong>无法保证条件覆盖的均匀性</strong>。</li>
+<li><strong>边际有效性</strong>是保形推断的基础，但<strong>无法保证条件覆盖的均匀性</strong>。</li>
 <li><strong>现实挑战</strong>：在敏感应用中，条件覆盖的失效可能导致系统性偏见或风险。</li>
-<li><strong>解决路径</strong>：通过条件保形预测、加权方法或公平性约束，提升局部覆盖的可靠性。</li>
+<li><strong>解决路径</strong>：通过条件保形推断、加权方法或公平性约束，提升局部覆盖的可靠性。</li>
 </ul>
-<p>保形预测的进一步发展需在保持全局有效性的同时，增强对局部数据分布的适应性，以应对复杂现实场景中的公平性和可靠性需求。</p>
+<p>保形推断的进一步发展需在保持全局有效性的同时，增强对局部数据分布的适应性，以应对复杂现实场景中的公平性和可靠性需求。</p>
 
         
         ]]>
@@ -1151,19 +1547,26 @@ $$</p>
 <ul>
 <li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em><a href="https://arxiv.org/abs/2008.04267">Robust Validation: Confident Predictions Even When Distributions Shift</a></em>。
 <ul>
-<li><strong>Key Words</strong>：<em>Distribution Shift</em>；<em>Distribution Robust Optimization</em> (DRO)； <em>Comformal Inference</em>；</li>
+<li><strong>Key Words</strong>：<em>Distribution Shift</em>；<em>Roubst</em>；<em>Validation</em>；<em>Confident Predictions</em></li>
+<li><strong>Core Explanations</strong>：<em>Distribution Shift Problem</em>；<em>Distribution Robust Optimization</em> (DRO)； <em>Conformal Inference</em>；</li>
 </ul>
 </li>
 </ul>
 <h4 id="2-前期准备">2. 前期准备</h4>
 <ul>
 <li><a href="/cn/2025/02/27/dro/">Distributions Shift 与 DRO 的关系</a></li>
-<li><a href="/cn/2025/03/02/droandci/">Compformal Inference 与 DRO 的关系</a></li>
-<li><a href="/cn/2025/02/25/conformity/">Comformal Inference 研究路程</a>
+<li><a href="/cn/2025/03/03/dsandci/">Distributions Shift 与 Conformal Inference 的关系</a></li>
+<li><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a>
+<ul>
+<li><a href="/cn/2025/03/03/standardci/">A standard practice</a></li>
+<li><a href="/cn/2025/03/03/robustci/"> A robust practice</a></li>
+</ul>
+</li>
+<li><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a>
 <ul>
 <li><em>Algorithmic Learning in a Random World</em></li>
 <li><a href="https://arxiv.org/pdf/2005.07972"><em>Conformal Prediction: a Unified Review of Theory and New Challenges</em></a></li>
-<li><a href="/cn/2025/03/01/fairness/">Comformal Inference 与 fairness 的关系</a></li>
+<li><a href="/cn/2025/03/01/fairness/">Conformal Inference 与 fairness 的关系</a></li>
 </ul>
 </li>
 <li>DRO研究路程</li>
@@ -1172,10 +1575,32 @@ $$</p>
 <ul>
 <li></li>
 </ul>
-<h4 id="4-可研究提案">4. 可研究提案</h4>
+<h4 id="4-不成熟提案">4. 不成熟提案</h4>
 <ul>
-<li>医疗图片数据，监测胃癌的可能性，分组：年轻组、老年组</li>
-<li>浮游生物图片数据，监测分布外数据的可能性，分组：生物组组、非生物组</li>
+<li>
+<p>应用</p>
+<ul>
+<li>
+<p>医疗图片数据，监测胃癌的可能性，分组：年轻组、老年组</p>
+</li>
+<li>
+<p>浮游生物图片数据，监测分布外数据的可能性，分组：生物组、非生物组</p>
+</li>
+</ul>
+</li>
+<li>
+<p>理论</p>
+<ul>
+<li>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</li>
+</ul>
+</li>
+</ul>
+<h4 id="5-下一步研究计划">5. 下一步研究计划</h4>
+<ul>
+<li>Fairness</li>
+<li>UC</li>
+<li>Privacy</li>
+<li><strong>Duchi 指导的毕业论文</strong>：<a href="https://www.proquest.com/docview/2723853375?pq-origsite=gscholar&amp;fromopenview=true&amp;sourcetype=Dissertations%20&amp;%20Theses"><em>RELIABILITY AND STABILITY IN STATISTICAL AND MACHINE LEARNING PROBLEMS</em></a></li>
 </ul>
 
         
@@ -1225,7 +1650,7 @@ $$</p>
 </ul>
 <h2 id="2025-02-27-周四">2025-02-27 周四</h2>
 <ul>
-<li>时间管理：3+4+（晚上上课）(✅)</li>
+<li>时间管理：3+4+上课  ✅</li>
 <li>任务：
 <ul>
 <li>纵向DRO的工作总结 ⁉️</li>
@@ -1254,42 +1679,32 @@ $$</p>
 <h2 id="2025-03-02周日">2025-03-02周日</h2>
 <ul>
 <li>
-<p>时间管理：3.5+1+助教+3</p>
+<p>时间管理：3.5+1+助教+3.5 ✅</p>
 </li>
 <li>
 <p>任务：</p>
 <ul>
-<li>
-<p>fairness 论文阅读，P8 ✅</p>
-</li>
-<li>
-<p>总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a>，周一汇报 ✅</p>
-</li>
-<li>
-<p>conformity 书籍看完第二章 ❌</p>
-</li>
-<li>
-<p>横向 Duchi 的工作总结：发表的论文/指导的毕业论文 ❌</p>
-</li>
-<li>
-<p>修改GPSC ❌</p>
-</li>
+<li>fairness 论文阅读，P8 ✅</li>
+<li>总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a>，周一汇报 ✅</li>
 </ul>
 </li>
 </ul>
 <h2 id="2025-03-03周一">2025-03-03周一</h2>
 <ul>
 <li>
-<p>时间管理：4+汇报+3</p>
+<p>时间管理：3.5+1+汇报+3</p>
 </li>
 <li>
 <p>任务：</p>
 <ul>
 <li>
-<p>总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a>，周一汇报</p>
+<p>继续总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a></p>
 </li>
 <li>
 <p>面见老师</p>
+</li>
+<li>
+<p>fairness 论文阅读，P？</p>
 </li>
 <li>
 <p>conformity 书籍看完第二章</p>

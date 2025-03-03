@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>稳健保形推断 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="稳健保形推断 - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="利用验证集的非符合性分数计算分位数阈值 $\hat{t}$，确保覆盖概率至少为 $1 - \alpha$： $$ P_{P_0}(s \leq t) \geq 1 - \alpha $$
+$$ \hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) $$
+其中，$n_{\text{cal}}$：验证集样本数量， &amp;hellip;">
+      <meta property="og:description" content="利用验证集的非符合性分数计算分位数阈值 $\hat{t}$，确保覆盖概率至少为 $1 - \alpha$： $$ P_{P_0}(s \leq t) \geq 1 - \alpha $$
+$$ \hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right) $$
+其中，$n_{\text{cal}}$：验证集样本数量， &amp;hellip;">
+      
+    
+
+    
+    
+    
+    <meta name="twitter:image" content="/images/logo.png">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>稳健保形推断</h1>
+
+
+<h3>Tan Jay / 
+2025-03-03</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="确定分位数阈值方式"><strong>确定分位数阈值方式</strong></h2>
+<h3 id="1-标准保形推断-cn-2025-03-03-standardci"><strong>1. <a href="/cn/2025/03/03/standardci/">标准保形推断</a></strong></h3>
+<p>利用验证集的非符合性分数计算分位数阈值 <code>$\hat{t}$</code>，确保覆盖概率至少为 <code>$1 - \alpha$</code>：
+$$
+P_{P_0}(s \leq t) \geq 1 - \alpha
+$$</p>
+<p>$$
+\hat{t} = \text{Quantile} \left( 1 - \alpha; P_0 \right)
+$$</p>
+<p>其中，<code>$n_{\text{cal}}$</code>：验证集样本数量，调整项 <code>$\frac{1}{n_{\text{cal}} + 1}$</code> 保证覆盖概率的有限样本有效性。公式表示将验证集分数排序后，取第 <code>$\lceil (1 - \alpha)(n_{\text{cal}} + 1) \rceil$</code> 小的值作为阈值。</p>
+<h4 id="2-稳健保形推断"><strong>2. 稳健保形推断</strong></h4>
+<p>核心思想：  结合分布鲁棒优化（DRO），在最坏分布扰动下保证覆盖概率。数学形式：<br>
+$$
+P_{Q \in \mathcal{U}(P_0)}(s \leq t) \geq 1 - \alpha
+$$</p>
+<p>$$
+\hat{t} = \max_{Q \in \mathcal{U}(P_0)} \text{Quantile} \left( 1 - \alpha; Q \right)
+$$</p>
+<p>$$
+\hat{t} = \inf{ \{ q: P_{ Q \in \mathcal{U}(P_0)}(s \le q) \ge 1 - \alpha \}}
+$$</p>
+<p>其中，<code>$\mathcal{U}(P)$</code> 是围绕训练分布 <code>$P$</code> 的邻域（如 Wasserstein 球）。优点：防范未知但有限的分布偏移。</p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/03/02/droandci/">保形推断与DRO</a></span>
+  <span class="nav-next"><a href="/cn/2025/03/03/standardci/">标准保形推断</a> &rarr;</span>
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/cn\/2025\/03\/02\/droandci\/';
+    
+  } else if (e.which == 39) {  
+    
+    url = '\/cn\/2025\/03\/03\/standardci\/';
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
+
+
+
+
+
+
+<script async src="https://cdn.jsdelivr.net/combine/npm/@xiee/utils/js/fix-toc.min.js,npm/@xiee/utils/js/center-img.min.js,npm/@xiee/utils/js/right-quote.min.js,npm/@xiee/utils/js/no-highlight.min.js,npm/@xiee/utils/js/fix-footnote.min.js,npm/@xiee/utils/js/math-code.min.js,npm/@xiee/utils/js/hash-notes.min.js,npm/@xiee/utils/js/external-link.min.js,npm/@xiee/utils/js/alt-title.min.js,npm/@xiee/utils/js/header-link.min.js"></script>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/toggle-notes.min.js" defer></script>
+
+
+
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

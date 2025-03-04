@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2025/03/04/diary/</loc>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E7%8F%A0%E6%B5%B7/</loc>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/03/03/dsandci/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
@@ -15,9 +24,6 @@
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/03/03/standardci/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%E7%8F%A0%E6%B5%B7/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/03/03/robustci/</loc>
@@ -51,9 +57,6 @@
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/02/17/last-meeting/</loc>
-    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
     <lastmod>2025-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E7%A5%81%E4%B8%9C/</loc>

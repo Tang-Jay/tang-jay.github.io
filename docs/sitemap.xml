@@ -3,24 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2025/03/05/deepseekoutline/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2025/03/05/deepseekbackgroud/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2025/03/05/deepseekreference/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2025/03/05/deepseekideas/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2025/03/05/deepseekdro/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/cn/2025/03/04/diary/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+    <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E7%8F%A0%E6%B5%B7/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/cn/2025/03/04/diary/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/03/03/dsandci/</loc>
-    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/03/03/standardci/</loc>
@@ -35,13 +50,13 @@
     <loc>/cn/2025/03/01/fairness/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/cn/2025/02/27/dro/</loc>
+    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/cn/2025/02/27/uc/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/02/27/shift/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cn/2025/02/27/dro/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/02/26/topics/</loc>
@@ -446,7 +461,7 @@
     <loc>/cn/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2025-00-00-/</loc>
+    <loc>/2025-03-00-/</loc>
   </url><url>
     <loc>/resume/</loc>
   </url>

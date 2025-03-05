@@ -1,5 +1,5 @@
 ---
-title: DeepSeel学习DRO路线图
+title: DeepSeek学习DRO路线图
 date: '2025-03-05'
 categories:
   - 学习志

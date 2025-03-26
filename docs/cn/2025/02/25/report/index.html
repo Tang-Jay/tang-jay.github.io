@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -33,7 +33,7 @@
     
     
     
-    <meta name="twitter:image" content="/images/logo.png">
+    <meta name="twitter:image" content="//localhost:1313/images/logo.png">
     
     
 
@@ -149,10 +149,6 @@
 </li>
 <li>
 <p><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a></p>
-<ul>
-<li><a href="/cn/2025/03/03/standardci/">A standard practice</a></li>
-<li><a href="/cn/2025/03/03/robustci/"> A robust practice</a></li>
-</ul>
 </li>
 <li>
 <p><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a></p>
@@ -166,7 +162,12 @@
 <p>DRO 研究路程</p>
 </li>
 </ul>
-<h4 id="3-不成熟提案">3. 不成熟提案</h4>
+<h4 id="3-主要内容">3. 主要内容</h4>
+<ul>
+<li><a href="/cn/2025/03/03/standardci/">A standard conformal infernece</a></li>
+<li><a href="/cn/2025/03/03/robustci/">A robust conformal inference</a></li>
+</ul>
+<h4 id="4-不成熟提案">4. 不成熟提案</h4>
 <ul>
 <li>
 <p>应用</p>
@@ -186,7 +187,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="4-下一步研究计划">4. 下一步研究计划</h4>
+<h4 id="5-下一步研究计划">5. 下一步研究计划</h4>
 <ul>
 <li>Fairness</li>
 <li>UC</li>
@@ -222,13 +223,113 @@
 <p>induce</p>
 </li>
 </ul>
+<h2 id="2025-3-12-第三周">2025-3-12 第三周</h2>
+<h3 id="汇报内容-2">汇报内容：</h3>
+<h4 id="1-主题-1">1. 主题</h4>
+<ul>
+<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em>Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach</em></li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案">2. 提案</h4>
+<ul>
+<li>
+<p>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</p>
+<ul>
+<li>
+<p>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</p>
+</li>
+<li>
+<p>PCEL 是否有修改的必要。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-下一步研究计划">3. 下一步研究计划</h4>
+<ul>
+<li>
+<p>看文献[49]-[51]</p>
+</li>
+<li>
+<p>Duchi 指导的毕业论文</p>
+</li>
+<li>
+<p>Fairness</p>
+</li>
+<li>
+<p>UC</p>
+</li>
+<li>
+<p>Privacy</p>
+</li>
+</ul>
+<h3 id="讨论结果-2">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250303-meeting.m4a"> </audio></p>
+<ul>
+<li>EL 结合 Fairness 在上的相关论文有哪些
+<ul>
+<li>按时间发展已有成果</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-3-24-第五周-第四次">2025-3-24 第五周 第四次</h2>
+<h3 id="汇报内容-3">汇报内容：</h3>
+<h4 id="1-主题-2">1. 主题</h4>
+<ul>
+<li>介绍经验似然方法</li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>经验似然在fairness/UQ上的工作</li>
+<li>经验似然在Lam下的工作
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案-1">2. 提案</h4>
+<ul>
+<li>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</li>
+</ul>
+<h4 id="3-下一步研究计划-1">3. 下一步研究计划</h4>
+<ul>
+<li>
+<p>Duchi 指导的毕业论文</p>
+</li>
+<li>
+<p>Fairness</p>
+</li>
+<li>
+<p>UC</p>
+</li>
+<li>
+<p>Privacy</p>
+</li>
+</ul>
+<h3 id="讨论结果-3">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250303-meeting.m4a"> </audio></p>
+<ul>
+<li>EL 结合 Fairness 在上的相关论文有哪些
+<ul>
+<li>按时间发展已有成果</li>
+</ul>
+</li>
+</ul>
 
 
 
   <footer>
   
 <nav class="post-nav">
-  <span class="nav-prev">&larr; <a href="/cn/2025/02/25/record/">每日研究进度条</a></span>
+  <span class="nav-prev">&larr; <a href="/cn/2025/02/17/last-meeting/">夜思</a></span>
   <span class="nav-next"><a href="/cn/2025/02/25/conformity/">保形推断</a> &rarr;</span>
 </nav>
 <script type="text/javascript">
@@ -237,7 +338,7 @@ document.addEventListener('keyup', function(e) {
   var url = false;
   if (e.which == 37) {  
     
-    url = '\/cn\/2025\/02\/25\/record\/';
+    url = '\/cn\/2025\/02\/17\/last-meeting\/';
     
   } else if (e.which == 39) {  
     

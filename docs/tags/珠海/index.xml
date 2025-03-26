@@ -5,8 +5,518 @@
     <description>Recent content in 珠海 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E7%8F%A0%E6%B5%B7/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>组会汇报记录</title>
+      <link>/cn/2025/03/25/meeting/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/25/meeting/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
+<h3 id="汇报内容">汇报内容：</h3>
+<ul>
+<li>GSPC 修改：Introduction 后面基本实现修改（加分组描述，步骤间逻辑解释，评估指标解释，分类依据等），主要问题集中在Introduction 怎么改。</li>
+<li>DSDE 修改：实验数据还没有，只有小调整，没有大进展。</li>
+<li>自己看的论文进度：在了解 <a href="/cn/2025/02/25/conformity/">conformal perdiction</a>一些理论，老师给的 UC 也在看。边看论文也一边在构思，自己置信区间这个事情能为神经网络做些什么，目前还没有具体想法。</li>
+</ul>
+<h3 id="讨论结果">讨论结果：</h3>
+<ul>
+<li><a href="/cn/2025/02/27/dro/">shift 的分类</a></li>
+<li>围绕 robust 问题，寻找 distribution shift 的设置展开，会有什么挑战</li>
+<li>set-up 设计什么问题，OOD detection，估计问题，检验问题</li>
+<li>横向问题：Robust，差分隐私，<a href="http://localhost:1313/cn/2025/03/01/%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B%E4%B8%8E%E5%85%AC%E5%B9%B3%E6%80%A7/">公平性</a></li>
+<li>纵向问题：DRO</li>
+<li>研究问题：问题的设计DRO，设计检验的地方（因果推断）</li>
+<li>Online Data</li>
+<li>发展脉络
+<ul>
+<li>往前：之前做了什么</li>
+<li>往后：之后做了什么 （paper connection 软件）</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-3-3-第二周">2025-3-3 第二周</h2>
+<h3 id="汇报内容-1">汇报内容：</h3>
+<h4 id="1-主题">1. 主题</h4>
+<ul>
+<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em><a href="https://arxiv.org/abs/2008.04267">Robust Validation: Confident Predictions Even When Distributions Shift</a></em>。
+<ul>
+<li><strong>Key Words</strong>：<em>Distribution Shift</em>；<em>Roubst</em>；<em>Validation</em>；<em>Confident Predictions</em></li>
+<li><strong>Core Explanations</strong>：<em>Distribution Shift Problem</em>；<em>Distribution Robust Optimization</em> (DRO)； <em>Conformal Inference</em>；</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-前期准备">2. 前期准备</h4>
+<ul>
+<li>
+<p><a href="/cn/2025/02/27/dro/">Distributions Shift 与 DRO 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/03/dsandci/">Distributions Shift 与 Conformal Inference 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a></p>
+<ul>
+<li><em>Algorithmic Learning in a Random World</em></li>
+<li><a href="https://arxiv.org/pdf/2005.07972"><em>Conformal Prediction: a Unified Review of Theory and New Challenges</em></a></li>
+<li><a href="/cn/2025/03/01/fairness/">Conformal Inference 与 fairness 的关系</a></li>
+</ul>
+</li>
+<li>
+<p>DRO 研究路程</p>
+</li>
+</ul>
+<h4 id="3-主要内容">3. 主要内容</h4>
+<ul>
+<li><a href="/cn/2025/03/03/standardci/">A standard conformal infernece</a></li>
+<li><a href="/cn/2025/03/03/robustci/">A robust conformal inference</a></li>
+</ul>
+<h4 id="4-不成熟提案">4. 不成熟提案</h4>
+<ul>
+<li>
+<p>应用</p>
+<ul>
+<li>
+<p>医疗图片数据，监测胃癌的可能性，分组：年轻组、老年组</p>
+</li>
+<li>
+<p>浮游生物图片数据，监测分布外数据的可能性，分组：生物组、非生物组</p>
+</li>
+</ul>
+</li>
+<li>
+<p>理论</p>
+<ul>
+<li>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</li>
+</ul>
+</li>
+</ul>
+<h4 id="5-下一步研究计划">5. 下一步研究计划</h4>
+<ul>
+<li>Fairness</li>
+<li>UC</li>
+<li>Privacy</li>
+<li><strong>Duchi 指导的毕业论文</strong>：<a href="https://www.proquest.com/docview/2723853375?pq-origsite=gscholar&amp;fromopenview=true&amp;sourcetype=Dissertations%20&amp;%20Theses"><em>RELIABILITY AND STABILITY IN STATISTICAL AND MACHINE LEARNING PROBLEMS</em></a></li>
+</ul>
+<h3 id="讨论结果-1">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250303-meeting.m4a"> </audio></p>
+<ul>
+<li>
+<p>EL 结合 DRO 在分布偏移上的相关论文有哪些</p>
+<ul>
+<li>按时间发展已有成果</li>
+<li>按类型分类已有成果</li>
+</ul>
+</li>
+<li>
+<p>Duchi 在 EL 上做过哪些内容。</p>
+</li>
+<li>
+<p>Domian</p>
+</li>
+<li>
+<p>Optimazation 改进</p>
+</li>
+<li>
+<p>RKHS</p>
+</li>
+<li>
+<p>VC</p>
+</li>
+<li>
+<p>induce</p>
+</li>
+</ul>
+<h2 id="2025-3-12-第三周">2025-3-12 第三周</h2>
+<h3 id="汇报内容-2">汇报内容：</h3>
+<h4 id="1-主题-1">1. 主题</h4>
+<ul>
+<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em>Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach</em></li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案">2. 提案</h4>
+<ul>
+<li>
+<p>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</p>
+<ul>
+<li>
+<p>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</p>
+</li>
+<li>
+<p>PCEL 是否有修改的必要。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-下一步研究计划">3. 下一步研究计划</h4>
+<ul>
+<li>
+<p>看文献[49]-[51]</p>
+</li>
+<li>
+<p>Duchi 指导的毕业论文</p>
+</li>
+<li>
+<p>Fairness</p>
+</li>
+<li>
+<p>UC</p>
+</li>
+<li>
+<p>Privacy</p>
+</li>
+</ul>
+<h3 id="讨论结果-2">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250312-meeting.m4a"> </audio></p>
+<ul>
+<li>EL 结合 Fairness 在上的相关论文有哪些
+<ul>
+<li>按时间发展已有成果</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-3-24-第五周-第四次">2025-3-24 第五周 第四次</h2>
+<h3 id="汇报内容-3">汇报内容：</h3>
+<h4 id="1-主题-2">1. 主题</h4>
+<ul>
+<li><strong>介绍经验似然方法</strong></li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>经验似然在fairness/UQ上的工作</li>
+<li>经验似然在Lam下的工作
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案-1">2. 提案</h4>
+<ul>
+<li>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</li>
+</ul>
+<h3 id="讨论结果-3">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250324-meeting.m4a"> </audio></p>
+<ul>
+<li><strong>剩余10 : 30 时刻</strong>：EL是否可以变到对已经训练好的模型做检验
+<ul>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+<li>用上述两篇文献导出fairness指标</li>
+</ul>
+</li>
+<li><strong>剩余9 : 36 时刻</strong>：连续的敏感属性和表现的结果</li>
+<li><strong>剩余7 : 25 时刻</strong>：连续的敏感属性的公平性检验
+<ul>
+<li>连续的敏感属性的公平性定义</li>
+<li>连续的敏感属性的公平性检验方法</li>
+</ul>
+</li>
+<li>EL在统计上会被argue的点
+<ul>
+<li>收敛速度问题</li>
+<li>自身方法存在哪些问题</li>
+</ul>
+</li>
+<li>与EL等价的方法结合 Fairness 的相关论文有哪些
+<ul>
+<li>CP在Fairness已有成果</li>
+</ul>
+</li>
+<li>连续型公平性分类的处理</li>
+<li>EL方法是否与模型无关</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>下一步研究计划</title>
+      <link>/cn/2025/03/19/todo/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/19/todo/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="2025-02-23-周日">2025-02-23 周日</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.1 节。✅</li>
+<li>收获：一些精确定义，关于 conformal prediction。✅</li>
+</ul>
+</li>
+<li>改GPSC论文 ✅</li>
+</ul>
+<h2 id="2025-02-25-周二">2025-02-25 周二</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.2.4节。✅</li>
+<li>收获：一些精确定义，关于 nonconformal measures。✅</li>
+</ul>
+</li>
+<li>改GPSC论文✅</li>
+</ul>
+<h2 id="2025-02-26-周三">2025-02-26 周三</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.3节。✅</li>
+<li>收获：conformal inference 的应用。✅</li>
+</ul>
+</li>
+<li>面见导师✅</li>
+</ul>
+<h2 id="2025-02-27-周四">2025-02-27 周四</h2>
+<ul>
+<li>时间管理：3+4+上课  ✅</li>
+<li>任务：
+<ul>
+<li>纵向DRO的工作总结 ⁉️</li>
+<li>询问大模型DRO可研究方向 <a href="https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent">https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent</a> ❌</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-02-28-周五">2025-02-28 周五</h2>
+<ul>
+<li>时间管理：3.5+3.5+2.5 ✅</li>
+<li>任务：
+<ul>
+<li>阅读 conformal 论文工作，2 篇 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-01-周六">2025-03-01 周六</h2>
+<ul>
+<li>时间管理：1+助教+3.5+2  ✅</li>
+<li>任务：
+<ul>
+<li>fairness 论文阅读，P4 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-02-周日">2025-03-02 周日</h2>
+<ul>
+<li>
+<p>时间管理：3.5+1+助教+3.5 ✅</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>fairness 论文阅读，P8 ✅</li>
+<li>总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a>，周一汇报 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-03-周一">2025-03-03 周一</h2>
+<ul>
+<li>
+<p>时间管理：4+汇报+3 ✅</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>继续总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a> ✅</p>
+</li>
+<li>
+<p>面见老师 ✅</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-04-周二">2025-03-04 周二</h2>
+<ul>
+<li>
+<p>时间管理：上课+5.5+2.5 ✅</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>朱老师高维课（有收获，更理解定理的设计背后的含义了！）✅</li>
+<li>案例讲座安排签到 ✅</li>
+<li>一篇日记 ✅</li>
+<li>准备下周二高维 ✅</li>
+<li>修改GPSC（增添分类依据）  ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-05-周三">2025-03-05 周三</h2>
+<ul>
+<li>
+<p>时间管理：4.5+3.5+2 ✅</p>
+</li>
+<li>
+<p>自我激励：加油加油！秦老师要来珠海了！</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>搜 EL 与 DRO 结合的相关论文 ✅</li>
+<li>践行<a href="https://mp.weixin.qq.com/s/qotV2ZzFR65mqca6l96elw"><em>用 DeepSeek 2小时搞定一篇论文初稿（全流程攻略）</em></a>。✅</li>
+<li>DRO 论文阅读 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-06-周四">2025-03-06 周四</h2>
+<ul>
+<li>
+<p>时间管理：4+2+晚上课 ✅</p>
+<ul>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>Zotero搭配DeepSeek起飞 ✅</p>
+</li>
+<li>
+<p>Duchi广义经验似然与DRO结合论文 ✅</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-07-周五">2025-03-07 周五</h2>
+<ul>
+<li>
+<p>时间管理：5+2+报告+2✅</p>
+<ul>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>阅读Duchi广义经验似然与DRO结合论文 ✅</p>
+</li>
+<li>
+<p>3月7日下午有学术报告  （复旦朱忠义老师）✅</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-08-周六">2025-03-08 周六</h2>
+<ul>
+<li>
+<p>时间管理：4+4+2</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>阅读Duchi广义经验似然与DRO结合论文 ✅</li>
+</ul>
+<h2 id="2025-03-15-周六">2025-03-15 周六</h2>
+</li>
+<li>
+<p>时间管理：4+4+2</p>
+</li>
+<li>
+<p>上周任务：</p>
+<ul>
+<li>准备周二高维 ✅</li>
+<li>与大佬聊一聊PCEL 是否还有救呢 ✅</li>
+<li>3月10日9:25签到 ✅</li>
+</ul>
+</li>
+<li>
+<p>下周任务：</p>
+<ul>
+<li>周一汇报，fairness 论文 ✅</li>
+<li>周二讲课，高维 ✅</li>
+<li>周二下午，苏东坡主题讲座 ✅</li>
+<li>慕课：登陆查看 ✅</li>
+<li>修改GPSC （修改Introduction）✅</li>
+<li>周六讲座，顺便请教邱涛师兄，如何完善PCEL：加实验数据，是否可以将图片数据纳入进来？（矩阵=图片=空间相关数据）；改善算法解释多主成分没有1主成分效果好的原因。❌</li>
+<li>准备周三组会：介绍EL方法（按照杨老师讲义）/看一下Owen\Qin Jin论文 ✅</li>
+<li>UC论文阅读 ✅</li>
+<li>退税 ✅</li>
+<li>复习时间序列谱分析4.1章 ✅</li>
+</ul>
+<h2 id="2025-03-26-周三">2025-03-26 周三</h2>
+<ul>
+<li>
+<p>时间管理：3+4+3</p>
+</li>
+<li>
+<p>本周任务：</p>
+<ul>
+<li>
+<p>conformity 书籍看完第二章</p>
+</li>
+<li>
+<p>Duchi ：发表的论文或指导的毕业论文 / Variance Regulation</p>
+</li>
+<li>
+<p>Hallucinations Detection 阅读</p>
+</li>
+<li>
+<p>EL是否可以用作大模型的检验上？</p>
+</li>
+<li>
+<p>EL是否可以变到对已经训练好的模型做检验</p>
+<ul>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+<li>用上述两篇文献导出fairness指标的置信区间</li>
+</ul>
+</li>
+<li>
+<p>paper connector 搜索连续的敏感属性的定义以及相关的检验方法</p>
+<ul>
+<li>
+<p>连续型公平性的检验的处理</p>
+</li>
+<li>
+<p>与EL等价的方法结合 Fairness 的相关论文有哪些</p>
+<ul>
+<li>CP在Fairness已有成果</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>EL在统计上会被argue的点</p>
+<ul>
+<li>收敛速度问题</li>
+<li>自身方法存在哪些问题</li>
+</ul>
+</li>
+<li>
+<p>EL方法是否与模型无关</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -2701,311 +3211,6 @@ $$</p>
 </ul>
 <h3 id="总结-1"><strong>总结</strong></h3>
 <p>重对数律揭示了随机变量部分和的极值波动被严格约束在 <code>$\pm \sigma \sqrt{2n \log \log n} $</code> 内，是概率论中对随机性本质的深刻刻画，为理解复杂随机现象提供了理论基石。</p>
-
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title>周三研究汇报</title>
-      <link>/cn/2025/02/25/report/</link>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/2025/02/25/report/</guid>
-      <description>
-        <![CDATA[
-        <h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
-<h3 id="汇报内容">汇报内容：</h3>
-<ul>
-<li>GSPC 修改：Introduction 后面基本实现修改（加分组描述，步骤间逻辑解释，评估指标解释，分类依据等），主要问题集中在Introduction 怎么改。</li>
-<li>DSDE 修改：实验数据还没有，只有小调整，没有大进展。</li>
-<li>自己看的论文进度：在了解 <a href="/cn/2025/02/25/conformity/">conformal perdiction</a>一些理论，老师给的 UC 也在看。边看论文也一边在构思，自己置信区间这个事情能为神经网络做些什么，目前还没有具体想法。</li>
-</ul>
-<h3 id="讨论结果">讨论结果：</h3>
-<ul>
-<li><a href="/cn/2025/02/27/dro/">shift 的分类</a></li>
-<li>围绕 robust 问题，寻找 distribution shift 的设置展开，会有什么挑战</li>
-<li>set-up 设计什么问题，OOD detection，估计问题，检验问题</li>
-<li>横向问题：Robust，差分隐私，<a href="http://localhost:1313/cn/2025/03/01/%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B%E4%B8%8E%E5%85%AC%E5%B9%B3%E6%80%A7/">公平性</a></li>
-<li>纵向问题：DRO</li>
-<li>研究问题：问题的设计DRO，设计检验的地方（因果推断）</li>
-<li>Online Data</li>
-<li>发展脉络
-<ul>
-<li>往前：之前做了什么</li>
-<li>往后：之后做了什么 （paper connection 软件）</li>
-</ul>
-</li>
-</ul>
-<h2 id="2025-3-3-第二周">2025-3-3 第二周</h2>
-<h3 id="汇报内容-1">汇报内容：</h3>
-<h4 id="1-主题">1. 主题</h4>
-<ul>
-<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em><a href="https://arxiv.org/abs/2008.04267">Robust Validation: Confident Predictions Even When Distributions Shift</a></em>。
-<ul>
-<li><strong>Key Words</strong>：<em>Distribution Shift</em>；<em>Roubst</em>；<em>Validation</em>；<em>Confident Predictions</em></li>
-<li><strong>Core Explanations</strong>：<em>Distribution Shift Problem</em>；<em>Distribution Robust Optimization</em> (DRO)； <em>Conformal Inference</em>；</li>
-</ul>
-</li>
-</ul>
-<h4 id="2-前期准备">2. 前期准备</h4>
-<ul>
-<li>
-<p><a href="/cn/2025/02/27/dro/">Distributions Shift 与 DRO 的关系</a></p>
-</li>
-<li>
-<p><a href="/cn/2025/03/03/dsandci/">Distributions Shift 与 Conformal Inference 的关系</a></p>
-</li>
-<li>
-<p><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a></p>
-<ul>
-<li><a href="/cn/2025/03/03/standardci/">A standard practice</a></li>
-<li><a href="/cn/2025/03/03/robustci/"> A robust practice</a></li>
-</ul>
-</li>
-<li>
-<p><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a></p>
-<ul>
-<li><em>Algorithmic Learning in a Random World</em></li>
-<li><a href="https://arxiv.org/pdf/2005.07972"><em>Conformal Prediction: a Unified Review of Theory and New Challenges</em></a></li>
-<li><a href="/cn/2025/03/01/fairness/">Conformal Inference 与 fairness 的关系</a></li>
-</ul>
-</li>
-<li>
-<p>DRO 研究路程</p>
-</li>
-</ul>
-<h4 id="3-不成熟提案">3. 不成熟提案</h4>
-<ul>
-<li>
-<p>应用</p>
-<ul>
-<li>
-<p>医疗图片数据，监测胃癌的可能性，分组：年轻组、老年组</p>
-</li>
-<li>
-<p>浮游生物图片数据，监测分布外数据的可能性，分组：生物组、非生物组</p>
-</li>
-</ul>
-</li>
-<li>
-<p>理论</p>
-<ul>
-<li>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</li>
-</ul>
-</li>
-</ul>
-<h4 id="4-下一步研究计划">4. 下一步研究计划</h4>
-<ul>
-<li>Fairness</li>
-<li>UC</li>
-<li>Privacy</li>
-<li><strong>Duchi 指导的毕业论文</strong>：<a href="https://www.proquest.com/docview/2723853375?pq-origsite=gscholar&amp;fromopenview=true&amp;sourcetype=Dissertations%20&amp;%20Theses"><em>RELIABILITY AND STABILITY IN STATISTICAL AND MACHINE LEARNING PROBLEMS</em></a></li>
-</ul>
-<h3 id="讨论结果-1">讨论结果：</h3>
-<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250303-meeting.m4a"> </audio></p>
-<ul>
-<li>
-<p>EL 结合 DRO 在分布偏移上的相关论文有哪些</p>
-<ul>
-<li>按时间发展已有成果</li>
-<li>按类型分类已有成果</li>
-</ul>
-</li>
-<li>
-<p>Duchi 在 EL 上做过哪些内容。</p>
-</li>
-<li>
-<p>Domian</p>
-</li>
-<li>
-<p>Optimazation 改进</p>
-</li>
-<li>
-<p>RKHS</p>
-</li>
-<li>
-<p>VC</p>
-</li>
-<li>
-<p>induce</p>
-</li>
-</ul>
-
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title>每日研究进度条</title>
-      <link>/cn/2025/02/25/record/</link>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/2025/02/25/record/</guid>
-      <description>
-        <![CDATA[
-        <h2 id="2025-02-23-周日">2025-02-23 周日</h2>
-<ul>
-<li>conformal inference
-<ul>
-<li>书籍看完 2.1 节。✅</li>
-<li>收获：一些精确定义，关于 conformal prediction。✅</li>
-</ul>
-</li>
-<li>改GPSC论文 ✅</li>
-</ul>
-<h2 id="2025-02-25-周二">2025-02-25 周二</h2>
-<ul>
-<li>conformal inference
-<ul>
-<li>书籍看完 2.2.4节。✅</li>
-<li>收获：一些精确定义，关于 nonconformal measures。✅</li>
-</ul>
-</li>
-<li>改GPSC论文✅</li>
-</ul>
-<h2 id="2025-02-26-周三">2025-02-26 周三</h2>
-<ul>
-<li>conformal inference
-<ul>
-<li>书籍看完 2.3节。✅</li>
-<li>收获：conformal inference 的应用。✅</li>
-</ul>
-</li>
-<li>面见导师✅</li>
-</ul>
-<h2 id="2025-02-27-周四">2025-02-27 周四</h2>
-<ul>
-<li>时间管理：3+4+上课  ✅</li>
-<li>任务：
-<ul>
-<li>纵向DRO的工作总结 ⁉️</li>
-<li>询问大模型DRO可研究方向 <a href="https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent">https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent</a> ❌</li>
-</ul>
-</li>
-</ul>
-<h2 id="2025-02-28-周五">2025-02-28 周五</h2>
-<ul>
-<li>时间管理：3.5+3.5+2.5 ✅</li>
-<li>任务：
-<ul>
-<li>阅读 conformal 论文工作，2 篇 ✅</li>
-</ul>
-</li>
-</ul>
-<h2 id="2025-03-01-周六">2025-03-01 周六</h2>
-<ul>
-<li>时间管理：1+助教+3.5+2  ✅</li>
-<li>任务：
-<ul>
-<li>fairness 论文阅读，P4 ✅</li>
-</ul>
-</li>
-</ul>
-<h2 id="2025-03-02-周日">2025-03-02 周日</h2>
-<ul>
-<li>
-<p>时间管理：3.5+1+助教+3.5 ✅</p>
-</li>
-<li>
-<p>任务：</p>
-<ul>
-<li>fairness 论文阅读，P8 ✅</li>
-<li>总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a>，周一汇报 ✅</li>
-</ul>
-</li>
-</ul>
-<h2 id="2025-03-03-周一">2025-03-03 周一</h2>
-<ul>
-<li>
-<p>时间管理：4+汇报+3 ✅</p>
-</li>
-<li>
-<p>任务：</p>
-<ul>
-<li>
-<p>继续总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a> ✅</p>
-</li>
-<li>
-<p>面见老师 ✅</p>
-</li>
-</ul>
-<h2 id="2025-03-04-周二">2025-03-04 周二</h2>
-<ul>
-<li>
-<p>时间管理：上课+5.5+2.5 ✅</p>
-</li>
-<li>
-<p>任务：</p>
-<ul>
-<li>朱老师高维课（有收获，更理解定理的设计背后的含义了！）✅</li>
-<li>案例讲座安排签到 ✅</li>
-<li>一篇日记 ✅</li>
-<li>准备下周二高维 ✅</li>
-<li>修改GPSC（增添分类依据）  ✅</li>
-</ul>
-</li>
-</ul>
-<h2 id="2025-03-05-周三">2025-03-05 周三</h2>
-<ul>
-<li>
-<p>时间管理：4.5+3.5+2 ✅</p>
-</li>
-<li>
-<p>自我激励：加油加油！秦老师要来珠海了！</p>
-</li>
-<li>
-<p>任务：</p>
-<ul>
-<li>搜 EL 与 DRO 结合的相关论文 ✅</li>
-<li>践行<a href="https://mp.weixin.qq.com/s/qotV2ZzFR65mqca6l96elw"><em>用 DeepSeek 2小时搞定一篇论文初稿（全流程攻略）</em></a>。✅</li>
-<li>DRO 论文阅读 ✅</li>
-</ul>
-</li>
-</ul>
-<h2 id="2025-03-06-周四">2025-03-06 周四</h2>
-<ul>
-<li>
-<p>时间管理：4+2+晚上课</p>
-</li>
-<li>
-<p>自我激励：</p>
-</li>
-<li>
-<p>任务：</p>
-<ul>
-<li>
-<p>fairness 论文阅读，P？</p>
-</li>
-<li>
-<p>conformity 书籍看完第二章</p>
-</li>
-<li>
-<p>横向 Duchi 的工作总结：发表的论文或指导的毕业论文</p>
-</li>
-<li>
-<p>准备下周二高维</p>
-</li>
-<li>
-<p>修改GPSC （修改Introduction）</p>
-</li>
-<li>
-<p>3月7日下午有学术报告，带电脑顺便与邱师兄聊一聊PDEL 是否还有救呢？</p>
-</li>
-<li>
-<p>3月10日9:25签到</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
 
         
         ]]>

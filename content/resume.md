@@ -84,6 +84,7 @@ disable_comments: true
 - 在线文章 
    - [《R语言画图》](https://tang-jay.github.io/RBook) 
    - [《论文写作听课笔记》](https://tang-jay.github.io/EssayNotes/)
+   - [《高维经验似然相关模拟》](https://tang-jay.github.io/HighDimen/)
 
 ## 荣誉证书
 1. 2022年12月获得2021-2022年硕士研究生学业奖学金三等

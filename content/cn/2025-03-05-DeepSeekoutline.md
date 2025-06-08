@@ -1,5 +1,5 @@
 ---
-title: DeepSeek写DRO大纲
+title: DRO大纲
 date: '2025-03-05'
 categories:
   - 学习志

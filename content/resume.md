@@ -66,7 +66,7 @@ disable_comments: true
 
 1. **唐洁**, 秦永松.[含空间自相关误差的空间自回归模型的调整经验似然推断](https://kns.cnki.net/kcms2/article/abstract?v=xpM8-w1VMS_4GyVB3T-07xDV9EUXLZxkcqt92jNwl7HJv0p9675iSeF4LSx9cpgcMVW86KaYD_VAe1SRKnJ1Ypdo400UrAheOUZVNPizZJSCw3B-0kVbCXzH73pB1o9dHiM3c75n4koeghGfMegttmks4lX-0u51cOOmtYQW9xU4Rt3UarHaV0Y6dcQxsMG6&uniplatform=NZKPT&language=CHS).(在线发表)
 
-1. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(录用)
+1. Zou Yunlong, **Tang Jie**, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(发表)
 
     
 ### 待发表论文

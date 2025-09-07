@@ -16,13 +16,13 @@
     
       
       <meta property="description" content="汇报人：唐洁 内容：两个方面。第一个，初代Storey方法；第二个，变种Storey方法。围绕提出动机，如何解释，实际效果展开讲述。
-[&amp;hellip;] 单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在$\alpha$和$\beta$内。
+[&amp;hellip;] 单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在 $\alpha$ 和 $\beta$ 内。
 与单个假设检验相对的概念是多重假设检验。
-与单个假设检验一样，多重假设检验可以看作一个检验族，它的重要任务就是控制第 &amp;hellip;">
+与单个假设检验一样，多重假设检验可以看作一个检验族，它的重要任务就 &amp;hellip;">
       <meta property="og:description" content="汇报人：唐洁 内容：两个方面。第一个，初代Storey方法；第二个，变种Storey方法。围绕提出动机，如何解释，实际效果展开讲述。
-[&amp;hellip;] 单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在$\alpha$和$\beta$内。
+[&amp;hellip;] 单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在 $\alpha$ 和 $\beta$ 内。
 与单个假设检验相对的概念是多重假设检验。
-与单个假设检验一样，多重假设检验可以看作一个检验族，它的重要任务就是控制第 &amp;hellip;">
+与单个假设检验一样，多重假设检验可以看作一个检验族，它的重要任务就 &amp;hellip;">
       
     
 
@@ -105,15 +105,15 @@
 <p>汇报人：唐洁
 内容：两个方面。第一个，初代Storey方法；第二个，变种Storey方法。围绕提出动机，如何解释，实际效果展开讲述。</p>
 </blockquote>
-<h1 id="主题-为了了解storey方法">主题：为了了解Storey方法</h1>
+<h1 id="主题-了解storey方法">主题：了解Storey方法</h1>
 <h2 id="研究问题-多重假设检验">研究问题：多重假设检验</h2>
-<p>单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在<code>$\alpha$</code>和<code>$\beta$</code>内。</p>
+<p>单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在 <code>$\alpha$</code> 和 <code>$\beta$</code> 内。</p>
 <p>与单个假设检验相对的概念是多重假设检验。</p>
 <p>与单个假设检验一样，多重假设检验可以看作一个检验族，它的重要任务就是控制第一类错误概率的前提下提高检验的功效，尽可能多的发现显著性检验。</p>
 <p>多重假设检验的首要问题是怎样定义“错误”，即，错误测度。</p>
-<h2 id="研究背景">研究背景：</h2>
+<h2 id="研究背景">研究背景</h2>
 <p>随着科学技术的不断发展，当前生物学、医学、金融等发展背景下，高维数据不断涌现，由此导致的传统统计分析方法不再适用。多重假设检验作为分析高维数据的一个重要基础，得到了越来越多的关注。</p>
-<h2 id="研究现状">研究现状：</h2>
+<h2 id="研究现状">研究现状</h2>
 <ul>
 <li>family-wise error rate (FWER) - Shaffer(<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=S+HAFFER+%2C+J.+%281995%29.+Multiple+hypothesis+testing%3A+A+review.+Annual+Review+of+Psychology+46+561%E2%80%93584.&amp;btnG=">1995</a>)</li>
 <li>false discovery rate (FDR) - BH(<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=B+ENJAMINI+%2C+Y.+and+H+OCHBERG+%2C+Y.+%281995%29.+Controlling+the+false+discovery+rate%3A+A+practical+and+powerful+approach+to+multiple+testing.+J.+Roy.+Statist.+Soc.+Ser.+B+57+289%E2%80%93300.&amp;btnG=">1995</a>)</li>
@@ -126,7 +126,7 @@
 <li>e-value - Grunwald et al. (2020)， Shafer (2021)， Vovk and Wang (2021)， Xu et al. (2021)， Ignatiadis et al. (2022)， <strong>Wang and Ramdas (2022)</strong>，Dunn et al. (2023)， Xu and Ramdas (2023)</li>
 <li><a href="https://candes.su.domains/teaching/stats300c/index.html">Stats 300C</a> - 李冠巡老师推荐多重假设检验理论介绍</li>
 </ul>
-<h2 id="符号引入">符号引入：</h2>
+<h2 id="符号引入">符号引入</h2>
 <table>
 <thead>
 <tr>
@@ -161,7 +161,7 @@
 <p>对于多个假设检验的最首要的问题是如何控制错误拒绝原假设的个数V或者犯错比率V/R。</p>
 <p>因此，多重假设检验问题就是制定一种合理的检验法则来控制犯第一类错误的概率，并且使得检验功效达到最大。</p>
 <p>检验法则根据错误测度不同而不同。</p>
-<h2 id="历史方法">历史方法：</h2>
+<h2 id="历史方法">历史方法</h2>
 <h3 id="fwer">FWER</h3>
 <ul>
 <li>
@@ -242,7 +242,7 @@
 </ul>
 <p>对截断点的选取不同，方法名称不同，如：Benjamini and Liu (1999)，Benjamin and Yekutieli (2001)，</p>
 <p>随着对FDR控制方法的深入研究，发现在假设检验中引入<strong>正确原假设比例的估计</strong><code>$\pi_0 = \cfrac{m_0}{m}$</code><strong>能提高检验的功效</strong>，找到更多的显著变量，同时也能很好地控制第一类错误在一个合理的范围内。于是，很多研究提出对于正确原假设比例的估计方法，如：<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=BENJAMINI+Y%EF%BC%8CHOCHBERG+Y%EF%BC%8EThe+adaptive+control+of+the+false+discovery+rate+in+multiple+hypothesis+testing+with+independent+test+statistics%5BJ%5D+%EF%BC%8E+Journal+of+Educational+Behavior+Statistics%EF%BC%8C2001%EF%BC%8C25%281%29%EF%BC%9A60-83.&amp;btnG=">最低斜率估计法</a>，<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=**STOREY+J+D%EF%BC%8EA+direct+approach+to+false+discovery+rates%5BJ%5D%EF%BC%8EJournal+of+the+Royal+Statistical+Society%EF%BC%8C2002%EF%BC%8C64%283%29%EF%BC%9A477-498%EF%BC%8E&amp;btnG="><code>$\lambda$</code> 估计法</a>，<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=LANGAAS+M%EF%BC%8CFERKINGSTAD+E%EF%BC%8CLINDQVIST+BH%EF%BC%8EEstimating+the+proportion+of+true+null+hypotheses%EF%BC%8Cwith+application+to+DNA+microarray+data%5BJ%5D%EF%BC%8EJournal+of+the+Royal+Statistical+Society%EF%BC%8C2005%EF%BC%8C67%284%29%EF%BC%9A555-572%EF%BC%8E&amp;btnG=">减密度估计法</a>。</p>
-<h2 id="storey方法">Storey方法:</h2>
+<h2 id="storey方法">Storey方法</h2>
 <ul>
 <li>
 <p><strong>想法提出</strong> - The positive false discovery rate: A bayesian interpretation and the q-value (Storey, <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-31/issue-6/The-positive-false-discovery-rate--a-Bayesian-interpretation-and/10.1214/aos/1074290335.full">2003</a>)</p>

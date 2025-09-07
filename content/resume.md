@@ -63,7 +63,7 @@ disable_comments: true
 1. Tang Jie, Qin Yongsong. [Adjusted empirical likelihood for probability density functions under strong
    mixing samples](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088). *Communications in Statistics - Theory and Methods*, 2023, 53(18): 6449–6461. https://doi.org/10.1080/03610926.2023.2246088
 1. 唐洁, 秦永松. 含空间自相关误差的空间自回归模型的调整经验似然推断 [J]. 广西师范大学学报(自然科学版), 2024, 42 (04): 100-114. DOI:10.16088/j.issn.1001-6600.2023052501.
-1. *唐洁, 邹云龙, 秦永松, 黎玉芳. 空间相依数据的分块经验似然推断(英文) [J]. 应用数学, 2025, 38 (01): 47-63. DOI:10.13642/j.cnki.42-1184/o1.2025.01.020.
+1. 唐洁, 邹云龙, 秦永松, 黎玉芳. 空间相依数据的分块经验似然推断(英文) [J]. 应用数学, 2025, 38 (01): 47-63. DOI:10.13642/j.cnki.42-1184/o1.2025.01.020.
 ### 待发表论文
 
 1. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(二审三年很离谱)

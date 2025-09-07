@@ -26,22 +26,6 @@
     
     
     <item>
-      <title></title>
-      <link>/2025-03-00-/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/2025-03-00-/</guid>
-      <description>
-        <![CDATA[
-        
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
       <title>简历</title>
       <link>/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,7 +34,7 @@
       <description>
         <![CDATA[
         <h1 id="唐-洁">唐 洁</h1>
-<p>更新日期：2024年8月2日</p>
+<p>更新日期：2025年9月7日</p>
 <h2 id="自我评价">自我评价</h2>
 <p>客观说，九五后，湖南人，小个子，五口人，血型AB。</p>
 <p>主观说，急性子，慢反应，擅坚持，爱自由，能牺牲。</p>
@@ -107,25 +91,17 @@
 <h2 id="目前成果">目前成果</h2>
 <h3 id="已发表论文">已发表论文</h3>
 <ol>
-<li>
-<p><strong>唐洁</strong>.<a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&amp;uniplatform=NZKPT">含空间自回归误差的空间自回归模型的经验欧氏似然推断</a>.<em>广西民族大学学报(自然科学版)</em>, 2021, 27 (04): 70-74.</p>
-</li>
-<li>
-<p><strong>Tang Jie</strong>, Qin Yongsong. <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088">Adjusted empirical likelihood for probability density functions under strong
-mixing samples</a>. <em>Communications in Statistics - Theory and Methods</em>, 2023, 53(18): 6449–6461. <a href="https://doi.org/10.1080/03610926.2023.2246088">https://doi.org/10.1080/03610926.2023.2246088</a></p>
-</li>
-<li>
-<p><strong>唐洁</strong>, 秦永松.<a href="https://kns.cnki.net/kcms2/article/abstract?v=xpM8-w1VMS_4GyVB3T-07xDV9EUXLZxkcqt92jNwl7HJv0p9675iSeF4LSx9cpgcMVW86KaYD_VAe1SRKnJ1Ypdo400UrAheOUZVNPizZJSCw3B-0kVbCXzH73pB1o9dHiM3c75n4koeghGfMegttmks4lX-0u51cOOmtYQW9xU4Rt3UarHaV0Y6dcQxsMG6&amp;uniplatform=NZKPT&amp;language=CHS">含空间自相关误差的空间自回归模型的调整经验似然推断</a>.(在线发表)</p>
-</li>
-<li>
-<p>Zou Yunlong, <strong>Tang Jie</strong>, Qin Yongsong. Blockwise empirical likelihood method for spatial dependent data.(发表)</p>
-</li>
+<li>唐洁.<a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&amp;uniplatform=NZKPT">含空间自回归误差的空间自回归模型的经验欧氏似然推断</a>.<em>广西民族大学学报(自然科学版)</em>, 2021, 27 (04): 70-74.</li>
+<li>Tang Jie, Qin Yongsong. <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088">Adjusted empirical likelihood for probability density functions under strong
+mixing samples</a>. <em>Communications in Statistics - Theory and Methods</em>, 2023, 53(18): 6449–6461. <a href="https://doi.org/10.1080/03610926.2023.2246088">https://doi.org/10.1080/03610926.2023.2246088</a></li>
+<li>唐洁, 秦永松. 含空间自相关误差的空间自回归模型的调整经验似然推断 [J]. 广西师范大学学报(自然科学版), 2024, 42 (04): 100-114. DOI:10.16088/j.issn.1001-6600.2023052501.</li>
+<li>*唐洁, 邹云龙, 秦永松, 黎玉芳. 空间相依数据的分块经验似然推断(英文) [J]. 应用数学, 2025, 38 (01): 47-63. DOI:10.13642/j.cnki.42-1184/o1.2025.01.020.</li>
 </ol>
 <h3 id="待发表论文">待发表论文</h3>
 <ol>
-<li><strong>Tang Jie</strong>, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(二审)</li>
-<li>Li Yufang, <strong>Tang Jie</strong>, Qin Yongsong. Empirical likelihood ratio test for linear models with equality constraints.(二审)</li>
-<li><strong>Tang Jie</strong>, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(定稿)</li>
+<li>Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(二审三年很离谱)</li>
+<li>Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(投稿)</li>
+<li>Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality constraints.</li>
 </ol>
 <h3 id="承担课题">承担课题</h3>
 <ol>

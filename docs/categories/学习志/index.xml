@@ -3415,7 +3415,7 @@ $$</p>
     
     
     <item>
-      <title>周二汇报</title>
+      <title>多重假设检验</title>
       <link>/cn/2024/11/25/storey/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
@@ -3426,7 +3426,7 @@ $$</p>
 <p>汇报人：唐洁
 内容：两个方面。第一个，初代Storey方法；第二个，变种Storey方法。围绕提出动机，如何解释，实际效果展开讲述。</p>
 </blockquote>
-<h1 id="主题-storey方法">主题：Storey方法</h1>
+<h1 id="主题-为了了解storey方法">主题：为了了解Storey方法</h1>
 <h2 id="研究问题-多重假设检验">研究问题：多重假设检验</h2>
 <p>单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在<code>$\alpha$</code>和<code>$\beta$</code>内。</p>
 <p>与单个假设检验相对的概念是多重假设检验。</p>
@@ -7923,22 +7923,6 @@ prolonged 的意义则更为中性客观。
 </li>
 </ul>
 
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title></title>
-      <link>/2025-03-00-/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/2025-03-00-/</guid>
-      <description>
-        <![CDATA[
-        
         
         ]]>
       </description>

@@ -3,33 +3,11 @@
   <span class="nav-prev">{{ with .PrevInSection }}&larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
   <span class="nav-next">{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;{{ end }}</span>
 </nav>
-<script type="text/javascript">
-document.addEventListener('keyup', function(e) {
-  if (e.target.nodeName.toUpperCase() != 'BODY') return;
-  var url = false;
-  if (e.which == 37) {  // Left arrow
-    {{ if .PrevInSection }}
-    url = '{{ .PrevInSection.RelPermalink }}';
-    {{ end }}
-  } else if (e.which == 39) {  // Right arrow
-    {{ if .NextInSection }}
-    url = '{{ .NextInSection.RelPermalink }}';
-    {{ end }}
-  }
-  if (url) window.location = url;
-});
-</script>
 {{ end }}
 
 {{ partial "disqus.html" . }}
 
-{{ partial "custom_js.html" (apply .Site.Params.customJS "print" "utils/" ".") }}
-{{ partial "custom_js.html" .Params.customJS }}
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.js" defer></script>
+<script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
 
-{{ if .IsPage }}
-<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/toggle-notes.min.js" defer></script>
-{{ end }}
-
-{{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
-<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-{{ end }}
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.js" defer></script>

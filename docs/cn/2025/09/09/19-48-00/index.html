@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>维希特分布(Wishart)的分布密度 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="维希特分布(Wishart)的分布密度 - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="这是伟大的SEM工程之——Wishart分布篇！要用最大似然估计（ML）的话，目前似乎只有这一条路可走，今日强忍着看多元统计分析的书没吐出来，实在是佩服张尧庭老师，他简直不是人——只能说是神1……其中用到的高等代数证明我几乎一个都没看懂，汗如雨下。此分布由Wishart于1928年推导出来（因此我认为Wishart也不是人），据称有人就用这个时间作为多元统计分析的诞生时间，由此可见Wishart分 &amp;hellip;">
+      <meta property="og:description" content="这是伟大的SEM工程之——Wishart分布篇！要用最大似然估计（ML）的话，目前似乎只有这一条路可走，今日强忍着看多元统计分析的书没吐出来，实在是佩服张尧庭老师，他简直不是人——只能说是神1……其中用到的高等代数证明我几乎一个都没看懂，汗如雨下。此分布由Wishart于1928年推导出来（因此我认为Wishart也不是人），据称有人就用这个时间作为多元统计分析的诞生时间，由此可见Wishart分 &amp;hellip;">
+      
+    
+
+    
+    
+    <meta name="twitter:image" content="https://db.yihui.org/hexun/b_73946BDE35F851DB.jpg">
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>维希特分布(Wishart)的分布密度</h1>
+
+
+<h3>Tan Jay / 
+2025-09-09</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p>这是伟大的SEM工程之——<strong>Wishart分布</strong>篇！要用最大似然估计（ML）的话，目前似乎只有这一条路可走，今日强忍着看多元统计分析的书没吐出来，实在是佩服张尧庭老师，他简直不是人——只能说是神<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>……其中用到的高等代数证明我几乎一个都没看懂，汗如雨下。此分布由Wishart于1928年推导出来（因此我认为Wishart也不是人），据称有人就用这个时间作为<strong>多元统计分析的诞生时间</strong>，由此可见Wishart分布之牛X。废话少说，言归正传：</p>
+<p>首先定义一个矩阵<strong>X</strong><SUB>nxm</SUB>=(x<SUB>ij</SUB>)的分布，<strong>X</strong>的分布即其列向量一个个拼接起来形成的长向量的分布；若<strong>X</strong>是n阶对称矩阵，那么只需要取上三角（或下三角）部分组成长向量即可，此时</p>
+<p><img src="https://db.yihui.org/hexun/b_73946BDE35F851DB.jpg" alt=""></p>
+<p>样本矩阵仍然是：</p>
+<p><img src="https://db.yihui.org/hexun/b_0A22BF4EBE550FC9.jpg" alt=""></p>
+<p>其中假定y<SUB>(i)</SUB><strong>相互独立</strong>，且y<SUB>(i)</SUB>~N<SUB>m</SUB>(μ<SUB>i</SUB>, V)，Y的期望记作：</p>
+<p><img src="https://db.yihui.org/hexun/b_D3773B03E4EBD13D.jpg" alt=""></p>
+<p>此时就可以给出Wishart分布的定义了。以下二式中，（1）式是非中心Wishart分布（τ≠0），（2）式是中心Wishart分布（τ=0）：</p>
+<p><img src="https://db.yihui.org/hexun/b_8D57D113EA57F893.jpg" alt=""></p>
+<p>现隆重推出中心Wishart分布的密度函数：</p>
+<p><img src="https://db.yihui.org/hexun/b_864B708179E515FC.jpg" alt=""></p>
+<p>注意当A不是正定阵时，f(A)=0，在SEM参数的最大似然估计中，似乎没看见对A的正定性的检验，这是目前我的一点小疑问。现在给出密度函数之后，可以顺便说说SEM参数最大似然估计的思路：首先将结构方程模型中的样本标准化（如果只是做ML那么事实上只需要中心化就可以了），使各个样品的均值为零，这一步其实就是为中心Wishart分布做准备（使得τ=0），那么现在容易证明<strong>A</strong>其实就是<strong>样本协方差阵S</strong>。而SEM参数估计的关键工作（或者说目的）也就在于使理论推导出的协方差阵（<strong>Σ(θ)</strong>）与实际样本协方差阵<strong>S</strong>尽可能接近；理论协方差阵<strong>Σ(θ)<strong>也就是上式密度函数中的</strong>V</strong>，那么现在要做的就是知道了<strong>S</strong>来估计<strong>Σ(θ)</strong>，也即知道了<strong>A</strong>来估计<strong>V</strong>，正好就顺路上了最大似然估计的“贼船”，如果最大似然估计的原理忘了请参见尾注<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。还有一点需要提醒注意的是，最大似然估计本身并没有直接达到使<strong>Σ(θ)<strong>与</strong>S</strong>尽量接近的目的，看估计的效果如何，还得在估计之后再对结果进行检验（拟合指数）。</p>
+<!--# 谁要是有闲心帮我把这篇文章中剩下的数学公式用 LaTeX 敲出来，我可以帮你一个忙作为答谢。 -->
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>我可以放话：世界上不容怀疑的事情只有两件——一是太阳从东边升起；二是张尧庭老师是神。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>最大似然估计法（Maximum Likelihood Estimation）：设 <code>$X_1$</code>, <code>$X_2$</code>, &hellip;, <code>$X_n$</code> 是来自总体 <code>$X \sim f(x; \theta)$</code>（其中 <code>$\theta$</code> 未知）的样本，而 <code>$x_1$</code>, <code>$x_2$</code>, &hellip;, <code>$x_n$</code> 为样本值，使似然函数</p>
+<p><code>$$L(\theta;x_1,x_2,\ldots,x_n)=f(x_1;\theta) f(x_2;\theta) \cdots f(x_n;\theta)$$</code></p>
+<p>达到最大的 <code>$\hat{\theta}$</code> 称为参数 <code>$\theta$</code> 的最大似然估计值。一般地，<code>$\theta$</code> 的最大似然估计值 <code>$\hat{\theta}$</code> 满足：</p>
+<p><code>$$\frac{d \ln L}{d \theta}=0$$</code>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/08/14/love/">斩断情丝</a></span>
+  <span class="nav-next"></span>
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/cn\/2025\/08\/14\/love\/';
+    
+  } else if (e.which == 39) {  
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
+
+
+<section class="comments">
+  <div class="tabs" style="display: none;">
+  <input name="tabs" type="radio" id="tab-1" checked class="input"/>
+  <label for="tab-1" class="label">Disqus</label>
+  <div class="panel">
+    <div id="disqus_thread"></div>
+    <script data-src="//tanjay.disqus.com/embed.js" async></script>
+    <script>
+    var disqus_config = (function() {
+      var disqusURL
+      
+        = "https:\/\/tang-jay.github.io\/" + location.pathname
+      
+      ;
+      var cfg = function() {
+        this.page.url = disqusURL;
+      };
+      cfg.DisqusJSInit = function() {
+        var dsqjs = new DisqusJS({
+          shortname: "tanjay",
+          siteName: "Tan Jay | 唐 洁",
+          identifier: undefined,
+          url: disqusURL,
+          api: "https://yihui.org/disqus/",
+          apikey: [
+            '7KUjj8dWYWdg36SwnKhiZmfiBcRrwlCDudkFZHAkfFJKBerk9IAPnnuo45Kkm22W',
+            'XrSwjw0Vm57x9oStOytHMBVpXkGBivU2ohEV1loqEEFmJ8Ulefxuz1lw9zDeYFN8',
+            'Hqkwx8JsVo5YOtkx0Oqc75oWIUG0n1PR9AgsrSJID4sEpkUKDgEyIhoObeoF1miW'
+          ],
+          admin: 'yihui',
+          adminLabel: 'Yihui Xie'
+        });
+      };
+      return cfg;
+    })();
+    </script>
+  </div>
+  <input name="tabs" type="radio" id="tab-2" class="input"/>
+  <label for="tab-2" class="label">Utterances</label>
+  <div class="panel">
+    <script data-src="https://utteranc.es/client.js" repo="rbind/yihui" issue-term="pathname"
+      label="comment" theme="github-light" crossorigin="anonymous" async></script>
+  </div>
+  <input name="tabs" type="radio" id="tab-3" class="input"/>
+  <label for="tab-3" class="label">Preferences</label>
+  <div class="panel">
+    <p class="title">Layout of comment panels</p>
+    <input name="layout" type="radio" id="layout-1" checked />
+    <label for="layout-1">Tabbed (wide screen) / Stacked (small screen)</label>
+    <br/>
+    <input name="layout" type="radio" id="layout-2" />
+    <label for="layout-2">Full display</label>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/custom-disqus.min.js" defer></script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+
+
+<script async src="https://cdn.jsdelivr.net/combine/npm/@xiee/utils/js/fix-toc.min.js,npm/@xiee/utils/js/center-img.min.js,npm/@xiee/utils/js/right-quote.min.js,npm/@xiee/utils/js/no-highlight.min.js,npm/@xiee/utils/js/fix-footnote.min.js,npm/@xiee/utils/js/math-code.min.js,npm/@xiee/utils/js/hash-notes.min.js,npm/@xiee/utils/js/external-link.min.js,npm/@xiee/utils/js/alt-title.min.js,npm/@xiee/utils/js/header-link.min.js"></script>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/toggle-notes.min.js" defer></script>
+
+
+
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

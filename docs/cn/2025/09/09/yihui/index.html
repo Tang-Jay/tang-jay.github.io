@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>维希特分布(Wishart)的分布密度 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="维希特分布(Wishart)的分布密度 - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="$\alpha$, \(X_1\), $X_2$, &amp;hellip;, $X_n$ 是来自总体$X \sim f(x; \theta)$（其中 $\theta$ 未知）的样本，而 $x_1$, $x_2$, &amp;hellip;, $x_n$ 为样本值，使似然函数
+$$L(\theta;x_1,x_2,\ldots,x_n)=f(x_1;\theta) f(x_2;\theta) \cdots &amp;hellip;">
+      <meta property="og:description" content="$\alpha$, \(X_1\), $X_2$, &amp;hellip;, $X_n$ 是来自总体$X \sim f(x; \theta)$（其中 $\theta$ 未知）的样本，而 $x_1$, $x_2$, &amp;hellip;, $x_n$ 为样本值，使似然函数
+$$L(\theta;x_1,x_2,\ldots,x_n)=f(x_1;\theta) f(x_2;\theta) \cdots &amp;hellip;">
+      
+    
+
+    
+    
+    
+    <meta name="twitter:image" content="//localhost:1313/images/logo.png">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>维希特分布(Wishart)的分布密度</h1>
+
+
+<h3>Tan Jay / 
+2025-09-09</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p><code>$\alpha$</code>, \(X_1\), <code>$X_2$</code>, &hellip;, <code>$X_n$</code> 是来自总体<code>$X \sim f(x; \theta)$</code>（其中 <code>$\theta$</code> 未知）的样本，而 <code>$x_1$</code>, <code>$x_2$</code>, &hellip;, <code>$x_n$</code> 为样本值，使似然函数</p>
+<p><code>$$L(\theta;x_1,x_2,\ldots,x_n)=f(x_1;\theta) f(x_2;\theta) \cdots f(x_n;\theta)$$</code></p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/08/14/love/">斩断情丝</a></span>
+  <span class="nav-next"></span>
+</nav>
+
+
+
+<section class="comments">
+  <div class="tabs" style="display: none;">
+  <input name="tabs" type="radio" id="tab-1" checked class="input"/>
+  <label for="tab-1" class="label">Disqus</label>
+  <div class="panel">
+    <div id="disqus_thread"></div>
+    <script data-src="//tanjay.disqus.com/embed.js" async></script>
+    <script>
+    var disqus_config = (function() {
+      var disqusURL
+      
+        = "https:\/\/tang-jay.github.io\/" + location.pathname
+      
+      ;
+      var cfg = function() {
+        this.page.url = disqusURL;
+      };
+      cfg.DisqusJSInit = function() {
+        var dsqjs = new DisqusJS({
+          shortname: "tanjay",
+          siteName: "Tan Jay | 唐 洁",
+          identifier: undefined,
+          url: disqusURL,
+          api: "https://yihui.org/disqus/",
+          apikey: [
+            '7KUjj8dWYWdg36SwnKhiZmfiBcRrwlCDudkFZHAkfFJKBerk9IAPnnuo45Kkm22W',
+            'XrSwjw0Vm57x9oStOytHMBVpXkGBivU2ohEV1loqEEFmJ8Ulefxuz1lw9zDeYFN8',
+            'Hqkwx8JsVo5YOtkx0Oqc75oWIUG0n1PR9AgsrSJID4sEpkUKDgEyIhoObeoF1miW'
+          ],
+          admin: 'yihui',
+          adminLabel: 'Yihui Xie'
+        });
+      };
+      return cfg;
+    })();
+    </script>
+  </div>
+  <input name="tabs" type="radio" id="tab-2" class="input"/>
+  <label for="tab-2" class="label">Utterances</label>
+  <div class="panel">
+    <script data-src="https://utteranc.es/client.js" repo="rbind/yihui" issue-term="pathname"
+      label="comment" theme="github-light" crossorigin="anonymous" async></script>
+  </div>
+  <input name="tabs" type="radio" id="tab-3" class="input"/>
+  <label for="tab-3" class="label">Preferences</label>
+  <div class="panel">
+    <p class="title">Layout of comment panels</p>
+    <input name="layout" type="radio" id="layout-1" checked />
+    <label for="layout-1">Tabbed (wide screen) / Stacked (small screen)</label>
+    <br/>
+    <input name="layout" type="radio" id="layout-2" />
+    <label for="layout-2">Full display</label>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/custom-disqus.min.js" defer></script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.js" defer></script>
+<script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.js" defer></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

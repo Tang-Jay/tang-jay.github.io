@@ -3,19 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cn/2025/08/14/love/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%E7%A5%81%E4%B8%9C/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/08/11/tour/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
@@ -23,22 +17,10 @@
     <loc>/tags/%E9%95%BF%E6%B2%99/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cn/2025/08/04/dariy/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%E5%AE%B6%E4%BA%BA/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+    <loc>/cn/2025/06/11/yihui/</loc>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E7%8F%A0%E6%B5%B7/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cn/2025/06/15/ping/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cn/2025/06/11/yihui/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E7%9B%8A%E8%BE%89/</loc>
@@ -48,6 +30,9 @@
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E4%B9%A6/</loc>
+    <lastmod>2025-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E7%94%9F%E6%B4%BB%E5%BF%97/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2025/06/08/dariy/</loc>
@@ -134,11 +119,17 @@
     <loc>/cn/2025/02/17/last-meeting/</loc>
     <lastmod>2025-02-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/%E7%A5%81%E4%B8%9C/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/cn/2025/01/22/last-meeting/</loc>
     <lastmod>2025-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/cn/2024/12/31/last-day-of-2024/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E5%AE%B6%E4%BA%BA/</loc>
+    <lastmod>2024-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E6%81%A9%E5%B9%B3/</loc>
     <lastmod>2024-12-16T00:00:00+00:00</lastmod>

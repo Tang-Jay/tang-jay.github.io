@@ -38,7 +38,10 @@
     <loc>/ping/</loc>
     <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/cn/2025/06/11/yihui/</loc>
+    <loc>/yihui/</loc>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
     <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E7%9B%8A%E8%BE%89/</loc>
@@ -202,9 +205,6 @@
   </url><url>
     <loc>/cn/2023/06/22/plan/</loc>
     <lastmod>2023-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/%E4%BA%BA%E7%89%A9%E5%BF%97/</loc>
-    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%E6%A1%82%E6%9E%97/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>

@@ -96,5 +96,5 @@ disable_comments: true
 
 ## 附录
 
-- [北师新生自述](/cn/2024/09/04/self-intro)
+- [北师新生自传](/cn/2024/09/04/self-intro)
 

@@ -1,0 +1,2317 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>科研 on Tan Jay | 唐 洁</title>
+    <link>/tags/%E7%A7%91%E7%A0%94/</link>
+    <description>Recent content in 科研 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E7%A7%91%E7%A0%94/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>端午之后的组会汇报</title>
+      <link>/cn/2025/05/29/report/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/05/29/report/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="pcel">PCEL</h2>
+<ul>
+<li>重新加了QQ图1-3</li>
+<li>修改了摘要和结论部份</li>
+<li>检查了正文中的语法问题</li>
+<li>核对了期刊要求（文字部份不超过10页，摘要不超过200字）</li>
+<li>部署到overleaf上，加一个谢老师ORCID</li>
+<li>请谢老师和秦老师过目，若没问题，则准备投稿</li>
+</ul>
+<h2 id="el-for-fairness-auditing">EL for Fairness Auditing</h2>
+<ul>
+<li>展示实验数据</li>
+<li>正在整理成文中</li>
+<li>缺少对比实验</li>
+</ul>
+<h2 id="fufure-discussion">Fufure Discussion</h2>
+<ul>
+<li>local EL for fairness classification</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>组会汇报记录</title>
+      <link>/cn/2025/03/25/meeting/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/25/meeting/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
+<h3 id="汇报内容">汇报内容：</h3>
+<ul>
+<li>GSPC 修改：Introduction 后面基本实现修改（加分组描述，步骤间逻辑解释，评估指标解释，分类依据等），主要问题集中在Introduction 怎么改。</li>
+<li>DSDE 修改：实验数据还没有，只有小调整，没有大进展。</li>
+<li>自己看的论文进度：在了解 <a href="/cn/2025/02/25/conformity/">conformal perdiction</a>一些理论，老师给的 UC 也在看。边看论文也一边在构思，自己置信区间这个事情能为神经网络做些什么，目前还没有具体想法。</li>
+</ul>
+<h3 id="讨论结果">讨论结果：</h3>
+<ul>
+<li><a href="/cn/2025/02/27/dro/">shift 的分类</a></li>
+<li>围绕 robust 问题，寻找 distribution shift 的设置展开，会有什么挑战</li>
+<li>set-up 设计什么问题，OOD detection，估计问题，检验问题</li>
+<li>横向问题：Robust，差分隐私，<a href="http://localhost:1313/cn/2025/03/01/%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B%E4%B8%8E%E5%85%AC%E5%B9%B3%E6%80%A7/">公平性</a></li>
+<li>纵向问题：DRO</li>
+<li>研究问题：问题的设计DRO，设计检验的地方（因果推断）</li>
+<li>Online Data</li>
+<li>发展脉络
+<ul>
+<li>往前：之前做了什么</li>
+<li>往后：之后做了什么 （paper connection 软件）</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-3-3-第二周">2025-3-3 第二周</h2>
+<h3 id="汇报内容-1">汇报内容：</h3>
+<h4 id="1-主题">1. 主题</h4>
+<ul>
+<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em><a href="https://arxiv.org/abs/2008.04267">Robust Validation: Confident Predictions Even When Distributions Shift</a></em>。
+<ul>
+<li><strong>Key Words</strong>：<em>Distribution Shift</em>；<em>Roubst</em>；<em>Validation</em>；<em>Confident Predictions</em></li>
+<li><strong>Core Explanations</strong>：<em>Distribution Shift Problem</em>；<em>Distribution Robust Optimization</em> (DRO)； <em>Conformal Inference</em>；</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-前期准备">2. 前期准备</h4>
+<ul>
+<li>
+<p><a href="/cn/2025/02/27/dro/">Distributions Shift 与 DRO 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/03/dsandci/">Distributions Shift 与 Conformal Inference 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a></p>
+<ul>
+<li><em>Algorithmic Learning in a Random World</em></li>
+<li><a href="https://arxiv.org/pdf/2005.07972"><em>Conformal Prediction: a Unified Review of Theory and New Challenges</em></a></li>
+<li><a href="/cn/2025/03/01/fairness/">Conformal Inference 与 fairness 的关系</a></li>
+</ul>
+</li>
+<li>
+<p>DRO 研究路程</p>
+</li>
+</ul>
+<h4 id="3-主要内容">3. 主要内容</h4>
+<ul>
+<li><a href="/cn/2025/03/03/standardci/">A standard conformal infernece</a></li>
+<li><a href="/cn/2025/03/03/robustci/">A robust conformal inference</a></li>
+</ul>
+<h4 id="4-不成熟提案">4. 不成熟提案</h4>
+<ul>
+<li>
+<p>应用</p>
+<ul>
+<li>
+<p>医疗图片数据，监测胃癌的可能性，分组：年轻组、老年组</p>
+</li>
+<li>
+<p>浮游生物图片数据，监测分布外数据的可能性，分组：生物组、非生物组</p>
+</li>
+</ul>
+</li>
+<li>
+<p>理论</p>
+<ul>
+<li>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</li>
+</ul>
+</li>
+</ul>
+<h4 id="5-下一步研究计划">5. 下一步研究计划</h4>
+<ul>
+<li>Fairness</li>
+<li>UC</li>
+<li>Privacy</li>
+<li><strong>Duchi 指导的毕业论文</strong>：<a href="https://www.proquest.com/docview/2723853375?pq-origsite=gscholar&amp;fromopenview=true&amp;sourcetype=Dissertations%20&amp;%20Theses"><em>RELIABILITY AND STABILITY IN STATISTICAL AND MACHINE LEARNING PROBLEMS</em></a></li>
+</ul>
+<h3 id="讨论结果-1">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250303-meeting.m4a"> </audio></p>
+<ul>
+<li>
+<p>EL 结合 DRO 在分布偏移上的相关论文有哪些</p>
+<ul>
+<li>按时间发展已有成果</li>
+<li>按类型分类已有成果</li>
+</ul>
+</li>
+<li>
+<p>Duchi 在 EL 上做过哪些内容。</p>
+</li>
+<li>
+<p>Domian</p>
+</li>
+<li>
+<p>Optimazation 改进</p>
+</li>
+<li>
+<p>RKHS</p>
+</li>
+<li>
+<p>VC</p>
+</li>
+<li>
+<p>induce</p>
+</li>
+</ul>
+<h2 id="2025-3-12-第三周">2025-3-12 第三周</h2>
+<h3 id="汇报内容-2">汇报内容：</h3>
+<h4 id="1-主题-1">1. 主题</h4>
+<ul>
+<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em>Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach</em></li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案">2. 提案</h4>
+<ul>
+<li>
+<p>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</p>
+<ul>
+<li>
+<p>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</p>
+</li>
+<li>
+<p>PCEL 是否有修改的必要。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-下一步研究计划">3. 下一步研究计划</h4>
+<ul>
+<li>
+<p>看文献[49]-[51]</p>
+</li>
+<li>
+<p>Duchi 指导的毕业论文</p>
+</li>
+<li>
+<p>Fairness</p>
+</li>
+<li>
+<p>UC</p>
+</li>
+<li>
+<p>Privacy</p>
+</li>
+</ul>
+<h3 id="讨论结果-2">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250312-meeting.m4a"> </audio></p>
+<ul>
+<li>EL 结合 Fairness 在上的相关论文有哪些
+<ul>
+<li>按时间发展已有成果</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-3-24-第五周-第四次">2025-3-24 第五周 第四次</h2>
+<h3 id="汇报内容-3">汇报内容：</h3>
+<h4 id="1-主题-2">1. 主题</h4>
+<ul>
+<li><strong>介绍经验似然方法</strong></li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>经验似然在fairness/UQ上的工作</li>
+<li>经验似然在Lam下的工作
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案-1">2. 提案</h4>
+<ul>
+<li>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</li>
+</ul>
+<h3 id="讨论结果-3">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250324-meeting.m4a"> </audio></p>
+<ul>
+<li><strong>剩余10 : 30 时刻</strong>：EL是否可以变到对已经训练好的模型做检验
+<ul>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+<li>用上述两篇文献导出fairness指标</li>
+</ul>
+</li>
+<li><strong>剩余9 : 36 时刻</strong>：连续的敏感属性和表现的结果</li>
+<li><strong>剩余7 : 25 时刻</strong>：连续的敏感属性的公平性检验
+<ul>
+<li>连续的敏感属性的公平性定义</li>
+<li>连续的敏感属性的公平性检验方法</li>
+</ul>
+</li>
+<li>EL在统计上会被argue的点
+<ul>
+<li>收敛速度问题</li>
+<li>自身方法存在哪些问题</li>
+</ul>
+</li>
+<li>与EL等价的方法结合 Fairness 的相关论文有哪些
+<ul>
+<li>CP在Fairness已有成果</li>
+</ul>
+</li>
+<li>连续型公平性分类的处理</li>
+<li>EL方法是否与模型无关</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>保形推断</title>
+      <link>/cn/2025/02/25/conformity/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/02/25/conformity/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="研究记录之保形推断">研究记录之保形推断</h1>
+<p>主题：confermal inference、参考文献、nonconformity measure、重对数律。</p>
+<h2 id="confermal-inference">confermal inference</h2>
+<p>Conformal Inference（保形推断）是一种非参数的统计方法，用于为预测模型生成具有严格概率保证的预测区间或集合。其核心目标是在不依赖数据分布假设的情况下，确保新观测值的真实结果以预定概率（如95%）落入预测范围内。以下是其关键要点：</p>
+<h3 id="核心思想">核心思想</h3>
+<ol>
+<li><strong>覆盖概率保证</strong>：无论数据分布如何，Conformal Inference生成的预测区间能以指定的置信水平（如1-α）覆盖真实值，适用于有限样本且无需渐近近似。</li>
+<li><strong>非参数与模型无关</strong>：不假设数据分布或模型结构，适用于任何预测模型（如线性回归、神经网络等），尤其适合复杂机器学习模型的不确定性量化。</li>
+</ol>
+<h3 id="关键步骤">关键步骤</h3>
+<ol>
+<li><strong>划分数据</strong>：将数据集分为训练集和校准集。</li>
+<li><strong>训练模型</strong>：使用训练集训练模型。</li>
+<li><strong>计算非合群分数（Nonconformity Score）</strong>：衡量预测与实际值的差异。例如：
+<ul>
+<li><strong>回归任务</strong>：残差绝对值 <code>$ |y_i - \hat{y}_i| $</code> 。</li>
+<li><strong>分类任务</strong>：1减去正确类别的预测概率 <code>$ 1 - P(y_i|x_i) $</code>。</li>
+</ul>
+</li>
+<li><strong>确定分位数</strong>：基于校准集的分数计算调整后的分位数 <code>$q = \lceil (n+1)(1-\alpha) \rceil / n $</code> ，其中 <code>$ n $</code>为校准集大小。</li>
+<li><strong>构建预测区间</strong>：新样本的预测区间为 <code>$\hat{y}_{\text{new}} \pm q $</code> （回归）或包含概率高于阈值的类别集合（分类）。</li>
+</ol>
+<h3 id="优势">优势</h3>
+<ul>
+<li><strong>强理论保证</strong>：严格覆盖概率，无需分布假设。</li>
+<li><strong>灵活性</strong>：兼容任何模型，适应回归与分类任务。</li>
+<li><strong>实用性强</strong>：适用于小样本，直接反映模型预测的不确定性。</li>
+</ul>
+<h3 id="局限性">局限性</h3>
+<ul>
+<li><strong>数据交换性假设</strong>：要求数据满足交换性（弱于独立同分布），可能不适用于时间序列等有序数据。</li>
+<li><strong>区间宽度依赖模型质量</strong>：模型预测越准，区间越窄；反之则越宽。</li>
+</ul>
+<h3 id="应用场景">应用场景</h3>
+<ul>
+<li><strong>高风险领域</strong>：如医疗诊断（预测疾病风险区间）、金融（风险估值）等需可靠不确定性的场景。</li>
+<li><strong>模型评估</strong>：对比不同模型的不确定性估计能力。</li>
+</ul>
+<h3 id="示例">示例</h3>
+<p><strong>回归任务</strong>：校准集残差为[0.5, 1.2, 2.0]，置信水平95%时，调整后分位数取第3大值（2.0）。新预测值为10，则区间为[8.0, 12.0]，保证真实值有95%概率落入。</p>
+<p><strong>分类任务</strong>：某样本正确类别的预测概率为0.6，阈值为0.3（对应1-α=95%），则预测集合包含所有概率≥0.4的类别，确保真实类别被包含的概率≥95%。</p>
+<p>总之，Conformal Inference通过数据驱动的方法，为复杂模型提供可靠的不确定性估计，增强其在现实应用中的可信度。</p>
+<p>以下是关于 <strong>Conformal Inference（保形推断）</strong> 的经典论文和最新研究推荐，涵盖理论、应用及扩展方向。这些论文适合深入理解其数学基础、算法实现及实际应用场景。</p>
+<h2 id="参考文献">参考文献</h2>
+<h3 id="1-奠基性论文"><strong>1. 奠基性论文</strong></h3>
+<h4 id="1-algorithmic-learning-in-a-random-world-https-link-springer-com-book-10-1007-978-3-031-06649-8"><strong>(1) <a href="https://link.springer.com/book/10.1007/978-3-031-06649-8">Algorithmic Learning in a Random World</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Vovk, Gammerman, Shafer (2005)</li>
+<li><strong>贡献</strong>: 系统提出保形推断的框架，定义了非合群分数（nonconformity score）和覆盖概率保证的数学证明，是保形推断的理论基石。</li>
+</ul>
+<h4 id="2-conformal-prediction-for-reliable-machine-learning-https-arxiv-org-abs-1404-1393"><strong>(2) <a href="https://arxiv.org/abs/1404.1393">Conformal Prediction for Reliable Machine Learning</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Balasubramanian, Ho, Vovk (2014)</li>
+<li><strong>贡献</strong>: 综述性论文，总结保形推断在分类、回归、异常检测等任务中的应用，并讨论与贝叶斯方法的对比。</li>
+</ul>
+<h3 id="2-分类与回归任务"><strong>2. 分类与回归任务</strong></h3>
+<h4 id="3-conformal-prediction-under-covariate-shift-https-arxiv-org-abs-1904-06019"><strong>(3) <a href="https://arxiv.org/abs/1904.06019">Conformal Prediction Under Covariate Shift</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Tibshirani et al. (2019)</li>
+<li><strong>贡献</strong>: 提出协变量偏移（covariate shift）下的保形推断方法，扩展了传统方法的适用范围。</li>
+</ul>
+<h4 id="4-distribution-free-predictive-inference-for-regression-https-arxiv-org-abs-1802-06307"><strong>(4) <a href="https://arxiv.org/abs/1802.06307">Distribution-Free Predictive Inference for Regression</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lei et al. (2018)</li>
+<li><strong>贡献</strong>: 针对回归任务提出分位数回归与保形推断结合的方法（<strong>Conformalized Quantile Regression, CQR</strong>），生成更紧致的预测区间。</li>
+</ul>
+<h4 id="5-classification-with-valid-and-adaptive-coverage-https-arxiv-org-abs-2006-02544"><strong>(5) <a href="https://arxiv.org/abs/2006.02544">Classification with Valid and Adaptive Coverage</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2020)</li>
+<li><strong>贡献</strong>: 提出自适应保形分类（Adaptive Conformal Classification），动态调整预测集合大小以提升效率。</li>
+</ul>
+<h3 id="3-时间序列与非交换数据"><strong>3. 时间序列与非交换数据</strong></h3>
+<h4 id="6-conformal-prediction-for-time-series-https-arxiv-org-abs-2205-00127"><strong>(6) <a href="https://arxiv.org/abs/2205.00127">Conformal Prediction for Time Series</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Xu &amp; Xie (2022)</li>
+<li><strong>贡献</strong>: 解决时间序列数据因违反交换性假设（exchangeability）带来的挑战，提出滑动窗口或分块保形推断方法。</li>
+</ul>
+<h4 id="7-conformal-pid-control-for-time-series-prediction-https-arxiv-org-abs-2307-16895"><strong>(7) <a href="https://arxiv.org/abs/2307.16895">Conformal PID Control for Time Series Prediction</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lindemann et al. (2023)</li>
+<li><strong>贡献</strong>: 将保形推断与PID控制结合，动态调整预测区间宽度，适应非平稳时间序列。</li>
+</ul>
+<h3 id="4-深度学习与高维数据"><strong>4. 深度学习与高维数据</strong></h3>
+<h4 id="8-conformal-prediction-for-deep-classifiers-via-clustering-https-arxiv-org-abs-2107-03363"><strong>(8) <a href="https://arxiv.org/abs/2107.03363">Conformal Prediction for Deep Classifiers via Clustering</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lu et al. (2021)</li>
+<li><strong>贡献</strong>: 针对深度神经网络分类任务，提出基于聚类的保形推断方法，降低预测集合的冗余性。</li>
+</ul>
+<h4 id="9-uncertainty-quantification-with-conformal-prediction-for-deep-learning-https-arxiv-org-abs-2207-12254"><strong>(9) <a href="https://arxiv.org/abs/2207.12254">Uncertainty Quantification with Conformal Prediction for Deep Learning</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2022)</li>
+<li><strong>贡献</strong>: 系统性讨论如何将保形推断与深度学习结合，提供代码库（如 <code>TorchCP</code>）实现。</li>
+</ul>
+<h3 id="5-最新扩展方向"><strong>5. 最新扩展方向</strong></h3>
+<h4 id="10-conformal-risk-control-https-arxiv-org-abs-2208-02814"><strong>(10) <a href="https://arxiv.org/abs/2208.02814">Conformal Risk Control</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2022)</li>
+<li><strong>贡献</strong>: 将保形推断推广到更一般的风险控制框架，适用于多任务学习与复杂损失函数。</li>
+</ul>
+<h4 id="11-conformal-off-policy-prediction-for-contextual-bandits-https-arxiv-org-abs-2306-04410"><strong>(11) <a href="https://arxiv.org/abs/2306.04410">Conformal Off-Policy Prediction for Contextual Bandits</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Bastani et al. (2023)</li>
+<li><strong>贡献</strong>: 在强化学习（Contextual Bandits）中应用保形推断，解决策略评估的覆盖性问题。</li>
+</ul>
+<h3 id="6-实用教程与书籍"><strong>6. 实用教程与书籍</strong></h3>
+<ul>
+<li><strong>书籍</strong>: <a href="https://arxiv.org/abs/2305.12621"><em>Conformal Prediction: A Unified Review of Theory and New Challenges</em></a> (2023)
+<ul>
+<li>最新综述，涵盖理论、算法及在因果推断、联邦学习等场景的扩展。</li>
+</ul>
+</li>
+<li><strong>教程代码库</strong>:
+<ul>
+<li><a href="https://github.com/donlnz/nonconformist">Python库 <code>nonconformist</code></a></li>
+<li><a href="https://github.com/ShuoYang-1998/TorchCP">TorchCP (PyTorch实现)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="选择建议"><strong>选择建议</strong></h3>
+<ul>
+<li><strong>入门</strong>：从奠基性论文（1-2）和教程代码库开始，理解核心思想。</li>
+<li><strong>应用场景</strong>：
+<ul>
+<li>时间序列选（6-7），</li>
+<li>深度学习选（8-9），</li>
+<li>分类回归优化选（3-5）。</li>
+</ul>
+</li>
+<li><strong>理论扩展</strong>：关注（10-11）的前沿方向。</li>
+</ul>
+<p>保形推断的核心优势在于其非参数性和严格的覆盖保证，但需注意其<strong>数据交换性假设</strong>是否满足（如时间序列需调整方法）。</p>
+<h2 id="nonconformity-measure">nonconformity measure</h2>
+<p>“<strong>Nonconformity measure</strong>”（非符合性度量）是统计学习和机器学习中的一个术语，尤其在 <strong>Conformal Prediction</strong>（保形预测）框架中扮演核心角色。它用于量化一个数据点与已有数据分布或模型预测的“不一致程度”，从而评估新样本的异常性或不确定性。</p>
+<h3 id="核心概念"><strong>核心概念</strong></h3>
+<ol>
+<li>
+<p><strong>基本定义</strong>：</p>
+<ul>
+<li><strong>Nonconformity measure</strong> 是一个函数，用于计算某个数据点（或样本）与已有数据/模型的“不匹配程度”。</li>
+<li>值越大，表示该数据点越不符合当前模型或数据分布，可能属于异常或需要特别关注。</li>
+</ul>
+</li>
+<li>
+<p><strong>在 Conformal Prediction 中的作用</strong>：</p>
+<ul>
+<li>Conformal Prediction 是一种生成预测集合并提供统计置信度的方法，确保预测结果在指定置信水平下覆盖真实值。</li>
+<li>通过 <strong>nonconformity measure</strong>，算法会为每个候选预测结果计算一个“不一致分数”，从而确定哪些预测应被包含在置信区间或预测集合中。</li>
+</ul>
+</li>
+</ol>
+<h3 id="应用示例"><strong>应用示例</strong></h3>
+<ul>
+<li>
+<p><strong>分类任务</strong>：
+假设一个图像分类模型需要判断一张新图片是否属于“猫”。对于每个可能的类别（猫、狗、鸟等），nonconformity measure 可能基于模型输出的概率，计算该图片与各类别训练数据的差异。若“猫”类别的差异分数最低，则该图片更可能被归为“猫”。</p>
+</li>
+<li>
+<p><strong>回归任务</strong>：
+在房价预测中，nonconformity measure 可以是预测房价与实际房价的绝对误差。误差越大，样本的“非符合性”越高。</p>
+</li>
+</ul>
+<h3 id="技术意义"><strong>技术意义</strong></h3>
+<ul>
+<li><strong>异常检测</strong>：高 nonconformity score 可能标志异常值（outlier）。</li>
+<li><strong>不确定性量化</strong>：在 Conformal Prediction 中，通过非符合性分数生成预测区间（例如，“房价在 80% 置信度下位于 [500k, 600k]”）。</li>
+<li><strong>模型校准</strong>：帮助评估模型对新数据的泛化能力。</li>
+</ul>
+<h3 id="与其他概念的区别"><strong>与其他概念的区别</strong></h3>
+<ul>
+<li><strong>Loss Function（损失函数）</strong>：损失函数用于训练模型，而非符合性度量用于评估模型预测与数据的一致性。</li>
+<li><strong>Anomaly Score（异常分数）</strong>：两者类似，但 nonconformity measure 更强调统计框架下的置信度保证。</li>
+</ul>
+<p>简而言之，<strong>nonconformity measure</strong> 是连接数据、模型与统计置信度的桥梁，尤其在需要可靠不确定性估计的场景（如医疗诊断、金融风险评估）中至关重要。</p>
+<p>这段话讨论了保形预测（Conformal Prediction）中 <strong>非对称非符合性度量（Asymmetric Nonconformity Measure）</strong> 的设计及其意义。以下是逐层解析：</p>
+<h3 id="度量方式"><strong>度量方式</strong></h3>
+<ol>
+<li>
+<p><strong>对称与非对称的对比</strong></p>
+<ul>
+<li><strong>对称非符合性度量</strong>（如公式 2.30 或 2.32）：通常使用绝对值（如预测误差的绝对值 <code>$ |y_i - \hat{y}_i| $</code>），表示“偏离程度的量级”，不区分方向（如高估或低估）。</li>
+<li><strong>非对称非符合性度量</strong>（如公式 2.33 或 2.34）：允许区分方向（如 <code>$ y_i - \hat{y}_i $</code>或 <code>$ \hat{y}_i - y_i $</code>），可衡量样本对某一特定属性的符合程度（例如“标签是否足够大”或“标签是否足够小”）。</li>
+</ul>
+</li>
+<li>
+<p><strong>非对称度量的意义</strong></p>
+<ul>
+<li><strong>公式 2.33</strong>：<code>$ \alpha_i := y_i - \hat{y}_i $</code>
+<ul>
+<li><strong>含义</strong>：实际值 <code>$ y_i $</code>比预测值 <code>$ \hat{y}_i $</code>大多少。</li>
+<li><strong>用途</strong>：衡量样本 <code>$ z_i $</code>对“标签较大”这一属性的符合程度。例如，若 `$\alpha_i$ 很大，说明真实标签远超预测，可能属于异常（或需特别关注的高值样本）。</li>
+</ul>
+</li>
+<li><strong>公式 2.34</strong>：<code>$ \alpha_i := \hat{y}_i - y_i $</code>
+<ul>
+<li><strong>含义</strong>：预测值 <code>$ \hat{y}_i $</code>比实际值 <code>$ y_i $</code>大多少。</li>
+<li><strong>用途</strong>：衡量样本 <code>$ z_i $</code>对“标签较小”这一属性的符合程度。例如，若 <code>$\alpha_i $</code>很大，说明预测显著高估真实值，可能属于低估异常。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="技术意义-1"><strong>技术意义</strong></h3>
+<ol>
+<li>
+<p><strong>灵活建模单侧关注问题</strong></p>
+<ul>
+<li>在现实场景中，我们可能只关心某一方向的偏差（例如：
+<ul>
+<li><strong>金融风控</strong>：更关注损失超过预期的样本（即   <code>$ y_i - \hat{y}_i $</code>为正的情况）。</li>
+<li><strong>医疗诊断</strong>：更关注检测结果远低于预期的样本（即 <code>$ \hat{y}_i - y_i $</code>为正的情况）。</li>
+</ul>
+</li>
+<li>非对称度量允许针对特定方向定义“非符合性”，从而生成单侧置信区间或异常检测规则。</li>
+</ul>
+</li>
+<li>
+<p><strong>与通用框架的关系</strong></p>
+<ul>
+<li>非对称度量（如 2.33 和 2.34）是通用非符合性度量（公式 2.31）的特例。</li>
+<li><strong>通用框架</strong>（公式 2.31）：允许自定义非符合性函数，只需满足“可比较性”（即不同样本的非符合性分数可排序）。</li>
+<li><strong>非对称实现</strong>：通过调整符号（如 <code>$ y_i - \hat{y}_i $</code>或 <code>$ \hat{y}_i - y_i $</code>），将方向信息编码到分数中。</li>
+</ul>
+</li>
+</ol>
+<h3 id="示例说明"><strong>示例说明</strong></h3>
+<h4 id="场景-房价预测"><strong>场景：房价预测</strong></h4>
+<ul>
+<li><strong>对称度量</strong>：<code>$\alpha_i = |y_i - \hat{y}_i| $</code>
+<ul>
+<li>关注预测误差的绝对值，无论实际房价高于或低于预测。</li>
+</ul>
+</li>
+<li><strong>非对称度量</strong>：
+<ul>
+<li><strong>公式 2.33</strong>：<code>$\alpha_i = y_i - \hat{y}_i $</code>
+<ul>
+<li>正值越大，说明真实房价远高于预测（可能提示模型低估风险）。</li>
+</ul>
+</li>
+<li><strong>公式 2.34</strong>：<code>$\alpha_i = \hat{y}_i - y_i $</code>
+<ul>
+<li>正值越大，说明预测远高于真实房价（可能提示模型高估风险）。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="应用-生成单侧置信区间"><strong>应用：生成单侧置信区间</strong></h4>
+<ul>
+<li>若使用 <code>$\alpha_i = y_i - \hat{y}_i $</code> ，则可生成 <strong>上限区间</strong>（如“房价有 95% 概率低于 <code>$ \hat{y}_i + \Delta $</code>”）。</li>
+<li>若使用 <code>$\alpha_i = \hat{y}_i - y_i $</code> ，则可生成 <strong>下限区间</strong>（如“房价有 95% 概率高于 <code>$ \hat{y}_i - \Delta $</code>”）。</li>
+</ul>
+<h3 id="与-p-值的关系"><strong>与 p 值的关系</strong></h3>
+<ul>
+<li><strong>非对称度量影响 p 值计算</strong>：
+<ul>
+<li>p 值定义为“集合中非符合性分数大于等于当前样本的比例”。</li>
+<li>若使用 <code>$\alpha_i = y_i - \hat{y}_i $</code>，p 值小表示真实值显著高于预测（异常高值）；</li>
+<li>若使用 <code>$\alpha_i = \hat{y}_i - y_i $</code> ，p 值小表示真实值显著低于预测（异常低值）。</li>
+</ul>
+</li>
+</ul>
+<h3 id="总结"><strong>总结</strong></h3>
+<ul>
+<li><strong>对称 vs 非对称</strong>：
+<ul>
+<li>对称度量关注偏差的“量级”，非对称度量关注偏差的“方向”。</li>
+</ul>
+</li>
+<li><strong>实际价值</strong>：
+<ul>
+<li>允许模型针对业务需求（如风险偏好、单侧异常检测）灵活调整置信区间或异常判定规则。</li>
+</ul>
+</li>
+<li><strong>理论一致性</strong>：
+<ul>
+<li>非对称度量仍属于保形预测的通用框架，仅通过函数设计引入方向信息。</li>
+</ul>
+</li>
+</ul>
+<h2 id="重对数律">重对数律</h2>
+<p><strong>重对数律（Law of the Iterated Logarithm, LIL）</strong> 是概率论中描述独立同分布随机变量部分和波动性的精确渐近结果。它刻画了随机波动幅度的上下极限，揭示了大数定律和中心极限定理之间的更深层规律。</p>
+<h3 id="核心定义"><strong>核心定义</strong></h3>
+<p>设 <code>$X_1, X_2, \dots $</code>是独立同分布（i.i.d.）的随机变量，满足：</p>
+<ul>
+<li>均值 <code>$\mathbb{E}[X_i] = \mu $</code></li>
+<li>方差 <code>$\text{Var}(X_i) = \sigma^2 &lt; \infty $</code></li>
+</ul>
+<p>定义部分和 <code>$S_n = X_1 + X_2 + \dots + X_n $</code>，则重对数律表明：</p>
+<p>$$
+\limsup_{n \to \infty} \frac{S_n - n\mu}{\sigma \sqrt{2n \log \log n}} = 1 \quad \text{a.s.}
+$$</p>
+<p>$$
+\liminf_{n \to \infty} \frac{S_n - n\mu}{\sigma \sqrt{2n \log \log n}} = -1 \quad \text{a.s.}
+$$</p>
+<p>即部分和的偏差被限制在 <code>$\pm \sigma \sqrt{2n \log \log n} $</code>内，且此界限是紧的（几乎必然达到）。</p>
+<h3 id="直观解释"><strong>直观解释</strong></h3>
+<ol>
+<li>
+<p><strong>波动范围的精确刻画</strong></p>
+<ul>
+<li><strong>大数定律</strong>： <code>$S_n / n \to \mu $</code>（均值收敛）。</li>
+<li><strong>中心极限定理</strong>：偏差按 <code>$\sqrt{n} $</code>增长，服从正态分布。</li>
+<li><strong>重对数律</strong>：进一步给出偏差的极值波动幅度，由 <code>$ \sqrt{n \log \log n} $</code>主导，精确到常数因子 <code>$\sigma \sqrt{2} $</code>。</li>
+</ul>
+</li>
+<li>
+<p><strong>“几乎必然”收敛</strong>
+波动幅度在无限次观测中会被无限次接近上述上下界，但不会持续超出。</p>
+</li>
+</ol>
+<h3 id="关键意义"><strong>关键意义</strong></h3>
+<ol>
+<li>
+<p><strong>理论深度</strong></p>
+<ul>
+<li>填补了大数定律（收敛性）与中心极限定理（分布形态）之间的空白，描述了极值波动的渐近行为。</li>
+</ul>
+</li>
+<li>
+<p><strong>应用场景</strong></p>
+<ul>
+<li><strong>随机过程分析</strong>：如布朗运动的路径性质。</li>
+<li><strong>统计推断</strong>：评估估计量的收敛速度。</li>
+<li><strong>金融数学</strong>：资产价格波动幅度的极端情况建模。</li>
+</ul>
+</li>
+</ol>
+<h3 id="示例说明-1"><strong>示例说明</strong></h3>
+<p>考虑一个简单对称随机游动（如抛硬币）：</p>
+<ul>
+<li>每次步长 <code>$X_i $</code>为 +1 或 -1，概率各 0.5。</li>
+<li>均值 <code>$\mu = 0 $</code>，方差 <code>$ \sigma^2 = 1 $</code>。</li>
+</ul>
+<p>根据重对数律，部分和 <code>$S_n $</code>的极值波动满足：
+`$$
+\limsup_{n \to \infty} \frac{S_n}{\sqrt{2n \log \log n}} = 1 \quad \text{a.s.}
+$$</p>
+<p>这意味着，当 <code>$ n $</code>极大时，随机游动的路径几乎必然会在 <code>$\pm \sqrt{2n \log \log n} $</code>之间无限次触碰边界，但不会持续超出。</p>
+<h3 id="与其他定理的关系"><strong>与其他定理的关系</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>定理</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>缩放因子</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大数定律 (LLN)</td>
+<td>均值收敛</td>
+<td><code>$ n $</code></td>
+</tr>
+<tr>
+<td>中心极限定理 (CLT)</td>
+<td>偏差分布趋近正态</td>
+<td><code>$\sqrt{n} $</code></td>
+</tr>
+<tr>
+<td>重对数律 (LIL)</td>
+<td>极值波动的上下限</td>
+<td><code>$ \sqrt{n \log \log n} $</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="注意事项"><strong>注意事项</strong></h3>
+<ul>
+<li><strong>独立性假设</strong>：随机变量必须独立同分布。</li>
+<li><strong>方差有限性</strong>：若方差无限，结论可能不成立。</li>
+<li><strong>多维推广</strong>：存在高维版本，但形式更复杂。</li>
+</ul>
+<h3 id="总结-1"><strong>总结</strong></h3>
+<p>重对数律揭示了随机变量部分和的极值波动被严格约束在 <code>$\pm \sigma \sqrt{2n \log \log n} $</code> 内，是概率论中对随机性本质的深刻刻画，为理解复杂随机现象提供了理论基石。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>多重假设检验</title>
+      <link>/cn/2024/11/25/storey/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2024/11/25/storey/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>汇报人：唐洁
+内容：两个方面。第一个，初代Storey方法；第二个，变种Storey方法。围绕提出动机，如何解释，实际效果展开讲述。</p>
+</blockquote>
+<h1 id="主题-了解storey方法">主题：了解Storey方法</h1>
+<h2 id="研究问题-多重假设检验">研究问题：多重假设检验</h2>
+<p>单个假设检验的思想方法是在控制第一类错误的基础上控制第二类错误，保证两类错误的概率分别能在 <code>$\alpha$</code> 和 <code>$\beta$</code> 内。</p>
+<p>与单个假设检验相对的概念是多重假设检验。</p>
+<p>与单个假设检验一样，多重假设检验可以看作一个检验族，它的重要任务就是控制第一类错误概率的前提下提高检验的功效，尽可能多的发现显著性检验。</p>
+<p>多重假设检验的首要问题是怎样定义“错误”，即，错误测度。</p>
+<h2 id="研究背景">研究背景</h2>
+<p>随着科学技术的不断发展，当前生物学、医学、金融等发展背景下，高维数据不断涌现，由此导致的传统统计分析方法不再适用。多重假设检验作为分析高维数据的一个重要基础，得到了越来越多的关注。</p>
+<h2 id="研究现状">研究现状</h2>
+<ul>
+<li>family-wise error rate (FWER) - Shaffer(<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=S+HAFFER+%2C+J.+%281995%29.+Multiple+hypothesis+testing%3A+A+review.+Annual+Review+of+Psychology+46+561%E2%80%93584.&amp;btnG=">1995</a>)</li>
+<li>false discovery rate (FDR) - BH(<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=B+ENJAMINI+%2C+Y.+and+H+OCHBERG+%2C+Y.+%281995%29.+Controlling+the+false+discovery+rate%3A+A+practical+and+powerful+approach+to+multiple+testing.+J.+Roy.+Statist.+Soc.+Ser.+B+57+289%E2%80%93300.&amp;btnG=">1995</a>)</li>
+<li>positive false discovery rate (pFDR) - Storey (<a href="https://academic.oup.com/jrsssb/article/64/3/479/7098513">2002</a>, <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-31/issue-6/The-positive-false-discovery-rate--a-Bayesian-interpretation-and/10.1214/aos/1074290335.full">2003</a>)
+<ul>
+<li>Difference of Slopes Storey (DOS-Storey) - <a href="https://arxiv.org/search/stat?searchtype=author&amp;query=Kostic,+A">Anica Kostic</a> and <a href="https://arxiv.org/search/stat?searchtype=author&amp;query=Fryzlewicz,+P">Piotr Fryzlewicz</a> (2023)</li>
+</ul>
+</li>
+<li>a model-free FDR-controlling  procedure - Barber and Candes (2015)</li>
+<li>e-value - Grunwald et al. (2020)， Shafer (2021)， Vovk and Wang (2021)， Xu et al. (2021)， Ignatiadis et al. (2022)， <strong>Wang and Ramdas (2022)</strong>，Dunn et al. (2023)， Xu and Ramdas (2023)</li>
+<li><a href="https://candes.su.domains/teaching/stats300c/index.html">Stats 300C</a> - 李冠巡老师推荐多重假设检验理论介绍</li>
+</ul>
+<h2 id="符号引入">符号引入</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:left">落入接受域</th>
+<th style="text-align:left">落入拒绝域</th>
+<th style="text-align:center">总数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>$H_0$</code></td>
+<td style="text-align:left">U</td>
+<td style="text-align:left">V：犯第一类错误的总数</td>
+<td style="text-align:center"><code>$m_0$</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>$H_1$</code></td>
+<td style="text-align:left">T：犯第二类错误的总数</td>
+<td style="text-align:left">S</td>
+<td style="text-align:center"><code>$m_1$</code></td>
+</tr>
+<tr>
+<td style="text-align:center">总数</td>
+<td style="text-align:left">W</td>
+<td style="text-align:left">R：拒绝原假设的总个数</td>
+<td style="text-align:center"><code>$m$</code></td>
+</tr>
+</tbody>
+</table>
+<p>其中，<code>$m$</code>已知。<code>$m_0$</code>是基于 <code>$p$</code> 值在不同假设下分布的差异性。U、V、T、S在检验中都是不可观察的随机变量，W、R是可观察的随机变量。</p>
+<p>对于多个假设检验的最首要的问题是如何控制错误拒绝原假设的个数V或者犯错比率V/R。</p>
+<p>因此，多重假设检验问题就是制定一种合理的检验法则来控制犯第一类错误的概率，并且使得检验功效达到最大。</p>
+<p>检验法则根据错误测度不同而不同。</p>
+<h2 id="历史方法">历史方法</h2>
+<h3 id="fwer">FWER</h3>
+<ul>
+<li>
+<p><strong>定义</strong>：至少出现一次假阳性事件（本为原假设判拒）<code>$ \Pr(V \geq 1)$</code></p>
+</li>
+<li>
+<p><strong>优缺点</strong>：</p>
+<ul>
+<li>
+<p>优点：总体犯第一类错误控制在<code>$\alpha$</code>内。</p>
+</li>
+<li>
+<p>缺点：<code>$m \to \infty$</code>，犯第一类错误的概率为 <code>$1-(1-\alpha)^m \to 1$</code>，失控</p>
+</li>
+<li>
+<p>缺点：<code>$m \to \infty$</code>，每个假设检验的<code>$ p$</code> 值要 <code>$\leq \alpha/m$</code>，严苛</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Bonferroni 过程</strong>：</p>
+<ul>
+<li><code>$m$</code>个假设检验，给定检验水平<code>$\alpha$</code>，</li>
+<li>设置截断点<code>$S = \cfrac{\alpha}{m}$</code>；</li>
+<li>如果<code>$p_i \le S$</code>，拒绝原假设<code>$H_{0i}$</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Step-down 过程</strong>：</p>
+<ul>
+<li><code>$m$</code>个假设检验，给定检验水平<code>$\alpha$</code></li>
+<li><code>$ p$</code> 值排序从小到大</li>
+<li>截断点<code>$S_i=\cfrac{\alpha}{m-i+1}$</code></li>
+<li>如果<code>$p_{(i)} \le S_i \le \cfrac{\alpha}{m}$</code>，拒绝原假设<code>$H_{0i}$</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Step-up 过程</strong>：</p>
+<ul>
+<li><code>$ p$</code> 值排序从大到小</li>
+</ul>
+</li>
+</ul>
+<p>考虑到<code>$m \to \infty$</code>时，犯错不可控，根据实际情况，将检验关心的问题更改为：</p>
+<p>尽量识别出差异，能够容忍和允许在R次拒绝中发生少量的错误识别。</p>
+<p>换而言之，允许犯错更多一点，错误测度可以再宽松一点。</p>
+<p>因此，比起控制 <code>$ \Pr(V \geq 1)$</code>，现在是控制<code>$\frac{V}{R} \leq \alpha$</code> 。</p>
+<p><code>$\frac{V}{R} \to 0$</code>，所有拒绝中全部判对，无失误，</p>
+<p><code>$\frac{V}{R} \to 1$</code>，所有拒绝中全部判错，全失误。</p>
+<p>但 <code>$R = 0$</code> 给定义造成困难，解决方案：（A）<code>$E(\frac{V}{R} | R &gt; 0) \Pr(R &gt; 0)$</code> （B）<code>$E(\frac{V}{R} | R &gt; 0)$</code> （C）<code>$\frac{E(V)}{E(R)}$</code></p>
+<h3 id="fdr">FDR</h3>
+<ul>
+<li>
+<p><strong>定义</strong>：在所有拒绝次数中错误发现的期望比例。<code>$PFD = E(\frac{V}{R \bigvee 1}) = E(\frac{V}{R} | R &gt; 0) \Pr(R &gt; 0)$</code></p>
+</li>
+<li>
+<p><strong>优缺点</strong>：</p>
+</li>
+<li>
+<p>优点：<code>$FDR \le \alpha$</code></p>
+</li>
+<li>
+<p>优点：当<code>$m=m_0$</code>时，FWER=FDR；当<code>$m&gt;m_0$</code>时，FWER &gt; FDR；FDR比FWER宽松，检验功效大大提高。</p>
+</li>
+<li>
+<p>缺点：</p>
+</li>
+<li>
+<p><strong><a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=B+ENJAMINI+%2C+Y.+and+H+OCHBERG+%2C+Y.+%281995%29.+Controlling+the+false+discovery+rate%3A+A+practical+and+powerful+approach+to+multiple+testing.+J.+Roy.+Statist.+Soc.+Ser.+B+57+289%E2%80%93300.&amp;btnG=">BH</a>过程</strong>：</p>
+<ul>
+<li><code>$m$</code>个假设检验，给定检验水平<code>$\alpha$</code></li>
+<li><code>$p$</code> 值从小到大排序</li>
+<li>找到截断点<code>$S_i=\cfrac{i}{m}\alpha$</code></li>
+<li>如果<code>$p_{(i)} \le S_i$</code>，拒绝原假设<code>$H_{0i}$</code>。（换而言之，找到<code>$p_{(\hat{k})}$</code>， <code>$\hat{k} = \max \{k: p_{(k)} \le \frac{k}{m} \alpha\}$</code>， 拒绝前 <code>$k$</code> 个原假设）</li>
+<li>得到相应的调整后的 <code>$p$</code> 值</li>
+</ul>
+</li>
+</ul>
+<p>对截断点的选取不同，方法名称不同，如：Benjamini and Liu (1999)，Benjamin and Yekutieli (2001)，</p>
+<p>随着对FDR控制方法的深入研究，发现在假设检验中引入<strong>正确原假设比例的估计</strong><code>$\pi_0 = \cfrac{m_0}{m}$</code><strong>能提高检验的功效</strong>，找到更多的显著变量，同时也能很好地控制第一类错误在一个合理的范围内。于是，很多研究提出对于正确原假设比例的估计方法，如：<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=BENJAMINI+Y%EF%BC%8CHOCHBERG+Y%EF%BC%8EThe+adaptive+control+of+the+false+discovery+rate+in+multiple+hypothesis+testing+with+independent+test+statistics%5BJ%5D+%EF%BC%8E+Journal+of+Educational+Behavior+Statistics%EF%BC%8C2001%EF%BC%8C25%281%29%EF%BC%9A60-83.&amp;btnG=">最低斜率估计法</a>，<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=**STOREY+J+D%EF%BC%8EA+direct+approach+to+false+discovery+rates%5BJ%5D%EF%BC%8EJournal+of+the+Royal+Statistical+Society%EF%BC%8C2002%EF%BC%8C64%283%29%EF%BC%9A477-498%EF%BC%8E&amp;btnG="><code>$\lambda$</code> 估计法</a>，<a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=LANGAAS+M%EF%BC%8CFERKINGSTAD+E%EF%BC%8CLINDQVIST+BH%EF%BC%8EEstimating+the+proportion+of+true+null+hypotheses%EF%BC%8Cwith+application+to+DNA+microarray+data%5BJ%5D%EF%BC%8EJournal+of+the+Royal+Statistical+Society%EF%BC%8C2005%EF%BC%8C67%284%29%EF%BC%9A555-572%EF%BC%8E&amp;btnG=">减密度估计法</a>。</p>
+<h2 id="storey方法">Storey方法</h2>
+<ul>
+<li>
+<p><strong>想法提出</strong> - The positive false discovery rate: A bayesian interpretation and the q-value (Storey, <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-31/issue-6/The-positive-false-discovery-rate--a-Bayesian-interpretation-and/10.1214/aos/1074290335.full">2003</a>)</p>
+</li>
+<li>
+<p><strong>实现步骤</strong> - A direct approach to false discovery rates (Stoter, <a href="https://academic.oup.com/jrsssb/article/64/3/479/7098513">2002</a>)</p>
+</li>
+<li>
+<p><strong>具体应用</strong> -</p>
+</li>
+</ul>
+<h3 id="pfdr">pFDR</h3>
+<ul>
+<li>
+<p><strong>定义</strong>：阳性错误拒绝率，阳性指的是基于至少拒绝一个原假设的事实。<code>$pFDR = E(\frac{V}{R} | R &gt; 0)$</code>。Storey ( <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-31/issue-6/The-positive-false-discovery-rate--a-Bayesian-interpretation-and/10.1214/aos/1074290335.full">2003</a>)</p>
+</li>
+<li>
+<p><strong>想法</strong>：考虑到<code>$m \to \infty$</code>时，<code>$ \Pr(R &gt; 0) \to 1$</code>，有 <code>$E(\frac{V}{R} | R &gt; 0) \Pr (R &gt; 0) \to E(\frac{V}{R} | R &gt; 0)$</code>。</p>
+</li>
+<li>
+<p><strong>优点</strong>：</p>
+<ul>
+<li>好解释性，在已知原假设的先验概率下，<code>$ pFDR = \Pr (H=0|T \in \Gamma)$</code>，当拒绝原假设时，该假设为真实原假设的概率。</li>
+<li>贝叶斯角度，<code>$pFDR = \Pr (H=0|T \in \Gamma) = \cfrac{\pi_0 \Pr(T \in \Gamma|H=0)}{ \Pr(T \in \Gamma)} = \cfrac{\pi_0  \Pr(T \in \Gamma|H=0)}{\pi_0 \Pr(T \in \Gamma|H=0) + \pi_1 \Pr(T \in \Gamma|H=1)}$</code>，可看出，第一类错误越小，功效函数越高，<code>$pFDR$</code>越小，该表达式为第一类错误<a href="https://jesseyule.github.io/machinelearning/bayesian/content.html">贝叶斯后验概率</a>。</li>
+<li>实验上，比起FDR，同样的错误控制率但功效高。</li>
+<li>理论上，</li>
+</ul>
+</li>
+<li>
+<p><strong>缺点</strong>：</p>
+</li>
+<li>
+<p><strong><code>$pFDR$</code> 与 <code>$FDR$</code> 的估计</strong> - Storey (<a href="https://academic.oup.com/jrsssb/article/64/3/479/7098513">2002</a>）：</p>
+<ul>
+<li>
+<p>将拒绝域换成<code>$\{P \le \gamma\}$</code>，则 <code>$pFDR = \cfrac{\pi_0 \Pr(T \in \Gamma|H=0)}{\Pr(T \in \Gamma)} = \cfrac{\pi_0\Pr(P \le \gamma|H=0)}{ \Pr(P \le \gamma)} = \cfrac{\pi_0 \gamma }{\Pr(P \le \gamma)}$</code> （<a href="https://fengchao.pro/blog/proof-that-p-values-under-the-null-are-uniformly-distributed/">为什么 P 值是均匀分布的？</a>）</p>
+</li>
+<li>
+<p><code>$\hat{m}_0 = \cfrac{\#\{p_i &gt; \lambda\}}{1-\lambda}$</code></p>
+</li>
+<li>
+<p><code>$\hat{\pi}_0 = \cfrac{\hat{m}_0}{m} = \cfrac{ \#\{ p_i &gt; \lambda\} /m }{(1-\lambda)} \triangleq \cfrac{W(\lambda) / m}{(1-\lambda)}$</code></p>
+</li>
+<li>
+<p><code>$\widehat{ \Pr}(P \le \gamma) = \cfrac{ \#\{ p_i \le \gamma\} }{m} = \cfrac{R(\gamma)}{m}$</code></p>
+</li>
+<li>
+<p><code>$\widehat{pFDR}_1 = \cfrac{\hat{\pi}_0 \gamma }{\widehat{ \Pr}(P \le \gamma)}= \cfrac{W(\lambda) \gamma}{(1-\lambda)R(\gamma)}$</code> (大样本估计)，(Storey (<a href="https://academic.oup.com/jrsssb/article/64/3/479/7098513">2002</a>)，Section6证明是个好的渐近估计)</p>
+</li>
+<li>
+<p><code>$\widehat{pFDR}_2 = \cfrac{\hat{ \pi}_0 \gamma }{\widehat{\Pr}(P \le \gamma)\{1-(1-\gamma)^m \}}= \cfrac{W(\lambda) \gamma}{(1-\lambda) \{ R(\gamma) \bigvee 1 \}\{1-(1-\gamma)^m \}}$</code> (小样本估计)</p>
+</li>
+<li>
+<p><code>$\widehat{FDR}_{\lambda}(\gamma) = \cfrac{\hat{\pi}_0 \gamma }{\widehat{ \Pr}(P \le \gamma)}= \cfrac{W(\lambda) \gamma}{(1-\lambda) \{ R(\gamma) \bigvee 1 \}}$</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Storey过程</strong>：</p>
+<ul>
+<li><code>$m$</code> 个假设检验，给定检验水平<code>$\alpha$</code>，给定<code>$\lambda$</code>，计算 <code>$ p$</code> 值</li>
+<li>计算 <code>$\hat{\pi}_0(\lambda) =\cfrac{W(\lambda)}{(1-\lambda)m}$</code> 和 <code>$\widehat{ \Pr}(P \le \gamma) = \cfrac{R(\gamma) \bigvee 1}{m}$</code>，其中 <code>$W(\lambda) = \#\{ p_i &gt; \lambda\} $</code>，<code>$R(\gamma) = \#\{ p_i \le \gamma\} $</code></li>
+<li>计算 <code>$\widehat{pFDR}_{\lambda}(\gamma) = \cfrac{\hat{\pi}_0 \gamma }{\widehat{\Pr}(P \le \gamma)\{1-(1-\gamma)^m \}}$</code></li>
+<li>B个Bootstrap抽样，<code>$b = 1, \dots, B$</code>，计算 <code>$\widehat{pFDR}_{\lambda}^{*b}(\gamma) $</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="借鉴storey思想的论文">借鉴Storey思想的论文：</h3>
+<h4 id="1-使用storey提出的-hat-m-0-lambda-作为检验过程的一环">1. 使用Storey提出的<code>$\hat{m}_0(\lambda)$</code>作为检验过程的一环</h4>
+<ul>
+<li><strong>ALBH过程</strong>：
+<ul>
+<li><code>$m$</code> 个假设检验，给定检验水平<code>$\alpha$</code>，给定<code>$\lambda$</code></li>
+<li><code>$ p$</code> 值从小到大排序</li>
+<li>计算 <code>$\hat{m}_0 = \cfrac{\#\{p_i &gt; \lambda\}}{1-\lambda}$</code>（<code>$\hat{m}_0$</code>依赖 <code>$\lambda$</code> 的选取，建议取0.5或者 <code>$ p$</code> 值中位数。）</li>
+<li>计算 <code>$\alpha^* = \cfrac{m\alpha}{\hat{m}_0}$</code></li>
+<li>调用BH过程，以 <code>$\alpha^* $</code> 代替 <code>$\alpha$</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提供storey方法中-lambda-的估计方法">2. 提供Storey方法中<code>$\lambda$</code>的估计方法</h4>
+<ul>
+<li><strong>DOS-Storey过程</strong>：
+<ul>
+<li>变点方法估计<code>$\lambda$</code>，<code>$ \lambda = p_{\hat{k}} \Rightarrow \hat{m}_0 = \cfrac{\#\{p_i &gt; p_{\hat{k}}\}}{1-p_{\hat{k}}} \Rightarrow \hat{\pi}_0(p_{\hat{k}}) = \cfrac{\# \{ p_i &gt; p_{\hat{k}} \}/m }{(1-p_{\hat{k}})} = \cfrac{1 - \# \{ p_i \le p_{\hat{k}} \}/m }{(1-p_{\hat{k}})} = \cfrac{1 - \hat{k}/m }{(1-p_{\hat{k}})}$</code></li>
+<li><code>$ \hat{\pi}_0(p_{\hat{k}}) =\cfrac{1- \hat{F}_n(p_{\hat{k}}) } {1-p_{\hat{k}}} \Rightarrow \hat{\pi}_1(p_{\hat{k}}) =\cfrac{\hat{F}_n(p_{\hat{k}}) - p_{\hat{k}}} {1-p_{\hat{k}}} = \cfrac{ \hat{k}/m  - p_{\hat{k}}}{1-p_{\hat{k}}}$</code></li>
+<li><code>$\hat{k}_{\alpha} = \arg \max_{nc_n \le i \le n/2} d_{\alpha}(i) $</code></li>
+<li><code>$d_{\alpha}(i) = \cfrac{p_{(2i)} - p_{(i)}}{i^{\alpha}} - \cfrac{p_{(i)}}{i^{\alpha}}$</code>，<code>$\alpha \in (1/2, 1)$</code></li>
+</ul>
+</li>
+<li><strong><a href="https://kns.cnki.net/kns8s/defaultresult/index?crossids=YSTT4HG0%2CLSTPFY1C%2CJUP3MUPD%2CMPMFIG1A%2CWQ0UVIAA%2CBLZOG7CK%2CPWFIRAGL%2CEMRPGLPA%2CNLBO1Z6R%2CNN3FJMUV&amp;korder=SU&amp;kw=A%20Change-Point%20Approach%20to%20Estimating%20the%20Proportion%20of%20False%20Null%20Hypotheses%20in%20Multiple%20Testing">变点方法</a></strong>：
+<ul>
+<li><strong>定义</strong>：在统计学中，变点指的是在某一位置或时刻，数据或观测值发生显著变化的点。在这个点之前和
+之后，数据遵循两个不同的模型或分布，反映了事物的某种特征发生了改变。（<a href="https://kns.cnki.net/kcms2/article/abstract?v=iAN2XHIMbKuxEiPhNkux31bh9rUPt1L-FlfO5YI3NhJDuPFvIjxU1SJAfSJN9RwULPuiR7NwYtnXl-hpipqTMaL3a9gu1GbW0gs6BbC_Sg5u7Y221ebWVnl6eBC5lu0CB_OVwhpHRJntGgVtfdIAFeJSI6xiy6lXlSConMDjcvIzJKLwFKTg0PdM-OBQcEX2gh8dq5yM_PVYgF6ww2Fpfw==&amp;uniplatform=NZKPT">删失回归模型中的变点问题研究</a>）</li>
+<li><strong>意义</strong>：对于理解和预测数据的动态变化具有重要意义。</li>
+<li><strong>应用</strong>：在<strong>质量控制领域</strong>，在生产过程中，人们往往需要监测生产数据的变化，以便及时发现并解决潜在的问题，在这种情况下，变点就可能表示生产过程中某种因素发生了改变， 比如原材料的更换、设备故障等。通过研究变点，质量控制专家可以更好地了解生产过程变化，并及时采取措施来确保产品质量。在<strong>经济领域</strong>，变点可以用来研究货币政策调整、股市波动等因素变化。在<strong>医学领域</strong>，变点可以帮助研究者更好地理解药物的疗效机制，以及制定更合理的治疗方案。变点模型用于研究气候突变、灾异事件以及地质过程的变化。通过对气候和地质数据的分析，可以识别出数据中的变点，进而了解这些自然现象的变化规律和趋势。</li>
+<li><strong>研究方向</strong>：一是估计变点位置，二是对变点存在性进行检验，三是检测变点个数。</li>
+</ul>
+</li>
+</ul>
+<h2 id="研究空间">研究空间：</h2>
+<ul>
+<li>选择更好 <code>$\lambda$</code> 估计 pFDR值</li>
+<li>e-value代替p-value</li>
+<li>应用到各种高维数据集上</li>
+</ul>
+<h2 id="总结">总结：</h2>
+<ol>
+<li>Storey方法：
+<ul>
+<li>动机：更合理的PDF度量</li>
+<li>贝叶斯解释：给定假设性下，是后验贝叶斯概率</li>
+<li>如何选择拒绝域：人为给定？</li>
+</ul>
+</li>
+<li>DOS-Storey方法：
+<ul>
+<li>动机：给出更好的 <code>$\hat{\pi}_0(\lambda)$</code> 估计</li>
+<li>区别Storey地方：<code>$\lambda$</code> 取最大变点位置的 <code>$p$</code> 值</li>
+<li>实际效果：应用场景广，不论稀疏或不稀疏；保持低偏差同时减少方差。</li>
+</ul>
+</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>经验过程</title>
+      <link>/cn/2024/11/25/empirical-process/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2024/11/25/empirical-process/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="经验过程">经验过程</h1>
+<h2 id="书籍推荐">书籍推荐</h2>
+<ul>
+<li>
+<p><a href="https://sites.stat.washington.edu/people/jaw/RESEARCH/TALKS/Delft/emp-proc-delft-big.pdf#page=29.10">EMPIRICAL PROCESSES: Theory and Applications.</a></p>
+</li>
+<li>
+<p><a href="https://zh.z-lib.gl/book/535788/b11796/weak-convergence-and-empirical-processes.html">Weak convergence and empirical processes (1996).</a> Aad van der Vaart, Jon Wellner</p>
+</li>
+<li>
+<p><a href="https://zh.z-lib.gl/book/25469742/e11e5f/weak-convergence-and-empirical-processes-with-applications-to-statistics.html">Weak Convergence and Empirical Processes: With Applications to Statistics (2023).</a> A.W. van der Vaart • Jon A. Wellner</p>
+</li>
+<li>
+<p><a href="https://zh.z-lib.gl/book/3690514/f84568/empirical-processes-with-applications-to-statistics.html">Empirical Processes with Applications to Statistics.</a> Galen R. Shorack, Jon A. Wellner</p>
+</li>
+</ul>
+<h2 id="视频推荐">视频推荐</h2>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1qP411k7aG?spm_id_from=333.788.recommend_more_video.-1&amp;vd_source=813a147d7428303db620774cb1ec7ba8">经验过程开坑</a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>积累</title>
+      <link>/cn/2024/10/07/bnuz/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2024/10/07/bnuz/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="一些博主">一些博主</h3>
+<ul>
+<li><a href="https://www.cnblogs.com/leftnoteasy">LeftNotEasy</a> ：关注于 机器学习、数据挖掘、并行计算、数学</li>
+</ul>
+<h3 id="奇异值">奇异值</h3>
+<ul>
+<li><a href="https://blog.csdn.net/csyifanZhang/article/details/105937638">深度理解矩阵的奇异值，特征值</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/480389473">彻底搞懂矩阵奇异值分解（SVD）</a></li>
+</ul>
+<h3 id="算子范数">算子范数</h3>
+<ul>
+<li><a href="https://www.zhihu.com/column/matrix-learning">矩阵理论学习笔记</a></li>
+<li><a href="https://blog.csdn.net/weixin_41094315/article/details/112253105">数值分析6 - 向量范数、矩阵范数、算子范数概念</a></li>
+</ul>
+<h3 id="一些技巧">一些技巧</h3>
+<ul>
+<li><a href="https://xj.123147.top">科学上网</a></li>
+<li><a href="https://www.bilibili.com/read/cv16673703/">zotero一次性下载所有文献</a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>OOD学习</title>
+      <link>/cn/2024/08/02/ood/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2024/08/02/ood/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="sharon-li">Sharon Li</h2>
+<table>
+<thead>
+<tr>
+<th>网页</th>
+<th style="text-align:left">链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主页</td>
+<td style="text-align:left"><a href="https://pages.cs.wisc.edu/~sharonli/index.html">Sharon Li - UW Madison Computer Sciences</a></td>
+</tr>
+<tr>
+<td>代码</td>
+<td style="text-align:left"><a href="https://github.com/deeplearning-wisc/knn-ood">deeplearning-wisc/knn-ood: Code for ICML 2022 paper &ldquo;Out-of-distribution Detection with Deep Nearest Neighbors&rdquo;</a></td>
+</tr>
+<tr>
+<td>github</td>
+<td style="text-align:left"><a href="https://github.com/yixuanli">YixuanLi (Sharon Y. Li)</a></td>
+</tr>
+</tbody>
+</table>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>专家</title>
+      <link>/cn/2023/08/15/drs/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/08/15/drs/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="王建军-http-math-swu-edu-cn-info-1019-2612-htm"><a href="http://math.swu.edu.cn/info/1019/2612.htm">王建军</a></h3>
+<h3 id="张师超-http-www-globalauthorid-com-webportal-authorview-wd-gaid10125982-rc-37037a"><a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a></h3>
+<h3 id="朱晓峰-http-www-globalauthorid-com-webportal-authorview-wd-gaid10127811-rc-013f3e"><a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a></h3>
+<ul>
+<li><a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a></li>
+<li><a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>李红权</title>
+      <link>/cn/2023/08/15/li/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/08/15/li/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="李红权-https-sxy-hunnu-edu-cn-info-1054-2670-htm"><a href="https://sxy.hunnu.edu.cn/info/1054/2670.htm">李红权</a></h2>
+<h3 id="英文">英文</h3>
+<ol>
+<li><strong>Hongquan Li</strong>, Zhihong Yi. <a href="https://sci-hub.st/downloads/2019-11-24/5d/li2019.pdf#navpanes=0&amp;view=FitH">Portfolio selection with coherent investor’s expectations under uncertainty</a> [J]. <em>Expert Systems With Applications</em>, 2019, 133:49-58.</li>
+<li><strong>Hongquan Li</strong>, Zhihong Yi, Yong Fang. <a href="https://sci-hub.st/tree/0a/19/0a19e4f23dfba0ea77c73f6ace589230.pdf#navpanes=0&amp;view=FitH">Portfolio selection under uncertainty by the ordered modular average operator</a> [J]. <em>Fuzzy Optimization and Decision Making</em>, 2019, 18(1): 1-14.</li>
+<li>Zhihong Yi, <strong>Hongquan Li</strong>. <a href="https://sci-hub.ru/10.1002/int.21974">Triangular norm-based cuts and possibility characteristics of triangular intuitionistic fuzzy numbers for decision making</a> [J]. <em>International Journal of Intelligent Systems</em>, 2018, 33(6): 1165–1179.</li>
+<li><strong>Hongquan Li</strong>, et al. <a href="https://zero.sci-hub.st/5506/7f100299f2c2e364f779afd2b0474a40/li2015.pdf#navpanes=0&amp;view=FitH">Transaction Tax, Heterogeneous Traders and Market Volatility</a> [J]. <em>Kybernetes</em>, 2015, 44(5): 757-770.</li>
+<li><strong>Hongquan Li</strong>, Yongmiao Hong. <a href="https://moscow.sci-hub.st/1658/c8a407e2358c0bc49ef87c1933eaafcf/li2011.pdf#navpanes=0&amp;view=FitH">Financial volatility forecasting with range-based autoregressive volatility model</a> [J]. <em>Finance Research Letters</em>, 2011, 8(2): 69-76.</li>
+</ol>
+<h3 id="中文-https-kns-cnki-net-kcms2-author-detail-v-3uoqihg8c45ugik-loaz12zkvhzevn-porli7erqakr1r6sf3d14tubesnp2omfmjnx5nfxpfimmgpjx90xaizdprblnkwb32w-b9ewkupsqyp3-c-cp-imyathjifqu-uniplatform-nzkpt"><a href="https://kns.cnki.net/kcms2/author/detail?v=3uoqIhG8C45UgIk_lOaz12Zkvhzevn-PORLI7ErqaKr1r6Sf3d14tUbeSNP2OmFmJNX5NFXpFIMmgPJX90xaIZdprBLNkWb32W_b9EwkUPsqYP3-C-cp_ImYathjifqu&amp;uniplatform=NZKPT">中文</a></h3>
+<ol>
+<li><strong>李红权</strong>, 何敏园, 黄莹莹. 我国金融机构的系统重要性评估: 基于多元极值理论[J]. <em>中国管理科学</em>, 2020.</li>
+<li><strong>李红权</strong>, 曹佩文. CEO年龄与公司风险承担行为[J].<em>湖南师范大学社会科学学报</em>, 2020.</li>
+<li><strong>李红权</strong>, 何敏园, 周亮. 人民币在岸市场的国际影响力研究: 基于修正的溢出指数模型[J]. <em>系统工程理论与实践</em>, 2020.</li>
+<li><strong>李红权</strong>, 何敏园, 严定容. 国际金融风险传导的微观经济基础研究: 基于公司数据角度[J]. <em>金融评论</em>, 2017.</li>
+<li><strong>李红权</strong>, 洪永淼, 汪寿阳. 我国A股市场与美股、港股的互动关系研究: 基于信息溢出视角[J]. <em>经济研究</em>, 2011.</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>蔡宗武</title>
+      <link>/cn/2023/08/15/zong/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/08/15/zong/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="蔡宗武">蔡宗武</h2>
+<p>蔡宗武教授(Prof.Zongwu Cai)，美国堪萨斯大学经济系经济学教授，计量经济学Charles  Oswald教授，美国统计协会会员，美国经济协会会员，国际数理统计协会会员，泛华统计协会会员。主要研究领域为计量经济学、风险管理、数据分析建模、非线性和非平稳时间序列及其应用等。目前已在经济学、统计学以及金融学等期刊上发表论文110余篇，其中包括Econometric Theory、Journal of Econometrics和Journal of the American Statistical Association等计量经济学和统计学国际顶级期刊。担任过“中国留美经济学会”会长和Econometric Reviews、Econometric Theory和Journal of Business and Economic Statistics等期刊的副主编。</p>
+<h3 id="英文-https-so1-cljtscd-com-citations-hl-zh-cn-user-ohpedjyaaaaj-view-op-list-works-sortby-pubdate"><a href="https://so1.cljtscd.com/citations?hl=zh-CN&amp;user=oHPEDJYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">英文</a></h3>
+<h3 id="中文-https-kns-cnki-net-kcms2-author-detail-v-3uoqihg8c45ugik-loaz1zw8mvx0u3dz1t6v0wdoqcybnm4o5adardhga3jx70duojkl2bt3jcjsykfbfcy3pzav-onxbfgy3j-r5mawwg1qddcrgtlok3uxeitbfvkp-uniplatform-nzkpt"><a href="https://kns.cnki.net/kcms2/author/detail?v=3uoqIhG8C45UgIk_lOaz1zw8MVX0u3dz1t6v0WdOQCybnm4o5aDarDHga3JX70DuojKL2bT3JcJsykfbFCy3PZav-OnxbFGy3J_R5MAwWg1QDDCRGTlOK3UxeITBfvKp&amp;uniplatform=NZKPT">中文</a></h3>
+<ul>
+<li>2022-10-15 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=1&amp;recid=&amp;FileName=JLJX202204001&amp;DbName=CJFDLAST2022&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">宏观审慎与金融稳定：基于计量经济政策评估方法的研究</a></li>
+<li>2022-04-20 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=2&amp;recid=&amp;FileName=JJYJ202204010&amp;DbName=CJFDLAST2022&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">货币政策和宏观审慎政策双支柱调控框架效应研究</a></li>
+<li>2021-10-15 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=3&amp;recid=&amp;FileName=JLJX202104002&amp;DbName=CJFDLAST2021&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">部分条件分位数处理效应的估计</a></li>
+<li>2021-04-15 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=4&amp;recid=&amp;FileName=JLJX202102001&amp;DbName=CJFDLAST2022&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">基于面板数据的处置效应估计的计量方法最新进展</a></li>
+<li>2020-10-22 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=5&amp;recid=&amp;FileName=XTLL202110014&amp;DbName=CJFDLAST2021&amp;DbCode=CJFD&amp;yx=A&amp;pr=&amp;URLID=11.2267.N.20201022.1343.008">带有变量选择的协变量平衡倾向得分的估计：基于GMM-LASSO方法</a></li>
+<li>2020-09-23 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=6&amp;recid=&amp;FileName=XTLL202107003&amp;DbName=CJFDLAST2021&amp;DbCode=CJFD&amp;yx=A&amp;pr=&amp;URLID=11.2267.n.20200922.1715.004">企业风险信息披露与债券风险溢价——基于债券募集说明书的文本分析</a></li>
+<li>2020-04-25 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=7&amp;recid=&amp;FileName=XTLL202004001&amp;DbName=CJFDLAST2020&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">信息获利、道德风险与询价机构报价</a></li>
+<li>2019-04-25 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=8&amp;recid=&amp;FileName=XTLL201904008&amp;DbName=CJFDLAST2019&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">企业社会责任对现金持有价值的影响——基于分位数回归模型的研究</a></li>
+<li>2018-10-31 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=9&amp;recid=&amp;FileName=ZWGD201810001&amp;DbName=CJFDLAST2018&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">创新、内生增长与气候变化：2018年度诺贝尔经济科学奖得主的贡献简评</a></li>
+<li>2017-06-15 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=10&amp;recid=&amp;FileName=XTGC201703006&amp;DbName=CJFDLAST2017&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">企业盈余管理与流动性风险</a></li>
+<li>2012-04-15 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=11&amp;recid=&amp;FileName=XTLL201204003&amp;DbName=CJFD2012&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">人民币汇率的半参数预测模型</a></li>
+<li>2010-01-15 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=12&amp;recid=&amp;FileName=XTLL201001004&amp;DbName=CJFD2010&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">中国股市权证定价的带均值回归跳跃扩散模型</a></li>
+<li>2009-05-28 <a href="https://kns.cnki.net/kns8/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=13&amp;recid=&amp;FileName=XMDS200903006&amp;DbName=CJFD2009&amp;DbCode=CJFD&amp;yx=&amp;pr=&amp;URLID=">最小下偏矩套期保值比率估计研究——基于混合copula方法</a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>记一次腾讯会议</title>
+      <link>/cn/2023/04/03/meeting/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/04/03/meeting/</guid>
+      <description>
+        <![CDATA[
+        <p>今日周一，老师如以往一样很认真地给了我论文修改的意见。老师的风格就是干净利落，简洁明快，这基于老师看过思考过，才可以在会议上这么快速准确地找出论文存在的问题。可每一次，跟老师无论是长还是短地交涉之后，我总是要花点时间去平复一下心绪。并不是老师说了什么批评我的话，相反，他总是能站在你的角度考虑问题，共情到你的感受，并给出适合你的建议，一语中的，掷地有声。</p>
+<p>今天，老师说，将论文引言部分改一改，将相关论文附上，免得别人说我抄袭，自己做到问心无愧就行了。其实，从我的第一篇论文开始，我的成就感一直就不是很高。第一篇论文的模拟中的覆盖率其实距离名义水平还是有点远的，我觉得模拟效果不够好，不是很开心，总怀疑自己是不是错了。第二篇论文，相对而言，数学公式多一些，我也仍不觉得自己做了什么特别的事情，因为我只是将已有的结果进行验算，并不是自己算出来的，模式也是照搬的老师的。第三篇论文，我稍微感觉好一些，因为调整之后的覆盖率还是比较接近名义水平的，还是起到了效果，可是也是照搬之前的经验，并没有很大地突破。直到后来，探索第四篇和第五篇论文的时候，我才真的有一种兴奋感和成就感，因为老师给我了一些资料让自己去寻找突破口，现成能照搬的模拟效果都不好。我刚开始的时候，我也不知道自己能否找出一个突破的口子，我渴望模拟效果中，覆盖率能接近名义水平，甚至刚好等于名义水平。探索的心路历程是波折的，我希望做出成绩，现实又可能无功而返，丰满的理想与骨感的现实每天都交相辉映，稳住心态是我的日常个人必修课。当程序运行出来的那一刻，新方法的覆盖率非常非常接近名义水平的那一刻，心中的喜悦真的让我自己觉得，嗯，研究生可以毕业了，感觉自己来桂林读书就为了这个事情来的😄。当老师说，他也不能保证这个论文能不能中，但自己问心无愧就行了，那一刻，我真的很感谢老师能这么想，因为我就是这样想的，老师没有要求我要做得多出彩，他接受了我的平凡以及接纳了我论文写作水平有限的缺点。</p>
+<p>会议结束的时候，老师也关心了一下我目前找工作进展如何。我说，还没有找到工作的🙈。老师说，还是要有点追求，好好把论文写了，到时来师大一起合作新的东西（好像是这么说的）。有一种，你找不到工作，来我这，我给你活～哈哈～哎，我就是也有一点自我较劲，自打研究生读书以来，就没有靠自己赢一次，我是一个靠不断挑战来获得存在感和价值感的人，所以我会要求自己靠自己拼出来，我不能把师大当做备胎，师大是我尊重的地方，培养我的地方，我可以有二选一，然后放弃一个更好的选择去师大，而不是因为没有选择去师大。我的想法注定使我走很多弯路，会碰壁，但是就我一个人，时间都是自己的，我将继续背上我空空的行囊在江湖游历。谢谢老师，指出我的问题，我确实对自己要求太低了😂，他不仅是提供建议，更是行动上给你安排了，语言的巨人，行动的巨人！</p>
+<p>我现在感觉到自己写论文的瓶颈，就是语言水平不高，论文看得不够多，专业解剖不够深，但有个奔头。抓抓头，回头望，由第一的腾讯会议，老师花了2个小时，从论文的第一句话到最后一句话，帮我逐句逐句改，丝毫没有觉得说，这个学生怎么这么差，而是包容和理解，到现在，老师还是很认真地改我的论文，指出我的问题，我每次都有新的收获，我要说没成长，老师岂不是白忙活了。老师是手把手教我，也是这样手把手教的其他同学，老师学生可多了，但是他都是一碗水端平，以同样认真且真诚地态度对待，吾辈楷模👍。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>NBEL</title>
+      <link>/cn/2022/12/02/nbel/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/12/02/nbel/</guid>
+      <description>
+        <![CDATA[
+        <ul>
+<li>
+<p>曾力立. <a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.pdf"><code>高维线性回归模型下的经验似然</code></a></p>
+</li>
+<li>
+<p><a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/NBEL/PengL-2014-1.pdf"><code>高维线性模型经验似然检验</code></a> <a href="/papers/NBEL/PengL-2014-1-note.pdf">✓</a></p>
+<ul>
+<li>
+<p><a href="/papers/NBEL/PengL-2014-2.pdf"><code>高维线性模型经验似然检验</code></a></p>
+</li>
+<li>
+<p><a href="/papers/NBEL/WangR-2013.pdf"><code>Jacknife经验似然比检验两个高维均值是否相等问题</code></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Kitamura. <a href="/papers/NBEL/Kitamura-1997.pdf"><code>经验似然方法及弱相依过程</code></a> <a href="/papers/NBEL/Kitamura-1997-note.pdf">✓</a></p>
+</li>
+<li>
+<p><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷. <a href="/papers/HigDimen/TangCY-2010.pdf"><code>高维惩罚经验似然</code></a> <a href="/papers/HigDimen/TangCY-2010-note.pdf">✓</a></p>
+</li>
+<li>
+<p><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏. <a href="/papers/HigDimen/LengCL-2012.pdf"><code>惩罚经验似然与高维估计方程</code></a> <a href="/papers/HigDimen/LengCL-2012-note.pdf">✓</a></p>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>如何整理文献</title>
+      <link>/cn/2022/11/29/reference/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/11/29/reference/</guid>
+      <description>
+        <![CDATA[
+        <p>近期写材料，发现之前的文献是可以利用上的，但是曾经的我和现在的我，保存文献的方式不统一，这对再次引用文献这一步带来很大的不便。换而言之，抄自己的东西都抄得不是很愉快。那么如何让之后的工作开展得更丝滑呢，我觉得要做到如下几点：</p>
+<ol>
+<li>文献编码。</li>
+</ol>
+<blockquote>
+<p>文献和文献编码要有一一对应的关系，比如：“作者+空格+年份”，“作者+逗号+年份”。这样在两篇不同的材料之间，需要引用相同的文献时，可以无脑复制粘贴，不用将之前的编码格式再进行一次修改。尽量不要用数字1，2，3作为文献编码，这样会带来后期很大的麻烦。</p>
+</blockquote>
+<ol start="2">
+<li>文献格式。</li>
+</ol>
+<blockquote>
+<p>对自己阅读过的文献整理一份目录，有统一的引用格式，相当于建立自己的文献库，方便自己随时调用，也为修改文献格式带来很大的便利。</p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>知识版图扩建</title>
+      <link>/cn/2022/11/29/xuwangli/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/11/29/xuwangli/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="课外拓展">课外拓展</h2>
+<ul>
+<li>
+<p>卢一强. <a href="/papers/XuWangli/%E5%8D%A2%E4%B8%80%E5%BC%BA.pdf"><code>变系数混合模型的光滑样条推断</code></a></p>
+</li>
+<li>
+<p>李再兴. <a href="/papers/XuWangli/%E6%9D%8E%E5%86%8D%E5%85%B4.pdf"><code>大学课程第一堂课的教学探讨——以《数理统计》为例</code></a></p>
+</li>
+<li>
+<p>何胜美. <a href="/papers/XuWangli/%E4%BD%95%E8%83%9C%E7%BE%8E.pdf"><code>基于秩能量距离的超高维特征筛选研究</code></a></p>
+</li>
+<li>
+<p>陈松灿. <a href="/papers/XuWangli/%E9%99%88%E6%9D%BE%E7%81%BF.pdf"><code>基于随机投影的高维数据流聚类</code></a></p>
+</li>
+<li>
+<p>崔甲蓉. <a href="/papers/XuWangli/%E5%B4%94%E7%94%B2%E8%93%89-2019.pdf"><code>改进的基于图方法对真实原假设比例的估计</code></a></p>
+</li>
+<li>
+<p>崔甲蓉. <a href="/papers/XuWangli/%E5%B4%94%E7%94%B2%E8%93%89-2020.pdf"><code>基于经验分布函数的高维正态性检验</code></a></p>
+</li>
+<li>
+<p>石磊. <a href="/papers/XuWangli/%E7%9F%B3%E7%A3%8A.pdf"><code>物种间不确定性相互关系分析一种基于非参数估计的变系数模型</code></a></p>
+</li>
+<li>
+<p>金立斌. <a href="/papers/XuWangli/%E9%87%91%E7%AB%8B%E6%96%8C.pdf"><code>偏正态混合模型的惩罚极大似然估计</code></a></p>
+</li>
+<li>
+<p>张军舰. <a href="/papers/XuWangli/%E5%BC%A0%E5%86%9B%E8%88%B0.pdf"><code>非参数似然方法及其应用研究进展</code></a></p>
+</li>
+<li>
+<p>邱涛. <a href="/papers/XuWangli/%E9%82%B1%E6%B6%9B.pdf"><code>高维两样本位置参数秩和检验</code></a> <a href="/papers/XuWangli/%E9%82%B1%E6%B6%9B-note.pdf">✓</a></p>
+</li>
+<li>
+<p>朱利平. <a href="/papers/XuWangli/%E6%9C%B1%E5%88%A9%E5%B9%B3.pdf"><code>含发散维数自变量的单指标模型中方向向量的稳健估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2009-1.pdf"><code>双向分类随机效应模型中方差分量的估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2009-2.pdf"><code>线性混合效应模型中方差分量的估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2012.pdf"><code>线性混合模型方差分量的谱分解估计</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2007.pdf"><code>对部分线性模型用惩罚最小二乘最优光滑化的注记</code></a></p>
+</li>
+<li>
+<p>许王莉. <a href="/papers/XuWangli/XuWL-2022.pdf"><code>一个高维两样本均值检验问题</code></a></p>
+</li>
+</ul>
+<blockquote>
+<p>其中提到文献有，</p>
+</blockquote>
+<blockquote>
+<p>白志东. <a href="/papers/XuWangli/BaiZD-1996.pdf"><code>以两样本均值问题为例说明高维影响</code></a></p>
+</blockquote>
+<blockquote>
+<p>陈松溪. <a href="/papers/XuWangli/ChenSX-2010.pdf"><code>高维两样本检验应用于基因组测试</code></a></p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>高维在读论文</title>
+      <link>/cn/2022/11/29/higdimen/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/11/29/higdimen/</guid>
+      <description>
+        <![CDATA[
+        <!-- <font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
+<font style="background-color: #F0FFFF;">[✓](/papers/HigDimen/2-note.pdf)</font>
+<font style="background-color: #E6E6FA;">[](/papers/HigDimen/2-code.pdf)</font>
+-->
+<h2 id="高维数据-https-tang-jay-github-io-highdimen"><a href="https://tang-jay.github.io/HighDimen">高维数据</a></h2>
+<p><code>2007</code>. 石坚. <a href="/papers/HigDimen/ShiJ-2007.pdf"><code>高维线性模型中的经验似然</code></a>.
+<a href="/papers/HigDimen/Ghosh-1984.pdf"><code>文献5</code></a>.<a href="/papers/HigDimen/ShiJ-2000.pdf"><code>文献6</code></a>.<a href="/papers/HigDimen/Peter-1987.pdf"><code>文献7</code></a>
+<a href="/papers/HigDimen/ShiJ-2007-note.pdf">✓</a></p>
+<p><code>2009</code>. Hjort. <a href="/papers/HigDimen/Hjort-2009.pdf"><code>拓展经验似然范围</code></a></p>
+<p><code>2009</code>. 秦YL. <a href="/papers/HigDimen/QinYL-2009.pdf"><code>高维数据统计推断</code></a></p>
+<p><code>2009</code>. 陈松溪, 彭亮, 秦YL. <a href="/papers/HigDimen/ChenSX-2009.pdf"><code>数据维数对经验似然的影响</code></a>
+<a href="/papers/HigDimen/ChenSX-2009-note.pdf">✓</a></p>
+<p><code>2010</code>. <a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>, 冷琛雷. <a href="/papers/HigDimen/TangCY-2010.pdf"><code>高维惩罚经验似然</code></a>
+<a href="/papers/HigDimen/TangCY-2010-note.pdf">✓</a></p>
+<p><code>2012</code>. <a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>, 汤琤咏. <a href="/papers/HigDimen/LengCL-2012.pdf"><code>惩罚经验似然与高维估计方程</code></a>
+<a href="/papers/HigDimen/LengCL-2012-note.pdf">✓</a></p>
+<p><code>2013</code>. <a href="https://xueshu.studiodahu.com/citations?user=6z-xg3AAAAAJ&amp;hl=zh-CN&amp;oi=sra">Wang ZJ</a>. <a href="/papers/HigDimen/WangZJ-2013.pdf"><code>高维回归模型的校正经验似然</code></a></p>
+<p><code>2013</code>. <a href="https://xueshu.zidianzhan.net/citations?user=61q2xTYAAAAJ&amp;hl=zh-CN&amp;oi=sra">Heng Lian</a>. <a href="/papers/HigDimen/HengL-2013.pdf"><code>高维删失情形下部分线性比率危险模型的经验似然</code></a></p>
+<p><code>2014</code>. Nordmana, Lahiri. <a href="/papers/HigDimen/Nordmana-2014.pdf"><code>一篇综述关于经验似然方法应用于时间序列</code></a>
+<a href="/papers/HigDimen/Nordmana-2014-note.pdf">✓</a></p>
+<p><code>2015</code>. 常晋源, 陈松溪. <a href="/papers/HigDimen/ChangJY-2015.pdf"><code>高维一般经验似然于相依数据矩约束</code></a></p>
+<p><code>2017</code>. 常晋源, 陈松溪. <a href="/papers/HigDimen/ChangJY-2017.pdf"><code>高维经验似然估计方程新范围</code></a></p>
+<p><code>2020</code>. 常晋源, 陈松溪, 汤琤咏. <a href="/papers/HigDimen/ChangJY-2020.pdf"><code>数据经验似然推断</code></a></p>
+<p><code>2018</code>. 陈夏. <a href="/papers/HigDimen/ChenX-2018-1.pdf"><code>高维广义线性模型的惩罚拟似然SCAD估计</code></a></p>
+<p><code>2018</code>. 陈夏. <a href="/papers/HigDimen/ChenX-2018-2.pdf"><code>固定和自适应设计下高维广义线性模型的经验似然检验</code></a></p>
+<p><code>2020</code>. 张金廷. <a href="/papers/HigDimen/ZhangJT-2020.pdf"><code>基于L2范数的高维数据双因素方差分析方法</code></a></p>
+<p><code>2020</code>. 周杰. <a href="/papers/HigDimen/ZhouJ-2020.pdf"><code>基于随机矩阵理论的高维数据球形检验</code></a></p>
+<p><code>2021</code>. 刘锋. <a href="/papers/HigDimen/LiuF-2021.pdf"><code>高维数据下线性模型的序列相关检验</code></a></p>
+<h2 id="硕博论文">硕博论文</h2>
+<ul>
+<li>
+<p>周雅诗. <a href="/papers/HigDimen/%E5%91%A8%E9%9B%85%E8%AF%97.pdf"><code>关于高维协方差矩阵迹的若干估计</code></a></p>
+</li>
+<li>
+<p>胡浩. <a href="/papers/HigDimen/%E8%83%A1%E6%B5%A9.pdf"><code>一种新的高维两样本均值检验</code></a></p>
+</li>
+<li>
+<p>唐莹莹. <a href="/papers/HigDimen/%E5%94%90%E8%8E%B9%E8%8E%B9.pdf"><code>两类空间面板数据模型的变量选择</code></a></p>
+</li>
+<li>
+<p>马昀蓓. <a href="/papers/HigDimen/%E9%A9%AC%E6%98%80%E8%93%93.pdf"><code>相依误差下线性模型的经验似然</code></a></p>
+</li>
+<li>
+<p>文怡方. <a href="/papers/HigDimen/%E6%96%87%E6%80%A1%E6%96%B9.pdf"><code>部分函数型线性模型的高维惩罚经验似然</code></a></p>
+</li>
+<li>
+<p>刘琦. <a href="/papers/HigDimen/%E5%88%98%E7%90%A6.pdf"><code>广义线性模型的高维惩罚经验似然</code></a></p>
+</li>
+<li>
+<p>王富雅. <a href="/papers/HigDimen/%E7%8E%8B%E5%AF%8C%E9%9B%85.pdf"><code>海量高维数据的分位数回归</code></a></p>
+</li>
+<li>
+<p>曾云辉. <a href="/papers/HigDimen/%E6%9B%BE%E4%BA%91%E8%BE%89.pdf"><code>高维线性模型和部分线性模型的相合统计推断</code></a></p>
+</li>
+<li>
+<p>马莹莹. <a href="/papers/HigDimen/%E9%A9%AC%E8%8E%B9%E8%8E%B9.pdf"><code>高维数据均值和协差阵检验的经验似然方法</code></a></p>
+</li>
+<li>
+<p>李玲玲. <a href="/papers/HigDimen/%E6%9D%8E%E7%8E%B2%E7%8E%B2.pdf"><code>高维线性模型的变量选择</code></a></p>
+</li>
+<li>
+<p>慕娟. <a href="/papers/HigDimen/%E6%85%95%E5%A8%9F.pdf"><code>高维变点模型自适应GroupLasso惩罚分位回归估计</code></a></p>
+</li>
+<li>
+<p>胡玉婷. <a href="/papers/HigDimen/%E8%83%A1%E7%8E%89%E5%A9%B7.pdf"><code>高维两样本比对问题的一种新统计检验方法</code></a></p>
+</li>
+<li>
+<p>李扬. <a href="/papers/HigDimen/%E6%9D%8E%E6%89%AC.pdf"><code>高维数据的正态性假设检验</code></a></p>
+</li>
+<li>
+<p>邓语菲. <a href="/papers/HigDimen/%E9%82%93%E8%AF%AD%E8%8F%B2.pdf"><code>高维数据下的单指标期望分位数回归模型研究</code></a></p>
+</li>
+<li>
+<p>江梦婕. <a href="/papers/HigDimen/%E6%B1%9F%E6%A2%A6%E5%A9%95.pdf"><code>高维数据下的多元均值检验</code></a></p>
+</li>
+<li>
+<p>王一静. <a href="/papers/HigDimen/%E7%8E%8B%E4%B8%80%E9%9D%99.pdf"><code>高维数据下的协方差和总体均值检验</code></a></p>
+</li>
+<li>
+<p>李熠璇. <a href="/papers/HigDimen/%E6%9D%8E%E7%86%A0%E7%92%87.pdf"><code>高维数据下正态总体的假设检验问题</code></a></p>
+</li>
+<li>
+<p>袁百城. <a href="/papers/HigDimen/%E8%A2%81%E7%99%BE%E5%9F%8E.pdf"><code>高维数据总体双可交换协方差矩阵的似然比检验</code></a></p>
+</li>
+<li>
+<p>邹婷婷. <a href="/papers/HigDimen/%E9%82%B9%E5%A9%B7%E5%A9%B7.pdf"><code>高维协方差矩阵的单样本和双样本检验方法</code></a></p>
+</li>
+<li>
+<p>向邱燕. <a href="/papers/HigDimen/%E5%90%91%E9%82%B1%E7%87%95.pdf"><code>基于稀疏张量回归的高维数据预测</code></a></p>
+</li>
+<li>
+<p>杨静. <a href="/papers/HigDimen/%E6%9D%A8%E9%9D%99.pdf"><code>基于置换检验对高维数据两样本均值的假设检验</code></a></p>
+</li>
+<li>
+<p>曾銮杰. <a href="/papers/HigDimen/%E6%9B%BE%E9%8A%AE%E6%9D%B0.pdf"><code>基于bootstrap方法的高维数据两样本均值检验</code></a></p>
+</li>
+<li>
+<p>贾婉茹. <a href="/papers/HigDimen/%E8%B4%BE%E5%A9%89%E8%8C%B9.pdf"><code>基于bootstrap方法Behrens-Fisher问题的假设检验</code></a></p>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>真郇传</title>
+      <link>/cn/2022/10/27/zhenhuan/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/27/zhenhuan/</guid>
+      <description>
+        <![CDATA[
+        <p>最近，郇真<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>点爆学术圈，只因为她以独立作者身份问鼎Acta Mathematica。</p>
+<p>Acta Mathematica作为数学四大顶刊之一，过去中国大陆地区仅有9篇文章被录取，其中有6位作者当选院士。不少被她教过的学生纷纷赶来，恭喜之余同时也被惊艳到：平时上课思维很跳跃，没想到是真龙隐世。</p>
+<p>她本人也在社交平台上回应说：</p>
+<blockquote>
+<p>其实我觉得一个数学工作者所面对的世界就像王尔德和安徒生的童话中的一样：残忍、世俗、与你毫无共情的现实世界，以及永远怀揣着童话般梦想的主人公，而因为他们与现实格格不入，因此结局经常是悲剧的。</p>
+</blockquote>
+<blockquote>
+<p>《海的女儿》中的小美人鱼如果按照世俗的思路，不坚持对王子的爱恋，她也许能在上流社会过得很好。</p>
+</blockquote>
+<blockquote>
+<p>《快乐王子》中的王子和燕子，因为坚持美好的内心，最终被冻死。</p>
+</blockquote>
+<blockquote>
+<p>《西班牙小公主的生日》里爱慕小公主的小矮人，意识到自己在美丽的公主眼里其实是非常丑陋的怪物，她的每次微笑都是嘲笑，而不是喜爱，于是理想破灭，痛苦地死去。</p>
+</blockquote>
+<blockquote>
+<p>《野天鹅》里的公主如果不坚持救自己被变成天鹅的哥哥们，不一直编织奇怪的蓖麻衣服，每晚去巫婆聚集的墓地采集蓖麻，也不坚持做一个哑巴，她会一直是一个表现正常的王后，不会被怀疑，被诬陷，甚至能一直幸福地生活下去。所幸的是，最终，她在行刑前证明了自己一虽 然蓖麻衣服还没有织完，还差一个王子的胳膊。这就像我们想做的research在终结前(比如失业前，一无所有之前)其实并没有完成，即便我们耗尽一生。</p>
+</blockquote>
+<blockquote>
+<p>而这个世界上的其他人其实并不知道我们在做什么，付出了多少，从他们的角度，我们多多少少是很奇怪的人。</p>
+</blockquote>
+<p>也许更打动我的，是她的经历和这段话。出名之前，求学时，原来攻读的博士方向做不下去，换个方向又是7年，毕竟博士正常毕业5年，她这一波转攻就是8年。她为了她想要的东西坚持着，外人看到的或许是，这个人延毕了。工作时，上课教学，学生说听不懂，这个老师讲课不仔细，教学质量一般，只会念ppt等等。她尽力了，学生看到的或许是，这个老师一般般。出名后，人们纷纷送祝福了，学生不敢说老师不好了。因为成功了，由不理解而带来的“误会”变少了，可是童话里的人，始终没有等到证明自己的那一刻。</p>
+<p>我想递进我的观点。我也感受过这种偏见，当这股偏见是信任的时候，我感受过其中快乐，当这股偏见是歧视的时候，我感受过其中困苦。我更想将这股偏见化为正向的东西，尽量不要是负面的，比如，当老师的时候就不要只关心成绩好的，在女孩面前不要一直强调肤白貌美大长腿，谈对象的时候不要只看房子车子票子，世界这么大，和而不同，学生各有各的天赋，女孩各有各的美丽，对象各有各的不足。不能理解时候，就给出一份包容吧，允许他们这样的存在，不要攻击和诽谤。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>数学与通识</em>。<a href="https://mp.weixin.qq.com/s/H1VvtG3ZsHG87sG353-caw">她以独作身份登上数学顶刊！本人的回应很浪漫</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>公众号：<em>量子位</em>。<a href="https://mp.weixin.qq.com/s/iv3rDr6m9RtBF4Hh8NafLQ">建国后首次！华科副研究员以独作身份投中数学顶刊，曾因换方向重读博士7年</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>空间文献摘录</title>
+      <link>/cn/2022/10/21/spamodel/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/21/spamodel/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="空间模型">空间模型</h2>
+<h3 id="秦永松-https-xueshu-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-ys-qin-empirical-likelihood-btng"><a href="https://xueshu.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=YS+Qin+empirical+likelihood&amp;btnG=">秦永松</a></h3>
+<p><code>2021</code> <a href="/papers/SpaModel/QinYS-2021-1.pdf"><code>含空间误差项的空间自回归模型的经验似然</code></a></p>
+<blockquote>
+<p>经验似然方法成功应用空间模型的奠基之作。</p>
+</blockquote>
+<p><code>2021</code> <a href="/papers/SpaModel/QinYS-2021-2.pdf"><code>三种空间截面数据模型的GMM与经验似然</code></a></p>
+<p><code>2022</code> <a href="/papers/SpaModel/QinYS-2022.pdf"><code>空间计量经济模型的经验似然研究进展</code></a></p>
+<blockquote>
+<p>这是一篇经验似然方法应用于空间模型的综述。</p>
+</blockquote>
+<h3 id="李英华">李英华</h3>
+<p><code>2020</code> <a href="/papers/SpaModel/LiYH-2020.pdf"><code>含空间误差项的面板数据模型的经验似然</code></a></p>
+<p><code>2021</code> <a href="/papers/SpaModel/LiYH-2021.pdf"><code>含空间误差项的非参数回归模型的经验似然</code></a></p>
+<p><code>2022</code> <a href="/papers/SpaModel/LiYH-2022.pdf"><code>含空间误差项的动态面板数据模型的经验似然</code></a></p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>面板文献摘录</title>
+      <link>/cn/2022/10/20/panempir/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/20/panempir/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="面板数据-https-xs2-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-panel-data-btng"><a href="https://xs2.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=panel+data&amp;btnG=">面板数据</a></h2>
+<h3 id="何帮强-https-kns-cnki-net-kcms-detail-knetsearch-aspx-dbcode-cjfd-code-000021434404-sfield-au-skey-何帮强-uniplatform-nzkpt"><a href="https://kns.cnki.net/kcms/detail/knetsearch.aspx?dbcode=CJFD&amp;code=000021434404&amp;sfield=au&amp;skey=%E4%BD%95%E5%B8%AE%E5%BC%BA&amp;uniplatform=NZKPT">何帮强</a></h3>
+<p><a href="/papers/HigDimen/%E4%BD%95%E5%B8%AE%E5%BC%BA.pdf"><code>带固定效应 + 面板数据 + 半参数模型 + 经验似然</code></a></p>
+<blockquote>
+<p>此篇博士论文中研究了，带固定效应面板数据半参数模型的经验似然问题。</p>
+</blockquote>
+<p><a href="/papers/PanEmpir/HeBQ-2016-1.pdf"><code>带固定效应 + 面板数据 + 半变系数模型 + 经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2017.pdf"><code>带固定效应 + 面板数据 + 部分线性模型 + 块经验似然</code></a></p>
+<!--
+[`随机审查下pareto分布参数的单调经验贝叶斯检验`](/papers/PanEmpir/HeBQ-2016-2.pdf)  
+-->
+<p><a href="/papers/PanEmpir/HeBQ-2021.pdf"><code>带固定效应 + 面板数据 + 部分线性误差变量模型 + 统计推断</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2018.pdf"><code>带固定效应 + 面板数据 + 部分线性误差变量模型 + 惩罚经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2020.pdf"><code>鞅差序列 + 非线性半参数测量误差模型 + 经验似然</code></a></p>
+<p><a href="/papers/PanEmpir/HeBQ-2022.pdf"><code>删失数据 + 面板数据 + 半变系数变量误差模型 + 经验似然</code></a></p>
+<h3 id="李高荣-https-xueshu-zidianzhan-net-citations-user-cakqlosaaaaj-hl-zh-cn-oi-sra-1"><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3>
+<p><a href="/papers/PanEmpir/LiGR-2011.pdf"><code>带固定效应 + 面板数据 + 部分线性模型 + 经验似然</code></a></p>
+<p><a href="/papers/HigDimen/LiGR-2012.pdf"><code>高维 + 截面数据 + 变系数部分线性模型 + 经验似然</code></a></p>
+<blockquote>
+<p>方江林提到，该文提出了改进的经验似然方法可以提高其统计推断的效率。</p>
+</blockquote>
+<h3 id="baltagi-badi-h-https-xueshu-zidianzhan-net-citations-user-xwrdl6iaaaaj-hl-zh-cn-oi-sra"><a href="https://xueshu.zidianzhan.net/citations?user=XWrDL6IAAAAJ&amp;hl=zh-CN&amp;oi=sra">Baltagi, Badi H</a></h3>
+<p><code>2003</code> <a href="/papers/PanEmpir/BaltagiBH-2003.pdf"><code>空间自回归误差项 + 面板数据 + 线性模型 + 似然比检验</code></a></p>
+<blockquote>
+<p>先做一种检验问题的似然<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>检验和经验似然检验的模拟研究，并进行比较。</p>
+</blockquote>
+<p><code>2021</code> <a href="/papers/PanEmpir/BaltagiBH-2021.pdf"><code>面板数据的计量分析</code></a></p>
+<!--
+[`Monotone empirical bayes test for the parameter of pareto distribution under random censorship
+`](/papers/PanEmpir/HeBQ-3.pdf)
+
+> 题外话，一不留神，开学两个月了，啥也没弄出来，顿挫感一下子就上来了。这学期还计划写一篇有意义的论文呢，现在看来，长路漫漫了。一方面呢，要保持顿挫感，它督促我珍惜时间继续努力，另一方面，不能让顿挫感泛滥，这会让我陷入无限的自责。
+--><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>郭老师统计小课堂</em>。<a href="https://mp.weixin.qq.com/s/k_nRP6l19zEXPvEyKrMhmw">似然函数的分解和重参数化</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>公众号：<em>数据挖掘工程师</em>。<a href="https://mp.weixin.qq.com/s/mWJGGAIKfz9itAux76bLiA">最大似然估计入门教程</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>半参数模型</title>
+      <link>/cn/2022/10/17/note/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/17/note/</guid>
+      <description>
+        <![CDATA[
+        <p>看论文看着看着，看见“半参数模型”几个字，愣了一下，我竟然对这个朝夕相伴这么久的名词，还不知道究竟是个啥，自己研究的模型到底算不算半参数模型？头晕😵‍💫～</p>
+<p>上网搜一搜，大家给的答案：</p>
+<ul>
+<li><a href="https://www.jianshu.com/p/a97c5a0718f8">半参数模型</a></li>
+<li><a href="https://blog.sciencenet.cn/blog-941132-1080151.html">杨立坚写的统计学科普</a></li>
+<li><a href="https://www.zhihu.com/question/24373415">如何理解统计学半参数的概念？</a></li>
+</ul>
+<p>选择一个答案记录一下，</p>
+<p>参数回归是事先假定模型的形式，然后用数据去估计这个模型的系数。而非参数回归则是不假定模型形式，直接从数据来拟合模型。参数回归最基本的是线性模型，非参数回归最简单的最近邻方法。而半参数回归则是，模型中有一部分的结构是已知的，需要估计参数，而另外一部分结构未知。</p>
+<p>比如有<code>$X_1$</code>与<code>$X_2$</code>两个自变量，<code>$Y$</code>为因变量，我们可以对回归函数建模为：</p>
+<p>$$E[Y|X_1, X_2]= \alpha + \beta X_1 + h(X_2)$$</p>
+<p>那么，对<code>$h(X_2)$</code>的分析就是非参的，而对<code>$X_1$</code>的分析为参数的。但如果将其视作整体，其实整个模型严格意义上还是非参的。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>高维可尝试方向</title>
+      <link>/cn/2022/10/17/higdim/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/17/higdim/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="高维问题">高维问题</h2>
+<p>曾力立说，</p>
+<ol>
+<li>传统的数据处理方法在处理高维数据时不能满足稳健性要求；</li>
+<li>高维导致空间的样本数变少，从而使得一些统计上的渐近性难以实现；</li>
+<li>维数的增加亦会导致数据的计算量迅速上升。</li>
+</ol>
+<p>方江林说，</p>
+<ol>
+<li>维数的增大会导致“维数灾难”问题；</li>
+<li>经典大样本统计推断理论一般都是建立在维数固定且相对较小，而样本量趋于无穷的假设下，在数据维数p随着样本容量n一起趋向无穷时，特别是在“超高维”(p &gt; n)数据情形下，经典统计理论的结论可能不再有效。</li>
+</ol>
+<h2 id="方向">方向</h2>
+<h3 id="方向一">方向一</h3>
+<p>根据 <strong>石坚</strong><a href="/papers/HigDimen/2.pdf">《高维线性模型中的经验似然》</a>思想，说明高维空间模型中，在适当的正则条件下，可对经验似然比统计量进行修正，并且修正后的经验似然比统计量服从标准正态分布。</p>
+<p>实际进展<a href="https://tang-jay.github.io/HighDimen">见此</a>。</p>
+<h3 id="方向二">方向二</h3>
+<p>当 <code>$\beta$</code> 有很多分量为零，可以做变量选择，比如Lasso、惩罚经验似然，先选出非零的分量，然后对被选出来的非零分量做统计推断。</p>
+<h3 id="方向三">方向三</h3>
+<p>当 <code>$\beta$</code> 有很多分量不为零，简单地考虑变量选择是不够的，根据 <strong>曾力立</strong><a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.pdf">《高维线性回归模型下的经验似然》</a>思想，说明高维空间模型中可以建立简单经验似然统计量，并且证明该统计量服从 <code>$\chi^2_1$</code>，从模拟的角度说明，犯两类错误的概率令人满意，且大大节省了计算成本。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>高维文献摘录</title>
+      <link>/cn/2022/10/16/higdimen/</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/10/16/higdimen/</guid>
+      <description>
+        <![CDATA[
+        <!-- 
+- [``](/papers/HigDimen/曾力立.pdf)
+<font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
+<font style="background-color: #F0FFFF;">[`NOTE`](/papers/HigDimen/2-note.pdf)</font>
+<font style="background-color: #E6E6FA;">[](/papers/HigDimen/2-code.pdf)</font>
+> 
+-->
+<h2 id="奠基">奠基</h2>
+<ul>
+<li>石坚. <a href="/papers/HigDimen/ShiJ-2007.pdf"><code>高维线性模型中的经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>当协变量的维数随样本量增加时，常规的经验似然推断失效，在适当的正则条件下，对修正的经验似然比统计量给出了渐近分布理论。</p>
+</blockquote>
+<blockquote>
+<p>曾力立提到，该论文表明，当协变量维数以某种合理的速度趋于无穷大时，我们仍可以利用经验似然方法构造 <code>$\beta$</code> 的置信域，不过此时有关临界值的确定依赖于正态分布而非卡方分布。</p>
+</blockquote>
+<ul>
+<li><a href="https://xueshu.zidianzhan.net/citations?user=pGvWCH4AAAAJ&amp;hl=zh-CN&amp;oi=sra">Hjort et al.</a> <a href="/papers/HigDimen/Hjort-2009.pdf"><code>拓展经验似然应用范围</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，当 <code>$p=o_p(n^{1/3}) \to \infty$</code> 时，在一定条件下，该文得出了经验似然比统计量渐近分布为正态分布的结论。</p>
+</blockquote>
+<blockquote>
+<p>曾力立提到，该文在基于plug-in估计对经验似然方法做了一个推广研究。</p>
+</blockquote>
+<ul>
+<li>陈松溪，<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>. <a href="/papers/HigDimen/ChenSX-2009.pdf"><code>数据维数对经验似然的影响</code></a></li>
+</ul>
+<blockquote>
+<p>在一般的多元模型下，该文评估了数据维数对高维数据经验似然比的渐近正态性的影响，指出多元随机向量各分量之间的数据维数和相关性直接通过协方差矩阵的迹和特征值来影响经验似然。</p>
+</blockquote>
+<blockquote>
+<p>方江林提到，该文是在Hjort基础上，进一步研究了样本维数对经验似然方法的影响，证明了当 <code>$p=o_p(n^{1/2}) \to \infty$</code> 时，经验似然方法仍然适用，改进了Hjort的结果。</p>
+</blockquote>
+<blockquote>
+<p>曾力立提到，该文在多元模型下研究了均值的渐近性质。</p>
+</blockquote>
+<blockquote>
+<p>毛沥悦提到，该文证明了当参数的维数变化时，经验似然方法仍然有效。</p>
+</blockquote>
+<ul>
+<li>常晋源，陈松溪，汤琤咏. <a href="/papers/HigDimen/ChangJY-2020.pdf"><code>高维经验似然推断</code></a></li>
+</ul>
+<blockquote>
+<p>研究两个问题，多元参数估计量的置信域和模型假设检验，并提出两个建议，新的估计方程和检验统计量。</p>
+</blockquote>
+<ul>
+<li><a href="https://xs2.zidianzhan.net/citations?user=lZUH1lcAAAAJ&amp;hl=zh-CN&amp;oi=sra">汤琤咏</a>，冷琛雷. <a href="/papers/HigDimen/TangCY-2010.pdf"><code>高维惩罚经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，该类惩罚的思想是在进行参数估计的同时，利用惩罚函数将较小的系数估计值压缩为零，而将系数估计值较大的保留，在估计出系数的同时选择出重要变量。这可以同时实现变量选择和系数估计两个目标。惩罚变量选择普遍采用“损失函数+惩罚函数”的变量选择方法，类似地，惩罚经验似然通常也使用“经验似然比函数+惩罚函数”方式。该文首次将惩罚经验似然方法应用于高维，不过要求在 <code>$p &lt; n$</code> 情形下。</p>
+</blockquote>
+<blockquote>
+<p>曾力立提到，该文将经验似然应用于高维变量选择。</p>
+</blockquote>
+<blockquote>
+<p>何帮强提到，该文首次提出的惩罚经验似然（PEL）被用于分析多变量的均值向量和线性模型的发散数量回归系数。该文证实的PEL具有优点在来自非参数似然法的效率和适应性方面。另外，PEL方法具有使用数据来确定置信区域的形状和取向，与EL有相同优点并且不估计共协方差。</p>
+</blockquote>
+<ul>
+<li><a href="https://xs2.zidianzhan.net/citations?user=rsT2stMAAAAJ&amp;hl=zh-CN&amp;oi=sra">冷琛雷</a>，汤琤咏. <a href="/papers/HigDimen/LengCL-2012.pdf"><code>惩罚经验似然与高维估计方程</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，该文将高维的惩罚经验似然方法推广到高维估计方程，仍要求<code>$p &lt; n$</code>。</p>
+</blockquote>
+<blockquote>
+<p>何帮强提到，该文将PEL方法应用于一般估计方程的参数估计和变量选择，并显示PEL具有oracle特征。</p>
+</blockquote>
+<ul>
+<li><a href="https://xs2.zidianzhan.net/citations?user=I5ZzKjAAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lahiri</a>， <a href="https://xs2.zidianzhan.net/citations?user=Wf3jLKoAAAAJ&amp;hl=zh-CN&amp;oi=sra">Mukhopadhyay</a>. <a href="/papers/HigDimen/Lahiri-2012.pdf"><code>高维中一种惩罚经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，当维数是超高维的，即 <code>$p &gt; n$</code> 时，该文研究了总体均值的惩罚经验似然推断，并给出了其统计量的渐近性质。</p>
+</blockquote>
+<ul>
+<li><a href="https://xueshu.zidianzhan.net/citations?user=cakQLOsAAAAJ&amp;hl=zh-CN&amp;oi=sra">李高荣</a>. <a href="/papers/HigDimen/LiGR-2012.pdf"><code>高维变系数部分线性模型的经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>方江林提到，该文提出了改进的经验似然方法可以提高其统计推断的效率。</p>
+</blockquote>
+<ul>
+<li><a href="https://xs2.zidianzhan.net/citations?user=sdw9roIAAAAJ&amp;hl=zh-CN&amp;oi=sra">Meinshausen N</a>. <a href="/papers/HigDimen/MeinshausenN-2009.pdf"><code>高维回归p值</code></a></li>
+</ul>
+<blockquote>
+<p>曾力立提到，该文研究了高维线性回归模型中的变量选择问题。</p>
+</blockquote>
+<h2 id="经验似然">经验似然</h2>
+<ul>
+<li>曾力立. <a href="/papers/HigDimen/%E6%9B%BE%E5%8A%9B%E7%AB%8B.pdf"><code>高维线性回归模型下的经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>许多经典的低维数据处理方法，在处理髙维数据时面临着难以解决的困难。例如，传统的数据处理方法在处理高维数据时不能满足稳健性要求；高维导致空间的样本数变少，从而使得一些统计上的渐近性难以实现；维数的增加亦会导致数据的计算量迅速上升。</p>
+</blockquote>
+<blockquote>
+<p>在这篇论文里，作者的主要目的是检验一个可能的高维线性回归模型的系数是否等于一个给定值。创新点：</p>
+<ol>
+<li>将传统经验似然方法里面的高维约束条件巧妙地变换成与维数无关的低维情形，以此构造出新的约束条件，再利用经验似然的方法解决相关问题。</li>
+<li>在一般经验似然方法里加入了伪观测值，从而作出了一个新奇的调整。调整后的经验似然方法保留了之前方法的所有最优性准则．不仅如此，该方法下的区间覆盖率更接近于置信水平，而且还不需要Bartlett校正和Bootstrap方法里那么复杂的程序。</li>
+<li>针对不同的维数，有区别地加入了约束条件的个数，一方面使得犯两类错误的概率令人满意，另一方面也大大地节省了计算成本。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>该文指出，线性模型的统计推断中 <code>$p$</code> 是 <code>$n$</code> 的指数阶的情况下的研究现状：</p>
+<ol>
+<li><code>$\beta$</code> 有很多分量为零，首先选出非零的分量（即变量选择，如Lasso），然后对被选出来的非零分量做统计推断。</li>
+<li><code>$\beta$</code> 有很多分量不为零，简单地考虑变量选择是不够的，需要新的方法，借鉴<a href="https://xueshu.zidianzhan.net/citations?user=b3XlCawAAAAJ&amp;hl=zh-CN&amp;oi=sra">彭亮</a>在 <a href="/papers/NBEL/PengL-2014-1.pdf"><em>Empirical likelihood test for high dimensional linear models</em></a> 一文中的思想，通过一定手段——将样本数据分为两个部分，用每两个旧的观测值构造一个新的观测值——将约束条件与维数无关。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>该文思路：利用已有的观测值去构造 <code>$\omega_i(\beta)$</code>，构造出来的 <code>$\omega_i(\beta)$</code>需满足</p>
+<ol>
+<li><code>$E\omega_i(\beta_0)=0$</code>；</li>
+<li><code>$E\omega_i(\beta_0)=0$</code> 非常接近于<code>$L_1$</code>范数。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>由此将经验似然的方法应用于估计式及 <code>$E\omega_i(\beta_0)=0$</code>，从而解决 <code>$\beta$</code> 有很多分量不为零的假设检验问题。曾力立将高维转换为一维进行考虑，并称其为简单经验似然。</p>
+</blockquote>
+<ul>
+<li>方江林. <a href="/papers/HigDimen/%E6%96%B9%E6%B1%9F%E6%9E%97.pdf"><code>维数发散的高维数据的经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>在样本维数 <code>$p$</code> 随容量 <code>$n$</code> 一起趋向无穷的情形下，本文研究了多个模型的经验似然推断，分别有半参数模型，可加危险率模型，异方差部分线性单指标模型，以及两样本问题（均值，线性模型系数之差）。</p>
+</blockquote>
+<blockquote>
+<p>具体工作：</p>
+<ol>
+<li>利用经验似然方法构造了参数的估计量及其置信域。证明了在一定条件下，当样本维数和容量都趋向无穷情形时，经验似然比渐近分布为正态分布，并证明了通过经验似然方法得到的参数估计量具有一致性。</li>
+<li>利用经验似然方法构造了参数分量的置信区间(置信域)。证明了在一定条件下，当样本维数发散时，通过经验似然方法得到的参数估计量具有一致性，并证明了关于参数分量的经验似然比渐近分布是 <code>$\chi^2_q$</code> 分布。</li>
+<li>将惩罚经验似然方法推广到高维稀疏情形下模型的变量选择和参数估计问题。证明了在一定条件下，当样本维数发散时，惩罚经验似然比统计量具有渐近 <code>$\chi^2_q$</code> 分布，同时证明了惩罚经验似然方法具有Oracle性质。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>发表论文：</p>
+<ol>
+<li>方江林，<a href="https://mc.hunnu.edu.cn/info/1673/3366.htm">刘万荣</a>，<a href="https://xueshu.zidianzhan.net/citations?user=3yVTsEEAAAAJ&amp;hl=zh-CN&amp;oi=sra">Lu Xuewen</a>. <a href="/papers/HigDimen/FangJL-2017.pdf"><code>半参数模型的高维惩罚经验似然</code></a></li>
+</ol>
+</blockquote>
+<h2 id="惩罚经验似然">惩罚经验似然</h2>
+<ul>
+<li>毛沥悦. <a href="/papers/HigDimen/%E6%AF%9B%E6%B2%A5%E6%82%A6.pdf"><code>部分线性模型和广义线性模型的惩罚经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>第三章讨论高维情况下广义线性模型的参数估计与变量选择问题，通过通过适当的辅助随机变量研究了自适应Lasso下高维广义线性模型的惩罚经验似然。主要的结论有提出的方法具有Oracle性质以及在假设检验中构造的检验统计量的渐近分布为卡方分布。</p>
+</blockquote>
+<ul>
+<li>吕升日. <a href="/papers/HigDimen/%E5%90%95%E5%8D%87%E6%97%A5.pdf"><code>半参数回归模型的高维惩罚经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>在半参数回归模型中，当协变量的维度随着样本量的增大而增大，即当协变量维度较高时，将会遇到“维数祸根”等问题。将经验似然方法与惩罚函数相结合并应用于模型当中，可以有效的解决高维数据情况下的变量选择问题，从而降低模型的复杂度，解决模型在做预测时的不稳定性的问题。</p>
+</blockquote>
+<ul>
+<li>何帮强. <a href="/papers/HigDimen/%E4%BD%95%E5%B8%AE%E5%BC%BA.pdf"><code>半参数带固定效应的面板数据模型的经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>何帮强更多面板研究成果<a href="/cn/2022/10/20/panel">见此</a>。</p>
+</blockquote>
+<ul>
+<li>李吉妮. <a href="/papers/HigDimen/%E6%9D%8E%E5%90%89%E5%A6%AE.pdf"><code>单指标模型的高维惩罚经验似然</code></a></li>
+</ul>
+<blockquote>
+<p>高维数据的变量选择问题。在处理高维数据时，单指标模型的降维特性有效地避免了“维数灾难问题，还抓住了高维数据的稀疏特性。在论文中考虑参数维数会随着样本容量的增大而同时增大的情形，对单指标模型提出了一种稳健的变量选择方法：基于SCAD惩罚函数及经验似然的惩罚经验似然。</p>
+</blockquote>
+<blockquote>
+<p>论文发现，在一定正则条件下，参数维数随样本量同时增大的惩罚经验似然估计仍具有Oracle性质，即如果已知真实模型是稀疏的模型，则以概率趋向于1，惩罚经验似然确定模型的非零参数估计具有稀疏性（惩罚似然估计值应该有一个限制，这个限制自动将那些较小的估计系数设为，进而去掉，并删除对应的变量，从而降低模型的复杂度）。</p>
+</blockquote>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>R画图笔记</title>
+      <link>/cn/2022/09/26/codes/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/26/codes/</guid>
+      <description>
+        <![CDATA[
+        <p>最近努力在复现论文上的QQ图<br>
+顺便将知道的R画图的代码一并整理出来   <br>
+用Bookdown很好地展示<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>出来～<br>
+继续加油！</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>唐洁,<a href="https://tang-jay.github.io/RBook">《R语言画图》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>对称矩阵</title>
+      <link>/cn/2022/09/22/symmatrix/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/22/symmatrix/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>Hessian矩阵、协方差矩阵、空间权重矩阵都是对称矩阵，相关的性质有必要了解一下。</p>
+</blockquote>
+<hr>
+<h3 id="对称矩阵">对称矩阵</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/mTiT8wNovGGAawlO-608_w">矩阵二次型及其性质</a></li>
+<li><a href="/papers/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%A7%E8%B4%A8%E5%92%8C%E5%AE%9A%E7%90%86_%E9%9F%A9%E6%8C%AF%E8%8A%B3.pdf">对称矩阵的一些性质和定理_韩振芳.pdf</a></li>
+<li><a href="/papers/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%BA%94%E7%94%A8_%E5%8F%B8%E5%87%A4%E5%A8%9F.pdf">对称矩阵的性质及应用_司凤娟.pdf</a></li>
+<li><a href="/papers/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E6%95%99%E4%B8%8E%E5%AD%A6_%E7%8E%8B%E5%AE%8F%E5%85%B4.pdf">对称矩阵教与学_王宏兴.pdf</a></li>
+</ol>
+<h3 id="反对称矩阵">反对称矩阵</h3>
+<ol>
+<li><a href="/papers/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E4%B8%8E%E5%8F%8D%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E8%8B%A5%E5%B9%B2%E6%80%A7%E8%B4%A8_%E6%AD%A6%E7%A7%80%E7%BE%8E.pdf">对称矩阵与反对称矩阵的若干性质_武秀美.pdf</a></li>
+<li><a href="/papers/SymMatrix/%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E5%92%8C%E5%8F%8D%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E8%8B%A5%E5%B9%B2%E6%80%A7%E8%B4%A8_%E9%82%B9%E6%9C%AC%E5%BC%BA.pdf">对称矩阵和反对称矩阵的若干性质_邹本强.pdf</a></li>
+<li><a href="/papers/SymMatrix/%E5%85%B3%E4%BA%8E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E4%B8%8E%E5%8F%8D%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E8%8B%A5%E5%B9%B2%E6%80%A7%E8%B4%A8_%E6%9C%B1%E4%BA%9A%E8%8C%B9.pdf">关于对称矩阵与反对称矩阵的若干性质_朱亚茹.pdf</a></li>
+</ol>
+<h3 id="非对称矩阵">非对称矩阵</h3>
+<ol>
+<li><a href="/papers/SymMatrix/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E6%AD%A3%E5%AE%9A%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8_%E7%8E%8B%E4%B8%96%E6%81%92.pdf">非对称正定矩阵的性质_王世恒.pdf</a></li>
+</ol>
+<h3 id="对称矩阵应用">对称矩阵应用</h3>
+<ol>
+<li><a href="/papers/SymMatrix/%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8_%E8%96%9B%E5%BB%BA%E6%98%8E.pdf">实对称矩阵的性质及其应用_薛建明.pdf</a></li>
+<li><a href="/papers/SymMatrix/%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%9A%84%E6%80%A7%E8%B4%A8%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8_%E6%9D%A8%E5%8F%AC.pdf">实对称矩阵特征值的性质及其应用_杨召.pdf</a></li>
+</ol>
+<h3 id="特征向量求法">特征向量求法</h3>
+<ol>
+<li><a href="/papers/SymMatrix/%E8%AE%A1%E7%AE%97%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F%E7%9A%84%E5%B9%82%E6%B3%95_%E6%9B%BE%E8%8E%89.pdf">计算实对称矩阵特征值特征向量的幂法_曾莉.pdf</a></li>
+<li><a href="/papers/SymMatrix/%E5%88%A9%E7%94%A8%E7%89%B9%E5%BE%81%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F_%E5%AD%9F%E5%AE%AA%E8%90%8C.pdf">利用特征矩阵求实对称矩阵的特征向量_孟宪萌.pdf</a></li>
+</ol>
+<h3 id="其他特殊矩阵">其他特殊矩阵</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/Ci8iJ1YK3-AV8xWbGMJwrw">幂等矩阵、投影矩阵和Cochran定理</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzI3NzE3NDAxMg==&amp;mid=2247490095&amp;idx=1&amp;sn=16bc42b1823fc8067270b2a4428600f0&amp;chksm=eb6b19bcdc1c90aacb507441d5b4e4fb8a72ef1ffb4f2f161c44549aad063f11ccfaef076842&amp;scene=178&amp;cur_album_id=2185022661871960071#rd">Cochran定理</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzI3NzE3NDAxMg==&amp;mid=2247484817&amp;idx=1&amp;sn=74dc04683a2da5b0282be80f0e0505dc&amp;chksm=eb6b0602dc1c8f1447ec134259af88d42f2b67c10a3fde0026d4dbf594fb7955b4420bbbfd1a&amp;cur_album_id=2185022661871960071&amp;scene=190#rd">分块矩阵及其统计学应用</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>秦导推荐</title>
+      <link>/cn/2022/09/21/qinrecom/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/21/qinrecom/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="老师手稿">老师手稿</h2>
+<ul>
+<li><a href="/papers/QinRecom/Qin-1.pdf">统计模拟和实证介绍</a> <a href="/papers/QinRecom/Qin-1-code.R"><code>CODE</code></a></li>
+</ul>
+<h2 id="写作推荐">写作推荐</h2>
+<ul>
+<li><a href="/papers/QinRecom/Abstra-1.pdf">范文 1</a></li>
+<li><a href="/papers/QinRecom/Abstra-2.pdf">范文 2</a></li>
+</ul>
+<h2 id="经济类">经济类</h2>
+<p>来自<a href="www.must.edu.mo/cn/msb/staff">澳门科技大学老师主页</a>。</p>
+<ul>
+<li><a href="/papers/QinRecom/Lin-1.pdf"><code>PDF1</code></a></li>
+<li><a href="/papers/QinRecom/Lin-2.pdf"><code>PDF2</code></a></li>
+<li><a href="/papers/QinRecom/Lin-3.pdf"><code>PDF3</code></a></li>
+<li><a href="/papers/QinRecom/Lin-4.pdf"><code>PDF4</code></a></li>
+<li><a href="/papers/QinRecom/Lin-5.pdf"><code>PDF5</code></a></li>
+<li><a href="/papers/QinRecom/Lin-6.pdf"><code>PDF6</code></a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Bookdown&#43;GitHub发布电子书</title>
+      <link>/cn/2022/09/15/bookdown/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/15/bookdown/</guid>
+      <description>
+        <![CDATA[
+        <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
+<p>之所以想做这件事情，是因为在<a href="https://tang-jay.github.io/cn/2022/08/02/yihui/">8月2日</a>，无意看到大佬们发布的电子书，有章节有插图有公式，这可以很好地整理日常零碎的知识，并便于查阅，非常心动。他们的电子书如下所示：</p>
+<ul>
+<li><a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook">R语言教程</a></li>
+<li><a href="https://wxhyihuan.github.io/MedicalStatisNotes/">医学统计笔记与R语言</a></li>
+<li><a href="https://tangyc8866.github.io/bookdown_tutorial/">Bookdown中文书稿写作手册</a></li>
+<li><a href="http://gisersqdai.top/Note-of-Applied-Statistics-with-R-Book/">应用统计学与R语言实现学习笔记</a></li>
+</ul>
+<p>🤔我觉得更多的好处在于，费一点时间学会之后，后期的增益是很快的，可以更专注于写作和思考。比如，R可以绘制许多漂亮的图形，程序运行之后，代码不能按照某种逻辑串联起来（又乱），或是存储在本地内存的时间久了可能被清除掉（又难找）。数学有许多推导，若是我早一些知道这些工具，我就可以更好地整理出来方便自己复习巩固。工欲善其事必先利其器，有了更好的工具确实让人有更求好的心。</p>
+<p>网上有<a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/bookdown.html">Bookdown</a>教程<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，没有将bookdouwn写好的电子书发布到GitHub的教程，我把教程写<a href="https://blog.csdn.net/JTang1995/article/details/126876006">这里</a>。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>网站：<em>深度之眼</em>。<a href="https://ai.deepshare.net/detail/p_5f3a40dae4b011878731630e/6">论文指导系列课程</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>网站：<em>科学网</em>。<a href="https://blog.sciencenet.cn/blog-3247241-1277275.html">应用统计学与R语言实现笔记（番外篇四）bookdown使用与OR值计算</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>如何写好学术论文</title>
+      <link>/cn/2022/09/11/note/</link>
+      <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/11/note/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>对自己要求不高，在进步就行，在慢慢的过程里，将事情逐渐办得精益求精。</p>
+</blockquote>
+<hr>
+<p>这是一篇论文写作笔记<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。</p>
+<h2 id="科研总体认知">科研总体认知</h2>
+<p>科研定义：</p>
+<blockquote>
+<p>一般是指利用科研手段和装备，为了认识客观事物的内在本质和运动规律而进行的调查研究、实验、试制等一系列的活动，为创造发明新产品和新技术提供理论依据。</p>
+</blockquote>
+<p>科研本质：</p>
+<blockquote>
+<p>创新。认识新规律+创造新理论+发明新方法。</p>
+</blockquote>
+<p>科研流程：</p>
+<blockquote>
+<p><img src="/images/0911_1.png" alt=""></p>
+</blockquote>
+<p>科研写作：</p>
+<blockquote>
+<p>01 阅读论文 → 02 确定创新点(问题+方法+实验) → 03论文写作。</p>
+</blockquote>
+<h2 id="01-阅读论文">01 阅读论文</h2>
+<p>发表论文的前提是对该领域的某个问题的把握，适量的阅读是必要的。</p>
+<h3 id="方式一">方式一</h3>
+<p>将文献阅读分为三个步骤，入门，检索，阅读。其中阅读层面又分四个维度，如何进行单篇论文的阅读，整个论文的阅读过程，阅读技巧，以及如何做文献总结。</p>
+<p>入门从一篇综述开始。检索方式推荐：<a href="http://scholar.scqylaw.com">google</a>、<a href="https://www.cnki.net">知网</a>、<a href="https://sci-hub.et-fine.com">sci-hub</a>、<a href="https://xueshu.baidu.com">百度学术</a>、<a href="https://arxiv.org">Arxiv</a>、<a href="https://lib.gdqy.edu.cn/asset/search?key=U%3Dp-Values%20for%20High-Dimensional%20Regression&amp;cf=&amp;skey=0_U_p-Values%20for%20High-Dimensional%20Regression">高校图书馆</a>等等。论文已经到手了，那就可以开始阅读啦。</p>
+<p>进行某一篇论文的阅读：</p>
+<blockquote>
+<ol>
+<li>研究现状：问题，经典方法，最新方法，方法发展的过程与思路；</li>
+<li>学习如何进行实验：代码复现论文结果；</li>
+<li>寻找问题，启发创新点：当前方法的局限性是什么；</li>
+<li>学习论文写作方式：如何讲故事，如何包装idea。</li>
+</ol>
+</blockquote>
+<p>整个阅读过程：</p>
+<blockquote>
+<ol>
+<li>由厚到薄（小白） 阅读高质量的综述文献，掌握方法体系；</li>
+<li>由浅入深（入门） 确定一个具体的方向，研读经典和最新的论文 ；</li>
+<li>由点到面（升级打怪） 拓展知识面，多方向交叉。</li>
+</ol>
+</blockquote>
+<p>论文阅读技巧：</p>
+<blockquote>
+<ol>
+<li>先粗读再细读
+<ul>
+<li>粗读——摘要/贡献/图/表/结论</li>
+<li>细读——简介/方法/实验结果/代码复现</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>带着问题读
+<ul>
+<li>针对的问题+解决思路 +关注参考文献（顺藤摸瓜）</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<p>文献总结：</p>
+<blockquote>
+<ol>
+<li>每读完一篇论文可以写一段总结的话</li>
+<li>记录自己的心得，思考别人是如何寻找创新点的</li>
+<li>记录自己的问题</li>
+<li>广泛阅读后尝试对工作进行体系划分，总结技术特点，优缺点</li>
+<li>与同学交流讨论</li>
+</ol>
+</blockquote>
+<h3 id="方式二">方式二</h3>
+<p>将文献阅读分为三个阶段，初期找方向，中期重点突破，后期广泛涉猎。</p>
+<p>初期读论文需要逐字精读，感兴趣的论文都可以去读。一篇论文用时一天。前期阅读论文数量30篇以上，可以提高学术英语阅读能力和专业术语积累。</p>
+<p>中期读论文要重点精读，限定研究方向。重点论文时间控制在半天，泛泛论文是一小时。重点论文须重复读及源码学习。论文阅读数最好为10篇以上，了解学习技术演进、学习方法创新和整理创新方法链。</p>
+<p>后期少数精读+大量泛读，不限定方向，自己重点方向+涉猎方向。
+重点论文两小时，泛泛论文半小时，跟随研究方向的最新发展，了解其他方向的大致进展，思考创新点引进嫁接。</p>
+<h2 id="02-确定创新点">02 确定创新点</h2>
+<p>以AI为例。</p>
+<h3 id="问题-突破口">问题（突破口）</h3>
+<p>通过文献的阅读，首先确定自己想要研究的问题，是目前没有解决的问题，提出一个可解决的方法；或者是已经解决的问题，现存的方法不够好，提出一个效果更好的方法。</p>
+<h3 id="方法-创新点">方法（创新点）</h3>
+<ol>
+<li>本研究方向的继承性创新点（自然演进）</li>
+<li>其他方向的既有方法（嫁接到其他任务）</li>
+<li>细节上的创新（数据增强/数据集/损失函数设计）</li>
+</ol>
+<h3 id="实验论证">实验论证</h3>
+<ol>
+<li>找到baseline论文的代码；</li>
+<li>在baseline代码上实现期望功能的最小化实现；</li>
+<li>逐步实现最终的功能代码，同时做实现验证各部分设计的效果。</li>
+</ol>
+<h2 id="03-论文写作">03 论文写作</h2>
+<h3 id="写作框架">写作框架</h3>
+<p><img src="/images/0911_4.png" alt=""></p>
+<h3 id="写作方法">写作方法</h3>
+<p>模仿是第一步，选择2篇左右的范文，去分析论文结构（Introduction）、实验设计（Experiment）、重点词句（Related Work）、语言风格（Method）、绘图风格（Conclusion）和故事设计（References）。</p>
+<h3 id="注意事项">注意事项</h3>
+<ol>
+<li>逻辑</li>
+</ol>
+<blockquote>
+<p>论文整体的框架是否合理，句子段落之间的逻辑是否清晰。</p>
+</blockquote>
+<ol start="2">
+<li>时刻突出亮点</li>
+</ol>
+<blockquote>
+<p>精炼自己的创新点，理性的分析对比。</p>
+</blockquote>
+<ol start="3">
+<li>图表结合</li>
+</ol>
+<blockquote>
+<p>图要清晰，言之有物；<br>
+表要突出重点。</p>
+</blockquote>
+<ol start="4">
+<li><a href="https://mp.weixin.qq.com/s/1eGN7jRRMIih_sDljN8Bpw">格式问题</a></li>
+</ol>
+<h3 id="写作技巧">写作技巧</h3>
+<ul>
+<li>
+<p>注意标题</p>
+<ul>
+<li>用⼀句话概括你所做的工作</li>
+<li>考虑搜索引擎的影响，包含关键词</li>
+<li>可以新颖一些</li>
+</ul>
+</li>
+<li>
+<p>首页加图</p>
+</li>
+<li>
+<p>Introduction直接列贡献</p>
+<ul>
+<li>不用介绍各个部分如何组织的；</li>
+<li>直接说做出了哪些贡献；</li>
+<li>标明贡献位置。</li>
+</ul>
+</li>
+</ul>
+<h2 id="题外话">题外话</h2>
+<p>展开科研工作通常会遇到的困境就是</p>
+<blockquote>
+<p><img src="/images/0911_3.png" alt=""></p>
+</blockquote>
+<p>解决方案就是，恒心、细心、乐观、并遵从如下步骤，</p>
+<blockquote>
+<p><img src="/images/0911_2.png" alt=""></p>
+</blockquote>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>计算学习初学者</em>。<a href="https://mp.weixin.qq.com/s/upr0trp6fiIKeggUbxA-sA">怎样逼自己快速写完科研论文？</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>网站：<em>深度之眼</em>。<a href="https://ai.deepshare.net/detail/p_5f3a40dae4b011878731630e/6">论文指导系列课程</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>公众号：<em>庄闪闪的R语言手册</em>。<a href="https://mp.weixin.qq.com/s/1eGN7jRRMIih_sDljN8Bpw">学术写作注意事项——格式问题</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Borel-Cantelli引理</title>
+      <link>/cn/2022/09/03/borel-cantelli/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/03/borel-cantelli/</guid>
+      <description>
+        <![CDATA[
+        <p>这是一篇摘记<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
+<h2 id="引理作用">引理作用</h2>
+<p>Borel-Cantelli引理是概率论中一个很重要的引理。该引理可以帮忙我们理解<strong>几乎处处收敛</strong>和<strong>依概率收敛</strong>之间的关系，也可用于论证强相合性和强大数律等。为说明该引理，法国数学家博雷尔(Émile Borel, 1871-1956)在1913年介绍了“打字的猴子”的概念。无限猴子定理指出，一个在打字机键盘上随机敲打键盘的猴子，只要时间无限长，那么它几乎肯定会键入任何给定的文本，例如莎士比亚全集。</p>
+<h2 id="引理由来">引理由来</h2>
+<p><strong>定义1</strong> <code>$\quad$</code> 设<code>$\{X_n,n \ge 1\}$</code> 是随机变量序列，若存在随机变量<code>$X$</code>使得
+$$Pr\left(\omega \in \Omega: \lim_{n \to \infty} X_n(\omega)=X(\omega)\right)=1,$$
+则称随机变量序列<code>$\{X_n,n \ge 1\}$</code>几乎必然收敛（或以概率1收敛）于<code>$X$</code>，记为<code>$X_n \to X, a.s.$</code>。</p>
+<p><strong>定义2</strong> <code>$\quad$</code> 设<code>$\{X_n,n \ge 1\}$</code> 是随机变量序列，若存在随机变量<code>$X$</code>使得对任意的<code>$\epsilon &gt; 0$</code>，有
+$$\lim_{n \to \infty} Pr(|X_n-X|\ge\epsilon)=0,$$
+则称随机变量序列<code>$\{X_n,n \ge 1\}$</code>依概率收敛于<code>$X$</code>， 记为<code>$X_n \stackrel{p}{\longrightarrow} X$</code>。</p>
+<p><strong>定理1</strong> <code>$\quad$</code> <code>$X_n \implies X, a.s.$</code> 等价于<code>$\forall \epsilon &gt; 0$</code>，
+$$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|X_n-X|&gt;\epsilon)=0。$$</p>
+<p><strong>总结</strong> <code>$\quad$</code> 几乎处处收敛考察的是不收敛的样本点的概率是否为 0，而依概率收敛则考察<code>$X_n$</code>和<code>$X$</code>差异的尾概率是否趋于 0。定理1给出几乎处处收敛的等价定义，可知，几乎处处收敛<code>$\implies$</code>依概率收敛。那么在什么条件下，依概率收敛<code>$\implies$</code>几乎处处收敛呢？对此，Borel-Cantelli第一引理给出了答案。</p>
+<h2 id="引理内容">引理内容</h2>
+<p><strong>引理1</strong> <code>$\quad$</code> 设<code>$\{A_n, n=1,2,\cdots\}$</code>是一列事件，若<code>$\sum_{n=1}^{\infty}Pr(A_n)&lt;\infty$</code>，则<code>$Pr(A_n,i.o)=0 $</code>。</p>
+<p>令<code>$A_n=\{|X_n-X|&gt;\epsilon\}$</code>，则可知依概率收敛仅要求级数的每一项<code>$Pr(A_n)$</code>趋于0。而几乎处处收敛要求更高一点，需要对应的级数是收敛的(充分条件)，这就要求级数的每一项<code>$Pr(A_n)$</code>趋于0的速度要快一点。</p>
+<p><strong>引理1推论</strong> <code>$\quad$</code> 依概率收敛可以推出子列几乎处处收敛。</p>
+<p><strong>引理2</strong> <code>$\quad$</code> 设<code>$\{A_n, n=1,2,\cdots\}$</code>是独立的事件列，若<code>$\sum_{n=1}^{\infty}Pr(A_n)=\infty$</code>，则<code>$Pr(A_n,i.o)=1 $</code>。</p>
+<p>下面给出一个简单的例子予以说明引理2。假设我们抛掷一个骰子无穷多次，那么骰子正面出现数值6无穷多次的概率是多少？答案是1。实际上令<code>$A_n$</code>表示第<code>$n$</code>次抛掷出现6，容易知道<code>$Pr(A_n)=1/6$</code>，而且<code>$\{A_n,\ge 1\}$</code>之间相互独立，从而<code>$\sum_{n=1}^{\infty}Pr(A_n)=\sum_{n=1}^{\infty}1/6=\infty$</code>，因此，<code>$A_n$</code>发生无穷多次的概率是1。换而言之，只要某一事件可能发生，即使发生的概率非常非常小，同时不同事件相互独立，则该事件在无限长时间内几乎必然发生。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>郭老师统计小课堂</em>。 <a href="https://mp.weixin.qq.com/s/XyfP9-ZTr_rb9CufIwkCDA">Borel-Cantelli引理</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>论文英语</title>
+      <link>/cn/2022/07/26/paper_skill/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/07/26/paper_skill/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="原则">原则</h2>
+<ol>
+<li>公式简洁</li>
+<li>突出亮点（人无你有）</li>
+</ol>
+<h2 id="摘要">摘要</h2>
+<h3 id="提出问题">提出问题</h3>
+<ol>
+<li>The ** is a ** problem.</li>
+<li>It aims to do sth.</li>
+<li>Aim to do sth</li>
+<li>** has been widely used in many problems, but there are few relevant studies on **.</li>
+</ol>
+<h3 id="传统方法">传统方法</h3>
+<ol>
+<li>Traditional methods have difficulty ensuring sth when **.</li>
+<li>Since (reason).<br>
+It makes the method prone to miss the optimal solution, resulting in **.</li>
+<li>**, leading to ** with low accuracy.</li>
+<li>**, leading to the failure of sth.</li>
+<li>Although, these ** can solve the problems, but ** still cannot meet the requirements.</li>
+</ol>
+<h3 id="建议方法">建议方法</h3>
+<ol>
+<li>In this work, ** method based on ** and ** is proposed to solve the problem.</li>
+<li>A novel strategy was introduced into ** to improve the capability by v-ing.</li>
+<li>A new ** is proposed, which **, then **.</li>
+<li>, which is very effective for solving **.</li>
+<li>The technologies that have been successfully applied include **, ** and so on.</li>
+<li>** is used to solve the problem in complex environment.</li>
+<li>owing to its advantage of **, ** shows remarkable performance in solving **.</li>
+<li>In this paper, ** is proposed to handle the problems.</li>
+<li>The method can alleviate **.</li>
+</ol>
+<h3 id="数值试验">数值试验</h3>
+<ol>
+<li>The simulation experimental results in ** show that the new method can ** and its performance is **.</li>
+<li>The comparative experiments in these reports verify the effectiveness and reliability of these methods.</li>
+<li>The superiority of the proposed method is experimentally verified.</li>
+</ol>
+<h2 id="行文">行文</h2>
+<h3 id="句子">句子</h3>
+<ol>
+<li>is an indispensable part of</li>
+<li>A series of algorithms</li>
+<li>the number of nodes v-s</li>
+<li>Sth have been proposed to solve this complex multi-constraint optimization problem</li>
+<li>such as **, **, and **.</li>
+<li>As sth increases and sth becomes adj.</li>
+<li>The computational effort increases exponentially</li>
+<li>in dealing with such problems</li>
+<li>method used in paper</li>
+<li>studied by researchers</li>
+<li>proposed by sb</li>
+<li>introduced by sb</li>
+<li>inspired by sth</li>
+<li>The research shows that **.</li>
+<li>owing to its advantages</li>
+<li>To improve sth, sb embeds sth into sth.</li>
+<li>effects on</li>
+<li>move toward</li>
+<li>a hybrid strategy</li>
+<li>the information is collected through ** to provide more ** for v-ing sth.</li>
+<li>** is constructed</li>
+<li>the information can be shared</li>
+<li>The rest of the paper is explained as follows:</li>
+<li>Section 1 describes **.</li>
+<li>a summary is given in Section 5.</li>
+</ol>
+<h2 id="词藻">词藻</h2>
+<h3 id="否定">否定</h3>
+<ol>
+<li>insufficient</li>
+<li>low accuracy</li>
+<li>premature</li>
+<li>low timeliness</li>
+</ol>
+<h3 id="肯定">肯定</h3>
+<ol>
+<li>navel</li>
+<li>effective and feasible</li>
+<li>successfully</li>
+<li>is superior to the other sth.</li>
+<li>remarkable</li>
+<li>elite</li>
+<li>competitive</li>
+<li>effectiveness and reliability</li>
+<li>computational efficiency</li>
+<li>recognition accuracy</li>
+<li>promising</li>
+</ol>
+<h2 id="总结">总结</h2>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

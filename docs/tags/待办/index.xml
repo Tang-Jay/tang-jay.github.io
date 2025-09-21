@@ -1,0 +1,1446 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>待办 on Tan Jay | 唐 洁</title>
+    <link>/tags/%E5%BE%85%E5%8A%9E/</link>
+    <description>Recent content in 待办 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E5%BE%85%E5%8A%9E/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>下一步研究计划</title>
+      <link>/cn/2025/03/19/todo/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/03/19/todo/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="2025-02-23-周日">2025-02-23 周日</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.1 节。✅</li>
+<li>收获：一些精确定义，关于 conformal prediction。✅</li>
+</ul>
+</li>
+<li>改GPSC论文 ✅</li>
+</ul>
+<h2 id="2025-02-25-周二">2025-02-25 周二</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.2.4节。✅</li>
+<li>收获：一些精确定义，关于 nonconformal measures。✅</li>
+</ul>
+</li>
+<li>改GPSC论文✅</li>
+</ul>
+<h2 id="2025-02-26-周三">2025-02-26 周三</h2>
+<ul>
+<li>conformal inference
+<ul>
+<li>书籍看完 2.3节。✅</li>
+<li>收获：conformal inference 的应用。✅</li>
+</ul>
+</li>
+<li>面见导师✅</li>
+</ul>
+<h2 id="2025-02-27-周四">2025-02-27 周四</h2>
+<ul>
+<li>时间管理：3+4+上课  ✅</li>
+<li>任务：
+<ul>
+<li>纵向DRO的工作总结 ⁉️</li>
+<li>询问大模型DRO可研究方向 <a href="https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent">https://huggingface.co/spaces/DAMO-NLP-SG/CoI_Agent</a> ❌</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-02-28-周五">2025-02-28 周五</h2>
+<ul>
+<li>时间管理：3.5+3.5+2.5 ✅</li>
+<li>任务：
+<ul>
+<li>阅读 conformal 论文工作，2 篇 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-01-周六">2025-03-01 周六</h2>
+<ul>
+<li>时间管理：1+助教+3.5+2  ✅</li>
+<li>任务：
+<ul>
+<li>fairness 论文阅读，P4 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-02-周日">2025-03-02 周日</h2>
+<ul>
+<li>
+<p>时间管理：3.5+1+助教+3.5 ✅</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>fairness 论文阅读，P8 ✅</li>
+<li>总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a>，周一汇报 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-03-周一">2025-03-03 周一</h2>
+<ul>
+<li>
+<p>时间管理：4+汇报+3 ✅</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>继续总结 <a href="https://arxiv.org/abs/2008.04267">Robust Validation</a> ✅</p>
+</li>
+<li>
+<p>面见老师 ✅</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-04-周二">2025-03-04 周二</h2>
+<ul>
+<li>
+<p>时间管理：上课+5.5+2.5 ✅</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>朱老师高维课（有收获，更理解定理的设计背后的含义了！）✅</li>
+<li>案例讲座安排签到 ✅</li>
+<li>一篇日记 ✅</li>
+<li>准备下周二高维 ✅</li>
+<li>修改GPSC（增添分类依据）  ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-05-周三">2025-03-05 周三</h2>
+<ul>
+<li>
+<p>时间管理：4.5+3.5+2 ✅</p>
+</li>
+<li>
+<p>自我激励：加油加油！秦老师要来珠海了！</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>搜 EL 与 DRO 结合的相关论文 ✅</li>
+<li>践行<a href="https://mp.weixin.qq.com/s/qotV2ZzFR65mqca6l96elw"><em>用 DeepSeek 2小时搞定一篇论文初稿（全流程攻略）</em></a>。✅</li>
+<li>DRO 论文阅读 ✅</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-06-周四">2025-03-06 周四</h2>
+<ul>
+<li>
+<p>时间管理：4+2+晚上课 ✅</p>
+<ul>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>Zotero搭配DeepSeek起飞 ✅</p>
+</li>
+<li>
+<p>Duchi广义经验似然与DRO结合论文 ✅</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-07-周五">2025-03-07 周五</h2>
+<ul>
+<li>
+<p>时间管理：5+2+报告+2✅</p>
+<ul>
+<li>
+<p>任务：</p>
+<ul>
+<li>
+<p>阅读Duchi广义经验似然与DRO结合论文 ✅</p>
+</li>
+<li>
+<p>3月7日下午有学术报告  （复旦朱忠义老师）✅</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-03-08-周六">2025-03-08 周六</h2>
+<ul>
+<li>
+<p>时间管理：4+4+2</p>
+</li>
+<li>
+<p>任务：</p>
+<ul>
+<li>阅读Duchi广义经验似然与DRO结合论文 ✅</li>
+</ul>
+<h2 id="2025-03-15-周六">2025-03-15 周六</h2>
+</li>
+<li>
+<p>时间管理：4+4+2</p>
+</li>
+<li>
+<p>上周任务：</p>
+<ul>
+<li>准备周二高维 ✅</li>
+<li>与大佬聊一聊PCEL 是否还有救呢 ✅</li>
+<li>3月10日9:25签到 ✅</li>
+</ul>
+</li>
+<li>
+<p>下周任务：</p>
+<ul>
+<li>周一汇报，fairness 论文 ✅</li>
+<li>周二讲课，高维 ✅</li>
+<li>周二下午，苏东坡主题讲座 ✅</li>
+<li>慕课：登陆查看 ✅</li>
+<li>修改GPSC （修改Introduction）✅</li>
+<li>周六讲座，顺便请教邱涛师兄，如何完善PCEL：加实验数据，是否可以将图片数据纳入进来？（矩阵=图片=空间相关数据）；改善算法解释多主成分没有1主成分效果好的原因。❌</li>
+<li>准备周三组会：介绍EL方法（按照杨老师讲义）/看一下Owen\Qin Jin论文 ✅</li>
+<li>UC论文阅读 ✅</li>
+<li>退税 ✅</li>
+<li>复习时间序列谱分析4.1章 ✅</li>
+</ul>
+<h2 id="2025-03-26-周三">2025-03-26 周三</h2>
+<ul>
+<li>
+<p>时间管理：3+4+3</p>
+</li>
+<li>
+<p>本周任务：</p>
+<ul>
+<li>
+<p>conformity 书籍看完第二章</p>
+</li>
+<li>
+<p>Duchi ：发表的论文或指导的毕业论文 / Variance Regulation</p>
+</li>
+<li>
+<p>Hallucinations Detection 阅读</p>
+</li>
+<li>
+<p>EL是否可以用作大模型的检验上？</p>
+</li>
+<li>
+<p>EL是否可以变到对已经训练好的模型做检验</p>
+<ul>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+<li>用上述两篇文献导出fairness指标的置信区间</li>
+</ul>
+</li>
+<li>
+<p>paper connector 搜索连续的敏感属性的定义以及相关的检验方法</p>
+<ul>
+<li>
+<p>连续型公平性的检验的处理</p>
+</li>
+<li>
+<p>与EL等价的方法结合 Fairness 的相关论文有哪些</p>
+<ul>
+<li>CP在Fairness已有成果</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>EL在统计上会被argue的点</p>
+<ul>
+<li>收敛速度问题</li>
+<li>自身方法存在哪些问题</li>
+</ul>
+</li>
+<li>
+<p>EL方法是否与模型无关</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>八月安排表</title>
+      <link>/cn/2023/08/01/plan/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/08/01/plan/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="计划清单">计划清单</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日期</th>
+<th style="text-align:center">星期</th>
+<th style="text-align:center">英语</th>
+<th style="text-align:center">科研</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">08-01</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center">①②3-7</td>
+<td style="text-align:center">①85/297</td>
+<td style="text-align:center">申论</td>
+</tr>
+<tr>
+<td style="text-align:center">08-02</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center">①②3-8</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
+</tr>
+<tr>
+<td style="text-align:center">08-03</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center">①②3-8</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
+</tr>
+<tr>
+<td style="text-align:center">08-04</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center">①②3-8</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
+</tr>
+<tr>
+<td style="text-align:center">08-05</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">申论</td>
+</tr>
+<tr>
+<td style="text-align:center">08-06</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">长沙工业学院</td>
+</tr>
+<tr>
+<td style="text-align:center">08-07</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-08</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center">①②3-8③</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">申论+公基</td>
+</tr>
+<tr>
+<td style="text-align:center">08-09</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">公基</td>
+</tr>
+<tr>
+<td style="text-align:center">08-10</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">公基</td>
+</tr>
+<tr>
+<td style="text-align:center">08-11</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">公基</td>
+</tr>
+<tr>
+<td style="text-align:center">08-12</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center">①②3-8③</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-13</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center">①②3-8③</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">备战博士</td>
+</tr>
+<tr>
+<td style="text-align:center">08-14</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center">①②3-8③</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-15</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center">①②3-8③</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-16</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-17</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-18</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-19</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-20</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">入职培训</td>
+</tr>
+<tr>
+<td style="text-align:center">08-21</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-22</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-23</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">新生军训</td>
+</tr>
+<tr>
+<td style="text-align:center">08-24</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-25</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-26</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-27</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-28</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-29</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">结束军训</td>
+</tr>
+<tr>
+<td style="text-align:center">08-30</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">08-31</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>英语学习
+<ul>
+<li>雅思听力：①精听5句 ②听写单词</li>
+<li>雅思写作：③翻译100句④语法改错400句⑤手把手书上22篇翻译⑥刘洪波写作课、顾家北精品班</li>
+</ul>
+</li>
+<li>科研学习
+<ul>
+<li>专业书籍：①<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a>②<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a></li>
+<li>网络课程：⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></li>
+<li>动手实践：⑥经验似然求线性模型估计值</li>
+</ul>
+</li>
+<li>社会考试
+<ul>
+<li>大学考试：①<a href="https://pan.baidu.com/s/1X9fXk24Cnty1dY3MCYNvDg?pwd=bv4g">申论</a>+<a href="https://pan.baidu.com/s/1G5VYlegYRcwQFM5YgcJiwQ?pwd=ab7n">公基</a></li>
+<li>考编考试：②教综(<a href="https://shop.liangshiba.com/#/liveDetail?shopid=18018&amp;livetype=5&amp;distribution=207135&amp;school=2&amp;distributionEntry=1">良师</a>/<a href="https://pan.baidu.com/s/1lLx10z7PXmsEtW6IIalBhQ?pwd=62pa">粉笔</a>)+<a href="https://www.bilibili.com/video/BV1VD4y1D7UB/?p=22&amp;spm_id_from=333.880.my_history.page.click&amp;vd_source=813a147d7428303db620774cb1ec7ba8">一数</a></li>
+<li>博士考试：③统计类</li>
+</ul>
+</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>七月安排表</title>
+      <link>/cn/2023/07/01/plan/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/07/01/plan/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="计划清单">计划清单</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日期</th>
+<th style="text-align:center">星期</th>
+<th style="text-align:center">雅思听力</th>
+<th style="text-align:center">机器学习</th>
+<th style="text-align:center">又战长沙</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">07-01</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">耀华中学</td>
+</tr>
+<tr>
+<td style="text-align:center">07-02</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">博致学校</td>
+</tr>
+<tr>
+<td style="text-align:center">07-03</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-04</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-05</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">湖南农业大学</td>
+</tr>
+<tr>
+<td style="text-align:center">07-06</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">保险职业学院</td>
+</tr>
+<tr>
+<td style="text-align:center">07-07</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">周南梅溪湖中学(上)/湖师大附小(下)</td>
+</tr>
+<tr>
+<td style="text-align:center">07-08</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改通知</td>
+<td style="text-align:center">中医药大学(8:00短信)/师大附中(1:00)</td>
+</tr>
+<tr>
+<td style="text-align:center">07-09</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center">雅礼雨花中学(7:30)</td>
+</tr>
+<tr>
+<td style="text-align:center">07-10</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-11</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-12</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-13</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">湖师大附中现场报名</td>
+</tr>
+<tr>
+<td style="text-align:center">07-14</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-15</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">株洲考试(9:00)</td>
+</tr>
+<tr>
+<td style="text-align:center">07-16</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-17</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">明达中学(8:30)</td>
+</tr>
+<tr>
+<td style="text-align:center">07-18</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-19</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改通知</td>
+<td style="text-align:center">雅礼洋湖英才学校(8:30)/岳麓区实验小学(1:30)</td>
+</tr>
+<tr>
+<td style="text-align:center">07-20</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">西雅中学(7:30)/博才梅溪湖小学(1:30)</td>
+</tr>
+<tr>
+<td style="text-align:center">07-21</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">师大附小1:30</td>
+</tr>
+<tr>
+<td style="text-align:center">07-22</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-23</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">株洲9:00/浏阳1:30</td>
+</tr>
+<tr>
+<td style="text-align:center">07-24</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-25</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center">西雅拿准考证</td>
+</tr>
+<tr>
+<td style="text-align:center">07-26</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">湘江新区笔试</td>
+</tr>
+<tr>
+<td style="text-align:center">07-27</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center">湘江新区面试</td>
+</tr>
+<tr>
+<td style="text-align:center">07-28</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修改论文</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">07-29</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">修回论文</td>
+<td style="text-align:center">湖南大学附属中学8:30</td>
+</tr>
+<tr>
+<td style="text-align:center">07-30</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">衡阳现场报名（放弃）</td>
+</tr>
+<tr>
+<td style="text-align:center">07-31</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">湘潭市直（放弃）</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>雅思听力：①背语料库 ②王陆听力课</li>
+<li>机器学习：①<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ②<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a> ④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a><br>
+⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a> ⑥经验似然求线性模型估计值 ⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>六月安排表(下)</title>
+      <link>/cn/2023/06/22/plan/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/06/22/plan/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="计划清单-下">计划清单 (下)</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日期</th>
+<th style="text-align:center">星期</th>
+<th style="text-align:center">雅思听力</th>
+<th style="text-align:center">机器学习</th>
+<th style="text-align:center">又战长沙</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">06-22</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">外婆家</td>
+</tr>
+<tr>
+<td style="text-align:center">06-23</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">收拾屋子</td>
+</tr>
+<tr>
+<td style="text-align:center">06-24</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">整理AEL</td>
+</tr>
+<tr>
+<td style="text-align:center">06-25</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">高考线</td>
+</tr>
+<tr>
+<td style="text-align:center">06-26</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-27</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center">①6/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">长沙报名</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-28</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center">①6/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">株洲报名</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-29</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center">①6/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">刷试卷</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-30</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center">①7/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>雅思听力：①背语料库 ②王陆听力课</li>
+<li>机器学习：①<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ②<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a> ④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a><br>
+⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a> ⑥经验似然求线性模型估计值 ⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>六月安排表(上)</title>
+      <link>/cn/2023/06/01/plan/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/06/01/plan/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="计划清单-上">计划清单 (上)</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日期</th>
+<th style="text-align:center">星期</th>
+<th style="text-align:center">雅思听力</th>
+<th style="text-align:center">毕业事项</th>
+<th style="text-align:center">机器学习</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">06-01</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center">①5/9</td>
+<td style="text-align:center">①②③</td>
+<td style="text-align:center">②75/297⑦1-6</td>
+<td style="text-align:center">儿童节</td>
+</tr>
+<tr>
+<td style="text-align:center">06-02</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">PPT试讲</td>
+</tr>
+<tr>
+<td style="text-align:center">06-03</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">答辩准备</td>
+</tr>
+<tr>
+<td style="text-align:center">06-04</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">答辩</td>
+</tr>
+<tr>
+<td style="text-align:center">06-05</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">谢师宴</td>
+</tr>
+<tr>
+<td style="text-align:center">06-06</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">炎哥</td>
+</tr>
+<tr>
+<td style="text-align:center">06-07</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">④</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">统计聚餐</td>
+</tr>
+<tr>
+<td style="text-align:center">06-08</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">大哥凯哥</td>
+</tr>
+<tr>
+<td style="text-align:center">06-09</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center">①4-6/9</td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-10</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">宿舍聚餐</td>
+</tr>
+<tr>
+<td style="text-align:center">06-11</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center">①6/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-12</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center">①6/9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">②85/297</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-13</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">同门四只</td>
+</tr>
+<tr>
+<td style="text-align:center">06-14</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">宿舍合照</td>
+</tr>
+<tr>
+<td style="text-align:center">06-15</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-16</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">④⑤</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-17</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">工作报名</td>
+</tr>
+<tr>
+<td style="text-align:center">06-18</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">打包行李</td>
+</tr>
+<tr>
+<td style="text-align:center">06-19</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">香</td>
+</tr>
+<tr>
+<td style="text-align:center">06-20</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">毕业典礼</td>
+</tr>
+<tr>
+<td style="text-align:center">06-21</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">离校</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>雅思听力：①背语料库 ②王陆听力课</li>
+<li>毕业事项：<del>①答辩PPT</del> <del>②学生手册填写</del> <del>③监工</del> <del>④修改论文</del> <del>⑤项目结题</del></li>
+<li>机器学习：①<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ②<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a> ④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a><br>
+⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a> ⑥经验似然求线性模型估计值 ⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>五月底计划表</title>
+      <link>/cn/2023/05/31/plan/</link>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/05/31/plan/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="第一周">第一周</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">日期</th>
+<th style="text-align:center">星期</th>
+<th style="text-align:center">雅思听力</th>
+<th style="text-align:center">毕业事项</th>
+<th style="text-align:center">机器学习</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">05-29</td>
+<td style="text-align:center">周一</td>
+<td style="text-align:center">①5/9</td>
+<td style="text-align:center">①③</td>
+<td style="text-align:center">②28/297</td>
+<td style="text-align:center">改稿通知</td>
+</tr>
+<tr>
+<td style="text-align:center">05-30</td>
+<td style="text-align:center">周二</td>
+<td style="text-align:center">①5/9</td>
+<td style="text-align:center">①③</td>
+<td style="text-align:center">②42/297</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">05-31</td>
+<td style="text-align:center">周三</td>
+<td style="text-align:center">①5/9</td>
+<td style="text-align:center">①③</td>
+<td style="text-align:center">②57/297</td>
+<td style="text-align:center">修改论文</td>
+</tr>
+<tr>
+<td style="text-align:center">06-01</td>
+<td style="text-align:center">周四</td>
+<td style="text-align:center">①5/9</td>
+<td style="text-align:center">①②③</td>
+<td style="text-align:center">②75/297⑦1-6</td>
+<td style="text-align:center">儿童节</td>
+</tr>
+<tr>
+<td style="text-align:center">06-02</td>
+<td style="text-align:center">周五</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">PPT试讲</td>
+</tr>
+<tr>
+<td style="text-align:center">06-03</td>
+<td style="text-align:center">周六</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">06-04</td>
+<td style="text-align:center">周日</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">答辩</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">拍毕业照</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<p>雅思听力：①背语料库 ②王陆听力课</p>
+</li>
+<li>
+<p>毕业事项：<del>①答辩PPT</del>  ②学生手册填写 <del>③监工</del></p>
+</li>
+<li>
+<p>机器学习：①<a href="/papers/QinRecom/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%AF%BC%E8%AE%BA.pdf">支持向量机导论</a> ②<a href="/papers/QinRecom/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf">机器学习</a> ③<a href="https://pan.baidu.com/s/18m7YJECFCvtaxidqjjqz_w?pwd=1234">机器学习导论</a> ④<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10125982&amp;rc=37037A">张师超</a><br>
+⑤<a href="http://www.globalauthorid.com/WebPortal/AuthorView?wd=GAID10127811&amp;rc=013F3E">朱晓峰</a>，<a href="/papers/QinRecom/ZhuXF-1.pdf">论文1</a>，<a href="/papers/QinRecom/ZhuXF-2.pdf">论文2</a> ⑥经验似然求线性模型估计值 ⑦<a href="https://edu.csdn.net/course/detail/31616?spm=1003.2449.3001.8293.1">机器学习课</a></p>
+</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>考编历程</title>
+      <link>/cn/2023/05/09/exams/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2023/05/09/exams/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="第一场-长沙县-初中城区-68-5">第一场 长沙县 初中城区 68.5</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center">最低入面</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">高中城区</td>
+<td style="text-align:center">79</td>
+</tr>
+<tr>
+<td style="text-align:center">高中农村</td>
+<td style="text-align:center">67</td>
+</tr>
+<tr>
+<td style="text-align:center">初中城区</td>
+<td style="text-align:center">79</td>
+</tr>
+<tr>
+<td style="text-align:center">初中农村</td>
+<td style="text-align:center">71</td>
+</tr>
+<tr>
+<td style="text-align:center">小学城区</td>
+<td style="text-align:center">79</td>
+</tr>
+<tr>
+<td style="text-align:center">小学农村</td>
+<td style="text-align:center">69.5</td>
+</tr>
+</tbody>
+</table>
+<p>失败分析：准备就一个月，小初高同一张试卷，城区的最低入面79，说明我这准备不足的人就不该报城区；小学农村比高中农村还高，说明大家都觉得小学容易一些，想上岸，我应该反其道选报的人少的高中。</p>
+<h3 id="第二场-天心区-初中数学毕业生类-75">第二场 天心区 初中数学毕业生类 75</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center">最低入面</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">初中数学毕业生类</td>
+<td style="text-align:center">85.5</td>
+</tr>
+<tr>
+<td style="text-align:center">初中数学在职类</td>
+<td style="text-align:center">89</td>
+</tr>
+<tr>
+<td style="text-align:center">小学数学毕业生类</td>
+<td style="text-align:center">80.5</td>
+</tr>
+<tr>
+<td style="text-align:center">小学数学在职类</td>
+<td style="text-align:center">78.5</td>
+</tr>
+</tbody>
+</table>
+<p>失败分析：前脚考完长沙县，第二天就考天心，无缝衔接。天心的试卷比长沙县容易一些，分数自然也高一些，本质上还是自己做得还不够多，熟练度还不够，两场考试都距离入面差了10分。</p>
+<h3 id="第三场-开福区-初中数学应届生-69-98">第三场 开福区 初中数学应届生 69.98</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center">最低入面</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">初中数学毕业生类</td>
+<td style="text-align:center">70.5</td>
+</tr>
+</tbody>
+</table>
+<p>失败分析：缓了一周又考试，距离入面差了0.5分。</p>
+<h3 id="第四场-岳麓区-初中数学高校毕业生-47-3">第四场 岳麓区 初中数学高校毕业生 47.3</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">岗位</th>
+<th style="text-align:center"><a href="http://www.yuelu.gov.cn/yl_xxgk/bmxxgkml/qjyj/tzgg/202305/P020230512329398193459.pdf">最低入面</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">在职教师A</td>
+<td style="text-align:center">53.40</td>
+</tr>
+<tr>
+<td style="text-align:center">在职教师B</td>
+<td style="text-align:center">67.40</td>
+</tr>
+<tr>
+<td style="text-align:center">高校毕业生</td>
+<td style="text-align:center">62.70</td>
+</tr>
+</tbody>
+</table>
+<p>失败分析：我太想考好了，考场最后15分钟我还完成一道大题，结果忘记把前面12道判断题和40道选择题涂卡了，直接丢失试卷一半的分数。</p>
+<h3 id="第五场-市直-麓山国际实验小学-1-136">第五场 市直 麓山国际实验小学（1:136）</h3>
+<p>失败分析：第一次考小学，遇到新的题型——案例分析，教综之前都是准备的单选和判断，没想到小学教综是这么考的，还一半的分呢，拿到试卷就晕了。下了考场想想，还是可以写一写的，不能拿满分也可以拿一半的分吧。半放弃的心态真的不可能考上呀！</p>
+<h3 id="第六场-望城区-小学数学">第六场 望城区 小学数学</h3>
+<p>预警：准备案例分析题，做历年真题，再多做一做题，不要放弃，达到入面成绩就行～</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>十一月完结</title>
+      <link>/cn/2022/11/30/conclusion/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/11/30/conclusion/</guid>
+      <description>
+        <![CDATA[
+        <p style="text-align: center;">
+	<img src="/images/1130.jpg" alt="WechatIMG435" style="zoom:30%;" />
+</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>雅思</title>
+      <link>/cn/2022/09/01/ielts/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/01/ielts/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>2022年的暑假学习写英文论文，秦老师很耐心地批改我难以言喻的中式英语，真的感谢我的老师，没有批评我一句，为此，我更希望全方位提高自己英语水平，莫给老师添负担。</p>
+</blockquote>
+<hr>
+<h2 id="听">听</h2>
+<h2 id="说">说</h2>
+<h2 id="读">读</h2>
+<h2 id="写">写</h2>
+<ol>
+<li><a href="/cn/2022/09/02/writing">《手把手雅思写作剑12》顾家北</a></li>
+</ol>
+<h2 id="资源">资源</h2>
+<ol>
+<li>
+<p><a href="https://zhuanlan.zhihu.com/p/265752658">雅思最全学习网站</a></p>
+</li>
+<li>
+<p>IELTS MATERIAL.</p>
+<ul>
+<li>网站地址：<a href="http://ieltsmaterial.com/">http://ieltsmaterial.com/</a></li>
+<li>网站介绍：这里拥有非常全的雅思学习资料，主要包含了雅思课程、备考书籍、高分备考词汇表、写作高分范文、模拟试题、备考建议等等。</li>
+</ul>
+</li>
+<li>
+<p>IELTS Buddy</p>
+<ul>
+<li>网站地址：<a href="http://www.ieltsbuddy.com/">http://www.ieltsbuddy.com/</a></li>
+<li>网站介绍：这里划分非常的详细，针对听说读写、词汇和语法都有相应的练习和技巧。</li>
+</ul>
+</li>
+<li>
+<p>IELTS FOR FREE</p>
+<ul>
+<li>网站地址：<a href="https://ieltsforfree.com/">https://ieltsforfree.com/</a></li>
+<li>网站介绍：适用于A类和G类考生，并且网站有一亮点就是可以查看自己观看的课程记录，便于查找和反复消化。</li>
+</ul>
+</li>
+<li>
+<p>Simon官网</p>
+<ul>
+<li>网站地址：<a href="http://ielts-simon.com/">http://ielts-simon.com/</a></li>
+<li>网站介绍：Simon作为英国曼城的前雅思考官，对雅思备考技巧自然有专业的解读，所以很值得学习，尤其是他写的雅思范文很值得精读！</li>
+</ul>
+</li>
+<li>
+<p>Ryan&rsquo;s IELTS Blog</p>
+<ul>
+<li>网站地址：<a href="http://ieltsielts.com/earlier-blog-posts/">http://ieltsielts.com/earlier-blog-posts/</a></li>
+<li>网站介绍：听说读写备考建议+学生作文批改服务。</li>
+</ul>
+</li>
+<li>
+<p>The IELTS Network</p>
+<ul>
+<li>网站地址：<a href="http://www.ieltsnetwork.com/">http://www.ieltsnetwork.com/</a></li>
+<li>网站介绍：上面有很多帖子都是大家组团口语Partner的，有skype group和whatsapp group可供大家选择组团联系口语，还可以认识更多世界各国的小伙伴。</li>
+</ul>
+</li>
+<li>
+<p>IELTS Advantage</p>
+<ul>
+<li>网站地址：<a href="https://www.ieltsadvantage.com/">https://www.ieltsadvantage.com/</a></li>
+<li>网站介绍：基本的雅思高分套路。听说读写免费资料+写作口语增值服务。</li>
+</ul>
+</li>
+<li>
+<p>10IELTS LIZ</p>
+<ul>
+<li>网站地址：<a href="http://ieltsliz.com/">http://ieltsliz.com/</a></li>
+<li>网站介绍：雅思考试技巧，听说读写练习，写作高分范文。</li>
+</ul>
+</li>
+</ol>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -4,7 +4,7 @@ date: '2022-09-22'
 categories:
   - 学习志
 tags:
-  - 论文
+  - 科研
 slug: SymMatrix
 disable_comments: true
 ---

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>保形推断 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="保形推断 - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="主题：confermal inference、参考文献、nonconformity measure、重对数律。
+[&amp;hellip;] Conformal Inference（保形推断）是一种非参数的统计方法，用于为预测模型生成具有严格概率保证的预测区间或集合。其核心目标是在不依赖数据分布假设的情况下，确保新观测值的真实结果以预定概率（如95%）落入预测范围内。以下是其关键要点： &amp;hellip;">
+      <meta property="og:description" content="主题：confermal inference、参考文献、nonconformity measure、重对数律。
+[&amp;hellip;] Conformal Inference（保形推断）是一种非参数的统计方法，用于为预测模型生成具有严格概率保证的预测区间或集合。其核心目标是在不依赖数据分布假设的情况下，确保新观测值的真实结果以预定概率（如95%）落入预测范围内。以下是其关键要点： &amp;hellip;">
+      
+    
+
+    
+    
+    
+    <meta name="twitter:image" content="/images/logo.png">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>保形推断</h1>
+
+
+<h3>Tan Jay / 
+2025-02-25</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h1 id="研究记录之保形推断">研究记录之保形推断</h1>
+<p>主题：confermal inference、参考文献、nonconformity measure、重对数律。</p>
+<h2 id="confermal-inference">confermal inference</h2>
+<p>Conformal Inference（保形推断）是一种非参数的统计方法，用于为预测模型生成具有严格概率保证的预测区间或集合。其核心目标是在不依赖数据分布假设的情况下，确保新观测值的真实结果以预定概率（如95%）落入预测范围内。以下是其关键要点：</p>
+<h3 id="核心思想">核心思想</h3>
+<ol>
+<li><strong>覆盖概率保证</strong>：无论数据分布如何，Conformal Inference生成的预测区间能以指定的置信水平（如1-α）覆盖真实值，适用于有限样本且无需渐近近似。</li>
+<li><strong>非参数与模型无关</strong>：不假设数据分布或模型结构，适用于任何预测模型（如线性回归、神经网络等），尤其适合复杂机器学习模型的不确定性量化。</li>
+</ol>
+<h3 id="关键步骤">关键步骤</h3>
+<ol>
+<li><strong>划分数据</strong>：将数据集分为训练集和校准集。</li>
+<li><strong>训练模型</strong>：使用训练集训练模型。</li>
+<li><strong>计算非合群分数（Nonconformity Score）</strong>：衡量预测与实际值的差异。例如：
+<ul>
+<li><strong>回归任务</strong>：残差绝对值 <code>$ |y_i - \hat{y}_i| $</code> 。</li>
+<li><strong>分类任务</strong>：1减去正确类别的预测概率 <code>$ 1 - P(y_i|x_i) $</code>。</li>
+</ul>
+</li>
+<li><strong>确定分位数</strong>：基于校准集的分数计算调整后的分位数 <code>$q = \lceil (n+1)(1-\alpha) \rceil / n $</code> ，其中 <code>$ n $</code>为校准集大小。</li>
+<li><strong>构建预测区间</strong>：新样本的预测区间为 <code>$\hat{y}_{\text{new}} \pm q $</code> （回归）或包含概率高于阈值的类别集合（分类）。</li>
+</ol>
+<h3 id="优势">优势</h3>
+<ul>
+<li><strong>强理论保证</strong>：严格覆盖概率，无需分布假设。</li>
+<li><strong>灵活性</strong>：兼容任何模型，适应回归与分类任务。</li>
+<li><strong>实用性强</strong>：适用于小样本，直接反映模型预测的不确定性。</li>
+</ul>
+<h3 id="局限性">局限性</h3>
+<ul>
+<li><strong>数据交换性假设</strong>：要求数据满足交换性（弱于独立同分布），可能不适用于时间序列等有序数据。</li>
+<li><strong>区间宽度依赖模型质量</strong>：模型预测越准，区间越窄；反之则越宽。</li>
+</ul>
+<h3 id="应用场景">应用场景</h3>
+<ul>
+<li><strong>高风险领域</strong>：如医疗诊断（预测疾病风险区间）、金融（风险估值）等需可靠不确定性的场景。</li>
+<li><strong>模型评估</strong>：对比不同模型的不确定性估计能力。</li>
+</ul>
+<h3 id="示例">示例</h3>
+<p><strong>回归任务</strong>：校准集残差为[0.5, 1.2, 2.0]，置信水平95%时，调整后分位数取第3大值（2.0）。新预测值为10，则区间为[8.0, 12.0]，保证真实值有95%概率落入。</p>
+<p><strong>分类任务</strong>：某样本正确类别的预测概率为0.6，阈值为0.3（对应1-α=95%），则预测集合包含所有概率≥0.4的类别，确保真实类别被包含的概率≥95%。</p>
+<p>总之，Conformal Inference通过数据驱动的方法，为复杂模型提供可靠的不确定性估计，增强其在现实应用中的可信度。</p>
+<p>以下是关于 <strong>Conformal Inference（保形推断）</strong> 的经典论文和最新研究推荐，涵盖理论、应用及扩展方向。这些论文适合深入理解其数学基础、算法实现及实际应用场景。</p>
+<h2 id="参考文献">参考文献</h2>
+<h3 id="1-奠基性论文"><strong>1. 奠基性论文</strong></h3>
+<h4 id="1-algorithmic-learning-in-a-random-world-https-link-springer-com-book-10-1007-978-3-031-06649-8"><strong>(1) <a href="https://link.springer.com/book/10.1007/978-3-031-06649-8">Algorithmic Learning in a Random World</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Vovk, Gammerman, Shafer (2005)</li>
+<li><strong>贡献</strong>: 系统提出保形推断的框架，定义了非合群分数（nonconformity score）和覆盖概率保证的数学证明，是保形推断的理论基石。</li>
+</ul>
+<h4 id="2-conformal-prediction-for-reliable-machine-learning-https-arxiv-org-abs-1404-1393"><strong>(2) <a href="https://arxiv.org/abs/1404.1393">Conformal Prediction for Reliable Machine Learning</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Balasubramanian, Ho, Vovk (2014)</li>
+<li><strong>贡献</strong>: 综述性论文，总结保形推断在分类、回归、异常检测等任务中的应用，并讨论与贝叶斯方法的对比。</li>
+</ul>
+<h3 id="2-分类与回归任务"><strong>2. 分类与回归任务</strong></h3>
+<h4 id="3-conformal-prediction-under-covariate-shift-https-arxiv-org-abs-1904-06019"><strong>(3) <a href="https://arxiv.org/abs/1904.06019">Conformal Prediction Under Covariate Shift</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Tibshirani et al. (2019)</li>
+<li><strong>贡献</strong>: 提出协变量偏移（covariate shift）下的保形推断方法，扩展了传统方法的适用范围。</li>
+</ul>
+<h4 id="4-distribution-free-predictive-inference-for-regression-https-arxiv-org-abs-1802-06307"><strong>(4) <a href="https://arxiv.org/abs/1802.06307">Distribution-Free Predictive Inference for Regression</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lei et al. (2018)</li>
+<li><strong>贡献</strong>: 针对回归任务提出分位数回归与保形推断结合的方法（<strong>Conformalized Quantile Regression, CQR</strong>），生成更紧致的预测区间。</li>
+</ul>
+<h4 id="5-classification-with-valid-and-adaptive-coverage-https-arxiv-org-abs-2006-02544"><strong>(5) <a href="https://arxiv.org/abs/2006.02544">Classification with Valid and Adaptive Coverage</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2020)</li>
+<li><strong>贡献</strong>: 提出自适应保形分类（Adaptive Conformal Classification），动态调整预测集合大小以提升效率。</li>
+</ul>
+<h3 id="3-时间序列与非交换数据"><strong>3. 时间序列与非交换数据</strong></h3>
+<h4 id="6-conformal-prediction-for-time-series-https-arxiv-org-abs-2205-00127"><strong>(6) <a href="https://arxiv.org/abs/2205.00127">Conformal Prediction for Time Series</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Xu &amp; Xie (2022)</li>
+<li><strong>贡献</strong>: 解决时间序列数据因违反交换性假设（exchangeability）带来的挑战，提出滑动窗口或分块保形推断方法。</li>
+</ul>
+<h4 id="7-conformal-pid-control-for-time-series-prediction-https-arxiv-org-abs-2307-16895"><strong>(7) <a href="https://arxiv.org/abs/2307.16895">Conformal PID Control for Time Series Prediction</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lindemann et al. (2023)</li>
+<li><strong>贡献</strong>: 将保形推断与PID控制结合，动态调整预测区间宽度，适应非平稳时间序列。</li>
+</ul>
+<h3 id="4-深度学习与高维数据"><strong>4. 深度学习与高维数据</strong></h3>
+<h4 id="8-conformal-prediction-for-deep-classifiers-via-clustering-https-arxiv-org-abs-2107-03363"><strong>(8) <a href="https://arxiv.org/abs/2107.03363">Conformal Prediction for Deep Classifiers via Clustering</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Lu et al. (2021)</li>
+<li><strong>贡献</strong>: 针对深度神经网络分类任务，提出基于聚类的保形推断方法，降低预测集合的冗余性。</li>
+</ul>
+<h4 id="9-uncertainty-quantification-with-conformal-prediction-for-deep-learning-https-arxiv-org-abs-2207-12254"><strong>(9) <a href="https://arxiv.org/abs/2207.12254">Uncertainty Quantification with Conformal Prediction for Deep Learning</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2022)</li>
+<li><strong>贡献</strong>: 系统性讨论如何将保形推断与深度学习结合，提供代码库（如 <code>TorchCP</code>）实现。</li>
+</ul>
+<h3 id="5-最新扩展方向"><strong>5. 最新扩展方向</strong></h3>
+<h4 id="10-conformal-risk-control-https-arxiv-org-abs-2208-02814"><strong>(10) <a href="https://arxiv.org/abs/2208.02814">Conformal Risk Control</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Angelopoulos et al. (2022)</li>
+<li><strong>贡献</strong>: 将保形推断推广到更一般的风险控制框架，适用于多任务学习与复杂损失函数。</li>
+</ul>
+<h4 id="11-conformal-off-policy-prediction-for-contextual-bandits-https-arxiv-org-abs-2306-04410"><strong>(11) <a href="https://arxiv.org/abs/2306.04410">Conformal Off-Policy Prediction for Contextual Bandits</a></strong></h4>
+<ul>
+<li><strong>作者</strong>: Bastani et al. (2023)</li>
+<li><strong>贡献</strong>: 在强化学习（Contextual Bandits）中应用保形推断，解决策略评估的覆盖性问题。</li>
+</ul>
+<h3 id="6-实用教程与书籍"><strong>6. 实用教程与书籍</strong></h3>
+<ul>
+<li><strong>书籍</strong>: <a href="https://arxiv.org/abs/2305.12621"><em>Conformal Prediction: A Unified Review of Theory and New Challenges</em></a> (2023)
+<ul>
+<li>最新综述，涵盖理论、算法及在因果推断、联邦学习等场景的扩展。</li>
+</ul>
+</li>
+<li><strong>教程代码库</strong>:
+<ul>
+<li><a href="https://github.com/donlnz/nonconformist">Python库 <code>nonconformist</code></a></li>
+<li><a href="https://github.com/ShuoYang-1998/TorchCP">TorchCP (PyTorch实现)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="选择建议"><strong>选择建议</strong></h3>
+<ul>
+<li><strong>入门</strong>：从奠基性论文（1-2）和教程代码库开始，理解核心思想。</li>
+<li><strong>应用场景</strong>：
+<ul>
+<li>时间序列选（6-7），</li>
+<li>深度学习选（8-9），</li>
+<li>分类回归优化选（3-5）。</li>
+</ul>
+</li>
+<li><strong>理论扩展</strong>：关注（10-11）的前沿方向。</li>
+</ul>
+<p>保形推断的核心优势在于其非参数性和严格的覆盖保证，但需注意其<strong>数据交换性假设</strong>是否满足（如时间序列需调整方法）。</p>
+<h2 id="nonconformity-measure">nonconformity measure</h2>
+<p>“<strong>Nonconformity measure</strong>”（非符合性度量）是统计学习和机器学习中的一个术语，尤其在 <strong>Conformal Prediction</strong>（保形预测）框架中扮演核心角色。它用于量化一个数据点与已有数据分布或模型预测的“不一致程度”，从而评估新样本的异常性或不确定性。</p>
+<h3 id="核心概念"><strong>核心概念</strong></h3>
+<ol>
+<li>
+<p><strong>基本定义</strong>：</p>
+<ul>
+<li><strong>Nonconformity measure</strong> 是一个函数，用于计算某个数据点（或样本）与已有数据/模型的“不匹配程度”。</li>
+<li>值越大，表示该数据点越不符合当前模型或数据分布，可能属于异常或需要特别关注。</li>
+</ul>
+</li>
+<li>
+<p><strong>在 Conformal Prediction 中的作用</strong>：</p>
+<ul>
+<li>Conformal Prediction 是一种生成预测集合并提供统计置信度的方法，确保预测结果在指定置信水平下覆盖真实值。</li>
+<li>通过 <strong>nonconformity measure</strong>，算法会为每个候选预测结果计算一个“不一致分数”，从而确定哪些预测应被包含在置信区间或预测集合中。</li>
+</ul>
+</li>
+</ol>
+<h3 id="应用示例"><strong>应用示例</strong></h3>
+<ul>
+<li>
+<p><strong>分类任务</strong>：
+假设一个图像分类模型需要判断一张新图片是否属于“猫”。对于每个可能的类别（猫、狗、鸟等），nonconformity measure 可能基于模型输出的概率，计算该图片与各类别训练数据的差异。若“猫”类别的差异分数最低，则该图片更可能被归为“猫”。</p>
+</li>
+<li>
+<p><strong>回归任务</strong>：
+在房价预测中，nonconformity measure 可以是预测房价与实际房价的绝对误差。误差越大，样本的“非符合性”越高。</p>
+</li>
+</ul>
+<h3 id="技术意义"><strong>技术意义</strong></h3>
+<ul>
+<li><strong>异常检测</strong>：高 nonconformity score 可能标志异常值（outlier）。</li>
+<li><strong>不确定性量化</strong>：在 Conformal Prediction 中，通过非符合性分数生成预测区间（例如，“房价在 80% 置信度下位于 [500k, 600k]”）。</li>
+<li><strong>模型校准</strong>：帮助评估模型对新数据的泛化能力。</li>
+</ul>
+<h3 id="与其他概念的区别"><strong>与其他概念的区别</strong></h3>
+<ul>
+<li><strong>Loss Function（损失函数）</strong>：损失函数用于训练模型，而非符合性度量用于评估模型预测与数据的一致性。</li>
+<li><strong>Anomaly Score（异常分数）</strong>：两者类似，但 nonconformity measure 更强调统计框架下的置信度保证。</li>
+</ul>
+<p>简而言之，<strong>nonconformity measure</strong> 是连接数据、模型与统计置信度的桥梁，尤其在需要可靠不确定性估计的场景（如医疗诊断、金融风险评估）中至关重要。</p>
+<p>这段话讨论了保形预测（Conformal Prediction）中 <strong>非对称非符合性度量（Asymmetric Nonconformity Measure）</strong> 的设计及其意义。以下是逐层解析：</p>
+<h3 id="度量方式"><strong>度量方式</strong></h3>
+<ol>
+<li>
+<p><strong>对称与非对称的对比</strong></p>
+<ul>
+<li><strong>对称非符合性度量</strong>（如公式 2.30 或 2.32）：通常使用绝对值（如预测误差的绝对值 <code>$ |y_i - \hat{y}_i| $</code>），表示“偏离程度的量级”，不区分方向（如高估或低估）。</li>
+<li><strong>非对称非符合性度量</strong>（如公式 2.33 或 2.34）：允许区分方向（如 <code>$ y_i - \hat{y}_i $</code>或 <code>$ \hat{y}_i - y_i $</code>），可衡量样本对某一特定属性的符合程度（例如“标签是否足够大”或“标签是否足够小”）。</li>
+</ul>
+</li>
+<li>
+<p><strong>非对称度量的意义</strong></p>
+<ul>
+<li><strong>公式 2.33</strong>：<code>$ \alpha_i := y_i - \hat{y}_i $</code>
+<ul>
+<li><strong>含义</strong>：实际值 <code>$ y_i $</code>比预测值 <code>$ \hat{y}_i $</code>大多少。</li>
+<li><strong>用途</strong>：衡量样本 <code>$ z_i $</code>对“标签较大”这一属性的符合程度。例如，若 `$\alpha_i$ 很大，说明真实标签远超预测，可能属于异常（或需特别关注的高值样本）。</li>
+</ul>
+</li>
+<li><strong>公式 2.34</strong>：<code>$ \alpha_i := \hat{y}_i - y_i $</code>
+<ul>
+<li><strong>含义</strong>：预测值 <code>$ \hat{y}_i $</code>比实际值 <code>$ y_i $</code>大多少。</li>
+<li><strong>用途</strong>：衡量样本 <code>$ z_i $</code>对“标签较小”这一属性的符合程度。例如，若 <code>$\alpha_i $</code>很大，说明预测显著高估真实值，可能属于低估异常。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="技术意义-1"><strong>技术意义</strong></h3>
+<ol>
+<li>
+<p><strong>灵活建模单侧关注问题</strong></p>
+<ul>
+<li>在现实场景中，我们可能只关心某一方向的偏差（例如：
+<ul>
+<li><strong>金融风控</strong>：更关注损失超过预期的样本（即   <code>$ y_i - \hat{y}_i $</code>为正的情况）。</li>
+<li><strong>医疗诊断</strong>：更关注检测结果远低于预期的样本（即 <code>$ \hat{y}_i - y_i $</code>为正的情况）。</li>
+</ul>
+</li>
+<li>非对称度量允许针对特定方向定义“非符合性”，从而生成单侧置信区间或异常检测规则。</li>
+</ul>
+</li>
+<li>
+<p><strong>与通用框架的关系</strong></p>
+<ul>
+<li>非对称度量（如 2.33 和 2.34）是通用非符合性度量（公式 2.31）的特例。</li>
+<li><strong>通用框架</strong>（公式 2.31）：允许自定义非符合性函数，只需满足“可比较性”（即不同样本的非符合性分数可排序）。</li>
+<li><strong>非对称实现</strong>：通过调整符号（如 <code>$ y_i - \hat{y}_i $</code>或 <code>$ \hat{y}_i - y_i $</code>），将方向信息编码到分数中。</li>
+</ul>
+</li>
+</ol>
+<h3 id="示例说明"><strong>示例说明</strong></h3>
+<h4 id="场景-房价预测"><strong>场景：房价预测</strong></h4>
+<ul>
+<li><strong>对称度量</strong>：<code>$\alpha_i = |y_i - \hat{y}_i| $</code>
+<ul>
+<li>关注预测误差的绝对值，无论实际房价高于或低于预测。</li>
+</ul>
+</li>
+<li><strong>非对称度量</strong>：
+<ul>
+<li><strong>公式 2.33</strong>：<code>$\alpha_i = y_i - \hat{y}_i $</code>
+<ul>
+<li>正值越大，说明真实房价远高于预测（可能提示模型低估风险）。</li>
+</ul>
+</li>
+<li><strong>公式 2.34</strong>：<code>$\alpha_i = \hat{y}_i - y_i $</code>
+<ul>
+<li>正值越大，说明预测远高于真实房价（可能提示模型高估风险）。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="应用-生成单侧置信区间"><strong>应用：生成单侧置信区间</strong></h4>
+<ul>
+<li>若使用 <code>$\alpha_i = y_i - \hat{y}_i $</code> ，则可生成 <strong>上限区间</strong>（如“房价有 95% 概率低于 <code>$ \hat{y}_i + \Delta $</code>”）。</li>
+<li>若使用 <code>$\alpha_i = \hat{y}_i - y_i $</code> ，则可生成 <strong>下限区间</strong>（如“房价有 95% 概率高于 <code>$ \hat{y}_i - \Delta $</code>”）。</li>
+</ul>
+<h3 id="与-p-值的关系"><strong>与 p 值的关系</strong></h3>
+<ul>
+<li><strong>非对称度量影响 p 值计算</strong>：
+<ul>
+<li>p 值定义为“集合中非符合性分数大于等于当前样本的比例”。</li>
+<li>若使用 <code>$\alpha_i = y_i - \hat{y}_i $</code>，p 值小表示真实值显著高于预测（异常高值）；</li>
+<li>若使用 <code>$\alpha_i = \hat{y}_i - y_i $</code> ，p 值小表示真实值显著低于预测（异常低值）。</li>
+</ul>
+</li>
+</ul>
+<h3 id="总结"><strong>总结</strong></h3>
+<ul>
+<li><strong>对称 vs 非对称</strong>：
+<ul>
+<li>对称度量关注偏差的“量级”，非对称度量关注偏差的“方向”。</li>
+</ul>
+</li>
+<li><strong>实际价值</strong>：
+<ul>
+<li>允许模型针对业务需求（如风险偏好、单侧异常检测）灵活调整置信区间或异常判定规则。</li>
+</ul>
+</li>
+<li><strong>理论一致性</strong>：
+<ul>
+<li>非对称度量仍属于保形预测的通用框架，仅通过函数设计引入方向信息。</li>
+</ul>
+</li>
+</ul>
+<h2 id="重对数律">重对数律</h2>
+<p><strong>重对数律（Law of the Iterated Logarithm, LIL）</strong> 是概率论中描述独立同分布随机变量部分和波动性的精确渐近结果。它刻画了随机波动幅度的上下极限，揭示了大数定律和中心极限定理之间的更深层规律。</p>
+<h3 id="核心定义"><strong>核心定义</strong></h3>
+<p>设 <code>$X_1, X_2, \dots $</code>是独立同分布（i.i.d.）的随机变量，满足：</p>
+<ul>
+<li>均值 <code>$\mathbb{E}[X_i] = \mu $</code></li>
+<li>方差 <code>$\text{Var}(X_i) = \sigma^2 &lt; \infty $</code></li>
+</ul>
+<p>定义部分和 <code>$S_n = X_1 + X_2 + \dots + X_n $</code>，则重对数律表明：</p>
+<p>$$
+\limsup_{n \to \infty} \frac{S_n - n\mu}{\sigma \sqrt{2n \log \log n}} = 1 \quad \text{a.s.}
+$$</p>
+<p>$$
+\liminf_{n \to \infty} \frac{S_n - n\mu}{\sigma \sqrt{2n \log \log n}} = -1 \quad \text{a.s.}
+$$</p>
+<p>即部分和的偏差被限制在 <code>$\pm \sigma \sqrt{2n \log \log n} $</code>内，且此界限是紧的（几乎必然达到）。</p>
+<h3 id="直观解释"><strong>直观解释</strong></h3>
+<ol>
+<li>
+<p><strong>波动范围的精确刻画</strong></p>
+<ul>
+<li><strong>大数定律</strong>： <code>$S_n / n \to \mu $</code>（均值收敛）。</li>
+<li><strong>中心极限定理</strong>：偏差按 <code>$\sqrt{n} $</code>增长，服从正态分布。</li>
+<li><strong>重对数律</strong>：进一步给出偏差的极值波动幅度，由 <code>$ \sqrt{n \log \log n} $</code>主导，精确到常数因子 <code>$\sigma \sqrt{2} $</code>。</li>
+</ul>
+</li>
+<li>
+<p><strong>“几乎必然”收敛</strong>
+波动幅度在无限次观测中会被无限次接近上述上下界，但不会持续超出。</p>
+</li>
+</ol>
+<h3 id="关键意义"><strong>关键意义</strong></h3>
+<ol>
+<li>
+<p><strong>理论深度</strong></p>
+<ul>
+<li>填补了大数定律（收敛性）与中心极限定理（分布形态）之间的空白，描述了极值波动的渐近行为。</li>
+</ul>
+</li>
+<li>
+<p><strong>应用场景</strong></p>
+<ul>
+<li><strong>随机过程分析</strong>：如布朗运动的路径性质。</li>
+<li><strong>统计推断</strong>：评估估计量的收敛速度。</li>
+<li><strong>金融数学</strong>：资产价格波动幅度的极端情况建模。</li>
+</ul>
+</li>
+</ol>
+<h3 id="示例说明-1"><strong>示例说明</strong></h3>
+<p>考虑一个简单对称随机游动（如抛硬币）：</p>
+<ul>
+<li>每次步长 <code>$X_i $</code>为 +1 或 -1，概率各 0.5。</li>
+<li>均值 <code>$\mu = 0 $</code>，方差 <code>$ \sigma^2 = 1 $</code>。</li>
+</ul>
+<p>根据重对数律，部分和 <code>$S_n $</code>的极值波动满足：
+`$$
+\limsup_{n \to \infty} \frac{S_n}{\sqrt{2n \log \log n}} = 1 \quad \text{a.s.}
+$$</p>
+<p>这意味着，当 <code>$ n $</code>极大时，随机游动的路径几乎必然会在 <code>$\pm \sqrt{2n \log \log n} $</code>之间无限次触碰边界，但不会持续超出。</p>
+<h3 id="与其他定理的关系"><strong>与其他定理的关系</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>定理</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>缩放因子</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大数定律 (LLN)</td>
+<td>均值收敛</td>
+<td><code>$ n $</code></td>
+</tr>
+<tr>
+<td>中心极限定理 (CLT)</td>
+<td>偏差分布趋近正态</td>
+<td><code>$\sqrt{n} $</code></td>
+</tr>
+<tr>
+<td>重对数律 (LIL)</td>
+<td>极值波动的上下限</td>
+<td><code>$ \sqrt{n \log \log n} $</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="注意事项"><strong>注意事项</strong></h3>
+<ul>
+<li><strong>独立性假设</strong>：随机变量必须独立同分布。</li>
+<li><strong>方差有限性</strong>：若方差无限，结论可能不成立。</li>
+<li><strong>多维推广</strong>：存在高维版本，但形式更复杂。</li>
+</ul>
+<h3 id="总结-1"><strong>总结</strong></h3>
+<p>重对数律揭示了随机变量部分和的极值波动被严格约束在 <code>$\pm \sigma \sqrt{2n \log \log n} $</code> 内，是概率论中对随机性本质的深刻刻画，为理解复杂随机现象提供了理论基石。</p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/02/17/last-meeting/">夜思</a></span>
+  <span class="nav-next"><a href="/cn/2025/02/26/topics/">研究主题</a> &rarr;</span>
+</nav>
+
+
+
+
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.js" defer></script>
+<script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.js" defer></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

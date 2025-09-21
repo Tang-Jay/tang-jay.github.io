@@ -5,7 +5,7 @@ categories:
   - 学习志
 tags:
   - 英语
-  - 论文
+  - 科研
 slug: paper_skill
 disable_comments: true
 ---
@@ -98,7 +98,6 @@ disable_comments: true
 1. promising
 
 ## 总结
-
 
 
 

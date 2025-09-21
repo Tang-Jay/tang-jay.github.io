@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>分布偏移与保形推断 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="分布偏移与保形推断 - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="Distribution Shift 与 Conformal Inference 的关系
+在机器学习中，Distribution Shift（分布偏移） 和 Conformal Inference（保形推断） 的关系可以从以下角度分析：
+[&amp;hellip;] 为在分布偏移下保持有效性，研究者提出以下改进方法：
+[&amp;hellip;] 主要挑战：
+[&amp;hellip;] 保形推断在分布偏移下的研究，正推 &amp;hellip;">
+      <meta property="og:description" content="Distribution Shift 与 Conformal Inference 的关系
+在机器学习中，Distribution Shift（分布偏移） 和 Conformal Inference（保形推断） 的关系可以从以下角度分析：
+[&amp;hellip;] 为在分布偏移下保持有效性，研究者提出以下改进方法：
+[&amp;hellip;] 主要挑战：
+[&amp;hellip;] 保形推断在分布偏移下的研究，正推 &amp;hellip;">
+      
+    
+
+    
+    
+    
+    <meta name="twitter:image" content="/images/logo.png">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>分布偏移与保形推断</h1>
+
+
+<h3>Tan Jay / 
+2025-03-03</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p><strong>Distribution Shift 与 Conformal Inference 的关系</strong></p>
+<p>在机器学习中，<strong>Distribution Shift（分布偏移）</strong> 和 <strong>Conformal Inference（保形推断）</strong> 的关系可以从以下角度分析：</p>
+<h3 id="1-核心挑战-可交换性假设的违背"><strong>1. 核心挑战：可交换性假设的违背</strong></h3>
+<ul>
+<li><strong>Conformal Inference 的基础假设</strong>：<br>
+保形推断依赖数据的<strong>可交换性（exchangeability）</strong>，即数据的顺序不影响联合分布。这一假设在独立同分布（i.i.d.）或有限总体不放回抽样时成立。</li>
+<li><strong>Distribution Shift 的影响</strong>：<br>
+当训练数据与测试数据分布不一致（如协变量偏移、标签偏移等），可交换性假设被打破，传统保形推断的覆盖概率保证（如 95% 置信水平）可能失效。</li>
+</ul>
+<h3 id="2-覆盖概率的退化"><strong>2. 覆盖概率的退化</strong></h3>
+<ul>
+<li><strong>边缘覆盖（Marginal Coverage）</strong>：<br>
+传统保形推断保证<strong>整体数据集</strong>的覆盖概率，但无法约束<strong>特定子群体或条件</strong>下的覆盖。
+<ul>
+<li><strong>示例</strong>：在医疗数据中，模型对多数群体的覆盖概率为 95%，但对少数群体可能降至 80%。</li>
+</ul>
+</li>
+<li><strong>条件覆盖（Conditional Coverage）</strong>：<br>
+Distribution Shift 要求保形推断在子群体或局部条件下仍满足覆盖保证，这对传统方法提出挑战。</li>
+</ul>
+<h3 id="3-应对-distribution-shift-的保形方法"><strong>3. 应对 Distribution Shift 的保形方法</strong></h3>
+<p>为在分布偏移下保持有效性，研究者提出以下改进方法：</p>
+<h4 id="1-加权保形推断-weighted-conformal-prediction"><strong>(1) 加权保形推断（Weighted Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+根据测试分布与训练分布的差异，为校准集样本分配权重，调整分位数阈值。</li>
+<li><strong>数学形式</strong>：<br>
+<code>$ \hat{t} = \inf{ \left\{ t : \sum_{i=1}^{n} w_i \cdot \mathbf{1}_{\{s_i \leq t\}} \geq (1 - \alpha) \sum_{i=1}^{n} w_i \right\} } $</code>，<code>$w_i$</code> 反映样本 <code>$i$</code> 在测试分布中的重要性（如密度比 <code>$P_{\text{test}}(x)/P_{\text{train}}(x)$</code>）。</li>
+<li><strong>适用场景</strong>：协变量偏移（Covariate Shift），即 <code>$P_{\text{train}}(y|x) = P_{\text{test}}(y|x)$</code> 但 <code>$P_{\text{train}}(x) \neq P_{\text{test}}(x)$</code>。</li>
+</ul>
+<h4 id="2-条件保形推断-conditional-conformal-prediction"><strong>(2) 条件保形推断（Conditional Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+在子群体或特征分层内独立应用保形推断，确保每个子群体的覆盖概率达标。</li>
+<li><strong>实现方式</strong>：
+<ul>
+<li>按敏感属性（如性别、年龄）划分数据，对每个子群体单独计算分位数阈值。</li>
+<li>使用条件非符合性评分（如分位数回归）。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：解决子群体间覆盖不均问题，提升公平性。</li>
+</ul>
+<h4 id="3-自适应保形推断-adaptive-conformal-inference"><strong>(3) 自适应保形推断（Adaptive Conformal Inference）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+在在线学习或数据流中动态调整分位数阈值，适应分布变化。</li>
+<li><strong>方法</strong>：
+<ul>
+<li>滑动窗口校准：仅用最近数据计算分位数。</li>
+<li>动量更新：平滑历史分位数与新观测的权重。</li>
+</ul>
+</li>
+<li><strong>适用场景</strong>：时间序列数据、概念漂移（Concept Drift）。</li>
+</ul>
+<h4 id="4-分布鲁棒保形推断-distributionally-robust-conformal-prediction"><strong>(4) 分布鲁棒保形推断（Distributionally Robust Conformal Prediction）</strong></h4>
+<ul>
+<li><strong>核心思想</strong>：<br>
+结合分布鲁棒优化（DRO），在最坏分布扰动下保证覆盖概率。</li>
+<li><strong>数学形式</strong>：<br>
+$$
+\hat{t} = \inf{\{ t : \sup_{Q \in \mathcal{U}(P)} P_Q(s \leq t) \geq 1 - \alpha\}}
+$$
+<ul>
+<li><code>$\mathcal{U}(P)$</code> 是围绕训练分布 <code>$P$</code> 的邻域（如 Wasserstein 球）。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：防范未知但有限的分布偏移。</li>
+</ul>
+<h3 id="4-不同类型-distribution-shift-的影响"><strong>4. 不同类型 Distribution Shift 的影响</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>偏移类型</strong></th>
+<th><strong>对保形推断的挑战</strong></th>
+<th><strong>解决方法</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>协变量偏移</strong></td>
+<td>输入分布 <code>$P(x)$</code> 变化，但 <code>$P(y|x)$</code> 不变</td>
+<td>加权保形推断、条件保形推断</td>
+</tr>
+<tr>
+<td><strong>标签偏移</strong></td>
+<td>标签分布 <code>$P(y)$</code> 变化，但 <code>$P(x|y)$</code> 不变</td>
+<td>反向加权校准（如标签密度比调整）</td>
+</tr>
+<tr>
+<td><strong>概念偏移</strong></td>
+<td>条件分布 <code>$P(y|x)$</code> 变化</td>
+<td>自适应保形推断、在线重校准</td>
+</tr>
+<tr>
+<td><strong>联合分布偏移</strong></td>
+<td><code>$P(x,y)$</code> 整体变化</td>
+<td>分布鲁棒保形推断、领域自适应</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-实际应用与挑战"><strong>5. 实际应用与挑战</strong></h3>
+<ul>
+<li><strong>医疗诊断</strong>：患者群体分布变化时，需确保对罕见病的覆盖概率不下降。</li>
+<li><strong>金融风控</strong>：经济周期变化导致用户特征偏移，需动态调整预测区间。</li>
+<li><strong>自动驾驶</strong>：不同天气条件下，传感器数据分布变化需鲁棒的置信区间。</li>
+</ul>
+<p><strong>主要挑战</strong>：</p>
+<ul>
+<li><strong>小样本子群体</strong>：条件保形推断在样本不足时阈值估计不稳定。</li>
+<li><strong>复杂偏移检测</strong>：实时检测分布偏移类型并选择合适方法。</li>
+<li><strong>计算效率</strong>：加权或分布鲁棒方法可能增加计算开销。</li>
+</ul>
+<h3 id="6-总结"><strong>6. 总结</strong></h3>
+<ul>
+<li><strong>Distribution Shift 威胁传统保形推断</strong>：破坏可交换性假设，导致覆盖概率失效。</li>
+<li><strong>改进方法</strong>：加权、条件、自适应、分布鲁棒保形推断等，针对不同偏移类型提供解决方案。</li>
+<li><strong>未来方向</strong>：
+<ul>
+<li>结合因果推断解决混杂偏移。</li>
+<li>开发高效的小样本条件校准方法。</li>
+<li>增强对复杂分布变化的自动适应能力。</li>
+</ul>
+</li>
+</ul>
+<p>保形推断在分布偏移下的研究，正推动其从理论工具向实际高可靠性系统的演进，尤其在医疗、金融等高风险领域具有重要价值。</p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/03/03/standardci/">标准保形推断</a></span>
+  <span class="nav-next"><a href="/cn/2025/03/04/diary/">在珠海学习的一天</a> &rarr;</span>
+</nav>
+
+
+
+
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.js" defer></script>
+<script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.js" defer></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

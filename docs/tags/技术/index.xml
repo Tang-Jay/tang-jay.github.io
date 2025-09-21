@@ -1,0 +1,217 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on Tan Jay | 唐 洁</title>
+    <link>/tags/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E6%8A%80%E6%9C%AF/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bookdown&#43;GitHub发布电子书</title>
+      <link>/cn/2022/09/15/bookdown/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/15/bookdown/</guid>
+      <description>
+        <![CDATA[
+        <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
+<p>之所以想做这件事情，是因为在<a href="https://tang-jay.github.io/cn/2022/08/02/yihui/">8月2日</a>，无意看到大佬们发布的电子书，有章节有插图有公式，这可以很好地整理日常零碎的知识，并便于查阅，非常心动。他们的电子书如下所示：</p>
+<ul>
+<li><a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook">R语言教程</a></li>
+<li><a href="https://wxhyihuan.github.io/MedicalStatisNotes/">医学统计笔记与R语言</a></li>
+<li><a href="https://tangyc8866.github.io/bookdown_tutorial/">Bookdown中文书稿写作手册</a></li>
+<li><a href="http://gisersqdai.top/Note-of-Applied-Statistics-with-R-Book/">应用统计学与R语言实现学习笔记</a></li>
+</ul>
+<p>🤔我觉得更多的好处在于，费一点时间学会之后，后期的增益是很快的，可以更专注于写作和思考。比如，R可以绘制许多漂亮的图形，程序运行之后，代码不能按照某种逻辑串联起来（又乱），或是存储在本地内存的时间久了可能被清除掉（又难找）。数学有许多推导，若是我早一些知道这些工具，我就可以更好地整理出来方便自己复习巩固。工欲善其事必先利其器，有了更好的工具确实让人有更求好的心。</p>
+<p>网上有<a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/bookdown.html">Bookdown</a>教程<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，没有将bookdouwn写好的电子书发布到GitHub的教程，我把教程写<a href="https://blog.csdn.net/JTang1995/article/details/126876006">这里</a>。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>网站：<em>深度之眼</em>。<a href="https://ai.deepshare.net/detail/p_5f3a40dae4b011878731630e/6">论文指导系列课程</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>网站：<em>科学网</em>。<a href="https://blog.sciencenet.cn/blog-3247241-1277275.html">应用统计学与R语言实现笔记（番外篇四）bookdown使用与OR值计算</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Typora&#43;Github&#43;Picgo</title>
+      <link>/cn/2022/08/02/picgo/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/08/02/picgo/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="记录用图成功">记录用图成功！</h1>
+<h3 id="网络路径">网络路径</h3>
+<p>由于部分浏览器无法访问raw.githubusercontent.com，从而看不到图片有显示(比如，我在我的电脑看得到，因为我更改了<a href="https://blog.csdn.net/weixin_44293949/article/details/121863559">域名</a>，但是我在手机上就只能看到两个方框。)</p>
+<p style="text-align: center;">
+	<img src="https://raw.githubusercontent.com/Tang-Jay/imag/main/202208031714162.jpeg" alt="Tang" style="zoom:20%;" />
+	<img src="https://raw.githubusercontent.com/Tang-Jay/imag/main/202208031714158.jpeg" alt="Lung" style="zoom:17%;" />
+</p>
+<h3 id="绝对路径">绝对路径</h3>
+<p>对于数量较少的图片，利用本地路径更方便。</p>
+<p style="text-align: center;">
+	<img src="/images/Tang.jpeg" alt="WechatIMG435" style="zoom:20%;" />
+	<img src="/images/Lung.jpeg" alt="WechatIMG436" style="zoom:17%;" />
+</p>
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>一些有用的网文</title>
+      <link>/cn/2022/08/02/webpages/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/08/02/webpages/</guid>
+      <description>
+        <![CDATA[
+        <h3 id="关于r">关于R</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/xGBeXD6DYkOpZ5F59XK-1A">顶级期刊中常见的分类3D柱形图怎么绘制？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/Dbx9J_flkTtyi7LtRAdRPQ">如何在分面中添加数学表达式标签?</a></li>
+<li><a href="https://mp.weixin.qq.com/s/vRGl3C8wPMhOTXdGaKfgRw">科研绘图 | 这个绘制玫瑰图(Rose Pie)的可视化也太赞了吧</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
+<li><a href="https://mp.weixin.qq.com/s/NVzAPMDy7jSiyRhdj_tZvA">可视化设计没灵感？快来看看这些宝藏学习网站吧</a></li>
+<li><a href="https://mp.weixin.qq.com/s/BJfTl9Tl-Yk02fA0cnjapg">R可视化：R可视化教程来了！</a></li>
+<li><a href="https://mp.weixin.qq.com/s/4kBUfnXXEl3Mq69rOtOQkA">基于 R 语言的绘图技巧汇总</a></li>
+<li><a href="https://blog.csdn.net/Joshua_HIT/article/details/73742264">R极简教程-10：R语言绘图基础</a></li>
+<li><a href="https://blog.csdn.net/Joshua_HIT/article/details/60608787?spm=1001.2101.3001.6650.16&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-16-60608787-blog-42490145.pc_relevant_3mothn_strategy_recovery&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-16-60608787-blog-42490145.pc_relevant_3mothn_strategy_recovery&amp;utm_relevant_index=20">用R语言快速生成Latex表格</a></li>
+<li><a href="https://mp.weixin.qq.com/s/SMq6BJTYatZt7ypD1RsmVw">复现 sci 顶刊中的 3D 密度函数图</a></li>
+<li><a href="https://mp.weixin.qq.com/s/sqbnuNHvPikq7tRmP-pZmA">ggpie 包｜解决你的所有饼图绘制</a></li>
+</ol>
+<h3 id="关于专业">关于专业</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/mWJGGAIKfz9itAux76bLiA">最大似然估计(MLE)入门教程</a></li>
+<li><a href="https://mp.weixin.qq.com/s/MbyJ5ctrZ6ldlu7p-gGOwQ">一文让你通俗理解奇异值分解</a></li>
+</ol>
+<h3 id="关于科研">关于科研</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/-QVGsP87ap4tR6qsUts0IA">小编常用的科研网站</a></li>
+<li><a href="https://mp.weixin.qq.com/s/-IKX-opthHcSlZNHilLL1A">推荐3个英语论文写作神器</a></li>
+<li><a href="https://mp.weixin.qq.com/s/_Jh9BO6jyt6AbdHjwmDhOw">极大提高效率：论文写作工具杂谈(黄海广)</a></li>
+<li><a href="https://mp.weixin.qq.com/s/tnUQZHiWUYCL7JVPeLvDRg">如何进行文献阅读</a></li>
+<li><a href="https://mp.weixin.qq.com/s/1lcexdg8vmBQ3d0iYtm55Q">超级好用的查文献小插件</a></li>
+<li><a href="https://mp.weixin.qq.com/s/XVkb_qOT_E2_bzkzzkk4ww">《Nature》发文：好导师的16个标准</a></li>
+</ol>
+<h3 id="关于兴趣">关于兴趣</h3>
+<ol>
+<li><a href="https://cosx.org/archives/">统计之都·谢益辉</a></li>
+<li><a href="https://mp.weixin.qq.com/s/BoIWAa70kmWNumu0BgiNsw">2022年R语言新书</a></li>
+<li>RMarkdown制作beamer幻灯片
+<ul>
+<li><a href="https://cosx.org/2022/08/beamer-not-down/">网页教程</a></li>
+<li><a href="http://github.com/eddelbuettel/binb">仓库地址</a></li>
+</ul>
+</li>
+<li><a href="https://mp.weixin.qq.com/s/buabfqmHiV2LaXTw4B1kFw">黄海广博士机器学习之路</a></li>
+<li><a href="https://mp.weixin.qq.com/s/1eirWJmar6PUpDCpJVPS_Q">黄海广的机器学习课程课件合集下载</a></li>
+<li><a href="https://mp.weixin.qq.com/s/tfqPLHwiuOGTqRya2_3Ysg">黄海广公众号经典文章专辑</a></li>
+<li><a href="https://mp.weixin.qq.com/s/FNcvzXPGv08ANSDqBQ1xGg">斯坦福大学CS229数学基础(线性代数、概率论)中文翻译版pdf</a></li>
+<li><a href="https://mp.weixin.qq.com/s/08m8RQFcc2634baPX1mMtw">吴恩达积极学习新课</a></li>
+<li><a href="https://mp.weixin.qq.com/s/Isas2fIVs6cxvEVRjPj62g">50个最佳机器学习公共数据集</a></li>
+<li><a href="https://mp.weixin.qq.com/s/qmk2ATh6Ob1xAwPzxOlBWg">AI基础：走入深度学习</a></li>
+<li><a href="https://www.icourse163.org/course/0818BIT059-1207432808?utm_campaign=share&amp;utm_medium=androidShare&amp;utm_source=">无人驾驶(慕课)</a></li>
+</ol>
+<h2 id="一些有趣的网文">一些有趣的网文</h2>
+<h3 id="关于博客">关于博客</h3>
+<ol>
+<li><a href="https://yufree.cn/cn/2018/03/24/blogdown-rss/">blogdown的rss阅读器</a></li>
+<li><a href="https://t.yihui.org">谢益辉推特</a></li>
+<li><a href="https://zll-blog.netlify.app">庄闪闪博客</a></li>
+<li><a href="https://github.com/fengdu78">黄海广Github</a></li>
+</ol>
+<h3 id="关于升学">关于升学</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/N29_KR6XvTn4vIiPoqwz-A">你适合读博吗</a></li>
+<li><a href="https://mp.weixin.qq.com/s/4wi2y511tWcaDYx4vtrm2w">假如你能回到博后的第一天，你会给自己什么建议？</a></li>
+</ol>
+<h3 id="关于情感">关于情感</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/1tlidXklXZDuPSulWc9h5Q">多子女家庭，缺爱和偏爱的孩子，长大后差距有多大？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/olC5s_jckx0FigiyDURpKw">教你4个字，夫妻、朋友吵架时很管用</a></li>
+<li><a href="https://mp.weixin.qq.com/s/isD9JenlrbeZqws-WjKxFQ">男女之间，这3种能力，比爱重要</a></li>
+<li><a href="https://mp.weixin.qq.com/s/oSYeTAQRGv-X_CwHyo3bBA">越用力，越容易养出叛逆的孩子</a></li>
+<li><a href="https://www.bilibili.com/video/BV15v4y1D7tZ/?is_story_h5=false&amp;p=1&amp;share_from=ugc&amp;share_medium=iphone&amp;share_plat=ios&amp;share_session_id=B9FE71EF-7313-4F4C-AA5D-23781D8B4535&amp;share_source=WEIXIN&amp;share_tag=s_i&amp;timestamp=1667229244&amp;unique_k=CFnCkuE&amp;vd_source=813a147d7428303db620774cb1ec7ba8">父母总是否定我，如何摆脱家人给你的精神暴力？|戴建业</a></li>
+</ol>
+<h3 id="关于自然">关于自然</h3>
+<ol>
+<li><a href="https://www.bilibili.com/video/BV1eN4y1w7SS/?spm_id_from=autoNext&amp;vd_source=813a147d7428303db620774cb1ec7ba8">一口气看懂量子力学，量子叠加，量子纠缠，量子通信</a></li>
+<li><a href="https://mp.weixin.qq.com/s/DtR-yVa4RQZ56x95XKxG3Q">为什么宇宙看起来这么具有数学性呢？</a><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzAwMzc2MTA4Ng==&amp;mid=2247527916&amp;idx=1&amp;sn=7c781f37e2755cd07e1ab3626516de27&amp;chksm=9b341b3dac43922b6df7d92345171d1a7e8781fc7065797e94af22471e696f2b3f75c0b38402&amp;scene=178&amp;cur_album_id=2632761951361728513#rd">少有人走的数学巅峰之路</a></li>
+<li><a href="https://mp.weixin.qq.com/s/JyoJcAR_2WuEWqoyY5rodQ">谁是世界第一位数学家？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/w5h83E9LC9Nsk0qPJnYlkQ">什么是高中物理？</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/194447481">线性回归模型估计OLS、Lasso</a></li>
+<li><a href="https://mp.weixin.qq.com/s/_WcK_uHQcAFF_fZjBppedA">残酷的真相：勤劳能创造财富，但勤劳者，未必能分到财富|刘润</a></li>
+</ol>
+<h3 id="关于思考">关于思考</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/BET261XxVXBqT3OpMF3Vlg">如何获得有趣味又有意义的人生|萧功秦</a></li>
+</ol>
+<blockquote>
+<p>好奇心，陶醉感，思想力。</p>
+</blockquote>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/cFBkeYHwahUm9lpPWwdU5Q">诞生天才的土壤是自由与兴趣|费曼</a></li>
+<li><a href="https://mp.weixin.qq.com/s/qzi-iirrLKEumvvNGKe2Sg">每个人都一定要有数学思维|刘润</a></li>
+<li><a href="https://mp.weixin.qq.com/s/_-pMHUREPTX_slCNqKRdMg">《底层逻辑2》：拼命寻找世界的真相|刘润</a></li>
+<li><a href="https://mp.weixin.qq.com/s/QP5vIy_fLXRfK0cTD84wjA">中国学术的主要特点是缺乏批判氛围！</a></li>
+<li><a href="https://mp.weixin.qq.com/s/usieTPbz4FfgG6PjUGVCeA">好的教育是什么？——九位诺奖得主的成长经验与教育思考</a></li>
+</ol>
+<h3 id="关于心态">关于心态</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/MxSGziJOOtewL9c33hMaYQ">杨绛送给年轻人的7句话｜人民日报</a></li>
+<li><a href="https://mp.weixin.qq.com/s/Dz8nUlZR1ufNnvHfWyED2w">内心强大的3个迹象｜特别关注</a></li>
+<li><a href="https://mp.weixin.qq.com/s/2Cs0RJbt_QyMRgxfMWxwmQ">荒废心灵，天理不容|周雪光</a></li>
+<li><a href="https://mp.weixin.qq.com/s/aPr__jRzc53bhFc7ziOSiQ">凡事有交代，件件有着落，事事有回音|刘润</a></li>
+<li><a href="https://mp.weixin.qq.com/s/MHcNfjRk7EAcP3fpyMcmGQ">我40岁了，快乐一下还要偷偷摸摸</a></li>
+<li><a href="https://www.bilibili.com/video/BV1yY411L7yW/?spm_id_from=autoNext&amp;vd_source=813a147d7428303db620774cb1ec7ba8">那些别人不会告诉你的残酷真相</a></li>
+</ol>
+<h3 id="关于健康">关于健康</h3>
+<ol>
+<li><a href="https://mp.weixin.qq.com/s/nbjzSV7Nr568i6HV5drt1A">硬核科普，拒绝失眠</a></li>
+</ol>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>公众号：<em>DataCharm</em>。<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3MDY4ODI3MQ==&amp;action=getalbum&amp;album_id=2140177507336224772&amp;scene=173&amp;from_msgid=2247505611&amp;from_itemidx=1&amp;count=3&amp;nolastread=1#wechat_redirect">数据可视化专题</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>公众号：<em>DataCharm</em>。<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3MDY4ODI3MQ==&amp;action=getalbum&amp;album_id=2177892858001784833&amp;scene=173&amp;from_msgid=2247505611&amp;from_itemidx=1&amp;count=3&amp;nolastread=1#wechat_redirect">科研专题</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>公众号：<em>DataCharm</em>。<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3MDY4ODI3MQ==&amp;action=getalbum&amp;album_id=2207008126862786563&amp;scene=173&amp;from_msgid=2247505611&amp;from_itemidx=1&amp;count=3&amp;nolastread=1#wechat_redirect">论文专题</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>公众号：<em>DataCharm</em>。<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3MDY4ODI3MQ==&amp;action=getalbum&amp;album_id=2093768003036282880&amp;scene=21#wechat_redirect">学术图标专题</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>公众号：<em>赛先生</em>。<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAwMzc2MTA4Ng==&amp;action=getalbum&amp;album_id=2632761951361728513&amp;scene=173&amp;from_msgid=2247527801&amp;from_itemidx=1&amp;count=3&amp;nolastread=1#wechat_redirect">精选书摘</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

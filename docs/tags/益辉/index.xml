@@ -1,0 +1,190 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>益辉 on Tan Jay | 唐 洁</title>
+    <link>/tags/%E7%9B%8A%E8%BE%89/</link>
+    <description>Recent content in 益辉 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E7%9B%8A%E8%BE%89/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>为益辉加油</title>
+      <link>/yihui/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/yihui/</guid>
+      <description>
+        <![CDATA[
+        <p>前两天特别悲伤，因为又去<a href="https://yihui.org/">益辉的主页</a>上逛了一下，发现他的页面布局换了，但仍然是黑白的简约风。随后浏览浏览，看到他说自己是自由职业者还没有觉得不对劲，浏览着浏览着，就越发觉得不对劲了。他写了一篇<a href="https://yihui.org/en/2024/01/bye-rstudio/">《再见，RStudio》</a>，关于他被告知被裁，他淡然体面地接受，以及突然的工作变化带来经济上的<a href="https://github.com/sponsors/yihui">吃紧</a>。</p>
+<p>我真的太心疼了。他是那样的行侠仗义，很耐心地回复我的邮件<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，告诉他是用什么搭建这个网站的，给我指了一条路。在我第二次选博客主题的时候，又挑中了他设计的另一款主题，不过我又有新的问题遇到，又交流了第二次<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。我真的觉得跟他很投缘。在第二次的信里，我真的感受到他的真诚，无私，平等，乐观的精神，我再阅读一遍还是很感动。</p>
+<p>他在信里说，我可以打开评论的功能，这样可以与读者互动，但我没有打开，因为我还没有做好要去接受大众评审的准备。他说，他在我的网站里摸鱼了几个小时，说明他刚好放假心情很愉悦，我的故事也给了他一些新奇的体验，他真的很认真，还打开了我内心很崇敬的发哥推荐的一本书<a href="https://pan.baidu.com/s/11-BGI7yArnmWWjSh5xVf4g?pwd=w90r">《太傻天书》</a>，他说他直接跳到了第四章，并深深地认同里面的讲得东西，尤其那句：</p>
+<blockquote>
+<p>真爱是无条件的。</p>
+</blockquote>
+<p>说来惭愧，我自己都没有打开去阅读，我看了封面，觉得自己可能看不懂，就没有继续翻阅了，现在打算捡起来读。</p>
+<blockquote>
+<p>我已经开始阅读第一章了，我的心里状态真的被第一章完美说中了。我们的大脑有病毒，会想当然认为很难或者很简单而放弃，导致自己永远接触不到真东西。</p>
+</blockquote>
+<p>跑偏了，我想说的是，我与益辉的交流停在第二封信里，因为别人很认真地看了你分享出来的东西，而我自己只是摆出来，并没有真的去看和阅读，所以我觉得惭愧，想得闲了阅读了，有机会又可以交流上了。2023年8⽉17⽇准备度假，在2024年1月3日离职。我真的太意难平了，结果我在2025年6月9日才知道这个事情！我没有能帮忙的卡号，但是我在页面上发现一个二维码汇了一点点点点点帮助。我还会继续支持益辉！</p>
+<p>我觉得他是没有架子，乐于助人，心地善良，正能量的人，是我喜欢的人。他在这时候还第一时间申明，他开发的那些包还是会继续维护！！！要命了，太感动了。现在可能一时困于窘境，但是我记得他曾经达得兼济天下的样子。</p>
+<p>随后我翻阅了益辉建设的<a href="https://cosx.org/">统计之都</a>，最近更新2024年11月10日。又一阵淡淡的感伤。</p>
+<p>中美关系紧张，希望在外打拼的中国人生活平静幸福。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="/certificate/pdfs/yihui-1.pdf">第一次来信</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="/certificate/pdfs/yihui-2.pdf">第二次来信</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>R画图笔记</title>
+      <link>/cn/2022/09/26/codes/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/26/codes/</guid>
+      <description>
+        <![CDATA[
+        <p>最近努力在复现论文上的QQ图<br>
+顺便将知道的R画图的代码一并整理出来   <br>
+用Bookdown很好地展示<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>出来～<br>
+继续加油！</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>唐洁,<a href="https://tang-jay.github.io/RBook">《R语言画图》</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Bookdown&#43;GitHub发布电子书</title>
+      <link>/cn/2022/09/15/bookdown/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/09/15/bookdown/</guid>
+      <description>
+        <![CDATA[
+        <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
+<p>之所以想做这件事情，是因为在<a href="https://tang-jay.github.io/cn/2022/08/02/yihui/">8月2日</a>，无意看到大佬们发布的电子书，有章节有插图有公式，这可以很好地整理日常零碎的知识，并便于查阅，非常心动。他们的电子书如下所示：</p>
+<ul>
+<li><a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook">R语言教程</a></li>
+<li><a href="https://wxhyihuan.github.io/MedicalStatisNotes/">医学统计笔记与R语言</a></li>
+<li><a href="https://tangyc8866.github.io/bookdown_tutorial/">Bookdown中文书稿写作手册</a></li>
+<li><a href="http://gisersqdai.top/Note-of-Applied-Statistics-with-R-Book/">应用统计学与R语言实现学习笔记</a></li>
+</ul>
+<p>🤔我觉得更多的好处在于，费一点时间学会之后，后期的增益是很快的，可以更专注于写作和思考。比如，R可以绘制许多漂亮的图形，程序运行之后，代码不能按照某种逻辑串联起来（又乱），或是存储在本地内存的时间久了可能被清除掉（又难找）。数学有许多推导，若是我早一些知道这些工具，我就可以更好地整理出来方便自己复习巩固。工欲善其事必先利其器，有了更好的工具确实让人有更求好的心。</p>
+<p>网上有<a href="https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/bookdown.html">Bookdown</a>教程<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，没有将bookdouwn写好的电子书发布到GitHub的教程，我把教程写<a href="https://blog.csdn.net/JTang1995/article/details/126876006">这里</a>。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>网站：<em>深度之眼</em>。<a href="https://ai.deepshare.net/detail/p_5f3a40dae4b011878731630e/6">论文指导系列课程</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>网站：<em>科学网</em>。<a href="https://blog.sciencenet.cn/blog-3247241-1277275.html">应用统计学与R语言实现笔记（番外篇四）bookdown使用与OR值计算</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>又挖宝了</title>
+      <link>/cn/2022/08/02/yihui/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/08/02/yihui/</guid>
+      <description>
+        <![CDATA[
+        <p>今日特别想做些喜欢的事情<br>
+转移一下注意力<br>
+显然 我对<a href="https://yihui.org/cn/">yihui</a>是很有兴趣的<br>
+也很惊喜 他更新了<br>
+毕竟人家一年一更</p>
+<p>我挑着感兴趣的标题<br>
+随意浏览了早些年份的博客<br>
+其中有一些印象比较深刻，比如：</p>
+<ul>
+<li>2017/03/26 <a href="https://yihui.org/cn/2017/03/domain-name/#fn:-2">《域名起名服务》</a></li>
+<li>2018/03/05  <a href="https://yihui.org/cn/2018/03/ikigai/">《活着的意义》</a></li>
+<li>2018/12/20  <a href="https://yihui.org/cn/2019/04/sapiens-notes/">《〈从动物到上帝〉笔记》</a></li>
+</ul>
+<p>除了文字本身内容 我还可以学习到<br>
+如何添加脚注、图片、<br>
+以及一份好的读书笔记的样子</p>
+<p>更令我兴奋的是<br>
+看到<a href="https://wxhyihuan.github.io/">Wang</a>利用yihui开发的<a href="https://bookdown.org/yihui/bookdown/">bookdown</a>工具<br>
+写了份类似出版书籍的<a href="https://bookdown.org/wxhyihuan/Notebook-of-medical-statistics-1605856202966/">医学统计学的学习笔记</a><br>
+这可太酷了</p>
+<p>真想知道 他们学习开源 起点是哪里呀<br>
+坐观垂钓者 徒有羡鱼情哇</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>初遇本站架构</title>
+      <link>/cn/2022/06/17/glimpse/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2022/06/17/glimpse/</guid>
+      <description>
+        <![CDATA[
+        <p>我无意浏览到<a href="https://yihui.org">谢益辉网页</a>，简洁干净的画面，井然有序的资料&hellip; 嘣！弹壳落地的声音，我的心被狙中了，心猿意马形容我的心情都不为过，心中就想着，我也想搭一个自己的博客，整理资料。于是，我鼓起勇气向这位公开了邮箱地址的大牛发了一封邮件，不到三天，我收到回信了，原来是我眼瞎看得不够认真，大牛都写在他的<a href="https://yihui.org/cn/about/">网页</a>里了。我太爱这个主题、这个设计了，我用几天的时间复刻了这个网页，</p>
+<blockquote>
+<p>第一天 学习 <a href="https://www.gohugo.cn">Hugo</a></p>
+</blockquote>
+<blockquote>
+<p>第二天 学习 <a href="https://gitcode.net/courses/detail/1/l">Git 及 Github</a></p>
+</blockquote>
+<blockquote>
+<p>第三天 本地修改编辑网页</p>
+</blockquote>
+<blockquote>
+<p>第四天 部署到 github 即可看到发布的网页</p>
+</blockquote>
+<blockquote>
+<p>第五天 整理整个过程，写在<a href="https://blog.csdn.net/JTang1995/article/details/125365545?spm=1001.2014.3001.5501">这里</a>。</p>
+</blockquote>
+<p>大牛写的代码果然不骗人，很真诚，来龙去脉说得很清楚。他写道，他<a href="https://yihui.org/cn/about/">不喜欢</a>别人称呼他老师或是博士或是大牛，我看了看因冲动而发的邮件，写的称呼是“谢同学”，还好还好，没有踩雷。他亦写道，他<a href="https://yihui.org/cn/about/">反对</a>抄袭和不用脑子的复制粘贴，可是我太喜欢他的网站架构了，丝毫不想改动，哈哈，任大佬鄙视去吧。我抄袭我快乐，碰到这么棒的主题太开心了，我还要安利给别人来抄袭，哈哈。</p>
+<p>谢同学，这些年陆陆续续写的东西有很多，涵盖生活、工作、思考很多方面，我都觉得无比真实又真诚，我还翻了翻他的毕业论文，怎么这么精巧呀，我都觉得是艺术品，这些资料对我很有启发，可能自己也是统计学专业的吧，同时我对代码天然很有兴趣，所以谢同学出的书<a href="https://cosx.org/2021/08/msg-preface/#fnref:10">《现代统计图形》</a>，毫不犹豫下单了，做了冲虚道长。内容如此杂多，归置如此有序，附上<a href="https://yihui.org/cn/vitae/">贵人简历</a>，强推给有缘人。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

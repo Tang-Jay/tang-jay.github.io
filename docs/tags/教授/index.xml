@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教授 on Tan Jay | 唐 洁</title>
+    <link>//localhost:1313/tags/%E6%95%99%E6%8E%88/</link>
+    <description>Recent content in 教授 on Tan Jay | 唐 洁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/%E6%95%99%E6%8E%88/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>秦导推荐</title>
+      <link>//localhost:1313/cn/2022/09/21/qinrecom/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>//localhost:1313/cn/2022/09/21/qinrecom/</guid>
+      <description>
+        <![CDATA[
+        <h2 id="老师手稿">老师手稿</h2>
+<ul>
+<li><a href="/papers/QinRecom/Qin-1.pdf">统计模拟和实证介绍</a> <a href="/papers/QinRecom/Qin-1-code.R"><code>CODE</code></a></li>
+</ul>
+<h2 id="写作推荐">写作推荐</h2>
+<ul>
+<li><a href="/papers/QinRecom/Abstra-1.pdf">范文 1</a></li>
+<li><a href="/papers/QinRecom/Abstra-2.pdf">范文 2</a></li>
+</ul>
+<h2 id="经济类">经济类</h2>
+<p>来自<a href="www.must.edu.mo/cn/msb/staff">澳门科技大学老师主页</a>。</p>
+<ul>
+<li><a href="/papers/QinRecom/Lin-1.pdf"><code>PDF1</code></a></li>
+<li><a href="/papers/QinRecom/Lin-2.pdf"><code>PDF2</code></a></li>
+<li><a href="/papers/QinRecom/Lin-3.pdf"><code>PDF3</code></a></li>
+<li><a href="/papers/QinRecom/Lin-4.pdf"><code>PDF4</code></a></li>
+<li><a href="/papers/QinRecom/Lin-5.pdf"><code>PDF5</code></a></li>
+<li><a href="/papers/QinRecom/Lin-6.pdf"><code>PDF6</code></a></li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+  </channel>
+</rss>

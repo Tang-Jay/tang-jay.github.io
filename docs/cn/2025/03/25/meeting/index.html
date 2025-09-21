@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>组会汇报记录 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="组会汇报记录 - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="Distributions Shift 与 DRO 的关系
+[&amp;hellip;] Distributions Shift 与 Conformal Inference 的关系
+[&amp;hellip;] Conformal Inference 与 DRO 的关系
+[&amp;hellip;] Conformal Inference 研究路程
+[&amp;hellip;] DRO 研究路程
+[&amp;hellip;] &amp;hellip;">
+      <meta property="og:description" content="Distributions Shift 与 DRO 的关系
+[&amp;hellip;] Distributions Shift 与 Conformal Inference 的关系
+[&amp;hellip;] Conformal Inference 与 DRO 的关系
+[&amp;hellip;] Conformal Inference 研究路程
+[&amp;hellip;] DRO 研究路程
+[&amp;hellip;] &amp;hellip;">
+      
+    
+
+    
+    
+    
+    <meta name="twitter:image" content="/images/logo.png">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>组会汇报记录</h1>
+
+
+<h3>Tan Jay / 
+2025-03-25</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
+<h3 id="汇报内容">汇报内容：</h3>
+<ul>
+<li>GSPC 修改：Introduction 后面基本实现修改（加分组描述，步骤间逻辑解释，评估指标解释，分类依据等），主要问题集中在Introduction 怎么改。</li>
+<li>DSDE 修改：实验数据还没有，只有小调整，没有大进展。</li>
+<li>自己看的论文进度：在了解 <a href="/cn/2025/02/25/conformity/">conformal perdiction</a>一些理论，老师给的 UC 也在看。边看论文也一边在构思，自己置信区间这个事情能为神经网络做些什么，目前还没有具体想法。</li>
+</ul>
+<h3 id="讨论结果">讨论结果：</h3>
+<ul>
+<li><a href="/cn/2025/02/27/dro/">shift 的分类</a></li>
+<li>围绕 robust 问题，寻找 distribution shift 的设置展开，会有什么挑战</li>
+<li>set-up 设计什么问题，OOD detection，估计问题，检验问题</li>
+<li>横向问题：Robust，差分隐私，<a href="http://localhost:1313/cn/2025/03/01/%E4%BF%9D%E5%BD%A2%E9%A2%84%E6%B5%8B%E4%B8%8E%E5%85%AC%E5%B9%B3%E6%80%A7/">公平性</a></li>
+<li>纵向问题：DRO</li>
+<li>研究问题：问题的设计DRO，设计检验的地方（因果推断）</li>
+<li>Online Data</li>
+<li>发展脉络
+<ul>
+<li>往前：之前做了什么</li>
+<li>往后：之后做了什么 （paper connection 软件）</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-3-3-第二周">2025-3-3 第二周</h2>
+<h3 id="汇报内容-1">汇报内容：</h3>
+<h4 id="1-主题">1. 主题</h4>
+<ul>
+<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em><a href="https://arxiv.org/abs/2008.04267">Robust Validation: Confident Predictions Even When Distributions Shift</a></em>。
+<ul>
+<li><strong>Key Words</strong>：<em>Distribution Shift</em>；<em>Roubst</em>；<em>Validation</em>；<em>Confident Predictions</em></li>
+<li><strong>Core Explanations</strong>：<em>Distribution Shift Problem</em>；<em>Distribution Robust Optimization</em> (DRO)； <em>Conformal Inference</em>；</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-前期准备">2. 前期准备</h4>
+<ul>
+<li>
+<p><a href="/cn/2025/02/27/dro/">Distributions Shift 与 DRO 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/03/dsandci/">Distributions Shift 与 Conformal Inference 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/03/02/droandci/">Conformal Inference 与 DRO 的关系</a></p>
+</li>
+<li>
+<p><a href="/cn/2025/02/25/conformity/">Conformal Inference 研究路程</a></p>
+<ul>
+<li><em>Algorithmic Learning in a Random World</em></li>
+<li><a href="https://arxiv.org/pdf/2005.07972"><em>Conformal Prediction: a Unified Review of Theory and New Challenges</em></a></li>
+<li><a href="/cn/2025/03/01/fairness/">Conformal Inference 与 fairness 的关系</a></li>
+</ul>
+</li>
+<li>
+<p>DRO 研究路程</p>
+</li>
+</ul>
+<h4 id="3-主要内容">3. 主要内容</h4>
+<ul>
+<li><a href="/cn/2025/03/03/standardci/">A standard conformal infernece</a></li>
+<li><a href="/cn/2025/03/03/robustci/">A robust conformal inference</a></li>
+</ul>
+<h4 id="4-不成熟提案">4. 不成熟提案</h4>
+<ul>
+<li>
+<p>应用</p>
+<ul>
+<li>
+<p>医疗图片数据，监测胃癌的可能性，分组：年轻组、老年组</p>
+</li>
+<li>
+<p>浮游生物图片数据，监测分布外数据的可能性，分组：生物组、非生物组</p>
+</li>
+</ul>
+</li>
+<li>
+<p>理论</p>
+<ul>
+<li>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</li>
+</ul>
+</li>
+</ul>
+<h4 id="5-下一步研究计划">5. 下一步研究计划</h4>
+<ul>
+<li>Fairness</li>
+<li>UC</li>
+<li>Privacy</li>
+<li><strong>Duchi 指导的毕业论文</strong>：<a href="https://www.proquest.com/docview/2723853375?pq-origsite=gscholar&amp;fromopenview=true&amp;sourcetype=Dissertations%20&amp;%20Theses"><em>RELIABILITY AND STABILITY IN STATISTICAL AND MACHINE LEARNING PROBLEMS</em></a></li>
+</ul>
+<h3 id="讨论结果-1">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250303-meeting.m4a"> </audio></p>
+<ul>
+<li>
+<p>EL 结合 DRO 在分布偏移上的相关论文有哪些</p>
+<ul>
+<li>按时间发展已有成果</li>
+<li>按类型分类已有成果</li>
+</ul>
+</li>
+<li>
+<p>Duchi 在 EL 上做过哪些内容。</p>
+</li>
+<li>
+<p>Domian</p>
+</li>
+<li>
+<p>Optimazation 改进</p>
+</li>
+<li>
+<p>RKHS</p>
+</li>
+<li>
+<p>VC</p>
+</li>
+<li>
+<p>induce</p>
+</li>
+</ul>
+<h2 id="2025-3-12-第三周">2025-3-12 第三周</h2>
+<h3 id="汇报内容-2">汇报内容：</h3>
+<h4 id="1-主题-1">1. 主题</h4>
+<ul>
+<li><strong><a href="https://web.stanford.edu/~jduchi/publications.html">Duchi</a></strong>： <em>Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach</em></li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案">2. 提案</h4>
+<ul>
+<li>
+<p>将DRO约束纳入经验似然的估计方程，分布偏移情形下覆盖率效果如何</p>
+<ul>
+<li>
+<p>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</p>
+</li>
+<li>
+<p>PCEL 是否有修改的必要。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-下一步研究计划">3. 下一步研究计划</h4>
+<ul>
+<li>
+<p>看文献[49]-[51]</p>
+</li>
+<li>
+<p>Duchi 指导的毕业论文</p>
+</li>
+<li>
+<p>Fairness</p>
+</li>
+<li>
+<p>UC</p>
+</li>
+<li>
+<p>Privacy</p>
+</li>
+</ul>
+<h3 id="讨论结果-2">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250312-meeting.m4a"> </audio></p>
+<ul>
+<li>EL 结合 Fairness 在上的相关论文有哪些
+<ul>
+<li>按时间发展已有成果</li>
+</ul>
+</li>
+</ul>
+<h2 id="2025-3-24-第五周-第四次">2025-3-24 第五周 第四次</h2>
+<h3 id="汇报内容-3">汇报内容：</h3>
+<h4 id="1-主题-2">1. 主题</h4>
+<ul>
+<li><strong>介绍经验似然方法</strong></li>
+<li><strong>Related Works</strong>：
+<ul>
+<li>经验似然在fairness/UQ上的工作</li>
+<li>经验似然在Lam下的工作
+<ul>
+<li>[49] H. Lam. <em>Robust sensitivity analysis for stochastic systems</em>. Mathematics of Operations Research, 41(4):1248–1275, 2016.</li>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-提案-1">2. 提案</h4>
+<ul>
+<li>借鉴 <em>EMPIRICAL LIKELIHOOD FOR FAIR CLASSIFICATION</em> 思路，对同样的设置，使用修改的EL方法，看看效果是否有所改进。</li>
+</ul>
+<h3 id="讨论结果-3">讨论结果：</h3>
+<p><audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/songs/20250324-meeting.m4a"> </audio></p>
+<ul>
+<li><strong>剩余10 : 30 时刻</strong>：EL是否可以变到对已经训练好的模型做检验
+<ul>
+<li>[50] H. Lam. <em>Recovering best statistical guarantees via the empirical divergencebased distributionally robust optimization</em>. Operations Research, 2018. URL <a href="http://arXiv.org/abs/1605.09349">http://arXiv.org/abs/1605.09349</a>.</li>
+<li>[51] H. Lam and E. Zhou. <em>The empirical likelihood approach to quantifying uncertainty in sample average approximation</em>. Operations Research Letters, 45(4): 301–307, 2017.</li>
+<li>用上述两篇文献导出fairness指标</li>
+</ul>
+</li>
+<li><strong>剩余9 : 36 时刻</strong>：连续的敏感属性和表现的结果</li>
+<li><strong>剩余7 : 25 时刻</strong>：连续的敏感属性的公平性检验
+<ul>
+<li>连续的敏感属性的公平性定义</li>
+<li>连续的敏感属性的公平性检验方法</li>
+</ul>
+</li>
+<li>EL在统计上会被argue的点
+<ul>
+<li>收敛速度问题</li>
+<li>自身方法存在哪些问题</li>
+</ul>
+</li>
+<li>与EL等价的方法结合 Fairness 的相关论文有哪些
+<ul>
+<li>CP在Fairness已有成果</li>
+</ul>
+</li>
+<li>连续型公平性分类的处理</li>
+<li>EL方法是否与模型无关</li>
+</ul>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/03/19/todo/">下一步研究计划</a></span>
+  <span class="nav-next"><a href="/cn/2025/05/14/dariy/">胡诌瞎写</a> &rarr;</span>
+</nav>
+
+
+
+
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.js" defer></script>
+<script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.js" defer></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

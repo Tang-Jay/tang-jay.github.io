@@ -5,6 +5,7 @@ categories:
   - 生活志
 tags:
   - 珠海
+  - 自我
 slug: self-intro
 disable_comments: true
 ---

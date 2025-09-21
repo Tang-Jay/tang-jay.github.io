@@ -4,7 +4,7 @@ date: '2022-08-07'
 categories:
   - 学习志
 tags:
-  - 语录
+  - 摘抄
 slug: yangjiang
 disable_comments: true
 ---

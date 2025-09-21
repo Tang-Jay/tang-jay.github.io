@@ -4,7 +4,7 @@ date: '2022-12-08'
 categories:
   - 人物志
 tags:
-  - 友人
+  - 同门
 slug: companion
 disable_comments: true
 ---

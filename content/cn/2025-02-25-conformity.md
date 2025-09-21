@@ -2,9 +2,10 @@
 title: 保形推断
 date: '2025-02-25'
 categories:
- - 学习志
+   - 学习志
 tags:
- - 珠海
+   - 珠海
+   - 博士
 slug: conformity
 disable_comments: true
 ---

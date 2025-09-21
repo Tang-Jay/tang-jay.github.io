@@ -4,7 +4,7 @@ date: '2022-11-29'
 categories:
   - 学习志
 tags:
-  - 随想
+  - 科研
 slug: reference
 disable_comments: true
 ---

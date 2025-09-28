@@ -5,8 +5,199 @@
     <description>Recent content in 科研 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/%E7%A7%91%E7%A0%94/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BH控制定理</title>
+      <link>/cn/2025/09/28/bh/</link>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>/cn/2025/09/28/bh/</guid>
+      <description>
+        <![CDATA[
+        <h1 id="多重假设检验bh控制定理">多重假设检验BH控制定理</h1>
+<h2 id="1-多重假设检验的设置">1. 多重假设检验的设置</h2>
+<p>在 <code>$p$</code> 维多重假设检验中，结果可分为四类：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>接受 <code>$H_0 $</code></th>
+<th>拒绝 <code>$H_0$</code></th>
+<th>总计</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>$ H_0$</code> 为真</strong></td>
+<td><code>$V$</code> (正确接受)</td>
+<td><code>$U$</code> (错误发现，第I类错误)</td>
+<td><code>$p_0$</code></td>
+</tr>
+<tr>
+<td><strong><code>$H_0$</code> 为假</strong></td>
+<td><code>$S$</code> (错误接受，第II类错误)</td>
+<td><code>$T$</code> (正确拒绝)</td>
+<td><code>$p_1$</code></td>
+</tr>
+<tr>
+<td><strong>总计</strong></td>
+<td><code>$p - R$</code></td>
+<td><code>$R$</code></td>
+<td><code>$p = p_0 + p_1$</code></td>
+</tr>
+</tbody>
+</table>
+<p>其中：</p>
+<ul>
+<li><code>$U$</code> 表示第 I 类错误发现的总数</li>
+<li><code>$R$</code> 表示拒绝原假设的总数</li>
+<li><code>$FDP = \frac{U}{\max\{R, 1\}}$</code></li>
+<li><code>$FDR = E[FDP] =  E\left[ \frac{U}{\max\{R, 1\}} \right]$</code></li>
+</ul>
+<h2 id="2-定理内容">2. 定理内容</h2>
+<h3 id="bh方法的fdr控制定理">BH方法的FDR控制定理</h3>
+<p>对于给定的 <code>$FDR$</code> 控制水平 <code>$q \in (0,1)$</code>，如果多重检验的 <code>$p$</code> 值 <code>$\{ p_j \}_{j=1}^p$</code> 相互独立，则BH方法满足：
+<code>$$ FDR = \frac{p_0}{p} q \leq q $$</code></p>
+<h2 id="3-定理证明">3. 定理证明</h2>
+<p><strong>符号说明</strong>：</p>
+<ul>
+<li>
+<p><code>$S_0 = \{ j : H_{0j} \text{为真} \}$</code>：正确原假设指标集</p>
+</li>
+<li>
+<p><code>$ S_1 = S_0^c $</code>：错误原假设指标集</p>
+</li>
+<li>
+<p><code>$ p_0 = |S_0| = \sum_i I_{i \in S_0} $</code>：正确原假设的总数</p>
+</li>
+</ul>
+<p><strong>分情况讨论</strong>。</p>
+<h3 id="第一种情形-p-0-0">第一种情形（<code>$p_0 = 0$</code>）</h3>
+<p>当 <code>$p_0 = 0$</code> 时，正确原假设总数为 <code>$0$</code>，则 <code>$U = 0$</code>，<code>$FDR = E[\frac{U}{\max\{R, 1\}}] = 0$</code>，定理自然成立。</p>
+<h3 id="第二种情形-p-0-geq-1">第二种情形（<code>$p_0 \geq 1$</code>）</h3>
+<h4 id="步骤1-定义和符号">步骤1：定义和符号</h4>
+<p>令 <code>$U_i = I(\text{第 } i \text{ 个原假设被拒绝}) $</code>，则 <code>$ U = \sum_{i \in S_0} U_i $</code>，<code>$R = \sum_{i \in S_0 \cup S_1} U_i = \sum_{i = 1}^p U_i$</code>。按照 BH 流程，<code>$ U_i = I(p_i \ge \frac{k}{p} q)$</code>。相应地，<code>$FDP$</code> 和 <code>$FDR$</code> 可分别表示为：</p>
+<p><code>$$ FDP = \frac{U}{\max\{R, 1\}} = \sum_{i \in S_0} \frac{U_i}{\max\{R, 1\}} $$</code></p>
+<p><code>$$ FDR = E[FDP] = \sum_{i \in S_0} E\left[ \frac{U_i}{\max\{R, 1\}} \right] $$</code></p>
+<h4 id="步骤2-处理-frac-u-i-max-r-1">步骤2：处理<code>$ \frac{U_i}{\max\{R, 1\}} $</code></h4>
+<p>在原假设成立时，<code>$p$</code> 值服从均匀分布 <code>$U(0,1)$</code>，因此对于任意 <code>$i \in S_0 $</code>，项 <code>$\frac{U_i}{\max\{R, 1\}}$</code> 服从同一分布。注意到 <code>$R$</code>为离散随机变量， 可进行离散化分解，得到点态等式：</p>
+<p><code>$$ \frac{U_i}{\max\{R, 1\}} = \sum_{k=1}^{p} \frac{U_i }{k}\cdot I\{R=k\} \tag{1} $$</code></p>
+<p>该点态等式不仅仅是期望相等，更是<strong>随机变量之间的等式</strong>，它本质上是将随机变量<code>$\frac{U_i}{\max\{R, 1\}}$</code>分解为对 <code>$R$</code> 所有可能值的求和，这是一种常见的离散化技巧。</p>
+<p>定义 <code>$R(p_i \to 0)$</code>：当第 <code>$i$</code> 个 <code>$p$</code> 值变为 <code>$0$</code> 时，即强制拒绝第 <code>$i$</code> 个假设，BH方法拒绝的假设总数。（BH方法是一个确定的算法：给定一组 <code>$p$</code> 值，它会产生确定的拒绝集合和拒绝数 <code>$R$</code>）。(1)式分两种情况考虑：</p>
+<ol>
+<li>如果 <code>$H_{0i}$</code> 被接受（<code>$U_i = 0$</code>）：<code>$U_i I\{R=k\} = U_i I\{R(p_i \to 0)=k\}$</code>；</li>
+<li>如果 <code>$H_{0i}$</code> 被拒绝（<code>$U_i = 1$</code>）：<code>$R = R(p_i \to 0)$</code>，<code>$U_iI\{ R=k\} = U_i I\{R(p_i \to 0)=k\}$</code>。</li>
+</ol>
+<p>因此，(1)式可写为</p>
+<p><code>$$ \frac{U_i}{\max\{R, 1\}} = \sum_{k=1}^{p} \frac{U_i }{k} \cdot I\{R(p_i \to 0)=k\}, \quad i \in S_0 \tag{2} $$</code></p>
+<h4 id="步骤3-条件期望-e-left-frac-u-i-max-r-1-middle-mathcal-f-i-right">步骤3：条件期望 <code>$E\left[ \frac{U_i}{\max\{R, 1\}} \middle| \mathcal{F}_i \right] $</code></h4>
+<p>定义 <code>$ \mathcal{F}_i $</code>​ 为 <code>$\{p_1, \cdots, p_{i-1}, p_{i+1}, \cdots, p_p\}$</code>​ 生成的σ-域。条件于 <code>$\mathcal{F}_i$</code> 意味着我们固定了所有其他 <code>$p$</code> 值的具体数值，只有第 <code>$i$</code> 个 <code>$p$</code> 值 <code>$p_i$</code> 仍然是随机的（在 <code>$H_0$</code> 成立下服从均匀分布）。
+<code>$$ \begin{align*}  E\left[ \frac{U_i}{\max\{R, 1\}} \middle| \mathcal{F}_i \right] \tag{3} &amp;= E\left[ \sum_{k=1}^{p} \frac{U_i I\{R(p_i \to 0)=k\}}{k} \middle| \mathcal{F}_i \right]\\ \tag{4} &amp;= \sum_{k=1}^{p} \frac{I\{R(p_i \to 0)=k\}}{k} E\left[ U_i \middle| \mathcal{F}_i \right] \end{align*} $$</code></p>
+<p>(4)成立是由于在 <code>$ \mathcal{F}_i $</code> 条件下，<code>$R(p_i \to 0)$</code> 是确定的，<code>$I\{R(p_i \to 0)=k\}$</code> 为常数，可提到期望符号外面。由于 <code>$p$</code> 值服从均匀分布且 <code>$p_i$</code> 与 <code>$\mathcal{F}_i$</code> 独立：</p>
+<p><code>$$ E\left[ U_i \middle| \mathcal{F}_i \right] = E\left[ I\{p_i \leq \frac{kq}{p}\} \middle| \mathcal{F}_i \right] = P \left(p_i \leq \frac{ R(p_i \to 0) q}{p} \middle| \mathcal{F}_i \right) = \frac{ R(p_i \to 0) q}{p} \tag{5} $$</code></p>
+<p>将(5)代入(4)，得：
+<code>$$ E\left[ \frac{U_i}{\max\{R, 1\}} \middle| \mathcal{F}_i \right] = \sum_{k=1}^{p} \frac{I\{R(p_i \to 0)=k\}}{k} \cdot \frac{ R(p_i \to 0) q}{p} = \frac{q}{p} \sum_{k=1}^{p} I\{R(p_i \to 0)=k\} = \frac{q}{p} $$</code></p>
+<h4 id="步骤4-无条件期望-e-left-frac-u-i-max-r-1-right">步骤4：无条件期望<code>$E\left[ \frac{U_i}{\max\{R, 1\}}  \right] $</code></h4>
+<p>由条件期望的迭代律：
+<code>$$ E\left[ \frac{U_i}{\max\{R, 1\}} \right] = E\left[ E\left[ \frac{U_i}{\max\{R, 1\}} \middle|\mathcal{F}_i \right] \right] = \frac{q}{p} $$</code></p>
+<p>因此：
+<code>$$ FDR = \sum_{i \in S_0} E\left[ \frac{U_i}{\max\{R, 1\}} \right] = p_0 \cdot \frac{q}{p} = \frac{p_0}{p} q \leq q $$</code></p>
+<p><strong>证毕</strong>。</p>
+<h2 id="补充解释">补充解释</h2>
+<h3 id="1-为什么在原假设成立时-p-值服从均匀分布-u-0-1">1.为什么在原假设成立时，<code>$p$</code> 值服从均匀分布 <code>$U(0,1)$</code>？</h3>
+<p>在假设检验中，<code>$p$</code> 值定义为：在原假设 <code>$H_0$</code> 成立的条件下，观察到检验统计量至少与实际观测值一样极端的概率。</p>
+<p>数学上，如果 <code>$T$</code> 是检验统计量，<code>$t_{obs}$</code> 是实际观测值，则：
+<code>$$ p = P(T \geq t_{obs} | H_0) \quad \text{(对于单侧检验)} $$</code></p>
+<p><strong>关键点</strong>：</p>
+<ul>
+<li>当 <code>$ H_0 $</code> 成立且 <code>$T$</code> 的分布是连续时，<code>$T$</code> 的累积分布函数（CDF）记为 <code>$F(t)$</code></li>
+<li>根据概率积分变换定理，随机变量 <code>$F(T)$</code> 服从均匀分布 <code>$U(0,1)$</code></li>
+<li>由于 <code>$p = 1 - F(t_{obs})$</code>（对于右侧检验），而 <code>$F(t_{obs})$</code> 是均匀分布的，因此 <code>$p$</code> 也服从均匀分布 <code>$U(0,1)$</code></li>
+</ul>
+<h3 id="2-为什么对于任意-i-in-s-0-项-u-i-max-r-1-服从同一分布">2. 为什么对于任意 <code>$ i \in S_0 $</code>，项 <code>$U_i/\max\{R, 1\}$</code> 服从同一分布？</h3>
+<p><strong>同分布性的原因</strong>：</p>
+<p>对于所有 <code>$ i \in S_0 $</code>（即所有真实原假设），项 <code>$\frac{U_i}{\max\{R, 1\}}$</code> 服从同一分布，主要原因如下：</p>
+<ol>
+<li>
+<p><strong><code>$p$</code> 值的独立同分布性</strong>：</p>
+<ul>
+<li>所有正确原假设的<code>$p$</code> 值 <code>$ \{p_i\}_{i \in S_0} $</code> 是相互独立的</li>
+<li>每个 <code>$p_i$</code> 都服从相同的均匀分布 <code>$U(0,1)$</code></li>
+<li>因此，这些 <code>$p$</code> 值是独立同分布的（i.i.d.）</li>
+</ul>
+</li>
+<li>
+<p><strong>BH方法的对称性</strong>：</p>
+<ul>
+<li>BH方法基于排序的p 值做出决策：<code>$p_{(1)} \leq p_{(2)} \leq \cdots \leq p_{(p)}$</code></li>
+<li>由于<code>$p$</code> 值是交换的（exchangeable），BH方法对每个真实原假设的处理是对称的</li>
+<li>任何两个真实原假设 <code>$i$</code> 和 <code>$j$</code> 在统计上是不可区分的</li>
+</ul>
+</li>
+<li>
+<p><strong>联合分布的对称性</strong>：</p>
+<ul>
+<li>随机向量 <code>$(U_i, R)$</code> 的联合分布对于所有 <code>$ i \in S_0 $</code> 是相同的</li>
+<li>因此，函数 <code>$\frac{U_i}{\max\{R, 1\}}$</code> 的分布也不依赖于具体的 <code>$i$</code></li>
+</ul>
+</li>
+</ol>
+<h3 id="3-项-u-i-max-r-1-服从什么分布">3. 项 <code>$U_i/\max\{R, 1\}$</code> 服从什么分布</h3>
+<p>项 <code>$\frac{U_i}{\max\{R, 1\}}$</code> <strong>取值范围</strong>为离散集合：<code>$\{0\} \cup \left\{\frac{1}{k} : k = 1, 2, \ldots, p\right\}$</code>​，服从<strong>离散混合分布</strong>，<strong>概率质量函数</strong>为：
+<code>$$ P\left(\frac{U_i}{\max\{R, 1\}} = x\right) =  \begin{cases} P(U_i = 0) &amp; \text{若 } x = 0 \\ P(U_i = 1, R = k) &amp; \text{若 } x = \frac{1}{k}, k = 1, \ldots, p \end{cases} $$</code></p>
+<table>
+<thead>
+<tr>
+<th><code>$\frac{U_i}{\max\{R, 1\}}$</code></th>
+<th style="text-align:center"><code>$0$</code></th>
+<th><code>$1$</code></th>
+<th><code>$\cdots$</code></th>
+<th><code>$\frac{1}{p}$</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>取值概率</td>
+<td style="text-align:center"><code>$P(U_i = 0)$</code></td>
+<td><code>$P(U_i = 1 \cap R = 1)$</code></td>
+<td><code>$\cdots$</code></td>
+<td><code>$P(U_i = 1 \cap R = p)$</code></td>
+</tr>
+</tbody>
+</table>
+<p>其<strong>期望值</strong>：
+<code>$$ E\left[\frac{U_i}{\max\{R, 1\}}\right] = 0 \cdot P(U_i = 0) + \sum_{k=1}^{p} \frac{1}{k} \cdot P(U_i = 1, R = k) = \sum_{k=1}^{p} \frac{1}{k} E[U_i I\{R = k\}] $$</code></p>
+<p>但这样求不出，而是利用条件期望和点态公式<code>$\frac{U_i}{\max\{R, 1\}} = \sum_{k=1}^{p} \frac{U_i }{k} \cdot I\{R=k\}$</code>：
+<code>$$ E\left[\frac{U_i}{\max\{R, 1\}}\right] = E \left\{ E\left[\frac{U_i}{\max\{R, 1\}} \middle|  \mathcal{F}_i\right] \right\}= E \left\{   E \left[ \sum_{k=1}^{p} \frac{U_i}{k} \cdot I \{R = k\} \middle|  \mathcal{F}_i \right] \right\} $$</code></p>
+<h3 id="4-为什么在-mathcal-f-i-条件下-r-p-i-to-0-是确定的">4. 为什么在 <code>$\mathcal{F}_i$</code> 条件下 <code>$R(p_i \to 0)$</code> 是确定的？</h3>
+<p>在给定 <code>$\mathcal{F}_i$</code> 的条件下：</p>
+<ol>
+<li><strong>所有其他 <code>$p$</code> 值被固定</strong>：<code>$\mathcal{F}_i$</code> 包含了除 <code>$p_i$</code> 外所有 <code>$p$</code> 值的具体数值</li>
+<li><strong><code>$p_i$</code> 被明确设为<code>$0$</code></strong>：在计算 <code>$R(p_i \to 0)$</code> 时，我们明确将 <code>$p_i$</code> 设置为<code>$0$</code></li>
+<li><strong>BH算法的确定性</strong>：由于所有输入（<code>$p$</code> 值）都是确定的（其他 <code>$p$</code> 值固定，<code>$p_i$</code> 设为<code>$0$</code>），BH算法的输出 <code>$R(p_i \to 0)$</code> 也是确定的</li>
+</ol>
+<p>因此，在给定 <code>$\mathcal{F}_i$</code> 的条件下，<code>$R(p_i \to 0)$</code> 是一个<strong>确定的数值</strong>，而不是随机变量。</p>
+<h3 id="5-为什么-i-r-p-i-to-0-k-是常数">5. 为什么 <code>$I\{R(p_i \to 0)=k\}$</code> 是常数？</h3>
+<p>由于在 <code>$\mathcal{F}_i$</code> 条件下 <code>$R(p_i \to 0)$</code> 是确定的：</p>
+<ul>
+<li><code>$R(p_i \to 0)$</code> 有某个具体的数值，比如 <code>$k_0$</code></li>
+<li>对于每个 <code>$k$</code>，事件 <code>$\{R(p_i \to 0) = k\}$</code> 要么成立（如果 <code>$k = k_0$</code>），要么不成立（如果 <code>$k \neq k_0$</code>）</li>
+<li>因此，指示函数 <code>$I\{R(p_i \to 0) = k\}$</code> 在给定 <code>$\mathcal{F}_i$</code> 下是常数：
+<ul>
+<li>如果 <code>$k = k_0$</code>，则 <code>$I\{R(p_i \to 0) = k\} = 1$</code>（常数）</li>
+<li>如果 <code>$k \neq k_0$</code>，则 <code>$I\{R(p_i \to 0) = k\} = 0$</code>（常数）</li>
+</ul>
+</li>
+</ul>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>

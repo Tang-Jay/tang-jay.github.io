@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>多重假设检验 - 苏瀚 - Tan Jay | 唐 洁</title>
+    <meta property="og:title" content="多重假设检验 - 苏瀚 - Tan Jay | 唐 洁">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="苏瀚博士狗熊会：https://www.xiong99.com.cn/p/t_pc/course_pc_detail/video/v_687a6ea4e4b0694ca0e5d420
+报告 PPT：https://mp.weixin.qq.com/s/0IHF4JR3s718bgCTuYoaAQ
+[&amp;hellip;] [&amp;hellip;] [&amp;hellip;] [&amp;hellip;] &amp;hellip;">
+      <meta property="og:description" content="苏瀚博士狗熊会：https://www.xiong99.com.cn/p/t_pc/course_pc_detail/video/v_687a6ea4e4b0694ca0e5d420
+报告 PPT：https://mp.weixin.qq.com/s/0IHF4JR3s718bgCTuYoaAQ
+[&amp;hellip;] [&amp;hellip;] [&amp;hellip;] [&amp;hellip;] &amp;hellip;">
+      
+    
+
+    
+    
+    <meta name="twitter:image" content="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65zcBpdicmZ3XkXCaKvBOB31f3XdBTtopZXJGUvFMdxSTHPrLG1niamXrw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=6">
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Tan Jay" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">主页</a></li>
+  
+  <li><a href="/resume/">简历</a></li>
+  
+  <li><a href="/cn/">日志</a></li>
+  
+  <li><a href="/categories/">目录</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>多重假设检验 - 苏瀚</h1>
+
+
+<h3>Tan Jay / 
+2025-09-17</h3>
+
+<hr>
+
+
+      </header>
+
+
+ <nav id="TableOfContents">
+  <ul>
+    <li><a href="#苏博士报告">苏博士报告</a>
+      <ul>
+        <li><a href="#set-up">Set Up</a></li>
+        <li><a href="#method">Method</a>
+          <ul>
+            <li><a href="#before-fwer">Before FWER</a></li>
+            <li><a href="#fwer">FWER</a></li>
+            <li><a href="#fdr">FDR</a></li>
+            <li><a href="#bh">BH</a></li>
+            <li><a href="#storey-and-by">Storey and BY</a></li>
+            <li><a href="#knockoff">Knockoff</a></li>
+            <li><a href="#ds-and-mds">DS and MDS</a></li>
+            <li><a href="#gm">GM</a></li>
+          </ul>
+        </li>
+        <li><a href="#补充">补充</a>
+          <ul>
+            <li><a href="#变量选择">变量选择</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav> 
+
+
+<h1 id="苏博士报告">苏博士报告</h1>
+<p>苏瀚博士狗熊会：<a href="https://www.xiong99.com.cn/p/t_pc/course_pc_detail/video/v_687a6ea4e4b0694ca0e5d420">https://www.xiong99.com.cn/p/t_pc/course_pc_detail/video/v_687a6ea4e4b0694ca0e5d420</a></p>
+<p>报告 PPT：<a href="https://mp.weixin.qq.com/s/0IHF4JR3s718bgCTuYoaAQ">https://mp.weixin.qq.com/s/0IHF4JR3s718bgCTuYoaAQ</a></p>
+<h2 id="set-up">Set Up</h2>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65zcBpdicmZ3XkXCaKvBOB31f3XdBTtopZXJGUvFMdxSTHPrLG1niamXrw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=6" alt="">
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65rRD2INeolcPzibaZClicPDXmFTiaLNibkqqkMmcDJLPVssmjicaEQMrN2zg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=7" alt=""></p>
+<h2 id="method">Method</h2>
+<p><img src="./_image/2025-09-26/MT.png" alt=""></p>
+<h3 id="before-fwer">Before FWER</h3>
+<ul>
+<li>Bonferroni, C. E. &ldquo;Il calcolo delle assicurazioni su gruppi di teste.&rdquo; In Studi in Onore del Professore Salvatore Ortu Carboni. Rome: Italy, pp. 13-60, 1935.
+<del>- Bonferroni, C. E. &ldquo;Teoria statistica delle classi e calcolo delle probabilità.&rdquo; Pubblicazioni del R Istituto Superiore di Scienze Economiche e Commerciali di Firenze 8, 3-62, 1936.</del></li>
+<li>Holm, S. (1979). A Simple Sequentially Rejective Multiple Test Procedure. Scandinavian Journal of Statistics, 6(2), 65–70. <a href="http://www.jstor.org/stable/4615733">http://www.jstor.org/stable/4615733</a>
+<del>- <a href="https://mathworld.wolfram.com/BonferroniCorrection.html">Bonferroni Correction</a></del>
+<del>- <a href="https://mathworld.wolfram.com/BonferroniInequalities.html">Bonferroni inequalities</a></del></li>
+</ul>
+<h3 id="fwer">FWER</h3>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65hbCNH264W7NLScOVMCbVkV3XBwYHnlDDlJ2AarT6mH01r8RXxIfPFw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=8" alt="">
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65aXdCnqVZoa8kJ896KpCC6bPFd5f3LFqvaeN2Pk4jI2zemwElJx3jvQ/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=9" alt=""></p>
+<h3 id="fdr">FDR</h3>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP659FcUegAE5pIhLFIQ5G5rbNy1aeDPcbNl1TNkoAbvuQicRWhstBAbLow/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=12" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65Xk4IrGPoA8Quxmk3LPTVJ3uEwtEIjibceFOT3x4iboK7uJRJGmg2sdrw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=15" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65WajqS571yJyKViavxzuTC8JMTQKj0GsXicoiaJ9UgicpTdMfcMDLzqbbicA/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=16" alt=""></p>
+<h3 id="bh">BH</h3>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65lcKu2uM5PF56GpF2X5d18jxJox9uheYrQQnAjejYcCCgAHU6D2GhTw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=19" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65JxfNRZXzYT6gibuf2AeAaM6icj0sDKc4Vm4HUR2wVwJgQunQu6HSEHPQ/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=20" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65xibrxuMJJmmYuH8iaMRSogDfG8utFxEV9hglB0tl7eRGNsHmickAlRmhA/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=21" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP656OqDZGsR6vFavvib9BSfUhG8erG5A5QibjOBAvKBOxpYjqXmuBRz1rHg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=22" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65GYsdOBvUxHEiaJRlQCfib1lqw4ULxkHBXTlicO20nkvRSar91C1QjrzAg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=23" alt="">
+<img src="./_image/2025-09-26/proof.jpg" alt=""></p>
+<h3 id="storey-and-by">Storey and BY</h3>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65wn1tlWEczRzjzaxdZLP8sJIUBDJhqiaY7HBe358JNaCHAgRAQCSokgQ/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=28" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65Y216ib0tWgzFBBGSdBia8zB33Hrw4IZyxHVCRzKtbsN4r1z1gywyR3NQ/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=29" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65ThXI2icd1OnM8szSOvibSriaohBWicB5kJX62VjsdvdtPcnjccfsL82qXw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=30" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65CmgstZMthfWQdKqMVEiaGLvjJYElFh8Gu7SUuYibdDhCOCo1QficpW3IQ/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=31" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65wZMdMxuLo3dv4UAud77NTsOrZdb0IaxiaDk2zjUNGSw4vYdlYA5G0RA/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=32" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65ZdNpsqRSSGTdek7EKlicJoVTjCwPXnBQeqVSCVxibYrFMGDEm8B4U05g/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=33" alt=""></p>
+<h3 id="knockoff">Knockoff</h3>
+<h4 id="低维线性模型">低维线性模型</h4>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65LbyZPFKttj9pvNM7chWvok9F1zyTYwZSwsvmiauvkZ4TVaqUY2aMg9Q/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=34" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65XXnicp6Z4dznicCByWwjP4UT9mT9WBnE7uhmT8r3dkDsP7VBqFsicWicrw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=36" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65evng3Lb1IdxGo5Vq1DyJqXibnoGJT90do9LaDrAyMJapCg0bmeeJOiaQ/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=39" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP6572zJzgyPYibmzu6UrAVScx58yJRibW6DHopIJowUIzIjIo2dtAs4c7XQ/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=40" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65SJAyXfGMTA5h9ibMKGabkX1x5C1VUEiaeUKJ3fhqrvr9MHHaJ72zQ38w/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=55" alt=""></p>
+<h4 id="高维线性模型">高维线性模型</h4>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65u32K5ic4FT9aMyicG5EKKyd1hSXgTx2HadwykCKGZkSAwx17Uz0515JA/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=59" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65DricOs6PyYgYibDcL6AQ2AWq7bJw3mYicEbf2CbcyZOsWc76pIqjVn3gw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=61" alt=""></p>
+<h4 id="高维非线性模型">高维非线性模型</h4>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP654z8ItaE5PL4qHBxOYU8jZCrXJB4tvp8d7XGXweohAsiaBO9Kibf00zQw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=62" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65p294jgAia1A8mmtUTa6dGvtCJV1L4XR8Gr5YJyCiaqQl6excibOiajYosg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=70" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65KhGTWsdoIcWQ8NrK4RZFT9fAAfiardAFzPicCP5ENmCMH7wpBLPdUuibg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=89" alt=""></p>
+<h3 id="ds-and-mds">DS and MDS</h3>
+<h4 id="高维回归模型">高维回归模型</h4>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65wrK0RV5WycL4e02t2Cz0JmjToPxhrsqicRXlD5LsePMhInkbKHhvYWg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=98" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65dHFs6lmWnoqqfcIViaZe9OAdJXbFS9Piaoe5WbH1FTbibkpY0QllPBYfg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=102" alt=""></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65btGvYnJm9iaOT0iaicI40UAVR5iaX7JY0YL3hKv86YPntIM7yRnhG03G5A/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=105" alt=""></p>
+<h3 id="gm">GM</h3>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SwbhhGNXjrib0boTSSS1ibTkbPp2kZhP65DQCYeevSB9nHb4akMVhPYpUblSh44tYfV5d8fcA4yRadlyuib1vj29A/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=108" alt=""></p>
+<h2 id="补充">补充</h2>
+<h3 id="变量选择">变量选择</h3>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/2025/08/11/tour/">溯溪</a></span>
+  <span class="nav-next"><a href="/cn/2025/09/28/bh/">BH控制定理</a> &rarr;</span>
+</nav>
+
+
+
+
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.js" defer></script>
+<script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.js" defer></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© Tan Jay 2022 ｜ <a href="mailto:tanjay@foxmail.com">tanjay@foxmail.com</a></div>
+  
+  </footer>
+  </article>
+  
+  
+
+
+  </body>
+</html>
+

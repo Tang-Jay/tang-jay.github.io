@@ -6,6 +6,7 @@ categories:
 tags:
   - 珠海
 slug: research-style
+show_toc: true
 disable_comments: true
 ---
 
@@ -37,7 +38,7 @@ disable_comments: true
 
 方法二：使用 chatgpt 反复提问，把对一篇论文的疑点，感兴趣的点都询问出来，回答保存到本地，方便后期做组会汇报，写综述，大论文素材。
 
-方法三：利用  zotero 同步功能，直接在 iPad zotero 上做笔记，去纸化，便于携带和后期复盘。
+方法三：利用 zotero 同步功能，直接在 iPad zotero 上做笔记，去纸化，便于携带和后期复盘。
 
 ### 2. 粗略阅读
 

@@ -26,8 +26,9 @@ disable_comments: true
 
 ### 2. AI 综述
 
-- [consensus](https://consensus.app/) 网站上询问，“我想了解 XXX 主题”，立马参考专业文献为你生成非常全面的综述，省去大量找文献，自己阅读找关联的时间，作为快速入门，把知识面先铺开很有必要。
-- [genemi](https://gemini.google.com/) 也可以作为一个领域快速入门的领路人，针对一个概念的提出，还能给你讲故事，讲出缘由，参考网络各种文章，区别 [consensus](https://consensus.app/) 只参考论文。
+- [consensus](https://consensus.app/) 网站上询问，“我想了解 XXX 主题”，立马参考专业文献为你生成非常全面的综述，省去大量找文献，自己阅读找关联的时间，作为快速入门，把知识面先铺开很有必要。【强推强推强推!!!有桌子把桌子敲烂了的强推!!!】
+
+- [genemi](https://gemini.google.com/) 也可以作为一个领域快速入门的领路人，针对一个概念的提出，还能给你讲故事，讲出缘由，参考网络各种文章，区别 [consensus](https://consensus.app/) 只参考论文。【作为补充搜搜就好，主打consensus入门】
 
 
 

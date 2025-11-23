@@ -19,19 +19,56 @@
         <![CDATA[
         <p>[TOC]</p>
 <h1 id="我的科研风格">我的科研风格</h1>
+<blockquote>
+<p>AI 工具的兴起，必须抓住时代的冲浪板，迎浪而上，不然会被拍死在沙滩上。</p>
+</blockquote>
+<h2 id="刚入门">刚入门</h2>
+<h3 id="1-找综述">1. 找综述</h3>
+<p>刚进入某个领域的时候，很陌生，这时候找一些综述文章很有必要，使用【找文献】技巧，锁定标题带【review】字眼的文章。</p>
+<h3 id="2-ai-综述">2. AI 综述</h3>
+<ul>
+<li><a href="https://consensus.app/">consensus</a> 网站上询问，“我想了解 XXX 主题”，立马参考专业文献为你生成非常全面的综述，省去大量找文献，自己阅读找关联的时间，作为快速入门，把知识面先铺开很有必要。</li>
+<li><a href="https://gemini.google.com/">genemi</a> 也可以作为一个领域快速入门的领路人，针对一个概念的提出，还能给你讲故事，讲出缘由，参考网络各种文章，区别 <a href="https://consensus.app/">consensus</a> 只参考论文。</li>
+</ul>
 <h2 id="找文献">找文献</h2>
-<p>此处找文献是为了保持前沿的关注，或者开阔自己的学术视野。</p>
+<p>上述找文献是为了横向拓宽，此处找文献是为了垂直延展，要保持前沿的关注，或者开阔自己的学术视野。</p>
 <h3 id="1-找最新文献">1. 找最新文献</h3>
 <p>使用 claude code 设置一个找文献的 agent ，确定感兴趣的主题，感兴趣的学者，于是可以为我每天推送感兴趣的最新文献，保持对前沿动态的关注。（设置agent 参考<a href="https://www.xiaohongshu.com/explore/68a57345000000001b0374ae?app_platform=ios&amp;app_version=9.7.3&amp;share_from_user_hidden=true&amp;xsec_source=app_share&amp;type=video&amp;xsec_token=CBVi7V5hUGH8CqUv_lz0WQgiBRB629Cx00WwHkDJrkmX0=&amp;author_share=1&amp;xhsshare=WeixinSession&amp;shareRedId=N0hFNzY2O0E7ODZFTkwwNjY0P0k9SD87&amp;apptime=1763046436&amp;share_id=cd95feb6384540f1a641bd98f7914015">此处</a>。）</p>
 <h3 id="2-找相关文献">2. 找相关文献</h3>
+<ul>
+<li>
 <p>方法一：在 <a href="https://www.semanticscholar.org/">semanticscholar</a> 网站上给定一篇文献，非常方便检索此文献的引用文献（它参考了谁）和施引文献（谁参考了它），并提供下载源，打开阅读和保存本地非常方便。支持 AI 问答，但是我主要用来感兴趣的相关文献。</p>
-<p>方法二：在 zotero 文献管理里使用 Reference pro 可以也可以看到此文献的引用文献和施引文献，支持一键导入 zotero。</p>
-<p>两种方法互补，方法一对引用文献和施引文献支持立马打开文件，响应极快，方便研究者浏览匹配选择下载还是不下载；方法二只能看到摘要，反应速度慢，下载后打开要一个一个点开，下载量大了还容易卡顿，但是可以联动大模型网页一键询问文献综述和文献分析。</p>
+<blockquote>
+<p>方法一对感兴趣文献支持立马打开文件，响应极快，对于研究者而言更便捷，稳健。</p>
+</blockquote>
+</li>
+<li>
+<p>方法二：在 zotero 文献管理里使用 Reference pro 支持将一篇论文后的所有参考文献信息批量上传到大模型网页中，联动大模型为你对文献进行时间和主题的分类，做一个简单综述。</p>
+<blockquote>
+<p>方法二只能看到摘要，反应速度慢，下载后打开要一个一个点开，下载量大了还容易卡顿。唯一的优点但是可以联动大模型网页一键询问文献综述和文献分析。</p>
+</blockquote>
+</li>
+</ul>
 <h2 id="读文献">读文献</h2>
 <h3 id="1-仔细阅读">1. 仔细阅读</h3>
-<p>方法一：使用 claude code 设置一个读文献的 agent ，不得不说会更详细，更贴近个人研究偏好，更懂你。缺点就是废 token。最最最重要的论文用它读一遍，给我速通一下。</p>
-<p>方法二：使用 chatgpt 反复提问，把对一篇论文的疑点，感兴趣的点都询问出来，回答保存到本地，方便后期做组会汇报，写综述，大论文素材。</p>
-<p>方法三：利用 zotero 同步功能，直接在 iPad zotero 上做笔记，去纸化，便于携带和后期复盘。</p>
+<p>做笔记是利用 zotero 同步功能，直接在 iPad zotero 上做笔记，去纸化，便于携带和后期复盘。阅读过程中交替使用方法一或方法二。</p>
+<ul>
+<li>
+<p>方法一：使用 <a href="https://chatgpt.com/">chatgpt</a> 带我巨仔细阅读。首先在一个新的会话框上传一篇论文，然后说，&ldquo;请带我阅读这篇论文，文章较长，请一节一节为我输出，要有文字公式解释。&ldquo;于是，你就有有了非常耐心的老师，带你一点一点磕论文，中间哪里不懂还可以提问互动，这样再难的论文，都可以径直扒下来。</p>
+<blockquote>
+<p>有些回答，我会保存到本地，方便后期做组会汇报，写综述，大论文素材。</p>
+</blockquote>
+</li>
+<li>
+<p>方法二：使用 <a href="https://gemini.google.com/">genemi</a> 带我剖析难点。对于重点和难点部分，可以请教 <a href="https://gemini.google.com/">genemi</a> 为你详细展开讲解。</p>
+<blockquote>
+<p>我的博士同学，孟敏，天文物理的一个妹子强推。她说在疑难点的概念讲解上，<a href="https://gemini.google.com/">genemi</a> 的解释更生动直观。</p>
+</blockquote>
+</li>
+<li>
+<p><del>方法三：使用 claude code 设置一个读文献的 agent ，更贴近个人研究偏好，更懂你，做一个文献总结可以，但是太废 token，比起方法一或二性价比不高，已删除该方法。</del></p>
+</li>
+</ul>
 <h3 id="2-粗略阅读">2. 粗略阅读</h3>
 <p>粗略阅读其实是很重要的，能快速提炼重点，但是这建立在有基本功的基础上才能快，不然只是快，不能获取到自己能吸收的知识，这没有用。目前我需要锻炼这个能力。</p>
 <h2 id="写综述">写综述</h2>
@@ -39,7 +76,7 @@
 <h3 id="1-找文献">1. 找文献</h3>
 <p>此处找文献是为了写作。最重要的是搭框架：XXXX 问题有 XXXX 方法。XXX 方法的分类。问题或方法中的【首要提出者】是 XXXX，以及提出之后整个研究推进中【关键节点】是XXXX。</p>
 <p>想找【首要提出者】和【关键节点】把上面几个空填上，文献的发表时间变得很重要。于是，去 <a href="https://www.litmaps.com/">litmaps</a>，<a href="https://www.researchrabbit.ai/">researchrabbit</a>，<a href="https://www.connectedpapers.com/">connectedpapers</a> 等（按推荐顺序排列）网站上按时间陈列出自己研究问题的历史文献脉络，找到最开始的那个重要文献，以及这个过程中引用最高，影响力最大的文献。当然，开创工作的文献一般都会在发表的论文中提及，可以照抄。</p>
-<h3 id="2-文献分析">2.文献分析</h3>
+<h3 id="2-文献分析">2. 文献分析</h3>
 <p>假设现在有一批文献，杂乱无章，使用 zotero 插件 Reference pro 联动大模型网页一键询问文献综述和文献归类。</p>
 <h3 id="3-综述写法">3. 综述写法</h3>
 <table>
@@ -68,8 +105,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="最后">最后</h2>
-<p>也许，对我来说，我目前使用的工具是 zetero、chatgpt、claude code （按重要程度排序）和一些网页。同时会发现，做任何事情无法回避思考，只有思考越全面越清晰才能让工具更好地为你服务。</p>
+<h2 id="写在最后">写在最后</h2>
+<p>也许，对我来说，做任何事情无法回避思考，只有思考越全面越清晰才能让工具更好地为你服务。</p>
 
         
         ]]>

@@ -28,8 +28,7 @@ disable_comments: true
 
 - [consensus](https://consensus.app/) 网站上询问，“我想了解 XXX 主题”，立马参考专业文献为你生成非常全面的综述，省去大量找文献，自己阅读找关联的时间，作为快速入门，把知识面先铺开很有必要。【强推强推强推!!!有桌子把桌子敲烂了的强推!!!】
 
-- [genemi](https://gemini.google.com/) 也可以作为一个领域快速入门的领路人，针对一个概念的提出，还能给你讲故事，讲出缘由，参考网络各种文章，区别 [consensus](https://consensus.app/) 只参考论文。【作为补充搜搜就好，主打consensus入门】
-
+- [genemi](https://gemini.google.com/) 深度研究模型，也可以作为一个领域快速入门的领路人，针对一个概念的提出，还能给你讲故事，讲出缘由，参考网络各种文章，区别 [consensus](https://consensus.app/) 只参考论文。【作为补充搜搜就好，主打consensus入门】
 
 
 ## 找文献
@@ -71,14 +70,13 @@ disable_comments: true
 粗略阅读其实是很重要的，能快速提炼重点，但是这建立在有基本功的基础上才能快，不然只是快，不能获取到自己能吸收的知识，这没有用。目前我需要锻炼这个能力。
 
 
-
 ## 写综述
 
 顾名思义，就是写文献综述。
 
-### 1. 找文献
+### 1. 综述框架
 
-此处找文献是为了写作。最重要的是搭框架：XXXX 问题有 XXXX 方法。XXX 方法的分类。问题或方法中的【首要提出者】是 XXXX，以及提出之后整个研究推进中【关键节点】是XXXX。
+框架：XXXX 问题有 XXXX 方法。XXX 方法的分类。问题或方法中的【首要提出者】是 XXXX，以及提出之后整个研究推进中【关键节点】是XXXX。
 
 想找【首要提出者】和【关键节点】把上面几个空填上，文献的发表时间变得很重要。于是，去 [litmaps](https://www.litmaps.com/)，[researchrabbit](https://www.researchrabbit.ai/)，[connectedpapers](https://www.connectedpapers.com/) 等（按推荐顺序排列）网站上按时间陈列出自己研究问题的历史文献脉络，找到最开始的那个重要文献，以及这个过程中引用最高，影响力最大的文献。当然，开创工作的文献一般都会在发表的论文中提及，可以照抄。
 

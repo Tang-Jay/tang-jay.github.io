@@ -6,7 +6,7 @@ disable_highlight: true
 disable_comments: true
 ---
 # 唐 洁
-更新日期：2025年9月7日
+更新日期：2026年3月7日
 
 ## 自我评价
 客观说，九五后，湖南人，小个子，五口人，血型AB。
@@ -59,14 +59,14 @@ disable_comments: true
 ## 目前成果
 
 ### 已发表论文
-1. 唐洁.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT).*广西民族大学学报(自然科学版)*, 2021, 27 (04): 70-74. 
+1. 唐洁.[含空间自回归误差的空间自回归模型的经验欧氏似然推断](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&uniplatform=NZKPT).*广西民族大学学报(自然科学版)*, 2021, 27 (04): 70-74. https://doi.org/10.16177/j.cnki.gxmzzk.2021.04.002
 1. Tang Jie, Qin Yongsong. [Adjusted empirical likelihood for probability density functions under strong
-   mixing samples](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088). *Communications in Statistics - Theory and Methods*, 2023, 53(18): 6449–6461. https://doi.org/10.1080/03610926.2023.2246088
-1. 唐洁, 秦永松. 含空间自相关误差的空间自回归模型的调整经验似然推断 [J]. 广西师范大学学报(自然科学版), 2024, 42 (04): 100-114. DOI:10.16088/j.issn.1001-6600.2023052501.
-1. 唐洁, 邹云龙, 秦永松, 黎玉芳. [空间相依数据的分块经验似然推断(英文)](https://kns.cnki.net/kcms2/article/abstract?v=fvwDbTJIyzQ_OmTAhyRp0xQ-sVwaGtxjKKTsfhhiJme0vhc_1pECYakI_Y19-0iqyKtNkEPsZq3jVU3sylKpvkV1-e2ywyBBUm4CYlZ8Bqg=&uniplatform=NZKPT) [J]. 应用数学, 2025, 38 (01): 47-63.
+   mixing samples](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088). *Communications in Statistics - Theory and Methods*, 2024, 53(18): 6449–6461. https://doi.org/10.1080/03610926.2023.2246088
+1. 唐洁, 秦永松. [含空间自相关误差的空间自回归模型的调整经验似然推断](https://kns.cnki.net/kcms2/article/abstract?v=iMwhGHIyCLZ_sXCQCwnTtvU7SbhwT9tOX6PFjLTxYZ4WtmAWM8iH13CEhZs4wiIAeBGFsw1BU5_HUG4YvE8EkcAo2Yr3laxUeVsjgPNGQzQKnRX8APuiKLAfBmX0UVQEcTCKy3mqQLNnkWXq1zn4tkeKhO32hxh6Gl5atCSBmTQ=&uniplatform=NZKPT&language=CHS) [J]. 广西师范大学学报(自然科学版), 2024, 42 (04): 100-114. https://doi.org/10.16088/j.issn.1001-6600.2023052501. 
+1. 唐洁, 邹云龙, 秦永松, 黎玉芳. [空间相依数据的分块经验似然推断(英文)](https://kns.cnki.net/kcms2/article/abstract?v=fvwDbTJIyzQ_OmTAhyRp0xQ-sVwaGtxjKKTsfhhiJme0vhc_1pECYakI_Y19-0iqyKtNkEPsZq3jVU3sylKpvkV1-e2ywyBBUm4CYlZ8Bqg=&uniplatform=NZKPT) [J]. 应用数学, 2025, 38 (01): 47-63.  https://doi.org/10.13642/j.cnki.42-1184/o1.2025.01.020
 ### 待发表论文
 
-1. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(二审三年很离谱)
+1. Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(外审N年很离谱)
 1. Tang Jie, Zou Yunlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(投稿)
 1. Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality constraints.
 

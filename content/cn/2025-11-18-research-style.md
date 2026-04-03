@@ -10,8 +10,6 @@ show_toc: true
 disable_comments: true
 ---
 
-[TOC]
-
 # 我的科研风格
 
 > AI 工具的兴起，必须抓住时代的冲浪板，迎浪而上，不然会被拍死在沙滩上。

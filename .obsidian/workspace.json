@@ -11,14 +11,10 @@
             "id": "dc4c2d5ca98c24a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/cn/2026-02-26-first-day.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-02-26-first-day"
+              "title": "新标签页"
             }
           }
         ]
@@ -171,21 +167,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e69ca969c892cb39",
+  "active": "dc4c2d5ca98c24a6",
   "lastOpenFiles": [
+    "content/2025-08-14-love.md",
+    "content/2026-04-03-life.md",
+    "content/2025-08-04-dariy.md",
+    "content/2025-06-15-ping.md",
+    "content/2025-06-11-yihui.md",
+    "content/cn/2026-02-26-first-day.md",
     "未命名.base",
     "未命名 1.base",
     "未命名 2.base",
-    "content/cn/2026-02-26-first-day.md",
     "content/cn/2025-11-18-research-style.md",
     "content/cn/2025-09-28-BH.md",
     "content/cn/2025-11-15-sci-AI.md",

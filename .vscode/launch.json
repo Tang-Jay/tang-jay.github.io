@@ -12,16 +12,6 @@
       "terminalKind": "integrated"
     },
     {
-      "type": "bashdb",
-      "request": "launch",
-      "name": "Run build.sh",
-      "program": "${workspaceFolder}/build.sh",
-      "cwd": "${workspaceFolder}",
-      "args": [],
-      "env": {},
-      "terminalKind": "integrated"
-    },
-    {
       "type": "node-terminal",
       "name": "JavaScript Debug Terminal",
       "request": "launch",

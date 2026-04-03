@@ -11,10 +11,14 @@
             "id": "dc4c2d5ca98c24a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/cn/2026-04-03-life.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-04-03-life"
             }
           }
         ]

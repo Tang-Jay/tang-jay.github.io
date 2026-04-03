@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  6 APR 2024 17:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.5)  31 MAR 2026 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -200,43 +200,10 @@ File: ctex-c5size.clo 2021/12/12 v2.5.8 c5size option (CTEX)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
 File: ctex-fontset-mac.def 2021/12/12 v2.5.8 macOS fonts definition (CTEX)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macnew.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macold.
 def
-File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
-apitan or later version (CTEX)
-
-
-Package fontspec Warning: Font "Songti SC Light" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
-(fontspec)             SC Light' with options
-(fontspec)             [Script={CJK},BoldItalicFont={Kaiti SC
-(fontspec)             Bold},BoldFont={Songti SC Bold},ItalicFont={Kaiti SC}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Songti SC
-(fontspec)             Light/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Songti SC
-(fontspec)             Bold/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Kaiti
-(fontspec)             SC/OT:language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Kaiti SC
-(fontspec)             Bold/OT:language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-))) (/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/config/ctex.cfg
-File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
-)
-
-Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault'
-(xeCJK)                (SongtiSCLight(0)).
+File: ctex-fontset-macold.def 2021/12/12 v2.5.8 macOS fonts definition for Yose
+mite or earlier version (CTEX)
 
 
 Package fontspec Warning: Font "STSong" does not contain requested Script
@@ -271,6 +238,16 @@ Package fontspec Info: Font family 'STSong(0)' created for font 'STSong' with
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"STKaiti/OT:language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
+)
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (STSong(0)).
+
+
+Package fontspec Warning: Font "STSong" does not contain requested Script
+(fontspec)                "CJK".
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -859,34 +836,31 @@ LaTeX Info: Redefining \nameref on input line 62.
 
 
 
-Package fontspec Warning: Font "Heiti SC Light" does not contain requested
-(fontspec)                Script "CJK".
+Package fontspec Warning: Font "STHeiti" does not contain requested Script
+(fontspec)                "CJK".
 
 
-Package fontspec Info: Could not resolve font "Heiti SC Medium/I" (it probably
+Package fontspec Info: Could not resolve font "STHeiti/BI" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "Heiti SC Light/I" (it probably
-(fontspec)             doesn't exist).
+Package fontspec Info: Could not resolve font "STHeiti/B" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
-(fontspec)             SC Light' with options [Script={CJK},BoldFont={Heiti SC
-(fontspec)             Medium}].
+Package fontspec Info: Could not resolve font "STHeiti/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'STHeiti(0)' created for font 'STHeiti'
+(fontspec)             with options [Script={CJK}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Heiti SC
-(fontspec)             Light/OT:language=dflt;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STHeiti/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Heiti SC
-(fontspec)             Medium/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Heiti SC
-(fontspec)             Light/BI/OT:language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 [1
 
@@ -939,34 +913,31 @@ File: pdfs/毕业证与学位证硕士.pdf Graphic file (type pdf)
 <use pdfs/毕业证与学位证硕士.pdf, page 1>
  [3]
 
-Package fontspec Warning: Font "Kaiti SC" does not contain requested Script
+Package fontspec Warning: Font "STKaiti" does not contain requested Script
 (fontspec)                "CJK".
 
 
-Package fontspec Info: Could not resolve font "Kaiti SC Bold/I" (it probably
+Package fontspec Info: Could not resolve font "STKaiti/BI" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "Kaiti SC/BI" (it probably
-(fontspec)             doesn't exist).
+Package fontspec Info: Could not resolve font "STKaiti/B" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Could not resolve font "Kaiti SC/I" (it probably
-(fontspec)             doesn't exist).
+Package fontspec Info: Could not resolve font "STKaiti/I" (it probably doesn't
+(fontspec)             exist).
 
 
-Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
-(fontspec)             with options [Script={CJK},BoldFont={Kaiti SC Bold}].
+Package fontspec Info: Font family 'STKaiti(0)' created for font 'STKaiti'
+(fontspec)             with options [Script={CJK}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Kaiti
-(fontspec)             SC/OT:language=dflt;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STKaiti/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Kaiti SC
-(fontspec)             Bold/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 File: pdfs/论文4发表.pdf Graphic file (type pdf)
 <use pdfs/论文4发表.pdf>
@@ -1202,11 +1173,11 @@ Package rerunfilecheck Info: File `报名材料.out' has not changed.
 (rerunfilecheck)             Checksum: AF39A2BA40D114D58F238D724D79BCC6;1141.
  ) 
 Here is how much of TeX's memory you used:
- 19091 strings out of 476179
- 403466 string characters out of 5809545
- 727812 words of memory out of 5000000
- 39485 multiletter control sequences out of 15000+600000
- 471727 words of font info for 77 fonts, out of 8000000 for 9000
+ 19008 strings out of 476179
+ 401435 string characters out of 5809545
+ 725447 words of memory out of 5000000
+ 39421 multiletter control sequences out of 15000+600000
+ 471639 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,465b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

@@ -68,7 +68,7 @@ disable_comments: true
 2. Tang Jie, Qin Yongsong. [Adjusted empirical likelihood for probability density functions under strong mixing samples](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088). *Communications in Statistics - Theory and Methods*, 2024, 53(18): 6449–6461. https://doi.org/10.1080/03610926.2023.2246088
 3. 唐洁, 秦永松. [含空间自相关误差的空间自回归模型的调整经验似然推断](https://kns.cnki.net/kcms2/article/abstract?v=iMwhGHIyCLZ_sXCQCwnTtvU7SbhwT9tOX6PFjLTxYZ4WtmAWM8iH13CEhZs4wiIAeBGFsw1BU5_HUG4YvE8EkcAo2Yr3laxUeVsjgPNGQzQKnRX8APuiKLAfBmX0UVQEcTCKy3mqQLNnkWXq1zn4tkeKhO32hxh6Gl5atCSBmTQ=&uniplatform=NZKPT&language=CHS) [J]. 广西师范大学学报(自然科学版), 2024, 42 (04): 100-114. https://doi.org/10.16088/j.issn.1001-6600.2023052501. 
 4. 唐洁, 邹云龙, 秦永松, 黎玉芳. [空间相依数据的分块经验似然推断(英文)](https://kns.cnki.net/kcms2/article/abstract?v=fvwDbTJIyzQ_OmTAhyRp0xQ-sVwaGtxjKKTsfhhiJme0vhc_1pECYakI_Y19-0iqyKtNkEPsZq3jVU3sylKpvkV1-e2ywyBBUm4CYlZ8Bqg=&uniplatform=NZKPT) [J]. 应用数学, 2025, 38 (01): 47-63.  https://doi.org/10.13642/j.cnki.42-1184/o1.2025.01.020
-5. Tang Jie, Zou Yunlong, Liu Chenrui, Xie chuanlong, Qin Yongsong. Principal component empirical likelihood method for spatial cross section data.(接收)
+5. Tang Jie, Zou Yunlong, Liu Chenrui, Xie chuanlong, Qin Yongsong. [Principal component empirical likelihood method for spatial cross section data](https://www.tandfonline.com/eprint/IET5GMBNKG6BEVQTDT7A/full?target=10.1080/03610918.2026.2654731). *Communications in Statistics - Simulation and Computation*. https://doi.org/10.1080/03610918.2026.2654731
 
 ### 待发表论文
 
@@ -84,6 +84,8 @@ disable_comments: true
    - [《R语言画图》](https://tang-jay.github.io/RBook) 
    - [《论文写作听课笔记》](https://tang-jay.github.io/EssayNotes/)
    - [《高维经验似然相关模拟》](https://tang-jay.github.io/HighDimen/)
+
+- [小红书](https://www.xiaohongshu.com/user/profile/5bc73178511ced00016b9c92)
 
 ## 荣誉证书
 1. 2022年12月获得2021-2022年硕士研究生学业奖学金三等

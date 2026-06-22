@@ -2,7 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Obsidian local vault settings
 .obsidian
+index/
+
+# Codex local instructions and workspace files
+AGENTS.md
+.codex/
 
 # Keep the shared task entry, but ignore other editor-local settings.
 .vscode/*

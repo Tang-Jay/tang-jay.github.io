@@ -1,14 +1,14 @@
-
 ---
 title: 《阅读、游历和爱情》
-subtitle: 梁永安/著
-date: '2022-08-15'
+date: 2022-08-15
 categories:
   - 读书志
 tags:
   - 书
 slug: laingyongan
+show_toc: true
 disable_comments: true
+---
 ---
 > 一句话，尽情去体验吧。
 ---
@@ -79,7 +79,6 @@ disable_comments: true
 也许我不知道要成为什么样的人 但我知道一定不要成为什么样的人
 
 - 他们的社会情感又需要释放，所以通过这种方式来自我重生
-
 
 - 一切工作都是以劳动者获得自己的价值和尊严为前提，最基本的正义是让全天下的劳动者获得公正，获得自己应该过的生活。
 

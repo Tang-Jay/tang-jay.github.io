@@ -11,12 +11,8 @@ index/
 AGENTS.md
 .codex/
 
-# Keep the shared task entry, but ignore other editor-local settings.
-.vscode/*
-!.vscode/
-!.vscode/tasks.json
-
 # IDE / OS noise
+.vscode/
 .idea/
 .DS_Store
 

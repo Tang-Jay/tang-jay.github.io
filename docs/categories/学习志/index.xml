@@ -1,20 +1,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学习志 on Tan Jay | 唐 洁</title>
-    <link>/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</link>
+    <link>https://tang-jay.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/</link>
     <description>Recent content in 学习志 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tang-jay.github.io/categories/%E5%AD%A6%E4%B9%A0%E5%BF%97/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>obsidian 使用心得</title>
+      <link>https://tang-jay.github.io/cn/2026/06/22/obsidian/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>https://tang-jay.github.io/cn/2026/06/22/obsidian/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>从<a href="/cn/2026/04/03/life/">学术 AI</a>游历一圈后，现在将 AI 用于该日记库的管理。</p>
+</blockquote>
+<p>我在<a href="/">主页</a>里就写到<a href="/cn/2022/06/17/glimpse/">初遇该网页架构</a>的兴奋与激动，然后模仿使用网站的形式管理资料，本质上就是找一个适配 markdown 的文件管理器。现在遇到 obsidian，它借鉴了网页前端的模式管理本地 markdown 笔记软件，直接实现心中所想，怎么会有这么天才的设计，集美观实用于一体，还免费开源！使用 obsidian 纵享心流丝滑体验，写作感受原地起飞。</p>
+<p>AI 时代的到来，创建几个 skills 文件，也就是给 AI 几份说明书，告诉它如何按照约定管理软件，于是， AI 便可化身贴身管家，我只需要负责宣泄自己的感受，剩下的格式调整、部署网页等重复性的活都可以由 AI 接管。</p>
+<p>以装修房子为例，一个本地文件夹就是毛坯房，用 obsidian 打开并管理这个文件夹就变成精装房，AI 就是给这个屋里加上了智能家居。Obsidian 简洁的界面与人性化的设计，让你一目了然且一键访问，哪怕很深的目录路径，就像你的东西散落在房屋各个角落，obsidian 可以直接打开某个柜子找到你要的东西。同时，Obsidian 库的笔记都是 markdown 类型，天然适配 AI 读取，就像家里物件都会说话了， AI 可以和这些物件交流，并按需求调整物件的摆放。换个比方就是，主人坐在 obsidian 监视器前面，吩咐 AI 管家管理物件，从而达到实现管理文件夹内资料的意图。</p>
+<p>Obsidian + AI 的具体实现途径有，Obsidian + AI 插件、Obsidian + VScode、Obsidian + cursor、Obsidian + trae、Obsidian + claude code 等。这些搭配本质上是接入一个大模型通过写入终端命令实现自动化操作。当然 AI 可以接万物，如 word + AI , excel + AI ，ppt + AI ，实现办公自动化流程的打造。</p>
+<p>之前想将<a href="/cn/2025/11/09/sci-ai/">科研 AI 流程</a>推广到办公 AI 流程，然后出公众号交流 obsidian + AI 的心得体会，但是写公众号需要图片，图片需要设计， AI 是可以帮忙设计图片，但是我卡在了不知道怎么定自己的审美，彩色还是黑白？人物形象？图片大小？这些涉及自己公众号的定位，自我品牌建立的定位。哪怕有 AI 的帮助，这些问题仍需要很多时间打磨，暂时无那么多时间，就搁着吧，等热情特别奔涌的时候再设计这些吧。目前还是喜欢写纯文字，因为有了 obsidian + AI，写作等于打开 obsidian 就很沉浸了，后期一键发布，主要自己看，不用为读者绞尽脑汁，没有图文并茂的需求。光自己写爽了就行。</p>
+<p>我只能在我的日记里说，建议大家使用 obsidian 写作，非常快乐，搭配 AI，快乐加倍。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
       <title>2026春开学</title>
-      <link>/cn/2026/02/26/first-day/</link>
+      <link>https://tang-jay.github.io/cn/2026/02/26/first-day/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2026/02/26/first-day/</guid>
+      <guid>https://tang-jay.github.io/cn/2026/02/26/first-day/</guid>
       <description>
         <![CDATA[
         <p>回望寒假，真的是嗖的一下就过完了。</p>
@@ -31,10 +56,10 @@
     
     <item>
       <title>我的科研风格</title>
-      <link>/cn/2025/11/18/research-style/</link>
+      <link>https://tang-jay.github.io/cn/2025/11/18/research-style/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/11/18/research-style/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/11/18/research-style/</guid>
       <description>
         <![CDATA[
         <h1 id="我的科研风格">我的科研风格</h1>
@@ -139,11 +164,11 @@
     
     
     <item>
-      <title>科研搭配 AI合集</title>
-      <link>/cn/2025/11/09/sci-ai/</link>
+      <title>科研搭配 AI 合集</title>
+      <link>https://tang-jay.github.io/cn/2025/11/09/sci-ai/</link>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/11/09/sci-ai/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/11/09/sci-ai/</guid>
       <description>
         <![CDATA[
         <h2 id="视频介绍ai工具使用范式">视频介绍AI工具使用范式</h2>
@@ -222,10 +247,10 @@
     
     <item>
       <title>BH控制定理</title>
-      <link>/cn/2025/09/28/bh/</link>
+      <link>https://tang-jay.github.io/cn/2025/09/28/bh/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/09/28/bh/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/09/28/bh/</guid>
       <description>
         <![CDATA[
         <h1 id="多重假设检验bh控制定理">多重假设检验BH控制定理</h1>
@@ -413,10 +438,10 @@
     
     <item>
       <title>端午之后的组会汇报</title>
-      <link>/cn/2025/05/29/report/</link>
+      <link>https://tang-jay.github.io/cn/2025/05/29/report/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/05/29/report/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/05/29/report/</guid>
       <description>
         <![CDATA[
         <h2 id="pcel">PCEL</h2>
@@ -448,10 +473,10 @@
     
     <item>
       <title>组会汇报记录</title>
-      <link>/cn/2025/03/25/meeting/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/25/meeting/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/25/meeting/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/25/meeting/</guid>
       <description>
         <![CDATA[
         <h2 id="2025-2-26-第一周">2025-2-26 第一周</h2>
@@ -689,10 +714,10 @@
     
     <item>
       <title>下一步研究计划</title>
-      <link>/cn/2025/03/19/todo/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/19/todo/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/19/todo/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/19/todo/</guid>
       <description>
         <![CDATA[
         <h2 id="2025-02-23-周日">2025-02-23 周日</h2>
@@ -958,10 +983,10 @@
     
     <item>
       <title>DeepSeek定位DRO文献</title>
-      <link>/cn/2025/03/05/deepseekreference/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/05/deepseekreference/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/05/deepseekreference/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/05/deepseekreference/</guid>
       <description>
         <![CDATA[
         <p>打开DeepSeek对话框，给出提示词：我是统计学专业博士生，请为我生成一篇关于‘distribution robust optimation主题’的文献综述，要求包括以下部分：【研究背景与现状、国内外研究进展、主要研究方法与结论、研究空白与争议焦点】要求每部分至少引用5篇权威文献，并附上每篇文献的核心观点。</p>
@@ -1192,10 +1217,10 @@
     
     <item>
       <title>DeepSeek扩写DRO研究背景</title>
-      <link>/cn/2025/03/05/deepseekbackgroud/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/05/deepseekbackgroud/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/05/deepseekbackgroud/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/05/deepseekbackgroud/</guid>
       <description>
         <![CDATA[
         <p>请根据上述大纲扩写‘研究背景与意义’部分，要求结合最新研究趋势，阐述研究的重要性和创新点</p>
@@ -1275,10 +1300,10 @@
     
     <item>
       <title>DeepSeek推荐DRO选题</title>
-      <link>/cn/2025/03/05/deepseekideas/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/05/deepseekideas/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/05/deepseekideas/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/05/deepseekideas/</guid>
       <description>
         <![CDATA[
         <p>我是统计学专业博士生，想研究distribution robust optimation领域，请推荐5个创新且可行的论文选题，要求结合近3年研究热点，并附上每个选题的研究意义和可能的创新点。</p>
@@ -1359,10 +1384,10 @@
     
     <item>
       <title>DeepSeek推荐学习DRO路线图</title>
-      <link>/cn/2025/03/05/deepseekdro/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/05/deepseekdro/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/05/deepseekdro/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/05/deepseekdro/</guid>
       <description>
         <![CDATA[
         <p>我是统计学专业博士生，想深入了解DRO背后原理，请为我推荐相关的文献，从入门到前沿。</p>
@@ -1579,10 +1604,10 @@
     
     <item>
       <title>DeepSeek生成DRO大纲</title>
-      <link>/cn/2025/03/05/deepseekoutline/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/05/deepseekoutline/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/05/deepseekoutline/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/05/deepseekoutline/</guid>
       <description>
         <![CDATA[
         <p>请生成一篇关于‘DRO主题’的论文大纲，包含以下部分：【研究背景与意义、文献综述、研究方法（定量/定性）、数据分析与结果、讨论与建议】要求每个部分详细列出子标题，并附上每个子标题的核心内容概述。</p>
@@ -1914,10 +1939,10 @@
     
     <item>
       <title>Wasserstein距离与经验分布</title>
-      <link>/cn/2025/03/05/wasserstein/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/05/wasserstein/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/05/wasserstein/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/05/wasserstein/</guid>
       <description>
         <![CDATA[
         <p>在统计学与机器学习中，<strong>经验分布</strong>与<strong>Wasserstein距离</strong>的关系可以通过以下直观解释和具体应用来理解：</p>
@@ -2036,10 +2061,10 @@ W_p(P, Q) = \left( \inf_{\gamma \in \Gamma(P, Q)} \int |x - y|^p , d\gamma(x, y)
     
     <item>
       <title>经验似然与经验过程</title>
-      <link>/cn/2025/03/05/el/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/05/el/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/05/el/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/05/el/</guid>
       <description>
         <![CDATA[
         <p>在机器学习与统计学中，<strong>经验过程（Empirical Process）</strong> 和 <strong>经验似然推断（Empirical Likelihood Inference）</strong> 是两个紧密相关的理论工具，尤其在非参数统计方法中具有重要地位。它们的关系可以从以下几个方面理解：</p>
@@ -2138,10 +2163,10 @@ L(\theta) = \max \prod_{i=1}^n p_i \quad \text{s.t.} \quad \sum_{i=1}^n p_i g(X_
     
     <item>
       <title>分布偏移与保形推断</title>
-      <link>/cn/2025/03/03/dsandci/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/03/dsandci/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/03/dsandci/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/03/dsandci/</guid>
       <description>
         <![CDATA[
         <p><strong>Distribution Shift 与 Conformal Inference 的关系</strong></p>
@@ -2279,10 +2304,10 @@ $$
     
     <item>
       <title>标准保形推断</title>
-      <link>/cn/2025/03/03/standardci/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/03/standardci/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/03/standardci/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/03/standardci/</guid>
       <description>
         <![CDATA[
         <p><strong>保形推断（Conformal Inference）</strong> 通过 <strong>验证集的非符合性分数分位数</strong> 构建预测区间，提供无分布假设的统计覆盖保证。其核心优势在于：</p>
@@ -2496,10 +2521,10 @@ $$
     
     <item>
       <title>稳健保形推断</title>
-      <link>/cn/2025/03/03/robustci/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/03/robustci/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/03/robustci/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/03/robustci/</guid>
       <description>
         <![CDATA[
         <h2 id="确定分位数阈值方式"><strong>确定分位数阈值方式</strong></h2>
@@ -2534,10 +2559,10 @@ $$</p>
     
     <item>
       <title>保形推断与DRO</title>
-      <link>/cn/2025/03/02/droandci/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/02/droandci/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/02/droandci/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/02/droandci/</guid>
       <description>
         <![CDATA[
         <p><strong>DRO（分布鲁棒优化）与 Conformal Inference（保形推断）的关系</strong></p>
@@ -2686,10 +2711,10 @@ DRO 的鲁棒性定义（如 Wasserstein 距离）与 Conformal Inference 的可
     
     <item>
       <title>保形推断与公平性</title>
-      <link>/cn/2025/03/01/fairness/</link>
+      <link>https://tang-jay.github.io/cn/2025/03/01/fairness/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/03/01/fairness/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/03/01/fairness/</guid>
       <description>
         <![CDATA[
         <p>保形推断的无条件有效性依赖于数据的可交换性假设，但在实际中，数据可能存在异质性，不同子群体的分布不同。当模型在训练时没有考虑到这些子群体的特性时，预测集的覆盖可能在局部失效。例如，如果某个子群体的数据分布与整体差异大，非符合性评分可能在该子群中偏差较大，导致覆盖率下降。</p>
@@ -2832,10 +2857,10 @@ $$
     
     <item>
       <title>DRO</title>
-      <link>/cn/2025/02/27/dro/</link>
+      <link>https://tang-jay.github.io/cn/2025/02/27/dro/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/02/27/dro/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/02/27/dro/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -2955,10 +2980,10 @@ $$
     
     <item>
       <title>不确定量化与分布偏移</title>
-      <link>/cn/2025/02/27/uc/</link>
+      <link>https://tang-jay.github.io/cn/2025/02/27/uc/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/02/27/uc/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/02/27/uc/</guid>
       <description>
         <![CDATA[
         <h2 id="与分布偏移的关系">与分布偏移的关系</h2>
@@ -3075,10 +3100,10 @@ $$
     
     <item>
       <title>分布偏移与DRO</title>
-      <link>/cn/2025/02/27/shift/</link>
+      <link>https://tang-jay.github.io/cn/2025/02/27/shift/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/02/27/shift/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/02/27/shift/</guid>
       <description>
         <![CDATA[
         <h2 id="与dro关系">与DRO关系</h2>
@@ -3216,10 +3241,10 @@ $$
     
     <item>
       <title>研究主题</title>
-      <link>/cn/2025/02/26/topics/</link>
+      <link>https://tang-jay.github.io/cn/2025/02/26/topics/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/02/26/topics/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/02/26/topics/</guid>
       <description>
         <![CDATA[
         <h1 id="distributional-robust-optimization-dro-cn-2025-02-27-dro">distributional robust optimization (<a href="/cn/2025/02/27/dro/">DRO</a>)</h1>
@@ -3249,10 +3274,10 @@ $$
     
     <item>
       <title>保形推断</title>
-      <link>/cn/2025/02/25/conformity/</link>
+      <link>https://tang-jay.github.io/cn/2025/02/25/conformity/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2025/02/25/conformity/</guid>
+      <guid>https://tang-jay.github.io/cn/2025/02/25/conformity/</guid>
       <description>
         <![CDATA[
         <h1 id="研究记录之保形推断">研究记录之保形推断</h1>
@@ -3639,10 +3664,10 @@ $$</p>
     
     <item>
       <title>多重假设检验</title>
-      <link>/cn/2024/11/25/storey/</link>
+      <link>https://tang-jay.github.io/cn/2024/11/25/storey/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/11/25/storey/</guid>
+      <guid>https://tang-jay.github.io/cn/2024/11/25/storey/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -3920,10 +3945,10 @@ $$</p>
     
     <item>
       <title>经验过程</title>
-      <link>/cn/2024/11/25/empirical-process/</link>
+      <link>https://tang-jay.github.io/cn/2024/11/25/empirical-process/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/11/25/empirical-process/</guid>
+      <guid>https://tang-jay.github.io/cn/2024/11/25/empirical-process/</guid>
       <description>
         <![CDATA[
         <h1 id="经验过程">经验过程</h1>
@@ -3956,10 +3981,10 @@ $$</p>
     
     <item>
       <title>积累</title>
-      <link>/cn/2024/10/07/bnuz/</link>
+      <link>https://tang-jay.github.io/cn/2024/10/07/bnuz/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/10/07/bnuz/</guid>
+      <guid>https://tang-jay.github.io/cn/2024/10/07/bnuz/</guid>
       <description>
         <![CDATA[
         <h3 id="一些博主">一些博主</h3>
@@ -3991,10 +4016,10 @@ $$</p>
     
     <item>
       <title>OOD学习</title>
-      <link>/cn/2024/08/02/ood/</link>
+      <link>https://tang-jay.github.io/cn/2024/08/02/ood/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2024/08/02/ood/</guid>
+      <guid>https://tang-jay.github.io/cn/2024/08/02/ood/</guid>
       <description>
         <![CDATA[
         <h2 id="sharon-li">Sharon Li</h2>
@@ -4030,10 +4055,10 @@ $$</p>
     
     <item>
       <title>专家</title>
-      <link>/cn/2023/08/15/drs/</link>
+      <link>https://tang-jay.github.io/cn/2023/08/15/drs/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/drs/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/08/15/drs/</guid>
       <description>
         <![CDATA[
         <h3 id="王建军-http-math-swu-edu-cn-info-1019-2612-htm"><a href="http://math.swu.edu.cn/info/1019/2612.htm">王建军</a></h3>
@@ -4053,10 +4078,10 @@ $$</p>
     
     <item>
       <title>李红权</title>
-      <link>/cn/2023/08/15/li/</link>
+      <link>https://tang-jay.github.io/cn/2023/08/15/li/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/li/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/08/15/li/</guid>
       <description>
         <![CDATA[
         <h2 id="李红权-https-sxy-hunnu-edu-cn-info-1054-2670-htm"><a href="https://sxy.hunnu.edu.cn/info/1054/2670.htm">李红权</a></h2>
@@ -4086,10 +4111,10 @@ $$</p>
     
     <item>
       <title>蔡宗武</title>
-      <link>/cn/2023/08/15/zong/</link>
+      <link>https://tang-jay.github.io/cn/2023/08/15/zong/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/15/zong/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/08/15/zong/</guid>
       <description>
         <![CDATA[
         <h2 id="蔡宗武">蔡宗武</h2>
@@ -4121,10 +4146,10 @@ $$</p>
     
     <item>
       <title>地理常识</title>
-      <link>/cn/2023/08/09/geogeaphy/</link>
+      <link>https://tang-jay.github.io/cn/2023/08/09/geogeaphy/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/09/geogeaphy/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/08/09/geogeaphy/</guid>
       <description>
         <![CDATA[
         <p style="text-align: center;">
@@ -4558,10 +4583,10 @@ $$</p>
     
     <item>
       <title>八月安排表</title>
-      <link>/cn/2023/08/01/plan/</link>
+      <link>https://tang-jay.github.io/cn/2023/08/01/plan/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/08/01/plan/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/08/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -4827,10 +4852,10 @@ $$</p>
     
     <item>
       <title>七月安排表</title>
-      <link>/cn/2023/07/01/plan/</link>
+      <link>https://tang-jay.github.io/cn/2023/07/01/plan/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/07/01/plan/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/07/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单">计划清单</h2>
@@ -5079,10 +5104,10 @@ $$</p>
     
     <item>
       <title>六月安排表(下)</title>
-      <link>/cn/2023/06/22/plan/</link>
+      <link>https://tang-jay.github.io/cn/2023/06/22/plan/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/22/plan/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/06/22/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-下">计划清单 (下)</h2>
@@ -5187,10 +5212,10 @@ $$</p>
     
     <item>
       <title>六月安排表(上)</title>
-      <link>/cn/2023/06/01/plan/</link>
+      <link>https://tang-jay.github.io/cn/2023/06/01/plan/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/06/01/plan/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/06/01/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="计划清单-上">计划清单 (上)</h2>
@@ -5392,10 +5417,10 @@ $$</p>
     
     <item>
       <title>五月底计划表</title>
-      <link>/cn/2023/05/31/plan/</link>
+      <link>https://tang-jay.github.io/cn/2023/05/31/plan/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2023/05/31/plan/</guid>
+      <guid>https://tang-jay.github.io/cn/2023/05/31/plan/</guid>
       <description>
         <![CDATA[
         <h2 id="第一周">第一周</h2>
@@ -5491,10 +5516,10 @@ $$</p>
     
     <item>
       <title>新概念英语</title>
-      <link>/cn/2022/12/03/english/</link>
+      <link>https://tang-jay.github.io/cn/2022/12/03/english/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/12/03/english/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/12/03/english/</guid>
       <description>
         <![CDATA[
         <h3 id="第一册">第一册</h3>
@@ -5531,10 +5556,10 @@ $$</p>
     
     <item>
       <title>NBEL</title>
-      <link>/cn/2022/12/02/nbel/</link>
+      <link>https://tang-jay.github.io/cn/2022/12/02/nbel/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/12/02/nbel/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/12/02/nbel/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -5572,10 +5597,10 @@ $$</p>
     
     <item>
       <title>十一月完结</title>
-      <link>/cn/2022/11/30/conclusion/</link>
+      <link>https://tang-jay.github.io/cn/2022/11/30/conclusion/</link>
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/30/conclusion/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/11/30/conclusion/</guid>
       <description>
         <![CDATA[
         <p style="text-align: center;">
@@ -5591,10 +5616,10 @@ $$</p>
     
     <item>
       <title>如何整理文献</title>
-      <link>/cn/2022/11/29/reference/</link>
+      <link>https://tang-jay.github.io/cn/2022/11/29/reference/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/reference/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/11/29/reference/</guid>
       <description>
         <![CDATA[
         <p>近期写材料，发现之前的文献是可以利用上的，但是曾经的我和现在的我，保存文献的方式不统一，这对再次引用文献这一步带来很大的不便。换而言之，抄自己的东西都抄得不是很愉快。那么如何让之后的工作开展得更丝滑呢，我觉得要做到如下几点：</p>
@@ -5620,10 +5645,10 @@ $$</p>
     
     <item>
       <title>知识版图扩建</title>
-      <link>/cn/2022/11/29/xuwangli/</link>
+      <link>https://tang-jay.github.io/cn/2022/11/29/xuwangli/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/xuwangli/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/11/29/xuwangli/</guid>
       <description>
         <![CDATA[
         <h2 id="课外拓展">课外拓展</h2>
@@ -5696,10 +5721,10 @@ $$</p>
     
     <item>
       <title>高维在读论文</title>
-      <link>/cn/2022/11/29/higdimen/</link>
+      <link>https://tang-jay.github.io/cn/2022/11/29/higdimen/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/11/29/higdimen/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/11/29/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- <font style="background-color: #FFFFCD;">[`PDF`](/papers/HigDimen/2.pdf)</font>
@@ -5812,10 +5837,10 @@ $$</p>
     
     <item>
       <title>宇宙认知的演化</title>
-      <link>/cn/2022/10/22/sci/</link>
+      <link>https://tang-jay.github.io/cn/2022/10/22/sci/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/22/sci/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/10/22/sci/</guid>
       <description>
         <![CDATA[
         <p>遇到一个<a href="https://mp.weixin.qq.com/s/m2yp0aFq0BCBnxwqE6l51Q">《我是科学家演讲合集》</a>专栏，里面罗列了一场场高级的脱口秀，知识的饕餮盛宴，有用又有趣，虽不能至，心向往之，收藏了。其中对太空<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>的讲解，更是激发从小就埋在心中的种子，产生无限的遐想。一位名为“道可道”的博主在其<a href="https://www.bilibili.com/video/BV1dd4y1P7DN/?spm_id_from=333.337.search-card.all.click">视频</a>中提到，</p>
@@ -5883,10 +5908,10 @@ $$</p>
     
     <item>
       <title>空间文献摘录</title>
-      <link>/cn/2022/10/21/spamodel/</link>
+      <link>https://tang-jay.github.io/cn/2022/10/21/spamodel/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/21/spamodel/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/10/21/spamodel/</guid>
       <description>
         <![CDATA[
         <h2 id="空间模型">空间模型</h2>
@@ -5914,10 +5939,10 @@ $$</p>
     
     <item>
       <title>面板文献摘录</title>
-      <link>/cn/2022/10/20/panempir/</link>
+      <link>https://tang-jay.github.io/cn/2022/10/20/panempir/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/20/panempir/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/10/20/panempir/</guid>
       <description>
         <![CDATA[
         <h2 id="面板数据-https-xs2-zidianzhan-net-scholar-hl-zh-cn-as-sdt-0-2c5-q-panel-data-btng"><a href="https://xs2.zidianzhan.net/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=panel+data&amp;btnG=">面板数据</a></h2>
@@ -5973,10 +5998,10 @@ $$</p>
     
     <item>
       <title>半参数模型</title>
-      <link>/cn/2022/10/17/note/</link>
+      <link>https://tang-jay.github.io/cn/2022/10/17/note/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/17/note/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/10/17/note/</guid>
       <description>
         <![CDATA[
         <p>看论文看着看着，看见“半参数模型”几个字，愣了一下，我竟然对这个朝夕相伴这么久的名词，还不知道究竟是个啥，自己研究的模型到底算不算半参数模型？头晕😵‍💫～</p>
@@ -6001,10 +6026,10 @@ $$</p>
     
     <item>
       <title>高维可尝试方向</title>
-      <link>/cn/2022/10/17/higdim/</link>
+      <link>https://tang-jay.github.io/cn/2022/10/17/higdim/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/17/higdim/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/10/17/higdim/</guid>
       <description>
         <![CDATA[
         <h2 id="高维问题">高维问题</h2>
@@ -6037,10 +6062,10 @@ $$</p>
     
     <item>
       <title>高维文献摘录</title>
-      <link>/cn/2022/10/16/higdimen/</link>
+      <link>https://tang-jay.github.io/cn/2022/10/16/higdimen/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/16/higdimen/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/10/16/higdimen/</guid>
       <description>
         <![CDATA[
         <!-- 
@@ -6219,10 +6244,10 @@ $$</p>
     
     <item>
       <title>深度思考</title>
-      <link>/cn/2022/10/11/note/</link>
+      <link>https://tang-jay.github.io/cn/2022/10/11/note/</link>
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/10/11/note/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/10/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -6301,10 +6326,10 @@ $$</p>
     
     <item>
       <title>学习风格测试</title>
-      <link>/cn/2022/09/27/vark/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/27/vark/</link>
       <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/27/vark/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/27/vark/</guid>
       <description>
         <![CDATA[
         <p>专属学习风格测试<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>通过视觉（Visual）、听觉（Auditory）、阅读（Reading）和动感（Kinesthetic）四个角度评估人类的学习模式。</p>
@@ -6405,10 +6430,10 @@ $$</p>
     
     <item>
       <title>R画图笔记</title>
-      <link>/cn/2022/09/26/codes/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/26/codes/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/26/codes/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/26/codes/</guid>
       <description>
         <![CDATA[
         <p>最近努力在复现论文上的QQ图<br>
@@ -6433,10 +6458,10 @@ $$</p>
     
     <item>
       <title>对称矩阵</title>
-      <link>/cn/2022/09/22/symmatrix/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/22/symmatrix/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/22/symmatrix/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/22/symmatrix/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -6486,10 +6511,10 @@ $$</p>
     
     <item>
       <title>秦导推荐</title>
-      <link>/cn/2022/09/21/qinrecom/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/21/qinrecom/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/21/qinrecom/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/21/qinrecom/</guid>
       <description>
         <![CDATA[
         <h2 id="老师手稿">老师手稿</h2>
@@ -6521,10 +6546,10 @@ $$</p>
     
     <item>
       <title>Bookdown&#43;GitHub发布电子书</title>
-      <link>/cn/2022/09/15/bookdown/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/15/bookdown/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/15/bookdown/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/15/bookdown/</guid>
       <description>
         <![CDATA[
         <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
@@ -6558,10 +6583,10 @@ $$</p>
     
     <item>
       <title>如何写好学术论文</title>
-      <link>/cn/2022/09/11/note/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/11/note/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/11/note/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/11/note/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -6743,10 +6768,10 @@ $$</p>
     
     <item>
       <title>刘润语录</title>
-      <link>/cn/2022/09/06/liurun/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/06/liurun/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/06/liurun/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/06/liurun/</guid>
       <description>
         <![CDATA[
         <ol>
@@ -6771,10 +6796,10 @@ $$</p>
     
     <item>
       <title>成甲语录</title>
-      <link>/cn/2022/09/04/note/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/04/note/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/04/note/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/04/note/</guid>
       <description>
         <![CDATA[
         <p>原文<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>讲述了一个学习公式，学习 <code>$=$</code> 改变，改变 <code>$=$</code> 尝试 <code>$\times$</code> 反思 <code>$\times$</code> 对标 <code>$\times$</code> 圈子。文章写得挺有好👍，奈何吸收不了🤦‍♀️，那就挑喜欢的抄一下吧✌️。</p>
@@ -6804,10 +6829,10 @@ $$</p>
     
     <item>
       <title>Borel-Cantelli引理</title>
-      <link>/cn/2022/09/03/borel-cantelli/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/03/borel-cantelli/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/03/borel-cantelli/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/03/borel-cantelli/</guid>
       <description>
         <![CDATA[
         <p>这是一篇摘记<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
@@ -6847,10 +6872,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>《手把手教你雅思写作剑12》</title>
-      <link>/cn/2022/09/02/writing/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/02/writing/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/writing/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/02/writing/</guid>
       <description>
         <![CDATA[
         <h2 id="雅思写作主要学习方法">雅思写作主要学习方法</h2>
@@ -6894,10 +6919,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>句子结构</title>
-      <link>/cn/2022/09/02/sentence/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/02/sentence/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/sentence/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/02/sentence/</guid>
       <description>
         <![CDATA[
         <h2 id="判别句子结构">判别句子结构</h2>
@@ -6930,10 +6955,10 @@ $$Pr(|X_n-X|&gt;\epsilon \ i.o.) = \lim_{n \to \infty}Pr(\bigcup_{k=n}^{\infty}|
     
     <item>
       <title>总结错误</title>
-      <link>/cn/2022/09/02/error/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/02/error/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/error/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/02/error/</guid>
       <description>
         <![CDATA[
         <h2 id="错过的地方">错过的地方</h2>
@@ -6951,10 +6976,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>词伙</title>
-      <link>/cn/2022/09/02/cihuo/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/02/cihuo/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/02/cihuo/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/02/cihuo/</guid>
       <description>
         <![CDATA[
         <p>词伙字典，<a href="https://mp.weixin.qq.com/s/D2JxLIiNUubRsy4f0el7-w">教程</a>，<a href="https://pan.baidu.com/s/1HLrOoATaYFQhMcvGB7rgLg?pwd=j5b2">下载</a>。</p>
@@ -6999,10 +7024,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>雅思</title>
-      <link>/cn/2022/09/01/ielts/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/01/ielts/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/01/ielts/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/01/ielts/</guid>
       <description>
         <![CDATA[
         <blockquote>
@@ -7088,10 +7113,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>刘润对谈吴军</title>
-      <link>/cn/2022/08/11/note/</link>
+      <link>https://tang-jay.github.io/cn/2022/08/11/note/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/11/note/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/08/11/note/</guid>
       <description>
         <![CDATA[
         <h2 id="笔记">笔记</h2>
@@ -7328,10 +7353,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>杨绛语录</title>
-      <link>/cn/2022/08/07/yangjiang/</link>
+      <link>https://tang-jay.github.io/cn/2022/08/07/yangjiang/</link>
       <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/07/yangjiang/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/08/07/yangjiang/</guid>
       <description>
         <![CDATA[
         <h2 id="语录">语录</h2>
@@ -7357,10 +7382,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>一些有用的网文</title>
-      <link>/cn/2022/08/02/webpages/</link>
+      <link>https://tang-jay.github.io/cn/2022/08/02/webpages/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/02/webpages/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/08/02/webpages/</guid>
       <description>
         <![CDATA[
         <h3 id="关于r">关于R</h3>
@@ -7497,10 +7522,10 @@ People in some countries <strong>have to</strong> face <strong>a long prison ter
     
     <item>
       <title>论文英语</title>
-      <link>/cn/2022/07/26/paper_skill/</link>
+      <link>https://tang-jay.github.io/cn/2022/07/26/paper_skill/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/07/26/paper_skill/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/07/26/paper_skill/</guid>
       <description>
         <![CDATA[
         <h2 id="原则">原则</h2>
@@ -7605,10 +7630,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>摘抄诗句</title>
-      <link>/cn/2022/04/10/poetry/</link>
+      <link>https://tang-jay.github.io/cn/2022/04/10/poetry/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/04/10/poetry/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/04/10/poetry/</guid>
       <description>
         <![CDATA[
         <ol>
@@ -7660,10 +7685,10 @@ It makes the method prone to miss the optimal solution, resulting in **.</li>
     
     <item>
       <title>同义替换</title>
-      <link>/cn/2020/05/28/synonymous-substitution/</link>
+      <link>https://tang-jay.github.io/cn/2020/05/28/synonymous-substitution/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/05/28/synonymous-substitution/</guid>
+      <guid>https://tang-jay.github.io/cn/2020/05/28/synonymous-substitution/</guid>
       <description>
         <![CDATA[
         <h2 id="同义替换">同义替换</h2>
@@ -7773,10 +7798,10 @@ attract sb. to do sth. / attract sb. to sth. 错误的事</p>
     
     <item>
       <title>情绪词语</title>
-      <link>/cn/2020/05/14/emotional-words/</link>
+      <link>https://tang-jay.github.io/cn/2020/05/14/emotional-words/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/05/14/emotional-words/</guid>
+      <guid>https://tang-jay.github.io/cn/2020/05/14/emotional-words/</guid>
       <description>
         <![CDATA[
         <ul>
@@ -7834,10 +7859,10 @@ attract sb. to do sth. / attract sb. to sth. 错误的事</p>
     
     <item>
       <title>易混单词</title>
-      <link>/cn/2020/04/19/confusing-word/</link>
+      <link>https://tang-jay.github.io/cn/2020/04/19/confusing-word/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/04/19/confusing-word/</guid>
+      <guid>https://tang-jay.github.io/cn/2020/04/19/confusing-word/</guid>
       <description>
         <![CDATA[
         <h2 id="对比">对比</h2>
@@ -7962,10 +7987,10 @@ prolonged 的意义则更为中性客观。
     
     <item>
       <title>英译成语</title>
-      <link>/cn/2020/04/09/idiom/</link>
+      <link>https://tang-jay.github.io/cn/2020/04/09/idiom/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2020/04/09/idiom/</guid>
+      <guid>https://tang-jay.github.io/cn/2020/04/09/idiom/</guid>
       <description>
         <![CDATA[
         <h3 id="形容词性">形容词性</h3>
@@ -8147,22 +8172,6 @@ prolonged 的意义则更为中性客观。
 </li>
 </ul>
 
-        
-        ]]>
-      </description>
-    </item>
-    
-    
-    
-    <item>
-      <title></title>
-      <link>/cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>Tan Jay</author>
-      <guid>/cn/1/01/01/</guid>
-      <description>
-        <![CDATA[
-        
         
         ]]>
       </description>

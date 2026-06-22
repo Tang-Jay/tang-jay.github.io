@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Tan Jay | 唐 洁</title>
-    <link>/</link>
+    <link>https://tang-jay.github.io/</link>
     <description>Recent content in Homepage on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tang-jay.github.io/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>斩断情丝</title>
-      <link>/love/</link>
+      <link>https://tang-jay.github.io/love/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>/love/</guid>
+      <guid>https://tang-jay.github.io/love/</guid>
       <description>
         <![CDATA[
         <p>昨夜与龙佳鹏发生了平静的争吵。争吵的结果是龙佳鹏说：“我现在的态度就是，爱过过，不爱过滚。”我说：“好，那我滚。”随后挂了电话，索性将微信也拉黑了。</p>
@@ -38,10 +38,10 @@
     
     <item>
       <title>风浪之后</title>
-      <link>/dariy/</link>
+      <link>https://tang-jay.github.io/dariy/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>/dariy/</guid>
+      <guid>https://tang-jay.github.io/dariy/</guid>
       <description>
         <![CDATA[
         <p>明天我爸就要出院。上午9点有一场论文修改的组会，然后我将前往医院接我爸出院，回他从小长大的地方。</p>
@@ -61,10 +61,10 @@
     
     <item>
       <title>祈求平安</title>
-      <link>/ping/</link>
+      <link>https://tang-jay.github.io/ping/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>/ping/</guid>
+      <guid>https://tang-jay.github.io/ping/</guid>
       <description>
         <![CDATA[
         <p>我爸，唐红平。我现在祈求他的平安。</p>
@@ -98,10 +98,10 @@
     
     <item>
       <title>为益辉加油</title>
-      <link>/yihui/</link>
+      <link>https://tang-jay.github.io/yihui/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>/yihui/</guid>
+      <guid>https://tang-jay.github.io/yihui/</guid>
       <description>
         <![CDATA[
         <p>前两天特别悲伤，因为又去<a href="https://yihui.org/">益辉的主页</a>上逛了一下，发现他的页面布局换了，但仍然是黑白的简约风。随后浏览浏览，看到他说自己是自由职业者还没有觉得不对劲，浏览着浏览着，就越发觉得不对劲了。他写了一篇<a href="https://yihui.org/en/2024/01/bye-rstudio/">《再见，RStudio》</a>，关于他被告知被裁，他淡然体面地接受，以及突然的工作变化带来经济上的<a href="https://github.com/sponsors/yihui">吃紧</a>。</p>
@@ -139,10 +139,10 @@
     
     <item>
       <title>日志</title>
-      <link>/cn/</link>
+      <link>https://tang-jay.github.io/cn/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/</guid>
+      <guid>https://tang-jay.github.io/cn/</guid>
       <description>
         <![CDATA[
         
@@ -155,10 +155,10 @@
     
     <item>
       <title>简历</title>
-      <link>/resume/</link>
+      <link>https://tang-jay.github.io/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resume/</guid>
+      <guid>https://tang-jay.github.io/resume/</guid>
       <description>
         <![CDATA[
         <h1 id="唐-洁">唐 洁</h1>
@@ -226,13 +226,13 @@
 <ol>
 <li>唐洁.<a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XXFLb7ALZ-GdYHOSBqrRoJpwLHpKnKKAN3wOYS2Lh1pD&amp;uniplatform=NZKPT">含空间自回归误差的空间自回归模型的经验欧氏似然推断</a>.<em>广西民族大学学报(自然科学版)</em>, 2021, 27 (04): 70-74. <a href="https://doi.org/10.16177/j.cnki.gxmzzk.2021.04.002">https://doi.org/10.16177/j.cnki.gxmzzk.2021.04.002</a></li>
 <li>Tang Jie, Qin Yongsong. <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2246088">Adjusted empirical likelihood for probability density functions under strong mixing samples</a>. <em>Communications in Statistics - Theory and Methods</em>, 2024, 53(18): 6449–6461. <a href="https://doi.org/10.1080/03610926.2023.2246088">https://doi.org/10.1080/03610926.2023.2246088</a></li>
-<li>唐洁, 秦永松. <a href="https://kns.cnki.net/kcms2/article/abstract?v=iMwhGHIyCLZ_sXCQCwnTtvU7SbhwT9tOX6PFjLTxYZ4WtmAWM8iH13CEhZs4wiIAeBGFsw1BU5_HUG4YvE8EkcAo2Yr3laxUeVsjgPNGQzQKnRX8APuiKLAfBmX0UVQEcTCKy3mqQLNnkWXq1zn4tkeKhO32hxh6Gl5atCSBmTQ=&amp;uniplatform=NZKPT&amp;language=CHS">含空间自相关误差的空间自回归模型的调整经验似然推断</a> [J]. 广西师范大学学报(自然科学版), 2024, 42 (04): 100-114. <a href="https://doi.org/10.16088/j.issn.1001-6600.2023052501">https://doi.org/10.16088/j.issn.1001-6600.2023052501</a>.</li>
-<li>唐洁, 邹云龙, 秦永松, 黎玉芳. <a href="https://kns.cnki.net/kcms2/article/abstract?v=fvwDbTJIyzQ_OmTAhyRp0xQ-sVwaGtxjKKTsfhhiJme0vhc_1pECYakI_Y19-0iqyKtNkEPsZq3jVU3sylKpvkV1-e2ywyBBUm4CYlZ8Bqg=&amp;uniplatform=NZKPT">空间相依数据的分块经验似然推断(英文)</a> [J]. 应用数学, 2025, 38 (01): 47-63.  <a href="https://doi.org/10.13642/j.cnki.42-1184/o1.2025.01.020">https://doi.org/10.13642/j.cnki.42-1184/o1.2025.01.020</a></li>
+<li>唐洁, 秦永松. <a href="https://kns.cnki.net/kcms2/article/abstract?v=iMwhGHIyCLZ_sXCQCwnTtvU7SbhwT9tOX6PFjLTxYZ4WtmAWM8iH13CEhZs4wiIAeBGFsw1BU5_HUG4YvE8EkcAo2Yr3laxUeVsjgPNGQzQKnRX8APuiKLAfBmX0UVQEcTCKy3mqQLNnkWXq1zn4tkeKhO32hxh6Gl5atCSBmTQ=&amp;uniplatform=NZKPT&amp;language=CHS">含空间自相关误差的空间自回归模型的调整经验似然推断</a> [J]. <em>广西师范大学学报(自然科学版)</em>, 2024, 42 (04): 100-114. <a href="https://doi.org/10.16088/j.issn.1001-6600.2023052501">https://doi.org/10.16088/j.issn.1001-6600.2023052501</a>.</li>
+<li>唐洁, 邹云龙, 秦永松, 黎玉芳. <a href="https://kns.cnki.net/kcms2/article/abstract?v=fvwDbTJIyzQ_OmTAhyRp0xQ-sVwaGtxjKKTsfhhiJme0vhc_1pECYakI_Y19-0iqyKtNkEPsZq3jVU3sylKpvkV1-e2ywyBBUm4CYlZ8Bqg=&amp;uniplatform=NZKPT">空间相依数据的分块经验似然推断(英文)</a> [J]. <em>应用数学</em>, 2025, 38 (01): 47-63.  <a href="https://doi.org/10.13642/j.cnki.42-1184/o1.2025.01.020">https://doi.org/10.13642/j.cnki.42-1184/o1.2025.01.020</a></li>
 <li>Tang Jie, Zou Yunlong, Liu Chenrui, Xie chuanlong, Qin Yongsong. <a href="https://www.tandfonline.com/eprint/IET5GMBNKG6BEVQTDT7A/full?target=10.1080/03610918.2026.2654731">Principal component empirical likelihood method for spatial cross section data</a>. <em>Communications in Statistics - Simulation and Computation</em>. <a href="https://doi.org/10.1080/03610918.2026.2654731">https://doi.org/10.1080/03610918.2026.2654731</a></li>
 </ol>
 <h3 id="待发表论文">待发表论文</h3>
 <ol>
-<li>Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(外审N年很离谱)</li>
+<li>Tang Jie, Qin Yongsong. Empirical likelihood for spatial dynamic panel data models with spatial errors and endogenous initial observations.(外审N年很离谱。。。)</li>
 <li>Li Yufang, Tang Jie, Qin Yongsong. Empirical likelihood ratio test for linear models with equality constraints.</li>
 </ol>
 <h3 id="承担课题">承担课题</h3>

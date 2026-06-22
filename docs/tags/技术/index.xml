@@ -1,20 +1,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术 on Tan Jay | 唐 洁</title>
-    <link>/tags/%E6%8A%80%E6%9C%AF/</link>
+    <link>https://tang-jay.github.io/tags/%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 技术 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E6%8A%80%E6%9C%AF/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tang-jay.github.io/tags/%E6%8A%80%E6%9C%AF/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>obsidian 使用心得</title>
+      <link>https://tang-jay.github.io/cn/2026/06/22/obsidian/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>https://tang-jay.github.io/cn/2026/06/22/obsidian/</guid>
+      <description>
+        <![CDATA[
+        <blockquote>
+<p>从<a href="/cn/2026/04/03/life/">学术 AI</a>游历一圈后，现在将 AI 用于该日记库的管理。</p>
+</blockquote>
+<p>我在<a href="/">主页</a>里就写到<a href="/cn/2022/06/17/glimpse/">初遇该网页架构</a>的兴奋与激动，然后模仿使用网站的形式管理资料，本质上就是找一个适配 markdown 的文件管理器。现在遇到 obsidian，它借鉴了网页前端的模式管理本地 markdown 笔记软件，直接实现心中所想，怎么会有这么天才的设计，集美观实用于一体，还免费开源！使用 obsidian 纵享心流丝滑体验，写作感受原地起飞。</p>
+<p>AI 时代的到来，创建几个 skills 文件，也就是给 AI 几份说明书，告诉它如何按照约定管理软件，于是， AI 便可化身贴身管家，我只需要负责宣泄自己的感受，剩下的格式调整、部署网页等重复性的活都可以由 AI 接管。</p>
+<p>以装修房子为例，一个本地文件夹就是毛坯房，用 obsidian 打开并管理这个文件夹就变成精装房，AI 就是给这个屋里加上了智能家居。Obsidian 简洁的界面与人性化的设计，让你一目了然且一键访问，哪怕很深的目录路径，就像你的东西散落在房屋各个角落，obsidian 可以直接打开某个柜子找到你要的东西。同时，Obsidian 库的笔记都是 markdown 类型，天然适配 AI 读取，就像家里物件都会说话了， AI 可以和这些物件交流，并按需求调整物件的摆放。换个比方就是，主人坐在 obsidian 监视器前面，吩咐 AI 管家管理物件，从而达到实现管理文件夹内资料的意图。</p>
+<p>Obsidian + AI 的具体实现途径有，Obsidian + AI 插件、Obsidian + VScode、Obsidian + cursor、Obsidian + trae、Obsidian + claude code 等。这些搭配本质上是接入一个大模型通过写入终端命令实现自动化操作。当然 AI 可以接万物，如 word + AI , excel + AI ，ppt + AI ，实现办公自动化流程的打造。</p>
+<p>之前想将<a href="/cn/2025/11/09/sci-ai/">科研 AI 流程</a>推广到办公 AI 流程，然后出公众号交流 obsidian + AI 的心得体会，但是写公众号需要图片，图片需要设计， AI 是可以帮忙设计图片，但是我卡在了不知道怎么定自己的审美，彩色还是黑白？人物形象？图片大小？这些涉及自己公众号的定位，自我品牌建立的定位。哪怕有 AI 的帮助，这些问题仍需要很多时间打磨，暂时无那么多时间，就搁着吧，等热情特别奔涌的时候再设计这些吧。目前还是喜欢写纯文字，因为有了 obsidian + AI，写作等于打开 obsidian 就很沉浸了，后期一键发布，主要自己看，不用为读者绞尽脑汁，没有图文并茂的需求。光自己写爽了就行。</p>
+<p>我只能在我的日记里说，建议大家使用 obsidian 写作，非常快乐，搭配 AI，快乐加倍。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
       <title>Bookdown&#43;GitHub发布电子书</title>
-      <link>/cn/2022/09/15/bookdown/</link>
+      <link>https://tang-jay.github.io/cn/2022/09/15/bookdown/</link>
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/09/15/bookdown/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/09/15/bookdown/</guid>
       <description>
         <![CDATA[
         <p>这是Bookdown的小试牛刀，写一本自己免费出版的电子书。以一篇听课<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>笔记为例，我的电子笔记见<a href="https://tang-jay.github.io/EssayNotes/">《论文写作听课笔记》</a>。</p>
@@ -48,10 +73,10 @@
     
     <item>
       <title>Typora&#43;Github&#43;Picgo</title>
-      <link>/cn/2022/08/02/picgo/</link>
+      <link>https://tang-jay.github.io/cn/2022/08/02/picgo/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/02/picgo/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/08/02/picgo/</guid>
       <description>
         <![CDATA[
         <h1 id="记录用图成功">记录用图成功！</h1>
@@ -76,10 +101,10 @@
     
     <item>
       <title>一些有用的网文</title>
-      <link>/cn/2022/08/02/webpages/</link>
+      <link>https://tang-jay.github.io/cn/2022/08/02/webpages/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <author>Tan Jay</author>
-      <guid>/cn/2022/08/02/webpages/</guid>
+      <guid>https://tang-jay.github.io/cn/2022/08/02/webpages/</guid>
       <description>
         <![CDATA[
         <h3 id="关于r">关于R</h3>

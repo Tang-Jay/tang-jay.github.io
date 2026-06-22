@@ -14,6 +14,8 @@ AGENTS.md
 # IDE / OS noise
 .vscode/
 .idea/
+.cursor/rules/
+.cursorignore
 .DS_Store
 
 # LaTeX build artifacts

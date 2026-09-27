@@ -1,3 +1,8 @@
+{{ with .Site.Params.twitterImage }}
+<meta property="og:image" content="{{ . | absURL }}" />
+<meta property="og:image:alt" content="{{ $.Site.Title }}" />
+{{ end }}
+
 {{ if or .IsHome (len (findRE "^/cn/" .RelPermalink)) }}
 <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
 {{ if lt (.Date.Year) 2017 }}

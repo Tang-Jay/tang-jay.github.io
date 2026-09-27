@@ -1,0 +1,31 @@
+#!/bin/bash
+set -euo pipefail
+
+trap 'echo "❌ 发布失败，流程已停止。请查看上方错误。" >&2' ERR
+
+# 从任意目录启动时，都先切换到脚本所在的仓库。
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+# 生成静态网站（包含草稿）
+hugo -D
+
+# 添加所有更改到暂存区
+git add .
+
+# 获取当前日期（自动生成）
+COMMIT_DATE=$(date +"%Y-%m-%d %H:%M")
+
+# 提交到本地仓库
+if git diff --cached --quiet; then
+  echo "没有新的文件改动，继续推送已有提交。"
+else
+  git commit -m "$COMMIT_DATE"
+fi
+
+# 推送到 GitHub
+git push origin main
+
+echo "✅ 网站已生成并推送到 GitHub；上线状态请以 GitHub Pages 为准。"

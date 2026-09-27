@@ -5,8 +5,38 @@
     <description>Recent content in 珠海 on Tan Jay | 唐 洁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tang-jay.github.io/tags/%E7%8F%A0%E6%B5%B7/" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我开公众号啦</title>
+      <link>https://tang-jay.github.io/cn/2026/09/24/gzh/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Tan Jay</author>
+      <guid>https://tang-jay.github.io/cn/2026/09/24/gzh/</guid>
+      <description>
+        <![CDATA[
+        <p>今天，正式完成自己公众号的第一篇文章，<a href="https://mp.weixin.qq.com/s/yuwsYBzmbaqgKSZwKDHbEA">新手教程：在 Windows 上搭建 Obsidian + AI 第二大脑知识库</a>。</p>
+<p>这个公众号用来把平时折腾 Obsidian 和 AI 的经验整理出来，希望可以给想入门的朋友一些指路牌。</p>
+<p>我现在有三个 obsidian 库，一个用于负责科研，一个用于管理网站，一个用于培养爱好。</p>
+<ul>
+<li><strong>科研库</strong>：日常的论文阅读，思考，笔记，写作等，结合一些科研 skills，更好地处理自己的科研事务。</li>
+<li><strong>网站库</strong>：将谢益辉设计的本站主题放入 md beautify 插件中，可以在 obsidian 本地右侧直接预览到网页看到的效果，比我之前写日记要开网页预览更方便了。并且，obsidian 可以接入 AI 帮我更好地管理笔记属性等杂事，我真真实现了，只要写就行。开箱就沉浸式写作的快乐。</li>
+<li><strong>爱好库</strong>：放入自己感兴趣的画画提示词，一些出图skills，表情包创意设计，公众号写作和插图设计，存放自己感兴趣的零零碎碎的东西。只要灵感到了，然后开箱就可以沉浸式用自己的“螺丝”，“扳手”动手创作，感受手工人的快乐。</li>
+</ul>
+<p>真真切切地感受过 obsidian 搭配 AI 的好用，给身边人也安装推荐过，比如：</p>
+<ul>
+<li>给学生角色安装，用于备考学习，不论是梳理知识，还是整理错题都极大地提高效率。</li>
+<li>工作角色安装，他们可以本地结合 AI 修改自己的材料，更精细地修改自己的文本，办公体验极大提升。</li>
+</ul>
+<p>大家好的反馈，让我意识到工具对学习工作的重要性，所以开设了公众号，如果有时间有灵感就将自己好的经验贴出来，与大家共享。当然，对于硬核技术的人来说，这没有什么帮助，我的定位是帮助入门的角色搭建自己称手的 AI 平台。</p>
+
+        
+        ]]>
+      </description>
+    </item>
+    
     
     
     <item>
@@ -18,7 +48,7 @@
       <description>
         <![CDATA[
         <p>去年，ICSA China 在北师大举行，<a href="https://mp.weixin.qq.com/s/kZt9mzZyv9x5P6Ek9XJjGw">我作为志愿者参与了会议</a> ，近距离接触到郑甜教授，<a href="https://mp.weixin.qq.com/s/6fK99Qy2LkC-6HYhthhvSw">受聘清华大学杰出访问教授聘任仪式</a>。</p>
-<p>今年 ICSA China 在南科大举办，我作为海边展示参与了会议。认识到<a href="https://mp.weixin.qq.com/s/sSz4wPRiawq47wKavMqLRw">苏炜杰</a>。</p>
+<p>今年 ICSA China 在南科大举办，我作为海边展示参与了会议，听闻<a href="https://mp.weixin.qq.com/s/sSz4wPRiawq47wKavMqLRw">苏炜杰</a>。</p>
 <p>秦导推荐</p>
 <ul>
 <li><a href="https://mp.weixin.qq.com/s/y9kinsI8jSx4mfhUnKdNOw">陈松蹊：次优的路径也能使你达到向往的高点</a></li>
@@ -47,9 +77,25 @@
 <p>我在<a href="/">主页</a>里就写到<a href="/cn/2022/06/17/glimpse/">初遇该网页架构</a>的兴奋与激动，然后模仿使用网站的形式管理资料，本质上就是找一个适配 markdown 的文件管理器。现在遇到 obsidian，它借鉴了网页前端的模式管理本地 markdown 笔记软件，直接实现心中所想，怎么会有这么天才的设计，集美观实用于一体，还免费开源！使用 obsidian 纵享心流丝滑体验，写作感受原地起飞。</p>
 <p>AI 时代的到来，创建几个 skills 文件，也就是给 AI 几份说明书，告诉它如何按照约定管理软件，于是， AI 便可化身贴身管家，我只需要负责宣泄自己的感受，剩下的格式调整、部署网页等重复性的活都可以由 AI 接管。</p>
 <p>以装修房子为例，一个本地文件夹就是毛坯房，用 obsidian 打开并管理这个文件夹就变成精装房，AI 就是给这个屋里加上了智能家居。Obsidian 简洁的界面与人性化的设计，让你一目了然且一键访问，哪怕很深的目录路径，就像你的东西散落在房屋各个角落，obsidian 可以直接打开某个柜子找到你要的东西。同时，Obsidian 库的笔记都是 markdown 类型，天然适配 AI 读取，就像家里物件都会说话了， AI 可以和这些物件交流，并按需求调整物件的摆放。换个比方就是，主人坐在 obsidian 监视器前面，吩咐 AI 管家管理物件，从而达到实现管理文件夹内资料的意图。</p>
-<p>Obsidian + AI 的具体实现途径有，Obsidian + AI 插件、Obsidian + VScode、Obsidian + cursor、Obsidian + trae、Obsidian + claude code 等。这些搭配本质上是接入一个大模型通过写入终端命令实现自动化操作。当然 AI 可以接万物，如 word + AI , excel + AI ，ppt + AI ，实现办公自动化流程的打造。</p>
+<p>Obsidian + AI 的具体实现途径有：</p>
+<ul>
+<li>Obsidian + AI 插件、</li>
+<li>Obsidian + VScode、</li>
+<li>Obsidian + cursor、</li>
+<li>Obsidian + trae、</li>
+<li>Obsidian + claude code 等。</li>
+</ul>
+<p>同时， AI  + 万物，实现办公自动化流程的打造，如：</p>
+<ul>
+<li>AI + word,</li>
+<li>AI + excel，</li>
+<li>AI + ppt，</li>
+</ul>
+<p>从而， Obsidian + AI，AI  + 万物，这等于 Obsidian + 万物。一个集齐各种工具的百宝箱，只要使唤 AI 全部工具都会自己动。</p>
 <p>之前想将<a href="/cn/2025/11/09/sci-ai/">科研 AI 流程</a>推广到办公 AI 流程，然后出公众号交流 obsidian + AI 的心得体会，但是写公众号需要图片，图片需要设计， AI 是可以帮忙设计图片，但是我卡在了不知道怎么定自己的审美，彩色还是黑白？人物形象？图片大小？这些涉及自己公众号的定位，自我品牌建立的定位。哪怕有 AI 的帮助，这些问题仍需要很多时间打磨，暂时无那么多时间，就搁着吧，等热情特别奔涌的时候再设计这些吧。目前还是喜欢写纯文字，因为有了 obsidian + AI，写作等于打开 obsidian 就很沉浸了，后期一键发布，主要自己看，不用为读者绞尽脑汁，没有图文并茂的需求。光自己写爽了就行。</p>
 <p>我只能在我的日记里说，建议大家使用 obsidian 写作，非常快乐，搭配 AI，快乐加倍。</p>
+<hr>
+<p>2026-09-27：在这里埋下种子之后，我发展了一个爱好库，收藏了一些出图 skills 以及自己平常看小红书或者公众号的图片和推文，我也写出了自己<a href="/cn/2026/09/24/gzh/">第一篇正式的公众号文章</a>，一个有自己喜欢版式和插图的文章，成就感满满。有一说一，比写论文等发表快多了。</p>
 
         
         ]]>

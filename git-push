@@ -16,7 +16,7 @@ hugo -D
 git add .
 
 # 获取当前日期（自动生成）
-COMMIT_DATE=$(date +"%Y-%m-%d %H:%M")
+COMMIT_DATE=$(date +"%Y-%m-%d")
 
 # 提交到本地仓库
 if git diff --cached --quiet; then

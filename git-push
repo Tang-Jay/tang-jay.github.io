@@ -9,6 +9,14 @@ cd "$SCRIPT_DIR"
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 cd "$REPO_ROOT"
 
+# 在耗时构建前检查 Git 目录写权限，避免沙箱拒绝提交后重复构建。
+# 使用独立临时文件，不占用 index.lock，也不修改暂存区。
+GIT_WRITE_CHECK=$(mktemp "$(git rev-parse --git-path codex-push-check).XXXXXX") || {
+  echo "❌ Git 目录不可写，请取得仓库写入权限后重试；尚未开始构建。" >&2
+  exit 1
+}
+rm -- "$GIT_WRITE_CHECK"
+
 # 生成静态网站（包含草稿）
 hugo -D
 

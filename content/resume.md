@@ -18,7 +18,6 @@ disable_comments: true
 
 ## 联系方式
 邮箱地址： tanjay@foxmail.com
-
 ## 个人履历
 
 ### 2024-09～至今 北京师范大学 应用统计（博士）
@@ -62,6 +61,20 @@ disable_comments: true
 - [Latex文档转ppt和word技能](https://github.com/Tang-Jay/tex-to-ppt-and-word)
 
 ## 目前成果
+
+<a
+    id="cy-effective-orcid-url"
+    class="underline"
+    href="https://orcid.org/0009-0006-1452-7710"
+    target="orcid.widget"
+    rel="me noopener noreferrer"
+    style="vertical-align: top">
+    <img
+        src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+        style="width: 1em; margin-inline-start: 0.5em"
+        alt="ORCID iD icon"/>
+    https://orcid.org/0009-0006-1452-7710
+</a>
 
 ### 已发表论文
 
